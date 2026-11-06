@@ -192,7 +192,7 @@ main { min-height: 50vh; }
 .toc a { display: flex; gap: 10px; padding: 7px 0; font-size: 14px; line-height: 1.45; color: var(--ink-2); border-bottom: 1px solid #f0f0f0; }
 .toc a::before { content: counter(toc, decimal-leading-zero); font-weight: 800; color: var(--green); font-size: 12.5px; padding-top: 1px; }
 .toc a.on, .toc a:hover { color: var(--green-deep); font-weight: 700; }
-.toc-side { position: sticky; top: 90px; max-height: calc(100vh - 110px); overflow-y: auto; order: -1; }
+.toc-side { position: sticky; top: 90px; max-height: calc(100vh - 110px); overflow-y: auto; background: #fff; z-index: 2; }
 .toc-inline { display: none; border: 1px solid var(--line); border-radius: var(--radius); padding: 0 16px; margin-bottom: 22px; background: var(--soft); }
 .toc-inline summary { cursor: pointer; font-weight: 800; padding: 14px 0; }
 .toc-inline[open] ol { padding-bottom: 12px; }

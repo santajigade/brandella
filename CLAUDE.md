@@ -19,3 +19,6 @@ Astro static site that replaced the WordPress install in November 2026. Owner: S
 - `fetch-images.yml` (manual, one time) downloads images from the live WordPress site into `public/wp-content/uploads/`, makes card thumbnails in `public/thumbs/`, commits and redeploys.
 - Logo and icons: `scripts/make_logo.py` then `scripts/make_icons.py`.
 - Article pages auto load up to 6 next articles, each in a same origin iframe (`html.embed` mode hides site chrome), so BX scripts never clash.
+
+## Daily news
+- Scheduled runs publish news posts by following `DAILY_NEWS.md` (Markdown posts, `format: md`, covers from `scripts/make_cover.py`, checks with `scripts/check_post.py`, duplicate checks with `scripts/list_posts.py`).

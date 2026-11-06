@@ -8,7 +8,6 @@ const posts = await getPosts();
 const top = popular(posts.filter((p) => p.id !== exclude), 6);
 ---
 <aside class="sidebar">
-  <slot />
   <section class="widget">
     <h3 class="widget-title">Popular</h3>
     <ol class="popular">
@@ -25,4 +24,5 @@ const top = popular(posts.filter((p) => p.id !== exclude), 6);
   </section>
   <ToolsBox />
   <AdSlot format="rectangle" class="sticky-ad" />
+  <slot />
 </aside>
