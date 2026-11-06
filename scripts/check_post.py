@@ -62,7 +62,7 @@ def check(slug):
         fails.append("slug does not match file name")
     if len(slug) > 60 or not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", slug):
         fails.append("slug must be lowercase words joined by hyphens, max 60 chars")
-    if re.search("[–—]", raw):
+    if re.search("[\u2013\u2014]", raw):
         fails.append("contains an em dash or en dash")
     if fm.get("format") != "md":
         fails.append("format must be md")
