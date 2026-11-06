@@ -3,7 +3,7 @@ title: "LinkedIn Marketing Strategy for B2B Companies 2026"
 slug: "linkedin-marketing-strategy"
 date: "2026-07-30T14:56:56"
 updated: "2026-08-02T12:11:57"
-author: "santajigade"
+author: "ankush-guleria"
 categories: ["digital-marketing"]
 primaryCategory: "digital-marketing"
 description: "Linkedin Marketing Strategy for 2026: 80% of B2B social leads come from LinkedIn. Here's the strategy, personal profiles, employee advocacy, content pillars."

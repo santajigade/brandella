@@ -3,7 +3,7 @@ title: "Understanding Digital Marketing: Key 8 Types, Channels, Examples & KPIs"
 slug: "understanding-digital-marketing"
 date: "2026-03-04T09:58:22"
 updated: "2026-03-07T08:33:52"
-author: "santajigade"
+author: "ankush-guleria"
 categories: ["digital-marketing"]
 primaryCategory: "digital-marketing"
 tags: ["Content Marketing", "Digital Marketing Channels", "Digital Marketing Guide", "Email Marketing", "Marketing KPIs", "PPC Advertising", "SEO Basics", "Social Media Marketing"]

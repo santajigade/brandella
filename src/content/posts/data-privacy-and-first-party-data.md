@@ -3,7 +3,7 @@ title: "Why Data Privacy and First Party Data Define the Future of Digital Marke
 slug: "data-privacy-and-first-party-data"
 date: "2025-11-02T08:59:57"
 updated: "2025-11-02T11:43:45"
-author: "santajigade"
+author: "ankush-guleria"
 categories: ["digital-marketing"]
 primaryCategory: "digital-marketing"
 tags: ["Data protection in marketing", "First party data", "Privacy first marketing"]

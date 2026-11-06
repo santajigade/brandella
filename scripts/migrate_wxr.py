@@ -340,7 +340,7 @@ def main(src):
                 "slug": slug,
                 "date": t(it, "wp:post_date").replace(" ", "T"),
                 "updated": t(it, "wp:post_modified").replace(" ", "T"),
-                "author": CANONICAL_AUTHOR,
+                "author": "ankush-guleria" if "digital-marketing" in post_cats else CANONICAL_AUTHOR,
                 "categories": post_cats,
                 "primaryCategory": primary,
                 "tags": post_tags,
@@ -395,7 +395,12 @@ def main(src):
                     "photo": "/images/authors/santajigade-200.webp",
                     "photoSmall": "/images/authors/santajigade-96.webp",
                     "expertise": ["SEO", "Google Ads", "AI Search", "Web Development"],
-                    "linkedin": "https://www.linkedin.com/in/santaji-gadepatil6680/"}], fh, indent=2)
+                    "linkedin": "https://www.linkedin.com/in/santaji-gadepatil6680/"},
+                   {"slug": "ankush-guleria", "name": "Ankush Guleria",
+                    "role": "Digital Marketing Writer, Brandella Journal",
+                    "bio": "Ankush writes about digital marketing strategy, lead generation, email and conversion optimization for Brandella Journal, with a focus on tactics marketers can put to work right away.",
+                    "linkedin": "https://www.linkedin.com/in/guleria09/",
+                    "expertise": ["Digital Marketing", "Lead Generation", "Email Marketing", "CRO"]}], fh, indent=2)
     with open(os.path.join(ROOT, "scripts/wp_images.txt"), "w") as fh:
         fh.write("\n".join(sorted(images)) + "\n")
     print("posts", count["post"], "pages", count["page"], "images", len(images), "authors in WXR", authors)

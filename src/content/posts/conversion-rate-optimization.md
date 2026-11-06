@@ -3,7 +3,7 @@ title: "Conversion Rate Optimization: 7 Proven CRO Tips"
 slug: "conversion-rate-optimization"
 date: "2026-10-14T06:29:46"
 updated: "2026-10-14T06:30:09"
-author: "santajigade"
+author: "ankush-guleria"
 categories: ["digital-marketing"]
 primaryCategory: "digital-marketing"
 description: "Conversion rate optimization made simple: 7 proven CRO tips on A/B testing, statistical significance, landing pages, funnels, and common mistakes."

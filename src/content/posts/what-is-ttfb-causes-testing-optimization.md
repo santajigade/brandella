@@ -3,7 +3,7 @@ title: "What Is Time to First Byte (TTFB)? Causes, Testing, and Optimization Gui
 slug: "what-is-ttfb-causes-testing-optimization"
 date: "2026-07-31T09:40:08"
 updated: "2026-08-02T12:07:22"
-author: "santajigade"
+author: "ankush-guleria"
 categories: ["digital-marketing"]
 primaryCategory: "digital-marketing"
 description: "TTFB sets a ceiling no front-end fix can raise. Learn what causes slow TTFB, how to test it with real tools, and the fixes that actually move the number."

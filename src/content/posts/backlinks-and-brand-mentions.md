@@ -3,7 +3,7 @@ title: "Backlinks and Brand Mentions: How to Engineer Campaigns That Earn Author
 slug: "backlinks-and-brand-mentions"
 date: "2025-11-22T12:49:33"
 updated: "2025-11-22T12:49:33"
-author: "santajigade"
+author: "ankush-guleria"
 categories: ["digital-marketing"]
 primaryCategory: "digital-marketing"
 tags: ["Backlinks", "Brand Mentions", "Link Building Strategy"]

@@ -3,7 +3,7 @@ title: "11 Essential Digital Marketing Tips to Grow Your Business in 2026"
 slug: "digital-marketing-tips-2026"
 date: "2026-03-07T08:28:46"
 updated: "2026-03-07T08:34:00"
-author: "santajigade"
+author: "ankush-guleria"
 categories: ["digital-marketing"]
 primaryCategory: "digital-marketing"
 tags: ["Conversion Optimization", "Digital Marketing Tips", "Ecommerce Marketing", "Email Marketing", "Online Marketing Strategy", "PPC Advertising", "SEO Tips", "Social Media Marketing"]

@@ -3,7 +3,7 @@ title: "7 Creative Video Marketing Ideas to Make Your Brand Stand Out"
 slug: "7-creative-video-marketing-ideas"
 date: "2026-03-03T03:02:58"
 updated: "2026-08-05T03:16:51"
-author: "santajigade"
+author: "ankush-guleria"
 categories: ["digital-marketing"]
 primaryCategory: "digital-marketing"
 tags: ["Creative Marketing Ideas", "Digital Marketing Strategy", "Social Media Video", "Video Marketing"]

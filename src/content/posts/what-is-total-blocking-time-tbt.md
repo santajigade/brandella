@@ -3,7 +3,7 @@ title: "What Is Total Blocking Time (TBT)? A Complete Guide for Website Owners"
 slug: "what-is-total-blocking-time-tbt"
 date: "2026-07-31T09:42:14"
 updated: "2026-08-02T12:07:02"
-author: "santajigade"
+author: "ankush-guleria"
 categories: ["digital-marketing"]
 primaryCategory: "digital-marketing"
 description: "TBT carries 30% weight in your Lighthouse score, more than any other metric. Learn what causes high TBT and how to calculate and fix it."

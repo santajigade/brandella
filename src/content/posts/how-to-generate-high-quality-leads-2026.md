@@ -3,7 +3,7 @@ title: "How to Generate High Quality Leads: A 2026 Playbook"
 slug: "how-to-generate-high-quality-leads-2026"
 date: "2026-07-17T14:06:05"
 updated: "2026-08-02T13:55:39"
-author: "santajigade"
+author: "ankush-guleria"
 categories: ["digital-marketing"]
 primaryCategory: "digital-marketing"
 description: "79% of marketing leads never convert. Learn the strategies, channels, and metrics that actually separate high quality leads from wasted ones in 2026."

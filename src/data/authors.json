@@ -13,5 +13,18 @@
       "AI Search",
       "Web Development"
     ]
+  },
+  {
+    "slug": "ankush-guleria",
+    "name": "Ankush Guleria",
+    "role": "Digital Marketing Writer, Brandella Journal",
+    "bio": "Ankush writes about digital marketing strategy, lead generation, email and conversion optimization for Brandella Journal, with a focus on tactics marketers can put to work right away.",
+    "linkedin": "https://www.linkedin.com/in/guleria09/",
+    "expertise": [
+      "Digital Marketing",
+      "Lead Generation",
+      "Email Marketing",
+      "CRO"
+    ]
   }
 ]

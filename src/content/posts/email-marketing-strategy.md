@@ -3,7 +3,7 @@ title: "Email Marketing Strategy: 7 Proven Tips for 2026"
 slug: "email-marketing-strategy"
 date: "2026-10-14T05:51:52"
 updated: "2026-10-14T05:52:21"
-author: "santajigade"
+author: "ankush-guleria"
 categories: ["digital-marketing"]
 primaryCategory: "digital-marketing"
 description: "Build a stronger email marketing strategy for 2026 with real tips on segmentation, SPF/DKIM/DMARC, automation, personalization, and A/B testing."

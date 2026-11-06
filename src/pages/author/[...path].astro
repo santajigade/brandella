@@ -38,7 +38,7 @@ const schema = [{
         {author.expertise && <ul class="author-tags">{author.expertise.map((e: string) => <li>{e}</li>)}</ul>}
         <div class="author-actions">
           <span class="author-count"><strong>{count}</strong> articles</span>
-          <a class="btn-ghost" href={author.linkedin} rel="noopener me" target="_blank">Connect on LinkedIn</a>
+          <a class="btn-ghost btn-in" href={author.linkedin} rel="noopener me" target="_blank">Connect on LinkedIn</a>
         </div>
       </div>
     </header>
