@@ -124,6 +124,26 @@ def check(slug):
     if re.search(r"(?im)^#{2,3}\s+(sources|references)\b", body):
         fails.append("no Sources or References section, link inside the text instead")
     others = [f[:-3] for f in os.listdir(POSTS) if f.endswith(".md") and f[:-3] != slug]
+    # near-duplicate content check against every other Markdown post (scaled content guard)
+    def shingles(t):
+        w = re.findall(r"[a-z0-9]+", t.lower())
+        return {" ".join(w[i:i + 5]) for i in range(max(0, len(w) - 4))}
+    mine = shingles(text)
+    for o in others:
+        oraw = open(os.path.join(POSTS, o + ".md"), encoding="utf-8").read()
+        if 'format: "md"' not in oraw[:3000] and "format: md" not in oraw[:3000]:
+            continue
+        theirs = shingles(plain(oraw.split("---", 2)[-1]))
+        if mine and theirs:
+            overlap = len(mine & theirs) / len(mine)
+            if overlap > 0.25:
+                fails.append("%.0f%% of the text overlaps with /%s/ (near duplicate)" % (overlap * 100, o))
+            elif overlap > 0.12:
+                warns.append("%.0f%% text overlap with /%s/" % (overlap * 100, o))
+    if re.search(r"\b[A-Z]{5,}\b", title) and not re.search(r"\b(GA4|SEO|PPC|LLMS|HTML|JSON)\b", title):
+        warns.append("title has ALL CAPS words, avoid clickbait style")
+    if re.search(r"(?i)\b(shocking|you won.t believe|insane|secret trick|must see)\b", title):
+        fails.append("clickbait wording in title")
     for o in others:
         if difflib.SequenceMatcher(None, slug, o).ratio() > 0.85:
             warns.append("slug very close to existing post: " + o)

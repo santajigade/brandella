@@ -22,6 +22,27 @@ Duplicate check before writing each story:
 - Every fact must come from a source you opened in this run, preferably the official announcement. If a detail only exists in one trade outlet's original reporting, link and credit that outlet in the sentence.
 - No invented numbers, quotes, dates or rollout details. If something is unconfirmed, say so plainly.
 
+## Google quality rules (apply to every post)
+These follow Google Search Central guidance: helpful people-first content, E-E-A-T, the spam policies (scaled content abuse, site reputation abuse) and Google News best practices.
+- People first: write for marketers who need to act, not for keywords. Ask: would a reader bookmark or share this? If not, do not publish it.
+- Add original value every time: practical steps, a checklist, a comparison table, or a clear explanation of what changed vs before. Never just restate the announcement.
+- One story, one article. No near-duplicate pages on the same news, no keyword variants of the same post, no doorway pages.
+- Accuracy and trust: facts only from sources you opened, official source linked in the first part of the post, dates and numbers exactly as published, say clearly when something is unconfirmed or a test.
+- Honest titles: the title must match the content. No clickbait, no fake urgency, no ALL CAPS, no exaggerated claims.
+- Keywords used naturally. No keyword stuffing, no hidden text, no lists of keywords.
+- Links: only relevant links. No paid, swapped or irrelevant links; external links only to trustworthy sites.
+- Expertise signals: the real author from the rules above (never invent an author), publish date in front matter, and a short note in the text when advice is our recommendation rather than an official statement.
+- YMYL caution: no financial, legal or health advice beyond the marketing topic.
+- Slow down rather than lower quality: if fewer good stories exist today, publish fewer.
+
+## Self review before publishing
+Read each finished post once as an editor and fix it if any answer is no:
+1. Does the intro say clearly what happened, when, and who it affects?
+2. Is every fact traceable to a linked or opened source?
+3. Does the practical section give steps a reader can do today?
+4. Is it clearly different from the competitor article that inspired the topic and from our own older posts?
+5. Does the title promise exactly what the post delivers?
+
 ## 4. Write the article
 File: `src/content/posts/<slug>.md`, Markdown, front matter exactly like this:
 
