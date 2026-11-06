@@ -48,7 +48,7 @@ if (kind === 'post') {
     image: p.data.image ? [absolute(p.data.image)] : undefined,
     datePublished: p.data.date.toISOString(),
     dateModified: (updated ?? p.data.date).toISOString(),
-    author: { '@type': 'Person', '@id': `${SITE.url}/#author-${author.slug}`, name: author.name, url: absolute(authorUrl(author.slug)), sameAs: [author.linkedin] },
+    author: { '@type': 'Person', '@id': `${SITE.url}/#author-${author.slug}`, name: author.name, jobTitle: author.role, url: absolute(authorUrl(author.slug)), image: author.photo ? absolute(author.photo) : undefined, sameAs: [author.linkedin] },
     publisher: { '@id': `${SITE.url}/#organization` },
     mainEntityOfPage: { '@type': 'WebPage', '@id': absolute(postUrl(p)) },
     articleSection: cat.name,
@@ -83,7 +83,9 @@ if (kind === 'post') {
           <h1>{post.p.data.title}</h1>
           {post.p.data.description && <p class="dek">{post.p.data.description}</p>}
           <div class="byline">
-            <span class="avatar" aria-hidden="true">{post.initials}</span>
+            {post.author.photoSmall
+              ? <img class="avatar" src={post.author.photoSmall} alt={post.author.name} width="44" height="44" />
+              : <span class="avatar" aria-hidden="true">{post.initials}</span>}
             <div>
               <a class="byline-name" href={authorUrl(post.author.slug)}>{post.author.name}</a>
               <p class="meta">
@@ -109,13 +111,27 @@ if (kind === 'post') {
             </details>
           )}
           <div class="post-body" set:html={html} />
-          <section class="author-box">
-            <span class="avatar avatar-lg" aria-hidden="true">{post.initials}</span>
-            <div>
+          <section class="author-box" aria-label="About the author">
+            <div class="author-box-photo">
+              {post.author.photo
+                ? <img src={post.author.photo} alt={post.author.name} width="120" height="120" loading="lazy" />
+                : <span class="avatar avatar-lg" aria-hidden="true">{post.initials}</span>}
+            </div>
+            <div class="author-box-body">
               <p class="kicker">Written by</p>
-              <a class="byline-name" href={authorUrl(post.author.slug)}>{post.author.name}</a>
+              <h2 class="author-box-name"><a href={authorUrl(post.author.slug)}>{post.author.name}</a></h2>
               <p class="author-role">{post.author.role}</p>
-              <p>{post.author.bio}</p>
+              <p class="author-bio">{post.author.bio}</p>
+              {post.author.expertise && (
+                <ul class="author-tags">{post.author.expertise.map((e: string) => <li>{e}</li>)}</ul>
+              )}
+              <div class="author-actions">
+                <a class="btn" href={authorUrl(post.author.slug)}>More articles by {post.author.name.split(' ')[0]}</a>
+                <a class="btn-ghost" href={post.author.linkedin} rel="noopener me" target="_blank">
+                  <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.2 1.5-2.2 2.9V21H9z"/></svg>
+                  Connect on LinkedIn
+                </a>
+              </div>
             </div>
           </section>
           {post.rel.length > 0 && (

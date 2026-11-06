@@ -391,7 +391,10 @@ def main(src):
     with open(os.path.join(ROOT, "src/data/authors.json"), "w", encoding="utf-8") as fh:
         json.dump([{"slug": CANONICAL_AUTHOR, "name": "Santaji Gadepatil",
                     "role": "Founder and Editor, Brandella Journal",
-                    "bio": "Marketing manager and B.E. Electronics and Telecommunication engineer who writes about SEO, paid media, AI search and web development.",
+                    "bio": "Marketing manager and B.E. Electronics and Telecommunication engineer. Santaji writes practical, tested guides on SEO, paid media, AI search and web development, so marketers can turn ideas into results.",
+                    "photo": "/images/authors/santajigade-200.webp",
+                    "photoSmall": "/images/authors/santajigade-96.webp",
+                    "expertise": ["SEO", "Google Ads", "AI Search", "Web Development"],
                     "linkedin": "https://www.linkedin.com/in/santaji-gadepatil6680/"}], fh, indent=2)
     with open(os.path.join(ROOT, "scripts/wp_images.txt"), "w") as fh:
         fh.write("\n".join(sorted(images)) + "\n")

@@ -221,8 +221,24 @@ main { min-height: 50vh; }
 .post-body :where(tbody tr:nth-child(odd)) { background: var(--soft); }
 .post-body :where(iframe) { max-width: 100%; }
 .post-body :where(hr) { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-.author-box { display: flex; gap: 20px; padding: 24px; margin: 40px 0; background: var(--soft); border-radius: var(--radius); border: 1px solid #dcefcc; }
-.author-box p { margin: 4px 0; font-size: 15px; }
+.author-box { position: relative; display: flex; gap: 28px; align-items: flex-start; padding: 30px 30px 28px; margin: 44px 0; background: #fff; border: 1px solid var(--line); border-radius: 16px; overflow: hidden; box-shadow: 0 6px 24px rgba(0,0,0,.05); }
+.author-box::before { content: ""; position: absolute; left: 0; top: 0; right: 0; height: 5px; background: linear-gradient(90deg, var(--green), var(--lime)); }
+.author-box-photo { flex-shrink: 0; }
+.author-box-photo img { display: block; width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 4px solid #fff; box-shadow: 0 0 0 3px var(--green), 0 8px 20px rgba(0,0,0,.12); }
+.author-box .kicker { margin: 0; }
+.author-box-name { font-size: 24px; font-weight: 800; margin: 2px 0 2px; line-height: 1.25; }
+.author-box-name a:hover { color: var(--green-deep); }
+.author-box .author-role { font-size: 14.5px; margin: 0 0 10px; }
+.author-bio { font-size: 15.5px; line-height: 1.65; color: var(--ink-2); margin: 0 0 14px; }
+.author-tags { list-style: none; margin: 0 0 18px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.author-tags li { font-size: 12.5px; font-weight: 700; color: var(--green-deep); background: var(--soft); border: 1px solid #d6edc4; padding: 4px 12px; border-radius: 30px; }
+.author-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.btn-ghost { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; font-size: 14px; padding: 9px 16px; border-radius: 6px; border: 1px solid var(--line); color: var(--ink); }
+.btn-ghost:hover { border-color: #0a66c2; color: #0a66c2; }
+.author-count { font-size: 14px; color: var(--muted); }
+.author-count strong { color: var(--ink); font-size: 18px; }
+.author-head-photo { flex-shrink: 0; width: 140px; height: 140px; border-radius: 50%; object-fit: cover; border: 4px solid #fff; box-shadow: 0 0 0 3px var(--green), 0 8px 20px rgba(0,0,0,.12); }
+img.avatar { object-fit: cover; background: none; }
 .related { margin-top: 10px; }
 .next-article { border-top: 6px solid var(--ink); margin-top: 20px; }
 .next-sep { padding: 14px 20px 0; }
@@ -292,7 +308,9 @@ html.embed body { overflow: hidden; }
   .dek { font-size: 17px; }
   .sidebar { grid-template-columns: 1fr; }
   .post-body :where(table) { display: block; overflow-x: auto; white-space: nowrap; }
-  .author-box { flex-direction: column; }
+  .author-box { flex-direction: column; align-items: center; text-align: center; padding: 30px 20px 24px; }
+  .author-box .author-tags, .author-box .author-actions { justify-content: center; }
+  .author-head { flex-direction: column; }
   .footer-top { grid-template-columns: 1fr 1fr; gap: 26px; }
 }
 @media (max-width: 480px) {

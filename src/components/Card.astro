@@ -18,7 +18,7 @@ const Tag = variant === 'lead' ? 'h2' : 'h3';
     <Tag class="card-title"><a href={postUrl(post)}>{post.data.title}</a></Tag>
     {(variant === 'lead' || variant === 'list') && post.data.description && <p class="card-desc">{post.data.description}</p>}
     <p class="meta">
-      {variant !== 'mini' && <span>{authorOf(post).name}</span>}
+      {(variant === 'lead' || variant === 'list') && <span>{authorOf(post).name}</span>}
       <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
       {variant !== 'mini' && <span>{readTime(post)} min read</span>}
     </p>

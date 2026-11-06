@@ -17,6 +17,7 @@ export interface Category {
 export const categories: Category[] = categoriesJson as Category[];
 export const authors = authorsJson as {
   slug: string; name: string; role: string; bio: string; linkedin: string;
+  photo?: string; photoSmall?: string; expertise?: string[];
 }[];
 
 export const catBySlug = new Map(categories.map((c) => [c.slug, c]));

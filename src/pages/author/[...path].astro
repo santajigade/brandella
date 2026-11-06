@@ -21,19 +21,25 @@ const { author, items, page, total, count } = Astro.props;
 const initials = author.name.split(' ').map((w: string) => w[0]).join('').slice(0, 2);
 const schema = [{
   '@context': 'https://schema.org', '@type': 'ProfilePage',
-  mainEntity: { '@type': 'Person', '@id': `${SITE.url}/#author-${author.slug}`, name: author.name, jobTitle: author.role, description: author.bio, url: absolute(authorUrl(author.slug)), sameAs: [author.linkedin] },
+  mainEntity: { '@type': 'Person', '@id': `${SITE.url}/#author-${author.slug}`, name: author.name, image: author.photo ? absolute(author.photo) : undefined, jobTitle: author.role, description: author.bio, url: absolute(authorUrl(author.slug)), sameAs: [author.linkedin] },
 }];
 ---
 <Base title={page > 1 ? `${author.name}, Page ${page}` : `${author.name}, ${author.role}`} description={author.bio} schema={schema}>
   <div class="container">
     <Breadcrumbs items={[{ name: author.name, url: authorUrl(author.slug) }]} />
     <header class="author-head">
-      <span class="avatar avatar-lg" aria-hidden="true">{initials}</span>
+      {author.photo
+        ? <img class="author-head-photo" src={author.photo} alt={author.name} width="140" height="140" />
+        : <span class="avatar avatar-lg" aria-hidden="true">{initials}</span>}
       <div>
         <h1>{author.name}</h1>
         <p class="author-role">{author.role}</p>
         <p>{author.bio}</p>
-        <p class="meta">{count} articles <a href={author.linkedin} rel="noopener" target="_blank">LinkedIn</a></p>
+        {author.expertise && <ul class="author-tags">{author.expertise.map((e: string) => <li>{e}</li>)}</ul>}
+        <div class="author-actions">
+          <span class="author-count"><strong>{count}</strong> articles</span>
+          <a class="btn-ghost" href={author.linkedin} rel="noopener me" target="_blank">Connect on LinkedIn</a>
+        </div>
       </div>
     </header>
   </div>
