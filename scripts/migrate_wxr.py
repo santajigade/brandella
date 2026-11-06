@@ -298,6 +298,8 @@ def main(src):
             body = clean_classic(body)
             body = wpautop(body)
             body = re.sub(r"<p>\s*(&nbsp;| )?\s*</p>", "", body)
+        # old in-content author boxes; the site template adds its own
+        body = re.sub(r'\n?<div class="bx-author">[\s\S]*?</div>\s*</div>\s*</div>\n?', "\n", body)
         body = strip_srcset(body)
         body = rewrite_urls(body)
         body = fix_headings(body, title, keyword)
@@ -390,11 +392,11 @@ def main(src):
         json.dump(list(cats.values()), fh, indent=2, ensure_ascii=False)
     with open(os.path.join(ROOT, "src/data/authors.json"), "w", encoding="utf-8") as fh:
         json.dump([{"slug": CANONICAL_AUTHOR, "name": "Santaji Gadepatil",
-                    "role": "Founder and Editor, Brandella Journal",
-                    "bio": "Marketing manager and B.E. Electronics and Telecommunication engineer. Santaji writes practical, tested guides on SEO, paid media, AI search and web development, so marketers can turn ideas into results.",
+                    "role": "Marketing Manager at KOBOLD and Founder of Brandella Journal",
+                    "bio": "Santaji brings 25 years of hands on experience in SEO, Google Ads, PPC and digital marketing. He has helped businesses across industries build lasting organic visibility and run profitable paid campaigns, and shares that real world experience through Brandella Journal to help marketers and business owners grow.",
                     "photo": "/images/authors/santajigade-200.webp",
                     "photoSmall": "/images/authors/santajigade-96.webp",
-                    "expertise": ["SEO", "Google Ads", "AI Search", "Web Development"],
+                    "expertise": ["SEO", "Google Ads", "PPC", "Digital Marketing"],
                     "linkedin": "https://www.linkedin.com/in/santaji-gadepatil6680/"},
                    {"slug": "ankush-guleria", "name": "Ankush Guleria",
                     "role": "Digital Marketing Writer, Brandella Journal",

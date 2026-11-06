@@ -449,19 +449,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-author">
-  <img class="bx-author-photo" src="/wp-content/uploads/2026/10/santaji-gadepatil.webp" alt="Santaji Gade">
-  <div>
-    <p class="bx-author-label">Written By</p>
-    <h3 class="bx-author-name"><a href="/author/santajigade/">Santaji Gade</a></h3>
-    <p class="bx-author-role">Marketing Manager at <a href="https://www.kobold.com/" target="_blank" rel="noopener">KOBOLD</a> and Founder at <a href="/" target="_blank" rel="noopener">Brandella</a></p>
-    <p class="bx-author-bio">Santaji brings 25 years of hands on experience in SEO, Google Ads, PPC, and digital marketing. He has helped businesses across industries build lasting organic visibility and run profitable paid campaigns, and he shares that practical, real world experience through Brandella Journal to help marketers and business owners grow their search presence.</p>
-    <div class="bx-author-links">
-      <a href="https://www.linkedin.com/in/santaji-gadepatil6680/" target="_blank" rel="noopener">Connect on LinkedIn</a>
-      <a href="/author/santajigade/">View All Articles</a>
-    </div>
-  </div>
-</div>
 
 </div>
 
