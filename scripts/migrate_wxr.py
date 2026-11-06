@@ -404,7 +404,7 @@ def main(src):
                     "linkedin": "https://www.linkedin.com/in/guleria09/",
                     "photo": "/images/authors/ankush-guleria-200.webp",
                     "photoSmall": "/images/authors/ankush-guleria-96.webp",
-                    "expertise": ["Digital Marketing", "Lead Generation", "Email Marketing", "CRO"]}], fh, indent=2)
+                    "expertise": ["Digital Marketing"]}], fh, indent=2)
     with open(os.path.join(ROOT, "scripts/wp_images.txt"), "w") as fh:
         fh.write("\n".join(sorted(images)) + "\n")
     print("posts", count["post"], "pages", count["page"], "images", len(images), "authors in WXR", authors)
