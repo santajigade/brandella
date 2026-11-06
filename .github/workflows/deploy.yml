@@ -16,7 +16,7 @@ env:
   # Confirmed from the hPanel File Manager screenshot before the first deploy
   REMOTE_DIR: domains/brandella.in/public_html
   # SHA256 ED25519 fingerprint shown in hPanel > SSH Access. Deploy is skipped while empty.
-  HOST_FINGERPRINT: ""
+  HOST_FINGERPRINT: "SHA256:NVYjqWkmDu8zJlqJ47rWJWGWev9j1Rqius7bBICJVWw"
 
 jobs:
   deploy:
