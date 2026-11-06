@@ -1,0 +1,258 @@
+[
+  {
+    "slug": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "parent": null,
+    "description": "How AI is changing marketing and search: AI tools, LLMs, AI Overviews, AEO and GEO explained.",
+    "path": "artificial-intelligence",
+    "count": 31
+  },
+  {
+    "slug": "content",
+    "name": "Content",
+    "parent": null,
+    "description": "Content strategy, writing, audits and planning that build trust, earn rankings and convert readers.",
+    "path": "content",
+    "count": 17
+  },
+  {
+    "slug": "development",
+    "name": "Development",
+    "parent": null,
+    "description": "Hands on coding tutorials in PHP, Python, JavaScript, HTML, CSS and GTM for marketers and developers.",
+    "path": "development",
+    "count": 59
+  },
+  {
+    "slug": "digital-marketing",
+    "name": "Digital Marketing",
+    "parent": null,
+    "description": "Digital marketing fundamentals, lead generation, email, CRO and the trends shaping the industry.",
+    "path": "digital-marketing",
+    "count": 11
+  },
+  {
+    "slug": "gtm",
+    "name": "GTM",
+    "parent": "development",
+    "description": "Google Tag Manager tutorials for tags, triggers, variables, GA4 events and clean tracking setups.",
+    "path": "development/gtm",
+    "count": 2
+  },
+  {
+    "slug": "html",
+    "name": "HTML",
+    "parent": "development",
+    "description": "HTML tutorials covering tags, elements, attributes, semantics and SEO friendly page structure.",
+    "path": "development/html",
+    "count": 9
+  },
+  {
+    "slug": "html_css",
+    "name": "HTML CSS",
+    "parent": "development",
+    "description": "HTML and CSS tutorials for layouts, responsive design, components and modern styling techniques.",
+    "path": "development/html_css",
+    "count": 3
+  },
+  {
+    "slug": "html_js",
+    "name": "HTML JS",
+    "parent": "development",
+    "description": "HTML and JavaScript tutorials that add interactivity, widgets and useful features to web pages.",
+    "path": "development/html_js",
+    "count": 0
+  },
+  {
+    "slug": "javascript",
+    "name": "JavaScript",
+    "parent": "development",
+    "description": "JavaScript tutorials with practical examples for performance, SEO tools and interactive features.",
+    "path": "development/javascript",
+    "count": 27
+  },
+  {
+    "slug": "paid-media",
+    "name": "Paid Media",
+    "parent": null,
+    "description": "Google Ads, Meta Ads, LinkedIn Ads and performance marketing guides to spend your ad budget wisely.",
+    "path": "paid-media",
+    "count": 14
+  },
+  {
+    "slug": "paid-media-analytics",
+    "name": "Paid Media Analytics",
+    "parent": "paid-media",
+    "description": "Measure paid media with the right metrics, attribution models, dashboards and conversion tracking.",
+    "path": "paid-media/paid-media-analytics",
+    "count": 6
+  },
+  {
+    "slug": "php",
+    "name": "PHP",
+    "parent": "development",
+    "description": "PHP tutorials for secure forms, APIs, sitemaps, SEO features and real world web development.",
+    "path": "development/php",
+    "count": 19
+  },
+  {
+    "slug": "ppc-strategy",
+    "name": "PPC Strategy",
+    "parent": "paid-media",
+    "description": "PPC planning, ad copy testing, budgeting and bidding strategies for profitable search campaigns.",
+    "path": "paid-media/ppc-strategy",
+    "count": 5
+  },
+  {
+    "slug": "python",
+    "name": "Python",
+    "parent": "development",
+    "description": "Python scripts and tutorials for SEO automation, data analysis, crawling and reporting.",
+    "path": "development/python",
+    "count": 7
+  },
+  {
+    "slug": "seo",
+    "name": "SEO",
+    "parent": null,
+    "description": "Practical SEO guides, algorithm updates and strategies that help your pages rank in Google and AI search.",
+    "path": "seo",
+    "count": 95
+  },
+  {
+    "slug": "seo-basics",
+    "name": "SEO Basics",
+    "parent": "seo",
+    "description": "Start here: the core ideas of search engine optimization explained in plain language for beginners.",
+    "path": "seo/seo-basics",
+    "count": 14
+  },
+  {
+    "slug": "seo-tools",
+    "name": "SEO Tools",
+    "parent": "seo",
+    "description": "Honest reviews and how to guides for the SEO tools marketers use for audits, keywords and rank tracking.",
+    "path": "seo/seo-tools",
+    "count": 10
+  },
+  {
+    "slug": "social",
+    "name": "Social",
+    "parent": null,
+    "description": "Social media strategy, platform tips, listening and influencer marketing to grow your audience.",
+    "path": "social",
+    "count": 7
+  },
+  {
+    "slug": "technical-seo",
+    "name": "Technical SEO",
+    "parent": "seo",
+    "description": "Crawling, indexing, sitemaps, robots.txt, canonicals, schema and every technical signal that helps search engines understand your site.",
+    "path": "seo/technical-seo",
+    "count": 42
+  },
+  {
+    "slug": "uncategorized",
+    "name": "Uncategorized",
+    "parent": null,
+    "description": "Articles from Brandella Journal.",
+    "path": "uncategorized",
+    "count": 0
+  },
+  {
+    "slug": "core-web-vitals",
+    "name": "Core Web Vitals",
+    "parent": "seo",
+    "description": "LCP, INP, CLS and every page speed metric explained, with fixes that improve real user experience.",
+    "path": "seo/core-web-vitals",
+    "count": 13
+  },
+  {
+    "slug": "display-advertising",
+    "name": "Display Advertising",
+    "parent": "paid-media",
+    "description": "Display campaigns, banner ads, audience targeting and remarketing that build reach and drive conversions.",
+    "path": "paid-media/display-advertising",
+    "count": 1
+  },
+  {
+    "slug": "google-ads",
+    "name": "Google Ads",
+    "parent": "paid-media",
+    "description": "Google Ads setup, bidding, Performance Max, Quality Score and optimization tips for better ROI.",
+    "path": "paid-media/google-ads",
+    "count": 13
+  },
+  {
+    "slug": "google-search-console",
+    "name": "Google Search Console",
+    "parent": "seo",
+    "description": "Use Google Search Console to fix indexing problems, read performance data and track your search growth.",
+    "path": "seo/google-search-console",
+    "count": 6
+  },
+  {
+    "slug": "keyword-research",
+    "name": "Keyword Research",
+    "parent": "seo",
+    "description": "Find keywords with real demand, read search intent and judge difficulty before you write a single word.",
+    "path": "seo/keyword-research",
+    "count": 2
+  },
+  {
+    "slug": "link-building",
+    "name": "Link Building",
+    "parent": "seo",
+    "description": "Ethical link building methods, backlink analysis and anchor text practices that earn lasting authority.",
+    "path": "seo/link-building",
+    "count": 12
+  },
+  {
+    "slug": "linkedin-ads",
+    "name": "LinkedIn Ads",
+    "parent": "paid-media",
+    "description": "LinkedIn Ads targeting, formats and B2B lead generation strategies that reach decision makers.",
+    "path": "paid-media/linkedin-ads",
+    "count": 1
+  },
+  {
+    "slug": "local-seo",
+    "name": "Local SEO",
+    "parent": "seo",
+    "description": "Google Business Profile, local citations, reviews and NAP consistency so nearby customers find your business first.",
+    "path": "seo/local-seo",
+    "count": 6
+  },
+  {
+    "slug": "meta-ads",
+    "name": "Meta Ads",
+    "parent": "paid-media",
+    "description": "Facebook and Instagram ads: campaign setup, Advantage+, pixel tracking and creative testing.",
+    "path": "paid-media/meta-ads",
+    "count": 3
+  },
+  {
+    "slug": "mobile-seo",
+    "name": "Mobile SEO",
+    "parent": "seo",
+    "description": "Mobile first indexing, responsive design, mobile page speed and usability fixes that keep rankings strong on phones.",
+    "path": "seo/mobile-seo",
+    "count": 8
+  },
+  {
+    "slug": "off-page-seo",
+    "name": "Off-Page SEO",
+    "parent": "seo",
+    "description": "Backlinks, digital PR, brand mentions and authority building that happen away from your own website.",
+    "path": "seo/off-page-seo",
+    "count": 3
+  },
+  {
+    "slug": "on-page-seo",
+    "name": "On-Page SEO",
+    "parent": "seo",
+    "description": "Title tags, headings, search intent, topical authority and content signals you control on every page.",
+    "path": "seo/on-page-seo",
+    "count": 5
+  }
+]

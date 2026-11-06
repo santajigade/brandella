@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import Pager from '../../components/Pager.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getPosts, authors, paginate, authorUrl, absolute } from '../../lib/site';
+import { SITE } from '../../config';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return authors.flatMap((a) => {
+    const pages = paginate(posts.filter((p) => p.data.author === a.slug), SITE.postsPerPage);
+    return pages.map((items, i) => ({
+      params: { path: i === 0 ? a.slug : `${a.slug}/page/${i + 1}` },
+      props: { author: a, items, page: i + 1, total: pages.length, count: pages.flat().length },
+    }));
+  });
+}
+const { author, items, page, total, count } = Astro.props;
+const initials = author.name.split(' ').map((w: string) => w[0]).join('').slice(0, 2);
+const schema = [{
+  '@context': 'https://schema.org', '@type': 'ProfilePage',
+  mainEntity: { '@type': 'Person', '@id': `${SITE.url}/#author-${author.slug}`, name: author.name, jobTitle: author.role, description: author.bio, url: absolute(authorUrl(author.slug)), sameAs: [author.linkedin] },
+}];
+---
+<Base title={page > 1 ? `${author.name}, Page ${page}` : `${author.name}, ${author.role}`} description={author.bio} schema={schema}>
+  <div class="container">
+    <Breadcrumbs items={[{ name: author.name, url: authorUrl(author.slug) }]} />
+    <header class="author-head">
+      <span class="avatar avatar-lg" aria-hidden="true">{initials}</span>
+      <div>
+        <h1>{author.name}</h1>
+        <p class="author-role">{author.role}</p>
+        <p>{author.bio}</p>
+        <p class="meta">{count} articles <a href={author.linkedin} rel="noopener" target="_blank">LinkedIn</a></p>
+      </div>
+    </header>
+  </div>
+  <section class="container layout">
+    <div class="main-col">
+      <div class="grid grid-3">{items.map((p) => <Card post={p} />)}</div>
+      <Pager base={authorUrl(author.slug)} page={page} total={total} />
+    </div>
+    <Sidebar />
+  </section>
+</Base>

@@ -1,0 +1,67 @@
+---
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import Pager from '../../components/Pager.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { getPosts, categories, inCategory, paginate, catUrl, catBySlug, childrenOf, absolute } from '../../lib/site';
+import { SITE } from '../../config';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  const out = [];
+  for (const cat of categories) {
+    const list = inCategory(posts, cat.slug);
+    if (cat.slug === 'uncategorized') continue;
+    const pages = paginate(list, SITE.postsPerPage);
+    pages.forEach((items, i) => {
+      out.push({
+        params: { path: i === 0 ? cat.path : `${cat.path}/page/${i + 1}` },
+        props: { slug: cat.slug, items, page: i + 1, total: pages.length, count: list.length },
+      });
+    });
+  }
+  return out;
+}
+const { slug, items, page, total, count } = Astro.props;
+const cat = catBySlug.get(slug)!;
+const parent = cat.parent ? catBySlug.get(cat.parent) : undefined;
+const kids = childrenOf(cat.parent ?? cat.slug).filter((k) => k.count > 0);
+const crumbs = [...(parent ? [{ name: parent.name, url: catUrl(parent.slug) }] : []), { name: cat.name, url: catUrl(cat.slug) }];
+const title = page > 1 ? `${cat.name} Articles, Page ${page}` : `${cat.name} Articles and Guides`;
+const schema = [{
+  '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description: cat.description,
+  url: absolute(Astro.url.pathname), isPartOf: { '@id': `${SITE.url}/#website` },
+}];
+const [first, ...rest] = items;
+---
+<Base title={title} description={cat.description} schema={schema}>
+  <div class="container">
+    <Breadcrumbs items={crumbs} />
+    <header class="archive-head">
+      <span class="kicker">{parent ? parent.name : 'Section'}</span>
+      <h1>{cat.name}{page > 1 && <span class="page-n"> Page {page}</span>}</h1>
+      <p>{cat.description}</p>
+      <span class="meta">{count} articles</span>
+      {kids.length > 0 && (
+        <nav class="chip-row" aria-label={`${(parent ?? cat).name} topics`}>
+          <a href={catUrl((parent ?? cat).slug)} class:list={[{ on: !parent }]}>All</a>
+          {kids.map((k) => <a href={catUrl(k.slug)} class:list={[{ on: k.slug === cat.slug }]}>{k.name}</a>)}
+        </nav>
+      )}
+    </header>
+  </div>
+  <section class="container layout">
+    <div class="main-col">
+      {!items.length && <p class="empty">New {cat.name} articles are on the way. Meanwhile, explore <a href={catUrl(cat.parent ?? 'seo')}>{parent ? parent.name : 'SEO'}</a>.</p>}
+      {page === 1 && first ? <Card post={first} variant="lead" eager /> : null}
+      <div class="grid grid-3">
+        {(page === 1 ? rest : items).map((p, i) => <Card post={p} eager={page > 1 && i < 3} />)}
+      </div>
+      <AdSlot format="horizontal" />
+      <Pager base={catUrl(cat.slug)} page={page} total={total} />
+    </div>
+    <Sidebar />
+  </section>
+</Base>

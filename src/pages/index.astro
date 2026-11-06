@@ -1,0 +1,75 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import Sidebar from '../components/Sidebar.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { getPosts, popular, inCategory, catBySlug, catUrl, childrenOf } from '../lib/site';
+import { MENU, SITE } from '../config';
+
+const posts = await getPosts();
+const lead = posts[0];
+const latestSide = posts.slice(1, 6);
+const latest = posts.slice(6, 14);
+const top = popular(posts, 8);
+const sections = MENU.map((slug) => ({
+  cat: catBySlug.get(slug)!,
+  kids: childrenOf(slug).filter((k) => k.count > 0).slice(0, 5),
+  items: inCategory(posts, slug).slice(0, 4),
+}));
+const schema = [{
+  '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${SITE.url}/#website`,
+  name: SITE.name, url: `${SITE.url}/`, publisher: { '@id': `${SITE.url}/#organization` },
+  potentialAction: { '@type': 'SearchAction', target: `${SITE.url}/search/?q={search_term_string}`, 'query-input': 'required name=search_term_string' },
+}];
+---
+<Base title={`${SITE.name}: SEO, Paid Media, AI and Digital Marketing Guides`} description={SITE.description} schema={schema}>
+  <h1 class="sr-only">{SITE.name}</h1>
+  <section class="container hero">
+    <div class="hero-lead"><Card post={lead} variant="lead" eager /></div>
+    <div class="hero-side">
+      <h2 class="section-label">Latest</h2>
+      {latestSide.map((p) => <Card post={p} variant="mini" />)}
+    </div>
+  </section>
+
+  <AdSlot format="horizontal" class="container ad-wide" />
+
+  <section class="container layout">
+    <div class="main-col">
+      <div class="tabs" data-tabs>
+        <div class="tab-bar" role="tablist">
+          <button role="tab" aria-selected="true" aria-controls="tab-latest" id="t-latest">Latest</button>
+          <button role="tab" aria-selected="false" aria-controls="tab-popular" id="t-popular">Popular</button>
+        </div>
+        <div id="tab-latest" role="tabpanel" aria-labelledby="t-latest" class="list-stack">
+          {latest.map((p) => <Card post={p} variant="list" />)}
+        </div>
+        <div id="tab-popular" role="tabpanel" aria-labelledby="t-popular" class="list-stack" hidden>
+          {top.map((p) => <Card post={p} variant="list" />)}
+        </div>
+      </div>
+
+      {sections.map(({ cat, kids, items }, i) => (
+        <section class="cat-section">
+          <div class="cat-head">
+            <h2><a href={catUrl(cat.slug)}>{cat.name}</a></h2>
+            {kids.length > 0 && <nav class="cat-kids">{kids.map((k) => <a href={catUrl(k.slug)}>{k.name}</a>)}</nav>}
+            <a class="more" href={catUrl(cat.slug)}>View all &rarr;</a>
+          </div>
+          <div class="grid grid-4">{items.map((p) => <Card post={p} />)}</div>
+          {i === 2 && <AdSlot format="horizontal" />}
+        </section>
+      ))}
+    </div>
+    <Sidebar />
+  </section>
+</Base>
+
+<script is:inline>
+document.querySelectorAll('[data-tabs]').forEach(function(t){
+  var tabs=t.querySelectorAll('[role=tab]');
+  tabs.forEach(function(b){b.addEventListener('click',function(){
+    tabs.forEach(function(x){x.setAttribute('aria-selected',x===b?'true':'false');document.getElementById(x.getAttribute('aria-controls')).hidden=(x!==b);});
+  });});
+});
+</script>

@@ -1,0 +1,9 @@
+---
+title: "Contact"
+slug: "contact-page"
+description: "We’d love to hear from you! At Brandella Journal, we believe every great story starts with a conversation. Whether you have a question, a suggestion, or"
+updated: "2025-11-04T11:09:46"
+format: "html"
+---
+<p>We’d love to hear from you!</p><p> </p><p>At Brandella Journal, we believe every great story starts with a conversation. Whether you have a question, a suggestion, or an idea for collaboration we’re just a message away.</p><p> </p><p>Our team is always excited to connect with readers, marketers, and creators who share a passion for learning, storytelling, and digital growth.</p><p> </p><p><span data-start="740" data-end="773"><i>Collaborations &amp; Guest Posts:</i></span><br data-start="773" data-end="776" />If you’d like to contribute to Brandella Journal or explore content partnerships, reach out to us at <b>a</b><strong data-start="877" data-end="944">dmin@brandella.in</strong></p><p><strong data-start="877" data-end="944"> </strong></p><p data-start="1449" data-end="1619">At Brandella Journal, our mission is to make marketing simple, insightful, and inspiring. We love hearing feedback that helps us grow and create better content for you.</p><p data-start="1449" data-end="1619"> </p><p> </p><p data-start="1621" data-end="1785">Your thoughts matter every message helps us improve and continue delivering meaningful stories that empower digital professionals and business owners worldwide.</p><p> </p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.831924681137!2d73.79893317518984!3d18.44593888263322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2959aa01d501d%3A0xba37d6683992419b!2sBrandella%20Journal!5e0!3m2!1sen!2sin!4v1762254436064!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

@@ -1,0 +1,142 @@
+---
+import { MENU, TOOL_CATEGORIES, TOOLS_URL, SITE } from '../config';
+import { getPosts, catBySlug, childrenOf, catUrl, inCategory, postUrl, thumb, formatDate } from '../lib/site';
+import Logo from './Logo.astro';
+
+const posts = await getPosts();
+const path = Astro.url.pathname;
+const menu = MENU.map((slug) => {
+  const cat = catBySlug.get(slug)!;
+  const kids = childrenOf(slug).filter((k) => k.count > 0);
+  const latest = inCategory(posts, slug).slice(0, kids.length ? 3 : 4);
+  return { cat, kids, latest, active: path.startsWith(`/category/${slug}/`) };
+});
+---
+<header class="site-header">
+  <div class="topbar">
+    <div class="container topbar-in">
+      <span class="topbar-tag">{SITE.tagline}</span>
+      <nav class="topbar-links" aria-label="Utility">
+        <a href="/about-us/">About</a>
+        <a href="/contact-page/">Contact</a>
+        <a href={TOOLS_URL}>Free Tools</a>
+        <a href="/rss.xml" aria-label="RSS feed">RSS</a>
+      </nav>
+    </div>
+  </div>
+  <div class="navbar">
+    <div class="container navbar-in">
+      <button class="icon-btn burger" type="button" aria-label="Open menu" aria-controls="drawer" aria-expanded="false" data-drawer-open>
+        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <a href="/" class="brand" aria-label={`${SITE.name} home`}><Logo /></a>
+      <nav class="mainnav" aria-label="Main">
+        <ul>
+          {menu.map(({ cat, kids, latest, active }) => (
+            <li class="has-mega">
+              <a href={catUrl(cat.slug)} class:list={[{ active }]}>{cat.name === 'Artificial Intelligence' ? 'AI' : cat.name}<svg class="caret" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 3.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+              <div class="mega">
+                <div class="container mega-in">
+                  <div class="mega-col mega-links">
+                    <a class="mega-title" href={catUrl(cat.slug)}>{cat.name}</a>
+                    <p class="mega-desc">{cat.description}</p>
+                    {kids.length > 0 && (
+                      <ul class:list={['mega-sub', { two: kids.length > 6 }]}>
+                        {kids.map((k) => <li><a href={catUrl(k.slug)}>{k.name}</a></li>)}
+                      </ul>
+                    )}
+                    <a class="mega-all" href={catUrl(cat.slug)}>All {cat.name} articles &rarr;</a>
+                  </div>
+                  <div class:list={['mega-posts', `n${latest.length}`]}>
+                    {latest.map((p) => (
+                      <a class="mega-post" href={postUrl(p)}>
+                        <img src={thumb(p.data.image)} alt="" loading="lazy" width="320" height="180" />
+                        <span class="mega-post-title">{p.data.title}</span>
+                        <span class="meta">{formatDate(p.data.date)}</span>
+                      </a>
+                    ))}
+                  </div>
+                  <a class="mega-promo" href={TOOLS_URL}>
+                    <span class="kicker">Free Tools</span>
+                    <strong>Free SEO and marketing tools</strong>
+                    <span>Schema generators, PPC calculators, SERP preview and more. No sign up.</span>
+                    <span class="btn btn-sm">Open tools</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+          ))}
+          <li class="has-mega">
+            <a href={TOOLS_URL} class="tools-link">Free Tools<svg class="caret" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 3.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+            <div class="mega">
+              <div class="container mega-in tools-mega">
+                <div class="mega-col">
+                  <a class="mega-title" href={TOOLS_URL}>Free Tools</a>
+                  <p class="mega-desc">Fast, free browser tools for SEO, PPC, analytics, schema and AI work.</p>
+                  <a class="mega-all" href={TOOLS_URL}>Browse all tools &rarr;</a>
+                </div>
+                <ul class="tool-grid">
+                  {TOOL_CATEGORIES.map((t) => <li><a href={t.url}>{t.name}</a></li>)}
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <a class="icon-btn search-btn" href="/search/" aria-label="Search">
+        <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="drawer" id="drawer" hidden>
+    <div class="drawer-head">
+      <a href="/" class="brand"><Logo /></a>
+      <button class="icon-btn" type="button" aria-label="Close menu" data-drawer-close>
+        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <form class="drawer-search" action="/search/" role="search">
+      <input type="search" name="q" placeholder="Search articles" aria-label="Search articles" />
+    </form>
+    <ul class="drawer-list">
+      <li><a href="/">Home</a></li>
+      {menu.map(({ cat, kids }) => (
+        <li>
+          {kids.length ? (
+            <details>
+              <summary>{cat.name}</summary>
+              <ul>
+                <li><a href={catUrl(cat.slug)}>All {cat.name}</a></li>
+                {kids.map((k) => <li><a href={catUrl(k.slug)}>{k.name}</a></li>)}
+              </ul>
+            </details>
+          ) : <a href={catUrl(cat.slug)}>{cat.name}</a>}
+        </li>
+      ))}
+      <li>
+        <details>
+          <summary>Free Tools</summary>
+          <ul>
+            <li><a href={TOOLS_URL}>All Free Tools</a></li>
+            {TOOL_CATEGORIES.map((t) => <li><a href={t.url}>{t.name}</a></li>)}
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<script is:inline>
+(function(){
+  var d=document.getElementById('drawer');
+  var o=document.querySelector('[data-drawer-open]');
+  function set(open){ if(open){d.hidden=false;document.body.classList.add('no-scroll');}else{d.hidden=true;document.body.classList.remove('no-scroll');} o.setAttribute('aria-expanded',open?'true':'false'); }
+  o.addEventListener('click',function(){set(true);});
+  d.querySelector('[data-drawer-close]').addEventListener('click',function(){set(false);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')set(false);});
+  // close a mega menu after a click so it does not stay open on touch screens
+  document.querySelectorAll('.has-mega > a').forEach(function(a){
+    a.addEventListener('touchend',function(e){var li=a.parentNode; if(!li.classList.contains('tap')){e.preventDefault();document.querySelectorAll('.has-mega.tap').forEach(function(x){x.classList.remove('tap');});li.classList.add('tap');}});
+  });
+})();
+</script>

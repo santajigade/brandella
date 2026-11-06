@@ -1,0 +1,9 @@
+---
+import { TOOL_CATEGORIES, TOOLS_URL } from '../config';
+---
+<section class="widget tools-box">
+  <span class="kicker">Free Tools</span>
+  <h3>Work faster with free marketing tools</h3>
+  <ul>{TOOL_CATEGORIES.slice(0, 6).map((t) => <li><a href={t.url}>{t.name}</a></li>)}</ul>
+  <a class="btn" href={TOOLS_URL}>See all free tools</a>
+</section>

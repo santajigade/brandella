@@ -1,0 +1,28 @@
+---
+import { getPosts, popular, postUrl, formatDate, thumb } from '../lib/site';
+import ToolsBox from './ToolsBox.astro';
+import AdSlot from './AdSlot.astro';
+interface Props { exclude?: string; sticky?: boolean }
+const { exclude } = Astro.props;
+const posts = await getPosts();
+const top = popular(posts.filter((p) => p.id !== exclude), 6);
+---
+<aside class="sidebar">
+  <slot />
+  <section class="widget">
+    <h3 class="widget-title">Popular</h3>
+    <ol class="popular">
+      {top.map((p, i) => (
+        <li>
+          <span class="rank">{i + 1}</span>
+          <a href={postUrl(p)}>
+            <span class="popular-title">{p.data.title}</span>
+            <span class="meta">{formatDate(p.data.date)}</span>
+          </a>
+        </li>
+      ))}
+    </ol>
+  </section>
+  <ToolsBox />
+  <AdSlot format="rectangle" class="sticky-ad" />
+</aside>

@@ -1,0 +1,149 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import Sidebar from '../components/Sidebar.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import AdSlot from '../components/AdSlot.astro';
+import {
+  getPosts, primaryCat, topCat, catUrl, catBySlug, authorOf, authorUrl, readTime,
+  formatDate, related, nextUp, postUrl, headings, absolute,
+} from '../lib/site';
+import { SITE } from '../config';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  const pages = await getCollection('pages');
+  return [
+    ...posts.map((p) => ({ params: { slug: p.data.slug }, props: { kind: 'post' as const, entry: p } })),
+    ...pages.map((p) => ({ params: { slug: p.data.slug }, props: { kind: 'page' as const, entry: p } })),
+  ];
+}
+
+const { kind, entry } = Astro.props;
+const html = entry.rendered?.html ?? '';
+const posts = await getPosts();
+
+let post: any = null;
+if (kind === 'post') {
+  const p = entry as Awaited<ReturnType<typeof getPosts>>[number];
+  const cat = primaryCat(p);
+  const top = topCat(p);
+  const author = authorOf(p);
+  const toc = headings(html);
+  const imageFile = (p.data.image ?? '').split('/').pop()?.replace(/\.[a-z]+$/i, '') ?? '';
+  const showHero = !!p.data.image && !(imageFile && html.slice(0, 4000).includes(imageFile.replace(/-\d+x\d+$/, '')));
+  const crumbs = [
+    ...(top.slug !== cat.slug ? [{ name: top.name, url: catUrl(top.slug) }] : []),
+    { name: cat.name, url: catUrl(cat.slug) },
+    { name: p.data.title, url: postUrl(p) },
+  ];
+  const updated = p.data.updated && p.data.updated > p.data.date ? p.data.updated : undefined;
+  const schema = [{
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    '@id': `${absolute(postUrl(p))}#article`,
+    headline: p.data.title,
+    description: p.data.description,
+    image: p.data.image ? [absolute(p.data.image)] : undefined,
+    datePublished: p.data.date.toISOString(),
+    dateModified: (updated ?? p.data.date).toISOString(),
+    author: { '@type': 'Person', '@id': `${SITE.url}/#author-${author.slug}`, name: author.name, url: absolute(authorUrl(author.slug)), sameAs: [author.linkedin] },
+    publisher: { '@id': `${SITE.url}/#organization` },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': absolute(postUrl(p)) },
+    articleSection: cat.name,
+    keywords: [p.data.focusKeyword, ...p.data.tags].filter(Boolean).join(', ') || undefined,
+    wordCount: p.data.words,
+    inLanguage: 'en',
+  }];
+  post = {
+    p, cat, top, author, toc, showHero, crumbs, updated, schema,
+    rel: related(posts, p, 4),
+    next: nextUp(posts, p, 6).map((x) => postUrl(x)),
+    initials: author.name.split(' ').map((w: string) => w[0]).join('').slice(0, 2),
+  };
+}
+---
+{post ? (
+  <Base
+    title={post.p.data.title}
+    description={post.p.data.description}
+    image={post.p.data.image}
+    type="article"
+    schema={post.schema}
+    published={post.p.data.date}
+    modified={post.updated}
+    section={post.cat.name}
+  >
+    <article class="post" data-post-url={postUrl(post.p)} data-post-title={post.p.data.title}>
+      <div class="container">
+        <Breadcrumbs items={post.crumbs} />
+        <header class="post-head">
+          <a class="tag" href={catUrl(post.cat.slug)}>{post.cat.name}</a>
+          <h1>{post.p.data.title}</h1>
+          {post.p.data.description && <p class="dek">{post.p.data.description}</p>}
+          <div class="byline">
+            <span class="avatar" aria-hidden="true">{post.initials}</span>
+            <div>
+              <a class="byline-name" href={authorUrl(post.author.slug)}>{post.author.name}</a>
+              <p class="meta">
+                <time datetime={post.p.data.date.toISOString()}>{formatDate(post.p.data.date)}</time>
+                {post.updated && <span>Updated <time datetime={post.updated.toISOString()}>{formatDate(post.updated)}</time></span>}
+                <span>{readTime(post.p)} min read</span>
+              </p>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="container layout post-layout">
+        <div class="main-col">
+          {post.showHero && (
+            <figure class="post-hero">
+              <img src={post.p.data.image} alt={post.p.data.imageAlt || post.p.data.title} width="1200" height="675" fetchpriority="high" decoding="async" />
+            </figure>
+          )}
+          {post.toc.length > 2 && (
+            <details class="toc toc-inline">
+              <summary>In this article</summary>
+              <ol>{post.toc.map((h: { id: string; text: string }) => <li><a href={`#${h.id}`}>{h.text}</a></li>)}</ol>
+            </details>
+          )}
+          <div class="post-body" set:html={html} />
+          <section class="author-box">
+            <span class="avatar avatar-lg" aria-hidden="true">{post.initials}</span>
+            <div>
+              <p class="kicker">Written by</p>
+              <a class="byline-name" href={authorUrl(post.author.slug)}>{post.author.name}</a>
+              <p class="author-role">{post.author.role}</p>
+              <p>{post.author.bio}</p>
+            </div>
+          </section>
+          {post.rel.length > 0 && (
+            <section class="related">
+              <h2 class="section-label">Related articles</h2>
+              <div class="grid grid-2">{post.rel.map((r: any) => <Card post={r} />)}</div>
+            </section>
+          )}
+        </div>
+        <Sidebar exclude={post.p.id}>
+          {post.toc.length > 2 && (
+            <nav class="widget toc toc-side" aria-label="Table of contents">
+              <h3 class="widget-title">In this article</h3>
+              <ol>{post.toc.map((h: { id: string; text: string }) => <li><a href={`#${h.id}`}>{h.text}</a></li>)}</ol>
+            </nav>
+          )}
+        </Sidebar>
+      </div>
+    </article>
+    <div class="next-loader" data-next={JSON.stringify(post.next)} aria-hidden="true"></div>
+    <script is:inline src="/js/post.js" defer></script>
+  </Base>
+) : (
+  <Base title={entry.data.title} description={entry.data.description || undefined}>
+    <div class="container narrow">
+      <Breadcrumbs items={[{ name: entry.data.title, url: `/${entry.data.slug}/` }]} />
+      <header class="page-head"><h1>{entry.data.title}</h1></header>
+      <div class="post-body page-body" set:html={html} />
+    </div>
+  </Base>
+)}

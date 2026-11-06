@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+---
+<Base title="Search" description="Search every Brandella Journal article." noindex>
+  <section class="container layout">
+    <div class="main-col">
+      <header class="archive-head">
+        <h1>Search</h1>
+        <form class="search-form" action="/search/" role="search" onsubmit="return false">
+          <input id="q" type="search" name="q" placeholder="Search SEO, Google Ads, AI, PHP..." autocomplete="off" aria-label="Search articles" />
+        </form>
+        <p class="meta" id="search-count"></p>
+      </header>
+      <div id="results" class="list-stack"></div>
+    </div>
+    <Sidebar />
+  </section>
+</Base>
+<script is:inline>
+(function(){
+  var input=document.getElementById('q'), out=document.getElementById('results'), count=document.getElementById('search-count'), data=null;
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function run(){
+    var q=input.value.trim().toLowerCase();
+    var url=new URL(location.href); if(q){url.searchParams.set('q',q);}else{url.searchParams.delete('q');} history.replaceState(null,'',url);
+    if(!data){return;}
+    if(!q){out.innerHTML='';count.textContent='';return;}
+    var words=q.split(/\s+/);
+    var hits=data.map(function(p){
+      var t=p.t.toLowerCase(), all=(p.t+' '+p.d+' '+p.c+' '+p.k).toLowerCase(), s=0;
+      for(var i=0;i<words.length;i++){ if(all.indexOf(words[i])<0) return null; s+= t.indexOf(words[i])>=0?3:1; }
+      return {p:p,s:s};
+    }).filter(Boolean).sort(function(a,b){return b.s-a.s;}).slice(0,40);
+    count.textContent=hits.length+' result'+(hits.length===1?'':'s');
+    out.innerHTML=hits.map(function(h){var p=h.p;return '<article class="card card-list"><a class="card-img" href="'+p.u+'" tabindex="-1"><img src="'+esc(p.i)+'" alt="" loading="lazy" width="640" height="360"></a><div class="card-body"><span class="tag">'+esc(p.c)+'</span><h3 class="card-title"><a href="'+p.u+'">'+esc(p.t)+'</a></h3><p class="card-desc">'+esc(p.d)+'</p><p class="meta"><time>'+p.dt+'</time></p></div></article>';}).join('') || '<p>No articles found. Try a shorter search.</p>';
+  }
+  input.value=new URLSearchParams(location.search).get('q')||'';
+  input.addEventListener('input',run);
+  fetch('/search.json').then(function(r){return r.json();}).then(function(d){data=d;run();});
+  input.focus();
+})();
+</script>

@@ -1,0 +1,26 @@
+---
+import type { Post } from '../lib/site';
+import { postUrl, primaryCat, catUrl, thumb, formatDate, readTime, authorOf } from '../lib/site';
+interface Props { post: Post; variant?: 'grid' | 'list' | 'lead' | 'mini'; eager?: boolean; hideImage?: boolean }
+const { post, variant = 'grid', eager = false, hideImage = false } = Astro.props;
+const cat = primaryCat(post);
+const src = variant === 'lead' ? (post.data.image || thumb()) : thumb(post.data.image);
+const Tag = variant === 'lead' ? 'h2' : 'h3';
+---
+<article class:list={['card', `card-${variant}`]}>
+  {!hideImage && (
+    <a class="card-img" href={postUrl(post)} tabindex="-1" aria-hidden="true">
+      <img src={src} alt={post.data.imageAlt || ''} loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : undefined} width="640" height="360" decoding="async" />
+    </a>
+  )}
+  <div class="card-body">
+    {variant !== 'mini' && <a class="tag" href={catUrl(cat.slug)}>{cat.name}</a>}
+    <Tag class="card-title"><a href={postUrl(post)}>{post.data.title}</a></Tag>
+    {(variant === 'lead' || variant === 'list') && post.data.description && <p class="card-desc">{post.data.description}</p>}
+    <p class="meta">
+      {variant !== 'mini' && <span>{authorOf(post).name}</span>}
+      <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+      {variant !== 'mini' && <span>{readTime(post)} min read</span>}
+    </p>
+  </div>
+</article>
