@@ -1,6 +1,6 @@
 # Daily news playbook (Brandella Journal)
 
-The scheduled task runs twice a day and publishes 4 news articles per run (7 to 8 a day). Follow every step. Quality beats count: publish fewer rather than publish something thin, wrong or duplicated.
+The scheduled task runs twice a day and publishes 5 news articles a day: 3 in the morning run, 2 in the evening run. Follow every step. Quality beats count: publish fewer rather than publish something thin, wrong or duplicated.
 
 ## 1. Setup
 - `npm ci` and `pip install --break-system-packages pyyaml pillow` if missing.
@@ -11,7 +11,7 @@ Scan what competitors are covering, then go to the primary source:
 - Competitor news desks (topic ideas only): searchengineland.com, searchenginejournal.com, seroundtable.com, marketingland style trade press.
 - Primary sources (always read and link the official one): Google Search Central blog (developers.google.com/search/blog), Google Search Status Dashboard, blog.google, Google Ads announcements (support.google.com/google-ads/announcements and blog.google/products/ads-commerce), Microsoft Advertising blog, Bing Webmaster blog, Meta newsroom and Meta for Business, LinkedIn Marketing blog, YouTube official blog, TikTok newsroom, OpenAI, Anthropic, Google DeepMind and Perplexity announcements.
 
-Pick 4 stories that matter to marketers, spread across different sections (SEO, Paid Media, Content, Social, Digital Marketing, Artificial Intelligence, Development). At most 2 per section per run.
+Pick the stories (3 or 2, see above) that matter to marketers, spread across different sections (SEO, Paid Media, Content, Social, Digital Marketing, Artificial Intelligence, Development). At most 2 per section per run.
 
 Duplicate check before writing each story:
 - `python3 scripts/list_posts.py recent 40` and `python3 scripts/list_posts.py find <key words>`.
