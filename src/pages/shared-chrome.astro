@@ -1,0 +1,31 @@
+---
+// The site header and footer, published for the /tools/ site (santajigade/brandella-tools).
+// Its sync script copies the <header>, its script, the <footer> and #chrome-css from here,
+// so both sites always show the same menu. Not linked anywhere and not indexed.
+import '@fontsource/open-sans/400.css';
+import '@fontsource/open-sans/600.css';
+import '@fontsource/open-sans/700.css';
+import '@fontsource/open-sans/800.css';
+import chromeCss from '../styles/chrome.css?raw';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Shared header and footer | Brandella Journal</title>
+  <style id="chrome-css" is:inline set:html={chromeCss}></style>
+</head>
+<body>
+<!--chrome:header-->
+<Header />
+<!--/chrome:header-->
+<main style="min-height:40vh"></main>
+<!--chrome:footer-->
+<Footer />
+<!--/chrome:footer-->
+</body>
+</html>

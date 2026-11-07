@@ -7,7 +7,7 @@ export default defineConfig({
   build: { format: 'directory', inlineStylesheets: 'auto' },
   integrations: [
     sitemap({
-      filter: (page) => !page.includes('/search/') && !page.includes('/404'),
+      filter: (page) => !page.includes('/search/') && !page.includes('/404') && !page.includes('/shared-chrome/'),
     }),
   ],
 });
