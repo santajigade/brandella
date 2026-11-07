@@ -32,7 +32,9 @@ if (kind === 'post') {
   const author = authorOf(p);
   const toc = headings(html);
   const imageFile = (p.data.image ?? '').split('/').pop()?.replace(/\.[a-z]+$/i, '') ?? '';
-  const showHero = !!p.data.image && !(imageFile && html.slice(0, 4000).includes(imageFile.replace(/-\d+x\d+$/, '')));
+  const imageBase = imageFile.replace(/-\d+x\d+$/, '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // Hide the hero only when the body already shows the same image file or a sized or renamed copy of it (not when a heading id or link merely contains the name)
+  const showHero = !!p.data.image && !(imageBase && new RegExp(`/${imageBase}[^"'\\s)]*\\.(webp|jpe?g|png|gif|avif)`, 'i').test(html.slice(0, 4000)));
   const crumbs = [
     ...(top.slug !== cat.slug ? [{ name: top.name, url: catUrl(top.slug) }] : []),
     { name: cat.name, url: catUrl(cat.slug) },
