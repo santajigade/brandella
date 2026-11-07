@@ -22,3 +22,8 @@ Astro static site that replaced the WordPress install in November 2026. Owner: S
 
 ## Daily news
 - Scheduled runs publish news posts by following `DAILY_NEWS.md` (Markdown posts, `format: md`, covers from `scripts/make_cover.py`, checks with `scripts/check_post.py`, duplicate checks with `scripts/list_posts.py`).
+
+## Push alerts (same tool as topabcnews.com)
+- Max 1 notification per day. `.github/workflows/push.yml` runs at 11:45 IST and sends the best post from the last 24 hours (`scripts/send_push.mjs`, category priority inside). Manual run: Actions > Daily push notification (mode `init` only sets up keys).
+- Browser side: `public/push.js` (soft prompt, never in embed iframes), `public/sw.js`, `public/api/subscribe.php` (the only PHP allowed by `.htaccess`).
+- Subscribers and VAPID keys live on the server outside the web root: `domains/brandella.in/push-data/`. Never commit them.

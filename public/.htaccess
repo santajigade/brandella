@@ -93,6 +93,8 @@ ErrorDocument 404 /404.html
   RewriteRule ^meta\-robots\-tags\-explained/?$ /meta-robots-tags-explained-2/ [R=301,L]
   # END manual redirects
 
+  # Push alerts: the only PHP file allowed to run
+  RewriteRule ^api/subscribe\.php$ - [L]
   # Block every PHP file (the old WordPress files stay on disk but must not run)
   RewriteRule \.php$ - [F,L]
 </IfModule>
@@ -100,6 +102,13 @@ ErrorDocument 404 /404.html
 <FilesMatch "\.php$">
   Require all denied
 </FilesMatch>
+
+# Service worker and push script must always be fresh
+<IfModule mod_headers.c>
+  <FilesMatch "^(sw|push)\.js$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
 
 <IfModule mod_expires.c>
   ExpiresActive On
