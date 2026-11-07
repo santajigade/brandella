@@ -180,7 +180,7 @@ format: "html"
 <p>Strip away the acronym soup and each term answers a different question about where your content shows up.</p>
 
 <div class="bag-def-grid">
-<div class="bag-def-card"><div class="bag-def-tag">SEO</div><p>Optimizing to rank as a listed result on a traditional search engine results page.</p></div>
+<div class="bag-def-card"><div class="bag-def-tag">SEO</div><p>Optimizing to rank as a listed result on a <a href="/ai-search-vs-traditional-search/">traditional search</a> engine results page.</p></div>
 <div class="bag-def-card"><div class="bag-def-tag">AEO</div><p>Optimizing to be extracted as the direct answer inside a snippet, AI Overview, or voice response.</p></div>
 <div class="bag-def-card"><div class="bag-def-tag">GEO</div><p>Optimizing to be the cited source an AI system pulls from when it generates an answer, like ChatGPT or Perplexity.</p></div>
 </div>

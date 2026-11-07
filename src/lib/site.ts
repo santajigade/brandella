@@ -119,3 +119,32 @@ export function paginate<T>(items: T[], size: number) {
   for (let i = 0; i < items.length; i += size) pages.push(items.slice(i, i + size));
   return pages.length ? pages : [[]];
 }
+
+const plain = (s: string) => s
+  .replace(/<[^>]+>/g, ' ')
+  .replace(/&amp;/g, '&').replace(/&#0?39;|&rsquo;|&#8217;/g, "'").replace(/&quot;|&#8220;|&#8221;|&ldquo;|&rdquo;/g, '"')
+  .replace(/&nbsp;/g, ' ').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&[a-z0-9#]+;/gi, ' ')
+  .replace(/\s+/g, ' ').trim();
+
+/** Question and answer pairs from a post's visible FAQ section (BX accordion or h2 FAQ + h3 questions). */
+export function faqs(html: string) {
+  const out: { q: string; a: string }[] = [];
+  const clean = html.replace(/<(script|style)\b[\s\S]*?<\/\1>/gi, '');
+  for (const m of clean.matchAll(/<button\b[^>]*class="bx-q"[^>]*>([\s\S]*?)<\/button>\s*<div\b[^>]*class="bx-a"[^>]*>([\s\S]*?)<\/div>/gi)) {
+    const q = plain(m[1].replace(/<span\b[^>]*class="ic"[^>]*>[\s\S]*?<\/span>/gi, ''));
+    const a = plain(m[2]);
+    if (q && a) out.push({ q, a });
+  }
+  if (!out.length) {
+    const sec = clean.match(/<h2\b[^>]*>(?:(?!<\/h2>)[\s\S])*?(?:faq|frequently asked)[\s\S]*?<\/h2>([\s\S]*?)(?=<h2\b|$)/i);
+    if (sec) {
+      for (const m of sec[1].matchAll(/<h3\b[^>]*>([\s\S]*?)<\/h3>([\s\S]*?)(?=<h3\b|$)/gi)) {
+        const q = plain(m[1]).replace(/^(Q\s*)?\d+[.):]\s*/i, '');
+        const paras = [...m[2].matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)].map((x) => plain(x[1]))
+          .filter((t) => t && !/^thank you for reading/i.test(t));
+        if (q.endsWith('?') && paras.length) out.push({ q, a: paras.join(' ') });
+      }
+    }
+  }
+  return out;
+}

@@ -140,7 +140,7 @@ format: "html"
 
 <div class="bx-dyk">
 <span class="lbl">🔎 Did you know?</span>
-<p>A date change alone recovers nothing. iMark Infotech's framework, referenced above, is direct about this common shortcut: a substantive refresh updates outdated facts, deepens content to match current competitors, and realigns it with current search intent. Done well, this recovers 40 to 80% of lost traffic within about six weeks. Simply editing the published date without real content changes produces no recovery at all.</p>
+<p>A date change alone recovers nothing. iMark Infotech's framework, referenced above, is direct about this common shortcut: a substantive refresh updates outdated facts, deepens content to match current competitors, and realigns it with current <a href="/what-is-search-intent-practical-guide/">search intent</a>. Done well, this recovers 40 to 80% of lost traffic within about six weeks. Simply editing the published date without real content changes produces no recovery at all.</p>
 </div>
 
 <!-- OPENING ADSENSE CODE -->

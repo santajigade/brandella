@@ -241,7 +241,7 @@ format: "html"
 <div class="bx-rule"></div>
 <p><a href="https://pielab.io/link-equity/" target="_blank" rel="noopener">Pielab's guide</a> identifies the factor most people overlook first: not all links pass value the same way. Links from authoritative, topically relevant websites typically transfer more equity than links from low-quality or unrelated sources.</p>
 
-<p>Link type matters just as much as source quality. Dofollow links pass equity normally, the standard type used in backlink building. Nofollow links, by contrast, instruct search engines not to consider them for ranking purposes, so they don't pass meaningful equity even when they still drive referral traffic, a distinction <a href="https://linksthatrank.com/blog/link-equity/" target="_blank" rel="noopener">LinksThatRank's guide</a> emphasizes when auditing which backlinks are actually worth pursuing.</p>
+<p>Link type matters just as much as source quality. <a href="/nofollow-vs-dofollow-links/">Dofollow links</a> pass equity normally, the standard type used in backlink building. Nofollow links, by contrast, instruct search engines not to consider them for ranking purposes, so they don't pass meaningful equity even when they still drive referral traffic, a distinction <a href="https://linksthatrank.com/blog/link-equity/" target="_blank" rel="noopener">LinksThatRank's guide</a> emphasizes when auditing which backlinks are actually worth pursuing.</p>
 
 <h2 id="reasonable-surfer"><span class="bx-num">04</span>The Reasonable Surfer Model: Why Placement Matters</h2>
 <div class="bx-rule"></div>

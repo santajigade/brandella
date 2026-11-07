@@ -408,7 +408,7 @@ format: "html"
 <p>For example:</p>
 <ul>
  	<li>
-<p>B2B audience → LinkedIn Ads</p>
+<p>B2B audience → <a href="/linkedin-ads-targeting/">LinkedIn Ads</a></p>
 </li>
  	<li>
 <p>E-commerce → Google Shopping</p>

@@ -19,7 +19,7 @@ format: "html"
 <p>For years, digital marketing had one clear objective: Rank on Google.</p>
 <p>If your website reached position one, you were winning. Traffic increased. Leads followed. Revenue improved.</p>
 <p>But search is no longer just search.</p>
-<p>Today, visibility does not happen in one place. It happens across multiple systems, including traditional search engines and AI-powered platforms. And that changes everything.</p>
+<p>Today, visibility does not happen in one place. It happens across multiple systems, including <a href="/ai-search-vs-traditional-search/">traditional search</a> engines and AI-powered platforms. And that changes everything.</p>
 <p>Most brands are still optimizing only for SEO.</p>
 <p>But ranking is no longer the full picture.</p>
 <p>To truly understand modern visibility, we need to understand three different layers: SEO, AEO, and GEO.</p>

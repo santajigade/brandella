@@ -126,7 +126,7 @@ format: "html"
  	<li>What information they trust</li>
  	<li>What motivates their decisions</li>
 </ol>
-<p>The brands winning in AI search are creating content that genuinely matches user intent.</p>
+<p>The brands winning in AI search are creating content that genuinely matches <a href="/what-is-search-intent-practical-guide/">user intent</a>.</p>
 <p>This means businesses should:</p>
 <ol>
  	<li>Talk directly to customers</li>

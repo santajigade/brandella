@@ -176,7 +176,7 @@ format: "html"
 </div>
 <div class="bsm-mf-card fact">
 <h3>The 2026 Reality</h3>
-<p>Schema markup is not a direct ranking factor, but it is now the primary signal AI search engines use to decide whether to trust and cite your content.</p>
+<p>Schema markup is not a direct ranking factor, but it is now the primary signal <a href="/ai-search-vs-traditional-search/">AI search engines</a> use to decide whether to trust and cite your content.</p>
 </div>
 </div>
 
@@ -366,7 +366,7 @@ function bsmCheck(){
 
 <p>Search Console's Enhancements reports show which structured data types Google has detected on your site and flag any errors or warnings that need fixing. Review this regularly, since a schema markup issue can go unnoticed for months if nobody checks.</p>
 
-<p>Beyond Search Console, run your own prompts on the AI tools your customers actually use. Ask ChatGPT, Perplexity, or Google AI Mode the kinds of questions your audience asks, and check whether your brand appears in the answer.</p>
+<p>Beyond Search Console, run your own prompts on the AI tools your customers actually use. Ask ChatGPT, Perplexity, or <a href="/what-is-google-ai-mode/">Google AI Mode</a> the kinds of questions your audience asks, and check whether your brand appears in the answer.</p>
 
 <p>This gives you a direct read on whether your schema markup and content are working together to earn AI citations, not just theoretical rich result eligibility.</p>
 

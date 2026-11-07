@@ -382,12 +382,12 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Surfer's own guidance on running a content gap analysis treats competitor keyword gaps as only one of several gap types, alongside unanswered reader questions and underserved buyer journey stages. <a href="https://surferseo.com/blog/content-gap-analysis/">Surfer SEO</a> walks through auditing, mapping, and SERP intent checks as separate steps in the same process.</p>
 </div>
 
-<p>Content Marketing Institute frames the same idea from the strategy side rather than the SEO side: its own description of a gap assessment pairs keyword research with social listening, a review of missed marketing goals, and input gathered directly from sales staff and the audience, not just an export from a single tool. <a href="https://contentmarketinginstitute.com/articles/content-gap-analysis/">Content Marketing Institute</a> warns against chasing flashy metrics that are not actually tied to a business goal, which is exactly the trap a volume only keyword list sets.</p>
+<p>Content Marketing Institute frames the same idea from the strategy side rather than the SEO side: its own description of a gap assessment pairs keyword research with <a href="/social-media-listening/">social listening</a>, a review of missed marketing goals, and input gathered directly from sales staff and the audience, not just an export from a single tool. <a href="https://contentmarketinginstitute.com/articles/content-gap-analysis/">Content Marketing Institute</a> warns against chasing flashy metrics that are not actually tied to a business goal, which is exactly the trap a volume only keyword list sets.</p>
 
 <div class="bx-faq">
   <div class="bx-faq-item open">
     <button class="bx-faq-q"><span class="bx-faq-num">1</span>What is a content gap analysis?</button>
-    <div class="bx-faq-a"><p>A content gap analysis is the process of comparing your existing content against what competitors rank for and what your audience actually searches for, then deciding which missing or weak topics are worth a new page or a refresh. It goes beyond a keyword export by also checking search intent and business fit.</p></div>
+    <div class="bx-faq-a"><p>A content gap analysis is the process of comparing your existing content against what competitors rank for and what your audience actually searches for, then deciding which missing or weak topics are worth a new page or a refresh. It goes beyond a keyword export by also checking <a href="/what-is-search-intent-practical-guide/">search intent</a> and business fit.</p></div>
   </div>
   <div class="bx-faq-item open">
     <button class="bx-faq-q"><span class="bx-faq-num">2</span>How is this different from a basic keyword gap report?</button>

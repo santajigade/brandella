@@ -239,7 +239,7 @@ format: "html"
 <button class="blm-tab-btn" onclick="blmTab(event,'blm-paid')">Paid LinkedIn Ads</button>
 </div>
 <div id="blm-organic" class="blm-tab-panel active">
-<p>According to <a href="https://connectsafely.ai/articles/b2b-linkedin-marketing-complete-guide-2026" target="_blank" rel="noopener">ConnectSafely's complete 2026 B2B LinkedIn guide</a>, U.S. cost-per-click on LinkedIn Ads now reaches $8 to $10 for competitive B2B audiences, which is exactly why organic-led teams built around personal profiles and employee advocacy increasingly make the stronger economic case.</p>
+<p>According to <a href="https://connectsafely.ai/articles/b2b-linkedin-marketing-complete-guide-2026" target="_blank" rel="noopener">ConnectSafely's complete 2026 B2B LinkedIn guide</a>, U.S. cost-per-click on <a href="/linkedin-ads-targeting/">LinkedIn Ads</a> now reaches $8 to $10 for competitive B2B audiences, which is exactly why organic-led teams built around personal profiles and employee advocacy increasingly make the stronger economic case.</p>
 </div>
 <div id="blm-paid" class="blm-tab-panel">
 <p>Paid still earns its place for precision targeting. LinkedIn lets you reach specific job titles, seniority levels, company sizes, and named accounts with a level of precision no other platform matches, making it worthwhile for account-based campaigns even at a higher cost per click.</p>

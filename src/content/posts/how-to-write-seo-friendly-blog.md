@@ -108,7 +108,7 @@ format: "html"
 
 <p class="bsb-lede">Some SEO friendly blog posts hit page one within three weeks. Others sit at position 47 for eight months and never move, even with solid writing and the right topic. The difference is rarely talent or luck. It comes down to whether the post was actually built to be SEO-friendly, or just written and hoped for the best.</p>
 
-<p>Writing SEO friendly blog posts is not about stuffing a keyword into every paragraph. It is a specific, repeatable process: matching search intent, structuring content so Google can understand it fully, and giving readers a complete answer instead of a thin summary padded with filler.</p>
+<p>Writing SEO friendly blog posts is not about stuffing a keyword into every paragraph. It is a specific, repeatable process: matching <a href="/what-is-search-intent-practical-guide/">search intent</a>, structuring content so Google can understand it fully, and giving readers a complete answer instead of a thin summary padded with filler.</p>
 
 <p>This guide walks through exactly how to write SEO-friendly blog posts that consistently rank, using the same framework professional content teams rely on in 2026.</p>
 

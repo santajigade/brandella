@@ -162,7 +162,7 @@ format: "html"
 
 <h2 id="comparison"><span class="bx-num">03</span>How This Compares to 2026's Earlier Spam Updates</h2>
 <div class="bx-rule"></div>
-<p>Rollout speed varies a lot between spam updates, and speed alone doesn't indicate severity. Search Engine Journal's reporting notes the March 2026 spam update was the fastest confirmed rollout in the dashboard's history, while the June 2026 update followed a separate May 15 clarification that Google's spam policies also apply to attempts to manipulate AI Overviews and AI Mode responses.</p>
+<p>Rollout speed varies a lot between spam updates, and speed alone doesn't indicate severity. Search Engine Journal's reporting notes the March 2026 spam update was the fastest confirmed rollout in the dashboard's history, while the June 2026 update followed a separate May 15 clarification that Google's spam policies also apply to attempts to manipulate AI Overviews and <a href="/what-is-google-ai-mode/">AI Mode</a> responses.</p>
 
 <div class="bx-table-wrap">
 <table class="bx-table">

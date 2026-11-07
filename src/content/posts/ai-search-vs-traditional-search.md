@@ -107,7 +107,7 @@ format: "html"
 
 <p class="bx-lede">AI search vs traditional search comes down to one decisive difference in 2026: traditional search hands you a list of links to choose from, while AI search reads those same sources for you and hands back one synthesized answer naming just two or three of them.</p>
 
-<p>That single shift in output format is reshaping how billions of searches actually resolve. Zero-click searches now hit roughly 68% overall, and inside Google's AI Mode specifically, 93% of searches end without a single click to any website.</p>
+<p>That single shift in output format is reshaping how billions of searches actually resolve. Zero-click searches now hit roughly 68% overall, and inside Google's <a href="/what-is-google-ai-mode/">AI Mode</a> specifically, 93% of searches end without a single click to any website.</p>
 
 <p>Traditional search isn't dead, Google still captures the overwhelming majority of total search volume. But the two systems increasingly serve different jobs, and understanding the split is what separates a solid 2026 strategy from a guessing game.</p>
 

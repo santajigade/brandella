@@ -211,7 +211,7 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <span class="bx-pill">Off-Page SEO</span>
 </div>
 
-<p>Hey! If you have ever stared at a backlink report and wondered why some links seem to matter more than others, this guide is for you. We are going to clear up exactly what that tiny rel attribute in your code is doing to your rankings.</p>
+<p>Hey! If you have ever stared at a backlink report and wondered why some links seem to matter more than others, this guide is for you. We are going to clear up exactly what that tiny <a href="/link-rel-attribute-explained/">rel attribute</a> in your code is doing to your rankings.</p>
 
 <p class="bx-lede"><em>Picture this: a major publication mentions your brand, but buried in the link code is a single word that decides whether that mention quietly lifts your rankings or just sends a trickle of referral visitors. That word is the entire nofollow vs dofollow links debate, and most marketers still get it wrong because they are working from rules Google rewrote back in 2019.</em></p>
 

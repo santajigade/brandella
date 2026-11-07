@@ -130,7 +130,7 @@ format: "html"
 <div class="bxs-stat-grid">
 <div class="bxs-stat-card"><div class="bxs-stat-num">500</div><p>pages is roughly where Google's own guidance says a sitemap becomes worth having</p></div>
 <div class="bxs-stat-card"><div class="bxs-stat-num">0</div><p>direct ranking boost a sitemap provides on its own, by Google's own admission</p></div>
-<div class="bxs-stat-card"><div class="bxs-stat-num">3</div><p>major AI answer engines, Google AI Mode, Perplexity, and Gemini, that use sitemap signals for discovery</p></div>
+<div class="bxs-stat-card"><div class="bxs-stat-num">3</div><p>major AI answer engines, <a href="/what-is-google-ai-mode/">Google AI Mode</a>, Perplexity, and Gemini, that use sitemap signals for discovery</p></div>
 </div>
 <!-- OPENING ADSENSE CODE -->
 <div style="margin:40px 0;">
@@ -196,7 +196,7 @@ format: "html"
 </div>
 
 <h2 id="how-ai-search-changed-the-sitemap-s-job">How AI Search Changed the Sitemap's Job</h2>
-<p>Traditional search engines used XML sitemaps purely for discovery and crawl prioritization.</p>
+<p><a href="/ai-search-vs-traditional-search/">Traditional search</a> engines used XML sitemaps purely for discovery and crawl prioritization.</p>
 
 <p>According to <a href="https://www.clickrank.ai/sitemap-structure-for-ai-search/" target="_blank" rel="noopener">ClickRank's 2026 guide to XML sitemap structure for AI search</a>, AI systems evaluate a site differently than traditional crawlers do.</p>
 

@@ -7,7 +7,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import AdSlot from '../components/AdSlot.astro';
 import {
   getPosts, primaryCat, topCat, catUrl, catBySlug, authorOf, authorUrl, readTime,
-  formatDate, related, nextUp, postUrl, headings, absolute,
+  formatDate, related, nextUp, postUrl, headings, absolute, faqs,
 } from '../lib/site';
 import { SITE } from '../config';
 
@@ -56,6 +56,13 @@ if (kind === 'post') {
     wordCount: p.data.words,
     inLanguage: 'en',
   }];
+  const qa = /"FAQPage"/.test(html) ? [] : faqs(html);
+  if (qa.length >= 2) schema.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    '@id': `${absolute(postUrl(p))}#faq`,
+    mainEntity: qa.map((x) => ({ '@type': 'Question', name: x.q, acceptedAnswer: { '@type': 'Answer', text: x.a } })),
+  } as any);
   post = {
     p, cat, top, author, toc, showHero, crumbs, updated, schema,
     rel: related(posts, p, 4),
