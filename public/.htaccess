@@ -67,7 +67,7 @@ ErrorDocument 404 /404.html
   RewriteRule ^infinite\-scroll\-vs\-pagination/?$ /infinite-scroll-vs-pagination-7-real-javascript-differences/ [R=301,L]
   RewriteRule ^information\-gain\-seo\-explained\-examples/?$ /information-gain-seo-explained/ [R=301,L]
   RewriteRule ^linkedin\-marketing\-strategy\-b2b\-companies/?$ /linkedin-marketing-strategy/ [R=301,L]
-  RewriteRule ^meta\-robots\-tags\-explained\-html\-examples/?$ /meta-robots-tags-explained/ [R=301,L]
+  RewriteRule ^meta\-robots\-tags\-explained\-html\-examples/?$ /meta-robots-tags-explained-2/ [R=301,L]
   RewriteRule ^mobile\-seo\-checklist\-for\-faster\-rankings/?$ /mobile-seo-checklist-for-faster-rankings-2026/ [R=301,L]
   RewriteRule ^off\-page\-seo\-checklist\-2026/?$ /off-page-seo-checklist-for-2026/ [R=301,L]
   RewriteRule ^online\-retailers\-struggle\-as\-consumers\-cut\-discretionary\-spending/?$ /how-google-sge-is-changing-seo-2025/ [R=301,L]
@@ -88,6 +88,10 @@ ErrorDocument 404 /404.html
   RewriteRule ^what\-is\-search\-intent\-practical\-guide\-examples/?$ /what-is-search-intent-practical-guide/ [R=301,L]
   RewriteRule ^what\-is\-total\-blocking\-time\-tbt\-guide/?$ /what-is-total-blocking-time-tbt/ [R=301,L]
   # END post redirects
+
+  # BEGIN manual redirects (kept by hand, not generated)
+  RewriteRule ^meta\-robots\-tags\-explained/?$ /meta-robots-tags-explained-2/ [R=301,L]
+  # END manual redirects
 
   # Block every PHP file (the old WordPress files stay on disk but must not run)
   RewriteRule \.php$ - [F,L]

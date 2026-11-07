@@ -145,7 +145,7 @@ format: "html"
 </div>
 <!-- CLOSING ADSENSE CODE -->
 
-<p>We covered the page-level version of these directives in our <a href="/meta-robots-tags-explained/" target="_blank" rel="noopener">meta robots tags guide</a>, and the crawling layer beneath both in our <a href="/robots-txt-complete-guide/" target="_blank" rel="noopener">robots.txt guide</a>. X-Robots-Tag is the piece that handles everything those two cannot.</p>
+<p>We covered the page-level version of these directives in our <a href="/meta-robots-tags-explained-2/" target="_blank" rel="noopener">meta robots tags guide</a>, and the crawling layer beneath both in our <a href="/robots-txt-complete-guide/" target="_blank" rel="noopener">robots.txt guide</a>. X-Robots-Tag is the piece that handles everything those two cannot.</p>
 
 <div class="bxr-stat-grid">
 <div class="bxr-stat-card"><div class="bxr-stat-num">0</div><p>meta tags a PDF, image, or video file can technically contain</p></div>
@@ -385,7 +385,7 @@ curl -I https://example.com/document.pdf</pre>
 <div class="bxr-related-box">
 <h3>Related Articles</h3>
 <ul>
-<li><a href="/meta-robots-tags-explained/" target="_blank" rel="noopener">Meta Robots Tags Explained with HTML Code Examples</a></li>
+<li><a href="/meta-robots-tags-explained-2/" target="_blank" rel="noopener">Meta Robots Tags Explained with HTML Code Examples</a></li>
 <li><a href="/robots-txt-complete-guide/" target="_blank" rel="noopener">Robots.txt Explained: Complete Guide with Examples</a></li>
 <li><a href="/how-to-add-schema-markup-json-ld/" target="_blank" rel="noopener">How to Add Schema Markup to Any Website (JSON-LD Examples)</a></li>
 <li><a href="/build-xml-sitemap-generator-php/" target="_blank" rel="noopener">Build Your Own XML Sitemap Generator in PHP</a></li>

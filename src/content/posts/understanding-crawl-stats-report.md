@@ -462,7 +462,7 @@ function bxCalc(){
 <ul>
 <li><a href="/url-inspection-tool-diagnose-indexing-problems/" target="_blank" rel="noopener">How to Use the URL Inspection Tool to Diagnose Indexing Problems</a></li>
 <li><a href="/discovered-currently-not-indexed-fix/" target="_blank" rel="noopener">How to Fix "Discovered – Currently Not Indexed" Pages</a></li>
-<li><a href="/meta-robots-tags-explained/" target="_blank" rel="noopener">Meta Robots Tags Explained: Index, Noindex, Follow, Nofollow, and More</a></li>
+<li><a href="/meta-robots-tags-explained-2/" target="_blank" rel="noopener">Meta Robots Tags Explained: Index, Noindex, Follow, Nofollow, and More</a></li>
 <li><a href="/how-to-test-mobile-friendliness-website/" target="_blank" rel="noopener">How to Test Mobile Friendliness of a Website</a></li>
 </ul>
 </div>

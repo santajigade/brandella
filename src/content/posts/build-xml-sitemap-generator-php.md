@@ -509,7 +509,7 @@ function bsgBuild(){
 <ul>
 <li><a href="/what-is-xml-sitemap-ai-search-era/" target="_blank" rel="noopener">What Is an XML Sitemap, and Does It Still Matter in the AI Search Era?</a></li>
 <li><a href="/how-to-add-schema-markup-json-ld/" target="_blank" rel="noopener">How to Add Schema Markup to Any Website (JSON-LD Examples)</a></li>
-<li><a href="/meta-robots-tags-explained/" target="_blank" rel="noopener">Meta Robots Tags Explained with HTML Code Examples</a></li>
+<li><a href="/meta-robots-tags-explained-2/" target="_blank" rel="noopener">Meta Robots Tags Explained with HTML Code Examples</a></li>
 <li><a href="/crawl-budget-explained/" target="_blank" rel="noopener">Crawl Budget Explained: Why Google Might Be Ignoring Half Your Site</a></li>
 </ul>
 </div>

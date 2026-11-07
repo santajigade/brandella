@@ -511,7 +511,7 @@ function bxCalc(){
 <h3>Related Articles</h3>
 <ul>
 <li><a href="/url-inspection-tool-diagnose-indexing-problems/" target="_blank" rel="noopener">How to Use the URL Inspection Tool to Diagnose Indexing Problems</a></li>
-<li><a href="/meta-robots-tags-explained/" target="_blank" rel="noopener">Meta Robots Tags Explained: Index, Noindex, Follow, Nofollow, and More</a></li>
+<li><a href="/meta-robots-tags-explained-2/" target="_blank" rel="noopener">Meta Robots Tags Explained: Index, Noindex, Follow, Nofollow, and More</a></li>
 <li><a href="/link-equity-explained/" target="_blank" rel="noopener">Link Equity Explained: How Authority Flows Through Your Website</a></li>
 <li><a href="/how-to-test-mobile-friendliness-website/" target="_blank" rel="noopener">How to Test Mobile Friendliness of a Website</a></li>
 </ul>
@@ -535,7 +535,7 @@ function bxCalc(){
   <p>Fixing indexing issues pairs directly with the URL Inspection tool and meta robots directives. Explore both guides next.</p>
   <div class="bx-actions">
     <a class="bx-btn primary" href="/url-inspection-tool-diagnose-indexing-problems/" target="_blank" rel="noopener">URL Inspection Tool Guide</a>
-    <a class="bx-btn ghost" href="/meta-robots-tags-explained/" target="_blank" rel="noopener">Meta Robots Tags Explained</a>
+    <a class="bx-btn ghost" href="/meta-robots-tags-explained-2/" target="_blank" rel="noopener">Meta Robots Tags Explained</a>
   </div>
 </section>
 

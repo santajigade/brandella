@@ -302,7 +302,7 @@ function bxCalc(){var selects=document.querySelectorAll('.bx-calc-select');var t
 <ul>
 <li><a href="/auto-generate-table-of-contents-headings/" target="_blank" rel="noopener">How to Automatically Generate Table of Contents from Headings</a></li>
 <li><a href="/canonical-tag-implementation-guide/" target="_blank" rel="noopener">Canonical Tag Implementation Guide</a></li>
-<li><a href="/meta-robots-tags-explained/" target="_blank" rel="noopener">Meta Robots Tags Explained</a></li>
+<li><a href="/meta-robots-tags-explained-2/" target="_blank" rel="noopener">Meta Robots Tags Explained</a></li>
 </ul>
 </div>
 

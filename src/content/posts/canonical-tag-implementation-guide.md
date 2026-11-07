@@ -310,7 +310,7 @@ function bxCalc(){var selects=document.querySelectorAll('.bx-calc-select');var t
 <ul>
 <li><a href="/what-is-canonical-tag/" target="_blank" rel="noopener">What Is a Canonical Tag?</a></li>
 <li><a href="/pagination-seo-explained-best-practices/" target="_blank" rel="noopener">Pagination SEO Explained: Best Practices</a></li>
-<li><a href="/meta-robots-tags-explained/" target="_blank" rel="noopener">Meta Robots Tags Explained</a></li>
+<li><a href="/meta-robots-tags-explained-2/" target="_blank" rel="noopener">Meta Robots Tags Explained</a></li>
 </ul>
 </div>
 
@@ -331,7 +331,7 @@ function bxCalc(){var selects=document.querySelectorAll('.bx-calc-select');var t
 <p>Canonical tags work best alongside proper pagination and robots directives. Explore both guides next.</p>
 <div class="bx-actions">
 <a class="bx-btn primary" href="/pagination-seo-explained-best-practices/" target="_blank" rel="noopener">Pagination SEO Explained</a>
-<a class="bx-btn ghost" href="/meta-robots-tags-explained/" target="_blank" rel="noopener">Meta Robots Tags Explained</a>
+<a class="bx-btn ghost" href="/meta-robots-tags-explained-2/" target="_blank" rel="noopener">Meta Robots Tags Explained</a>
 </div>
 </section>
 

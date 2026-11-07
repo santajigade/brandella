@@ -317,7 +317,7 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>You cannot eyeball every pair across a hundred pages and trust what you see. A crawler is the only realistic way to confirm every pair actually links back correctly.</p>
 
-<p>Tools built for this job flag the same handful of problems every time: broken or redirected targets, missing reciprocal links, duplicate language codes pointing at more than one URL, and annotations that contradict a <a href="/meta-robots-tags-explained/">noindex directive</a> on the target page. Run that check after every content migration, not just once at launch, since a single URL change can quietly snap a whole cluster.</p>
+<p>Tools built for this job flag the same handful of problems every time: broken or redirected targets, missing reciprocal links, duplicate language codes pointing at more than one URL, and annotations that contradict a <a href="/meta-robots-tags-explained-2/">noindex directive</a> on the target page. Run that check after every content migration, not just once at launch, since a single URL change can quietly snap a whole cluster.</p>
 
 <p>It also helps to confirm your <a href="https://searchengineland.com/guide/international-seo">overall international site structure</a> before you fix individual tags, since this annotation layered on top of an inconsistent folder or subdomain structure tend to break again the next time someone reorganizes the site.</p>
 

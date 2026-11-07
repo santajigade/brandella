@@ -144,7 +144,7 @@ format: "html"
 </div>
 <!-- CLOSING ADSENSE CODE -->
 
-<p>We covered the page-level counterpart to this file in our <a href="/meta-robots-tags-explained/" target="_blank" rel="noopener">meta robots tags guide</a>. Robots.txt blocks crawling before a page is ever fetched; meta robots tags control indexing after it already has been.</p>
+<p>We covered the page-level counterpart to this file in our <a href="/meta-robots-tags-explained-2/" target="_blank" rel="noopener">meta robots tags guide</a>. Robots.txt blocks crawling before a page is ever fetched; meta robots tags control indexing after it already has been.</p>
 
 <div class="brt-stat-grid">
 <div class="brt-stat-card"><div class="brt-stat-num">500KB</div><p>is Google's documented size limit for a robots.txt file; content beyond it is ignored</p></div>
@@ -400,7 +400,7 @@ function brtTest(){
 <div class="brt-related-box">
 <h3>Related Articles</h3>
 <ul>
-<li><a href="/meta-robots-tags-explained/" target="_blank" rel="noopener">Meta Robots Tags Explained with HTML Code Examples</a></li>
+<li><a href="/meta-robots-tags-explained-2/" target="_blank" rel="noopener">Meta Robots Tags Explained with HTML Code Examples</a></li>
 <li><a href="/crawl-budget-explained/" target="_blank" rel="noopener">Crawl Budget Explained: Why Google Might Be Ignoring Half Your Site</a></li>
 <li><a href="/build-xml-sitemap-generator-php/" target="_blank" rel="noopener">Build Your Own XML Sitemap Generator in PHP</a></li>
 <li><a href="/what-is-xml-sitemap-ai-search-era/" target="_blank" rel="noopener">What Is an XML Sitemap, and Does It Still Matter in the AI Search Era?</a></li>
