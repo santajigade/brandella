@@ -1,5 +1,5 @@
 ---
-title: "Branded Queries Filter in Search Console: What It Is and Why It Matters"
+title: "Branded vs Non-Branded Filter in Google Search Console"
 slug: "branded-queries-filter-in-search-console"
 date: "2026-03-11T15:32:22"
 updated: "2026-08-09T08:41:02"
@@ -7,8 +7,8 @@ author: "santajigade"
 categories: ["google-search-console", "seo"]
 primaryCategory: "seo"
 tags: ["Branded Queries Filter", "Google Search Console Update", "SEO Tools 2026"]
-description: "Google introduces the Branded Queries Filter in Search Console. Learn how it works, how branded vs non-branded queries are identified, and why it matters for SEO strategy."
-focusKeyword: "Branded Queries Filter"
+description: "How to use the branded queries filter in Google Search Console to split branded and non-branded traffic and spot real SEO growth."
+focusKeyword: "google search console branded non branded filter"
 image: "/wp-content/uploads/2026/03/Branded-Queries-Filter.webp"
 imageAlt: "Branded Queries Filter"
 words: 705

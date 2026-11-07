@@ -1,12 +1,12 @@
 ---
-title: "The link rel Attribute Explained: Preload, Prefetch, Canonical, and Alternate"
+title: "Link Rel Attribute: Dofollow, Nofollow, Sponsored, UGC"
 slug: "link-rel-attribute-explained"
 date: "2026-08-30T04:32:36"
 updated: "2026-08-31T04:09:38"
 author: "santajigade"
 categories: ["development", "html"]
 primaryCategory: "html"
-description: "The link rel attribute explained with real browser timing proof: how preload, prefetch, canonical, and alternate actually work, and how to avoid the common mistakes."
+description: "Every link rel value explained with HTML examples: dofollow, nofollow, sponsored, ugc and noopener, plus how each one affects SEO."
 focusKeyword: "link rel attribute"
 image: "/wp-content/uploads/2026/08/link-rel-attribute.webp"
 imageAlt: "link rel attribute"

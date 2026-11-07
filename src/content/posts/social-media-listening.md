@@ -1,12 +1,12 @@
 ---
-title: "Social Media Listening: 7 Essential Tools and Tips"
+title: "Social Media Listening: Tools, Examples and How to Start"
 slug: "social-media-listening"
 date: "2026-10-14T05:50:33"
 updated: "2026-10-14T05:50:56"
 author: "santajigade"
 categories: ["social"]
 primaryCategory: "social"
-description: "Discover what social media listening really means, how sentiment analysis works, and 7 essential tools for brand reputation and crisis management."
+description: "What social media listening is, how it differs from monitoring, the best tools like Brand24, and how to turn mentions into marketing wins."
 focusKeyword: "social media listening"
 image: "/wp-content/uploads/2026/10/social-media-listening.webp"
 imageAlt: "social media listening"

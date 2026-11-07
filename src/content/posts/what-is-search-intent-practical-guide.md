@@ -1,13 +1,13 @@
 ---
-title: "What Is Search Intent? A Practical Guide with Real Examples"
+title: "Intent-Based Search: What Search Intent Means for SEO"
 slug: "what-is-search-intent-practical-guide"
 date: "2026-08-02T09:29:38"
 updated: "2026-08-09T08:39:42"
 author: "santajigade"
 categories: ["keyword-research", "seo"]
 primaryCategory: "keyword-research"
-description: "\"Best running shoes\" wants a comparison; \"buy Nike Pegasus 41\" wants checkout. Learn the 4 search intent types plus 3 new AI-search patterns, with real examples."
-focusKeyword: "search intent"
+description: "Learn what intent-based search is, the 4 types of search intent and how to match your content to each one to rank higher and earn more clicks."
+focusKeyword: "intent-based search"
 image: "/wp-content/uploads/2026/08/search-intent.webp"
 imageAlt: "search intent"
 words: 1135

@@ -1,13 +1,13 @@
 ---
-title: "Meta Robots Tags Explained: Index, Noindex, Follow, Nofollow, and More"
+title: "Meta Robots Tag: Noindex, Nofollow and Follow Explained"
 slug: "meta-robots-tags-explained-2"
 date: "2026-08-09T05:34:18"
 updated: "2026-08-09T08:35:17"
 author: "santajigade"
 categories: ["seo", "technical-seo"]
 primaryCategory: "technical-seo"
-description: "Meta robots tags explained: how index, noindex, follow, and nofollow actually work, plus the mistakes that accidentally deindex pages."
-focusKeyword: "Meta Robots Tags"
+description: "How the meta robots tag works, when to use noindex, nofollow and follow, with code examples and common mistakes that block pages from Google."
+focusKeyword: "meta robots tag"
 image: "/wp-content/uploads/2026/08/Meta-Robots-Tags.webp"
 imageAlt: "Meta Robots Tags"
 words: 1737

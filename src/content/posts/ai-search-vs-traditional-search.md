@@ -1,13 +1,13 @@
 ---
-title: "AI Search vs Traditional Search: What's Really Different in 2026"
+title: "AI Search vs Traditional Search: Rankings Compared (2026)"
 slug: "ai-search-vs-traditional-search"
 date: "2026-08-23T15:57:46"
 updated: "2026-08-23T15:58:10"
 author: "santajigade"
 categories: ["artificial-intelligence"]
 primaryCategory: "artificial-intelligence"
-description: "AI search vs traditional search: why 93% of Google AI Mode searches end without a click, and how ranking and AI citation have become separate outcomes."
-focusKeyword: "AI search vs traditional search"
+description: "AI search and traditional search compared side by side: how rankings, clicks and citations differ, and how to optimise for both."
+focusKeyword: "traditional search vs ai search"
 image: "/wp-content/uploads/2026/08/AI-search-vs-traditional-search.webp"
 imageAlt: "AI search vs traditional search"
 words: 1329

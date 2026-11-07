@@ -1,13 +1,13 @@
 ---
-title: "Google Releases August 2026 Spam Update: What SEOs Need to Know"
+title: "August 2026 Spam Update: What Changed and How to Recover"
 slug: "august-2026-spam-update"
 date: "2026-08-19T04:28:18"
 updated: "2026-08-19T04:28:18"
 author: "santajigade"
 categories: ["google-search-console"]
 primaryCategory: "google-search-console"
-description: "Google's August 2026 spam update rolled out August 18, its third spam update this year. Here's what's confirmed, what it doesn't target, and what to check."
-focusKeyword: "August 2026 spam update"
+description: "Google's August 2026 spam update explained: what it targets, who was hit and a step-by-step checklist to recover lost rankings."
+focusKeyword: "august 2026 spam update"
 image: "/wp-content/uploads/2026/08/August-2026-spam-update.webp"
 imageAlt: "August 2026 spam update"
 words: 1061
