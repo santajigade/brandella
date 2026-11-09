@@ -80,6 +80,11 @@ def check(slug):
     img = fm.get("image", "")
     if img and not os.path.exists(os.path.join(ROOT, "public", img.lstrip("/"))):
         fails.append("image file missing: " + img)
+    for alt, src in re.findall(r"!\[([^\]]*)\]\(([^)\s]+)\)", body):
+        if src.startswith("/") and not os.path.exists(os.path.join(ROOT, "public", src.lstrip("/"))):
+            fails.append("body image missing: " + src)
+        if len(alt.strip()) < 10:
+            fails.append("body image needs descriptive alt text: " + src)
     title, desc, kw = fm.get("title", ""), fm.get("description", ""), (fm.get("focusKeyword") or "").lower()
     if not 35 <= len(title) <= 70:
         warns.append("title length %d (aim 45 to 65)" % len(title))
@@ -109,7 +114,7 @@ def check(slug):
             fails.append("generic heading: " + h)
     if kw and not any(kw in h.lower() for _, h in heads):
         warns.append("focus keyword not in any H2 or H3")
-    links = re.findall(r"\]\(([^)\s]+)", body)
+    links = re.findall(r"\]\(([^)\s]+)", re.sub(r"!\[[^\]]*\]\([^)]*\)", "", body))
     internal = [u for u in links if u.startswith("/")]
     external = [u for u in links if u.startswith("http")]
     for u in internal:
