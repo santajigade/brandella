@@ -19,7 +19,7 @@ Creative Drop is a monthly series, and this edition is less about brand new prod
 
 If you run Search, YouTube or Performance Max campaigns and want to scale creative or reach new language markets before the end of the year, here is what changed and how to test it safely.
 
-![Google Ads Creative Drop 2 infographic: AI Campaign Translation, Asset Studio images and Gemini Omni 1.2 video with product manager tips](/images/infographics/google-ads-creative-drop-2-holiday-ai-tools-1.webp)
+![Google Ads Creative Drop 2 infographic: AI Campaign Translation, Asset Studio images and Gemini Omni 1.2 video with product manager tips](/images/infographics/ig-google-ads-creative-drop-2-holiday-ai-tools-1.webp)
 
 ## What is in Google Ads Creative Drop 2
 
@@ -57,7 +57,7 @@ We covered the model in detail in our post on [Gemini Omni 1.2 Flash and 15 seco
 
 These steps are Brandella's recommendations for using the Creative Drop 2 tools without risking peak season performance.
 
-![Six step holiday test plan for Google Ads Creative Drop 2 tools](/images/infographics/google-ads-creative-drop-2-holiday-ai-tools-2.webp)
+![Six step holiday test plan for Google Ads Creative Drop 2 tools](/images/infographics/ig-google-ads-creative-drop-2-holiday-ai-tools-2.webp)
 
 1. **Check access first.** Open Asset Studio and the campaign tools in your account and confirm which features you actually see. Google has not published availability details.
 2. **Translate one campaign, not all of them.** Pick a single well performing Search campaign and a single new market. Keep the translated copy paused until a native speaker has read every headline, description and keyword.

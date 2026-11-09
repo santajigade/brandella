@@ -5,7 +5,8 @@ Usage: python3 scripts/make_infographic.py <spec.json>
 Writes public/images/infographics/<name>.webp and prints its site path.
 
 Spec keys:
-  name      file name without extension, e.g. "<slug>-1"
+  name      file name without extension, e.g. "<slug>-1" (the script saves it as ig-<slug>-1;
+            the ig- prefix matters: a body image whose name starts with the cover's name hides the featured image)
   type      "stats" | "compare" | "steps"
   title     heading shown at the top
   section   top section name (picks the accent colour, same as covers)
@@ -32,7 +33,7 @@ ACCENTS = {
     "Social": (214, 41, 118), "Digital Marketing": (0, 166, 153),
     "Artificial Intelligence": (124, 77, 255), "Development": (255, 196, 0),
 }
-DASHES = ("–", "—")
+DASHES = (chr(0x2013), chr(0x2014))
 
 
 def font(weight, size):
@@ -160,10 +161,11 @@ def main(path):
     d.text((PAD, fy), spec.get("source", ""), font=font(600, 20), fill=GREY)
     brand = "Brandella Journal"
     d.text((W - PAD, fy), brand, font=font(800, 22), fill=GREEN, anchor="ra")
+    name = spec["name"] if spec["name"].startswith("ig-") else "ig-" + spec["name"]
     out_dir = os.path.join(ROOT, "public/images/infographics")
     os.makedirs(out_dir, exist_ok=True)
-    img.save(os.path.join(out_dir, spec["name"] + ".webp"), "WEBP", quality=86, method=6)
-    print("/images/infographics/%s.webp" % spec["name"])
+    img.save(os.path.join(out_dir, name + ".webp"), "WEBP", quality=86, method=6)
+    print("/images/infographics/%s.webp" % name)
 
 
 if __name__ == "__main__":

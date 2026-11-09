@@ -83,6 +83,9 @@ def check(slug):
     for alt, src in re.findall(r"!\[([^\]]*)\]\(([^)\s]+)\)", body):
         if src.startswith("/") and not os.path.exists(os.path.join(ROOT, "public", src.lstrip("/"))):
             fails.append("body image missing: " + src)
+        cover = os.path.splitext(os.path.basename(img))[0]
+        if fm.get("format") == "md" and cover and re.search("/" + re.escape(cover) + r"[^\"'\s)]*\.(webp|jpe?g|png|gif|avif)", src):
+            fails.append("body image name starts with the cover name and would hide the featured image (use ig- prefix): " + src)
         if len(alt.strip()) < 10:
             fails.append("body image needs descriptive alt text: " + src)
     title, desc, kw = fm.get("title", ""), fm.get("description", ""), (fm.get("focusKeyword") or "").lower()

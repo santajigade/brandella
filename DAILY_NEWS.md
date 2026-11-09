@@ -86,19 +86,20 @@ Then look at `public/images/covers/<slug>.webp` with the Read tool. Shorten the 
 
 ## 5b. In-article infographics (1 or 2 per post)
 Santaji asked for related infographics between the paragraphs of every article.
-- Write a JSON spec in the scratchpad (not in the repo) and run `python3 scripts/make_infographic.py <spec.json>`. Types: `stats` (2 to 4 key numbers), `compare` (before vs now or feature table, 2 to 6 rows), `steps` (the "what to do now" checklist, 3 to 7 short steps). See the script header for the keys. Name them `<slug>-1`, `<slug>-2`.
+- Write a JSON spec in the scratchpad (not in the repo) and run `python3 scripts/make_infographic.py <spec.json>`. Types: `stats` (2 to 4 key numbers), `compare` (before vs now or feature table, 2 to 6 rows), `steps` (the "what to do now" checklist, 3 to 7 short steps). See the script header for the keys. Name them `<slug>-1`, `<slug>-2`; the script saves them as `ig-<slug>-1.webp` (keep the `ig-` prefix, otherwise the featured image is hidden on the article page).
 - Good default: one `stats` or `compare` graphic right after the intro (before the first `##`), and one `steps` graphic at the start of the practical section.
 - Only facts that are already in the article and come from a source opened in this run. Put the source in the `source` line, or "Brandella recommendations" for our own advice. No dashes.
-- Insert as Markdown with descriptive alt text (at least 10 characters): `![Alt text describing the graphic](/images/infographics/<slug>-1.webp)`.
+- Insert as Markdown with descriptive alt text (at least 10 characters): `![Alt text describing the graphic](/images/infographics/ig-<slug>-1.webp)`.
+- The featured image (cover) must still show at the top of the article: after the build, `grep -c post-hero dist/<slug>/index.html` must print 1.
 - Look at every graphic with the Read tool; fix text that wraps badly or overflows.
-- Commit them with the post: also `git add public/images/infographics/<slug>-*.webp`.
+- Commit them with the post: also `git add public/images/infographics/ig-<slug>-*.webp`.
 - Never use stock photos, photos of real people, or images copied from other sites.
 
 ## 6. Check, build, publish
 - `python3 scripts/check_post.py <slug1> <slug2> ...` must print OK for every post. Fix every FAIL; read the warnings and fix them where sensible.
 - `grep -P "[\x{2013}\x{2014}]" src/content/posts/<slug>.md` must print nothing.
 - `npm run build` must pass, and `dist/<slug>/index.html` must exist for each post.
-- Commit only the new posts, covers and infographics: `git add src/content/posts/<slugs>.md public/images/covers/<slugs>.webp public/images/infographics/<slug>-*.webp`, message `news: <N> articles <YYYY-MM-DD HH:MM IST>`, then `git pull --rebase` and `git push`.
+- Commit only the new posts, covers and infographics: `git add src/content/posts/<slugs>.md public/images/covers/<slugs>.webp public/images/infographics/ig-<slug>-*.webp`, message `news: <N> articles <YYYY-MM-DD HH:MM IST>`, then `git pull --rebase` and `git push`.
 - Wait for the Deploy to Hostinger run (`gh run list -R santajigade/brandella -L 1`) and confirm it succeeded. If it fails, read the log and fix.
 
 Never edit old posts, the theme, `.htaccess`, workflows or anything under `/tools/` in a news run. If a post cannot pass the checks, leave it out and publish the rest.

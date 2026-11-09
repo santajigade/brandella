@@ -19,7 +19,7 @@ This matters well beyond travel. Tripadvisor is one of the best known review and
 
 Below we break down what Tripadvisor actually said, what it is doing about it, and the practical steps you can take to make your own site less exposed.
 
-![Tripadvisor Q3 2026 key numbers: revenue $436.4M down 11%, Viator $284.8M down 3%, Hotels and Other $151.6M down 23%, SEO headwind about 3%](/images/infographics/tripadvisor-seo-headwinds-2027-1.webp)
+![Tripadvisor Q3 2026 key numbers: revenue $436.4M down 11%, Viator $284.8M down 3%, Hotels and Other $151.6M down 23%, SEO headwind about 3%](/images/infographics/ig-tripadvisor-seo-headwinds-2027-1.webp)
 
 ## What Tripadvisor reported for Q3 2026
 
@@ -70,7 +70,7 @@ The company also gave no specific 2027 guidance, saying 2027 "is designed to est
 
 You may not run a travel marketplace, but the lesson is the same: if one channel can cut your growth by several points in a quarter, you need a plan before it happens. These steps are Brandella's recommendations, not anything Tripadvisor or Google has asked for.
 
-![Six steps to cut your search traffic risk, from measuring organic exposure to modelling a further drop in 2027](/images/infographics/tripadvisor-seo-headwinds-2027-2.webp)
+![Six steps to cut your search traffic risk, from measuring organic exposure to modelling a further drop in 2027](/images/infographics/ig-tripadvisor-seo-headwinds-2027-2.webp)
 
 1. **Measure your own exposure.** Work out what share of visits, leads or revenue comes from organic search. Tripadvisor puts its figure in the mid to high teens; many smaller sites are far higher. The [Search Console performance report](/search-console-performance-report/) is the place to start.
 2. **Split branded and non branded clicks.** Branded queries usually hold up better than generic ones. Use the [branded vs non branded filter in Search Console](/branded-queries-filter-in-search-console/) to see which half of your traffic is shrinking.
