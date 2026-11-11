@@ -78,7 +78,7 @@ format: "html"
 <h2 id="3-ai-bidding-the-optimization-engine">3. AI Bidding — The Optimization Engine</h2>
 <p>Smart Bidding strategies like Target CPA and Target ROAS use real-time auction-time signals.</p>
 <p>Google confirms in its <a href="https://support.google.com/sa360/answer/9972326?hl=en" target="_new" rel="noopener">auction-time bidding explanation</a> that the system evaluates device, location, time, browser context, audience behavior, and historical conversion patterns within milliseconds.</p>
-<p>AI bidding is predictive.</p>
+<p><a href="/ai-in-ppc-should-advertisers-be-worried/">AI bidding</a> is predictive.</p>
 <p>It does not simply react.</p>
 <p>But it requires fuel.</p>
 <p>That fuel is conversion tracking.</p>

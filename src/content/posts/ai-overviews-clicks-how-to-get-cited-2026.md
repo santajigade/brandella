@@ -412,7 +412,7 @@ function baoCheck(){
 <p>Write a focused page for each sub-question, with the answer in the first sentences and supporting detail underneath. Link these pages to each other and back to a central hub page, so both traditional crawlers and AI Overviews can trace the relationship between them.</p>
 
 <h2 id="measuring-success-beyond-clicks">Measuring Success Beyond Clicks</h2>
-<p>Traditional SEO reporting leans heavily on organic clicks and rankings. That single lens misses most of what is happening when AI Overviews absorb a search before it ever reaches your analytics.</p>
+<p>Traditional <a href="/python-and-pandas-seo-reporting/">SEO reporting</a> leans heavily on organic clicks and rankings. That single lens misses most of what is happening when AI Overviews absorb a search before it ever reaches your analytics.</p>
 
 <p>Track impressions and average position in Search Console alongside clicks, since impressions often keep climbing even as click-through rate falls.</p>
 

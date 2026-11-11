@@ -363,7 +363,7 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
   <div class="bx-faq-item open">
     <button class="bx-faq-q"><span class="bx-faq-num">2</span>Is SEO the same thing as digital marketing?</button>
-    <div class="bx-faq-a"><p>No. SEO is one channel within digital marketing, alongside paid ads, email, and social media. It specifically targets unpaid search results.</p></div>
+    <div class="bx-faq-a"><p>No. SEO is one channel within <a href="/understanding-digital-marketing/">digital marketing</a>, alongside paid ads, email, and social media. It specifically targets unpaid search results.</p></div>
   </div>
   <div class="bx-faq-item open">
     <button class="bx-faq-q"><span class="bx-faq-num">3</span>How long does SEO take to work?</button>

@@ -26,6 +26,17 @@ TARGETS = {
     "ai-search-vs-traditional-search": ["AI search vs traditional search", "traditional search", "AI search engines"],
 }
 
+# Posts Search Console reported as "Crawled - currently not indexed" (Nov 2026). Run with --set=2
+TARGETS_2 = {
+    "chatgpt-ads-vs-google-search-ads": ["ChatGPT ads", "ads in ChatGPT"],
+    "python-and-pandas-seo-reporting": ["SEO reporting", "Pandas"],
+    "copy-to-clipboard-button-javascript": ["copy to clipboard", "clipboard"],
+    "migrate-from-http-to-https": ["HTTP to HTTPS", "migrate to HTTPS", "HTTPS migration", "SSL certificate"],
+    "understanding-digital-marketing": ["what is digital marketing", "digital marketing basics", "digital marketing"],
+    "ai-for-seo-artificial-intelligence": ["AI for SEO", "AI in SEO"],
+    "ai-in-ppc-should-advertisers-be-worried": ["AI in PPC", "PPC automation", "AI bidding"],
+}
+
 P_RE = re.compile(r"<p\b[^>]*>(?:(?!</p>).)*?</p>", re.S | re.I)
 SKIP_RE = re.compile(r"<(script|style|code|pre)\b.*?</\1>", re.S | re.I)
 
@@ -62,7 +73,8 @@ def main(apply):
         docs[slug] = {"file": f, "head": txt[:end], "body": txt[end:], "fmt": fmt, "added": 0}
 
     plan = []
-    for target, phrases in TARGETS.items():
+    targets = TARGETS_2 if "--set=2" in sys.argv else TARGETS
+    for target, phrases in targets.items():
         href = f"/{target}/"
         cands = []
         for slug, d in docs.items():

@@ -517,7 +517,7 @@ pip install pandas</code></pre>
     </div>
     <div class="bx-faq-item">
       <button type="button" class="bx-faq-q">Do I need advanced Python experience to follow this guide?</button>
-      <div class="bx-faq-a"><p>Basic comfort with Python and pandas is enough. The regular expression for parsing is the most complex single piece, and it can be copied and reused as is once a log format is confirmed.</p></div>
+      <div class="bx-faq-a"><p>Basic comfort with Python and <a href="/python-and-pandas-seo-reporting/">pandas</a> is enough. The regular expression for parsing is the most complex single piece, and it can be copied and reused as is once a log format is confirmed.</p></div>
     </div>
   </div>
 

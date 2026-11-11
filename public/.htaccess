@@ -91,6 +91,15 @@ ErrorDocument 404 /404.html
 
   # BEGIN manual redirects (kept by hand, not generated)
   RewriteRule ^meta\-robots\-tags\-explained/?$ /meta-robots-tags-explained-2/ [R=301,L]
+  # Truncated or wrong URLs seen in Search Console (Nov 2026)
+  RewriteRule ^august\-2026\-spam\-/?$ /august-2026-spam-update/ [R=301,L]
+  RewriteRule ^linkedin\-ai\-search\-/?$ /linkedin-ai-search-citations/ [R=301,L]
+  RewriteRule ^how\-to\-increase\-ai\-/?$ /how-to-increase-ai-search-citations/ [R=301,L]
+  RewriteRule ^how\-to\-measure\-core\-web\-vitals/?$ /how-to-measure-core-web-vitals-tools-guide/ [R=301,L]
+  RewriteRule ^en/(.+)$ /$1 [R=301,L]
+  RewriteRule ^programmatic\-seo\-/?$ /programmatic-seo-2026/ [R=301,L]
+  RewriteRule ^meta\-viewport\-tag\-/?$ /meta-viewport-tag-explained/ [R=301,L]
+  RewriteRule ^7\-creative\-video\-/?$ /7-creative-video-marketing-ideas/ [R=301,L]
   # END manual redirects
 
   # Push alerts: the only PHP file allowed to run

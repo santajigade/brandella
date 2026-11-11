@@ -323,7 +323,7 @@ format: "html"
 <!-- CLOSING ADSENSE CODE -->
 
 <h2 id="what-this-means-two-perspectives">What This Means: Two Perspectives</h2>
-<p>This update lands differently depending on whether you are using AI Mode as a searcher or watching it as someone who works in SEO and digital marketing. Tap through both views below.</p>
+<p>This update lands differently depending on whether you are using AI Mode as a searcher or watching it as someone who works in SEO and <a href="/understanding-digital-marketing/">digital marketing</a>. Tap through both views below.</p>
 
 <div class="bpi-tabs">
 <div class="bpi-tab-buttons">

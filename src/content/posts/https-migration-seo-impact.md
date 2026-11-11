@@ -16,7 +16,7 @@ views: 456
 format: "html"
 ---
 <h2 id="https-migration-seo-impact-why-rankings-drop-after-moving-to-https">HTTPS Migration SEO Impact: Why Rankings Drop After Moving to HTTPS</h2>
-<p>HTTPS migration <a href="/category/seo/">SEO</a> impact is real.</p>
+<p><a href="/migrate-from-http-to-https/">HTTPS migration</a> <a href="/category/seo/">SEO</a> impact is real.</p>
 <p>Many website owners move from HTTP to HTTPS expecting rankings to improve immediately.</p>
 <p>Instead, they see traffic drop.</p>
 <p>Sometimes overnight.</p>
