@@ -95,3 +95,21 @@
     if (entries[0].isIntersecting) loadNext();
   }, { rootMargin: '0px 0px 1200px 0px' }).observe(loader);
 })();
+
+// Share bar: copy link button (falls back to the native share sheet where copy is not allowed)
+(function () {
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('.share-copy');
+    if (!b) return;
+    var url = b.getAttribute('data-url') || location.href;
+    var tip = b.querySelector('.share-copied');
+    function done(msg) { if (tip) { tip.textContent = msg; setTimeout(function () { tip.textContent = ''; }, 1800); } }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(function () { done('Link copied'); }, function () { window.prompt('Copy this link', url); });
+    } else if (navigator.share) {
+      navigator.share({ url: url, title: document.title }).catch(function () {});
+    } else {
+      window.prompt('Copy this link', url);
+    }
+  });
+})();

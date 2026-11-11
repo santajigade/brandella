@@ -126,6 +126,18 @@ main { min-height: 50vh; }
 .dek { font-size: 19px; line-height: 1.55; color: var(--ink-2); margin: 0 0 20px; }
 .byline { display: flex; gap: 12px; align-items: center; padding: 14px 0; border-top: 1px solid var(--line); }
 .byline-name { font-weight: 700; font-size: 15px; }
+.share { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 0 0 16px; }
+.share-label { font-size: 12px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
+.share-btn { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); background: #fff; color: var(--ink-2); cursor: pointer; padding: 0; transition: background .15s, color .15s, border-color .15s; }
+.share-btn svg { width: 17px; height: 17px; }
+.share-btn:hover, .share-btn:focus-visible { color: #fff; border-color: transparent; }
+.share-wa:hover, .share-wa:focus-visible { background: #25d366; }
+.share-fb:hover, .share-fb:focus-visible { background: #1877f2; }
+.share-x:hover, .share-x:focus-visible { background: #111; }
+.share-in:hover, .share-in:focus-visible { background: #0a66c2; }
+.share-tg:hover, .share-tg:focus-visible { background: #229ed9; }
+.share-copy:hover, .share-copy:focus-visible { background: var(--green-deep); }
+.share-copied:not(:empty) { position: absolute; top: -30px; left: 50%; transform: translateX(-50%); background: var(--ink); color: #fff; font-size: 12px; padding: 3px 8px; border-radius: 6px; white-space: nowrap; }
 .post-layout { margin-top: 10px; }
 .post-hero { margin: 0 0 26px; }
 .post-hero img { display: block; width: 100%; border-radius: var(--radius); aspect-ratio: 16/9; object-fit: cover; background: var(--soft); }
