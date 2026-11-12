@@ -245,12 +245,20 @@ html.embed body { overflow: hidden; }
 }
 
 /* Push prompt */
-.push-prompt { position: fixed; z-index: 1000; left: 50%; top: 12px; transform: translate(-50%, -140%); transition: transform .3s ease; width: min(420px, calc(100% - 24px)); background: #fff; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,.18); padding: 16px; display: flex; gap: 12px; align-items: flex-start; border-top: 4px solid var(--green); font-family: var(--font); }
-.push-prompt.show { transform: translate(-50%, 0); }
-.push-prompt img { border-radius: 8px; flex: none; }
-.push-prompt strong { display: block; font-size: 1rem; color: var(--ink); }
-.push-prompt p { margin: 4px 0 10px; color: var(--muted); font-size: .9rem; }
+/* Daily alerts: nothing opens on its own. Bell lives in the empty side margin only. */
+.push-dock { display: none; }
+@media (min-width: 1340px) and (min-height: 500px) {
+  .push-dock { display: block; position: fixed; z-index: 900; right: 12px; bottom: 16px; }
+}
+.push-bell { width: 40px; height: 40px; border-radius: 50%; border: 1px solid #e5e7eb; background: #fff; color: var(--green-deep); box-shadow: 0 2px 8px rgba(0,0,0,.12); cursor: pointer; display: grid; place-items: center; padding: 0; }
+.push-bell:hover { background: #f6fbf1; }
+.push-x { position: absolute; top: -6px; right: -6px; width: 18px; height: 18px; border-radius: 50%; border: 0; background: #6b7280; color: #fff; font-size: 13px; line-height: 18px; padding: 0; cursor: pointer; }
+.push-panel { position: fixed; z-index: 901; right: 12px; bottom: 66px; width: 260px; background: #fff; border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,.16); padding: 14px; border-top: 3px solid var(--green); font-family: var(--font); }
+.push-panel.inline { position: static; width: auto; max-width: 320px; margin: 10px 0 0; box-shadow: none; border: 1px solid #e5e7eb; border-top: 3px solid var(--green); }
+.push-panel strong { display: block; font-size: .95rem; color: var(--ink); }
+.push-panel p { margin: 4px 0 10px; color: var(--muted); font-size: .85rem; }
 .push-btns { display: flex; gap: 8px; justify-content: flex-end; }
-.push-btns button { border: 0; border-radius: 8px; padding: 8px 16px; font-weight: 600; cursor: pointer; font-size: .95rem; font-family: inherit; }
+.push-btns button { border: 0; border-radius: 8px; padding: 7px 14px; font-weight: 600; cursor: pointer; font-size: .9rem; font-family: inherit; }
 .push-later { background: #f3f4f6; color: var(--ink); }
 .push-allow { background: var(--green-deep); color: #fff; }
+.push-open { background: none; border: 0; padding: 0; margin-left: 12px; color: inherit; font: inherit; text-decoration: underline; cursor: pointer; }
