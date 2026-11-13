@@ -130,8 +130,8 @@ const plain = (s: string) => s
 export function faqs(html: string) {
   const out: { q: string; a: string }[] = [];
   const clean = html.replace(/<(script|style)\b[\s\S]*?<\/\1>/gi, '');
-  for (const m of clean.matchAll(/<button\b[^>]*class="bx-q"[^>]*>([\s\S]*?)<\/button>\s*<div\b[^>]*class="bx-a"[^>]*>([\s\S]*?)<\/div>/gi)) {
-    const q = plain(m[1].replace(/<span\b[^>]*class="ic"[^>]*>[\s\S]*?<\/span>/gi, ''));
+  for (const m of clean.matchAll(/<button\b[^>]*class="bx-(?:faq-)?q"[^>]*>([\s\S]*?)<\/button>\s*<div\b[^>]*class="bx-(?:faq-)?a"[^>]*>([\s\S]*?)<\/div>/gi)) {
+    const q = plain(m[1].replace(/<span\b[^>]*class="(?:ic|bx-faq-num)"[^>]*>[\s\S]*?<\/span>/gi, ''));
     const a = plain(m[2]);
     if (q && a) out.push({ q, a });
   }

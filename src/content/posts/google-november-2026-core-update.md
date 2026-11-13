@@ -10,6 +10,7 @@ description: "The Google November 2026 core update began on November 10 and may 
 focusKeyword: "google november 2026 core update"
 image: "/images/covers/google-november-2026-core-update.webp"
 imageAlt: "Google November 2026 core update rollout"
+updated: "2026-11-13T11:15:00+05:30"
 format: "md"
 ---
 
@@ -20,6 +21,10 @@ Google added that "The rollout may take up to 2 weeks to complete." So rankings 
 This affects every site that gets traffic from Google Search, in every country and language. Here is what Google has confirmed, how this update compares with earlier ones, and a calm plan for checking your site without making panic changes.
 
 ![Google November 2026 core update key facts: started November 10, global, all languages, up to 2 weeks rollout](/images/infographics/ig-google-november-2026-core-update-1.webp)
+
+## Rollout status (updated November 13, 2026)
+
+As of November 13, the Google November 2026 core update is still rolling out. Google's Search Status Dashboard has not marked it complete yet. If it follows the March and May 2026 pattern of about 12 days, expect completion around November 22. We will update this page when Google confirms the end date.
 
 ## What Google confirmed about the November 2026 core update
 
@@ -76,3 +81,29 @@ It also says there is no guarantee that improvements will bring rankings back, b
 The timing is the real pressure point. With a two week window from November 10, the rollout overlaps the busiest shopping weeks of the year. Retailers and affiliate publishers should keep a close daily eye on revenue pages, and avoid big site changes, migrations or template swaps until the update settles.
 
 Our recommendation: if organic traffic dips on key product or category pages during the rollout, lean on paid search and email to protect sales, and only change pages once you have a clean before and after comparison. Then build a real improvement plan based on what the data shows, not on guesses about what Google targeted.
+
+## FAQ about the Google November 2026 core update
+
+### When did the Google November 2026 core update start?
+
+It started on November 10, 2026 at 10:06 am US Pacific time, which was 11:36 pm IST. Google said the rollout may take up to 2 weeks.
+
+### Is the November 2026 core update finished?
+
+Not yet. As of November 13, 2026 the rollout is still in progress. The March and May 2026 core updates each took about 12 days, so completion around November 22 is likely.
+
+### Is a core update a penalty?
+
+No. Google says core updates are broad changes to its ranking systems and do not target specific sites or pages. A drop means other pages are now judged more helpful for that search, not that your site was punished.
+
+### When should I check Search Console after a core update?
+
+Wait until Google marks the rollout complete, then wait one more full week. Compare that week with the week before November 10 in the Search Console performance report.
+
+### My rankings dropped. What should I do?
+
+Do not make panic changes during the rollout. Once it ends, review the pages that fell most, compare them with the pages that now outrank you, and improve depth, accuracy and usefulness for the searcher. Also rule out technical problems like crawl errors or broken redirects.
+
+### How long does recovery from a core update take?
+
+It can take several months. Google says its systems need time to confirm that a site has improved, and many sites only see recovery at the next core update.

@@ -2,7 +2,7 @@
 title: "Nofollow vs Dofollow Links: Which External Links Help SEO"
 slug: "nofollow-vs-dofollow-links"
 date: "2026-10-01T04:49:08"
-updated: "2026-10-01T04:49:49"
+updated: "2026-11-13T11:30:00"
 author: "santajigade"
 categories: ["off-page-seo"]
 primaryCategory: "off-page-seo"
@@ -10,7 +10,7 @@ description: "Dofollow vs nofollow external links explained with HTML examples, 
 focusKeyword: "dofollow external links"
 image: "/wp-content/uploads/2026/10/nofollow-vs-dofollow-links.webp"
 imageAlt: "nofollow vs dofollow links"
-words: 2085
+words: 2481
 views: 19
 format: "html"
 ---
@@ -357,6 +357,58 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>
+  <h2 class="bx-h2" id="how-to-check-if-an-external-link-is-dofollow-or-nofollow">How to Check if an External Link Is Dofollow or Nofollow</h2>
+  <div class="bx-rule"></div>
+</div>
+
+<p>There is no such thing as a <code>rel="dofollow"</code> attribute. A dofollow external link is simply a normal link with no <code>nofollow</code>, <code>sponsored</code> or <code>ugc</code> value in its <code>rel</code> attribute. So checking a link means looking for what is missing, not for a dofollow label.</p>
+
+<pre><code>&lt;!-- Dofollow external link (passes link signals) --&gt;
+&lt;a href="https://example.com/guide/"&gt;helpful guide&lt;/a&gt;
+
+&lt;!-- Nofollow external link --&gt;
+&lt;a href="https://example.com/guide/" rel="nofollow"&gt;helpful guide&lt;/a&gt;
+
+&lt;!-- Paid or affiliate link --&gt;
+&lt;a href="https://example.com/product/" rel="sponsored"&gt;product&lt;/a&gt;</code></pre>
+
+<p>Four quick ways to check any page:</p>
+
+<div class="bx-checklist">
+  <li><b>Inspect the link.</b> Right click the link in Chrome, choose Inspect and read the <code>rel</code> value in the highlighted HTML.</li>
+  <li><b>View page source.</b> Press Ctrl+U, then Ctrl+F for <code>rel="</code> to see every link attribute on the page.</li>
+  <li><b>Use a browser extension.</b> SEO extensions that highlight nofollow links mark them in a different colour so you can scan a whole page in seconds.</li>
+  <li><b>Crawl the whole site.</b> A crawler like <a href="/screaming-frog-seo-spider-beginners-guide/">Screaming Frog SEO Spider</a> lists every outbound link with its rel value, which is the fastest way to audit hundreds of pages.</li>
+</div>
+
+<div class="bx-tip">
+  <p class="bx-tip-label">Tip</p>
+  <p>Keep editorial dofollow external links for sources you genuinely trust and cite, such as official documentation and original research. Add <code>rel="sponsored"</code> to anything paid and <code>rel="ugc"</code> to links in comments or forums.</p>
+</div>
+
+<div class="bx-section-head">
+  <span class="bx-num">08</span>
+  <h2 class="bx-h2" id="how-to-track-outbound-link-clicks-in-ga4">How to Track Outbound Link Clicks in GA4</h2>
+  <div class="bx-rule"></div>
+</div>
+
+<p>Knowing which external links readers actually click tells you which sources they trust and where your content sends traffic. GA4 can track outbound link clicks without any code.</p>
+
+<table class="bx-table">
+  <thead><tr style="background:#2b2b2b !important;"><th style="background:#2b2b2b !important; color:#ffffff !important;">Step</th><th style="background:#2b2b2b !important; color:#ffffff !important;">What to do</th></tr></thead>
+  <tbody>
+    <tr><td>1. Turn on enhanced measurement</td><td>In GA4 go to Admin, Data streams, choose your web stream and make sure Outbound clicks is switched on.</td></tr>
+    <tr><td>2. Know the event</td><td>GA4 records each outbound click as a <code>click</code> event with the parameters <code>link_url</code>, <code>link_domain</code> and <code>outbound</code> set to true.</td></tr>
+    <tr><td>3. Register the dimensions</td><td>Under Admin, Custom definitions, create event scoped dimensions for <code>link_url</code> and <code>link_domain</code> so they appear in reports.</td></tr>
+    <tr><td>4. Build the report</td><td>In Explore, create a free form exploration, filter Event name to <code>click</code> and break it down by Link URL or Link domain.</td></tr>
+  </tbody>
+</table>
+
+<p>If you need more control, such as tracking clicks only on sponsored links, use <a href="/gtm-data-layer-explained/">Google Tag Manager</a> with a Just Links trigger and a condition on the click URL. Our guide to <a href="/ga4-custom-event-tracking-google-tag-manager/">GA4 custom event tracking with GTM</a> walks through the setup.</p>
+
+
+<div class="bx-section-head">
+  <span class="bx-num">09</span>
   <h2 class="bx-h2" id="building-a-balanced-nofollow-vs-dofollow-link-profile">Building a Balanced Nofollow vs Dofollow Link Profile</h2>
   <div class="bx-rule"></div>
 </div>

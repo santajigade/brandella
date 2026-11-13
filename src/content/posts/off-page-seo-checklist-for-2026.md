@@ -163,7 +163,7 @@ format: "html"
 </div>
 
 <h2 id="protecting-the-work-link-spam-policy-discipline">Protecting the Work: Link Spam Policy Discipline</h2>
-<p>According to <a href="https://www.techprevue.com/off-page-seo-checklist/" target="_blank" rel="noopener">TechPrevue's data-ranked 2026 off-page SEO checklist</a>, reading Google's link spam policies quarterly, and stopping any tactic described there immediately, prevents a core update or manual action from making that decision for you instead.</p>
+<p>According to <a href="https://www.techprevue.com/off-page-seo-checklist/" target="_blank" rel="noopener">TechPrevue's data-ranked 2026 off-page SEO checklist</a>, reading Google's link spam policies quarterly, and stopping any tactic described there immediately, prevents a <a href="/google-november-2026-core-update/">core update</a> or manual action from making that decision for you instead.</p>
 
 <!-- OPENING ADSENSE CODE -->
 <div class="boc-ad-wrap">

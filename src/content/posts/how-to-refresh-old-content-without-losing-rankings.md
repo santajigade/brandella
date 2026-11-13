@@ -332,7 +332,7 @@ function bcrCalc(){
 <h2 id="how-often-should-a-content-refresh-happen">How Often Should a Content Refresh Happen?</h2>
 <p>According to <a href="https://wellows.com/blog/update-strategy/" target="_blank" rel="noopener">Wellows' guide to when to update content for better SEO results</a>, running a quarterly content refresh audit, prioritizing pages showing traffic drops, ranking decline, or outdated statistics, catches most emerging decay before losses fully compound.</p>
 
-<p>According to <a href="https://memorable.design/content-refresh-seo-strategy/" target="_blank" rel="noopener">Memorable Design's content refresh SEO strategy guide</a>, a content refresh should add genuine first-hand insight and real examples, not just AI-summarized generalities, since recent core updates specifically filter for content that sounds robotic or lacks original expertise.</p>
+<p>According to <a href="https://memorable.design/content-refresh-seo-strategy/" target="_blank" rel="noopener">Memorable Design's content refresh SEO strategy guide</a>, a content refresh should add genuine first-hand insight and real examples, not just AI-summarized generalities, since recent <a href="/google-november-2026-core-update/">core updates</a> specifically filter for content that sounds robotic or lacks original expertise.</p>
 <!-- OPENING ADSENSE CODE -->
 <div style="margin:40px 0;">
     <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">

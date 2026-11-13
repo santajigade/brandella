@@ -37,6 +37,11 @@ TARGETS_2 = {
     "ai-in-ppc-should-advertisers-be-worried": ["AI in PPC", "PPC automation", "AI bidding"],
 }
 
+# Near page 1 (Nov 13 report). Run with --set=3
+TARGETS_3 = {
+    "google-november-2026-core-update": ["November 2026 core update", "core update", "core updates", "Google core update"],
+}
+
 P_RE = re.compile(r"<p\b[^>]*>(?:(?!</p>).)*?</p>", re.S | re.I)
 SKIP_RE = re.compile(r"<(script|style|code|pre)\b.*?</\1>", re.S | re.I)
 
@@ -73,12 +78,12 @@ def main(apply):
         docs[slug] = {"file": f, "head": txt[:end], "body": txt[end:], "fmt": fmt, "added": 0}
 
     plan = []
-    targets = TARGETS_2 if "--set=2" in sys.argv else TARGETS
+    targets = TARGETS_3 if "--set=3" in sys.argv else TARGETS_2 if "--set=2" in sys.argv else TARGETS
     for target, phrases in targets.items():
         href = f"/{target}/"
         cands = []
         for slug, d in docs.items():
-            if slug == target or d["fmt"] != "html" or href in d["body"]:
+            if slug == target or (d["fmt"] != "html" and "--md" not in sys.argv) or href in d["body"]:
                 continue
             visible = SKIP_RE.sub("", d["body"])
             score = sum(len(re.findall(r"(?<![\w-])" + re.escape(ph) + r"(?![\w-])", visible, re.I)) for ph in phrases)

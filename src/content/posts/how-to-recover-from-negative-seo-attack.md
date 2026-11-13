@@ -193,7 +193,7 @@ format: "html"
 
 <h2 id="rule-out-first"><span class="bx-num">01</span>Rule Out the Common Non-Attack Causes First</h2>
 <div class="bx-rule"></div>
-<p><a href="https://www.searchenginemagazine.com/negative-seo" target="_blank" rel="noopener">Search Engine Magazine's 2026 breakdown of negative SEO</a> makes a point every panicked site owner needs to hear: experienced SEOs rarely blame negative SEO without evidence, because a Google core update, an accidental noindex, a redesign that broke internal links, or a competitor simply publishing stronger content explain far more ranking losses than deliberate attacks.</p>
+<p><a href="https://www.searchenginemagazine.com/negative-seo" target="_blank" rel="noopener">Search Engine Magazine's 2026 breakdown of negative SEO</a> makes a point every panicked site owner needs to hear: experienced SEOs rarely blame negative SEO without evidence, because a Google <a href="/google-november-2026-core-update/">core update</a>, an accidental noindex, a redesign that broke internal links, or a competitor simply publishing stronger content explain far more ranking losses than deliberate attacks.</p>
 
 <p><a href="https://linkbuildingjournal.co.uk/negative-seo-defence/" target="_blank" rel="noopener">Link Building Journal's 2026 data-led guide</a> backs this up with a direct quote from Google's John Mueller: in every case where someone came to him convinced they were a negative SEO victim, the underlying issue turned out to be something else. Investigate the obvious causes first, and only pursue the negative SEO explanation once they're ruled out.</p>
 
