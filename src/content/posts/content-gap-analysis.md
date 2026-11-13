@@ -258,7 +258,7 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </tbody>
 </table>
 
-<p>Treat the six steps below as the layer a rushed content gap analysis always skips. Each one takes a raw export and turns it into something an editorial calendar can actually use.</p>
+<p>Treat the six steps below as the layer a rushed content gap analysis always skips. Each one takes a raw export and turns it into something an <a href="/content-calendar-planning/">editorial calendar</a> can actually use.</p>
 
 <div class="bx-ad">
   <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>

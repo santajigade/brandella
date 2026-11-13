@@ -103,7 +103,7 @@ format: "html"
 
 <p>Free doesn't mean limited in a bad way here. Google's own tools, Search Console, PageSpeed Insights, Analytics, and Trends, give direct access to the exact data Google itself uses. No paid platform can substitute for data coming straight from the source.</p>
 
-<p>Where free tools genuinely fall short is scale and depth. A three-search-per-day keyword limit works fine for occasional validation; it will not sustain a full content calendar. Knowing where that line sits saves both time and frustration.</p>
+<p>Where free tools genuinely fall short is scale and depth. A three-search-per-day keyword limit works fine for occasional validation; it will not sustain a full <a href="/content-calendar-planning/">content calendar</a>. Knowing where that line sits saves both time and frustration.</p>
 
 <p>The list below is organized deliberately: start with the tools every site needs regardless of size, then layer in specialized ones for keyword research, technical audits, and content ideation as your needs grow.</p>
 

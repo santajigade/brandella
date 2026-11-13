@@ -42,6 +42,11 @@ TARGETS_3 = {
     "google-november-2026-core-update": ["November 2026 core update", "core update", "core updates", "Google core update"],
 }
 
+# Content planning retarget (Nov 13). Run with --set=4
+TARGETS_4 = {
+    "content-calendar-planning": ["content planning", "content calendar", "editorial calendar", "content plan"],
+}
+
 P_RE = re.compile(r"<p\b[^>]*>(?:(?!</p>).)*?</p>", re.S | re.I)
 SKIP_RE = re.compile(r"<(script|style|code|pre)\b.*?</\1>", re.S | re.I)
 
@@ -78,7 +83,7 @@ def main(apply):
         docs[slug] = {"file": f, "head": txt[:end], "body": txt[end:], "fmt": fmt, "added": 0}
 
     plan = []
-    targets = TARGETS_3 if "--set=3" in sys.argv else TARGETS_2 if "--set=2" in sys.argv else TARGETS
+    targets = TARGETS_4 if "--set=4" in sys.argv else TARGETS_3 if "--set=3" in sys.argv else TARGETS_2 if "--set=2" in sys.argv else TARGETS
     for target, phrases in targets.items():
         href = f"/{target}/"
         cands = []

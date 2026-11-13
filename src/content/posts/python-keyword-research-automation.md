@@ -207,7 +207,7 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>The equivalent manual export from Google Keyword Planner, cleaned and deduplicated by hand, had taken our team most of a working day the week before.</p>
 
-  <p>That gap is the whole case for python keyword research automation. It is not about replacing strategic judgment, since a script cannot decide which keywords fit your content plan or your business.</p>
+  <p>That gap is the whole case for python keyword research automation. It is not about replacing strategic judgment, since a script cannot decide which keywords fit your <a href="/content-calendar-planning/">content plan</a> or your business.</p>
 
   <p>What it does remove is the part that is repetitive and prone to errors: logging into an API, paging through results, merging data from more than one source, and running the same query again next month without starting from zero.</p>
 

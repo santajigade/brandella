@@ -377,7 +377,7 @@ function bxToolDecide(){
 
 <h2 id="14building-a-sustainable-keyword-research-habit"><span class="bx-num">14</span>Building a Sustainable Keyword Research Habit</h2>
 <div class="bx-rule"></div>
-<p>A single research session rarely produces a complete content strategy. Revisiting keyword data quarterly, checking for new opportunities, shifting search volume, and emerging questions in a niche, keeps a content calendar aligned with what people are actually searching for right now.</p>
+<p>A single research session rarely produces a complete content strategy. Revisiting keyword data quarterly, checking for new opportunities, shifting search volume, and emerging questions in a niche, keeps a <a href="/content-calendar-planning/">content calendar</a> aligned with what people are actually searching for right now.</p>
 
 <p>Most of the tools compared here support saved keyword lists or tracked projects specifically for this reason, making the quarterly revisit far faster than starting from scratch each time.</p>
 
