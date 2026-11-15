@@ -400,17 +400,7 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     <li><b>Testing only with fast local network conditions:</b> a comments fetch that feels instant in development can feel noticeably slow on a real mobile connection, worth testing with <a href="https://developer.chrome.com/docs/devtools/network/reference" target="_blank" rel="noopener">Chrome DevTools' network throttling</a> before shipping.</li>
   </ul>
 
-  <div class="bx-related">
-    <h3>Continue Reading</h3>
-    <div class="bx-related-grid">
-      <a class="bx-related-card" href="/lazy-load-images-native-javascript/" target="_blank" rel="noopener"><span class="bx-related-title">Lazy Load Images With Native JavaScript</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/infinite-scroll-vs-pagination-7-real-javascript-differences/" target="_blank" rel="noopener"><span class="bx-related-title">Infinite Scroll vs Pagination Guide</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/what-is-total-blocking-time-tbt/" target="_blank" rel="noopener"><span class="bx-related-title">What Is Total Blocking Time</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/core-web-vitals-2026/" target="_blank" rel="noopener"><span class="bx-related-title">Core Web Vitals 2026 Guide</span><span class="bx-related-arrow">→</span></a>
-    </div>
-  </div>
-
-  <div class="bx-faq">
+    <div class="bx-faq">
     <h3 class="bx-h3">Frequently Asked Questions</h3>
 
     <div class="bx-faq-item">

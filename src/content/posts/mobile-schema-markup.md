@@ -390,16 +390,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/mobile-seo-checklist-for-faster-rankings-2026/"><div class="bx-related-title">Mobile SEO Checklist for Faster Rankings</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/common-mobile-seo-mistakes-to-avoid-2026/"><div class="bx-related-title">Common Mobile SEO Mistakes to Avoid</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/how-to-test-mobile-friendliness-website/"><div class="bx-related-title">How to Test Mobile Friendliness of a Website</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/mobile-ux-best-practices-for-seo/"><div class="bx-related-title">Mobile UX Best Practices for SEO</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Give Your Mobile Schema Markup a Real Audit This Week</h3>
   <p>Explore more Brandella Journal guides on SEO and digital marketing.</p>

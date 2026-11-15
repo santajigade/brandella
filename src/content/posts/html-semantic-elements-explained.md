@@ -466,16 +466,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/html-heading-structure-best-practices/" target="_blank" rel="noopener"><div class="bx-related-title">HTML Heading Structure Best Practices</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/what-is-schema-markup/" target="_blank" rel="noopener"><div class="bx-related-title">What Is Schema Markup</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/semantic-seo-explained-google-understands/" target="_blank" rel="noopener"><div class="bx-related-title">Semantic SEO Explained</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/how-to-write-seo-friendly-blog/" target="_blank" rel="noopener"><div class="bx-related-title">How to Write an SEO Friendly Blog</div><span class="bx-related-arrow">→</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Clean Up Your Own Markup?</h3>
   <p>Start with header, nav, main, and footer. Those four alone fix most of a typical div soup page.</p>

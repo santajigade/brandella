@@ -390,17 +390,7 @@ setInterval(() =&gt; { <span class="tok-val">ticks</span>++; }, <span class="tok
     <li><b>Not handling worker errors:</b> a worker's <code>onerror</code> handler needs to be set explicitly, an uncaught error inside a worker will not automatically surface on the main thread otherwise.</li>
   </ul>
 
-  <div class="bx-related">
-    <h3>Continue Reading</h3>
-    <div class="bx-related-grid">
-      <a class="bx-related-card" href="/javascript-event-loop/" target="_blank" rel="noopener"><span class="bx-related-title">Understanding the JavaScript Event Loop</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/javascript-debounce-vs-throttle/" target="_blank" rel="noopener"><span class="bx-related-title">JavaScript Debounce vs Throttle Explained</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/fetch-api-vs-axios/" target="_blank" rel="noopener"><span class="bx-related-title">Fetch API vs Axios: When to Use Which</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/build-seo-audit-tool-javascript/" target="_blank" rel="noopener"><span class="bx-related-title">Build an SEO Audit Tool in JavaScript</span><span class="bx-related-arrow">→</span></a>
-    </div>
-  </div>
-
-  <div class="bx-faq">
+    <div class="bx-faq">
     <h3 class="bx-h3">Frequently Asked Questions</h3>
 
     <div class="bx-faq-item">

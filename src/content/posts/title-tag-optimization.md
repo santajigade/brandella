@@ -399,16 +399,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/what-is-topical-authority-how-to-build-it/"><div class="bx-related-title">What Is Topical Authority and How to Build It</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/eeat-experience-expertise-authority-trust/"><div class="bx-related-title">E E A T: Experience, Expertise, Authority, and Trust</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/semantic-seo-explained-google-understands/"><div class="bx-related-title">Semantic SEO Explained: How Google Understands Content</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/information-gain-seo-explained/"><div class="bx-related-title">Information Gain in SEO Explained</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to put title tag optimization into practice on every page?</h3>
   <p>Explore more Brandella Journal guides on SEO and digital marketing.</p>

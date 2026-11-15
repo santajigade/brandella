@@ -567,16 +567,6 @@ outbound:     <span class="tok-val">true</span></code></pre>
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="https://brandella.in/custom-dimensions-in-ga4/"><div class="bx-related-title">Custom Dimensions in GA4: Step by Step</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="https://brandella.in/track-outbound-link-clicks-gtm/"><div class="bx-related-title">Track Outbound Link Clicks With GTM</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="https://brandella.in/track-pdf-downloads-ga4/"><div class="bx-related-title">Track PDF Downloads in GA4</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="https://brandella.in/ga4-events-vs-conversions-difference/"><div class="bx-related-title">GA4 Events vs Conversions Explained</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Go Beyond the Defaults?</h3>
   <p>Now that your automatic events are set up properly, learn how to turn its hidden parameters into reports you can actually use.</p>

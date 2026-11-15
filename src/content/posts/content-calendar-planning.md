@@ -467,16 +467,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/evergreen-content-explained/"><div class="bx-related-title">Evergreen Content Explained</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/pillar-pages-vs-topic-clusters-seo-strategy/"><div class="bx-related-title">Pillar Pages vs Topic Clusters SEO Strategy</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/content-decay-explained-why-rankings-drop/"><div class="bx-related-title">Content Decay Explained: Why Rankings Drop</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/25-content-writing-mistakes/"><div class="bx-related-title">25 Content Writing Mistakes to Avoid</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to start content calendar planning for real?</h3>
   <p>Explore more Brandella Journal guides on SEO and digital marketing.</p>

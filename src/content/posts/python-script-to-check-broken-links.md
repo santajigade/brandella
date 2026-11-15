@@ -518,17 +518,7 @@ pip install requests beautifulsoup4 lxml pandas tenacity</code></pre>
     </defs>
   </svg>
 
-  <div class="bx-related">
-    <h3>Related Articles</h3>
-    <ul>
-      <li><a href="/how-to-detect-broken-links-javascript/" target="_blank" rel="noopener">How to Detect Broken Links With JavaScript</a></li>
-      <li><a href="/http-status-codes-for-seo-explained/" target="_blank" rel="noopener">HTTP Status Codes for SEO Explained</a></li>
-      <li><a href="/crawl-budget-explained/" target="_blank" rel="noopener">Crawl Budget Explained</a></li>
-      <li><a href="/understanding-crawl-stats-report/" target="_blank" rel="noopener">Understanding the Crawl Stats Report</a></li>
-    </ul>
-  </div>
-
-  <div class="bx-faq">
+    <div class="bx-faq">
     <h3 class="bx-h3">Frequently Asked Questions</h3>
 
     <div class="bx-faq-item">

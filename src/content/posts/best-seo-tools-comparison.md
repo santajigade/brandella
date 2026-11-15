@@ -431,16 +431,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/best-keyword-research-tools-compared/"><div class="bx-related-title">Best Keyword Research Tools Compared</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/10-best-free-seo-tools-every-marketer-should-use/"><div class="bx-related-title">10 Best Free SEO Tools Every Marketer Should Use</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/screaming-frog-seo-spider-beginners-guide/"><div class="bx-related-title">Screaming Frog SEO Spider: A Beginners Guide</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/bing-webmaster-tools-complete-guide/"><div class="bx-related-title">Bing Webmaster Tools: The Complete Guide</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Pick Your SEO Toolkit?</h3>
   <p>Explore more Brandella Journal guides on SEO and digital marketing.</p>

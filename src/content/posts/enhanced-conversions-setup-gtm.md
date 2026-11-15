@@ -402,16 +402,6 @@ sha256Hex('johndoe@gmail.com')
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/track-outbound-link-clicks-gtm/"><div class="bx-related-title">Track Outbound Link Clicks Using GTM</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/track-scroll-depth-gtm/"><div class="bx-related-title">Track Scroll Depth Using GTM</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/common-gtm-mistakes-tracking/"><div class="bx-related-title">Common GTM Mistakes That Break Your Tracking</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/gtm-data-layer-explained/"><div class="bx-related-title">GTM Data Layer Explained With Real Examples</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Build Cleaner Tracking?</h3>
   <p>Explore more Brandella Journal guides on tracking, analytics, and tag management.</p>

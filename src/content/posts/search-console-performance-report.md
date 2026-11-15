@@ -390,16 +390,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/branded-queries-filter-in-search-console/"><div class="bx-related-title">Filtering Branded Queries in Search Console</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/url-inspection-tool-diagnose-indexing-problems/"><div class="bx-related-title">Using the URL Inspection Tool to Diagnose Indexing Problems</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/understanding-crawl-stats-report/"><div class="bx-related-title">Understanding the Crawl Stats Report</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/discovered-currently-not-indexed-fix/"><div class="bx-related-title">Fixing Discovered Currently Not Indexed Pages</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Turn Your Performance Report Into a To Do List</h3>
   <p>Explore more Brandella Journal guides on SEO and digital marketing.</p>

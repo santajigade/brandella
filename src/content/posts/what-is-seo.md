@@ -391,16 +391,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/what-is-off-page-seo-complete-beginners-guide/"><div class="bx-related-title">What Is Off Page SEO? A Complete Beginners Guide</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/what-is-search-intent-practical-guide/"><div class="bx-related-title">What Is Search Intent? A Practical Guide</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/what-is-schema-markup/"><div class="bx-related-title">What Is Schema Markup, Explained Simply</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/aeo-vs-seo-vs-geo-difference-2026/"><div class="bx-related-title">SEO, AEO, and GEO Explained</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Put SEO Into Practice?</h3>
   <p>Explore more Brandella Journal guides on SEO and digital marketing.</p>

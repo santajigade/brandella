@@ -375,16 +375,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/core-web-vitals-2026/"><div class="bx-related-title">Core Web Vitals in 2026: What Actually Changed</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/interaction-to-next-paint-inp-explained/"><div class="bx-related-title">Interaction to Next Paint (INP) Explained</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/what-is-largest-contentful-paint-lcp/"><div class="bx-related-title">What Is Largest Contentful Paint (LCP)?</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/how-to-measure-core-web-vitals-tools-guide/"><div class="bx-related-title">How to Measure Core Web Vitals: A Tools Guide</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Get Core Web Vitals for single page applications right</h3>
   <p>Explore more Brandella Journal guides on SEO and digital marketing.</p>

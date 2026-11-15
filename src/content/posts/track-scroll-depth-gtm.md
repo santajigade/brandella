@@ -415,16 +415,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/track-button-clicks-ga4/"><div class="bx-related-title">Track Button Clicks in GA4 Without Coding</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/track-pdf-downloads-ga4/"><div class="bx-related-title">Track PDF Downloads in GA4</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/gtm-data-layer-explained/"><div class="bx-related-title">GTM Data Layer Explained With Real Examples</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/common-gtm-mistakes-tracking/"><div class="bx-related-title">Common GTM Mistakes That Break Your Tracking</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Build Cleaner Tracking?</h3>
   <p>Explore more Brandella Journal guides on how to track scroll depth using GTM, plus analytics and tag management.</p>

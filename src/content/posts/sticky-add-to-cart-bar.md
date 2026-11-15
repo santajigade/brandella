@@ -412,17 +412,7 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     <li><b>Covering important content permanently:</b> a bar that never hides, even while the primary button is visible, wastes screen space and can hide content near the bottom of the viewport, worth checking with <a href="https://css-tricks.com/position-sticky-2/" target="_blank" rel="noopener">CSS-Tricks' guide to sticky positioning</a> pitfalls.</li>
   </ul>
 
-  <div class="bx-related">
-    <h3>Continue Reading</h3>
-    <div class="bx-related-grid">
-      <a class="bx-related-card" href="/sticky-table-of-contents-css-javascript/" target="_blank" rel="noopener"><span class="bx-related-title">Sticky Table of Contents With CSS and JavaScript</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/interaction-to-next-paint-inp-explained/" target="_blank" rel="noopener"><span class="bx-related-title">Interaction to Next Paint Explained</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/mobile-ux-best-practices-for-seo/" target="_blank" rel="noopener"><span class="bx-related-title">Mobile UX Best Practices for SEO</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/core-web-vitals-2026/" target="_blank" rel="noopener"><span class="bx-related-title">Core Web Vitals 2026 Guide</span><span class="bx-related-arrow">→</span></a>
-    </div>
-  </div>
-
-  <div class="bx-faq">
+    <div class="bx-faq">
     <h3 class="bx-h3">Frequently Asked Questions</h3>
 
     <div class="bx-faq-item">

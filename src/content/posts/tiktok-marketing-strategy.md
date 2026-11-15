@@ -401,16 +401,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/instagram-marketing-guide-businesses/"><div class="bx-related-title">Instagram Marketing Guide for Businesses</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/facebook-marketing-2026-whats-working/"><div class="bx-related-title">Facebook Marketing 2026: What's Working</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/linkedin-marketing-strategy/"><div class="bx-related-title">LinkedIn Marketing Strategy Guide</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/ai-influencer-marketing-at-scale/"><div class="bx-related-title">AI Influencer Marketing at Scale</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to put your TikTok marketing strategy into action?</h3>
   <p>Explore more Brandella Journal guides on SEO and digital marketing.</p>

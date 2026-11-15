@@ -424,16 +424,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/google-tag-manager-explained-for-beginners/"><div class="bx-related-title">Google Tag Manager Explained for Beginners</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/common-gtm-mistakes-tracking/"><div class="bx-related-title">Common GTM Mistakes That Break Your Tracking</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/gtm-data-layer-explained/"><div class="bx-related-title">GTM Data Layer Explained With Real Examples</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/ga4-custom-event-tracking-google-tag-manager/"><div class="bx-related-title">GA4 Custom Event Tracking With GTM</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Build Cleaner Tracking?</h3>
   <p>Explore more Brandella Journal guides on how to track button clicks in GA4, plus analytics and tag management.</p>

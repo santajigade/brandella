@@ -419,17 +419,7 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     <li><b>Forgetting to register the custom dimension in GA4:</b> events still arrive in the raw stream, but the variant parameter never becomes a usable report column until that step happens.</li>
   </ul>
 
-  <div class="bx-related">
-    <h3>Continue Reading</h3>
-    <div class="bx-related-grid">
-      <a class="bx-related-card" href="/javascript-event-loop/" target="_blank" rel="noopener"><span class="bx-related-title">Understanding the JavaScript Event Loop</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/javascript-debounce-vs-throttle/" target="_blank" rel="noopener"><span class="bx-related-title">JavaScript Debounce vs Throttle Explained</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/google-analytics-4-metrics-explained-beginners/" target="_blank" rel="noopener"><span class="bx-related-title">Google Analytics 4 Metrics Explained</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/ga4-custom-event-tracking-google-tag-manager/" target="_blank" rel="noopener"><span class="bx-related-title">GA4 Custom Event Tracking With GTM</span><span class="bx-related-arrow">→</span></a>
-    </div>
-  </div>
-
-  <div class="bx-faq">
+    <div class="bx-faq">
     <h3 class="bx-h3">Frequently Asked Questions</h3>
 
     <div class="bx-faq-item">

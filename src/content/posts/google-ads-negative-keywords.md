@@ -420,16 +420,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/search-campaign-vs-performance-max/"><div class="bx-related-title">Search Campaigns vs Performance Max</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/how-to-optimize-performance-max-campaign-step-by-step/"><div class="bx-related-title">How to Optimize a Performance Max Campaign</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/25-google-ads-optimization-tips/"><div class="bx-related-title">25 Google Ads Optimization Tips</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/google-ads-quality-score-explained/"><div class="bx-related-title">Google Ads Quality Score Explained</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Stop Paying for Clicks That Were Never Going to Convert</h3>
   <p>Explore more Brandella Journal guides on SEO and digital marketing.</p>

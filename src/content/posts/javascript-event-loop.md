@@ -399,17 +399,7 @@ console.log(<span class="tok-str">'2: sync - script end'</span>);</code></pre>
     <li><b>Measure with the Performance panel, not assumptions:</b> a long task bar longer than 50ms is worth investigating directly, tag by tag.</li>
   </ul>
 
-  <div class="bx-related">
-    <h3>Continue Reading</h3>
-    <div class="bx-related-grid">
-      <a class="bx-related-card" href="/interaction-to-next-paint-inp-explained/" target="_blank" rel="noopener"><span class="bx-related-title">Interaction to Next Paint (INP) Explained</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/what-is-total-blocking-time-tbt/" target="_blank" rel="noopener"><span class="bx-related-title">What Is Total Blocking Time (TBT)?</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/javascript-debounce-vs-throttle/" target="_blank" rel="noopener"><span class="bx-related-title">JavaScript Debounce vs Throttle Explained</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/render-blocking-resources-css-javascript/" target="_blank" rel="noopener"><span class="bx-related-title">Render Blocking Resources: CSS and JavaScript</span><span class="bx-related-arrow">→</span></a>
-    </div>
-  </div>
-
-  <div class="bx-faq">
+    <div class="bx-faq">
     <h3 class="bx-h3">Frequently Asked Questions</h3>
 
     <div class="bx-faq-item">

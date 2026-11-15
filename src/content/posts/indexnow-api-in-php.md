@@ -414,16 +414,6 @@ validateUrlList(array_fill(0, 10001, 'https://brandella.in/page/'), 'brandella.i
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/build-xml-sitemap-generator-php/"><div class="bx-related-title">Build an XML Sitemap Generator in PHP</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/generate-seo-friendly-urls-php/"><div class="bx-related-title">Generate SEO Friendly URLs in PHP</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/php-cron-jobs/"><div class="bx-related-title">PHP Cron Jobs: Scheduling Background Tasks Reliably</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/dynamic-meta-tags-php/"><div class="bx-related-title">Dynamic Meta Tags in PHP</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Build Cleaner Tracking?</h3>
   <p>Explore more Brandella Journal guides on PHP, SEO, and site tooling.</p>

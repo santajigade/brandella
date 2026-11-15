@@ -399,16 +399,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/ai-agents-transforming-digital-marketing/"><div class="bx-related-title">How AI Agents Are Transforming Digital Marketing</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/prompt-engineering-marketing-professionals/"><div class="bx-related-title">Prompt Engineering for Marketing Professionals</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/ai-for-seo-artificial-intelligence/"><div class="bx-related-title">AI for SEO: Using Artificial Intelligence</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/25-google-ads-optimization-tips/"><div class="bx-related-title">25 Google Ads Optimization Tips</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Pick two AI tools for marketers this quarter, not ten</h3>
   <p>Explore more Brandella Journal guides on SEO and digital marketing.</p>

@@ -443,16 +443,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/preload-vs-prefetch-vs-preconnect-resource-hints/" target="_blank" rel="noopener"><div class="bx-related-title">Preload vs Prefetch vs Preconnect</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/what-is-canonical-tag/" target="_blank" rel="noopener"><div class="bx-related-title">What Is a Canonical Tag</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/meta-viewport-tag-explained/" target="_blank" rel="noopener"><div class="bx-related-title">Meta Viewport Tag Explained</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/html-data-attributes-explained/" target="_blank" rel="noopener"><div class="bx-related-title">HTML Data Attributes Explained</div><span class="bx-related-arrow">→</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Audit Your Own Link Tags?</h3>
   <p>Open your page source and check whether your preload, canonical, and alternate links are actually doing what you think they are.</p>

@@ -408,16 +408,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/understanding-digital-marketing/"><div class="bx-related-title">Understanding Digital Marketing</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/marketing-attribution-first-last-data-driven/"><div class="bx-related-title">Marketing Attribution: First Touch, Last Touch, and Data Driven Models</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/eligibility-era-marketing/"><div class="bx-related-title">The Eligibility Era of Marketing</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/artificial-intelligence-transforming-digital-marketing/"><div class="bx-related-title">How Artificial Intelligence Is Transforming Digital Marketing</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Put This Email Marketing Strategy to Work This Quarter</h3>
   <p>Explore more Brandella Journal guides on SEO and digital marketing.</p>

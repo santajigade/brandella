@@ -447,16 +447,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/lazy-loading-images-explained-lcp-seo/"><div class="bx-related-title">Lazy Loading Images Explained</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/webp-vs-avif-image-format-seo/"><div class="bx-related-title">WebP vs AVIF Image Format for SEO</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/optimize-images-for-seo-without-losing-quality/"><div class="bx-related-title">Optimize Images for SEO Without Losing Quality</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/meta-viewport-tag-explained/"><div class="bx-related-title">The Meta Viewport Tag Explained</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Ship Faster, Sharper Images?</h3>
   <p>Explore more Brandella Journal guides on performance, SEO, and modern HTML.</p>

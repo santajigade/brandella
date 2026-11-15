@@ -396,17 +396,7 @@ composer <span class="tok-fn">require</span> phpmailer/phpmailer</code></pre>
     </defs>
   </svg>
 
-  <div class="bx-related">
-    <h3>Related Articles</h3>
-    <ul>
-      <li><a href="/10-best-free-seo-tools-every-marketer-should-use/" target="_blank" rel="noopener">10 Best Free SEO Tools Every Marketer Should Use</a></li>
-      <li><a href="/best-keyword-research-tools-compared/" target="_blank" rel="noopener">Best Keyword Research Tools Compared</a></li>
-      <li><a href="/screaming-frog-seo-spider-beginners-guide/" target="_blank" rel="noopener">Screaming Frog SEO Spider: Beginners Guide</a></li>
-      <li><a href="/google-search-console-ai-powered-configuration/" target="_blank" rel="noopener">Google Search Console AI Powered Configuration</a></li>
-    </ul>
-  </div>
-
-  <div class="bx-faq">
+    <div class="bx-faq">
     <h3 class="bx-h3">Frequently Asked Questions</h3>
 
     <div class="bx-faq-item">

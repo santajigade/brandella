@@ -404,16 +404,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/retrieval-augmented-generation-rag-explained/"><div class="bx-related-title">Retrieval Augmented Generation (RAG) Explained</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/ai-hallucinations-explained-causes-prevention/"><div class="bx-related-title">AI Hallucinations Explained: Causes and Prevention</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/prompt-engineering-marketing-professionals/"><div class="bx-related-title">Prompt Engineering for Marketing Professionals</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/ai-for-seo-artificial-intelligence/"><div class="bx-related-title">AI for SEO: Artificial Intelligence in Search</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Put This Technology to Work the Right Way</h3>
   <p>Explore more Brandella Journal guides on SEO and digital marketing.</p>

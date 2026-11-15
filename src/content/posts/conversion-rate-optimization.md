@@ -407,16 +407,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/how-to-generate-high-quality-leads-2026/"><div class="bx-related-title">How to Generate High Quality Leads</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/google-analytics-4-metrics-explained-beginners/"><div class="bx-related-title">Google Analytics 4 Metrics Explained</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/customer-journey-mapping-digital-marketing/"><div class="bx-related-title">Customer Journey Mapping Guide</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/marketing-attribution-first-last-data-driven/"><div class="bx-related-title">Marketing Attribution Models Compared</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Start Your Conversion Rate Optimization Plan?</h3>
   <p>Explore more Brandella Journal guides on SEO and digital marketing.</p>

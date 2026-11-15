@@ -569,16 +569,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="https://brandella.in/ga4-enhanced-measurement-explained/"><div class="bx-related-title">GA4 Enhanced Measurement Explained</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="https://brandella.in/ga4-free-form-exploration/"><div class="bx-related-title">GA4 Free Form Exploration Guide</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="https://brandella.in/ga4-custom-event-tracking-google-tag-manager/"><div class="bx-related-title">GA4 Custom Event Tracking With GTM</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="https://brandella.in/gtm-data-layer-explained/"><div class="bx-related-title">GTM Data Layer Explained</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Turn Your Parameters Into Insights</h3>
   <p>Your custom dimensions in GA4 are ready. Put them to work in a free form exploration and answer questions standard reports cannot.</p>

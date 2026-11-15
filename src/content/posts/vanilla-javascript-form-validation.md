@@ -413,17 +413,7 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     <li><b>No visible focus state on an invalid field:</b> a keyboard user tabbing through the form has no way to tell which field the error actually belongs to without a clear outline or border change.</li>
   </ul>
 
-  <div class="bx-related">
-    <h3>Continue Reading</h3>
-    <div class="bx-related-grid">
-      <a class="bx-related-card" href="/javascript-debounce-vs-throttle/" target="_blank" rel="noopener"><span class="bx-related-title">JavaScript Debounce vs Throttle</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/validating-and-sanitizing-user-input-in-php-forms/" target="_blank" rel="noopener"><span class="bx-related-title">Validating and Sanitizing PHP Form Input</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/php-contact-form-spam-protection/" target="_blank" rel="noopener"><span class="bx-related-title">PHP Contact Form Spam Protection</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/interaction-to-next-paint-inp-explained/" target="_blank" rel="noopener"><span class="bx-related-title">Interaction to Next Paint Explained</span><span class="bx-related-arrow">→</span></a>
-    </div>
-  </div>
-
-  <div class="bx-faq">
+    <div class="bx-faq">
     <h3 class="bx-h3">Frequently Asked Questions</h3>
 
     <div class="bx-faq-item">

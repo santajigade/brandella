@@ -565,16 +565,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="https://brandella.in/custom-dimensions-in-ga4/"><div class="bx-related-title">Custom Dimensions in GA4: Step by Step</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="https://brandella.in/ga4-enhanced-measurement-explained/"><div class="bx-related-title">GA4 Enhanced Measurement Explained</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="https://brandella.in/track-outbound-link-clicks-gtm/"><div class="bx-related-title">Track Outbound Link Clicks With GTM</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="https://brandella.in/google-analytics-4-metrics-explained-beginners/"><div class="bx-related-title">GA4 Metrics Explained for Beginners</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Build Reports That Answer Real Questions</h3>
   <p>You now know how to build, filter and trust a GA4 free form exploration. Next, make sure the data feeding it is complete.</p>

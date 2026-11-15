@@ -24,6 +24,7 @@ Santaji's standing rule: every article, news or evergreen, new or updated, must 
 ## Links
 - 3 to 5 internal links to genuinely related Brandella posts, with descriptive anchor text (not "click here").
 - After publishing, add one contextual link to the new post from one older, related post (one sentence or anchor inside an existing paragraph, no other edits), so no article is orphaned.
+- Do not add a "Related Articles" or "Continue Reading" box inside the article; the page template already shows related articles at the bottom.
 - 3 to 6 external links to official or authoritative sources. No paid or swapped links.
 
 ## Images

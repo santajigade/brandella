@@ -414,16 +414,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/25-google-ads-optimization-tips/"><div class="bx-related-title">25 Google Ads Optimization Tips</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/google-ads-quality-score-explained/"><div class="bx-related-title">Google Ads Quality Score Explained</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/google-ads-success-3-key-factors/"><div class="bx-related-title">Google Ads Success: 3 Key Factors</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/how-google-ads-auction-works/"><div class="bx-related-title">How the Google Ads Auction Works</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Run Smarter PPC Ad Copy Tests?</h3>
   <p>Explore more Brandella Journal guides on SEO and digital marketing.</p>

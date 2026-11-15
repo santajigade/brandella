@@ -397,16 +397,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/nap-consistency-hidden-local-seo-ranking-factor/"><div class="bx-related-title">NAP Consistency: The Hidden Local SEO Ranking Factor</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/google-my-business-profile-complete-guide-beginners/"><div class="bx-related-title">Google Business Profile: A Complete Guide for Beginners</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/how-to-add-schema-markup-json-ld/"><div class="bx-related-title">How to Add Schema Markup Using JSON LD</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/how-to-get-more-google-reviews/"><div class="bx-related-title">How to Get More Google Reviews for Your Business</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Give Your Listing the Details It's Missing</h3>
   <p>A complete LocalBusiness schema markup setup takes an afternoon, not a redesign. Explore more Brandella Journal guides on SEO and digital marketing.</p>

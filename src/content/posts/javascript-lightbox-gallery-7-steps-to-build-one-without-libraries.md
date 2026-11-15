@@ -428,17 +428,7 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     <li><b>No visible focus outline on the thumbnails:</b> a keyboard user tabbing through the gallery has no way to see which thumbnail is currently selected before pressing Enter, a mistake <a href="https://css-tricks.com/lets-make-one-of-the-most-common-ui-components/" target="_blank" rel="noopener">CSS-Tricks covers well</a> in a broader modal component walkthrough.</li>
   </ul>
 
-  <div class="bx-related">
-    <h3>Continue Reading</h3>
-    <div class="bx-related-grid">
-      <a class="bx-related-card" href="/lazy-load-images-native-javascript/" target="_blank" rel="noopener"><span class="bx-related-title">Lazy Load Images With Native JavaScript</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/what-is-largest-contentful-paint-lcp/" target="_blank" rel="noopener"><span class="bx-related-title">What Is Largest Contentful Paint</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/optimize-images-for-seo-without-losing-quality/" target="_blank" rel="noopener"><span class="bx-related-title">Optimize Images for SEO</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/javascript-event-loop/" target="_blank" rel="noopener"><span class="bx-related-title">Understanding the JavaScript Event Loop</span><span class="bx-related-arrow">→</span></a>
-    </div>
-  </div>
-
-  <div class="bx-faq">
+    <div class="bx-faq">
     <h3 class="bx-h3">Frequently Asked Questions</h3>
 
     <div class="bx-faq-item">

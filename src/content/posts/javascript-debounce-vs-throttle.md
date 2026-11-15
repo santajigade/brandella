@@ -423,17 +423,7 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     <li><b>Reaching for a library before trying the plain version:</b> both functions are well under fifteen lines. Understanding the two above makes reading <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener" target="_blank" rel="noopener">MDN's addEventListener reference</a> and any library's implementation far easier later.</li>
   </ul>
 
-  <div class="bx-related">
-    <h3>Continue Reading</h3>
-    <div class="bx-related-grid">
-      <a class="bx-related-card" href="/core-web-vitals-2026/" target="_blank" rel="noopener"><span class="bx-related-title">Core Web Vitals: The Complete 2026 Guide</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/what-is-largest-contentful-paint-lcp/" target="_blank" rel="noopener"><span class="bx-related-title">What Is Largest Contentful Paint (LCP)?</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/render-blocking-resources-css-javascript/" target="_blank" rel="noopener"><span class="bx-related-title">Render Blocking Resources: CSS and JavaScript</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/copy-to-clipboard-button-javascript/" target="_blank" rel="noopener"><span class="bx-related-title">Building a Copy to Clipboard Button in JavaScript</span><span class="bx-related-arrow">→</span></a>
-    </div>
-  </div>
-
-  <div class="bx-faq">
+    <div class="bx-faq">
     <h3 class="bx-h3">Frequently Asked Questions</h3>
 
     <div class="bx-faq-item">

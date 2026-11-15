@@ -463,16 +463,6 @@ card.dataset.status;     <span class="tok-cm">// "active"</span></code></pre>
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/html-semantic-elements-explained/" target="_blank" rel="noopener"><div class="bx-related-title">HTML Semantic Elements Explained</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/meta-viewport-tag-explained/" target="_blank" rel="noopener"><div class="bx-related-title">Meta Viewport Tag Explained</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/dark-mode-css-architecture/" target="_blank" rel="noopener"><div class="bx-related-title">Dark Mode CSS Architecture</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/what-is-schema-markup/" target="_blank" rel="noopener"><div class="bx-related-title">What Is Schema Markup</div><span class="bx-related-arrow">→</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Clean Up Your Own Markup?</h3>
   <p>Find one place you are stuffing a value into a class name and give it a real data attribute instead.</p>

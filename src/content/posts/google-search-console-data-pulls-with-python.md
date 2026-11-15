@@ -531,17 +531,7 @@ pip install google-api-python-client google-auth pandas</code></pre>
     </defs>
   </svg>
 
-  <div class="bx-related">
-    <h3>Related Articles</h3>
-    <ul>
-      <li><a href="/google-search-console-ai-powered-configuration/" target="_blank" rel="noopener">Google Search Console AI Powered Configuration</a></li>
-      <li><a href="/branded-queries-filter-in-search-console/" target="_blank" rel="noopener">Branded Queries Filter in Search Console</a></li>
-      <li><a href="/google-analytics-4-metrics-explained-beginners/" target="_blank" rel="noopener">Google Analytics 4 Metrics Explained</a></li>
-      <li><a href="/understanding-crawl-stats-report/" target="_blank" rel="noopener">Understanding the Crawl Stats Report</a></li>
-    </ul>
-  </div>
-
-  <div class="bx-faq">
+    <div class="bx-faq">
     <h3 class="bx-h3">Frequently Asked Questions</h3>
 
     <div class="bx-faq-item">

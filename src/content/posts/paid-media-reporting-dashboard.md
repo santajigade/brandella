@@ -440,16 +440,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 </div>
 
 <!-- Related Articles -->
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/attribution-models-explained-digital-marketers/"><div class="bx-related-title">Attribution Models Explained for Digital Marketers</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/marketing-attribution-first-last-data-driven/"><div class="bx-related-title">Marketing Attribution: First Click, Last Click, and Data Driven</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/utm-parameters-explained/"><div class="bx-related-title">UTM Parameters Explained</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/google-ads-performance-max-reporting/"><div class="bx-related-title">Google Ads Performance Max Reporting</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Build a Paid Media Reporting Dashboard That Actually Holds Up?</h3>
   <p>Explore more Brandella Journal guides on SEO and digital marketing.</p>

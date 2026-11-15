@@ -436,16 +436,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/how-to-test-mobile-friendliness-website/" target="_blank" rel="noopener"><div class="bx-related-title">How to Test Mobile Friendliness</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/mobile-seo-checklist-for-faster-rankings-2026/" target="_blank" rel="noopener"><div class="bx-related-title">Mobile SEO Checklist for 2026</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/how-to-fix-mobile-usability-issues-search-console/" target="_blank" rel="noopener"><div class="bx-related-title">Fixing Mobile Usability Issues</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/mobile-ux-best-practices-for-seo/" target="_blank" rel="noopener"><div class="bx-related-title">Mobile UX Best Practices for SEO</div><span class="bx-related-arrow">→</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Check Your Own Viewport Tag?</h3>
   <p>Open your page's head tag and confirm you have exactly one, reading <code>width=device-width, initial-scale=1</code>.</p>

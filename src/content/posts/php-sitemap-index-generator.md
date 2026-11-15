@@ -435,16 +435,6 @@ echo gzencode($xml, 9);</code></pre>
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/build-xml-sitemap-generator-php/"><div class="bx-related-title">Build an XML Sitemap Generator in PHP</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/large-scale-xml-sitemaps-php-index-files/"><div class="bx-related-title">Large Scale XML Sitemaps and Index Files in PHP</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/dynamic-robots-txt-php/"><div class="bx-related-title">Create a Dynamic robots.txt Using PHP</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/indexnow-api-in-php/"><div class="bx-related-title">IndexNow API in PHP: 5 Easy Steps to Auto Submit URLs</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Organize Your Sitemaps?</h3>
   <p>Explore more Brandella Journal guides on PHP, SEO, and site tooling.</p>

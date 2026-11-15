@@ -462,16 +462,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/social-media-kpis-every-marketer-should-track/"><div class="bx-related-title">Social Media KPIs Every Marketer Should Track</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/facebook-marketing-2026-whats-working/"><div class="bx-related-title">Facebook Marketing 2026: What's Working</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/influencer-marketing-best-practices-b2b/"><div class="bx-related-title">Influencer Marketing Best Practices for B2B</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/linkedin-marketing-strategy/"><div class="bx-related-title">LinkedIn Marketing Strategy Guide</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Turn Scattered Mentions Into a Real Social Media Listening Habit</h3>
   <p>Explore more Brandella Journal guides on SEO and digital marketing.</p>

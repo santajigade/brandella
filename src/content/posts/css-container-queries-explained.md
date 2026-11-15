@@ -490,16 +490,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/responsive-css-grid-pricing-table/" target="_blank" rel="noopener"><div class="bx-related-title">Responsive CSS Grid Pricing Table</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/cumulative-layout-shift-cls-explained/" target="_blank" rel="noopener"><div class="bx-related-title">Cumulative Layout Shift Explained</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/interaction-to-next-paint-inp-explained/" target="_blank" rel="noopener"><div class="bx-related-title">Interaction to Next Paint Explained</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/core-web-vitals-2026/" target="_blank" rel="noopener"><div class="bx-related-title">Core Web Vitals 2026</div><span class="bx-related-arrow">→</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Ship Container Aware Components?</h3>
   <p>Start with one card component, add <code>container-type</code> to its wrapper, and let the rest of your design system follow.</p>

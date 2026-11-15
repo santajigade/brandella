@@ -438,16 +438,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/llms-txt-explained/" target="_blank" rel="noopener"><div class="bx-related-title">llms.txt Explained</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/ai-friendly-website-chatgpt-gemini-claude-perplexity/" target="_blank" rel="noopener"><div class="bx-related-title">Building an AI Friendly Website</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/html-semantic-elements-explained/" target="_blank" rel="noopener"><div class="bx-related-title">HTML Semantic Elements Explained</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/what-is-schema-markup/" target="_blank" rel="noopener"><div class="bx-related-title">What Is Schema Markup</div><span class="bx-related-arrow">→</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Check Your Own Pages?</h3>
   <p>Fetch one of your key pages with JavaScript disabled and see exactly what an AI crawler would actually find. That one test tells you more about your real AI crawlability than any checklist can.</p>

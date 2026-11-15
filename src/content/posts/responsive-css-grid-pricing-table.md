@@ -391,17 +391,7 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     <li><b>Not checking real browser support:</b> CSS Grid is safe today across every modern browser, confirmed on <a href="https://caniuse.com/css-grid" target="_blank" rel="noopener">caniuse's Grid support table</a>, but it's still worth a quick check before relying on a newer subgrid feature specifically.</li>
   </ul>
 
-  <div class="bx-related">
-    <h3>Continue Reading</h3>
-    <div class="bx-related-grid">
-      <a class="bx-related-card" href="/cumulative-layout-shift-cls-explained/" target="_blank" rel="noopener"><span class="bx-related-title">Cumulative Layout Shift Explained</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/core-web-vitals-2026/" target="_blank" rel="noopener"><span class="bx-related-title">Core Web Vitals 2026 Guide</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/mobile-ux-best-practices-for-seo/" target="_blank" rel="noopener"><span class="bx-related-title">Mobile UX Best Practices for SEO</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/sticky-add-to-cart-bar/" target="_blank" rel="noopener"><span class="bx-related-title">Sticky Add to Cart Bar Guide</span><span class="bx-related-arrow">→</span></a>
-    </div>
-  </div>
-
-  <div class="bx-faq">
+    <div class="bx-faq">
     <h3 class="bx-h3">Frequently Asked Questions</h3>
 
     <div class="bx-faq-item">

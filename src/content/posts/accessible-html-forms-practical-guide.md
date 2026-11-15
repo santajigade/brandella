@@ -431,16 +431,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/html-semantic-elements-explained/" target="_blank" rel="noopener"><div class="bx-related-title">HTML Semantic Elements Explained</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/html-heading-structure-best-practices/" target="_blank" rel="noopener"><div class="bx-related-title">HTML Heading Structure Best Practices</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/structuring-html-for-ai-crawlability/" target="_blank" rel="noopener"><div class="bx-related-title">Structuring HTML for AI Crawlability</div><span class="bx-related-arrow">→</span></a>
-    <a class="bx-related-card" href="/meta-viewport-tag-explained/" target="_blank" rel="noopener"><div class="bx-related-title">Meta Viewport Tag Explained</div><span class="bx-related-arrow">→</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Test Your Own Forms?</h3>
   <p>Click through your form's labels and confirm focus lands on the right field every single time.</p>

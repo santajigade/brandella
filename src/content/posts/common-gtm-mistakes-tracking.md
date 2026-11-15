@@ -431,16 +431,6 @@ dataLayer.push({ event: <span class="tok-str">'formSubmit'</span> }); <span clas
   </div>
 </div>
 
-<div class="bx-related">
-  <h3>Related Articles</h3>
-  <div class="bx-related-grid">
-    <a class="bx-related-card" href="/google-tag-manager-explained-for-beginners/"><div class="bx-related-title">Google Tag Manager Explained for Beginners</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/ga4-custom-event-tracking-google-tag-manager/"><div class="bx-related-title">GA4 Custom Event Tracking With GTM</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/what-is-server-side-tagging-guide/"><div class="bx-related-title">What Is Server Side Tagging?</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/consent-mode-v2-explained-website-owners/"><div class="bx-related-title">Consent Mode v2 Explained</div><span class="bx-related-arrow">&rarr;</span></a>
-  </div>
-</div>
-
 <div class="bx-cta">
   <h3>Ready to Clean Up Your Container?</h3>
   <p>Explore more Brandella Journal guides on tracking, analytics, and tag management.</p>

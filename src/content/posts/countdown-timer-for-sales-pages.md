@@ -400,17 +400,7 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     <li><b>Styling changes that break the layout under load:</b> a timer redrawn every second needs stable dimensions, worth double checking against <a href="https://css-tricks.com/almanac/properties/t/tabular-nums/" target="_blank" rel="noopener">CSS-Tricks' guide to tabular numerals</a> so the digits don't shift width and jitter the surrounding layout each tick.</li>
   </ul>
 
-  <div class="bx-related">
-    <h3>Continue Reading</h3>
-    <div class="bx-related-grid">
-      <a class="bx-related-card" href="/javascript-event-loop/" target="_blank" rel="noopener"><span class="bx-related-title">The JavaScript Event Loop Explained</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/interaction-to-next-paint-inp-explained/" target="_blank" rel="noopener"><span class="bx-related-title">Interaction to Next Paint Explained</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/sticky-add-to-cart-bar/" target="_blank" rel="noopener"><span class="bx-related-title">Sticky Add to Cart Bar Guide</span><span class="bx-related-arrow">→</span></a>
-      <a class="bx-related-card" href="/core-web-vitals-2026/" target="_blank" rel="noopener"><span class="bx-related-title">Core Web Vitals 2026 Guide</span><span class="bx-related-arrow">→</span></a>
-    </div>
-  </div>
-
-  <div class="bx-faq">
+    <div class="bx-faq">
     <h3 class="bx-h3">Frequently Asked Questions</h3>
 
     <div class="bx-faq-item">
