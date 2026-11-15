@@ -266,7 +266,7 @@ function bxCalc(){var selects=document.querySelectorAll('.bx-calc-select');var t
 <ul>
 <li><a href="/ai-search-ranking-factors-what-matters/" target="_blank" rel="noopener">AI Search Ranking Factors: What Really Matters</a></li>
 <li><a href="/how-perplexity-ai-finds-ranks-sources/" target="_blank" rel="noopener">How Perplexity AI Finds and Ranks Sources</a></li>
-<li><a href="/seo-aeo-geo/" target="_blank" rel="noopener">SEO vs AEO vs GEO Explained</a></li>
+<li><a href="/aeo-vs-seo-vs-geo-difference-2026/" target="_blank" rel="noopener">SEO vs AEO vs GEO Explained</a></li>
 </ul>
 </div>
 

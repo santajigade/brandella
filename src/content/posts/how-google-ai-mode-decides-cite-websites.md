@@ -7,7 +7,7 @@ author: "santajigade"
 categories: ["artificial-intelligence"]
 primaryCategory: "artificial-intelligence"
 description: "How Google AI Mode decides which websites to cite: query fan-out explained, why Google increasingly cites itself, and why only 38% of citations rank top 10."
-focusKeyword: "Google AI Mode"
+focusKeyword: "google ai mode citations"
 image: "/wp-content/uploads/2026/08/Google-AI-Mode.webp"
 imageAlt: "Google AI Mode"
 words: 1376

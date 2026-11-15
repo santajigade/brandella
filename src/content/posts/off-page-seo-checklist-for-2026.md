@@ -7,7 +7,7 @@ author: "santajigade"
 categories: ["link-building", "seo"]
 primaryCategory: "link-building"
 description: "Use this off page SEO checklist for 2026 to build quality backlinks, strengthen domain authority, improve brand mentions, and increase search visibility."
-focusKeyword: "off page seo"
+focusKeyword: "off page seo checklist"
 image: "/wp-content/uploads/2026/08/Off-Page-SEO-Checklist.webp"
 imageAlt: "Off Page SEO"
 words: 1409

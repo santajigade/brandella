@@ -100,6 +100,9 @@ ErrorDocument 404 /404.html
   RewriteRule ^programmatic\-seo\-/?$ /programmatic-seo-2026/ [R=301,L]
   RewriteRule ^meta\-viewport\-tag\-/?$ /meta-viewport-tag-explained/ [R=301,L]
   RewriteRule ^7\-creative\-video\-/?$ /7-creative-video-marketing-ideas/ [R=301,L]
+  # Duplicate topics merged (Nov 15 2026)
+  RewriteRule ^toxic\-backlinks\-how\-to\-identify\-and\-remove\-them/?$ /how-to-identify-remove-toxic-backlinks-safely/ [R=301,L]
+  RewriteRule ^seo\-aeo\-geo/?$ /aeo-vs-seo-vs-geo-difference-2026/ [R=301,L]
   # END manual redirects
 
   # Push alerts: the only PHP file allowed to run

@@ -346,7 +346,7 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <li><b>Assuming every nofollow link is a waste of outreach time.</b> Judge a placement by its traffic and audience fit too, not only the rel attribute.</li>
   <li><b>Leaving every guest post link as plain dofollow.</b> Read our <a href="/guest-blogging-for-seo-best-practices/">guest blogging best practices</a> guide, since most guest posts should carry sponsored or ugc depending on how the placement was earned.</li>
   <li><b>Never auditing your own outbound links.</b> Use a crawler to find pages where comments or widgets are quietly leaking dofollow links to untrusted destinations.</li>
-  <li><b>Ignoring toxic backlinks pointing back at you.</b> Review our <a href="/toxic-backlinks-how-to-identify-and-remove-them/">guide on identifying and removing toxic backlinks</a> so a bad neighborhood of links does not drag your profile down.</li>
+  <li><b>Ignoring toxic backlinks pointing back at you.</b> Review our <a href="/how-to-identify-remove-toxic-backlinks-safely/">guide on identifying and removing toxic backlinks</a> so a bad neighborhood of links does not drag your profile down.</li>
   <li><b>Forgetting to disclose paid placements at all.</b> Any compensated link needs sponsored or nofollow, full stop, regardless of how the relationship is framed elsewhere.</li>
 </div>
 
@@ -465,7 +465,7 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <div class="bx-related-grid">
     <a class="bx-related-card" href="/what-is-link-building/"><div class="bx-related-title">What Is Link Building</div><span class="bx-related-arrow">&rarr;</span></a>
     <a class="bx-related-card" href="/how-to-analyze-your-backlink-profile/"><div class="bx-related-title">How To Analyze Your Backlink Profile</div><span class="bx-related-arrow">&rarr;</span></a>
-    <a class="bx-related-card" href="/toxic-backlinks-how-to-identify-and-remove-them/"><div class="bx-related-title">How To Identify And Remove Toxic Backlinks</div><span class="bx-related-arrow">&rarr;</span></a>
+    <a class="bx-related-card" href="/how-to-identify-remove-toxic-backlinks-safely/"><div class="bx-related-title">How To Identify And Remove Toxic Backlinks</div><span class="bx-related-arrow">&rarr;</span></a>
     <a class="bx-related-card" href="/off-page-seo-checklist-for-2026/"><div class="bx-related-title">The Off Page SEO Checklist For 2026</div><span class="bx-related-arrow">&rarr;</span></a>
   </div>
 </div>

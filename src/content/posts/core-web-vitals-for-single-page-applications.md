@@ -7,7 +7,7 @@ author: "santajigade"
 categories: ["core-web-vitals"]
 primaryCategory: "core-web-vitals"
 description: "Core Web Vitals for single page applications breaks differently than a static site. See why INP and LCP suffer after client side navigation, and how to fix it."
-focusKeyword: "Core Web Vitals"
+focusKeyword: "core web vitals single page applications"
 image: "/wp-content/uploads/2026/10/Core-Web-Vitals.webp"
 imageAlt: "Core Web Vitals"
 words: 2106

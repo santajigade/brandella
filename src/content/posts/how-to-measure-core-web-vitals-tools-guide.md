@@ -7,7 +7,7 @@ author: "santajigade"
 categories: ["core-web-vitals", "seo"]
 primaryCategory: "seo"
 description: "A page can score 100 in Lighthouse and still fail Core Web Vitals. Here's how PageSpeed Insights, CrUX, and Search Console actually differ."
-focusKeyword: "Core Web Vitals"
+focusKeyword: "how to measure core web vitals"
 image: "/wp-content/uploads/2026/07/Core-Web-Vitals-1.webp"
 imageAlt: "Core Web Vitals"
 words: 1535
