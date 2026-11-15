@@ -12,7 +12,12 @@
       "Google Ads",
       "PPC",
       "Digital Marketing"
-    ]
+    ],
+    "education": "B.E. in Electronics and Telecommunication Engineering",
+    "worksFor": {
+      "name": "KOBOLD Instruments Pvt Ltd",
+      "url": "https://www.kobold.com/"
+    }
   },
   {
     "slug": "ankush-guleria",

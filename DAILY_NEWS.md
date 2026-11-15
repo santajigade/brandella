@@ -1,5 +1,7 @@
 # Daily news playbook (Brandella Journal)
 
+Every article must also pass `SEO_CHECKLIST.md` (Santaji's standing rule: always take care of SEO while writing).
+
 The scheduled task runs twice a day and publishes 5 news articles a day: 3 in the morning run, 2 in the evening run. Follow every step. Quality beats count: publish fewer rather than publish something thin, wrong or duplicated.
 
 ## 1. Setup
@@ -66,13 +68,14 @@ format: "md"
 - `categories`: the top section slug plus at most one subcategory slug from `src/data/categories.json` (for example `["paid-media", "google-ads"]`). `primaryCategory` is the most specific one.
 - `author`: `ankush-guleria` when `digital-marketing` is in categories, otherwise `santajigade`.
 - `date`: now in IST with `+05:30`.
-- Title: focus keyword first, 45 to 65 characters, factual, no clickbait.
+- Title: focus keyword first, 45 to 60 characters, factual, no clickbait.
 - Slug: short, lowercase, contains the focus keyword, max 60 characters.
 
 Body (800 to 1,200 words, plain clear English):
 - Intro of 2 or 3 short paragraphs: what happened, who it affects, why it matters. Focus keyword in the first paragraph.
 - 4 to 6 story specific `##` headings (never Conclusion, Summary, Final Thoughts, Overview). The focus keyword in at least one heading.
 - Always include a practical section such as "What advertisers should do now" or "How to check if your site was hit", with steps or a checklist. This is Brandella's own angle and the main value over competitors.
+- An FAQ section (`## FAQ about <topic>` with 3 to 5 `###` questions ending in "?" and short answers) when readers will have follow up questions. It becomes FAQ schema automatically.
 - A table where it genuinely helps (old vs new, dates, who is affected).
 - Paragraphs of 2 or 3 sentences. No H1 in the body.
 - Links inside sentences, no Sources or References section:
@@ -102,4 +105,6 @@ Santaji asked for related infographics between the paragraphs of every article.
 - Commit only the new posts, covers and infographics: `git add src/content/posts/<slugs>.md public/images/covers/<slugs>.webp public/images/infographics/ig-<slug>-*.webp`, message `news: <N> articles <YYYY-MM-DD HH:MM IST>`, then `git pull --rebase` and `git push`.
 - Wait for the Deploy to Hostinger run (`gh run list -R santajigade/brandella -L 1`) and confirm it succeeded. If it fails, read the log and fix.
 
-Never edit old posts, the theme, `.htaccess`, workflows or anything under `/tools/` in a news run. If a post cannot pass the checks, leave it out and publish the rest.
+Linking from an older post: for each new article, add one contextual link to it from one older, genuinely related post (insert an anchor in an existing sentence or add one short sentence; change nothing else in that post) so the new article is not orphaned. Commit that file with the news posts.
+
+Apart from that one link, never edit old posts, the theme, `.htaccess`, workflows or anything under `/tools/` in a news run. If a post cannot pass the checks, leave it out and publish the rest.

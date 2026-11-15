@@ -72,6 +72,20 @@ def link_in_p(p, phrases, href):
     return None
 
 
+def orphan_targets():
+    """Recent posts (last 14 days) that no other post links to, keyed to their focus keyword."""
+    import datetime
+    files = glob.glob(os.path.join(ROOT, "src/content/posts/*.md"))
+    raw = {os.path.basename(f)[:-3]: open(f, encoding="utf-8").read() for f in files}
+    cutoff = (datetime.date.today() - datetime.timedelta(days=14)).isoformat()
+    out = {}
+    for s, t in raw.items():
+        d = re.search(r'^date:\s*"?(\d{4}-\d{2}-\d{2})', t, re.M)
+        k = re.search(r'^focusKeyword:\s*"?([^"\r\n]+)', t, re.M)
+        if d and k and d.group(1) >= cutoff and not any(f"/{s}/" in b for o, b in raw.items() if o != s):
+            out[s] = [k.group(1).strip()]
+    return out
+
 def main(apply):
     files = sorted(glob.glob(os.path.join(ROOT, "src/content/posts/*.md")))
     docs = {}
@@ -83,7 +97,12 @@ def main(apply):
         docs[slug] = {"file": f, "head": txt[:end], "body": txt[end:], "fmt": fmt, "added": 0}
 
     plan = []
-    targets = TARGETS_4 if "--set=4" in sys.argv else TARGETS_3 if "--set=3" in sys.argv else TARGETS_2 if "--set=2" in sys.argv else TARGETS
+    if "--orphans" in sys.argv:
+        global MAX_PER_TARGET
+        MAX_PER_TARGET = 1
+        targets = orphan_targets()
+    else:
+        targets = TARGETS_4 if "--set=4" in sys.argv else TARGETS_3 if "--set=3" in sys.argv else TARGETS_2 if "--set=2" in sys.argv else TARGETS
     for target, phrases in targets.items():
         href = f"/{target}/"
         cands = []

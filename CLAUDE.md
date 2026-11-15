@@ -9,6 +9,7 @@ Astro static site that replaced the WordPress install in November 2026. Owner: S
 - Never redirect an old post URL to the home page. Redirects for old slugs live in the generated block in `public/.htaccess`.
 
 ## Content
+- Every article (news or evergreen, new or updated) must follow `SEO_CHECKLIST.md`.
 - Posts: `src/content/posts/<slug>.md`. Front matter keys: title, slug, date, updated, author, categories, primaryCategory, tags, description, focusKeyword, image, imageAlt, words, views, format.
 - `format: html` means the body is raw HTML (migrated BX FORMAT posts with their own `<style>` and `<script>`), passed through untouched. New posts can use `format: md`.
 - Categories and descriptions: `src/data/categories.json` (descriptions from `scripts/category_descriptions.py`).

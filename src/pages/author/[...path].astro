@@ -21,7 +21,7 @@ const { author, items, page, total, count } = Astro.props;
 const initials = author.name.split(' ').map((w: string) => w[0]).join('').slice(0, 2);
 const schema = [{
   '@context': 'https://schema.org', '@type': 'ProfilePage',
-  mainEntity: { '@type': 'Person', '@id': `${SITE.url}/#author-${author.slug}`, name: author.name, image: author.photo ? absolute(author.photo) : undefined, jobTitle: author.role, description: author.bio, url: absolute(authorUrl(author.slug)), sameAs: [author.linkedin] },
+  mainEntity: { '@type': 'Person', '@id': `${SITE.url}/#author-${author.slug}`, name: author.name, image: author.photo ? absolute(author.photo) : undefined, jobTitle: author.role, description: author.bio, url: absolute(authorUrl(author.slug)), sameAs: [author.linkedin], ...(author.expertise?.length ? { knowsAbout: author.expertise } : {}), ...(author.worksFor ? { worksFor: { '@type': 'Organization', name: author.worksFor.name, url: author.worksFor.url } } : {}), ...(author.education ? { hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'degree', name: author.education } } : {}) },
 }];
 ---
 <Base title={page > 1 ? `${author.name}, Page ${page}` : `${author.name}, ${author.role}`} description={author.bio} schema={schema}>
@@ -35,6 +35,7 @@ const schema = [{
         <h1>{author.name}</h1>
         <p class="author-role">{author.role}</p>
         <p>{author.bio}</p>
+        {author.education && <p class="author-role">{author.education}</p>}
         {author.expertise && <ul class="author-tags">{author.expertise.map((e: string) => <li>{e}</li>)}</ul>}
         <div class="author-actions">
           <span class="author-count"><strong>{count}</strong> articles</span>

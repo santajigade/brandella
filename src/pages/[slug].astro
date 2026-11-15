@@ -50,7 +50,7 @@ if (kind === 'post') {
     image: p.data.image ? [absolute(p.data.image)] : undefined,
     datePublished: p.data.date.toISOString(),
     dateModified: (updated ?? p.data.date).toISOString(),
-    author: { '@type': 'Person', '@id': `${SITE.url}/#author-${author.slug}`, name: author.name, jobTitle: author.role, url: absolute(authorUrl(author.slug)), image: author.photo ? absolute(author.photo) : undefined, sameAs: [author.linkedin] },
+    author: { '@type': 'Person', '@id': `${SITE.url}/#author-${author.slug}`, name: author.name, jobTitle: author.role, url: absolute(authorUrl(author.slug)), image: author.photo ? absolute(author.photo) : undefined, sameAs: [author.linkedin], ...(author.expertise?.length ? { knowsAbout: author.expertise } : {}), ...(author.worksFor ? { worksFor: { '@type': 'Organization', name: author.worksFor.name, url: author.worksFor.url } } : {}), ...(author.education ? { hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'degree', name: author.education } } : {}) },
     publisher: { '@id': `${SITE.url}/#organization` },
     mainEntityOfPage: { '@type': 'WebPage', '@id': absolute(postUrl(p)) },
     articleSection: cat.name,

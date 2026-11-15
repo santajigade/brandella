@@ -148,6 +148,16 @@ def check(slug):
                 fails.append("%.0f%% of the text overlaps with /%s/ (near duplicate)" % (overlap * 100, o))
             elif overlap > 0.12:
                 warns.append("%.0f%% text overlap with /%s/" % (overlap * 100, o))
+    if len(title) > 60:
+        warns.append("title is %d chars, over 60 it gets cut in Google results" % len(title))
+    if not re.search(r"(?im)^##\s+.*(faq|frequently asked)", body):
+        warns.append("no FAQ section (recommended, it becomes FAQ schema)")
+    if kw:
+        for o in others:
+            oraw = open(os.path.join(POSTS, o + ".md"), encoding="utf-8").read(3000)
+            m = re.search(r'^focusKeyword:\s*"?([^"\r\n]*)', oraw, re.M)
+            if m and m.group(1).strip().lower() == kw:
+                fails.append("focus keyword already used by /%s/ (pick a unique one or update that post)" % o)
     if re.search(r"\b[A-Z]{5,}\b", title) and not re.search(r"\b(GA4|SEO|PPC|LLMS|HTML|JSON)\b", title):
         warns.append("title has ALL CAPS words, avoid clickbait style")
     if re.search(r"(?i)\b(shocking|you won.t believe|insane|secret trick|must see)\b", title):
