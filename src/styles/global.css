@@ -262,3 +262,16 @@ html.embed body { overflow: hidden; }
 .push-later { background: #f3f4f6; color: var(--ink); }
 .push-allow { background: var(--green-deep); color: #fff; }
 .push-open { background: none; border: 0; padding: 0; margin-left: 12px; color: inherit; font: inherit; text-decoration: underline; cursor: pointer; }
+
+/* Key takeaways and what's next boxes (article pilot, Nov 2026) */
+.takeaways { margin: 0 0 28px; padding: 20px 24px; background: var(--soft); border: 1px solid #d6edc4; border-left: 5px solid var(--green); border-radius: 12px; }
+.takeaways-title, .whats-next-title { margin: 0 0 10px; font-size: 13px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--green-deep); }
+.takeaways ul { margin: 0; padding-left: 20px; }
+.takeaways li { margin: 6px 0; font-size: 16px; line-height: 1.6; color: var(--ink); }
+.whats-next { margin: 40px 0 0; padding: 22px 24px; border: 1px solid var(--line); border-radius: 14px; background: #fff; box-shadow: 0 6px 24px rgba(0,0,0,.05); }
+.whats-next-link { display: block; padding: 14px 16px; border-radius: 10px; background: var(--soft); border: 1px solid #d6edc4; }
+.whats-next-link:hover { border-color: var(--green); }
+.whats-next-kicker { display: block; font-size: 12px; font-weight: 700; color: var(--green-deep); text-transform: uppercase; letter-spacing: .06em; }
+.whats-next-head { display: block; font-size: 18px; font-weight: 800; line-height: 1.35; color: var(--ink); margin-top: 4px; }
+.whats-next-tools { margin: 12px 0 0; font-size: 15px; color: var(--ink-2); }
+.whats-next-tools a { color: var(--green-deep); font-weight: 700; text-decoration: underline; }

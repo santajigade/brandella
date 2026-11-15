@@ -47,6 +47,8 @@ const posts = defineCollection({
     tags: z.array(z.string()).default([]),
     description: z.string().default(''),
     focusKeyword: z.string().optional(),
+    takeaways: z.array(z.string()).optional(),
+    nextRead: z.string().optional(),
     image: z.string().optional(),
     imageAlt: z.string().optional(),
     words: z.number().optional(),

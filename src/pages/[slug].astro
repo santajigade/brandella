@@ -68,6 +68,7 @@ if (kind === 'post') {
   post = {
     p, cat, top, author, toc, showHero, crumbs, updated, schema,
     rel: related(posts, p, 4),
+    readNext: p.data.takeaways?.length ? (posts.find((x: any) => x.data.slug === p.data.nextRead) ?? related(posts, p, 1)[0]) : undefined,
     next: nextUp(posts, p, 6).map((x) => postUrl(x)),
     shareUrl: encodeURIComponent(absolute(postUrl(p))),
     shareText: encodeURIComponent(p.data.title),
@@ -124,6 +125,12 @@ if (kind === 'post') {
               <img src={post.p.data.image} alt={post.p.data.imageAlt || post.p.data.title} width="1200" height="675" fetchpriority="high" decoding="async" />
             </figure>
           )}
+          {post.p.data.takeaways?.length > 0 && (
+            <aside class="takeaways" aria-label="Key takeaways">
+              <p class="takeaways-title">Key takeaways</p>
+              <ul>{post.p.data.takeaways.map((t: string) => <li>{t}</li>)}</ul>
+            </aside>
+          )}
           {post.toc.length > 2 && (
             <details class="toc toc-inline">
               <summary>In this article</summary>
@@ -131,6 +138,16 @@ if (kind === 'post') {
             </details>
           )}
           <div class="post-body" set:html={html} />
+          {post.readNext && (
+            <aside class="whats-next" aria-label="What to read next">
+              <p class="whats-next-title">What's next</p>
+              <a class="whats-next-link" href={postUrl(post.readNext)}>
+                <span class="whats-next-kicker">Read next</span>
+                <span class="whats-next-head">{post.readNext.data.title}</span>
+              </a>
+              <p class="whats-next-tools">Want to check your own site? Try our <a href="/tools/">free SEO tools</a>.</p>
+            </aside>
+          )}
           <section class="author-box" aria-label="About the author">
             <div class="author-box-photo">
               {post.author.photo
