@@ -8,6 +8,12 @@ categories: ["local-seo"]
 primaryCategory: "local-seo"
 description: "LocalBusiness schema markup helps Google show your hours, ratings, and address in search. See the 7 properties that make it actually work."
 focusKeyword: "LocalBusiness schema markup"
+takeaways:
+  - "LocalBusiness schema describes a physical business so search engines can read its name, address, hours and location."
+  - "Your business name and address in the markup must match your signage and Google Business Profile exactly."
+  - "Use the full PostalAddress structure and geo coordinates with at least five decimal places."
+  - "Do not mark up reviews of your own business with aggregateRating; let your Google Business Profile carry the stars."
+  - "Test the live URL in Google's Rich Results Test before and after publishing."
 image: "/wp-content/uploads/2026/10/LocalBusiness-schema-markup.webp"
 imageAlt: "LocalBusiness schema markup"
 words: 2228

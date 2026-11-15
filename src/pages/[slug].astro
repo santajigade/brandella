@@ -69,7 +69,7 @@ if (kind === 'post') {
   post = {
     p, cat, top, author, toc, showHero, crumbs, updated, schema,
     rel: related(posts, p, 4),
-    readNext: p.data.takeaways?.length ? (posts.find((x: any) => x.data.slug === p.data.nextRead) ?? related(posts, p, 1)[0]) : undefined,
+    readNext: posts.find((x: any) => x.data.slug === p.data.nextRead) ?? related(posts, p, 1)[0],
     next: nextUp(posts, p, 6).map((x) => postUrl(x)),
     shareUrl: encodeURIComponent(absolute(postUrl(p))),
     shareText: encodeURIComponent(p.data.title),

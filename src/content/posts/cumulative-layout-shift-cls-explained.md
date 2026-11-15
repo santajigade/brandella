@@ -8,6 +8,12 @@ categories: ["core-web-vitals", "seo"]
 primaryCategory: "seo"
 description: "Learn what Cumulative Layout Shift (CLS) is, why it matters for Core Web Vitals, what causes unexpected layout shifts, and how to fix CLS issues"
 focusKeyword: "Cumulative Layout Shift"
+takeaways:
+  - "Cumulative Layout Shift (CLS) measures how much visible content unexpectedly moves while a page loads."
+  - "A CLS score of 0.1 or less is good, 0.1 to 0.25 needs improvement and above 0.25 is poor."
+  - "Images without width and height attributes are the most common cause of layout shifts."
+  - "Reserve space for ads, embeds and late loading banners so they cannot push content down."
+  - "Test CLS on mobile as well as desktop, because shifts usually look worse on small screens."
 image: "/wp-content/uploads/2026/07/Cumulative-Layout-Shift.webp"
 imageAlt: "Cumulative Layout Shift"
 words: 1696

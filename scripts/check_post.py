@@ -148,6 +148,12 @@ def check(slug):
                 fails.append("%.0f%% of the text overlaps with /%s/ (near duplicate)" % (overlap * 100, o))
             elif overlap > 0.12:
                 warns.append("%.0f%% text overlap with /%s/" % (overlap * 100, o))
+    tk = fm.get("takeaways") or []
+    if not 3 <= len(tk) <= 5:
+        fails.append("needs 3 to 5 takeaways in front matter (Key takeaways box)")
+    for x in tk:
+        if len(str(x).split()) > 32:
+            warns.append("takeaway too long: " + str(x)[:60])
     if len(title) > 60:
         warns.append("title is %d chars, over 60 it gets cut in Google results" % len(title))
     if not re.search(r"(?im)^##\s+.*(faq|frequently asked)", body):

@@ -8,6 +8,12 @@ categories: ["technical-seo"]
 primaryCategory: "technical-seo"
 description: "Google Analytics 4 metrics explained: what makes a session \"engaged,\" the real engagement rate formula, and why comparing GA4 bounce rate to UA is invalid."
 focusKeyword: "Google Analytics 4 Metrics"
+takeaways:
+  - "GA4 replaced bounce rate as the main quality signal with engagement rate, the share of sessions that were engaged."
+  - "An engaged session lasts 10 seconds or more, includes a key event, or has at least two page views."
+  - "GA4 bounce rate is simply the opposite of engagement rate, so never compare it with old Universal Analytics bounce rate."
+  - "Average engagement time counts only the time a page is actually in focus."
+  - "Engagement rates differ by traffic channel, so compare each channel against its own benchmark."
 image: "/wp-content/uploads/2026/08/Google-Analytics-4-Metrics.webp"
 imageAlt: "Google Analytics 4 Metrics"
 words: 1256

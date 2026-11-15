@@ -59,6 +59,9 @@ primaryCategory: "technical-seo"
 tags: ["Google core update"]
 description: "120 to 160 characters, includes the focus keyword, says what happened and why it matters."
 focusKeyword: "google march core update"
+takeaways:
+  - "3 to 5 short bullets summarising the real main points of the article."
+  - "Max about 25 words each, facts only from the article."
 image: "/images/covers/google-march-core-update-rolling-out.webp"
 imageAlt: "Google March core update rollout"
 format: "md"

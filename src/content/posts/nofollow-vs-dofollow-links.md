@@ -8,6 +8,12 @@ categories: ["off-page-seo"]
 primaryCategory: "off-page-seo"
 description: "Dofollow vs nofollow external links explained with HTML examples, when to use each, and how to track outbound link clicks in GA4."
 focusKeyword: "dofollow external links"
+takeaways:
+  - "A dofollow link is a normal link with no nofollow, sponsored or ugc value in its rel attribute."
+  - "Since September 2019 Google treats nofollow, sponsored and ugc as hints rather than strict rules."
+  - "Use rel=\"sponsored\" for paid or affiliate links and rel=\"ugc\" for links in comments and forums."
+  - "A healthy backlink profile naturally mixes dofollow and nofollow links."
+  - "GA4 can track outbound link clicks automatically through enhanced measurement."
 image: "/wp-content/uploads/2026/10/nofollow-vs-dofollow-links.webp"
 imageAlt: "nofollow vs dofollow links"
 words: 2481
@@ -211,7 +217,7 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <span class="bx-pill">Off-Page SEO</span>
 </div>
 
-<p>Hey! If you have ever stared at a backlink report and wondered why some links seem to matter more than others, this guide is for you. We are going to clear up exactly what that tiny <a href="/link-rel-attribute-explained/">rel attribute</a> in your code is doing to your rankings.</p>
+<p>Hey! If you have ever stared at a backlink report and wondered why some links seem to matter more than others, this guide is for you. We are going to clear up exactly what that tiny rel attribute in your code is doing to your rankings.</p>
 
 <p class="bx-lede"><em>Picture this: a major publication mentions your brand, but buried in the link code is a single word that decides whether that mention quietly lifts your rankings or just sends a trickle of referral visitors. That word is the entire nofollow vs dofollow links debate, and most marketers still get it wrong because they are working from rules Google rewrote back in 2019.</em></p>
 

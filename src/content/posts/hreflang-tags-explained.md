@@ -8,6 +8,12 @@ categories: ["technical-seo"]
 primaryCategory: "technical-seo"
 description: "Hreflang tags tell Google which language and country version of a page to show. Learn the 5 rules that stop the wrong page ranking in the wrong market."
 focusKeyword: "hreflang tags"
+takeaways:
+  - "Hreflang tags tell search engines which language and country each version of a page is meant for."
+  - "Every hreflang link must be confirmed by a return tag on the other page, or Google ignores the pair."
+  - "Use x-default for the version shown when no language or country annotation matches the visitor."
+  - "You can add hreflang in the HTML head, in HTTP headers or in the XML sitemap; Google treats all three equally."
+  - "Use a crawler to audit hreflang regularly, especially after adding locales, renaming pages or migrating."
 image: "/wp-content/uploads/2026/10/hreflang-tags.webp"
 imageAlt: "hreflang tags"
 words: 1842

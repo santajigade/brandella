@@ -8,6 +8,12 @@ categories: ["google-search-console", "seo"]
 primaryCategory: "google-search-console"
 description: "Discovered - currently not indexed doesn't mean rejection. Learn the real causes, how to diagnose them, and the structural fixes that actually work."
 focusKeyword: "Discovered Currently Not Indexed"
+takeaways:
+  - "\"Discovered, currently not indexed\" means Google knows the URL exists but has not crawled it yet."
+  - "Common causes are a slow site, low site or page priority for Google, and a stretched crawl budget."
+  - "It is different from \"Crawled, currently not indexed\", where Google fetched the page and chose not to index it."
+  - "Fix the cause first by adding internal links from strong pages, improving content depth and cleaning up the sitemap."
+  - "Request indexing only after fixing the cause; manual requests are limited to roughly 10 to 15 URLs a day."
 image: "/wp-content/uploads/2026/08/Discovered-Currently-Not-Indexed.webp"
 imageAlt: "Discovered Currently Not Indexed"
 words: 1724

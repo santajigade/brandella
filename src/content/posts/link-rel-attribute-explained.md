@@ -1,13 +1,19 @@
 ---
-title: "Link Rel Attribute: Dofollow, Nofollow, Sponsored, UGC"
+title: "Link Rel Attribute: Preload, Preconnect, Canonical Explained"
 slug: "link-rel-attribute-explained"
 date: "2026-08-30T04:32:36"
 updated: "2026-08-31T04:09:38"
 author: "santajigade"
 categories: ["development", "html"]
 primaryCategory: "html"
-description: "Every link rel value explained with HTML examples: dofollow, nofollow, sponsored, ugc and noopener, plus how each one affects SEO."
+description: "The link rel attribute explained with real examples: preload, prefetch, preconnect, canonical and alternate, plus a timing test and mistakes to avoid."
 focusKeyword: "link rel attribute"
+takeaways:
+  - "The rel attribute on a link element in the page head tells the browser how a linked resource relates to the current page."
+  - "Preload, prefetch and preconnect are resource hints that change when the browser fetches files, purely for performance."
+  - "Canonical and alternate describe how the current page relates to other URLs, which matters for SEO."
+  - "A canonical tag is a hint that tells search engines which URL you prefer when several near identical pages exist."
+  - "Only preload resources the current page really needs early, or you waste bandwidth and slow down other requests."
 image: "/wp-content/uploads/2026/08/link-rel-attribute.webp"
 imageAlt: "link rel attribute"
 words: 2142

@@ -8,6 +8,12 @@ categories: ["google-search-console", "seo"]
 primaryCategory: "google-search-console"
 description: "Understanding the Crawl Stats report in Google Search Console, explained simply. See what the numbers mean and what to check first."
 focusKeyword: "Crawl Stats report"
+takeaways:
+  - "The Crawl Stats report in Search Console shows how often Google crawls your site and how your server responds."
+  - "You find it under Settings, then Crawling, then Open Report, not in the main menu."
+  - "Check host status first; green means your server is reliable enough for Google to crawl smoothly."
+  - "Watch for sudden spikes or drops in crawl requests and a rising average response time."
+  - "Google says sites with fewer than 1,000 pages usually do not need to worry about crawl budget."
 image: "/wp-content/uploads/2026/08/Crawl-Stats-report.webp"
 imageAlt: "Crawl Stats report"
 words: 1570

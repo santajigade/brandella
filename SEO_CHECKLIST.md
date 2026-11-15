@@ -13,6 +13,8 @@ Santaji's standing rule: every article, news or evergreen, new or updated, must 
 - Description: 120 to 160 characters, contains the focus keyword, says what the reader gets.
 
 ## Body
+- `takeaways` in front matter: 3 to 5 short bullets (max about 25 words each) that summarise the article's real main points, shown in a Key takeaways box at the top. Write them from the article itself, never invent facts, no dashes.
+- Optional `nextRead: "<slug>"` picks the article shown in the What's next box at the end (default: most related post).
 - Focus keyword in the first paragraph and in at least one H2. Use it naturally; never stuff it.
 - No H1 in the body (the title is the H1). Clear H2 and H3 headings, never "Conclusion" or "Summary".
 - Original value: practical steps, a checklist, a table, examples or our own analysis. Never just restate a source.

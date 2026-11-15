@@ -8,6 +8,12 @@ categories: ["google-ads"]
 primaryCategory: "google-ads"
 description: "Demand Gen campaigns explained: how they differ from Search and PMax, the June 2026 Display migration, and Google's own best-practices data."
 focusKeyword: "Demand Gen Campaigns"
+takeaways:
+  - "Demand Gen campaigns run on YouTube, Shorts, Discover, Gmail and Display, and never on Google Search results."
+  - "From June 2026 Google is moving Display campaigns into Demand Gen, starting with a voluntary migration tool."
+  - "Demand Gen creates new demand with audiences and visuals, while Search captures existing demand."
+  - "Google recommends a daily budget of at least 15 times your target CPA so the campaign can exit the learning phase."
+  - "Advertisers using at least 3 of Google's 4 Demand Gen best practices saw 40% more conversions on average."
 image: "/wp-content/uploads/2026/08/Demand-Gen-Campaigns.webp"
 imageAlt: "Demand Gen Campaigns"
 words: 1270

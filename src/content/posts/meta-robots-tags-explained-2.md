@@ -8,6 +8,12 @@ categories: ["seo", "technical-seo"]
 primaryCategory: "technical-seo"
 description: "How the meta robots tag works, when to use noindex, nofollow and follow, with code examples and common mistakes that block pages from Google."
 focusKeyword: "meta robots tag"
+takeaways:
+  - "A meta robots tag in the page head tells search engines whether to index that one page and whether to follow its links."
+  - "Without any tag, Google defaults to index, follow, so you only need the tag to restrict something."
+  - "Noindex does not stop crawling, and since 2019 Google treats nofollow as a hint rather than a strict rule."
+  - "Never block a URL in robots.txt and noindex it at the same time, because Google cannot see a noindex on a page it cannot crawl."
+  - "Use the X-Robots-Tag HTTP header for PDFs and other non-HTML files."
 image: "/wp-content/uploads/2026/08/Meta-Robots-Tags.webp"
 imageAlt: "Meta Robots Tags"
 words: 1737
