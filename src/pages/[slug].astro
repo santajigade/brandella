@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Card from '../components/Card.astro';
+import Newsletter from '../components/Newsletter.astro';
 import Sidebar from '../components/Sidebar.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import AdSlot from '../components/AdSlot.astro';
@@ -148,6 +149,7 @@ if (kind === 'post') {
               <p class="whats-next-tools">Want to check your own site? Try our <a href="/tools/">free SEO tools</a>.</p>
             </aside>
           )}
+          <Newsletter />
           <section class="author-box" aria-label="About the author">
             <div class="author-box-photo">
               {post.author.photo

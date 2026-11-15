@@ -1,4 +1,4 @@
-# Allow only the push subscribe endpoint to run PHP
-<Files "subscribe.php">
+# Allow only the push subscribe and newsletter endpoints to run PHP
+<FilesMatch "^(subscribe|newsletter)\.php$">
   Require all granted
-</Files>
+</FilesMatch>

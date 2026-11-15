@@ -107,6 +107,8 @@ ErrorDocument 404 /404.html
 
   # Push alerts: the only PHP file allowed to run
   RewriteRule ^api/subscribe\.php$ - [L]
+  # Newsletter signup
+  RewriteRule ^api/newsletter\.php$ - [L]
   # Block every PHP file (the old WordPress files stay on disk but must not run)
   RewriteRule \.php$ - [F,L]
 </IfModule>

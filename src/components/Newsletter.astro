@@ -1,0 +1,54 @@
+---
+// Newsletter signup banner. Posts to /api/newsletter.php, which saves emails to a CSV (Excel) file on the server.
+---
+<section class="newsletter" aria-label="Subscribe to our newsletter">
+  <div class="newsletter-text">
+    <p class="newsletter-kicker">Free newsletter</p>
+    <h2 class="newsletter-title">Get practical SEO and marketing tips in your inbox</h2>
+    <p class="newsletter-sub">New guides, Google updates and free tools. No spam, unsubscribe anytime.</p>
+  </div>
+  <form class="newsletter-form" novalidate>
+    <label class="sr-only" for="nl-email">Email address</label>
+    <input id="nl-email" type="email" name="email" placeholder="Enter your email address" autocomplete="email" required maxlength="254" />
+    <input type="text" name="website" tabindex="-1" autocomplete="off" class="nl-hp" aria-hidden="true" />
+    <button type="submit" class="btn">Subscribe</button>
+    <p class="newsletter-msg" role="status" aria-live="polite"></p>
+    <p class="newsletter-legal">By subscribing you agree to our <a href="/privacy-policy/">Privacy Policy</a>.</p>
+  </form>
+</section>
+
+<script>
+  document.querySelectorAll<HTMLFormElement>('.newsletter-form').forEach((form) => {
+    const msg = form.querySelector<HTMLElement>('.newsletter-msg')!;
+    const btn = form.querySelector<HTMLButtonElement>('button')!;
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = (form.elements.namedItem('email') as HTMLInputElement).value.trim();
+      const website = (form.elements.namedItem('website') as HTMLInputElement).value;
+      msg.className = 'newsletter-msg';
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
+        msg.textContent = 'Please enter a valid email address.';
+        msg.classList.add('is-error');
+        return;
+      }
+      btn.disabled = true;
+      btn.textContent = 'Subscribing...';
+      try {
+        const r = await fetch('/api/newsletter.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, website, page: location.pathname }),
+        });
+        const d = await r.json().catch(() => ({}));
+        msg.textContent = d.msg || (d.ok ? 'Thanks for subscribing!' : 'Something went wrong, please try again.');
+        msg.classList.add(d.ok ? 'is-ok' : 'is-error');
+        if (d.ok) form.reset();
+      } catch {
+        msg.textContent = 'Network error, please try again.';
+        msg.classList.add('is-error');
+      }
+      btn.disabled = false;
+      btn.textContent = 'Subscribe';
+    });
+  });
+</script>
