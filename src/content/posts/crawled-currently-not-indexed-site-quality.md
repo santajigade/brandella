@@ -8,6 +8,12 @@ primaryCategory: "google-search-console"
 tags: ["Google Search Console", "indexing", "crawled currently not indexed", "John Mueller", "site quality"]
 description: "Crawled currently not indexed pages are usually a site quality signal, says Google's John Mueller, and shrinking the site will not fix it. What to do now."
 focusKeyword: "crawled currently not indexed"
+takeaways:
+  - "John Mueller says many crawled or discovered currently not indexed pages usually signal that Google's quality systems are unconvinced about the site."
+  - "Mueller said just making the site smaller by noindexing or deleting pages does not significantly raise the site's overall quality."
+  - "Discovered currently not indexed means Google found but has not crawled the URL, while crawled means Google fetched it and declined indexing."
+  - "Google's crawl budget guide is written mainly for large sites with 1 million or more unique pages, so smaller sites rarely face crawl budget issues."
+  - "Site owners should rule out technical causes first, then improve or merge weak pages before pruning, and expect recovery over weeks or months."
 image: "/images/covers/crawled-currently-not-indexed-site-quality.webp"
 imageAlt: "Crawled currently not indexed pages in Google Search Console"
 format: "md"

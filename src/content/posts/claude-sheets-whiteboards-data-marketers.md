@@ -8,6 +8,12 @@ primaryCategory: "artificial-intelligence"
 tags: ["Claude", "Anthropic", "AI tools", "dashboards", "spreadsheets"]
 description: "Claude Sheets, Whiteboards and Claude Data launched on November 10 for paid plans. What each tool does, the limits, and practical uses for marketing teams."
 focusKeyword: "claude sheets"
+takeaways:
+  - "Anthropic launched Claude Sheets and Claude Whiteboards in beta on November 10, 2026, available on all paid plans."
+  - "Claude Data is the new name for Claude Dashboards, now generally available, and it needs a data connector such as a warehouse or CRM."
+  - "Claude Sheets builds spreadsheets with tabs, formulas, formatting and drop downs, but Anthropic says functionality is basic for now."
+  - "Claude Whiteboards turns a spoken plan into a shared board with owners and dates, groups notes by theme and drafts action items."
+  - "On Enterprise plans, Claude Data switches on by default from November 19, 2026 unless an admin changes the setting."
 image: "/images/covers/claude-sheets-whiteboards-data-marketers.webp"
 imageAlt: "Claude Sheets, Claude Whiteboards and Claude Data tools for marketing teams"
 format: "md"

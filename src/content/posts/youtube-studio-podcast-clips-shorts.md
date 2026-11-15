@@ -8,6 +8,12 @@ primaryCategory: "social"
 tags: ["YouTube", "YouTube Shorts", "podcasts", "video marketing"]
 description: "The YouTube Studio clips tool can now turn podcast segments into vertical Shorts with captions and AI suggestions. How it works and how brands should use it."
 focusKeyword: "youtube studio clips"
+takeaways:
+  - "YouTube announced on November 12, 2026 that the YouTube Studio clips tool can now create Shorts from existing long videos."
+  - "Creators pick a segment from the transcript, timestamps or AI suggestions, and a 16:9 episode is reframed as vertical video."
+  - "Captions are added automatically from the transcript, and the source video becomes the Short's related video unless it is private, unlisted or made for kids."
+  - "AI suggestions are available in 10 countries, including India and the US, while the manual clips tool is available globally."
+  - "YouTube recommends keeping clips and Shorts out of podcast playlists, which should hold only full episodes."
 image: "/images/covers/youtube-studio-podcast-clips-shorts.webp"
 imageAlt: "YouTube Studio clips tool creating Shorts from podcasts"
 format: "md"

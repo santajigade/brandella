@@ -8,6 +8,12 @@ categories: ["paid-media", "paid-media-analytics"]
 primaryCategory: "paid-media"
 description: "Build a GA4 free form exploration in 5 easy steps with real screenshots, fix the 2 month data limit, avoid sampling, and save 5 ready made report recipes."
 focusKeyword: "GA4 free form exploration"
+takeaways:
+  - "A GA4 free form exploration works like a pivot table where you choose the rows, columns, metrics, filters and segments yourself."
+  - "By default explorations only see 2 months of event data, so change Event data retention to 14 months under Admin."
+  - "The longer retention setting is not retroactive, because the extra history only builds up from the day you switch it."
+  - "An outbound click report uses Link domain and Link URL as rows, Event count as the value, and an Event name exactly matches click filter."
+  - "Watch the limits: sampling past about 10 million events, the (other) row, data thresholds, and 200 explorations created per user."
 image: "/images/covers/ga4-free-form-exploration.webp"
 imageAlt: "GA4 Free Form Exploration: 5 Easy Steps to Build Reports"
 words: 2026

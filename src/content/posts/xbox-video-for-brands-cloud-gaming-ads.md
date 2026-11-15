@@ -8,6 +8,12 @@ primaryCategory: "digital-marketing"
 tags: ["Xbox", "video advertising", "cloud gaming", "Microsoft Advertising", "CTV"]
 description: "Xbox Video for Brands puts non-skippable video ads before ad-supported cloud gaming sessions. How it works, what is still unknown and how to prepare."
 focusKeyword: "xbox video for brands"
+takeaways:
+  - "Microsoft introduced Xbox Video for Brands on November 12, 2026, a premium video ad product tied to ad supported cloud gaming."
+  - "A three minute pre-roll ad pod unlocks a 30 minute cloud gaming session without a Game Pass subscription for eligible players."
+  - "Ads are non-skippable 16:9 videos in multiple durations, shown before sessions and during loading, with gameplay never interrupted."
+  - "Microsoft built it for marketers already buying premium video and CTV, existing Xbox advertisers, and brands new to gaming."
+  - "Markets, buying routes, measurement, pricing and exact durations are not shared yet, so budgets should be treated as early tests."
 image: "/images/covers/xbox-video-for-brands-cloud-gaming-ads.webp"
 imageAlt: "Xbox Video for Brands cloud gaming video ads"
 format: "md"

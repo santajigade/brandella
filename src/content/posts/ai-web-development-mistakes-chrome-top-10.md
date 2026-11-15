@@ -8,6 +8,12 @@ primaryCategory: "html_css"
 tags: ["Chrome", "AI coding agents", "Modern Web Guidance", "Core Web Vitals", "accessibility"]
 description: "Chrome listed the top 10 AI web development mistakes coding agents make, from focus traps to layout shifts. What each fix means for your marketing site."
 focusKeyword: "ai web development mistakes"
+takeaways:
+  - "The Chrome team published a list of the top 10 things AI coding agents get wrong in web development on November 11, 2026."
+  - "Chrome's evals show agents pass about 52% of Modern Web Guidance checks without guidance and 91% with it installed."
+  - "Common mistakes include custom JavaScript for focus traps, swipe gestures and overlays where native features like popover and Scroll Snap work better."
+  - "Videos without explicit width and height and old A/B testing anti flicker snippets cause layout shifts and can delay LCP on landing pages."
+  - "Teams should install the guidance, audit top templates, fix media sizes, test with a keyboard and add a strict CSP."
 image: "/images/covers/ai-web-development-mistakes-chrome-top-10.webp"
 imageAlt: "Top 10 AI web development mistakes listed by Chrome"
 format: "md"

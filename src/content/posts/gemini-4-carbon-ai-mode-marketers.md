@@ -8,6 +8,12 @@ primaryCategory: "artificial-intelligence"
 tags: ["Gemini 4 Carbon", "Google AI Mode", "Gemini", "Google DeepMind", "AI models"]
 description: "Gemini 4 Carbon, Google's strongest model, is rolling out in AI Mode for AI Ultra subscribers. Features, API pricing and what marketers should test."
 focusKeyword: "gemini 4 carbon"
+takeaways:
+  - "Google released Gemini 4 Carbon on November 10, 2026, calling it Google's strongest model, built for hard, long running tasks."
+  - "Carbon is rolling out to Google AI Ultra subscribers in AI Mode, the Gemini app and Google Antigravity, so most searchers will not see it."
+  - "Google says Gemini 4 Argon remains the recommended choice for most software engineering and knowledge work."
+  - "Introductory API pricing is $2 per million input tokens and $10 per million output tokens, doubling to $4 and $20 from November 30, 2026."
+  - "Google reports Carbon passed 92% of tasks on an agentic honesty benchmark versus 70% for Argon, though these are vendor results."
 image: "/images/covers/gemini-4-carbon-ai-mode-marketers.webp"
 imageAlt: "Gemini 4 Carbon in Google AI Mode"
 format: "md"

@@ -8,6 +8,12 @@ primaryCategory: "digital-marketing"
 tags: ["HubSpot", "CRM", "marketing automation", "AI agents"]
 description: "HubSpot CEO change: co-founder Brian Halligan replaced Yamini Rangan on November 12, 2026. What the refounding means for marketers and what to check now."
 focusKeyword: "hubspot ceo"
+takeaways:
+  - "On November 12, 2026, co-founder Brian Halligan was appointed HubSpot CEO with immediate effect, replacing Yamini Rangan, who also left the board."
+  - "Halligan calls his return \"a refounding\" and plans to rethink HubSpot across product, go to market and culture."
+  - "Karen Burgess from Adobe joins as EVP, Finance on November 30, 2026 and becomes CFO on February 11, 2027, when Kate Bueker retires."
+  - "Under Rangan, customers rose from about 135,000 to more than 311,000 and revenue grew from $1.3 billion in 2021 to an expected $3.7 billion."
+  - "HubSpot users should note renewal dates, export a CRM backup, list the AI features they rely on and review integrations."
 image: "/images/covers/hubspot-ceo-brian-halligan-returns.webp"
 imageAlt: "HubSpot CEO change as Brian Halligan returns"
 format: "md"

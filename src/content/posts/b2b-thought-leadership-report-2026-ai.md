@@ -8,6 +8,12 @@ primaryCategory: "content"
 tags: ["thought leadership", "B2B marketing", "Edelman", "LinkedIn", "AI search"]
 description: "The 2026 Edelman LinkedIn B2B thought leadership report says 84% of decision makers use AI to summarize it. Key findings and what content teams should change."
 focusKeyword: "b2b thought leadership report"
+takeaways:
+  - "In the 2026 Edelman LinkedIn report, 84% of B2B decision makers used AI to summarize thought leadership while evaluating vendors."
+  - "The survey covered 1,135 business executives in seven countries, including the US, UK, India and Singapore, between September 4 and 21, 2026."
+  - "89% shared thought leadership through private channels such as email and direct messages, compared with 67% through public channels."
+  - "59% of final decision makers said poor or missing thought leadership contributed to a vendor being dropped from consideration."
+  - "Only 46% of companies producing thought leadership optimize for AI generated answers, while 84% emphasize professional social feeds."
 image: "/images/covers/b2b-thought-leadership-report-2026-ai.webp"
 imageAlt: "Edelman LinkedIn B2B thought leadership report 2026 findings"
 format: "md"

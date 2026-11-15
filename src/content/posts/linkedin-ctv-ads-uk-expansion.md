@@ -8,6 +8,12 @@ primaryCategory: "linkedin-ads"
 tags: ["LinkedIn Ads", "connected TV", "B2B advertising", "video ads"]
 description: "LinkedIn CTV Ads now reach UK viewers by job role, industry and seniority on partners like LG and Titan OS. What launched and how B2B teams can test it."
 focusKeyword: "linkedin ctv ads"
+takeaways:
+  - "LinkedIn announced on November 12, 2026 that CTV Ads are now available in the UK, its third market after the US and Canada."
+  - "Advertisers can target viewers on connected TVs by job role, industry and seniority, using the same targeting as Campaign Manager."
+  - "LG, Paramount+ and Titan OS are named as UK publishers and TV platforms, with Titan OS powering Philips, Sharp and JVC TVs."
+  - "Cisco reached 52% more midmarket accounts and saw 141% higher Lead Gen Form completion among viewers of its CTV Ads."
+  - "The objective is brand awareness, so advertisers should measure impact with lift studies and follow up campaigns rather than last click leads."
 image: "/images/covers/linkedin-ctv-ads-uk-expansion.webp"
 imageAlt: "LinkedIn CTV Ads expand to the UK"
 format: "md"

@@ -8,6 +8,12 @@ primaryCategory: "ppc-strategy"
 tags: ["Microsoft Advertising", "Bing Ads", "PPC reporting", "AI Max"]
 description: "The Microsoft Advertising interface update brings task based menus, OR filters, saved views and bid strategy reports. What changed and what to check first."
 focusKeyword: "microsoft advertising interface"
+takeaways:
+  - "Microsoft shared a broad Microsoft Advertising interface refresh in its November 9, 2026 product newsletter, based on advertiser complaints."
+  - "Navigation is reorganised around tasks, with breadcrumbs, a navigation search and menus that advertisers can customise."
+  - "Reporting now supports OR logic in filters, saved views across pages and custom columns built from formulas such as average order value."
+  - "New Bid Strategy Reports show target CPA and target ROAS against actual results, with target trend lines and conversion delay context."
+  - "Sign-in gets plainer error messages and more persistent sessions, while invitation pages now show required access, expiry date and next steps."
 image: "/images/covers/microsoft-advertising-interface-update.webp"
 imageAlt: "Microsoft Advertising interface update"
 format: "md"

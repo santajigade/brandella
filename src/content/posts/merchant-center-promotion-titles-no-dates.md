@@ -8,6 +8,12 @@ primaryCategory: "google-ads"
 tags: ["Google Merchant Center", "Shopping ads", "promotions", "holiday sales"]
 description: "Merchant Center promotion titles can no longer include dates, and the Deal Ends annotation is out of its experimental phase. What to fix before holiday sales."
 focusKeyword: "merchant center promotion titles"
+takeaways:
+  - "Google's updated Merchant Center promotion requirements now say not to include dates in any format in promotion titles."
+  - "The only exception is a short month abbreviation such as \"Jan\", and redemption dates belong only in their designated fields."
+  - "The Deal Ends annotation for Shopping ads lost its experimental label, and India was added to the places where it does not run."
+  - "During the holiday period, October 15 to January 5, Deal Ends needs at least 10% off and the lowest price in 60 days."
+  - "Merchants should export active promotions, remove dates from titles, keep titles under 60 characters and fill sale_price_effective_date."
 image: "/images/covers/merchant-center-promotion-titles-no-dates.webp"
 imageAlt: "Merchant Center promotion titles and Deal Ends annotation"
 format: "md"

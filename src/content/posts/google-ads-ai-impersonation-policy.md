@@ -8,6 +8,12 @@ primaryCategory: "google-ads"
 tags: ["Google Ads policy", "AI generated ads", "public figure impersonation", "account suspension"]
 description: "Google Ads AI impersonation rules: ads that fake public figures with AI are banned even with an AI disclosure. What it means and how to audit your creative."
 focusKeyword: "google ads ai impersonation"
+takeaways:
+  - "Google Ads policy now states that ads impersonating public figures using AI are not allowed, even if they disclose AI use."
+  - "Google says the November 12, 2026 update is a clarification and does not change how the policy is enforced."
+  - "Violations count as egregious, so accounts are suspended upon detection without prior warning and are reinstated only in compelling circumstances."
+  - "AI disclosure labels are about transparency, while the impersonation rule asks whether someone's identity was used without consent."
+  - "Advertisers should audit creative and landing pages for real likenesses and keep written consent from any public figure they feature."
 image: "/images/covers/google-ads-ai-impersonation-policy.webp"
 imageAlt: "Google Ads AI impersonation policy clarification"
 format: "md"

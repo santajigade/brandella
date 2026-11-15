@@ -8,6 +8,12 @@ primaryCategory: "technical-seo"
 tags: ["Google Search Central", "Referer header", "analytics", "Search Console"]
 description: "Google published a guide to identify Google Search traffic with the Referer header. Here are the values, why visits show as direct, and what to check."
 focusKeyword: "identify google search traffic"
+takeaways:
+  - "Google added a Search Central page on November 12, 2026 explaining how to identify Google Search traffic in analytics and server logs."
+  - "Google Search uses the origin referrer policy, so the Referer shows only the scheme and host, never the search query."
+  - "Referer values include www.google.com, local domains such as google.co.uk, and an android-app value for the Google app on Android."
+  - "Private browsing, privacy extensions, ad blockers and consent settings can drop the Referer, making some real Google visits appear as direct."
+  - "Analytics and Search Console differ because of privacy settings, redirects, different counting methods and paid traffic included in analytics totals."
 image: "/images/covers/identify-google-search-traffic-referer.webp"
 imageAlt: "Identify Google Search traffic with the Referer header"
 format: "md"

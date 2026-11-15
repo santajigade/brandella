@@ -8,6 +8,12 @@ primaryCategory: "technical-seo"
 tags: ["CDN", "Googlebot", "crawling", "crawl budget", "bot protection"]
 description: "Moving to a CDN can trigger a Googlebot crawl spike and tempt teams to block bots. Google's new guidance on cold caches, pre-warming and safe throttling."
 focusKeyword: "moving to a cdn"
+takeaways:
+  - "Google says faster responses after moving to a CDN can make Googlebot raise its crawl rate sharply, putting heavy load on the origin."
+  - "A new CDN starts with empty caches, so crawlers walking the full URL inventory cause many cache misses that hit the origin."
+  - "Blanket bot protection or CAPTCHA challenges make Googlebot fail, and continued blocking can cause pages to drop out of Search."
+  - "Google recommends allowing verified bots, pre-warming caches before cutover, and returning 429 or 503 only for a short window if needed."
+  - "Google describes that throttling window as a few hours or one to two days at most."
 image: "/images/covers/moving-to-cdn-googlebot-crawl-spike.webp"
 imageAlt: "Moving to a CDN without overwhelming the origin server or blocking Googlebot"
 format: "md"

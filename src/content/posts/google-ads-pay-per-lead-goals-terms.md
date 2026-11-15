@@ -8,6 +8,12 @@ primaryCategory: "google-ads"
 tags: ["Google Ads", "pay-per-lead", "Performance Max", "Local Services Ads", "lead generation"]
 description: "Google Ads pay-per-lead goals terms now need an opt-in. What the terms reportedly cover, how pay-per-lead Performance Max works and what to check first."
 focusKeyword: "google ads pay-per-lead goals terms"
+takeaways:
+  - "Google Ads accounts now show an opt in setting called Ads with pay-per-lead goals terms, reported on November 10, 2026."
+  - "The terms connect to Performance Max campaigns with pay-per-lead goals, where advertisers pay for valid leads instead of clicks."
+  - "Reported terms give Google broad rights to use business content and branding, and calls may be monitored and recorded."
+  - "Eligible businesses must be located and operate in the US, with a verified Google Business Profile in an eligible category."
+  - "Google recommends Maximize Conversions, adding a target CPA only with more than 15 leads a month and high cost per lead."
 image: "/images/covers/google-ads-pay-per-lead-goals-terms.webp"
 imageAlt: "Google Ads pay-per-lead goals terms opt-in setting"
 format: "md"

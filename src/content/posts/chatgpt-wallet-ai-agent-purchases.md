@@ -8,6 +8,12 @@ primaryCategory: "digital-marketing"
 tags: ["ChatGPT", "agentic commerce", "OpenAI", "ecommerce"]
 description: "ChatGPT Wallet lets OpenAI's dots agents pay for purchases with tokenized cards. What launched, who can use it, and how online stores should prepare."
 focusKeyword: "chatgpt wallet"
+takeaways:
+  - "OpenAI launched ChatGPT Wallet on November 13, 2026, letting its AI agents, called dots, complete purchases that the shopper approves."
+  - "The wallet was built with American Express, Mastercard and Visa, and uses network tokens so merchants never see real card details."
+  - "The first release covers a limited number of US ChatGPT Pro subscribers aged 18 or older with a US issued card."
+  - "Every purchase needs manual approval through a check such as Face ID, though OpenAI plans spending limits and category rules later."
+  - "The wallet will not work on websites that block AI agents, so stores should review bot settings and keep product data clear."
 image: "/images/covers/chatgpt-wallet-ai-agent-purchases.webp"
 imageAlt: "ChatGPT Wallet lets AI agents pay for purchases"
 format: "md"

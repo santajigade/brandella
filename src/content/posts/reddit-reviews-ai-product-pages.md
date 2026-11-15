@@ -8,6 +8,12 @@ primaryCategory: "social"
 tags: ["Reddit", "Reddit Reviews", "AI summaries", "brand reputation", "social listening"]
 description: "Reddit Reviews turns community comments into AI product review pages for about 10,000 products in the US. How it works and what brands should do now."
 focusKeyword: "reddit reviews"
+takeaways:
+  - "Reddit Reviews uses AI to turn Reddit conversations about a product into a review page with highlights, likes, dislikes and links to threads."
+  - "Reddit introduced it on November 10, 2026 for all US users on iOS, Android and the web, covering about 10,000 products."
+  - "Testing began in February 2026 in three categories, and Home and Garden plus Fashion and Apparel were added in September."
+  - "Reddit says reviews use only organic community conversations with no paid placement, but critics expect more astroturfing and covert marketing."
+  - "Brands should check their Reddit Reviews pages, fix recurring complaints, monitor mentions and engage only through clearly labelled brand accounts."
 image: "/images/covers/reddit-reviews-ai-product-pages.webp"
 imageAlt: "Reddit Reviews AI product pages built from community comments"
 format: "md"

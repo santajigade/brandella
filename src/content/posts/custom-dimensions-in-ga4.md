@@ -8,6 +8,12 @@ categories: ["paid-media", "paid-media-analytics"]
 primaryCategory: "paid-media"
 description: "Learn how to create custom dimensions in GA4 in 6 steps, choose the right scope, stay within quota limits and avoid the (not set) problem. Real screenshots."
 focusKeyword: "custom dimensions in GA4"
+takeaways:
+  - "Custom dimensions in GA4 turn raw event parameters into columns you can report on, and they must be registered first."
+  - "Event, user and item scopes have standard limits of 50, 25 and 10 dimensions, and scope cannot be changed after saving."
+  - "Create them under Admin, Custom definitions, Create custom dimension, then enter a name, scope and the exact event parameter name."
+  - "Check for predefined dimensions like link_url before registering, since plugins such as Site Kit can already use part of your quota."
+  - "New dimensions become usable 24 to 48 hours after creation and do not reprocess earlier events, so (not set) is normal at first."
 image: "/images/covers/custom-dimensions-in-ga4.webp"
 imageAlt: "Custom Dimensions in GA4: 6 Simple Steps to Create Them"
 words: 2011

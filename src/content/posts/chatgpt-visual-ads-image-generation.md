@@ -8,6 +8,12 @@ primaryCategory: "artificial-intelligence"
 tags: ["ChatGPT", "OpenAI", "ChatGPT Ads", "visual ads", "AI advertising"]
 description: "ChatGPT visual ads are now appearing for some Free and Go users while images generate. How the format works, who sees it and what advertisers should do."
 focusKeyword: "chatgpt visual ads"
+takeaways:
+  - "ChatGPT now shows visual ads from a single advertiser while it creates an image, and they disappear once the picture is ready."
+  - "Only Free and Go plan users may see these ads, while Plus, Pro, Business, Enterprise and Edu plans stay ad free."
+  - "OpenAI says ChatGPT Ads runs in 89 countries with more than 100,000 advertisers, and ChatGPT reaches 1.2 billion people weekly."
+  - "A multi image ad format using four to six square images entered open beta in Ads Manager on October 26."
+  - "OpenAI has not shared performance data for the format, so most brands should start with a small test budget."
 image: "/images/covers/chatgpt-visual-ads-image-generation.webp"
 imageAlt: "ChatGPT visual ads shown during image generation"
 format: "md"

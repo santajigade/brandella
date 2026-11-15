@@ -8,6 +8,12 @@ primaryCategory: "google-ads"
 tags: ["Google Ads", "ValueTrack", "AI Max", "tracking templates", "search terms"]
 description: "The new search term matchtype ValueTrack parameter in Google Ads flags AI Max broad expansion clicks. What it returns and how to add it to tracking."
 focusKeyword: "search term matchtype valuetrack"
+takeaways:
+  - "Google Ads added the {search_term_matchtype} ValueTrack parameter, returning e, p, b, or a for AI Max broad expansions and keywordless matches."
+  - "The older {matchtype} parameter reports the keyword match type, so AI Max broad expansion clicks previously looked like normal keyword traffic."
+  - "When {matchtype} is e, p or b and {search_term_matchtype} is a, the click came from an AI Max broad expansion."
+  - "Advertisers should add the parameter to tracking templates, capture it in GA4 and their CRM, and compare the three traffic types."
+  - "The parameter only labels clicks and does not change matching, billing or Smart Bidding, so the search terms report is still needed."
 image: "/images/covers/search-term-matchtype-valuetrack-ai-max.webp"
 imageAlt: "Search term matchtype ValueTrack parameter separating AI Max clicks in Google Ads"
 format: "md"

@@ -8,6 +8,12 @@ primaryCategory: "google-ads"
 tags: ["Google Ads Editor", "AI Max", "customer retention", "Demand Gen", "Google Ads"]
 description: "Google Ads Editor 2.14 turns AI Max on by default for new Search campaigns and adds retention and loyalty bidding. What changed and what to check now."
 focusKeyword: "google ads editor 2.14"
+takeaways:
+  - "Google Ads Editor 2.14 enables AI Max, text asset automation and Final URL expansion by default on every new Search campaign."
+  - "Accounts without a conversion tracking parent can now edit new customer acquisition, retention and loyalty retention settings in Editor."
+  - "A new retention only bid option, Only bid for lapsed customers, lets a campaign focus spend on bringing back lapsed customers."
+  - "Account and stats downloads now run in the background, but choosing replace local data discards any unposted local edits."
+  - "The Local Inventory Ads setting is now permanently enabled for Shopping campaigns and can no longer be turned off."
 image: "/images/covers/google-ads-editor-2-14-ai-max-retention.webp"
 imageAlt: "Google Ads Editor 2.14 new features"
 format: "md"

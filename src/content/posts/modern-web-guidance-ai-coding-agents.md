@@ -8,6 +8,12 @@ primaryCategory: "html_css"
 tags: ["Modern Web Guidance", "AI coding agents", "Chrome", "Baseline", "accessibility"]
 description: "Modern Web Guidance 1.0 is out, with Firefox, Edge and MDN joining Chrome. What it does for AI coding agents, the new legacy scan and how to install it."
 focusKeyword: "modern web guidance"
+takeaways:
+  - "Modern Web Guidance reached version 1.0 on November 10, with Chrome, Edge, Firefox and MDN as shared stewards."
+  - "The free agent skills steer AI coding agents away from JavaScript workarounds toward modern HTML, CSS and browser features."
+  - "Version 1.0 ships 203 use case guides covering 250 web platform features, plus a legacy scan that covers about 20% of guides."
+  - "In the project's own evals, Claude Code with Claude Opus 5.5 rose from 58% to 94% with the guidance."
+  - "Install it with npx modern-web-guidance@latest install, set a Baseline target in AGENTS.md or CLAUDE.md, and still have developers review output."
 image: "/images/covers/modern-web-guidance-ai-coding-agents.webp"
 imageAlt: "Modern Web Guidance 1.0 for AI coding agents"
 format: "md"

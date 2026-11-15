@@ -8,6 +8,12 @@ primaryCategory: "artificial-intelligence"
 tags: ["Anthropic", "Claude", "usage policy", "AI search", "GEO"]
 description: "The Anthropic usage policy now in force bans using Claude to seed fake sources for AI answers. What the rule says and how marketers should adjust."
 focusKeyword: "anthropic usage policy"
+takeaways:
+  - "Anthropic's updated usage policy, published on October 8, took effect on November 12, 2026, and applies to Claude through the apps or the API."
+  - "A new section called \"Do Not Engage in Deceptive Campaigns or Artificial Activity\" brings rules on fake accounts and fabricated sites into one place."
+  - "Claude may not be used to seed content that misrepresents its origin, authorship or independence so search engines or AI systems draw misleading answers."
+  - "The rule targets deception, not optimisation, and the word \"SEO\" does not appear in the policy, so honest, well sourced content stays allowed."
+  - "Marketers should make ownership clear on every site they control, stop drafting fake reviews, label sponsored content and audit agency briefs."
 image: "/images/covers/anthropic-usage-policy-ai-answer-seeding.webp"
 imageAlt: "Anthropic usage policy and AI answer seeding"
 format: "md"

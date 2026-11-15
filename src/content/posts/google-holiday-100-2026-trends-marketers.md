@@ -8,6 +8,12 @@ primaryCategory: "digital-marketing"
 tags: ["Google Holiday 100", "holiday marketing", "search trends", "ecommerce"]
 description: "Google Holiday 100 2026 lists this year's fastest rising gift searches. The key trends and how ecommerce marketers can use them in holiday campaigns now."
 focusKeyword: "google holiday 100 2026"
+takeaways:
+  - "Google published its Holiday 100 gift guide on November 9, 2026, listing products with significant surges in Search interest."
+  - "Striped sweaters and wide-leg jeans rose 600%, and a lymphatic sculpting face brush rose 400%."
+  - "Nostalgia and creator gifts also grew, with a classic toy train set up 240% and a podcast microphone up 115%."
+  - "Each category links to an AI Mode overview, so descriptive product titles and clear product data help products get picked up."
+  - "Retailers should add matching trend words to Merchant Center titles, build trend based ad groups and confirm trends with their own data."
 image: "/images/covers/google-holiday-100-2026-trends-marketers.webp"
 imageAlt: "Google Holiday 100 2026 gift search trends for marketers"
 format: "md"

@@ -8,6 +8,12 @@ primaryCategory: "google-ads"
 tags: ["Google Ads", "invalid traffic", "click fraud", "ad billing"]
 description: "The new Google Ads invalid traffic card shows estimated savings and credited cost on the Overview page. What each metric means and what to check now."
 focusKeyword: "google ads invalid traffic"
+takeaways:
+  - "Google Ads announced a new Invalid traffic card on November 12, 2026, placed on the Overview page in the Campaigns menu."
+  - "The card shows estimated savings from automated protections before billing and credited cost for invalid activity detected after the billing period."
+  - "The card is rolling out gradually, and it is a reporting change, not a change to how Google filters or bills."
+  - "Campaign metrics do not change retroactively, so Google points advertisers to the Invalid Activity Credit Report for adjusted figures."
+  - "Google says it has cut advertiser exposure to invalid leads by an average of 30% so far in 2026, without publishing its method."
 image: "/images/covers/google-ads-invalid-traffic-overview-card.webp"
 imageAlt: "Google Ads invalid traffic overview card"
 format: "md"

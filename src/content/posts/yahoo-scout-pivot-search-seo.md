@@ -8,6 +8,12 @@ primaryCategory: "seo"
 tags: ["Yahoo Scout", "Pivot Search", "Yahoo Search", "AI search", "AI answers"]
 description: "Yahoo Scout is out of beta and powers a rebuilt Yahoo Search with Pivot Search, mixing classic results and AI answers. What changed and what SEOs should do."
 focusKeyword: "yahoo scout"
+takeaways:
+  - "Yahoo Scout left beta on November 10, 2026 and now underpins Yahoo Search, after delivering more than 3 billion answers."
+  - "Pivot Search lets users switch between classic search results and a Scout AI answer on the same page."
+  - "Pivot Search is available on desktop and mobile web in the US, UK, Europe and Switzerland, but India is not listed."
+  - "Yahoo says Scout answers carry prominent source links meant to send traffic back to publishers, a claim worth testing in analytics."
+  - "Comparison and step-by-step pages match the query types that trigger Scout answers, so SEOs should put direct answers near the top."
 image: "/images/covers/yahoo-scout-pivot-search-seo.webp"
 imageAlt: "Yahoo Scout and Pivot Search in the rebuilt Yahoo Search"
 format: "md"

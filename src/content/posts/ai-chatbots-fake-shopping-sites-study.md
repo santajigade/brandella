@@ -8,6 +8,12 @@ primaryCategory: "artificial-intelligence"
 tags: ["AI search", "brand protection", "ChatGPT", "Perplexity", "Gemini"]
 description: "A Podqi study says AI chatbots sent shoppers to fake shopping sites in about 9% of answers. The numbers, the limits and how brands can protect themselves."
 focusKeyword: "fake shopping sites"
+takeaways:
+  - "A Podqi study tested ChatGPT, Gemini and Perplexity with shopping questions about 151 brands and found about 9% of 6,795 answers were risky."
+  - "Perplexity had the highest risky site rate at 15% of answers, followed by ChatGPT at 8% and Gemini at 4%."
+  - "Podqi flagged 718 of 4,437 domains as risky, made up of 351 fake sites and 367 dead domains."
+  - "Smaller brands faced roughly double the risky link exposure of large brands, and regional storefront questions were riskiest at 16%."
+  - "Brands should test where AI chatbots send shoppers, renew or redirect old domains and publish an official retailer list."
 image: "/images/covers/ai-chatbots-fake-shopping-sites-study.webp"
 imageAlt: "AI chatbots recommending fake shopping sites study"
 format: "md"

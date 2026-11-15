@@ -8,6 +8,12 @@ primaryCategory: "digital-marketing"
 tags: ["ChatGPT", "OpenAI", "Business Hub", "Business Agents", "AI search"]
 description: "Businesses in ChatGPT lets brands claim a verified profile, add product feeds and launch a Business Agent. What OpenAI launched and what to do now."
 focusKeyword: "businesses in chatgpt"
+takeaways:
+  - "OpenAI launched Businesses in ChatGPT in beta on November 10, 2026, adding a Business Hub and Business Agents."
+  - "Business Hub lets eligible businesses with a website claim and verify their profile, update details and add product feeds."
+  - "The hub shows aggregated mentions, views, website clicks and topics, but OpenAI does not share user conversations with businesses."
+  - "Business Agents answer shopper questions using company product details and start with eligible US ecommerce and online service businesses."
+  - "Businesses can sponsor their agent as a ChatGPT Ads destination, and claiming a profile does not guarantee higher placement or more sales."
 image: "/images/covers/businesses-in-chatgpt-business-hub-agents.webp"
 imageAlt: "Businesses in ChatGPT Business Hub and Business Agents"
 format: "md"

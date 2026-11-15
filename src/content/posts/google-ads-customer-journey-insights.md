@@ -8,6 +8,12 @@ primaryCategory: "google-ads"
 tags: ["Google Ads", "Customer Journey Insights", "Overview page", "Performance Max", "reporting"]
 description: "Google Ads customer journey insights is a new Overview page pilot card showing how campaigns move users from Unaware to Act. Who is eligible and how to use it."
 focusKeyword: "google ads customer journey insights"
+takeaways:
+  - "Google Ads is piloting a customer journey insights card on the Overview page, showing campaign users across Unaware, Aware, Consider and Act stages."
+  - "The card has a customer journey tab and a user actions tab, with branded searches and adding to cart given as example actions."
+  - "Only Performance Max, Search or Shopping campaigns are eligible, and Demand Gen and standalone Video campaigns are not named."
+  - "Journey stage counts are modelled by Google, so they are a directional signal, not proof of incremental impact."
+  - "Advertisers should export a baseline, label the data as a Google pilot metric, and use it for budget debates rather than bidding."
 image: "/images/covers/google-ads-customer-journey-insights.webp"
 imageAlt: "Google Ads customer journey insights reporting card"
 format: "md"

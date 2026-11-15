@@ -8,6 +8,12 @@ primaryCategory: "seo"
 tags: ["Gemini 4 Hydrogen", "Google Search", "AI Mode", "query fan-out", "Gemini"]
 description: "Gemini 4 Hydrogen now powers Google Search for all users worldwide. What changed in query fan-out and answers, and what SEO teams should check now."
 focusKeyword: "gemini 4 hydrogen"
+takeaways:
+  - "Google added Gemini 4 Hydrogen to Search on November 12, 2026, available globally to all Search users, not only subscribers."
+  - "Google says Hydrogen improves query fan-out, runs simultaneous searches across subtopics and surfaces a broader range of links."
+  - "Answers now include more images, structured responses, comparison tables and custom tools, but Google shared no click or traffic data."
+  - "Compared with Gemini 3.8 Flash, Google says Hydrogen finishes tasks 2.5 times faster and cuts fabricated claims by more than 5x."
+  - "The launch landed in the same week as the November 2026 core update, so annotate November 12 in your reports."
 image: "/images/covers/gemini-4-hydrogen-google-search-seo.webp"
 imageAlt: "Gemini 4 Hydrogen in Google Search"
 format: "md"

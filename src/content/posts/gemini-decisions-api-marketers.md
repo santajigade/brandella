@@ -8,6 +8,12 @@ primaryCategory: "artificial-intelligence"
 tags: ["Gemini", "Google DeepMind", "AI API", "marketing automation"]
 description: "Google launched the Gemini Decisions API with Gemini Decision 1 for yes or no, choice and score answers. Pricing, limits and marketing uses explained."
 focusKeyword: "gemini decisions api"
+takeaways:
+  - "Google launched the Gemini Decisions API on November 11, 2026, running on a new model called Gemini Decision 1."
+  - "The model answers yes or no questions, picks from 2 to 255 options, or scores input on a rubric, each with a confidence score."
+  - "Pricing is $0.10 per million input tokens with no charge for output tokens, and AI Studio offers a no cost tier."
+  - "One request accepts up to 256K tokens of multimodal input and up to 1,000 questions, with 150 to 250 ms end to end speed."
+  - "Marketers can use it for ad creative checks, lead and comment triage, content quality scoring, prompt routing and catalogue tagging."
 image: "/images/covers/gemini-decisions-api-marketers.webp"
 imageAlt: "Gemini Decisions API for marketing teams"
 format: "md"

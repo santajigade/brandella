@@ -8,6 +8,12 @@ primaryCategory: "google-search-console"
 tags: ["Search Console", "Generative AI performance report", "data anomaly", "AI Overviews"]
 description: "Google confirmed a Search Console generative AI report bug that cut impressions for November 9 to 11, 2026. What it affects and how to report around it."
 focusKeyword: "search console generative ai report bug"
+takeaways:
+  - "Google confirmed a logging error lowered impressions in the Search Console Generative AI performance report for November 9 to 11, 2026."
+  - "Google says the issue affects data logging only, so real visibility in AI Overviews and AI Mode was not affected."
+  - "The bug overlaps the Google November 2026 core update, which started rolling out on November 10, so the two signals must be separated."
+  - "A similar logging error hit the same report for August 13 to 17, 2026, and Google restored that data on August 21."
+  - "SEO teams should annotate the affected dates, exclude them from comparisons and use the regular performance report to judge core update changes."
 image: "/images/covers/search-console-generative-ai-report-bug.webp"
 imageAlt: "Search Console generative AI report bug November 2026"
 format: "md"

@@ -8,6 +8,12 @@ primaryCategory: "artificial-intelligence"
 tags: ["Claude", "Anthropic", "Claude Fable 5.2", "AI models", "AI agents"]
 description: "Claude Fable 5.2 launched November 9 with faster output and new pricing. What changed, what it costs and which marketing tasks it suits best."
 focusKeyword: "claude fable 5.2"
+takeaways:
+  - "Anthropic released Claude Fable 5.2 on November 9, 2026 alongside Claude Mythos 5.2, which is limited to vetted organizations."
+  - "Fable 5.2 standard output is up to 30% faster than Fable 5.1, and it blocks about 55% fewer requests."
+  - "API pricing is $8 per million input tokens and $40 per million output tokens, lower than Fable 5.1's $10 and $50."
+  - "Fable 5.2 scored 51.4% on AutomationBench for business workflows, up from 31.4% for Fable 5.1, according to Anthropic's own results."
+  - "Fable 5.2 suits large multi step research and analysis jobs, while everyday copywriting is usually better done on cheaper, faster models."
 image: "/images/covers/claude-fable-5-2-marketers.webp"
 imageAlt: "Claude Fable 5.2 model launch for marketers"
 format: "md"

@@ -8,6 +8,12 @@ primaryCategory: "digital-marketing"
 tags: ["AI agents", "agentic commerce", "United Airlines", "robots.txt"]
 description: "The United Airlines AI agents ban blocks unauthorised personal AI assistants from booking. What changed, what stays open to search, and lessons for brands."
 focusKeyword: "united airlines ai agents"
+takeaways:
+  - "From November 11, 2026, United Airlines restricted unauthorized third party personal AI agents from using its website, app and partner platforms."
+  - "United cited risks to account credentials, unintended purchases or MileagePlus use, and possible conflicts with FAA and DOT rules."
+  - "According to SEJ, AI agents now need written permission to book, and agent made bookings may be cancelled without notice."
+  - "Search engines may still index United's public pages, and its robots.txt named no AI crawlers such as GPTBot or ClaudeBot."
+  - "Brands should set separate policies for search crawling, AI answers and agents acting for users, and state restrictions in their terms."
 image: "/images/covers/united-airlines-ai-agents-ban.webp"
 imageAlt: "United Airlines AI agents restrictions"
 format: "md"

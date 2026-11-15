@@ -8,6 +8,12 @@ primaryCategory: "social"
 tags: ["LinkedIn", "LinkedIn Premium", "social selling", "B2B"]
 description: "The LinkedIn Frequent Viewer tag test marks people who keep visiting your profile. What we know, what is unconfirmed and how B2B marketers can use it."
 focusKeyword: "linkedin frequent viewer"
+takeaways:
+  - "LinkedIn is testing a Frequent Viewer tag that marks people who viewed your profile more than once, shown to some Premium subscribers."
+  - "LinkedIn confirmed the test to WIRED, which reported it on November 11, 2026, but has not disclosed the visit threshold or time window."
+  - "Only actual profile visits trigger the tag, and people who browse in private mode will not appear in the viewer list."
+  - "Critics say the tag could reveal unwanted watchers, and it follows a May 2026 GDPR complaint by noyb about LinkedIn profile visitor data."
+  - "Marketers can sort repeat viewers into prospects, partners and others, then engage with useful content instead of mentioning the profile visit."
 image: "/images/covers/linkedin-frequent-viewer-tag-test.webp"
 imageAlt: "LinkedIn Frequent Viewer tag test on profile views"
 format: "md"

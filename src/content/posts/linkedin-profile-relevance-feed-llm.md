@@ -8,6 +8,12 @@ primaryCategory: "social"
 tags: ["LinkedIn", "LinkedIn algorithm", "feed ranking", "B2B content"]
 description: "LinkedIn Profile Relevance uses LLM embeddings to match posts with members outside your network. How it works and how to adjust your LinkedIn content."
 focusKeyword: "linkedin profile relevance"
+takeaways:
+  - "LinkedIn Profile Relevance uses large language models to match members with posts from outside their network."
+  - "The system builds embeddings from public profiles, including headline, skills, work and education history, and compares them with post embeddings."
+  - "LinkedIn reported hide rate fell by 18.8%, Feed Updates Viewed rose 0.54% and viral rate rose 0.94%."
+  - "For cold start members, viral engagement rose 17.7% and daily active users rose 1.8%."
+  - "Marketers should name their audience early, stick to one professional theme, mention location when relevant and update profile headlines and skills."
 image: "/images/covers/linkedin-profile-relevance-feed-llm.webp"
 imageAlt: "LinkedIn Profile Relevance feed model matching posts to members"
 format: "md"

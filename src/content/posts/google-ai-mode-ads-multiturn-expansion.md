@@ -8,6 +8,12 @@ primaryCategory: "google-ads"
 tags: ["Google Ads", "AI Mode", "multiturn ads", "AI Max", "Performance Max"]
 description: "Google AI Mode ads now run in India, Australia, Canada and seven more markets, and multiturn ads launch in the US. What changes and what to check."
 focusKeyword: "google ai mode ads"
+takeaways:
+  - "Google AI Mode ads are scaling to ten English language markets including India, with Brazil, Mexico and the UK planned for Q4 2026."
+  - "Multiturn ads are launching in the US, so ads can appear across follow-up questions within one AI Mode conversation."
+  - "Existing Search, Shopping and Performance Max campaigns are automatically eligible, built from current assets and labelled Sponsored."
+  - "Broad match, AI Max and Performance Max can match contextual queries, while exact and phrase match only match direct commercial intent."
+  - "There is no separate AI Mode report or opt out, so negative keywords, brand exclusions and asset pinning are the main controls."
 image: "/images/covers/google-ai-mode-ads-multiturn-expansion.webp"
 imageAlt: "Google AI Mode ads expansion and multiturn ads"
 format: "md"

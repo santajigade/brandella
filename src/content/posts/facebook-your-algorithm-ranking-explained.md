@@ -8,6 +8,12 @@ primaryCategory: "social"
 tags: ["Facebook", "Meta", "Your Algorithm", "Feed ranking", "Reels"]
 description: "Meta explains how Facebook Your Algorithm turns typed interests into Feed and Reels ranking. What the new engineering post means for creators and brands."
 focusKeyword: "facebook your algorithm"
+takeaways:
+  - "Facebook Your Algorithm, launched October 13, 2026, lets people type topics they want more or less of in Feed and Reels."
+  - "An Engineering at Meta post on November 10, 2026 explained how chosen interests are retrieved, boosted, balanced and filtered."
+  - "New interests get temporary extra weight and a daily cap per interest, after which normal engagement signals decide ranking."
+  - "Topics marked Not interested in are filtered at several stages, including an LLM reranker and the on device cache."
+  - "Requests for less AI generated or suggestive content use separate quality demotion signals, while named creators are filtered out directly."
 image: "/images/covers/facebook-your-algorithm-ranking-explained.webp"
 imageAlt: "Facebook Your Algorithm interest controls shaping Feed and Reels ranking"
 format: "md"

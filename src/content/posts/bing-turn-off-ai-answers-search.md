@@ -8,6 +8,12 @@ primaryCategory: "seo"
 tags: ["Bing", "AI answers", "Copilot", "AI search", "Bing Webmaster Tools"]
 description: "Bing users can now turn off AI answers in Bing with a preview extension or the -ai operator. What changed, what it means for SEO and what to track."
 focusKeyword: "turn off ai answers in bing"
+takeaways:
+  - "Microsoft announced on November 11, 2026 that searchers can turn off AI answers in Bing with an extension or the -ai operator."
+  - "The Microsoft Bing AI Search Choice extension is a preview for Chrome and Edge and also sets Bing as the default search engine."
+  - "Adding -ai to any Bing query returns results without AI generated answers, with no install needed, but it works one query at a time."
+  - "SEO teams can run queries with and without -ai to compare visibility in AI answers and classic results."
+  - "Bing's separate AI training and grounding preferences take effect from February 1, 2027, and sites have until March 1, 2027 to publish them."
 image: "/images/covers/bing-turn-off-ai-answers-search.webp"
 imageAlt: "Turn off AI answers in Bing with the AI Search Choice extension or the -ai operator"
 format: "md"

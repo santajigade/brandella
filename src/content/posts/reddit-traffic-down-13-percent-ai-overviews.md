@@ -8,6 +8,12 @@ primaryCategory: "seo"
 tags: ["Reddit", "AI Overviews", "Similarweb", "search traffic"]
 description: "Reddit traffic fell 13% year over year in October, per Similarweb, as Google AI Overviews cut referrals. What the data shows and what brands should do now."
 focusKeyword: "reddit traffic"
+takeaways:
+  - "Similarweb data reported by Business Insider shows Reddit traffic fell 13% globally from October 2025 to October 2026."
+  - "The report links part of the drop to Google AI Overviews answering questions that used to send people to Reddit threads."
+  - "Reddit's third quarter 2026 results show weekly active uniques at 515.2 million, up 16% year over year, because it measures users, not visits."
+  - "Reddit content can still shape AI Overviews without clicks, since Reddit licensed its content to Google for AI training in 2024."
+  - "Brands should track Reddit referrals and AI answer mentions separately, and set Reddit channel goals around logged in engagement."
 image: "/images/covers/reddit-traffic-down-13-percent-ai-overviews.webp"
 imageAlt: "Reddit traffic decline and Google AI Overviews"
 format: "md"

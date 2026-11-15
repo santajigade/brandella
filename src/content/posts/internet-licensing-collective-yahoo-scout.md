@@ -8,6 +8,12 @@ primaryCategory: "artificial-intelligence"
 tags: ["Internet Licensing Collective", "Yahoo Scout", "RSL", "AI licensing", "publishers"]
 description: "The Internet Licensing Collective launched with Yahoo Scout as its first paying licensee. How the AI licensing model works and what publishers can do."
 focusKeyword: "internet licensing collective"
+takeaways:
+  - "The Internet Licensing Collective launched on November 12, 2026, with Yahoo Scout as its first commercial licensee, though financial terms were not disclosed."
+  - "The ILC, formerly the RSL Collective, is a nonprofit, publisher led group selling one blanket license to AI companies and paying content owners."
+  - "Payouts follow the ILC's Allocation Rules and reflect how much content contributes to AI products, not catalog size alone."
+  - "Joining is free and non-exclusive, publishers choose their licenses, and they can keep existing AI deals or still sign direct ones."
+  - "A Mather Economics report estimates collective licensing could produce publisher payments equal to 15% to 35% of AI company revenue."
 image: "/images/covers/internet-licensing-collective-yahoo-scout.webp"
 imageAlt: "Internet Licensing Collective and Yahoo Scout AI licensing"
 format: "md"

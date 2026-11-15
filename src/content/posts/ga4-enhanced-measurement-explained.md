@@ -8,6 +8,12 @@ categories: ["paid-media", "paid-media-analytics"]
 primaryCategory: "paid-media"
 description: "GA4 enhanced measurement tracks scrolls, outbound clicks, downloads, searches, videos and forms automatically. See every setting with real screenshots."
 focusKeyword: "GA4 enhanced measurement"
+takeaways:
+  - "GA4 enhanced measurement collects automatic events from your website without extra tagging, using switches inside your web data stream settings."
+  - "The settings panel has 7 options that send 10 automatic event names, and Editor access or higher is needed to change them."
+  - "Page views, outbound clicks and file downloads work well on most sites, while form and video events need a closer look."
+  - "Video engagement only works for embedded YouTube players with the JavaScript API enabled, so embed URLs should include enablejsapi=1."
+  - "List all your own domains under Configure your domains, add custom site search parameters, and disable options already tracked in Tag Manager."
 image: "/images/covers/ga4-enhanced-measurement-explained.webp"
 imageAlt: "GA4 Enhanced Measurement Explained: 7 Essential Events"
 words: 2051

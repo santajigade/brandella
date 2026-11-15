@@ -8,6 +8,12 @@ primaryCategory: "social"
 tags: ["Meta", "Meta Business", "web crawlers", "robots.txt", "publishers"]
 description: "Meta commercial terms due November 20 are paused with no new date. What the terms would have allowed, which Meta crawlers exist and what to check now."
 focusKeyword: "meta commercial terms"
+takeaways:
+  - "Meta paused its updated commercial terms, which were due on November 20, 2026, and has not given a new date."
+  - "The pause covers the Commercial Terms, Product Catalog Terms, Self-Serve Ad Terms and Ad Creative Generative AI Terms, and existing terms remain in effect."
+  - "Nieman Lab reported the proposed version would have let Meta scrape websites connected to Meta Business account users."
+  - "Meta lists five crawlers, and blocking FacebookExternalHit can break link previews while blocking Meta-ExternalAgent concerns AI training."
+  - "Check server logs for Meta user agents, use exact robots.txt rules, and remember changes can take up to 24 hours to apply."
 image: "/images/covers/meta-commercial-terms-paused-crawling.webp"
 imageAlt: "Meta commercial terms update paused"
 format: "md"
