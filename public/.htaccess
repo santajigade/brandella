@@ -103,6 +103,14 @@ ErrorDocument 404 /404.html
   # Duplicate topics merged (Nov 15 2026)
   RewriteRule ^toxic\-backlinks\-how\-to\-identify\-and\-remove\-them/?$ /how-to-identify-remove-toxic-backlinks-safely/ [R=301,L]
   RewriteRule ^seo\-aeo\-geo/?$ /aeo-vs-seo-vs-geo-difference-2026/ [R=301,L]
+  # 404s from Search Console (Nov 16 2026)
+  RewriteRule ^page/?$ / [R=301,L]
+  RewriteRule ^answer\-engine\-optimization\-aeo/?$ /aeo-vs-seo-vs-geo-difference-2026/ [R=301,L]
+  RewriteRule ^canonical\-tag\-explained/?$ /what-is-canonical-tag/ [R=301,L]
+  RewriteRule ^why\-content\-quality\-matters\-more\-than\-quantity\-in\-seo/?$ /google-helpful-content-system-2025/ [R=301,L]
+  RewriteRule ^seo\-in\-the\-age\-of\-ai\-how\-search\-is\-changing\-for\-marketers/?$ /3-ai-search-strategies-2026/ [R=301,L]
+  RewriteRule ^digital\-marketing\-skills\-you\-need\-to\-succeed\-in\-the\-ai\-era/?$ /digital-marketing-tips-2026/ [R=301,L]
+  RewriteRule ^how\-ai\-is\-transforming\-digital\-marketing/?$ /artificial-intelligence-transforming-digital-marketing/ [R=301,L]
   # END manual redirects
 
   # Push alerts: the only PHP file allowed to run
