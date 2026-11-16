@@ -8,6 +8,12 @@ categories: ["mobile-seo"]
 primaryCategory: "mobile-seo"
 description: "Mobile schema markup is what Googlebot Smartphone actually reads. See the 5 mistakes that quietly break rich results on mobile indexed sites."
 focusKeyword: "mobile schema markup"
+takeaways:
+  - "Google crawls with Googlebot Smartphone, so structured data that exists only on the desktop template is effectively invisible to the index."
+  - "Schema injected only after a click, tap, toggle or scroll may never be seen, so place structured data in the initial HTML response instead."
+  - "Responsive sites can still lose markup when a component carrying schema is removed below a breakpoint, and image URLs must match on both versions."
+  - "Run the Rich Results Test with both the smartphone and desktop agents, and treat any difference between the two results as a bug to fix."
+  - "A 2026 audit of five thousand sites found 71 percent had schema but only 22 percent passed validation cleanly, so check Search Console Enhancements reports weekly."
 image: "/wp-content/uploads/2026/10/mobile-schema-markup.webp"
 imageAlt: "mobile schema markup"
 words: 2071

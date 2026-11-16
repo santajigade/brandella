@@ -8,6 +8,12 @@ primaryCategory: "google-ads"
 tags: ["Google Ads", "Asset Studio", "holiday campaigns"]
 description: "Google Ads Creative Drop 2 adds AI campaign translation in 15 languages, festive product images and Gemini Omni video. What to test before the holiday peak."
 focusKeyword: "google ads creative drop"
+takeaways:
+  - "Google's Creative Drop #2 covers three holiday focused AI tools: campaign translation, festive image edits in Asset Studio and Gemini Omni 1.2 video."
+  - "AI Campaign Translation lets advertisers localize, review and launch campaigns inside Google Ads in 15 languages, and Google advises reviewing them while paused."
+  - "Asset Studio can turn existing product photos into festive scenes, with tips to upload brand guidelines and four to five product angles."
+  - "Gemini Omni 1.2 creates horizontal, vertical and square videos, and Google suggests A/B testing two different opening hooks in the first three seconds."
+  - "Google has not published a rollout schedule or eligible countries, so advertisers should check which features their own account shows."
 image: "/images/covers/google-ads-creative-drop-2-holiday-ai-tools.webp"
 imageAlt: "Google Ads Creative Drop 2 AI tools for holiday campaigns"
 format: "md"

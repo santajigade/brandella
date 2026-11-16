@@ -8,6 +8,12 @@ categories: ["display-advertising"]
 primaryCategory: "display-advertising"
 description: "Discover 7 proven Google Display Network targeting options, from affinity and in market segments to optimized targeting and placement exclusions."
 focusKeyword: "Google Display Network targeting"
+takeaways:
+  - "The Google Display Network spans more than two million websites, videos and apps and reaches over 90% of internet users, so loose targeting wastes budget fast."
+  - "Affinity segments suit awareness based on long term interests, while in market segments reach active shoppers and custom segments use your own keywords, URLs and apps."
+  - "Remarketing, now called your data segments, targets people who already engaged with your business and is often the highest converting Display option."
+  - "Contextual targeting uses topics, placements and keywords, and Display keywords have no match types, behaving closer to broad match."
+  - "Optimized targeting is on by default in Display campaigns and can reach beyond your chosen audiences, so pair it with placement exclusions from launch."
 image: "/wp-content/uploads/2026/10/Google-Display-Network-targeting.webp"
 imageAlt: "Google Display Network targeting"
 words: 2148

@@ -8,6 +8,12 @@ primaryCategory: "artificial-intelligence"
 tags: ["ChatGPT", "Claude", "Gemini", "AI referral traffic", "Graphite"]
 description: "AI assistant usage reached 76 billion monthly sessions in September 2026, a new Graphite report says. What changed and what it means for your traffic plans."
 focusKeyword: "ai assistant usage"
+takeaways:
+  - "Graphite estimates six AI assistants had 76 billion sessions worldwide in September 2026, up 37% from September 2025, based on Similarweb data."
+  - "ChatGPT holds 81.2% of worldwide sessions, while Claude sessions grew 1,901% and Gemini grew 182% year over year."
+  - "Perplexity sessions fell 27% year over year, and Grok dropped 24% from its March 2026 peak of 1.82 billion sessions."
+  - "AI sends under 1% of traffic to websites on average, though AI referral traffic grew 92% worldwide and 75% in the US."
+  - "Graphite dropped its comparison with search engines because it cannot reliably separate search sessions from other uses of Google's Android app."
 image: "/images/covers/ai-assistant-usage-76-billion-sessions.webp"
 imageAlt: "AI assistant usage reaches 76 billion monthly sessions"
 format: "md"

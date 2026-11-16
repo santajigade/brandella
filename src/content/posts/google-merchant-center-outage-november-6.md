@@ -8,6 +8,12 @@ primaryCategory: "google-ads"
 tags: ["Google Merchant Center", "Shopping ads", "Merchant API", "product feeds"]
 description: "The Google Merchant Center outage on November 6 hit Merchant API and feeds for 8.5 hours. What happened and a checklist to confirm your products are fine."
 focusKeyword: "google merchant center outage"
+takeaways:
+  - "A Google Merchant Center outage on November 6, 2026 affected Merchant Center, the Merchant API and Feeds from 04:30 UTC to 13:00 UTC."
+  - "The eight and a half hour window ran from 10:00 AM to 6:30 PM IST for online stores in India."
+  - "Google posted only one 'investigating' update and gave no cause or confirmation of whether any product data was lost or delayed."
+  - "Stores that changed prices, stock or feeds that day should check the Needs attention tab, View history and approved product counts."
+  - "Advertisers should compare Shopping and Performance Max results for November 6 and 7 and avoid big bid or budget changes based on those days."
 image: "/images/covers/google-merchant-center-outage-november-6.webp"
 imageAlt: "Google Merchant Center outage status check for product feeds"
 format: "md"

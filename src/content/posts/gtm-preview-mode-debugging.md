@@ -8,6 +8,12 @@ categories: ["development", "javascript"]
 primaryCategory: "development"
 description: "GTM Preview Mode: Debug GTM like a pro using preview mode. Fix the Summary-vs-event mistake, case-sensitive variable traps, and connection failures with real, proven fixes."
 focusKeyword: "GTM preview mode"
+takeaways:
+  - "GTM preview mode connects through cookies, so browsers that block third party cookies, especially Safari with Intelligent Tracking Prevention, may fail to connect."
+  - "Every page load records Consent Initialization, Initialization, Container Loaded, DOM Ready and Window Loaded before any custom event appears in the timeline."
+  - "Always select the actual event in the timeline before inspecting a tag, because a click variable is not populated yet on earlier events like gtm.dom."
+  - "Data Layer Variable names are case sensitive, so a variable set to userID will stay undefined when the code actually pushed userId."
+  - "Clicking a tag under Tags Not Fired shows each trigger condition with a pass or fail mark, while the Errors tab reveals crashes inside tag templates."
 image: "/wp-content/uploads/2026/09/GTM-preview-mode.webp"
 imageAlt: "GTM preview mode"
 words: 1926

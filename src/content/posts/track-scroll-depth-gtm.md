@@ -8,6 +8,12 @@ categories: ["development", "javascript"]
 primaryCategory: "development"
 description: "GA4 only track scroll depth at a fixed 90%. Learn GTM's native Scroll Depth trigger, its real page-load quirk, and 4 easy steps to get accurate checkpoints."
 focusKeyword: "track scroll depth"
+takeaways:
+  - "GA4 Enhanced Measurement sends a single automatic scroll event at 90% of the page, with no setting to add more checkpoints like 25% or 75%."
+  - "GTM's native Scroll Depth trigger accepts custom thresholds in percentages or pixels, such as 25, 50, 75, 100, with no custom JavaScript required."
+  - "If a page loads already past a threshold, GTM fires every crossed threshold immediately, which can inflate reading depth on short pages."
+  - "Each threshold fires only once per page, so scrolling back up and down again never double counts a checkpoint that was already reached."
+  - "Avoid setting a custom 90% threshold alongside GA4's automatic event, since the same checkpoint would then report twice under two event names."
 image: "/wp-content/uploads/2026/09/track-scroll-depth.webp"
 imageAlt: "track scroll depth"
 words: 1965

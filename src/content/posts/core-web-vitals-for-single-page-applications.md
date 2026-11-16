@@ -8,6 +8,12 @@ categories: ["core-web-vitals"]
 primaryCategory: "core-web-vitals"
 description: "Core Web Vitals for single page applications breaks differently than a static site. See why INP and LCP suffer after client side navigation, and how to fix it."
 focusKeyword: "core web vitals single page applications"
+takeaways:
+  - "Single page apps built with React, Vue or Angular rewrite the DOM on each click, so INP worsens on route changes and LCP only reflects the first load."
+  - "Vercel cut Total Blocking Time on nextjs.org from 430 milliseconds to 80 milliseconds using React 18 selective hydration with Suspense, reaching an INP of 48 milliseconds."
+  - "Chrome now measures in app route changes as soft navigations, and the web-vitals library version six and above reports them with reportSoftNavs: true."
+  - "Splitting code by route and using static or server rendering for key pages fixes most LCP and INP problems without a full framework rewrite."
+  - "The passing thresholds to aim for are LCP under 2.5 seconds, INP under 200 milliseconds and CLS under 0.1, measured on every meaningful route."
 image: "/wp-content/uploads/2026/10/Core-Web-Vitals.webp"
 imageAlt: "Core Web Vitals"
 words: 2106

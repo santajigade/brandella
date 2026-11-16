@@ -8,6 +8,12 @@ primaryCategory: "ppc-strategy"
 tags: ["Amazon Ads", "FTC", "PPC auctions"]
 description: "The Amazon Ads FTC lawsuit now includes unredacted claims of hidden auction surcharges up to 250% on Prime Day. What sellers and PPC teams should check."
 focusKeyword: "amazon ads ftc lawsuit"
+takeaways:
+  - "The FTC and 22 state attorneys general published an unredacted complaint alleging Amazon covertly raised search ad prices above auction results."
+  - "The FTC alleges increases of up to 50% on ordinary days and up to 250% on major shopping days such as Prime Day or Black Friday."
+  - "The complaint claims surcharges brought Amazon $87 million in extra worldwide revenue in the 2022 holiday season."
+  - "Amazon denies wrongdoing, saying no advertiser pays more than their bid and that inflation adjusted Sponsored Products CPC stayed flat from 2019 to 2024."
+  - "Advertisers should export their cost history and compare average CPC to max bid by day, especially around peak shopping events."
 image: "/images/covers/amazon-ads-ftc-lawsuit-auction-surcharges.webp"
 imageAlt: "Amazon Ads FTC lawsuit over auction price surcharges"
 format: "md"

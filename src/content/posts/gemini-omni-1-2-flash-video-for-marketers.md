@@ -8,6 +8,12 @@ primaryCategory: "artificial-intelligence"
 tags: ["Gemini Omni", "AI video", "Google DeepMind"]
 description: "Gemini Omni 1.2 Flash makes 15 second AI video clips at a 30% lower price. What changed, where it works, and how marketers should test it."
 focusKeyword: "gemini omni 1.2 flash"
+takeaways:
+  - "Google released Gemini Omni 1.2 Flash on November 5, 2026, generating and editing video clips from 3 to 15 seconds, up from 10 seconds."
+  - "The model costs 30% less than Omni 1.1, at $0.07 per second for 720p via the Gemini API, about $1.05 per 15 second clip."
+  - "It is available in Google Ads asset studio, Google Vids, the Gemini app, Flow, the Gemini API and Google Cloud."
+  - "Google says it keeps faces, packaging text and brand colors more consistent and supports multi-turn edits, but still struggles with fast action and complex physics."
+  - "Marketers should draft at low resolution, review clips carefully, label AI assets in Google Ads and test them against real footage on conversions."
 image: "/images/covers/gemini-omni-1-2-flash-video-for-marketers.webp"
 imageAlt: "Gemini Omni 1.2 Flash AI video model for marketers"
 format: "md"

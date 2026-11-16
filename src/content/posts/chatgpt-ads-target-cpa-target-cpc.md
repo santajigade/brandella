@@ -8,6 +8,12 @@ primaryCategory: "ppc-strategy"
 tags: ["ChatGPT Ads", "OpenAI", "Target CPA", "Target CPC", "bidding"]
 description: "ChatGPT Ads Target CPA and Target CPC launch in Ads Manager on November 9, and Max Bid and Max CPC retire on January 1, 2027. What changes and what to do."
 focusKeyword: "chatgpt ads target cpa"
+takeaways:
+  - "OpenAI is adding Target CPA and Target CPC bidding to ChatGPT Ads Manager on November 9, 2026, replacing Max Bid and Max CPC."
+  - "Max Bid and Max CPC retire on January 1, 2027, and existing campaigns keep running until advertisers switch them."
+  - "The new options are averages rather than caps, so individual auctions can cost more or less than the target entered."
+  - "OpenAI warned that overly restrictive targets or weak conversion signals can limit delivery and leave budget unspent."
+  - "Only standard events such as order_created or lead_created can drive conversion optimization, while custom events will not train the bidding."
 image: "/images/covers/chatgpt-ads-target-cpa-target-cpc.webp"
 imageAlt: "ChatGPT Ads Target CPA and Target CPC bidding change"
 format: "md"

@@ -8,6 +8,12 @@ primaryCategory: "google-ads"
 tags: ["Google Ads AI labels", "AI disclosure", "ad policy"]
 description: "Google Ads AI labels now appear on ads targeting California, South Korea and Vietnam. What changed, where labels show and how to audit your assets."
 focusKeyword: "google ads ai labels"
+takeaways:
+  - "Google Ads now shows visible AI labels on ads in California, South Korea and Vietnam, alongside the European Union, India and New York."
+  - "The label applies to ads with assets marked as AI created or edited, including assets made with Google's own asset studio tools."
+  - "Google has not given a start date for the new regions, and it may apply labels itself in some cases that advertisers cannot overwrite."
+  - "Advertisers should audit the asset library using the AI label status column and label anything AI made or meaningfully edited."
+  - "Google says using the AI label setting does not guarantee compliance with any specific law and recommends getting legal advice."
 image: "/images/covers/google-ads-ai-labels-expand-california-korea-vietnam.webp"
 imageAlt: "Google Ads AI labels on ads in California, South Korea and Vietnam"
 format: "md"

@@ -8,6 +8,12 @@ primaryCategory: "technical-seo"
 tags: ["Sistrix", "news SEO", "Google visibility", "site migration"]
 description: "UK news publishers Google visibility fell for most big brands in 2026, Sistrix data shows. What drove the drops and what any site owner should check now."
 focusKeyword: "uk news publishers google visibility"
+takeaways:
+  - "Press Gazette's analysis of Sistrix data found more than two thirds of the largest UK news websites lost organic visibility between October 2025 and October 2026."
+  - "BBC News fell from 41.8 to 20.35, while Substack roughly doubled its score from 13.48 to 27.94."
+  - "The Daily Mail drop compares dailymail.co.uk at 32.17 with dailymail.com at 9.99, making it largely a domain migration story."
+  - "The Sistrix Visibility Index counts only organic rankings and excludes Top Stories, AI Overviews and Discover, so it is not a traffic number."
+  - "Specialist brands such as Money Saving Expert and The Times grew, which Barry Adams links to Google's focus on greater diversity in results."
 image: "/images/covers/uk-news-publishers-google-visibility-2026.webp"
 imageAlt: "UK news publishers Google visibility down in 2026 Sistrix data"
 format: "md"

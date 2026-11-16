@@ -8,6 +8,12 @@ categories: ["development", "javascript"]
 primaryCategory: "development"
 description: "Enhanced conversions setup with GTM, done right. Fix the double-hashing mistake, the gmail normalization rule, and the gtag command order gotcha with real proof."
 focusKeyword: "enhanced conversions setup"
+takeaways:
+  - "Enhanced conversions send hashed first party data like an email address with a conversion, so Google Ads can match conversions even when cookies fail."
+  - "In GTM, enhanced conversions run through the Google tag using a User-Provided Data variable attached as an event parameter named user_data."
+  - "Normalize data before hashing by trimming spaces, lowercasing, using E.164 phone format, and removing periods only from gmail.com and googlemail.com addresses."
+  - "Pick exactly one hashing path, because one auditor found data hashed twice in roughly 30% of the implementations they reviewed, which never matches."
+  - "The user_data set call must run before the conversion event, and enhanced conversions depend on the ad_user_data consent signal, not ad_storage."
 image: "/wp-content/uploads/2026/09/enhanced-conversions-setup.webp"
 imageAlt: "enhanced conversions setup"
 words: 1939

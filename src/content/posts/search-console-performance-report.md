@@ -8,6 +8,12 @@ categories: ["google-search-console"]
 primaryCategory: "google-search-console"
 description: "A search console performance report turns a spreadsheet of queries into a clear action list. See the 5 metrics that actually tell you what to fix."
 focusKeyword: "search console performance report"
+takeaways:
+  - "The Performance report is built on four metrics: clicks, impressions, click through rate and average position, which only tell the full story together."
+  - "The quickest wins are queries with an average position between four and fifteen, since Google already trusts the page but it has not reached the top three."
+  - "Ignore queries with fewer than fifty impressions across a ninety day window, because smaller samples are too noisy to act on with confidence."
+  - "Ahrefs found position one click through rate fell by roughly 34.5 percent when an AI Overview appeared, so lower CTR does not always mean weaker content."
+  - "Search Console keeps only sixteen months of data with a lag of about two to three days, so export your data monthly to keep a longer archive."
 image: "/wp-content/uploads/2026/10/search-console-performance-report.webp"
 imageAlt: "search console performance report"
 words: 2168

@@ -8,6 +8,12 @@ primaryCategory: "technical-seo"
 tags: ["redirects", "canonicalization", "technical SEO"]
 description: "301 vs 302 redirects: Google's Gary Illyes says only a 301 passes ranking signals to the new URL. What that means and how to audit your redirects today."
 focusKeyword: "301 vs 302 redirects"
+takeaways:
+  - "Google's Gary Illyes explained that a 301 redirect passes ranking signals to the new URL, while a 302 keeps the old URL in results."
+  - "Google indexes a page whichever redirect type is used, but only a permanent redirect signals that the target should be canonical."
+  - "Google treats 301 and 308 as permanent and 302, 303 and 307 as temporary, with 307 and 308 keeping POST data intact."
+  - "Google prefers server side redirects and calls JavaScript redirects a last resort because they may never be seen if rendering fails."
+  - "A 302 still suits genuinely temporary moves, but many platforms default to 302, so permanent moves often end up temporary by accident."
 image: "/images/covers/301-vs-302-redirects-google-ranking-signals.webp"
 imageAlt: "301 vs 302 redirects and Google ranking signals"
 format: "md"

@@ -8,6 +8,12 @@ categories: ["google-ads"]
 primaryCategory: "google-ads"
 description: "Learn how Google Ads negative keywords actually work in 2026: match types, shared lists, campaign vs ad group placement, and real Performance Max limits."
 focusKeyword: "Google Ads negative keywords"
+takeaways:
+  - "Negative keywords stop your ads showing for chosen searches and can be set at account, campaign or ad group level."
+  - "Broad match negatives block queries containing all the words in any order, phrase match requires the same order, and exact match blocks only that search."
+  - "Shared negative keyword lists apply one set of exclusions across many campaigns, with common starting terms like 'free', 'jobs', 'DIY' and 'refund'."
+  - "Review the search terms report weekly or biweekly for irrelevant queries, and avoid negatives that conflict with keywords you are actively bidding on."
+  - "In Performance Max, account level negatives apply automatically, campaign negatives were raised from 100 to 10,000, and negatives only cover Search and Shopping inventory."
 image: "/wp-content/uploads/2026/10/Google-Ads-negative-keywords.webp"
 imageAlt: "Google Ads negative keywords"
 words: 2190

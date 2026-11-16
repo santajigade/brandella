@@ -8,6 +8,12 @@ primaryCategory: "google-search-console"
 tags: ["Ziff Davis", "organic traffic", "AI Overviews", "Search Console"]
 description: "Ziff Davis Google referrals fell about 37% in Q3 2026 while AI citations hit 2.7 billion. What the numbers mean and how to read your own AI impressions."
 focusKeyword: "ziff davis google referrals"
+takeaways:
+  - "Ziff Davis said organic Google referrals declined approximately 37% year over year in Q3 2026, with a two year decline of over 50%."
+  - "Q3 2026 revenue fell 5.6% to $289.3 million, far less than the referral drop, because many of its businesses do not rely on Google traffic."
+  - "Ziff Davis reported roughly 2.7 billion citations in AI Overviews and AI Mode, nearly 10 times the clicks its sites received from Google Search."
+  - "Search Console's Generative AI report shows impressions only, so dividing AI impressions by total clicks does not produce a real AI click through rate."
+  - "CEO Vivek Shah said the company is not planning on a search recovery and expects referrals to continue to come down."
 image: "/images/covers/ziff-davis-google-referrals-down-37-percent.webp"
 imageAlt: "Ziff Davis Google referrals down 37 percent in Q3 2026"
 format: "md"

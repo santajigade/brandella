@@ -8,6 +8,12 @@ categories: ["development", "javascript"]
 primaryCategory: "development"
 description: "Track outbound link clicks in GTM the right way. Fix GA4's missing link text bug and the real navigation timing race that can lose the click entirely."
 focusKeyword: "outbound link clicks"
+takeaways:
+  - "GA4 Enhanced Measurement already tracks outbound clicks as an event named click, but link_text often comes back empty for these clicks."
+  - "Links to cross domain measurement domains never count as outbound, and mailto: and tel: links are excluded entirely from outbound tracking."
+  - "In GTM, list owned subdomains as bare domains in Affiliated Domains, without www or a protocol, or they will wrongly report as outbound clicks."
+  - "Same tab outbound clicks can be lost when the browser leaves before the request finishes, so GTM's Wait for Tags setting adds a short delay."
+  - "Turn off Enhanced Measurement's outbound toggle once a custom GTM event replaces it, otherwise the same click is reported twice."
 image: "/wp-content/uploads/2026/09/outbound-link-clicks.webp"
 imageAlt: "outbound link clicks"
 words: 1959

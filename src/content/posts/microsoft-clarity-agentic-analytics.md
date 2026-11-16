@@ -8,6 +8,12 @@ primaryCategory: "digital-marketing"
 tags: ["Microsoft Clarity", "AI agents", "website analytics", "CRO"]
 description: "Microsoft Clarity agentic analytics shows what AI agents do on your site, plus Brand Agents and Ask Clarity. What launched and how marketers can use it now."
 focusKeyword: "microsoft clarity agentic analytics"
+takeaways:
+  - "Microsoft Clarity launched agentic analytics on November 4, 2026, letting site owners see what AI agents do on their websites, and Clarity remains free."
+  - "Microsoft says weekly AI agent sessions nearly doubled in three weeks to almost 2 million across 230,511 Clarity projects."
+  - "Agent sessions recorded a checkout 25.21% of the time versus 14.65% for humans, while humans made outbound clicks far more often."
+  - "The launch includes an Agent Activity dashboard and Simulations that test whether agents from Google, OpenAI and Anthropic can complete key tasks on your site."
+  - "Brand Agents can now list eligible Shopify and WooCommerce products in Copilot, Bing and MSN, while Ask Clarity is in closed beta for retailers."
 image: "/images/covers/microsoft-clarity-agentic-analytics.webp"
 imageAlt: "Microsoft Clarity agentic analytics dashboard for AI agent traffic"
 format: "md"

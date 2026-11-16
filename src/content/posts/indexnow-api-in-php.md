@@ -8,6 +8,12 @@ categories: ["development", "php"]
 primaryCategory: "development"
 description: "Automatically submit URLs to the IndexNow API in PHP. Real key generation, bulk submission, response code handling, and the search engines it actually reaches."
 focusKeyword: "IndexNow API in PHP"
+takeaways:
+  - "IndexNow reaches Bing, Yandex and Naver only, because Google has not adopted it and uses Search Console and its own Indexing API instead."
+  - "An IndexNow key is 8 to 128 letters, digits or dashes, hosted in a text file at the site root named exactly after the key itself."
+  - "Submitting to the universal api.indexnow.org endpoint notifies all participating engines, and one bulk POST request can carry up to 10,000 URLs on the same host."
+  - "Response codes are 200 for success, 202 for pending key validation, 400 for bad requests, 403 for wrong keys, 422 for host mismatches and 429 for rate limits."
+  - "Trigger submissions automatically when content publishes, such as on WordPress's publish_post hook, and queue them so a slow request never blocks the save."
 image: "/wp-content/uploads/2026/09/IndexNow-API-in-PHP.webp"
 imageAlt: "IndexNow API in PHP"
 words: 1896

@@ -8,6 +8,12 @@ primaryCategory: "local-seo"
 tags: ["Google Business Profile", "Google Maps", "local SEO"]
 description: "The Google Maps message button now sits next to Call on Business Profiles in the Android and iOS apps. How it works and how to set up chat today."
 focusKeyword: "google maps message button"
+takeaways:
+  - "Google Maps on Android and iOS now shows a prominent Message button next to Call, in the expanded header and in the bottom action bar."
+  - "The button only works if chat is linked in your Business Profile, with messages going to WhatsApp or text message."
+  - "The profile must be claimed and verified, chat is only available in select regions, and if both WhatsApp and text are added, customers only see text."
+  - "Google does not say messaging affects rankings, so the value is conversion, and businesses need a response routine so messages do not become lost leads."
+  - "Track chats in Business Profile metrics each month next to calls and direction requests, and be careful with messages asking for payments or codes."
 image: "/images/covers/google-maps-message-button-business-profile.webp"
 imageAlt: "Google Maps message button next to Call on a Business Profile"
 format: "md"

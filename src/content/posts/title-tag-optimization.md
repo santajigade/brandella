@@ -8,6 +8,12 @@ categories: ["on-page-seo"]
 primaryCategory: "on-page-seo"
 description: "Title tag optimization is not one magic sentence, it is working with the rules Google uses to decide whether to keep or rewrite your title."
 focusKeyword: "title tag optimization"
+takeaways:
+  - "Google builds the title link from several signals, including the title element, the main heading, og:title and anchor text, so it often rewrites titles."
+  - "Zyppy found Google rewrote at least part of titles 61.6 percent of the time, while matching the h1 to the title cut that to around 20.6 percent."
+  - "Google truncates titles by pixel width, so aim for about 50 to 60 characters and check the result in a pixel preview rather than a character counter."
+  - "Place the main keyword near the start of the title, use it once or twice at most, and add the brand only when space allows."
+  - "Square brackets, duplicate titles across pages and keyword stuffing are common triggers that push Google to replace your title with its own version."
 image: "/wp-content/uploads/2026/10/title-tag-optimization.webp"
 imageAlt: "title tag optimization"
 words: 2111

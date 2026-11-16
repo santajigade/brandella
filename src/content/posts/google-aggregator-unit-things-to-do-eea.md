@@ -8,6 +8,12 @@ primaryCategory: "local-seo"
 tags: ["Google Search", "EEA", "aggregator unit", "supplier unit", "things to do"]
 description: "The Google aggregator unit and supplier unit now support things to do queries in the EEA. What changed on November 9 and how tour sellers can prepare."
 focusKeyword: "google aggregator unit"
+takeaways:
+  - "On November 9, 2026, Google said its aggregator unit and supplier unit now support 'things to do' queries for users in the EEA."
+  - "The aggregator unit shows results from Vertical Search Services such as travel agencies and directories, while the supplier unit shows direct providers."
+  - "This is the second expansion in about two months, after local business queries were added to the same units on September 18, 2026."
+  - "The supplier unit uses normal crawling, so tour operators and attractions should give every activity its own indexable page with clear details."
+  - "Google gave no rollout date for live results, and the aggregator feed section still listed only hotels, ground transportation, flights, products and local businesses."
 image: "/images/covers/google-aggregator-unit-things-to-do-eea.webp"
 imageAlt: "Google aggregator unit now supports things to do queries in the EEA"
 format: "md"

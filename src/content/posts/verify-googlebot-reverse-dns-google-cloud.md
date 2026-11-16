@@ -8,6 +8,12 @@ primaryCategory: "technical-seo"
 tags: ["Googlebot", "reverse DNS", "bot verification", "log file analysis"]
 description: "How to verify Googlebot without being fooled: loose reverse DNS checks let Google Cloud VMs pass as Google's crawler. What changed and how to fix your setup."
 focusKeyword: "verify googlebot"
+takeaways:
+  - "Open source bot verification tools patched a gap where any Google Cloud VM could pass as a verified Googlebot through reverse DNS checks."
+  - "The weakness is googleusercontent.com, an accepted Google domain that is also assigned to ordinary Google Cloud machines."
+  - "The agentry library fix now accepts only googlebot.com and google.com in the reverse DNS step and covers user triggered fetchers through published IP ranges."
+  - "Real Googlebot always resolves to googlebot.com, so site owners should match Googlebot to that domain and always run the forward lookup."
+  - "Gary Illyes said anyone can fake a Googlebot user agent in about 30 seconds, making strict verification rules more important."
 image: "/images/covers/verify-googlebot-reverse-dns-google-cloud.webp"
 imageAlt: "Reverse DNS check to verify Googlebot in server logs"
 format: "md"

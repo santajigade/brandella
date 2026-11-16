@@ -8,6 +8,12 @@ categories: ["social"]
 primaryCategory: "social"
 description: "Build a TikTok marketing strategy that works in 2026, Spark Ads, TikTok Shop, the For You Page algorithm, and creator deals, explained."
 focusKeyword: "TikTok marketing strategy"
+takeaways:
+  - "TikTok reports a potential ad reach of 2.21 billion people, and its average engagement of 3.70% far exceeds Instagram at 0.48%."
+  - "The For You Page ranks videos on watch time, completion and early momentum, and about 96% of a post's reach happens within the first 10 days."
+  - "Spark Ads boost an existing organic post and credit all engagement back to it, making them the best starting format for most small businesses."
+  - "TikTok Shop global GMV reached $50.3 billion in the first half of 2026, up 92% year over year, across the Shop tab, video and live shopping."
+  - "Organic content should hook viewers in the first two to three seconds and entertain or educate before selling, with creator partnerships adding reach and social proof."
 image: "/wp-content/uploads/2026/10/TikTok-marketing-strategy.webp"
 imageAlt: "TikTok marketing strategy"
 words: 2067

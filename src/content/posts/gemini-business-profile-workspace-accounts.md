@@ -8,6 +8,12 @@ primaryCategory: "local-seo"
 tags: ["Google Business Profile", "Gemini", "local SEO"]
 description: "Gemini Business Profile tools are rolling out to Workspace accounts, per Google's bulletin, but the help page still says no. What works and how to connect."
 focusKeyword: "gemini business profile"
+takeaways:
+  - "Google's November Small Business Bulletin says owners signing in with Google Workspace accounts can now use Gemini to manage their Business Profile."
+  - "Google's help page still says the feature is not available with a work or school Google Account, so the official sources disagree."
+  - "Gemini can update hours, contact details, photos and menus, draft review replies, publish posts and show insights such as search keywords."
+  - "Owners with access to more than one verified Business Profile cannot use the feature, which is the biggest barrier for agencies and multi location brands."
+  - "The same bulletin added Generate hours, hiding of ordering services, Dairy-Free and Gluten-Free menu tags, and evidence uploads for appeals."
 image: "/images/covers/gemini-business-profile-workspace-accounts.webp"
 imageAlt: "Gemini Business Profile tools for Workspace accounts"
 format: "md"

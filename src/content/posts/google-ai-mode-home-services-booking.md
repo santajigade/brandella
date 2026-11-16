@@ -8,6 +8,12 @@ primaryCategory: "local-seo"
 tags: ["Google AI Mode", "local SEO", "home services"]
 description: "Google AI Mode home services booking adds book and quote links via Angi, Thumbtack, Housecall Pro and Jobber. What changed and what local pros should do."
 focusKeyword: "google ai mode home services booking"
+takeaways:
+  - "Google AI Mode in the US can now show buttons to book a job or request a quote from home service businesses through partner platforms."
+  - "The named partners are Angi, Thumbtack, Housecall Pro and Jobber, with ServiceTitan described as coming soon."
+  - "Jobber and Housecall Pro say booking requests arrive directly in their software with no lead fees, though rollout timing appears gradual."
+  - "Contractors do not need to use the booking partners to appear, and Google points to relevance, distance and prominence as the main local ranking factors."
+  - "Businesses should tighten their Business Profile, earn recent reviews, answer booking requests fast and track bookings that arrive from the Google integration."
 image: "/images/covers/google-ai-mode-home-services-booking.webp"
 imageAlt: "Google AI Mode home services booking links for local contractors"
 format: "md"

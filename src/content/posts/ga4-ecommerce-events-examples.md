@@ -8,6 +8,12 @@ categories: ["development", "javascript"]
 primaryCategory: "development"
 description: "Real GA4 ecommerce events code examples for every stage of checkout, plus the value/currency rule and ecommerce object clearing mistake that break revenue data."
 focusKeyword: "GA4 ecommerce events"
+takeaways:
+  - "GA4 recognizes 14 standard ecommerce events, and using the exact names like add_to_cart is required for the built in ecommerce reports to populate."
+  - "Every ecommerce event shares one structure: an event name, a currency and value at the top level, and an items array describing the products."
+  - "Each item needs at least an item_id or an item_name, and the items array can hold at most 200 elements per event."
+  - "Send value as a real number with currency set at the event level, and always include transaction_id on purchase so duplicate orders are not counted twice."
+  - "Push ecommerce: null before every new ecommerce event, because GTM merges pushes and stale fields like transaction_id can leak into later events."
 image: "/wp-content/uploads/2026/09/GA4-ecommerce-events.webp"
 imageAlt: "GA4 ecommerce events"
 words: 2112

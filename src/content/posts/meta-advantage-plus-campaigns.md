@@ -8,6 +8,12 @@ categories: ["meta-ads"]
 primaryCategory: "meta-ads"
 description: "Learn how Meta Advantage Plus campaigns handle audience expansion, creative automation, and budget allocation, with 5 proven setup tips for 2026."
 focusKeyword: "Meta Advantage Plus campaigns"
+takeaways:
+  - "Advantage+ Shopping Campaigns use a sales objective and a single ad set carrying the full budget, with audience, placement and creative handled by the system."
+  - "Location, minimum age, language and exclusions stay as hard controls, while gender, detailed targeting and lookalikes are only suggestions the system can expand past."
+  - "The format allows up to 150 creative combinations versus 50 in a manual catalog setup, but visually similar ads get grouped and compete with each other."
+  - "The existing customer budget percentage is the main budget lever and needs active monitoring to stop spend drifting toward repeat buyers."
+  - "Meta's figures suggest roughly 12 to 20% lower cost per action, but an independent analysis found average ROAS fell 7% during a major system update."
 image: "/wp-content/uploads/2026/10/Meta-Advantage-Plus-campaigns.webp"
 imageAlt: "Meta Advantage Plus campaigns"
 words: 2105

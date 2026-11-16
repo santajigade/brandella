@@ -8,6 +8,12 @@ categories: ["development", "javascript"]
 primaryCategory: "development"
 description: "GA4 already track PDF downloads automatically. Learn what the file_download event captures, its 3 real limits, and 5 easy steps to close the gaps with GTM."
 focusKeyword: "track PDF downloads"
+takeaways:
+  - "GA4 Enhanced Measurement already sends a file_download event for plain PDF link clicks, covering nearly 30 file extensions with no GTM setup required."
+  - "The automatic event sends four parameters, file_extension, file_name, link_url and link_text, and it correctly normalizes uppercase extensions like .PDF to pdf."
+  - "Automatic tracking falls short in three cases: link_url is cut off at 100 characters, the extension list is fixed, and JavaScript only downloads are never detected."
+  - "For file types outside the default list, use a GTM Click URL matches RegEx trigger set to ignore case, such as one matching .epub links."
+  - "Never build a custom trigger for a file type Enhanced Measurement already covers, because the same click will then be counted twice."
 image: "/wp-content/uploads/2026/09/track-PDF-downloads.webp"
 imageAlt: "track PDF downloads"
 words: 1982

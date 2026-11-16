@@ -8,6 +8,12 @@ primaryCategory: "google-ads"
 tags: ["Google Ads", "language targeting", "Search campaigns", "Performance Max"]
 description: "Google Ads language targeting is disappearing from Search campaigns. How ads now match by language, what changes in Performance Max, and what to check."
 focusKeyword: "google ads language targeting"
+takeaways:
+  - "Google Ads is removing the campaign level language targeting setting from Search campaigns, and ads will now match users based on the language of the ads."
+  - "Thomas Eccel noticed the setting missing from a live account on November 3, although Google's help page says the change starts in September 2026."
+  - "In Performance Max, the language setting no longer applies on the Search Network but still controls YouTube, Display, Discover and Gmail."
+  - "Shopping ads within Performance Max are not affected by language settings, and Google says no action is required by advertisers for this change."
+  - "Multilingual advertisers should keep one language per campaign, match ad and landing page language, and review search terms weekly for unexpected languages."
 image: "/images/covers/google-ads-language-targeting-removed-search.webp"
 imageAlt: "Google Ads language targeting removed from Search campaigns"
 format: "md"

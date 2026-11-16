@@ -8,6 +8,12 @@ categories: ["seo-basics"]
 primaryCategory: "seo-basics"
 description: "What is SEO, in plain English? Here are the 7 basics that explain why one business ranks on page one and another stays invisible."
 focusKeyword: "what is SEO"
+takeaways:
+  - "SEO stands for search engine optimization, the ongoing practice of helping search engines find, understand and show your site to people searching for related topics."
+  - "Organic search delivers roughly 53 percent of all website traffic, according to BrightEdge research reported by Search Engine Land."
+  - "SEO rests on three pillars: technical SEO for speed and crawlability, on page SEO for content and intent, and off page SEO for links and trust."
+  - "Search engines work in three stages, crawl, index and rank, and a page that is not indexed cannot appear in search results at all."
+  - "Paid ads stop the moment you stop paying, while SEO keeps earning visits for months and years, so most mature marketing plans use both."
 image: "/wp-content/uploads/2026/10/what-is-SEO.webp"
 imageAlt: "what is SEO"
 words: 1857

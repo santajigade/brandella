@@ -8,6 +8,12 @@ categories: ["development", "javascript"]
 primaryCategory: "development"
 description: "Learn how to track button clicks in GA4 using Google Tag Manager, no code required, including the real fix for buttons with icons that leave Click ID empty."
 focusKeyword: "track button clicks"
+takeaways:
+  - "GA4 Enhanced Measurement only tracks outbound link clicks, so buttons like Add to Cart need a GTM trigger, click variables and a GA4 event tag."
+  - "Use an All Elements trigger for real buttons, because a Just Links trigger only fires on real <a> tags and never on a genuine <button> element."
+  - "GTM's built in click variables are off by default, so enable them under Variables before building any trigger that depends on Click ID or Click Text."
+  - "Click ID comes back empty when a visitor clicks an icon nested inside a button, and a Matches CSS Selector condition like '#addToCart, #addToCart *' fixes it."
+  - "Scope triggers to a specific ID, class or selector, avoid overlapping triggers that double count, and retest in Preview mode after every redesign."
 image: "/wp-content/uploads/2026/09/track-button-clicks.webp"
 imageAlt: "track button clicks"
 words: 2124

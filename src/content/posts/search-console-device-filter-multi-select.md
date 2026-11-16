@@ -8,6 +8,12 @@ primaryCategory: "google-search-console"
 tags: ["Google Search Console", "performance report", "mobile SEO"]
 description: "The Search Console device filter now supports multi-select, so you can combine mobile and tablet data in one view. What changed and 5 ways to use it today."
 focusKeyword: "search console device filter"
+takeaways:
+  - "The Search Console Performance report device filter now lets users select more than one device and see their combined data in one view."
+  - "Dan Richardson spotted the change and Search Engine Roundtable confirmed it on November 4, 2026, after a similar country filter update on October 6."
+  - "Selecting Mobile and Tablet together creates a handheld total that previously required exporting each device and combining rows in a spreadsheet."
+  - "Device filters can be stacked with query and country filters, but only one comparison can be active at a time."
+  - "The Search Console API still returns device as a separate dimension, so scripts and dashboards must combine devices themselves."
 image: "/images/covers/search-console-device-filter-multi-select.webp"
 imageAlt: "Search Console device filter with multiple devices selected"
 format: "md"

@@ -8,6 +8,12 @@ primaryCategory: "artificial-intelligence"
 tags: ["Perplexity", "AI agents", "Perplexity Computer", "marketing automation"]
 description: "Perplexity Teammates are AI agents that own ongoing work like social, email, ads and SEO tasks. What launched, who can use it and how marketers should test it."
 focusKeyword: "perplexity teammates"
+takeaways:
+  - "Perplexity Teammates are AI agents announced on November 4, 2026 that plan, coordinate and own ongoing work across many runs."
+  - "Access is limited to Perplexity Max subscribers on the web, with Max costing $200 a month or $2,000 a year."
+  - "Each Teammate runs in its own environment with memory, connectors such as Slack, GitHub and Gmail, schedules and approval requests."
+  - "Perplexity's first listed use case is a marketing Teammate that manages social posts, email, ads and SEO and drafts fixes when results slip."
+  - "Marketers should test Teammates on one narrow, low risk job and keep approvals on for anything public, such as posts, emails and ad edits."
 image: "/images/covers/perplexity-teammates-ai-agents-for-work.webp"
 imageAlt: "Perplexity Teammates AI agents for ongoing work"
 format: "md"
