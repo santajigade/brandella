@@ -429,7 +429,7 @@ pip install google-api-python-client google-auth pandas</code></pre>
     <div class="bx-rule"></div>
   </div>
 
-  <p>Saving each day to its own CSV works, but it makes trend analysis harder than it needs to be. Once google search console data pulls with python are running daily, appending every pull into one growing table is usually the better long term shape.</p>
+  <p>Saving each day to its own CSV works, but it makes trend analysis harder than it needs to be. Once google search console data pulls with python are running daily, appending every pull into one growing table is usually the better long term shape. Our guide to <a href="/python-and-pandas-seo-reporting/">Python and Pandas SEO reporting</a> shows how to turn that table into a reusable dashboard.</p>
 
   <div class="bx-code-wrap">
     <div class="bx-code-title">append_to_archive.py</div>

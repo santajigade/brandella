@@ -295,7 +295,7 @@ mediaQuery.addEventListener('change', (e) => {
 
 <section class="bx-cta">
 <h2 id="build-a-complete-front-end-javascript-toolkit">Build a Complete Front-End JavaScript Toolkit</h2>
-<p>Dark mode pairs well with other content UX features like scrollspy highlighting and auto-generated navigation. Explore both guides next.</p>
+<p>Dark mode pairs well with other content UX features like scrollspy highlighting and auto-generated navigation. Explore both guides next, and for code heavy pages add a <a href="/copy-to-clipboard-button-javascript/">copy to clipboard button built with JavaScript</a> so readers can grab snippets in one click.</p>
 <div class="bx-actions">
 <a class="bx-btn primary" href="/auto-highlight-current-heading-scrolling/" target="_blank" rel="noopener">Auto Highlight Current Heading</a>
 <a class="bx-btn ghost" href="/auto-generate-table-of-contents-headings/" target="_blank" rel="noopener">Auto-Generate Table of Contents</a>
