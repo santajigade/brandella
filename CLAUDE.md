@@ -35,6 +35,10 @@ Astro static site that replaced the WordPress install in November 2026. Owner: S
 - Only `subscribe.php` and `newsletter.php` may run PHP (`public/.htaccess` and `public/api/.htaccess`).
 
 ## Free SEO and AEO assets library
-- `/resources/` and `/resources/seo-aeo-assets/` (hub of 36 assets). `src/data/seo-assets/index.json` lists all 36; an asset goes live when `src/data/seo-assets/<slug>.yaml` exists (structure: see `keyword-research.yaml`).
-- Pages: `src/pages/resources/`; loader `src/lib/assets.ts`; styles `src/styles/assets.css` (`ra-` prefix). CSV and prompt .txt downloads are generated at build into `/resources/seo-aeo-assets/downloads/` (served as attachments, noindex, via `public/.htaccess`).
-- A daily scheduled task publishes the next 6 assets until all 36 are live.
+- `/resources/` and `/resources/seo-aeo-assets/` (hub of 36 assets). `src/data/seo-assets/index.json` lists all 36; an asset goes live when `src/data/seo-assets/<slug>.yaml` exists, otherwise its card shows "Coming soon". Never link to an asset page that is not live.
+- Pages: `src/pages/resources/`; loader `src/lib/assets.ts`; styles `src/styles/assets.css` (`ra-` prefix).
+- Every asset is a FULL KIT (Santaji, 2026-11-17: simple templates are "no use"). Quality bar = `keyword-research.yaml` + `scripts/assets/kit_keyword_research.py`:
+  - YAML with `kit: true`, `kitContents`, long AI era guide in `sections` (reference tables, worked example, column guide, 30 day plan, mistakes), 7 steps, 20+ prompts incl. a chained workflow, 12 to 16 checklist items, 6 FAQs, real sources (official Google docs first, every fact from a source you opened). No em or en dashes.
+  - `scripts/assets/kit_<slug_with_underscores>.py` with `build(path, asset, url)`, `PREVIEW` and `check(wb)`: a multi tab Excel workbook (Start Here, main sheet with 500 formula rows and dropdowns, Dashboard, a planning tab, Settings, AI Prompts, Checklist, Sources) with a worked demo for a fictional company. Use `scripts/assets/kitlib.py`. Only Excel 2007 era functions plus `_xlfn.MAXIFS/MINIFS/IFS/SWITCH/TEXTJOIN`.
+  - Build: `RECALC=<xlsx skill>/scripts/recalc.py python3 scripts/assets/build_kits.py` (needs LibreOffice, openpyxl, pyyaml, Playwright). It writes the workbook, PDF guide, PDF checklist, prompts .md, the kit ZIP and the all kits ZIP into `public/resources/seo-aeo-assets/kits/` and a preview JSON into `src/data/seo-assets/previews/`. Zero formula errors required. Commit the generated files.
+- Release pace (Santaji, 2026-11-17): only 2 new kits per day, so the library does not look like scaled content. A daily scheduled task does this.

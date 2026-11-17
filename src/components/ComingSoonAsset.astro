@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import '../styles/assets.css';
+import { LIBRARY, liveAssets, assetUrl, groupName, pad, type AssetMeta } from '../lib/assets';
+const { m } = Astro.props as { m: AssetMeta };
+---
+<Base title={`${m.name} Kit: Coming Soon`} description={`The free ${m.name.toLowerCase()} kit from Brandella Journal is coming soon.`} noindex>
+  <div class="container">
+    <Breadcrumbs items={[{ name: 'Resources', url: '/resources/' }, { name: LIBRARY.name, url: LIBRARY.url }, { name: m.name, url: assetUrl(m.slug) }]} />
+    <header class="ra-hero" style="padding-bottom:60px">
+      <span class="ra-pill">Asset {pad(m.n)} of 36 &middot; {groupName(m.group)} &middot; Coming soon</span>
+      <h1>{m.name} kit</h1>
+      <p>{m.short} This free kit (Excel workbook, full guide, AI prompts and checklist) is being built now and will be published here soon.</p>
+      <div class="ra-hub-cta">
+        <a class="ra-btn" href={LIBRARY.url}>See all 36 assets</a>
+        {liveAssets[0] && <a class="ra-btn ghost" href={assetUrl(liveAssets[0].slug)}>Open the {liveAssets[0].name} kit</a>}
+      </div>
+    </header>
+  </div>
+</Base>

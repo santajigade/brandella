@@ -42,9 +42,10 @@ const schema = [
       </div>
       {allSize && (
         <div class="ra-hub-cta">
-          <a class="ra-btn" href={ALL_KITS_ZIP} download>Download all {kitSlugs.size} full {kitSlugs.size === 1 ? 'kit' : 'kits'} (ZIP, {allSize})</a>
+          <a class="ra-btn" href={ALL_KITS_ZIP} download>Download all ready kits (ZIP, {allSize})</a>
           <a class="ra-btn ghost" href="#ra-groups">Browse the assets</a>
         </div>
+        <p class="ra-small" style="margin-top:8px">{kitSlugs.size} of 36 kits ready. New kits are added every day, and this ZIP always holds all of them.</p>
       )}
     </header>
 

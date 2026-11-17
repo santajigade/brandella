@@ -115,6 +115,8 @@ ErrorDocument 404 /404.html
 
   # Push alerts: the only PHP file allowed to run
   RewriteRule ^api/subscribe\.php$ - [L]
+  # Old asset library CSV and txt downloads (replaced by full kits in /kits/)
+  RewriteRule ^resources/seo-aeo-assets/downloads/ - [G,L]
   # Newsletter signup
   RewriteRule ^api/newsletter\.php$ - [L]
   # Block every PHP file (the old WordPress files stay on disk but must not run)
