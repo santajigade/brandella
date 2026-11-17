@@ -72,56 +72,113 @@ def fm(raw, key):
     return v
 
 
-def make_image(slug, title, board, cover):
-    img = Image.new("RGB", (W, H), DARK)
-    top_h = 600
-    if cover and os.path.exists(cover):
-        c = Image.open(cover).convert("RGB")
-        r = W / c.width
-        ch = int(c.height * r)
-        if ch >= 450:  # fit full width, no side crop
-            c = c.resize((W, ch), Image.LANCZOS)
-            top_h = min(ch, 760)
-            y = (ch - top_h) // 2
-            img.paste(c.crop((0, y, W, y + top_h)), (0, 0))
-        else:
-            r = max(W / c.width, top_h / c.height)
-            c = c.resize((int(c.width * r) + 1, int(c.height * r) + 1), Image.LANCZOS)
-            x, y = (c.width - W) // 2, (c.height - top_h) // 2
-            img.paste(c.crop((x, y, x + W, y + top_h)), (0, 0))
-    else:
-        ImageDraw.Draw(img).rectangle([0, 0, W, top_h], fill=(36, 72, 14))
-    d = ImageDraw.Draw(img)
-    d.rectangle([0, top_h, W, top_h + 12], fill=GREEN)
-    pad = 70
-    lab = LABEL[board]
-    lf = font(800, 30)
-    avail_top, avail_bot = top_h + 12, H - 150
-    room = avail_bot - avail_top - 70 - 58 - 40  # margins, label, gap
-    for size in (78, 72, 66, 60, 54, 48, 44):
-        tf = font(800, size)
-        lines = wrap(d, title, tf, W - 2 * pad)
-        lh = int(size * 1.22)
-        if len(lines) * lh <= room:
+ACCENT = {"SEO Tips and Strategies": (166, 239, 57), "Google Ads and PPC": (255, 184, 48), "AI in Marketing": (176, 150, 255),
+          "Digital Marketing and Content": (255, 128, 96), "Web Development Tips": (80, 200, 250)}
+SKIP_H = re.compile(r"faq|frequently|learn today|watch|score|workflow|stepper|calculator|generator|quiz|related|continue|"
+                    r"build a complete|common questions|glossary|key terms|try it|conclusion|summary|final|checklist$", re.I)
+
+
+def headings(path):
+    raw = open(path, encoding="utf-8").read()
+    raw = re.sub(r"<(script|style)\b.*?</\1>", "", raw, flags=re.S | re.I)
+    hs = re.findall(r"<h2\b[^>]*>(.*?)</h2>", raw, re.S | re.I) or re.findall(r"(?m)^##\s+(.+)$", raw)
+    out = []
+    for h in hs:
+        h = clean(re.sub(r"<[^>]+>", "", h))
+        h = re.sub(r"^(\d{1,2}[.):]?\s+|step\s*\d+\s*[:.]\s*|tip\s*\d+\s*[:.]\s*)", "", h, flags=re.I)
+        h = re.sub(r"\s*\(.*?\)\s*$", "", h).strip(" :")
+        if not h or SKIP_H.search(h) or len(h) > 46 or h.lower() in (x.lower() for x in out):
+            continue
+        out.append(h)
+        if len(out) == 4:
             break
-    block = 58 + 40 + len(lines) * lh
-    y0 = avail_top + max(50, (avail_bot - avail_top - block) // 2)
+    return out
+
+
+def number_badge(title):
+    m = re.search(r"\b(\d{1,2})\s+(proven|essential|ways|steps|tips|mistakes|best|simple|easy|key|rules|properties|picks|ai)\b", title, re.I)
+    return m.group(1) if m else None
+
+
+def make_image(slug, title, board, cover, items=(), style=0):
+    acc = ACCENT[board]
+    if style == 0:      # dark
+        bg, ink, sub, chip_bg, chip_ink, panel = (14, 30, 8), (255, 255, 255), (205, 228, 190), acc, (14, 30, 8), (26, 50, 14)
+    elif style == 1:    # light
+        bg, ink, sub, chip_bg, chip_ink, panel = (246, 250, 240), (17, 24, 12), (70, 86, 60), (14, 30, 8), acc, (255, 255, 255)
+    else:               # accent band
+        bg, ink, sub, chip_bg, chip_ink, panel = (20, 22, 26), (255, 255, 255), (210, 214, 220), (255, 255, 255), (20, 22, 26), (34, 37, 44)
+    img = Image.new("RGB", (W, H), bg)
+    d = ImageDraw.Draw(img)
+    pad = 72
+    # decorative shapes
+    if style == 2:
+        ink_top, chip_bg, chip_ink = (20, 22, 26), (20, 22, 26), acc
+    else:
+        ink_top = ink
+        d.ellipse([W - 330, -170, W + 170, 330], outline=acc, width=14)
+        d.ellipse([W - 230, -70, W + 70, 230], outline=acc, width=6)
+        d.rectangle([0, 0, 18, H], fill=acc)
+    # chip + kicker
+    lab, lf = LABEL[board], font(800, 28)
     lw = d.textlength(lab, font=lf)
-    d.rounded_rectangle([pad, y0, pad + lw + 44, y0 + 58], radius=29, fill=LIME)
-    d.text((pad + 22, y0 + 5), lab, font=lf, fill=DARK)
-    y = y0 + 58 + 40
+    d.rounded_rectangle([pad, 90, pad + lw + 44, 146], radius=28, fill=chip_bg)
+    d.text((pad + 22, 96), lab, font=lf, fill=chip_ink)
+    nb = number_badge(title)
+    # title
+    title_top = 190
+    maxw = W - 2 * pad - (0 if style == 2 else 40)
+    title_room = 470
+    for size in (84, 76, 70, 64, 58, 52, 48):
+        tf = font(800, size)
+        lines = wrap(d, title, tf, maxw)
+        lh = int(size * 1.18)
+        if len(lines) * lh <= title_room:
+            break
+    if style == 2:
+        d.rectangle([0, 0, W, title_top + len(lines) * lh + 70], fill=acc)
+        d.rounded_rectangle([pad, 90, pad + lw + 44, 146], radius=28, fill=chip_bg)
+        d.text((pad + 22, 96), lab, font=lf, fill=chip_ink)
+    y = title_top
     for ln in lines:
-        d.text((pad, y), ln, font=tf, fill=WHITE)
+        d.text((pad, y), ln, font=tf, fill=ink_top if style == 2 else ink)
         y += lh
+    y = y + (120 if style == 2 else 60)
+    # inside this guide panel
+    if items:
+        pf, it, LH, GAP = font(800, 32), font(600, 42), 54, 34
+        rows = [wrap(d, t, it, W - 2 * pad - 130)[:2] for t in items]
+        def height(rs): return 100 + sum(len(r) * LH + GAP for r in rs) + 10
+        bottom = H - 200
+        while rows and y + height(rows) > bottom:
+            rows = rows[:-1]
+        if len(rows) >= 2:
+            ph = height(rows)
+            y = y + max(0, (bottom - y - ph) // 2)
+            d.rounded_rectangle([pad - 10, y, W - pad + 10, y + ph], radius=28, fill=panel)
+            d.text((pad + 28, y + 32), "WHAT'S INSIDE", font=pf, fill=acc if style != 1 else (40, 90, 10))
+            yy = y + 100
+            for i, r in enumerate(rows, 1):
+                d.ellipse([pad + 26, yy + 2, pad + 78, yy + 54], fill=acc)
+                nf = font(800, 30)
+                nw = d.textlength(str(i), font=nf)
+                d.text((pad + 52 - nw / 2, yy + 7), str(i), font=nf, fill=(14, 30, 8))
+                for ln in r:
+                    d.text((pad + 102, yy), ln, font=it, fill=ink if style != 1 else (17, 24, 12))
+                    yy += LH
+                yy += GAP
+    # number badge
+    if nb and style != 2 and not items:
+        bf = font(800, 120)
+        d.text((W - pad - d.textlength(nb, font=bf), H - 360), nb, font=bf, fill=acc)
     # footer
-    d.rectangle([0, H - 150, W, H], fill=(16, 32, 7))
-    d.text((pad, H - 118), "Read the full guide", font=font(600, 32), fill=SOFT)
-    d.text((pad, H - 76), "brandella.in", font=font(800, 40), fill=LIME)
-    bj = "BRANDELLA JOURNAL"
-    bf = font(800, 26)
-    d.text((W - pad - d.textlength(bj, font=bf), H - 70), bj, font=bf, fill=SOFT)
+    d.line([pad, H - 170, W - pad, H - 170], fill=acc, width=4)
+    d.text((pad, H - 140), "Free guide at", font=font(600, 32), fill=sub)
+    d.text((pad, H - 96), "brandella.in", font=font(800, 46), fill=acc if style != 1 else (40, 110, 10))
+    bj, bf2 = "BRANDELLA JOURNAL", font(800, 26)
+    d.text((W - pad - d.textlength(bj, font=bf2), H - 84), bj, font=bf2, fill=sub)
     os.makedirs(OUT_IMG, exist_ok=True)
-    img.save(os.path.join(OUT_IMG, slug + ".jpg"), "JPEG", quality=78, optimize=True, progressive=True)
+    img.save(os.path.join(OUT_IMG, slug + ".jpg"), "JPEG", quality=86, optimize=True, progressive=True)
 
 
 def main():
@@ -134,7 +191,7 @@ def main():
         if re.search(r"^draft:\s*true", raw, re.M):
             continue
         posts.append({
-            "slug": fm(raw, "slug") or os.path.basename(f)[:-3],
+            "slug": fm(raw, "slug") or os.path.basename(f)[:-3], "file": os.path.basename(f),
             "title": fm(raw, "title"), "desc": fm(raw, "description"), "kw": fm(raw, "focusKeyword"),
             "cat": fm(raw, "primaryCategory"), "date": fm(raw, "date"), "image": fm(raw, "image"),
             "views": int(re.sub(r"\D", "", fm(raw, "views") or "0") or 0),
@@ -161,7 +218,8 @@ def main():
                 day = start + datetime.timedelta(days=n // PER_DAY)
                 board = BOARD_OF.get(p["cat"], "Digital Marketing and Content")
                 cover = os.path.join(ROOT, "public", p["image"].lstrip("/")) if p["image"] else ""
-                make_image(p["slug"], clean(p["title"]), board, cover)
+                items = headings(os.path.join(ROOT, "src/content/posts", p["file"]))
+                make_image(p["slug"], clean(p["title"]), board, cover, items, n % 3)
                 desc = clean(p["desc"] + " Read the full guide on Brandella Journal.")[:500]
                 kws = ", ".join(x for x in [p["kw"], board, "Brandella Journal"] if x)
                 w.writerow([clean(p["title"])[:100], "https://brandella.in/pins/%s.jpg" % p["slug"], board, "", desc,
