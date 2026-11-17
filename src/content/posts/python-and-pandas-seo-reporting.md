@@ -8,6 +8,12 @@ categories: ["development", "python"]
 primaryCategory: "development"
 description: "Learn how to use python and pandas for SEO reporting to pull Search Console and GA4 data, merge it, and automate client dashboards."
 focusKeyword: "Python and Pandas"
+takeaways:
+  - "Python and pandas can replace manual copying of Search Console and analytics data into monthly client reports."
+  - "The Search Console API and Google's google-analytics-data client for GA4 together cover most of what a client report needs."
+  - "Cleaning keys and filling missing values with fillna prevents blank cells from breaking merges and later calculations."
+  - "Month over month change columns matter more to clients than raw totals, and a replace(0, 1) guard prevents division by zero."
+  - "A GitHub Actions cron job can generate every report on the first day of each month, with credentials stored as secrets."
 image: "/wp-content/uploads/2026/08/Python-and-Pandas.webp"
 imageAlt: "Python and Pandas"
 words: 1752

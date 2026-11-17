@@ -8,6 +8,12 @@ categories: ["development", "javascript"]
 primaryCategory: "development"
 description: "Build vanilla javascript form validation with real validator functions, debounced live checks, and accessible error messages, verified with real browser tests."
 focusKeyword: "vanilla javascript form validation"
+takeaways:
+  - "Small pure validator functions, each taking a string and returning a boolean, are easy to test and reuse across different forms."
+  - "Debouncing the email check by 300 milliseconds meant 8 typed keystrokes triggered only 1 validation run in a real browser test."
+  - "The submit handler must rerun every validator, so fields a visitor never touched are still checked before anything is sent."
+  - "Mark errors with aria-invalid, aria-describedby and role alert, and clear the message text once the field becomes valid again."
+  - "Client side validation only improves the experience, because a direct request can bypass it, so the server must validate every field again."
 image: "/wp-content/uploads/2026/08/vanilla-javascript-form-validation.webp"
 imageAlt: "vanilla javascript form validation"
 words: 2026

@@ -8,6 +8,12 @@ categories: ["development", "html"]
 primaryCategory: "development"
 description: "How to structure HTML for better AI crawlability, with real proof of what GPTBot and ClaudeBot actually see versus what a browser renders."
 focusKeyword: "AI crawlability"
+takeaways:
+  - "AI crawlability is how easily an AI system can fetch a page and extract its meaning from the raw markup alone."
+  - "Most AI crawlers do not run JavaScript, so content loaded only by client side rendering never appeared in a plain HTTP fetch test."
+  - "Semantic elements like main, article and nav, plus a properly nested heading outline, help crawlers separate real content from boilerplate."
+  - "Each AI crawler, such as GPTBot or ClaudeBot, is controlled separately in robots.txt, so training and live search bots can be treated differently."
+  - "An llms.txt file and schema markup supplement good HTML structure, but neither replaces server rendered, readable pages."
 image: "/wp-content/uploads/2026/08/AI-crawlability.webp"
 imageAlt: "AI crawlability"
 words: 1978

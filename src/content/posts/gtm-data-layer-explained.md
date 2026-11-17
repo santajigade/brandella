@@ -8,6 +8,12 @@ categories: ["development", "gtm"]
 primaryCategory: "gtm"
 description: "See exactly what the GTM data layer looks like with real pushed events, dot-notation reads, merge behavior, and version 1 vs version 2 variables explained."
 focusKeyword: "GTM data layer"
+takeaways:
+  - "The GTM data layer is a plain JavaScript array that pages push structured event objects into, which Google Tag Manager reads and merges."
+  - "Pushes merge into a running state, so a new push only overwrites keys it sets and earlier unrelated keys stay readable."
+  - "Data Layer Variables read nested values with dot notation, such as ecommerce.items.0.item_name, walking one segment at a time."
+  - "Version 1 variables capture a value at the moment a specific event fires, while version 2 always reads the current live state."
+  - "Following GA4's ecommerce schema, with an items array nested under an ecommerce key, saves remapping work inside tags later."
 image: "/wp-content/uploads/2026/08/GTM-data-layer.webp"
 imageAlt: "GTM data layer"
 words: 2016

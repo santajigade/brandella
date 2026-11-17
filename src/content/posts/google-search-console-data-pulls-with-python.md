@@ -8,6 +8,12 @@ categories: ["development", "python"]
 primaryCategory: "development"
 description: "Google search console data pulls with python replace manual CSV exports with a script that fetches queries, clicks, and impressions straight from the API."
 focusKeyword: "Google Search Console Data Pulls"
+takeaways:
+  - "The Search Console interface caps most exports at 1,000 rows and keeps only about sixteen months of visible data."
+  - "A service account must be added as a user on the Search Console property, or API requests return empty results."
+  - "The API returns up to 25,000 rows per request, so the startRow parameter is used to paginate until an empty page returns."
+  - "Pulling data with a three day delay avoids saving incomplete figures, since recent Search Console numbers are often revised."
+  - "Appending daily pulls into one deduplicated archive, scheduled through GitHub Actions, builds history beyond the dashboard's window."
 image: "/wp-content/uploads/2026/08/Google-Search-Console-Data-Pulls.webp"
 imageAlt: "Google Search Console Data Pulls"
 words: 2187

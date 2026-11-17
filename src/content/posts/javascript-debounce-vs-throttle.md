@@ -8,6 +8,12 @@ categories: ["development", "javascript"]
 primaryCategory: "development"
 description: "JavaScript debounce vs throttle explained with real running code, real timestamps, and a clear guide to picking the right one for any handler."
 focusKeyword: "javascript debounce vs throttle"
+takeaways:
+  - "Debounce waits until events stop for a set time and then runs the function once."
+  - "Throttle runs the function immediately and then ignores further calls until a fixed cooldown has passed."
+  - "In the real demo, five keystrokes passed through a 300 millisecond debounce produced exactly one search call."
+  - "Search autocomplete, resize recalculation and form validation suit debounce, while sticky headers and infinite scroll triggers suit throttle."
+  - "Unthrottled scroll and input handlers hurt Interaction to Next Paint and Total Blocking Time scores."
 image: "/wp-content/uploads/2026/08/javascript-debounce-vs-throttle.webp"
 imageAlt: "javascript debounce vs throttle"
 words: 2054

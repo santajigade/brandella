@@ -8,6 +8,12 @@ categories: ["development", "javascript"]
 primaryCategory: "development"
 description: "JavaScript web workers explained with real browser proof: offload heavy computation off the main thread and keep pages responsive."
 focusKeyword: "javascript web workers"
+takeaways:
+  - "Heavy synchronous work on the main thread freezes the page, and the real test saw zero heartbeat ticks during 803ms of work."
+  - "Running the same prime counting task inside a Web Worker kept the main thread heartbeat ticking 41 times."
+  - "Workers communicate only through postMessage, which copies data with the structured clone algorithm instead of sharing live references."
+  - "Workers have no DOM or localStorage access, and that isolation is what makes them safe for heavy code."
+  - "Workers solve CPU heavy problems, not waiting problems, so a simple fetch call does not need one."
 image: "/wp-content/uploads/2026/08/javascript-web-workers.webp"
 imageAlt: "javascript-web-workers"
 words: 2035

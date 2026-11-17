@@ -8,6 +8,12 @@ categories: ["development", "php"]
 primaryCategory: "development"
 description: "Build a rest api in php without a framework using a router, PDO models, bearer token auth, and consistent JSON error handling."
 focusKeyword: "rest api in php"
+takeaways:
+  - "A small REST API in plain PHP needs only a front controller, a simple router, a database connection and clear HTTP verb rules."
+  - "An .htaccess rewrite sends every request that is not a real file to index.php, which acts as the single entry point."
+  - "Each method should return a consistent status code, such as 201 for a successful POST and 204 for a successful DELETE."
+  - "Bearer tokens should be compared with hash_equals(), which runs in constant time and avoids leaking timing information."
+  - "Error responses should return a random request ID instead of the raw exception message, keeping internal details out of the response."
 image: "/wp-content/uploads/2026/08/rest-api-in-php.webp"
 imageAlt: "rest api in php"
 words: 1722

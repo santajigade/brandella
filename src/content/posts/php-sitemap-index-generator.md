@@ -8,6 +8,12 @@ categories: ["development", "php"]
 primaryCategory: "development"
 description: "Build a PHP sitemap index generator that Google actually trusts real code, real lastmod accuracy, and the 2026 gotcha most tutorials miss."
 focusKeyword: "PHP sitemap index generator"
+takeaways:
+  - "One sitemap can list at most 50,000 URLs and 50 MB uncompressed, and a sitemap index can reference up to 50,000 sitemaps."
+  - "Google only uses lastmod when it is consistently and verifiably accurate, and a few fake dates can get the whole sitemap's dates ignored."
+  - "Read each lastmod from the actual file's modification time instead of typing it by hand, and reject dates not in W3C datetime format."
+  - "Gzip compression reduces what search engines download, but the 50 MB limit still applies to the decompressed content."
+  - "Submit only the index URL in Search Console, and keep every listed sitemap in the same directory as the index or below it."
 image: "/wp-content/uploads/2026/09/PHP-sitemap-index-generator.webp"
 imageAlt: "PHP sitemap index generator"
 words: 2122

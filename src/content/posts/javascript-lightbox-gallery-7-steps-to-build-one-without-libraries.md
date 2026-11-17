@@ -8,6 +8,12 @@ categories: ["development", "javascript"]
 primaryCategory: "development"
 description: "Build a real javascript lightbox gallery with zero dependencies, real preloading, keyboard navigation, and focus management, all proven in Chromium."
 focusKeyword: "javascript lightbox gallery"
+takeaways:
+  - "A lightbox gallery can be built in plain JavaScript with no library or framework dependency."
+  - "Navigation uses modulo math to wrap around, and adding the total inside prevIndex prevents negative indexes."
+  - "Preloading the next and previous images with a hidden Image() object makes navigation feel instant from the browser cache."
+  - "Arrow keys and Escape should work as soon as the overlay opens, and background page scroll should be locked."
+  - "On close, keyboard focus must return to the thumbnail that opened the lightbox, following the WAI-ARIA dialog pattern."
 image: "/wp-content/uploads/2026/08/javascript-lightbox-gallery.webp"
 imageAlt: "javascript lightbox gallery"
 words: 2020

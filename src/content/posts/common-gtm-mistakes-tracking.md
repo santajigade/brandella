@@ -8,6 +8,12 @@ categories: ["development", "gtm"]
 primaryCategory: "gtm"
 description: "Discover the most common GTM mistakes that break tracking data, with real Chromium proof of a broken dataLayer, loose trigger logic, and the checklist to catch them before they cost you."
 focusKeyword: "GTM mistakes"
+takeaways:
+  - "Declaring dataLayer as a plain object instead of an array makes push throw an error and can silently break other scripts."
+  - "Trigger event names are case sensitive, and using a contains condition instead of equals can fire a tag on unintended pages."
+  - "Use one workspace per change, run Preview mode before every publish, and write a clear version description."
+  - "Duplicate tags sending the same GA4 event inflate counts, so search the container by measurement ID before adding a new tag."
+  - "Check that marketing tags wait for a recorded consent decision, watch for Content Security Policy blocks, and audit the container quarterly."
 image: "/wp-content/uploads/2026/08/GTM-mistakes.webp"
 imageAlt: "GTM mistakes"
 words: 2113

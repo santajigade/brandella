@@ -8,6 +8,12 @@ categories: ["development", "python"]
 primaryCategory: "development"
 description: "A python script to check broken links crawls your whole site, follows every internal and external URL, and flags every dead page before Google finds it first."
 focusKeyword: "python script to check broken links"
+takeaways:
+  - "A Python script checked 500 links in about four minutes, a job that would take hours of manual clicking."
+  - "A breadth first crawl from the homepage maps every internal and external link before any status codes are checked."
+  - "HEAD requests are faster than GET for checking links, with a fallback to GET when a server returns 405."
+  - "Using concurrent.futures with ten to twenty workers checks large sites quickly without overloading servers or triggering blocks."
+  - "Redirects, false 403 responses and slow timeouts need a second look before being reported as broken links."
 image: "/wp-content/uploads/2026/08/python-script-to-check-broken-links.webp"
 imageAlt: "python script to check broken links"
 words: 2236

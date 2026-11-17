@@ -8,6 +8,12 @@ categories: ["development", "html"]
 primaryCategory: "development"
 description: "HTML semantic elements replace div soup with tags a browser, screen reader, and AI search engine can actually understand, verified with a real Chromium accessibility tree comparison showing zero landmark roles versus six."
 focusKeyword: "html semantic elements"
+takeaways:
+  - "Semantic elements like header, nav, main, article, aside and footer describe what content is, while a div only creates a generic box."
+  - "Div soup forces search engines and AI answer engines to guess page structure from class names, visual position and text patterns."
+  - "In a Chromium test, the div soup page produced zero landmark roles, while the semantic version produced six without any hand written ARIA."
+  - "According to the WebAIM survey, 31.7% of screen reader users always or often navigate by landmarks when a page provides them."
+  - "Refactoring mostly means swapping tags while keeping class names, using one main element per page and a heading in every section."
 image: "/wp-content/uploads/2026/08/html-semantic-elements.webp"
 imageAlt: "html semantic elements"
 words: 2150

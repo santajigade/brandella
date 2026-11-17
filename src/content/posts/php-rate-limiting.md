@@ -8,6 +8,12 @@ categories: ["development", "php"]
 primaryCategory: "development"
 description: "PHP rate limiting protects your API from abuse. Learn token bucket and sliding window algorithms using Redis to block traffic spikes before they cause damage."
 focusKeyword: "php rate limiting"
+takeaways:
+  - "A single unbounded caller can exhaust database connections and memory, slowing an API down for every other user."
+  - "Redis gives every server in a cluster the same shared view of request counts, which flat file counters cannot do."
+  - "A token bucket allows short bursts while enforcing a steady average rate, avoiding the fixed window's boundary burst problem."
+  - "Rejected requests should return status 429 with a Retry-After header so well behaved clients know when to try again."
+  - "Key limits by API key or user ID rather than IP address, and give login and password reset routes stricter limits."
 image: "/wp-content/uploads/2026/08/php-rate-limiting.webp"
 imageAlt: "php rate limiting"
 words: 1594

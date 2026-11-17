@@ -8,6 +8,12 @@ categories: ["development", "php"]
 primaryCategory: "development"
 description: "Build a redirect manager in PHP backed by MySQL to handle thousands of 301s, with wildcard matching, chain detection, and hit logging."
 focusKeyword: "Redirect Manager in PHP"
+takeaways:
+  - "Apache reads .htaccess from top to bottom on every request, so thousands of redirect rules add real overhead to each page load."
+  - "A database table with a unique index on source_path keeps lookups fast and stops one old URL mapping to two destinations."
+  - "The redirect check should run before any template or heavy code loads, with the status code passed from the database."
+  - "Exact path matches should be checked first, with regex rules used only as a fallback to protect performance."
+  - "Checking for redirect chains before saving a rule and reviewing zero hit redirects quarterly keeps the table clean."
 image: "/wp-content/uploads/2026/08/Redirect-Manager-in-PHP.webp"
 imageAlt: "Redirect Manager in PHP"
 words: 1439

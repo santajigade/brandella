@@ -8,6 +8,12 @@ categories: ["development", "javascript"]
 primaryCategory: "development"
 description: "Learn how to lazy load comments section content with a real IntersectionObserver setup, load guard, and fetch pattern that cuts wasted network requests."
 focusKeyword: "lazy load comments section"
+takeaways:
+  - "Most visitors never scroll down to comments, so loading them up front wastes bandwidth and main thread time."
+  - "An IntersectionObserver on a placeholder element loads comments only when the section approaches the viewport."
+  - "A simple load guard prevents duplicate fetches, because the observer can fire several times as a visitor scrolls past."
+  - "Calling unobserve() after loading stops further callbacks, and the real test showed only 1 request after 3 more scrolls."
+  - "Deferring a heavy comments script reduces Total Blocking Time, and a visible loading state inside an ARIA live region avoids a broken look."
 image: "/wp-content/uploads/2026/08/lazy-load-comments-section.webp"
 imageAlt: "lazy load comments section"
 words: 1947

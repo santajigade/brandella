@@ -8,6 +8,12 @@ categories: ["development", "html"]
 primaryCategory: "html"
 description: "Learn what makes accessible HTML forms work: proper label association, real accessibility tree proof, keyboard access, native validation attributes."
 focusKeyword: "accessible html forms"
+takeaways:
+  - "A label only gives a field its accessible name when its for attribute matches the field's id or the field is nested inside it."
+  - "In a Chromium test, an unconnected label produced an empty accessible name, while a connected label produced the exact label text."
+  - "The 2026 WebAIM Million report found that 33.1% of form inputs on the top one million home pages were not properly labeled."
+  - "Group related choices with fieldset and legend, and connect each error message to its field with aria-describedby."
+  - "Placeholder text is not a label, and native attributes like required, type and autocomplete should be used before reaching for ARIA."
 image: "/wp-content/uploads/2026/08/accessible-html-forms.webp"
 imageAlt: "accessible html forms"
 words: 1964

@@ -8,6 +8,12 @@ categories: ["development", "javascript"]
 primaryCategory: "development"
 description: "Infinite scroll vs pagination compared with real JavaScript code and real browser proof: DOM node growth, SEO tradeoffs, and IntersectionObserver."
 focusKeyword: "infinite scroll vs pagination"
+takeaways:
+  - "Pagination replaces the list on each page, while infinite scroll keeps appending new batches to the same page."
+  - "In the real browser test, infinite scroll grew from 20 to 100 items across 4 scrolls while pagination stayed at 20."
+  - "Infinite scroll uses an IntersectionObserver on a sentinel element, so no scroll event listener or position math is needed."
+  - "Pagination gives every page its own crawlable, bookmarkable URL, while infinite scroll needs a paginated URL fallback for SEO."
+  - "For very long lists, a virtualization library like TanStack Virtual combines an infinite feel with a flat DOM size."
 image: "/wp-content/uploads/2026/08/infinite-scroll-vs-pagination.webp"
 imageAlt: "infinite scroll vs pagination"
 words: 1978

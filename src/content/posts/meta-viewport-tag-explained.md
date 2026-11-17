@@ -8,6 +8,12 @@ categories: ["development", "html"]
 primaryCategory: "development"
 description: "The meta viewport tag controls how mobile browsers lay out your page, proven with a real Chromium iPhone emulation showing a 980px layout viewport without the tag versus 390px with it."
 focusKeyword: "meta viewport tag"
+takeaways:
+  - "The standard value width=device-width, initial-scale=1 matches the layout viewport to the device width and starts the page at normal zoom."
+  - "Without the tag, mobile browsers fall back to a 980 pixel layout viewport and shrink the whole page to fit the screen."
+  - "A test on an emulated iPhone 12 in Chromium showed a 980 pixel layout viewport without the tag and 390 pixels with it."
+  - "Avoid user-scalable=no and maximum-scale=1, because blocking pinch zoom is treated as a direct accessibility failure."
+  - "Use exactly one viewport tag, and remember it only enables responsive design, since your CSS still needs real responsive rules."
 image: "/wp-content/uploads/2026/08/meta-viewport-tag.webp"
 imageAlt: "meta viewport tag"
 words: 1983

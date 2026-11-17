@@ -8,6 +8,12 @@ categories: ["development", "python"]
 primaryCategory: "development"
 description: "Python log file analysis turns raw server logs into a clear picture of how Googlebot actually crawls your site, no sampling, no guessing, just real requests."
 focusKeyword: "python log file analysis"
+takeaways:
+  - "Server logs record every request Googlebot makes, while Search Console crawl stats only show an aggregated summary."
+  - "Python's built in re module and pandas are enough to parse standard Apache combined format log lines into structured data."
+  - "A Googlebot user agent string proves nothing, so requests must be verified with a forward confirmed reverse DNS lookup."
+  - "Running DNS verification once per unique IP, not per log line, avoids repeating the same lookups thousands of times."
+  - "Grouping verified requests by status code and parameter URLs shows where crawl budget is being wasted on non indexable pages."
 image: "/wp-content/uploads/2026/08/Python-Log-File-Analysis.webp"
 imageAlt: "Python Log File Analysis"
 words: 2081

@@ -8,6 +8,12 @@ categories: ["development", "php"]
 primaryCategory: "development"
 description: "Build a php contact form with spam protection using a honeypot, rate limiting, CSRF tokens, and reCAPTCHA v3, then send it with PHPMailer."
 focusKeyword: "PHP Contact Form"
+takeaways:
+  - "An unprotected PHP contact form can start receiving dozens of bot submissions a day soon after going live."
+  - "A honeypot field hidden with CSS, not type hidden, catches simple bots because real visitors never see or fill it in."
+  - "Limiting each IP address to five submissions per hour stops scripted flooding, and a temporary file per IP needs no database."
+  - "Server side validation and a CSRF token are essential, since bots skip the browser and forged requests can come from other sites."
+  - "Google reCAPTCHA v3 runs invisibly and returns a score from 0 to 1, with 0.5 as a reasonable starting threshold."
 image: "/wp-content/uploads/2026/08/PHP-Contact-Form.webp"
 imageAlt: "PHP Contact Form"
 words: 1657

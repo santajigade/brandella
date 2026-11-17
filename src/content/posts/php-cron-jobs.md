@@ -8,6 +8,12 @@ categories: ["development", "php"]
 primaryCategory: "development"
 description: "PHP cron jobs fail silently more often than they should. Learn to lock against overlap, log every run, and alert automatically when a task fails."
 focusKeyword: "php cron jobs"
+takeaways:
+  - "Cron provides almost no shell environment, so every path in a crontab entry should be absolute."
+  - "Redirect both standard output and standard error to a log file so silent failures can be found later."
+  - "A file lock using flock() with LOCK_EX and LOCK_NB stops a slow run from overlapping with the next one."
+  - "Log the start, success and failure of each run, and send an alert on failure instead of relying on someone reading logs."
+  - "Run the exact crontab command by hand before scheduling it, rather than waiting for the clock to reveal bugs."
 image: "/wp-content/uploads/2026/08/php-cron-jobs.webp"
 imageAlt: "php cron jobs"
 words: 1636

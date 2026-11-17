@@ -8,6 +8,12 @@ categories: ["development", "javascript"]
 primaryCategory: "javascript"
 description: "The javascript event loop explained with real code, showing why marketing tags and tracking scripts can freeze a page and how to stop it."
 focusKeyword: "javascript event loop"
+takeaways:
+  - "JavaScript runs on a single call stack, so nothing else runs until the current synchronous work finishes."
+  - "Promise callbacks are microtasks, and the whole microtask queue drains before macrotasks such as setTimeout callbacks run."
+  - "A setTimeout delay is only a minimum, and in the real test a 50ms request waited 379ms behind blocking work."
+  - "Every GTM tag and marketing pixel shares the same call stack, so heavy tags can freeze the whole page."
+  - "Long tasks hurt Total Blocking Time and INP, so break work into chunks, prefer async scripts and debounce scroll handlers."
 image: "/wp-content/uploads/2026/08/javascript-event-loop.webp"
 imageAlt: "javascript event loop"
 words: 1889

@@ -8,6 +8,12 @@ categories: ["development", "php"]
 primaryCategory: "development"
 description: "PHP PDO prepared statements stop SQL injection by design. Learn placeholders, fetch modes, transactions, and how to prove the protection actually works."
 focusKeyword: "php pdo prepared statements"
+takeaways:
+  - "Prepared statements send the query structure to MySQL first, so bound values are treated purely as data."
+  - "Set ERRMODE_EXCEPTION, use utf8mb4 in the DSN and turn off emulated prepares so MySQL binds parameters natively."
+  - "In the real test, the payload x' OR '1'='1 leaked every row through a concatenated query but returned nothing when prepared."
+  - "Wrap multi step writes such as money transfers in a transaction so a failure rolls everything back cleanly."
+  - "Table and column names must come from trusted code, and an in memory SQLite database can stand in for MySQL during tests."
 image: "/wp-content/uploads/2026/08/php-pdo-prepared-statements.webp"
 imageAlt: "php pdo prepared statements"
 words: 2059

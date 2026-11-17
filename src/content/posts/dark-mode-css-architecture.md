@@ -8,6 +8,12 @@ categories: ["development", "html_css"]
 primaryCategory: "development"
 description: "Go beyond prefers-color-scheme with a real dark mode CSS architecture: semantic tokens, an explicit override that beats the system preference, the color-scheme property, and a flash-free page load, verified in real Chromium."
 focusKeyword: "dark mode css architecture"
+takeaways:
+  - "The prefers-color-scheme media query is read only, so a manual toggle needs an explicit data-theme attribute on the root element."
+  - "A three layer system uses raw palette tokens, semantic tokens mapped per theme, and components that only reference the semantic tokens."
+  - "Set the color-scheme property and a matching meta tag so native scrollbars, checkboxes and other form controls match the theme."
+  - "A small synchronous inline script in the head sets the saved theme before first paint, which prevents a flash of the wrong theme."
+  - "Contrast ratios that pass in light mode can fail in dark mode, so every color pairing needs its own check in both themes."
 image: "/wp-content/uploads/2026/08/dark-mode-css-architecture.webp"
 imageAlt: "dark mode css architecture"
 words: 2082

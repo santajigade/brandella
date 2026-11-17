@@ -8,6 +8,12 @@ categories: ["development", "php"]
 primaryCategory: "development"
 description: "Build a dynamic robots.txt PHP script the right way real code, real server tests, and the one mistake that can halt Google's crawl for hours."
 focusKeyword: "dynamic robots.txt PHP"
+takeaways:
+  - "A dynamic robots.txt PHP script generates the file per request from live config, but it must still be UTF-8 plain text at the domain root."
+  - "Any environment that is not production should block all crawling by default, so staging never depends on someone remembering a manual rule."
+  - "Robots.txt path matching is case sensitive, so normalize paths to lowercase before comparing them or writing disallow rules."
+  - "A 5xx error on robots.txt halts Google's crawling of the whole site for 12 hours, so always fall back to a valid 200 response."
+  - "Google caches robots.txt for up to 24 hours by default, so check the Search Console robots.txt report to confirm a change arrived."
 image: "/wp-content/uploads/2026/09/dynamic-robots.txt-PHP.webp"
 imageAlt: "dynamic robots.txt PHP"
 words: 2121

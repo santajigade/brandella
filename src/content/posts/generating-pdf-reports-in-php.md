@@ -8,6 +8,12 @@ categories: ["development", "php"]
 primaryCategory: "development"
 description: "A step by step guide to generating PDF reports in PHP with wkhtmltopdf, covering templates, real conversion, verification, and secure delivery."
 focusKeyword: "generating pdf reports in php"
+takeaways:
+  - "PDF reports in PHP can be built with a Composer library such as Dompdf, TCPDF or mPDF, or by shelling out to wkhtmltopdf."
+  - "Escape every dynamic value with htmlspecialchars() and keep styles inline, since the renderer cannot reach external CSS files."
+  - "A successful exit code is not proof of a valid file, so check the %PDF signature or use pdfinfo."
+  - "Store generated reports outside the web root and serve them through a script that checks the user owns the report."
+  - "wkhtmltopdf has been described as deprecated since 2023, so long running projects should plan a migration path."
 image: "/wp-content/uploads/2026/08/generating-pdf-reports-in-php.webp"
 imageAlt: "generating pdf reports in php"
 words: 1622

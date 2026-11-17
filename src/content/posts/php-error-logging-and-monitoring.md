@@ -8,6 +8,12 @@ categories: ["development", "php"]
 primaryCategory: "development"
 description: "A practical guide to php error logging and monitoring for production sites, covering structured logs, thresholds, and real webhook alerts."
 focusKeyword: "php error logging and monitoring"
+takeaways:
+  - "PHP needs three hooks to catch nearly every error: set_error_handler, set_exception_handler and a shutdown function."
+  - "Register all error handlers first, because errors raised before registration may never reach the log file."
+  - "Writing each log entry as one JSON object per line gives monitoring scripts fixed fields they can parse reliably."
+  - "Never write passwords, session tokens, API keys or card numbers into a log entry, even temporarily."
+  - "A cron scheduled monitor should count errors by level and send a webhook alert only when a threshold is crossed."
 image: "/wp-content/uploads/2026/08/php-error-logging-and-monitoring.webp"
 imageAlt: "php error logging and monitoring"
 words: 1740

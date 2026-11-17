@@ -8,6 +8,12 @@ categories: ["development", "html_css"]
 primaryCategory: "development"
 description: "A complete guide to CSS container queries in 2026, covering syntax, container query units, style queries, browser support, and a real Chromium proof that the same viewport renders different layouts per container width."
 focusKeyword: "css container queries"
+takeaways:
+  - "Container queries style an element based on its container's size rather than the viewport, using container-type on a wrapper and @container rules."
+  - "Size queries work in Chrome and Edge 105, Safari 16.0 and Firefox 110, reaching roughly 94% of global browser traffic."
+  - "In a Chromium test at a 1280px viewport, a 700px container rendered the card as a row and a 320px container as a column."
+  - "Container query units like cqi and cqw size elements relative to the container, and wrapping them in clamp() keeps sizes within limits."
+  - "Style queries have full support only in Firefox 151, so treat them as progressive enhancement and name containers in nested layouts."
 image: "/wp-content/uploads/2026/08/css-container-queries.webp"
 imageAlt: "css container queries"
 words: 2340
