@@ -27,6 +27,9 @@ ErrorDocument 404 /404.html
   RewriteRule ^comments/feed/?$ /rss.xml [R=301,L]
   RewriteRule ^(.+)/feed/?$ /$1/ [R=301,L]
 
+  # Old WordPress system files (scripts, admin, API): gone for good, so Google drops them faster
+  RewriteRule ^(wp-includes|wp-admin|wp-json)(/|$) - [G,L]
+
   # Old WordPress and Rank Math sitemaps
   RewriteRule ^(sitemap_index\.xml|sitemap\.xml|post-sitemap[0-9]*\.xml|page-sitemap[0-9]*\.xml|category-sitemap[0-9]*\.xml|post_tag-sitemap[0-9]*\.xml|author-sitemap[0-9]*\.xml|local-sitemap\.xml|sitemap-news\.xml|news-sitemap\.xml|wp-sitemap.*\.xml)$ /sitemap-index.xml [R=301,L]
 
