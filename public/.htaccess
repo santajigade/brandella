@@ -132,6 +132,13 @@ ErrorDocument 404 /404.html
   </FilesMatch>
 </IfModule>
 
+# Correct file types for the free asset library downloads (CSV must not be saved as .txt)
+AddType text/csv .csv
+AddCharset utf-8 .csv .txt
+<IfModule mod_setenvif.c>
+  SetEnvIf Request_URI "/([^/]+\.(csv|txt))$" DLNAME=$1
+</IfModule>
+
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresByType image/webp "access plus 1 year"
@@ -159,9 +166,9 @@ ErrorDocument 404 /404.html
   <FilesMatch "\.html$">
     Header set Cache-Control "no-cache"
   </FilesMatch>
-  # Free asset library downloads: always open as a download, keep out of search results
+  # Free asset library downloads: always save with the real file name, keep out of search results
   <FilesMatch "(-template\.csv|-prompts-checklist\.txt)$">
-    Header set Content-Disposition "attachment"
+    Header set Content-Disposition "attachment; filename=\"%{DLNAME}e\"" env=DLNAME
     Header set X-Robots-Tag "noindex"
     Header set Cache-Control "no-cache"
   </FilesMatch>
