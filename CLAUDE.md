@@ -33,3 +33,8 @@ Astro static site that replaced the WordPress install in November 2026. Owner: S
 - `src/components/Newsletter.astro` (banner on every article, hidden in embed iframes) posts to `public/api/newsletter.php`.
 - Emails are saved to `domains/brandella.in/newsletter-data/subscribers.csv` on the server, outside the web root (columns: email, subscribed_at_ist, page). Santaji downloads it from Hostinger File Manager and opens it in Excel. Never commit it.
 - Only `subscribe.php` and `newsletter.php` may run PHP (`public/.htaccess` and `public/api/.htaccess`).
+
+## Free SEO and AEO assets library
+- `/resources/` and `/resources/seo-aeo-assets/` (hub of 36 assets). `src/data/seo-assets/index.json` lists all 36; an asset goes live when `src/data/seo-assets/<slug>.yaml` exists (structure: see `keyword-research.yaml`).
+- Pages: `src/pages/resources/`; loader `src/lib/assets.ts`; styles `src/styles/assets.css` (`ra-` prefix). CSV and prompt .txt downloads are generated at build into `/resources/seo-aeo-assets/downloads/` (served as attachments, noindex, via `public/.htaccess`).
+- A daily scheduled task publishes the next 6 assets until all 36 are live.
