@@ -168,6 +168,20 @@ const schema = [
       copyText(txt,function(){ b.textContent='Copied'; b.classList.add('done'); setTimeout(function(){b.textContent='Copy';b.classList.remove('done');},1600); });
     });
   });
+  // Save downloads with the right name and type, whatever headers the server or CDN sends (CSV must stay .csv)
+  document.querySelectorAll('a[download]').forEach(function(a){
+    a.addEventListener('click',function(e){
+      if(!window.fetch||!window.Blob||!window.URL) return;
+      e.preventDefault();
+      var href=a.getAttribute('href'), name=href.split('/').pop();
+      var type=/\.csv$/i.test(name)?'text/csv;charset=utf-8':'text/plain;charset=utf-8';
+      fetch(href,{cache:'no-store'}).then(function(r){ if(!r.ok) throw 0; return r.arrayBuffer(); }).then(function(buf){
+        var url=URL.createObjectURL(new Blob([buf],{type:type}));
+        var t=document.createElement('a'); t.href=url; t.download=name; document.body.appendChild(t); t.click(); t.remove();
+        setTimeout(function(){ URL.revokeObjectURL(url); },4000);
+      }).catch(function(){ location.href=href; });
+    });
+  });
   var tb=document.querySelector('[data-copy-tsv]');
   if(tb){ tb.addEventListener('click',function(){
     copyText(document.querySelector('[data-tsv]').value,function(){ var m=document.querySelector('[data-copy-msg]'); m.textContent='Copied. Open a new Google Sheet and paste into cell A1.'; });
