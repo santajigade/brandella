@@ -87,7 +87,7 @@ def headings(path):
         h = clean(re.sub(r"<[^>]+>", "", h))
         h = re.sub(r"^(\d{1,2}[.):]?\s+|step\s*\d+\s*[:.]\s*|tip\s*\d+\s*[:.]\s*)", "", h, flags=re.I)
         h = re.sub(r"\s*\(.*?\)\s*$", "", h).strip(" :")
-        if not h or SKIP_H.search(h) or len(h) > 46 or h.lower() in (x.lower() for x in out):
+        if not h or SKIP_H.search(h) or len(h) > 62 or h.lower() in (x.lower() for x in out):
             continue
         out.append(h)
         if len(out) == 4:
@@ -100,7 +100,7 @@ def number_badge(title):
     return m.group(1) if m else None
 
 
-def make_image(slug, title, board, cover, items=(), style=0):
+def make_image(slug, title, board, cover, items=(), style=0, fallback=""):
     acc = ACCENT[board]
     if style == 0:      # dark
         bg, ink, sub, chip_bg, chip_ink, panel = (14, 30, 8), (255, 255, 255), (205, 228, 190), acc, (14, 30, 8), (26, 50, 14)
@@ -145,6 +145,7 @@ def make_image(slug, title, board, cover, items=(), style=0):
         y += lh
     y = y + (120 if style == 2 else 60)
     # inside this guide panel
+    rows = []
     if items:
         pf, it, LH, GAP = font(800, 32), font(600, 42), 54, 34
         rows = [wrap(d, t, it, W - 2 * pad - 130)[:2] for t in items]
@@ -167,6 +168,20 @@ def make_image(slug, title, board, cover, items=(), style=0):
                     d.text((pad + 102, yy), ln, font=it, fill=ink if style != 1 else (17, 24, 12))
                     yy += LH
                 yy += GAP
+    if not items or len(rows) < 2:
+        desc = clean(fallback or "")
+        if desc:
+            qf = font(600, 44)
+            lines2 = wrap(d, desc, qf, W - 2 * pad - 60)[:7]
+            ph = 110 + len(lines2) * 60 + 30
+            bottom = H - 200
+            y = y + max(0, (bottom - y - ph) // 2)
+            d.rounded_rectangle([pad - 10, y, W - pad + 10, y + ph], radius=28, fill=panel)
+            d.text((pad + 28, y + 32), "IN THIS GUIDE", font=font(800, 32), fill=acc if style != 1 else (40, 90, 10))
+            yy = y + 100
+            for ln in lines2:
+                d.text((pad + 28, yy), ln, font=qf, fill=ink if style != 1 else (17, 24, 12))
+                yy += 60
     # number badge
     if nb and style != 2 and not items:
         bf = font(800, 120)
@@ -219,7 +234,7 @@ def main():
                 board = BOARD_OF.get(p["cat"], "Digital Marketing and Content")
                 cover = os.path.join(ROOT, "public", p["image"].lstrip("/")) if p["image"] else ""
                 items = headings(os.path.join(ROOT, "src/content/posts", p["file"]))
-                make_image(p["slug"], clean(p["title"]), board, cover, items, n % 3)
+                make_image(p["slug"], clean(p["title"]), board, cover, items, n % 3, p["desc"])
                 desc = clean(p["desc"] + " Read the full guide on Brandella Journal.")[:500]
                 kws = ", ".join(x for x in [p["kw"], board, "Brandella Journal"] if x)
                 w.writerow([clean(p["title"])[:100], "https://brandella.in/pins/%s.jpg" % p["slug"], board, "", desc,
