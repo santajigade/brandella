@@ -42,3 +42,8 @@ Astro static site that replaced the WordPress install in November 2026. Owner: S
   - `scripts/assets/kit_<slug_with_underscores>.py` with `build(path, asset, url)`, `PREVIEW` and `check(wb)`: a multi tab Excel workbook (Start Here, main sheet with 500 formula rows and dropdowns, Dashboard, a planning tab, Settings, AI Prompts, Checklist, Sources) with a worked demo for a fictional company. Use `scripts/assets/kitlib.py`. Only Excel 2007 era functions plus `_xlfn.MAXIFS/MINIFS/IFS/SWITCH/TEXTJOIN`.
   - Build: `RECALC=<xlsx skill>/scripts/recalc.py python3 scripts/assets/build_kits.py` (needs LibreOffice, openpyxl, pyyaml, Playwright). It writes the workbook, PDF guide, PDF checklist, prompts .md, the kit ZIP and the all kits ZIP into `public/resources/seo-aeo-assets/kits/` and a preview JSON into `src/data/seo-assets/previews/`. Zero formula errors required. Commit the generated files.
 - Release pace (Santaji, 2026-11-17): only 2 new kits per day, so the library does not look like scaled content. A daily scheduled task does this.
+
+## Pinterest
+- New posts reach Pinterest automatically from `/rss.xml` (each item carries its cover image).
+- Older posts: `python3 scripts/make_pins.py --start YYYY-MM-DD` makes 1000x1500 pins in `public/pins/<slug>.jpg` and bulk upload CSVs in `pinterest/` (4 pins a day, 56 rows per file because Pinterest only accepts publish dates within 14 days). Boards: SEO Tips and Strategies, Google Ads and PPC, AI in Marketing, Digital Marketing and Content, Web Development Tips. The 50 newest posts (already in the feed) are skipped.
+
