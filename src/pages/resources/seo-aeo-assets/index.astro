@@ -1,0 +1,126 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import AdSlot from '../../../components/AdSlot.astro';
+import Newsletter from '../../../components/Newsletter.astro';
+import '../../../styles/assets.css';
+import { LIBRARY, groups, allAssets, liveAssets, isLive, assetUrl, pad } from '../../../lib/assets';
+import { absolute } from '../../../lib/site';
+
+const title = '36 Free SEO and AEO Templates, Checklists and Prompts';
+const description = 'Free SEO and AEO asset library: 36 templates, checklists and AI prompts for keyword research, technical SEO, AI search visibility and reporting. No sign up.';
+const folder = '<svg class="ra-folder" viewBox="0 0 46 38" aria-hidden="true"><path d="M2 6a4 4 0 0 1 4-4h11l4 5h19a4 4 0 0 1 4 4v21a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4z" fill="#a6ef39"/><path d="M2 12h42v20a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4z" fill="#6cc82a"/></svg>';
+const tagClass = (t: string) => (t === 'Prompts' ? 'ra-tag p' : t === 'Sheet' ? 'ra-tag s' : 'ra-tag');
+const faq = [
+  { q: 'Are these SEO assets really free?', a: 'Yes. Every asset page, template, checklist and prompt is free to view, download and use. There is no login, no comment to unlock and no paywall.' },
+  { q: 'What format are the templates in?', a: 'Each template downloads as a CSV file that opens in Excel or Google Sheets, and every table has a Copy button so you can paste it straight into a sheet. Prompts and checklists download as a plain text file.' },
+  { q: 'What is the difference between SEO and AEO?', a: 'SEO helps your pages rank in classic search results. AEO (answer engine optimization) helps your content get understood, quoted and cited by AI answers such as Google AI Overviews, ChatGPT, Perplexity and Gemini.' },
+  { q: 'Can I use these assets for client work?', a: 'Yes. Use and adapt them for your own sites and for clients. A link back to Brandella Journal is appreciated but never required.' },
+  { q: 'How often are new assets added?', a: 'New assets go live every day until all 36 are published, and published assets are reviewed and updated when search features or tools change.' },
+];
+const schema = [
+  { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: absolute(LIBRARY.url), isPartOf: { '@id': 'https://brandella.in/#website' },
+    mainEntity: { '@type': 'ItemList', numberOfItems: liveAssets.length, itemListElement: liveAssets.map((a, i) => ({ '@type': 'ListItem', position: i + 1, url: absolute(assetUrl(a.slug)), name: a.h1 })) } },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+];
+---
+<Base title={title} description={description} schema={schema}>
+  <div class="container">
+    <Breadcrumbs items={[{ name: 'Resources', url: '/resources/' }, { name: LIBRARY.name, url: LIBRARY.url }]} />
+
+    <header class="ra-hero">
+      <span class="ra-pill">100% free library</span>
+      <h1><span>36</span> Free SEO and AEO Growth Assets</h1>
+      <p>Templates, checklists and AI prompts to research keywords, find content gaps, fix technical SEO and grow your visibility in Google and AI answer engines. No sign up, no "comment to get access".</p>
+      <div class="ra-stats">
+        <div class="ra-stat"><b>36</b><span>Growth assets</span></div>
+        <div class="ra-stat"><b>{groups.length}</b><span>Categories</span></div>
+        <div class="ra-stat"><b>{liveAssets.length}</b><span>Live now</span></div>
+        <div class="ra-stat"><b>&#8377;0</b><span>No login needed</span></div>
+      </div>
+    </header>
+
+    <div class="ra-toolbar">
+      <div class="ra-chips" role="group" aria-label="Filter by category">
+        <button class="ra-chip on" type="button" data-g="all">All (36)</button>
+        {groups.map((g) => <button class="ra-chip" type="button" data-g={g.id}>{g.name} ({allAssets.filter((a) => a.group === g.id).length})</button>)}
+      </div>
+      <label class="sr-only" for="ra-q">Search assets</label>
+      <input class="ra-search" id="ra-q" type="search" placeholder="Search assets, e.g. schema" />
+    </div>
+
+    <div id="ra-groups">
+      {groups.map((g) => {
+        const list = allAssets.filter((a) => a.group === g.id);
+        return (
+          <section class="ra-group" data-g={g.id}>
+            <h2 class="ra-group-title">{g.name} <small>{list.length}</small></h2>
+            <div class="ra-grid">
+              {list.map((a) => {
+                const live = isLive(a.slug);
+                const inner = (
+                  <>
+                    <span class:list={['ra-badge', live ? 'live' : 'soon']}>{live ? 'Free' : 'Coming soon'}</span>
+                    <div class="ra-card-top"><Fragment set:html={folder} /><div><div class="ra-num">ASSET {pad(a.n)}</div><h3>{a.name}</h3></div></div>
+                    <p>{a.short}</p>
+                    <div class="ra-tags">{a.formats.map((t) => <span class={tagClass(t)}>{t}</span>)}</div>
+                    {live && <div class="ra-open">Open asset &rarr;</div>}
+                  </>
+                );
+                return live
+                  ? <a class="ra-card" href={assetUrl(a.slug)} data-s={`${a.name} ${a.short}`.toLowerCase()}>{inner}</a>
+                  : <div class="ra-card soon" data-s={`${a.name} ${a.short}`.toLowerCase()}>{inner}</div>;
+              })}
+            </div>
+          </section>
+        );
+      })}
+    </div>
+    <p class="ra-empty" id="ra-empty">No assets match your search.</p>
+
+    <div class="ra-ad"><AdSlot format="horizontal" /></div>
+
+    <article class="ra-prose">
+      <h2>What is this SEO and AEO asset library?</h2>
+      <p>It is a free collection of 36 working resources for marketers, bloggers and small business owners. Each asset has its own page with a short guide, a ready template you can download, AI prompts you can copy and a checklist you can tick off.</p>
+      <p>SEO assets help you rank in classic Google results. AEO (answer engine optimization) assets help your content get understood and cited by AI answers in Google, ChatGPT, Perplexity and Gemini. Most sites need both, so the library covers both side by side.</p>
+      <h2>How to use the library</h2>
+      <ol>
+        <li><strong>Start with Research.</strong> Keyword research, search intent and topic clusters give every other asset its direction.</li>
+        <li><strong>Fix the foundation.</strong> Run the technical audit and crawlability checks before you publish more content.</li>
+        <li><strong>Build and refresh content.</strong> Use blog briefs, content refreshes and snippet formats.</li>
+        <li><strong>Grow authority.</strong> Work through link building, digital PR and brand mentions.</li>
+        <li><strong>Measure every week.</strong> Track rankings, Search Console and GA4, and log what you learn.</li>
+      </ol>
+      <p>Want tools as well as templates? Our <a href="/tools/">free SEO and marketing tools</a> run in your browser and pair well with these assets.</p>
+      <h2>Frequently asked questions</h2>
+      {faq.map((f, i) => (
+        <details class="ra-faq" open={i < 2}>
+          <summary><span class="ra-faq-n">{i + 1}</span>{f.q}</summary>
+          <p>{f.a}</p>
+        </details>
+      ))}
+      <Newsletter />
+    </article>
+  </div>
+</Base>
+
+<script is:inline>
+(function(){
+  var chips=document.querySelectorAll('.ra-chip'), q=document.getElementById('ra-q'), cur='all';
+  function draw(){
+    var term=(q.value||'').toLowerCase().trim(), total=0;
+    document.querySelectorAll('.ra-group').forEach(function(sec){
+      var n=0, show=cur==='all'||sec.getAttribute('data-g')===cur;
+      sec.querySelectorAll('.ra-card').forEach(function(c){
+        var ok=show&&(!term||c.getAttribute('data-s').indexOf(term)>-1);
+        c.style.display=ok?'':'none'; if(ok)n++;
+      });
+      sec.style.display=n?'':'none'; total+=n;
+    });
+    document.getElementById('ra-empty').style.display=total?'none':'block';
+  }
+  chips.forEach(function(b){b.addEventListener('click',function(){cur=b.getAttribute('data-g');chips.forEach(function(x){x.classList.toggle('on',x===b);});draw();});});
+  q.addEventListener('input',draw);
+})();
+</script>

@@ -1,0 +1,39 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import '../../styles/assets.css';
+import { LIBRARY, liveAssets } from '../../lib/assets';
+import { TOOLS_URL } from '../../config';
+import { absolute } from '../../lib/site';
+
+const title = 'Free SEO and Marketing Resources';
+const description = 'Free SEO and marketing resources from Brandella Journal: templates, checklists, AI prompts and browser tools for marketers. No sign up needed.';
+const folder = '<svg class="ra-folder" viewBox="0 0 46 38" aria-hidden="true"><path d="M2 6a4 4 0 0 1 4-4h11l4 5h19a4 4 0 0 1 4 4v21a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4z" fill="#a6ef39"/><path d="M2 12h42v20a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4z" fill="#6cc82a"/></svg>';
+const schema = [{ '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: absolute('/resources/') }];
+---
+<Base title={title} description={description} schema={schema}>
+  <div class="container">
+    <Breadcrumbs items={[{ name: 'Resources', url: '/resources/' }]} />
+    <header class="ra-hero">
+      <span class="ra-pill">Free resources</span>
+      <h1>Free SEO and Marketing Resources</h1>
+      <p>Practical templates, checklists, AI prompts and tools you can use today. Everything here is free, with no login and no email gate.</p>
+    </header>
+    <div class="ra-grid" style="margin:34px 0 60px">
+      <a class="ra-card" href={LIBRARY.url}>
+        <span class="ra-badge live">{liveAssets.length} of 36 live</span>
+        <div class="ra-card-top"><Fragment set:html={folder} /><div><div class="ra-num">LIBRARY</div><h3>36 SEO and AEO Growth Assets</h3></div></div>
+        <p>Templates, checklists and AI prompts for keyword research, technical SEO, AI search visibility, links and reporting.</p>
+        <div class="ra-tags"><span class="ra-tag s">Sheets</span><span class="ra-tag p">Prompts</span><span class="ra-tag">Checklists</span></div>
+        <div class="ra-open">Open library &rarr;</div>
+      </a>
+      <a class="ra-card" href={TOOLS_URL}>
+        <span class="ra-badge live">Free</span>
+        <div class="ra-card-top"><Fragment set:html={folder} /><div><div class="ra-num">TOOLS</div><h3>Free SEO and Marketing Tools</h3></div></div>
+        <p>Browser tools for SEO, schema, PPC, analytics, social media, email and AI work. Nothing to install.</p>
+        <div class="ra-tags"><span class="ra-tag">SEO</span><span class="ra-tag">PPC</span><span class="ra-tag">Schema</span></div>
+        <div class="ra-open">Open tools &rarr;</div>
+      </a>
+    </div>
+  </div>
+</Base>

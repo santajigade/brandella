@@ -1,0 +1,188 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import AdSlot from '../../../components/AdSlot.astro';
+import Newsletter from '../../../components/Newsletter.astro';
+import '../../../styles/assets.css';
+import { LIBRARY, liveAssets, assetUrl, groupName, pad, fileNames, allAssets, isLive, type Asset } from '../../../lib/assets';
+import { authors, authorUrl, absolute, formatDate } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return liveAssets.map((a) => ({ params: { slug: a.slug }, props: { a } }));
+}
+const { a } = Astro.props as { a: Asset };
+const author = authors[0];
+const files = fileNames(a.slug);
+const dl = LIBRARY.downloads;
+const idx = liveAssets.findIndex((x) => x.slug === a.slug);
+const prev = liveAssets[idx - 1];
+const next = liveAssets[idx + 1];
+const nextSoon = !next ? allAssets.find((x) => x.n > a.n && !isLive(x.slug)) : undefined;
+const related = a.related.map((s) => allAssets.find((x) => x.slug === s)!).filter(Boolean);
+const published = new Date(a.published);
+const updated = new Date(a.updated);
+// Prompts: show [placeholders] highlighted
+const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const promptHtml = (p: string) => esc(p.trim()).replace(/\[([^\]]+)\]/g, '<mark>[$1]</mark>');
+const tsv = a.template ? [a.template.columns, ...a.template.rows].map((r) => r.join('\t')).join('\n') : '';
+const formulaCols = new Set(Object.keys(a.template?.formulas ?? {}).map(Number));
+const schema = [
+  {
+    '@context': 'https://schema.org', '@type': 'WebPage', '@id': `${absolute(assetUrl(a.slug))}#page`,
+    name: a.seoTitle, description: a.description, url: absolute(assetUrl(a.slug)),
+    datePublished: published.toISOString(), dateModified: updated.toISOString(), inLanguage: 'en',
+    isPartOf: { '@type': 'CollectionPage', name: LIBRARY.name, url: absolute(LIBRARY.url) },
+    author: { '@type': 'Person', name: author.name, url: absolute(authorUrl(author.slug)) },
+    publisher: { '@id': 'https://brandella.in/#organization' },
+    keywords: a.focusKeyword,
+    isAccessibleForFree: true,
+  },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: a.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+];
+---
+<Base title={a.seoTitle} description={a.description} schema={schema} type="article" published={published} modified={updated} section="SEO">
+  <div class="container">
+    <Breadcrumbs items={[{ name: 'Resources', url: '/resources/' }, { name: LIBRARY.name, url: LIBRARY.url }, { name: a.name, url: assetUrl(a.slug) }]} />
+
+    <section class="ra-asset-hero">
+      <div>
+        <span class="ra-pill">Asset {pad(a.n)} of 36 &middot; {groupName(a.group)}</span>
+        <h1>{a.h1}</h1>
+        <p class="ra-lead">{a.description}</p>
+        <div class="ra-meta"><span>Time to use: {a.time}</span><span>Level: {a.level}</span><span>Updated {formatDate(updated)}</span></div>
+        <div class="ra-by">
+          {author.photoSmall && <img src={author.photoSmall} alt={author.name} width="40" height="40" loading="lazy" />}
+          <span>By <a href={authorUrl(author.slug)}>{author.name}</a>, {author.role}</span>
+        </div>
+      </div>
+      <aside class="ra-inside" aria-label="Free downloads">
+        <h2>What's inside (all free)</h2>
+        {a.template && (
+          <div class="ra-dl"><div class="ra-dl-ic" style="background:#107c41">CSV</div><div class="ra-dl-t">{a.template.name}<small>Opens in Excel and Google Sheets</small></div><a class="ra-dl-b" href={`${dl}${files.csv}`} download>Download</a></div>
+        )}
+        <div class="ra-dl"><div class="ra-dl-ic" style="background:#111">AI</div><div class="ra-dl-t">{a.prompts.length} AI prompts and checklist<small>ChatGPT, Claude, Gemini (.txt)</small></div><a class="ra-dl-b" href={`${dl}${files.txt}`} download>Download</a></div>
+        <div class="ra-dl"><div class="ra-dl-ic" style="background:#6cc82a">&#10003;</div><div class="ra-dl-t">{a.checklist.length} step checklist<small>Tick it off right on this page</small></div><a class="ra-dl-b" href="#checklist">Open</a></div>
+        <p class="ra-inside-note">No email, no login. Free for personal and client work.</p>
+      </aside>
+    </section>
+
+    <nav class="ra-toc" aria-label="On this page">
+      {a.template && <a href="#template">Template</a>}<a href="#how-to-use">How to use</a>{(a.sections ?? []).length > 0 && <a href="#guide">Guide</a>}<a href="#prompts">AI prompts</a><a href="#checklist">Checklist</a><a href="#faq">FAQ</a>
+    </nav>
+
+    <article class="ra-prose ra-body" style="margin-top:28px">
+      {a.intro.map((p) => <p set:html={p} />)}
+
+      {a.template && (
+        <>
+          <h2 id="template">{a.template.name}: free template preview</h2>
+          {a.template.intro && <p set:html={a.template.intro} />}
+          <div class="ra-sheet-wrap">
+            <table class="ra-sheet">
+              <thead><tr>{a.template.columns.map((c, i) => <th>{c}{formulaCols.has(i) && <small>auto formula</small>}</th>)}</tr></thead>
+              <tbody>{a.template.rows.map((r) => <tr>{r.map((v) => <td>{v}</td>)}</tr>)}</tbody>
+            </table>
+          </div>
+          <div class="ra-sheet-bar">
+            <a class="ra-btn" href={`${dl}${files.csv}`} download>Download CSV</a>
+            <button class="ra-btn ghost" type="button" data-copy-tsv>Copy table for Google Sheets</button>
+            <span class="ra-small" data-copy-msg></span>
+          </div>
+          {a.template.note && <p class="ra-small" set:html={a.template.note} />}
+          <textarea hidden data-tsv>{tsv}</textarea>
+        </>
+      )}
+
+      <div class="ra-ad"><AdSlot /></div>
+
+      <h2 id="how-to-use">How to use this {a.name.toLowerCase()} template</h2>
+      <ol class="ra-steps">
+        {a.steps.map((s) => <li><strong>{s.t}.</strong> <span set:html={s.d} /></li>)}
+      </ol>
+
+      {(a.sections ?? []).map((s, i) => (
+        <>
+          <h2 id={i === 0 ? 'guide' : undefined}>{s.h}</h2>
+          <Fragment set:html={s.html} />
+        </>
+      ))}
+
+      <h2 id="prompts">AI prompts for {a.name.toLowerCase()}</h2>
+      <p>Copy a prompt, replace the green parts in square brackets, and paste it into ChatGPT, Claude or Gemini. Always check the output against real data before you act on it.</p>
+      {a.prompts.map((p, i) => (
+        <div class="ra-prompt">
+          <div class="ra-prompt-head"><span>{i + 1}. {p.t}</span><button class="ra-copy" type="button" data-copy>Copy</button></div>
+          <pre set:html={promptHtml(p.p)} />
+        </div>
+      ))}
+
+      <div class="ra-ad"><AdSlot /></div>
+
+      <h2 id="checklist">{a.name} checklist</h2>
+      <ul class="ra-check" data-key={`ra-check-${a.slug}`}>
+        {a.checklist.map((c) => <li><input type="checkbox" aria-label={c} /><span set:html={c} /></li>)}
+      </ul>
+      <p class="ra-progress" data-progress>0 of {a.checklist.length} done</p>
+
+      <h2>Related free assets</h2>
+      <div class="ra-links">
+        {related.map((r) => isLive(r.slug)
+          ? <a href={assetUrl(r.slug)}><small>Asset {pad(r.n)}</small>{r.name}</a>
+          : <a href={LIBRARY.url}><small>Asset {pad(r.n)}, coming soon</small>{r.name}</a>)}
+      </div>
+
+      <h3>Read next on Brandella Journal</h3>
+      <ul>{a.reads.map((r) => <li><a href={r.url}>{r.t}</a></li>)}</ul>
+      <h3>Free tools that pair with this asset</h3>
+      <ul>{a.tools.map((t) => <li><a href={t.url}>{t.t}</a></li>)}</ul>
+      <h3>Sources</h3>
+      <ul class="ra-sources">{a.sources.map((s) => <li><a href={s.url} target="_blank" rel="noopener">{s.t}</a></li>)}</ul>
+
+      <h2 id="faq">FAQ about {a.name.toLowerCase()}</h2>
+      {a.faq.map((f, i) => (
+        <details class="ra-faq" open>
+          <summary><span class="ra-faq-n">{i + 1}</span>{f.q}</summary>
+          <p set:html={f.a} />
+        </details>
+      ))}
+
+      <nav class="ra-pager" aria-label="More assets">
+        {prev ? <a href={assetUrl(prev.slug)}><small>&larr; Previous asset</small><b>{pad(prev.n)}. {prev.name}</b></a> : <a href={LIBRARY.url}><small>&larr; Back to library</small><b>All 36 assets</b></a>}
+        {next ? <a class="nx" href={assetUrl(next.slug)}><small>Next asset &rarr;</small><b>{pad(next.n)}. {next.name}</b></a> : <a class="nx" href={LIBRARY.url}><small>{nextSoon ? `Coming soon: ${pad(nextSoon.n)}. ${nextSoon.name}` : 'Library'}</small><b>All 36 assets &rarr;</b></a>}
+      </nav>
+
+      <Newsletter />
+    </article>
+  </div>
+</Base>
+
+<script is:inline>
+(function(){
+  function copyText(txt, ok){
+    try { navigator.clipboard.writeText(txt).then(ok, fallback); } catch(e){ fallback(); }
+    function fallback(){ var t=document.createElement('textarea'); t.value=txt; document.body.appendChild(t); t.select(); try{document.execCommand('copy');}catch(e){} t.remove(); ok(); }
+  }
+  document.querySelectorAll('[data-copy]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var txt=b.closest('.ra-prompt').querySelector('pre').textContent;
+      copyText(txt,function(){ b.textContent='Copied'; b.classList.add('done'); setTimeout(function(){b.textContent='Copy';b.classList.remove('done');},1600); });
+    });
+  });
+  var tb=document.querySelector('[data-copy-tsv]');
+  if(tb){ tb.addEventListener('click',function(){
+    copyText(document.querySelector('[data-tsv]').value,function(){ var m=document.querySelector('[data-copy-msg]'); m.textContent='Copied. Open a new Google Sheet and paste into cell A1.'; });
+  }); }
+  var list=document.querySelector('.ra-check');
+  if(list){
+    var key=list.getAttribute('data-key'), boxes=list.querySelectorAll('input'), saved=[];
+    try{ saved=JSON.parse(localStorage.getItem(key)||'[]'); }catch(e){}
+    boxes.forEach(function(b,i){ b.checked=saved.indexOf(i)>-1; });
+    function upd(){
+      var on=[]; boxes.forEach(function(b,i){ if(b.checked) on.push(i); });
+      document.querySelector('[data-progress]').textContent=on.length+' of '+boxes.length+' done';
+      try{ localStorage.setItem(key, JSON.stringify(on)); }catch(e){}
+    }
+    list.addEventListener('change',upd); upd();
+  }
+})();
+</script>

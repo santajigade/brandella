@@ -1,0 +1,109 @@
+seoTitle: "Topic Cluster Template: Free Pillar and Cluster Planning Sheet"
+h1: Free Topic Cluster Template for Pillar Pages and Clusters
+focusKeyword: topic cluster template
+description: "Plan pillar pages, cluster articles and internal links in one sheet. Free topic cluster template with example rows, 5 AI prompts and a link checklist."
+published: 2026-11-17
+updated: 2026-11-17
+time: 60 minutes
+level: Intermediate
+intro:
+  - "A topic cluster is one broad pillar page supported by several focused articles that all link to each other. This free <strong>topic cluster template</strong> lets you plan a whole cluster in one sheet: which pages exist, which keyword each one owns, and how they link together."
+  - "It helps search engines and readers see that your site covers a topic in depth, and it stops you from writing scattered posts that never support each other."
+template:
+  name: Topic Cluster Planner
+  intro: "One row per page. The pillar row comes first, then every cluster page that supports it. The two link columns make sure no page is left orphaned."
+  columns: [Pillar Topic, Page Role, Page Title, Primary Keyword, Intent, URL, Links To Pillar, Pillar Links Here, Status]
+  rows:
+    - [Email Marketing, Pillar, The Complete Guide to Email Marketing, email marketing, Informational, /email-marketing/, n/a, n/a, Live]
+    - [Email Marketing, Cluster, How to Build an Email List From Zero, how to build an email list, Informational, /build-email-list/, Yes, Yes, Live]
+    - [Email Marketing, Cluster, Best Email Marketing Tools Compared, best email marketing tools, Commercial, /email-marketing-tools/, Yes, No, Draft]
+    - [Email Marketing, Cluster, Welcome Email Examples That Convert, welcome email examples, Informational, /welcome-email-examples/, No, No, Planned]
+    - [Email Marketing, Cluster, Email Open Rate Benchmarks, email open rate benchmarks, Informational, /email-open-rates/, Yes, Yes, Live]
+  note: "Example cluster only. A good first cluster has 1 pillar and 6 to 12 cluster pages."
+steps:
+  - t: Choose one pillar topic
+    d: "Pick a broad topic your audience cares about and your business can own, such as email marketing or local SEO. Use your <a href=\"/resources/seo-aeo-assets/keyword-research/\">keyword research sheet</a> to find it."
+  - t: List the subtopics
+    d: "Collect the questions, comparisons and how to topics around the pillar. Each distinct intent becomes one cluster page."
+  - t: Give each page one primary keyword
+    d: "No two rows should share a primary keyword. If two subtopics feel the same, merge them into one page."
+  - t: Plan the links in both directions
+    d: "Every cluster page links up to the pillar, and the pillar links down to every cluster page. Add links between closely related cluster pages too."
+  - t: Publish the pillar early
+    d: "Publish the pillar and the most important cluster pages first, then fill the rest. Update the pillar links each time a new cluster page goes live."
+  - t: Review the cluster every quarter
+    d: "Check rankings for the whole cluster, refresh weak pages, and add new subtopics that appear in Search Console queries."
+sections:
+  - h: Pillar page or cluster page?
+    html: |
+      <p>A <strong>pillar page</strong> gives a complete overview of a broad topic and links out to the details. A <strong>cluster page</strong> goes deep on one narrow question and links back to the pillar.</p>
+      <p>Google's <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener">SEO Starter Guide</a> recommends organizing your site so related pages are grouped together and easy to find through links. A topic cluster is simply a disciplined way to do that.</p>
+      <p>Not sure which model fits your site? Compare both in our guide on <a href="/pillar-pages-vs-topic-clusters-seo-strategy/">pillar pages vs topic clusters</a>, then follow the steps in <a href="/how-to-build-topic-clusters-that-rank/">how to build topic clusters that rank</a>.</p>
+  - h: Internal linking rules for clusters
+    html: |
+      <ul>
+        <li>Use descriptive anchor text that tells the reader what the next page covers, never "click here".</li>
+        <li>Place the link to the pillar inside the body text, early in the article, not only in a sidebar.</li>
+        <li>Keep every cluster page within a few clicks of your home page.</li>
+        <li>When you retire a cluster page, redirect it to the closest page in the same cluster.</li>
+      </ul>
+prompts:
+  - t: Build a cluster map
+    p: |
+      Act as an SEO content strategist. Build a topic cluster for the pillar topic "[topic]" for [audience].
+      Give 1 pillar page and 10 cluster pages. For each: page title, primary keyword, search intent, and a one line angle.
+      Make sure no two pages target the same intent.
+  - t: Find missing cluster pages
+    p: |
+      Here are the pages I already have on [topic]: [paste titles and URLs]
+      Which important subtopics are missing for a complete topic cluster? List up to 10, most valuable first.
+  - t: Write a pillar page outline
+    p: |
+      Write an H2 and H3 outline for a pillar page on "[topic]". It must summarize each subtopic in 2 or 3 sentences
+      and naturally link to these cluster pages: [paste titles]. Suggest anchor text for each link.
+  - t: Internal link suggestions
+    p: |
+      Here are the titles of all pages in my [topic] cluster: [paste list]
+      Suggest which pages should link to each other (beyond the pillar), with a natural anchor text for each link.
+  - t: Merge overlapping pages
+    p: |
+      These pages may overlap: [paste titles, URLs and main keywords]
+      Tell me which ones compete for the same intent and should be merged, and which URL to keep.
+checklist:
+  - Picked one pillar topic the business can own
+  - Listed 6 to 12 cluster subtopics with distinct intent
+  - Gave every page its own primary keyword
+  - Every cluster page links to the pillar in the body text
+  - The pillar links to every cluster page
+  - Related cluster pages link to each other
+  - Used descriptive anchor text everywhere
+  - Scheduled a quarterly cluster review
+faq:
+  - q: What is a topic cluster template?
+    a: "It is a planning sheet that lists a pillar page and all its supporting cluster pages, with one keyword per page and columns to track internal links and status."
+  - q: How many articles should a topic cluster have?
+    a: "There is no fixed number. Most useful clusters start with 6 to 12 cluster pages, and grow as you find new questions in Search Console."
+  - q: Should the pillar page be the longest page?
+    a: "Usually it is broad rather than long. It should cover the whole topic at a summary level and send readers to the cluster pages for detail."
+  - q: Do topic clusters still matter with AI search?
+    a: "Yes. Well organized, interlinked coverage makes it easier for search engines and AI systems to understand what your site is an authority on."
+related: [keyword-research, search-intent, entity-research]
+reads:
+  - t: How to build topic clusters that rank
+    url: /how-to-build-topic-clusters-that-rank/
+  - t: Pillar pages vs topic clusters
+    url: /pillar-pages-vs-topic-clusters-seo-strategy/
+  - t: What is topical authority and how to build it
+    url: /what-is-topical-authority-how-to-build-it/
+tools:
+  - t: Internal Link Checker
+    url: /tools/seo-tools/internal-link-checker/
+  - t: Heading Structure Checker
+    url: /tools/seo-tools/heading-structure-checker/
+  - t: SEO Slug Generator
+    url: /tools/seo-tools/seo-slug-generator/
+sources:
+  - t: "Google Search Central: SEO Starter Guide"
+    url: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+  - t: "Google Search Central: Creating helpful, reliable, people-first content"
+    url: https://developers.google.com/search/docs/fundamentals/creating-helpful-content

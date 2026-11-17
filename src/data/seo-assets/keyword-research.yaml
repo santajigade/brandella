@@ -1,0 +1,122 @@
+seoTitle: "Keyword Research Template: Free Sheet, Prompts and Checklist"
+h1: Free Keyword Research Template, AI Prompts and Checklist
+focusKeyword: keyword research template
+description: "A free keyword research template that scores keywords by intent, difficulty and business value, plus 6 AI prompts and a checklist. Download the CSV, no sign up."
+published: 2026-11-17
+updated: 2026-11-17
+time: 45 minutes
+level: Beginner
+intro:
+  - "Most keyword lists fail for one simple reason: they are just lists. This free <strong>keyword research template</strong> turns a pile of keywords into a ranked plan, so you know which page to build first and why."
+  - "It works with free data from Google Search Console and Keyword Planner, or with any paid tool you already use. One row per keyword, one score per row, one target page per keyword."
+template:
+  name: Keyword Research Sheet
+  intro: "Each row is one keyword. Fill in volume, difficulty and business value, and the <strong>Opportunity Score</strong> column calculates itself in Excel or Google Sheets. Sort by that column and your priority list is ready."
+  columns: [Keyword, Intent, Monthly Volume, "KD (0 to 100)", "Business Value (1 to 3)", Opportunity Score, Target URL, Status]
+  formulas:
+    "5": "ROUND(C{r}*E{r}/(D{r}+10),0)"
+  rows:
+    - [keyword research template, Commercial, 1900, 22, 3, 178, /keyword-research-template/, Live]
+    - [how to do keyword research, Informational, 6600, 48, 2, 228, /keyword-research-guide/, Refresh]
+    - [free keyword research tool, Commercial, 8100, 61, 3, 342, /tools/seo-tools/, Planned]
+    - [long tail keyword examples, Informational, 1300, 18, 2, 93, /long-tail-keywords/, Planned]
+    - [semrush vs ahrefs, Commercial, 2400, 39, 1, 49, (none), Skip]
+    - [hire seo consultant, Transactional, 590, 15, 3, 71, /contact-us/, Planned]
+  note: "Example rows only, with made up numbers. Delete them and add your own keywords. The CSV keeps the live formula in the Opportunity Score column."
+steps:
+  - t: List 5 to 10 seed topics
+    d: "Write down the topics your business or blog must be known for. Think in customer problems, not in your product names."
+  - t: Expand every seed
+    d: "Pull ideas from Google autocomplete, People Also Ask boxes, your Search Console queries and a keyword tool. Google's own <a href=\"https://support.google.com/google-ads/answer/7337243\" target=\"_blank\" rel=\"noopener\">Keyword Planner</a> is free and shows monthly search estimates."
+  - t: Add volume and difficulty
+    d: "Paste each keyword with its monthly volume and keyword difficulty (KD). Use one data source for the whole sheet so the numbers are comparable."
+  - t: Tag the search intent
+    d: "Mark each keyword as informational, commercial, transactional or navigational. If you are unsure, use our free <a href=\"/resources/seo-aeo-assets/search-intent/\">search intent template</a>."
+  - t: Score business value from 1 to 3
+    d: "3 means the keyword is close to a sale or lead, 2 means it builds trust with buyers, 1 means it is only loosely related. The Opportunity Score updates on its own."
+  - t: Map one keyword to one URL
+    d: "Give every keyword exactly one target page, then sort by Opportunity Score. Two pages chasing the same keyword usually both rank worse."
+sections:
+  - h: How the Opportunity Score works
+    html: |
+      <p>The score is <code>Volume x Business Value / (KD + 10)</code>. It rewards keywords that many people search, that matter to your business, and that are not too hard to rank for.</p>
+      <p>The <code>+ 10</code> stops very easy keywords (KD near 0) from shooting to the top just because the math divides by a tiny number. A keyword with 1,000 searches, value 3 and KD 20 scores 100.</p>
+      <p>Treat the score as a sorting aid, not a law. A low score keyword with a clear buyer can still be worth a page, and a high score keyword far from your offer may not be.</p>
+  - h: Keyword research mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Chasing volume only.</strong> Big keywords often have mixed intent and strong competitors. Read our guide on <a href="/search-volume-vs-keyword-difficulty/">search volume vs keyword difficulty</a>.</li>
+        <li><strong>Ignoring your own data.</strong> Search Console already shows queries you appear for. Pages ranking on page two are often the fastest wins.</li>
+        <li><strong>One page per keyword variant.</strong> "Keyword research template" and "keyword research spreadsheet" belong on the same page.</li>
+        <li><strong>Never revisiting the sheet.</strong> Update it every quarter. Trends, competitors and AI answers change what is worth targeting.</li>
+      </ul>
+prompts:
+  - t: Seed keyword expansion
+    p: |
+      Act as an SEO strategist. My website is about [niche] for [audience] in [country].
+      List 40 keyword ideas grouped into: informational, commercial, transactional and question keywords.
+      Prefer long tail phrases real people type. Return a table with keyword, intent and why it fits my audience.
+  - t: Find quick win keywords
+    p: |
+      Here is my keyword list with monthly volume and keyword difficulty: [paste list]
+      My site is small to medium with about [number] pages. Pick the 10 best quick wins.
+      Explain each choice in one line and suggest the content type most likely to rank.
+  - t: Group keywords into pages
+    p: |
+      Group these keywords so that each group can be targeted by ONE page: [paste keywords]
+      Keywords with the same meaning and intent go together. Give each group a suggested page title and primary keyword.
+  - t: Question mining for AI answers
+    p: |
+      List 25 questions people ask AI assistants and Google about [topic].
+      Group them by buyer stage (learn, compare, buy) and mark which ones deserve their own page versus a FAQ answer.
+  - t: Business value scoring
+    p: |
+      I sell [product or service] to [audience]. Score each keyword from 1 to 3 for business value:
+      3 = close to a purchase or lead, 2 = builds trust with buyers, 1 = loosely related.
+      Keywords: [paste list]. Return keyword, score and a one line reason.
+  - t: Keyword cannibalization check
+    p: |
+      Here are my existing page titles and URLs: [paste list]
+      And here are my new target keywords: [paste list]
+      Flag any keyword that an existing page already targets, so I update that page instead of writing a new one.
+checklist:
+  - Defined 5 to 10 seed topics tied to the business
+  - Pulled existing queries from Google Search Console
+  - Collected autocomplete and People Also Ask ideas
+  - Added volume and difficulty from one data source
+  - Tagged search intent for every keyword
+  - Scored business value and sorted by Opportunity Score
+  - Mapped one primary keyword to one URL
+  - Checked for overlap with existing pages
+  - Set a date to review the sheet next quarter
+faq:
+  - q: Do I need a paid tool to use this keyword research template?
+    a: "No. You can fill it with free data from Google Search Console, Google Keyword Planner and autocomplete. Paid tools mainly make the work faster and give you difficulty scores."
+  - q: How many keywords should I research?
+    a: "For a small site, 100 to 300 well mapped keywords is enough to plan the next 3 to 6 months of content. Quality of mapping matters more than list size."
+  - q: What is a good keyword difficulty for a new website?
+    a: "New sites usually do best with keywords under about 30 KD in most tools, plus long tail questions. Difficulty scales differ between tools, so compare keywords within one tool only."
+  - q: Can I open the template in Google Sheets?
+    a: "Yes. Use the Copy table button and paste into cell A1 of a new sheet, or import the CSV with File, Import. The Opportunity Score formula works in both Excel and Google Sheets."
+related: [search-intent, topic-clusters, competitor-gaps]
+reads:
+  - t: Best keyword research tools compared
+    url: /best-keyword-research-tools-compared/
+  - t: Search volume vs keyword difficulty explained
+    url: /search-volume-vs-keyword-difficulty/
+  - t: Keyword research automation with Python
+    url: /python-keyword-research-automation/
+tools:
+  - t: Keyword Combiner
+    url: /tools/seo-tools/keyword-combiner/
+  - t: Keyword Grouper
+    url: /tools/google-ads-tools/keyword-grouper/
+  - t: Keyword Density Checker
+    url: /tools/seo-tools/keyword-density-checker/
+sources:
+  - t: "Google Ads Help: Use Keyword Planner"
+    url: https://support.google.com/google-ads/answer/7337243
+  - t: "Google Search Central: SEO Starter Guide"
+    url: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+  - t: "Google Analytics Help: Search Console data in Analytics (16 months of data)"
+    url: https://support.google.com/analytics/answer/13682862

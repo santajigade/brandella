@@ -1,0 +1,116 @@
+seoTitle: "Search Intent Template: Free Classifier Sheet and AI Prompts"
+h1: Free Search Intent Template to Classify Any Keyword
+focusKeyword: search intent template
+description: "Classify keywords as informational, commercial, transactional or navigational with this free search intent template, SERP evidence columns and 5 AI prompts."
+published: 2026-11-17
+updated: 2026-11-17
+time: 30 minutes
+level: Beginner
+intro:
+  - "Ranking is not about matching words. It is about matching what the searcher wants. This free <strong>search intent template</strong> helps you read the search results, label the intent behind each keyword, and choose the right page format before you write a single line."
+  - "Use it after your keyword research and before you brief a writer. It takes a few minutes per keyword and saves you from writing a long guide where Google clearly wants a product page, or the other way round."
+template:
+  name: Search Intent Classifier Sheet
+  intro: "Fill one row per keyword. The <strong>SERP evidence</strong> column is the most important one: write down what you actually see on page one, not what you guess."
+  columns: [Keyword, Intent, SERP Evidence, Dominant Format, Funnel Stage, Content Angle, Our Page Type]
+  rows:
+    - [what is crm software, Informational, "Definitions, guides, AI Overview", Explainer guide, Learn, "Plain English definition plus examples", Blog guide]
+    - [best crm for small business, Commercial, "Top 10 lists, review sites", Comparison list, Compare, "Tested picks with pros and cons", Listicle]
+    - [hubspot vs zoho crm, Commercial, "Head to head comparisons", Comparison, Compare, "Side by side table and verdict", Comparison page]
+    - [crm software pricing, Transactional, "Pricing pages, calculators", Pricing page, Buy, "Clear plans and costs", Pricing page]
+    - [zoho crm login, Navigational, "Brand login page only", Brand page, Existing user, "Do not target", None]
+  note: "Example rows. Replace them with your own keywords and what you see in your country's search results."
+steps:
+  - t: Search each keyword in a private window
+    d: "Use an incognito window and the country you target, so your own history does not change the results."
+  - t: Write down the SERP evidence
+    d: "Note the page types on page one (guides, lists, product pages, videos) and features like an AI Overview, People Also Ask or a local map."
+  - t: Pick the dominant intent
+    d: "Label the keyword informational, commercial, transactional or navigational based on what most of the top results are, not on the words alone."
+  - t: Choose the format that already wins
+    d: "If 7 of 10 results are comparison lists, a comparison list is your starting format. Then plan how to make yours clearly better."
+  - t: Note the funnel stage and angle
+    d: "Learn, compare or buy. Then write a one line angle that tells the writer what this page must do better than the current results."
+  - t: Skip or merge where needed
+    d: "Navigational keywords for other brands are rarely worth a page. Keywords with the same intent and format usually belong on one page."
+sections:
+  - h: The four types of search intent
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Intent</th><th>The searcher wants to</th><th>Typical words</th><th>Best page type</th></tr></thead>
+        <tbody>
+          <tr><td>Informational</td><td>Learn or understand something</td><td>what is, how to, why, guide</td><td>Guide, explainer, how to</td></tr>
+          <tr><td>Commercial</td><td>Compare options before buying</td><td>best, top, vs, review, alternatives</td><td>Comparison, list, review</td></tr>
+          <tr><td>Transactional</td><td>Buy, sign up or book now</td><td>price, buy, hire, near me, coupon</td><td>Product, pricing, service page</td></tr>
+          <tr><td>Navigational</td><td>Reach a specific site or page</td><td>brand names, login, contact</td><td>Your own brand pages only</td></tr>
+        </tbody>
+      </table></div>
+      <p>Some keywords have <strong>mixed intent</strong>, where page one shows guides and product pages together. In that case, look at the top three results most closely, and consider a page that serves both needs with a short answer first and options below. For more depth, read our <a href="/what-is-search-intent-practical-guide/">practical guide to search intent</a>.</p>
+  - h: Why intent matters even more in AI search
+    html: |
+      <p>Google says its ranking systems aim to reward content created to help people, not content made to manipulate rankings. Its <a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" target="_blank" rel="noopener">guidance on helpful, people-first content</a> is worth reading before you brief any page.</p>
+      <p>AI answers make this stricter. When an AI Overview already answers a simple informational question, your page needs to offer something the summary cannot: depth, tools, examples or first hand experience.</p>
+prompts:
+  - t: Classify a keyword list
+    p: |
+      Classify each keyword as informational, commercial, transactional or navigational.
+      Keywords: [paste list]
+      Return a table: keyword, intent, funnel stage (learn, compare, buy), best page format, and a one line reason.
+      Flag any keyword that could have mixed intent.
+  - t: Read the SERP for me
+    p: |
+      Here are the titles and URLs of the top 10 Google results for "[keyword]": [paste results]
+      What is the dominant search intent? Which page format wins? What do the top results have in common,
+      and what gap could a new page fill?
+  - t: Write an intent matched angle
+    p: |
+      The keyword is "[keyword]" and the intent is [intent]. My audience is [audience].
+      Suggest 3 content angles that match this intent and would stand out from typical results. One line each.
+  - t: Mixed intent page plan
+    p: |
+      The keyword "[keyword]" shows both guides and product pages. Plan a single page that answers the question
+      in the first 100 words and then helps buyers choose. Give an outline with H2 headings.
+  - t: Intent mismatch audit
+    p: |
+      Here are my page URLs, their main keyword and their current format: [paste list]
+      For each one, say whether the format matches the likely search intent, and what to change if not.
+checklist:
+  - Searched each keyword in a private window for the right country
+  - Recorded the real SERP evidence for every keyword
+  - Labelled one dominant intent per keyword
+  - Noted mixed intent keywords separately
+  - Chose a page format that matches what already ranks
+  - Wrote a one line angle that beats the current results
+  - Removed navigational keywords for other brands
+  - Merged keywords that share intent and format
+faq:
+  - q: What is a search intent template?
+    a: "It is a simple sheet where you record each keyword, what the search results show, and the intent and page format that follow from it. It keeps a whole team aligned on what each page must be."
+  - q: How do I find the search intent of a keyword?
+    a: "Search it and look at page one. The type of pages that rank, such as guides, lists or product pages, tells you what Google believes searchers want."
+  - q: Can one page target more than one intent?
+    a: "Sometimes. For mixed intent keywords, a page can answer the question first and then help buyers choose. For clear single intent keywords, focus the page on that one intent."
+  - q: Does search intent change over time?
+    a: "Yes. Seasons, news and new search features can shift what ranks. Recheck your most important keywords every few months."
+related: [keyword-research, serp-analysis, topic-clusters]
+reads:
+  - t: What search intent means for SEO
+    url: /what-is-search-intent-practical-guide/
+  - t: Title tag optimization tips
+    url: /title-tag-optimization/
+  - t: How to get cited in AI Overviews
+    url: /ai-overviews-clicks-how-to-get-cited-2026/
+tools:
+  - t: SERP Snippet Preview
+    url: /tools/seo-tools/serp-snippet-preview/
+  - t: Headline Analyzer
+    url: /tools/content-writing-tools/headline-analyzer/
+  - t: AI Prompt Generator
+    url: /tools/ai-tools/ai-prompt-generator/
+sources:
+  - t: "Google Search Central: Creating helpful, reliable, people-first content"
+    url: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  - t: "Google Search Central: SEO Starter Guide"
+    url: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+  - t: "Google Search Central: AI features and your website"
+    url: https://developers.google.com/search/docs/appearance/ai-features
