@@ -1,6 +1,7 @@
 // SEO and AEO Growth Assets library (/resources/seo-aeo-assets/).
 // index.json lists all 36 assets. An asset goes live when src/data/seo-assets/<slug>.yaml exists.
 import { parse as parseYaml } from 'yaml';
+import { statSync } from 'node:fs';
 import indexJson from '../data/seo-assets/index.json';
 
 export const LIBRARY = {
@@ -20,6 +21,8 @@ export interface Asset extends AssetMeta {
   time: string;
   level: string;
   intro: string[];
+  kit?: boolean;
+  kitContents?: { t: string; d: string }[];
   template?: { name: string; intro?: string; columns: string[]; formulas?: Record<string, string>; rows: (string | number)[][]; note?: string };
   steps: { t: string; d: string }[];
   sections?: { h: string; html: string }[];
@@ -30,6 +33,30 @@ export interface Asset extends AssetMeta {
   reads: { t: string; url: string }[];
   tools: { t: string; url: string }[];
   sources: { t: string; url: string }[];
+}
+
+const previewFiles = import.meta.glob('../data/seo-assets/previews/*.json', { eager: true, import: 'default' }) as Record<string, any>;
+export const previews = new Map<string, { sheet: string; columns: string[]; rows: (string | number)[][]; formulaCols: number[] }>();
+for (const [p, v] of Object.entries(previewFiles)) {
+  const slug = p.split('/').pop()!.replace(/\.json$/, '');
+  if (!slug.startsWith('_')) previews.set(slug, v);
+}
+
+export const KITS = '/resources/seo-aeo-assets/kits/';
+export const ALL_KITS_ZIP = `${KITS}brandella-seo-aeo-assets-all-kits.zip`;
+export function kitFiles(slug: string) {
+  const b = `${KITS}brandella-${slug}`;
+  return {
+    zip: `${b}-kit.zip`, xlsx: `${b}-template.xlsx`, guide: `${b}-guide.pdf`,
+    checklist: `${b}-checklist.pdf`, prompts: `${b}-ai-prompts.md`,
+  };
+}
+/** Human file size of a file in public/, or '' if missing. */
+export function fileSize(url: string) {
+  try {
+    const n = statSync(`public${url}`).size;
+    return n > 1024 * 1024 ? `${(n / 1024 / 1024).toFixed(1)} MB` : `${Math.max(1, Math.round(n / 1024))} KB`;
+  } catch { return ''; }
 }
 
 export const groups: { id: string; name: string }[] = indexJson.groups;

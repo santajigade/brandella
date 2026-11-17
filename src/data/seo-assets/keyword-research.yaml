@@ -1,54 +1,175 @@
-seoTitle: "Keyword Research Template: Free Sheet, Prompts and Checklist"
-h1: Free Keyword Research Template, AI Prompts and Checklist
+seoTitle: "Keyword Research Template and Guide for the AI Search Era"
+h1: "Keyword Research Kit: Excel Template, Full Guide and AI Prompts"
 focusKeyword: keyword research template
-description: "A free keyword research template that scores keywords by intent, difficulty and business value, plus 6 AI prompts and a checklist. Download the CSV, no sign up."
+description: "Free keyword research template in Excel with scoring, AI Overview checks, page map and dashboard, plus a full guide and 22 AI prompts. No sign up."
 published: 2026-11-17
 updated: 2026-11-17
-time: 45 minutes
-level: Beginner
+time: 2 to 3 hours for a first full run
+level: Beginner to advanced
+kit: true
 intro:
-  - "Most keyword lists fail for one simple reason: they are just lists. This free <strong>keyword research template</strong> turns a pile of keywords into a ranked plan, so you know which page to build first and why."
-  - "It works with free data from Google Search Console and Keyword Planner, or with any paid tool you already use. One row per keyword, one score per row, one target page per keyword."
-template:
-  name: Keyword Research Sheet
-  intro: "Each row is one keyword. Fill in volume, difficulty and business value, and the <strong>Opportunity Score</strong> column calculates itself in Excel or Google Sheets. Sort by that column and your priority list is ready."
-  columns: [Keyword, Intent, Monthly Volume, "KD (0 to 100)", "Business Value (1 to 3)", Opportunity Score, Target URL, Status]
-  formulas:
-    "5": "ROUND(C{r}*E{r}/(D{r}+10),0)"
-  rows:
-    - [keyword research template, Commercial, 1900, 22, 3, 178, /keyword-research-template/, Live]
-    - [how to do keyword research, Informational, 6600, 48, 2, 228, /keyword-research-guide/, Refresh]
-    - [free keyword research tool, Commercial, 8100, 61, 3, 342, /tools/seo-tools/, Planned]
-    - [long tail keyword examples, Informational, 1300, 18, 2, 93, /long-tail-keywords/, Planned]
-    - [semrush vs ahrefs, Commercial, 2400, 39, 1, 49, (none), Skip]
-    - [hire seo consultant, Transactional, 590, 15, 3, 71, /contact-us/, Planned]
-  note: "Example rows only, with made up numbers. Delete them and add your own keywords. The CSV keeps the live formula in the Opportunity Score column."
+  - "Most keyword lists fail because they are just lists. This free <strong>keyword research template</strong> is a complete working kit: an Excel workbook that scores every keyword, estimates clicks, flags AI Overviews and maps keywords to pages, plus this step by step guide and 22 tested AI prompts."
+  - "It is built for how search works now. People still type short keywords into Google, but they also ask long questions in AI Mode, ChatGPT and Perplexity. Good keyword research in 2026 has to cover both, and has to tell you which keywords will still bring clicks when an AI answer sits on top of the results."
+kitContents:
+  - t: "Excel workbook, 8 tabs"
+    d: "Keywords (500 ready rows with 7 automatic columns), Dashboard with chart, Page Map, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "30 keywords and 24 mapped pages for a fictional invoicing app, so you see every score, estimate and summary working before you add your own data."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to read offline or share with your team."
+  - t: "22 AI prompts"
+    d: "Prompts for expansion, intent, clustering, AI question mining, cannibalization checks and briefs, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole process on one page, to tick off on every project."
 steps:
-  - t: List 5 to 10 seed topics
-    d: "Write down the topics your business or blog must be known for. Think in customer problems, not in your product names."
-  - t: Expand every seed
-    d: "Pull ideas from Google autocomplete, People Also Ask boxes, your Search Console queries and a keyword tool. Google's own <a href=\"https://support.google.com/google-ads/answer/7337243\" target=\"_blank\" rel=\"noopener\">Keyword Planner</a> is free and shows monthly search estimates."
-  - t: Add volume and difficulty
-    d: "Paste each keyword with its monthly volume and keyword difficulty (KD). Use one data source for the whole sheet so the numbers are comparable."
-  - t: Tag the search intent
-    d: "Mark each keyword as informational, commercial, transactional or navigational. If you are unsure, use our free <a href=\"/resources/seo-aeo-assets/search-intent/\">search intent template</a>."
-  - t: Score business value from 1 to 3
-    d: "3 means the keyword is close to a sale or lead, 2 means it builds trust with buyers, 1 means it is only loosely related. The Opportunity Score updates on its own."
-  - t: Map one keyword to one URL
-    d: "Give every keyword exactly one target page, then sort by Opportunity Score. Two pages chasing the same keyword usually both rank worse."
+  - t: Set up the workbook for your site
+    d: "Open the Settings tab and choose your site stage (new, growing or established). This sets the keyword difficulty your site can realistically win. Leave the weights as they are for your first run."
+  - t: Collect seed topics from the business, not from tools
+    d: "List the 5 to 10 problems your customers need solved and the products or services you sell. Tools expand seeds; they cannot tell you which seeds matter."
+  - t: Mine your own data first
+    d: "Export queries from the Google Search Console Performance report. Queries where you already rank on page two are often the fastest wins, and they cost nothing to find."
+  - t: Expand with tools, SERPs and AI assistants
+    d: "Use Google's free <a href=\"https://support.google.com/google-ads/answer/7337243\" target=\"_blank\" rel=\"noopener\">Keyword Planner</a>, autocomplete, People Also Ask, forums and the AI prompts below. Paste everything into the Keywords tab with volume and difficulty from one source."
+  - t: Classify intent, funnel stage and AI Overview presence
+    d: "Choose the dropdowns for each row. Search the keyword yourself to check whether an AI Overview appears, because it changes how many clicks the top results get."
+  - t: Score business value and let the sheet rank everything
+    d: "Give each keyword a business value from 1 to 3. The Opportunity Score, Priority, click estimate, recommended action and AI search angle fill in by themselves."
+  - t: Map keywords to pages and plan the work
+    d: "Give every keyword you will target one Target URL, fill the Page Map with one row per page, and work through the actions from P1 down. Review the whole sheet every quarter."
 sections:
-  - h: How the Opportunity Score works
+  - h: What changed in keyword research in the AI search era
     html: |
-      <p>The score is <code>Volume x Business Value / (KD + 10)</code>. It rewards keywords that many people search, that matter to your business, and that are not too hard to rank for.</p>
-      <p>The <code>+ 10</code> stops very easy keywords (KD near 0) from shooting to the top just because the math divides by a tiny number. A keyword with 1,000 searches, value 3 and KD 20 scores 100.</p>
-      <p>Treat the score as a sorting aid, not a law. A low score keyword with a clear buyer can still be worth a page, and a high score keyword far from your offer may not be.</p>
+      <p>Two things changed at the same time. First, the way people search. Google reports that the average <a href="https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/" target="_blank" rel="noopener">AI Mode search is about three times longer</a> than a traditional search, and that brainstorming and planning style queries are growing faster than queries overall. Many of these long questions never show up in keyword tools with neat volume numbers.</p>
+      <p>Second, what a ranking is worth. When an AI Overview appears, fewer people click the blue links. A randomized field experiment reported by <a href="https://www.searchenginejournal.com/ai-overviews-cut-organic-clicks-38-field-study-finds/573145/" target="_blank" rel="noopener">Search Engine Journal</a> found AI Overviews cut organic clicks on triggered queries by about 38 percent. Other studies, using different methods, report larger or smaller drops. The exact number matters less than the rule: a keyword with an AI Overview needs a different plan.</p>
+      <p>So modern keyword research asks three questions about every keyword, not one:</p>
+      <ul>
+        <li><strong>Can we win it?</strong> Difficulty compared with your own site, not with an abstract scale.</li>
+        <li><strong>Is it worth winning?</strong> Business value and intent, not just volume.</li>
+        <li><strong>What does winning look like here?</strong> A click, a citation inside an AI answer, or both.</li>
+      </ul>
+      <p>The workbook answers all three for every row, automatically.</p>
+  - h: What is inside the keyword research workbook
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>Keywords</td><td>Master list. Scores, prioritizes and estimates clicks for every keyword, suggests the next action and an AI search angle, and flags duplicates.</td><td>Keyword, cluster, dropdowns, volume, KD, CPC, rank, URLs</td></tr>
+          <tr><td>Dashboard</td><td>Key numbers, intent and action summaries, a cluster table with the top keyword per cluster, and a priority chart.</td><td>Only your cluster names</td></tr>
+          <tr><td>Page Map</td><td>One row per page with mapped keywords, combined volume, estimated clicks and best score.</td><td>URL, title, primary keyword, type, status</td></tr>
+          <tr><td>Settings</td><td>Site stage, score weights, priority thresholds, CTR by position and dropdown lists.</td><td>Optional tuning</td></tr>
+          <tr><td>AI Prompts</td><td>All 22 prompts from this guide, ready to copy.</td><td>Nothing</td></tr>
+          <tr><td>Checklist</td><td>The full process with automatic progress.</td><td>Yes or No per step</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas, so you never break the logic by accident. All 500 rows are ready, with dropdowns and checks, so you can paste a full export straight in.</p>
+  - h: Column by column guide to the Keywords tab
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>Keyword</td><td>The exact search phrase, lower case.</td><td>One phrase per row. Paste whole exports here.</td></tr>
+          <tr><td>Cluster or Topic</td><td>The topic group the keyword belongs to.</td><td>Use the same names you type in the Dashboard cluster table.</td></tr>
+          <tr><td>Search Intent</td><td>Dropdown: transactional, commercial, informational, navigational.</td><td>Decide from the search results, not the words alone.</td></tr>
+          <tr><td>Funnel Stage</td><td>Dropdown: awareness, consider, decision, retention.</td><td>Helps balance your plan across the funnel.</td></tr>
+          <tr><td>Monthly Volume</td><td>Average monthly searches from your data source.</td><td>Use one source for the whole sheet.</td></tr>
+          <tr><td>KD (0 to 100)</td><td>Keyword difficulty from the same source.</td><td>Compared with your site stage to score ease.</td></tr>
+          <tr><td>CPC</td><td>Average cost per click, optional.</td><td>A high CPC often signals commercial value.</td></tr>
+          <tr><td>Trend</td><td>Dropdown: rising, stable, falling.</td><td>Check Google Trends for important keywords.</td></tr>
+          <tr><td>AI Overview on SERP?</td><td>Dropdown: yes or no.</td><td>Search the keyword yourself in a private window.</td></tr>
+          <tr><td>Other SERP Features</td><td>Snippets, People Also Ask, videos, local pack and so on.</td><td>Tells you which formats Google expects.</td></tr>
+          <tr><td>Business Value (1 to 3)</td><td>3 close to a sale, 2 builds trust, 1 loosely related.</td><td>The most important judgement in the sheet.</td></tr>
+          <tr><td>Current Rank</td><td>Your position today, blank if not ranking.</td><td>Take it from Search Console or your rank tracker.</td></tr>
+          <tr><td>Current URL</td><td>The page ranking today.</td><td>Helps you update instead of duplicating.</td></tr>
+          <tr><td>Opportunity Score</td><td>Automatic, 0 to 100.</td><td>Sort by this column first.</td></tr>
+          <tr><td>Priority</td><td>Automatic: P1, P2, P3 or Skip.</td><td>Thresholds live on Settings.</td></tr>
+          <tr><td>Est. Monthly Clicks</td><td>Automatic click estimate at your target position.</td><td>Includes the AI Overview click loss.</td></tr>
+          <tr><td>Recommended Action</td><td>Automatic next step based on your rank.</td><td>Create, optimize, improve, rework or protect.</td></tr>
+          <tr><td>AI Search Angle</td><td>Automatic content angle for AI answers.</td><td>Answer first block for AI Overview keywords.</td></tr>
+          <tr><td>Target URL</td><td>The one page that will target this keyword.</td><td>Several keywords can share a URL, never the reverse.</td></tr>
+          <tr><td>Keywords on Target URL</td><td>Automatic count of keywords mapped to that URL.</td><td>A high count may mean the page needs sections.</td></tr>
+          <tr><td>Duplicate Check</td><td>Automatic warning when a keyword appears twice.</td><td>Delete or merge duplicate rows.</td></tr>
+          <tr><td>Owner</td><td>Who is responsible.</td><td>Useful for teams and agencies.</td></tr>
+          <tr><td>Status</td><td>Dropdown: planned, in progress, live, optimize, rework, skip.</td><td>Filter by status for weekly stand ups.</td></tr>
+          <tr><td>Notes</td><td>Anything else.</td><td>Competitor notes, ideas, dates.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: build the list.</strong> Seeds, Search Console export, Keyword Planner and question mining. Aim for 100 to 300 keywords with volume and difficulty.</li>
+        <li><strong>Week 2: classify and score.</strong> Fill the dropdowns, check AI Overviews for every likely P1 and P2 keyword, and score business value.</li>
+        <li><strong>Week 3: map and plan.</strong> Give every target keyword a Target URL, fill the Page Map, and pick the first 4 to 8 pages from the P1 list.</li>
+        <li><strong>Week 4: act.</strong> Improve pages that already rank 11 to 20 first, then brief new pages. Use the brief prompt below for each one.</li>
+      </ul>
+      <p>After that, update ranks monthly and review the whole sheet every quarter.</p>
+  - h: How the Opportunity Score works (with a worked example)
+    html: |
+      <p>Every keyword gets a score from 0 to 100, built from four parts. You can change the weight of each part on the Settings tab.</p>
+      <ul>
+        <li><strong>Volume (weight 30).</strong> Log scaled, so 10,000 searches is not treated as 10 times better than 1,000. Volume at or above your full marks level (default 50,000) gets full points.</li>
+        <li><strong>Ease (weight 25).</strong> Compares keyword difficulty with what your site stage can win. A growing site gets full ease points up to KD 30, then points fall smoothly to zero at KD 70.</li>
+        <li><strong>Business value (weight 30).</strong> Your 1 to 3 score. 3 means close to a sale or lead, 2 builds trust with buyers, 1 is loosely related.</li>
+        <li><strong>Intent fit (weight 15).</strong> Transactional 1.0, commercial 0.9, informational 0.6, navigational 0.2. Editable.</li>
+      </ul>
+      <p>The total is then nudged up 5 percent for a rising trend and down 5 percent for a falling one, and capped at 100.</p>
+      <p><strong>Worked example.</strong> In the demo data, "invoice template for freelancers" has 2,400 searches, KD 28, business value 3, commercial intent and a stable trend, on a growing site:</p>
+      <ul>
+        <li>Volume points: log(2,401) divided by log(50,001) is about 0.72</li>
+        <li>Ease points: KD 28 is below the comfortable 30, so 1.0</li>
+        <li>Business value: 3 divided by 3 is 1.0</li>
+        <li>Intent fit: commercial is 0.9</li>
+      </ul>
+      <p>Weighted: (30 x 0.72 + 25 x 1 + 30 x 1 + 15 x 0.9) divided by 100 gives about 0.90, so the score is 90 and the priority is P1 (85 or more). It already ranks 14, so the sheet recommends "Improve page two ranking". That is exactly the kind of quick win you want at the top of your list.</p>
+      <p>Treat the score as a sorting aid, not a law. A low score keyword that your sales team hears every day can still deserve a page.</p>
+  - h: How the click estimate handles AI Overviews
+    html: |
+      <p>The Est. Monthly Clicks column multiplies volume by the click through rate for your target position (default position 3) from the Settings tab. If you marked the keyword as having an AI Overview, it then removes a share of those clicks (default 40 percent).</p>
+      <p>Both the CTR curve and the AI Overview loss are <strong>starter assumptions</strong>, clearly labelled as such in the workbook. Replace them with your own numbers: in Search Console, look at average CTR by position for your queries, and compare similar queries with and without AI Overviews.</p>
+      <p>Google now shows how often your pages appear in AI features. Its <a href="https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports" target="_blank" rel="noopener">generative AI performance reports</a> in Search Console give a dedicated view of impressions in AI Overviews and AI Mode. Use them to see which of your keywords already earn AI visibility.</p>
+  - h: Keyword research for AI answers (AEO)
+    html: |
+      <p>Google says there are <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">no extra requirements and no special optimization</a> needed to appear in AI Overviews or AI Mode. Normal SEO best practices apply. In practice, that means keyword research should add a few AI era habits:</p>
+      <ul>
+        <li><strong>Research questions, not just keywords.</strong> Collect the long, specific questions people ask. Use People Also Ask, forums, your sales and support inbox, and prompt 4 and prompt 5 below.</li>
+        <li><strong>Plan an answer first block.</strong> For keywords with an AI Overview, the sheet suggests a short, direct answer near the top of the page plus a FAQ. Clear, self contained answers are easier for any system to quote.</li>
+        <li><strong>Cover the entities.</strong> List the products, standards, places and concepts an expert would mention, and make sure the page names them clearly. Our <a href="/resources/seo-aeo-assets/entity-research/">entity research template</a> helps.</li>
+        <li><strong>Value citations, not only clicks.</strong> Studies such as <a href="https://www.seerinteractive.com/news/fast-company-featured-ai-search-study-from-seer-interactive" target="_blank" rel="noopener">Seer Interactive's</a> report that brands cited inside AI Overviews get noticeably higher organic click through rates than brands that are not cited.</li>
+      </ul>
+  - h: Free and paid keyword data sources
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Source</th><th>Cost</th><th>Best for</th><th>Watch out for</th></tr></thead>
+        <tbody>
+          <tr><td>Google Search Console</td><td>Free</td><td>Queries you already appear for, real clicks, position, AI feature impressions</td><td>Only your own site, last 16 months</td></tr>
+          <tr><td>Google Keyword Planner</td><td>Free with an Ads account</td><td>Volume estimates, ideas from seed words or a website</td><td>Ranges for low spend accounts, built for ads</td></tr>
+          <tr><td>Autocomplete and People Also Ask</td><td>Free</td><td>Real phrasing and questions</td><td>No volume numbers</td></tr>
+          <tr><td>Forums, Reddit, Quora, YouTube comments</td><td>Free</td><td>Pain points and long questions in the customer's own words</td><td>Needs manual review</td></tr>
+          <tr><td>AI assistants (ChatGPT, Claude, Gemini)</td><td>Free or paid</td><td>Expansion, grouping, intent and question ideas</td><td>Never trust AI for volume or difficulty numbers</td></tr>
+          <tr><td>Paid SEO suites</td><td>Paid</td><td>Difficulty scores, competitor keywords, large exports</td><td>Each tool's KD scale is different, never mix tools in one sheet</td></tr>
+        </tbody>
+      </table></div>
+      <p>Comparing paid tools? See our <a href="/best-keyword-research-tools-compared/">keyword research tools comparison</a>. If you work with large lists, our tutorial on <a href="/python-keyword-research-automation/">keyword research automation with Python</a> shows how to pull data from APIs at scale.</p>
+  - h: The chained prompt workflow (from seed to page plan)
+    html: |
+      <p>Prompts 18 to 22 below are designed to run in order in one AI chat. Each one uses the output of the one before it:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your business, audience and country.</li>
+        <li><strong>Expand</strong> your seeds into keyword and question ideas.</li>
+        <li><strong>Clean and classify</strong> them by intent and funnel stage.</li>
+        <li><strong>Cluster</strong> them into pages.</li>
+        <li><strong>Draft the page map</strong> in the same columns as the workbook, ready to paste.</li>
+      </ol>
+      <p>Then add real volume and difficulty from your data source. The AI does the thinking work; real data does the measuring.</p>
   - h: Keyword research mistakes to avoid
     html: |
       <ul>
-        <li><strong>Chasing volume only.</strong> Big keywords often have mixed intent and strong competitors. Read our guide on <a href="/search-volume-vs-keyword-difficulty/">search volume vs keyword difficulty</a>.</li>
-        <li><strong>Ignoring your own data.</strong> Search Console already shows queries you appear for. Pages ranking on page two are often the fastest wins.</li>
-        <li><strong>One page per keyword variant.</strong> "Keyword research template" and "keyword research spreadsheet" belong on the same page.</li>
-        <li><strong>Never revisiting the sheet.</strong> Update it every quarter. Trends, competitors and AI answers change what is worth targeting.</li>
+        <li><strong>Chasing volume only.</strong> Big keywords often have mixed intent, strong competitors and AI Overviews. Read our guide on <a href="/search-volume-vs-keyword-difficulty/">search volume vs keyword difficulty</a>.</li>
+        <li><strong>Mixing data sources.</strong> KD 40 in one tool is not KD 40 in another. Use one source per sheet.</li>
+        <li><strong>Trusting AI for numbers.</strong> Assistants are great for ideas and grouping, but they invent volumes. Always pull numbers from a real data source.</li>
+        <li><strong>One page per keyword variant.</strong> "Invoice template for freelancers" and "freelance invoice template" belong on one page. The Page Map and Duplicate Check columns catch this.</li>
+        <li><strong>Ignoring your own data.</strong> Search Console shows what Google already connects to your site. Start there.</li>
+        <li><strong>Ignoring AI Overviews.</strong> A position 1 under an AI Overview can bring far fewer clicks than you expect. Plan for citations as well as clicks.</li>
+        <li><strong>Never revisiting the sheet.</strong> Trends, competitors and search features change. Review every quarter.</li>
       </ul>
 prompts:
   - t: Seed keyword expansion
@@ -56,67 +177,154 @@ prompts:
       Act as an SEO strategist. My website is about [niche] for [audience] in [country].
       List 40 keyword ideas grouped into: informational, commercial, transactional and question keywords.
       Prefer long tail phrases real people type. Return a table with keyword, intent and why it fits my audience.
+  - t: Customer language mining
+    p: |
+      Here are real messages, reviews or support tickets from my customers: [paste text]
+      Extract the exact phrases they use to describe their problems and goals.
+      Turn them into 25 search queries a real person would type or ask an AI assistant.
   - t: Find quick win keywords
     p: |
       Here is my keyword list with monthly volume and keyword difficulty: [paste list]
-      My site is small to medium with about [number] pages. Pick the 10 best quick wins.
+      My site is a [new, growing or established] site with about [number] pages. Pick the 10 best quick wins.
       Explain each choice in one line and suggest the content type most likely to rank.
-  - t: Group keywords into pages
-    p: |
-      Group these keywords so that each group can be targeted by ONE page: [paste keywords]
-      Keywords with the same meaning and intent go together. Give each group a suggested page title and primary keyword.
   - t: Question mining for AI answers
     p: |
       List 25 questions people ask AI assistants and Google about [topic].
       Group them by buyer stage (learn, compare, buy) and mark which ones deserve their own page versus a FAQ answer.
+  - t: Long conversational queries
+    p: |
+      People now ask long, conversational questions in AI search. For the topic [topic] and audience [audience],
+      write 20 realistic long queries (12 to 30 words) that include context, constraints or comparisons.
+      Then list the short keyword each one maps to.
+  - t: Classify intent and funnel stage
+    p: |
+      Classify each keyword by search intent (informational, commercial, transactional, navigational)
+      and funnel stage (awareness, consider, decision, retention). Keywords: [paste list]
+      Return a table I can paste into Excel, with one keyword per row.
   - t: Business value scoring
     p: |
       I sell [product or service] to [audience]. Score each keyword from 1 to 3 for business value:
       3 = close to a purchase or lead, 2 = builds trust with buyers, 1 = loosely related.
       Keywords: [paste list]. Return keyword, score and a one line reason.
+  - t: Group keywords into pages
+    p: |
+      Group these keywords so that each group can be targeted by ONE page: [paste keywords]
+      Keywords with the same meaning and intent go together. Give each group a suggested page title, URL slug and primary keyword.
   - t: Keyword cannibalization check
     p: |
       Here are my existing page titles and URLs: [paste list]
       And here are my new target keywords: [paste list]
       Flag any keyword that an existing page already targets, so I update that page instead of writing a new one.
+  - t: Spot keywords not worth targeting
+    p: |
+      My business sells [offer] to [audience]. From this list, remove keywords that would bring visitors who could never
+      become customers or loyal readers, and explain each removal in a few words: [paste list]
+  - t: SERP and AI Overview check plan
+    p: |
+      For these keywords: [paste list], tell me what I should look for when I search each one manually:
+      AI Overview, featured snippet, People Also Ask, videos, local pack, shopping results.
+      Give me a short checklist and what each feature means for my content plan.
+  - t: Answer first block for an AI Overview keyword
+    p: |
+      The keyword "[keyword]" shows an AI Overview. Write a 40 to 60 word answer that fully answers the query on its own,
+      in plain language, accurate, with no fluff. Then suggest 4 FAQ questions that should follow it on the page.
+  - t: Entity coverage for a keyword
+    p: |
+      For a page targeting "[keyword]", list the entities (products, standards, organizations, concepts, places)
+      an expert page would mention. Mark which ones are essential and which are optional.
+  - t: Seasonal and trend check
+    p: |
+      Which of these keywords are likely seasonal or trending up or down, and why? [paste list]
+      Suggest the best month to publish or refresh each one. I will confirm with Google Trends.
+  - t: Local and regional variants
+    p: |
+      My business serves [cities or regions]. Turn these keywords into local variants people actually use: [paste list]
+      Include "near me" style queries only where they make sense.
+  - t: Content type recommendation
+    p: |
+      For each keyword, recommend the best content type (guide, template, tool, comparison, landing page, product page)
+      based on intent and what usually ranks: [paste list]. One line reason each.
+  - t: Write a content brief from a keyword group
+    p: |
+      Write a content brief for a page targeting "[primary keyword]" with these secondary keywords: [paste].
+      Include: search intent, H2 outline, questions to answer, answer first block, entities to cover, internal links to [pages],
+      and what would make this page more useful than the current top results.
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my keyword research assistant. My business: [what you sell]. Audience: [who]. Country: [country].
+      Site stage: [new, growing or established]. Goal: [leads, sales or readers]. Confirm you understand, then wait for the next step.
+  - t: "Workflow 2 of 5: expand"
+    p: |
+      Here are my seed topics: [paste seeds]. For each seed, give 15 keyword and question ideas a real person would search
+      or ask an AI assistant. Mix short keywords with long conversational questions.
+  - t: "Workflow 3 of 5: clean and classify"
+    p: |
+      From all ideas above, remove duplicates and near duplicates. Classify each remaining one by intent and funnel stage,
+      and give a business value from 1 to 3 using my goal. Show a table.
+  - t: "Workflow 4 of 5: cluster into pages"
+    p: |
+      Group the table above into pages. One page per group of keywords with the same intent and meaning.
+      Give each page a title, URL slug, content type, primary keyword and secondary keywords.
+  - t: "Workflow 5 of 5: page map for Excel"
+    p: |
+      Turn the page groups into two tables I can paste into my workbook.
+      Table 1 columns: Keyword, Cluster or Topic, Search Intent, Funnel Stage, Business Value, Target URL.
+      Table 2 columns: Target URL, Page Title, Primary Keyword, Content Type. Use tabs between columns.
 checklist:
-  - Defined 5 to 10 seed topics tied to the business
-  - Pulled existing queries from Google Search Console
-  - Collected autocomplete and People Also Ask ideas
-  - Added volume and difficulty from one data source
-  - Tagged search intent for every keyword
-  - Scored business value and sorted by Opportunity Score
-  - Mapped one primary keyword to one URL
-  - Checked for overlap with existing pages
+  - Chose the site stage on the Settings tab
+  - Wrote 5 to 10 seed topics from real customer problems and offers
+  - Exported queries from the Google Search Console Performance report
+  - Checked page two queries (positions 11 to 20) for quick wins
+  - Expanded seeds with Keyword Planner, autocomplete and People Also Ask
+  - Collected long questions from forums, support and AI prompts
+  - Added volume, difficulty and CPC from one data source only
+  - Chose intent, funnel stage and trend for every keyword
+  - Searched every priority keyword to check for an AI Overview
+  - Scored business value from 1 to 3
+  - Sorted by Opportunity Score and reviewed P1 and P2 by hand
+  - Gave every target keyword one Target URL
+  - Filled the Page Map and fixed any duplicate or overlapping pages
+  - Planned answer first blocks and FAQs for AI Overview keywords
+  - Replaced the starter CTR curve with my own Search Console data
   - Set a date to review the sheet next quarter
 faq:
-  - q: Do I need a paid tool to use this keyword research template?
-    a: "No. You can fill it with free data from Google Search Console, Google Keyword Planner and autocomplete. Paid tools mainly make the work faster and give you difficulty scores."
+  - q: Is this keyword research template really free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: Do I need a paid SEO tool to use it?
+    a: "No. You can fill it with free data from Google Search Console, Keyword Planner and autocomplete. Paid tools mainly make the work faster and add difficulty scores."
+  - q: Does the template work in Google Sheets?
+    a: "Yes. Upload the .xlsx file to Google Drive and open it with Google Sheets. Formulas, dropdowns and colours carry over. The chart may need a quick refresh."
+  - q: How should I handle keywords that show an AI Overview?
+    a: "Keep them if they matter to your business, but plan for both a click and a citation. Put a short, direct answer near the top of the page, follow with depth the summary cannot give, and track AI impressions in Search Console."
   - q: How many keywords should I research?
-    a: "For a small site, 100 to 300 well mapped keywords is enough to plan the next 3 to 6 months of content. Quality of mapping matters more than list size."
-  - q: What is a good keyword difficulty for a new website?
-    a: "New sites usually do best with keywords under about 30 KD in most tools, plus long tail questions. Difficulty scales differ between tools, so compare keywords within one tool only."
-  - q: Can I open the template in Google Sheets?
-    a: "Yes. Use the Copy table button and paste into cell A1 of a new sheet, or import the CSV with File, Import. The Opportunity Score formula works in both Excel and Google Sheets."
+    a: "For a small site, 100 to 300 well mapped keywords is enough to plan the next 3 to 6 months. The workbook holds 500 rows, and you can copy the formulas down for more."
+  - q: Can AI tools give me search volumes?
+    a: "Not reliably. AI assistants are excellent for ideas, grouping and intent, but they often make up numbers. Always take volume and difficulty from a real data source."
 related: [search-intent, topic-clusters, competitor-gaps]
 reads:
   - t: Best keyword research tools compared
     url: /best-keyword-research-tools-compared/
   - t: Search volume vs keyword difficulty explained
     url: /search-volume-vs-keyword-difficulty/
-  - t: Keyword research automation with Python
-    url: /python-keyword-research-automation/
+  - t: How to get cited in AI Overviews
+    url: /ai-overviews-clicks-how-to-get-cited-2026/
 tools:
   - t: Keyword Combiner
     url: /tools/seo-tools/keyword-combiner/
   - t: Keyword Grouper
     url: /tools/google-ads-tools/keyword-grouper/
-  - t: Keyword Density Checker
-    url: /tools/seo-tools/keyword-density-checker/
+  - t: AI Prompt Generator
+    url: /tools/ai-tools/ai-prompt-generator/
 sources:
+  - t: "Google: How people are using AI Mode (AI Mode search length and query trends)"
+    url: https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/
+  - t: "Search Engine Journal: Study confirms Google AI Overviews cut organic clicks 38%"
+    url: https://www.searchenginejournal.com/ai-overviews-cut-organic-clicks-38-field-study-finds/573145/
+  - t: "Google Search Central Blog: Search generative AI performance reports in Search Console"
+    url: https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports
+  - t: "Google Search Central: AI features and your website"
+    url: https://developers.google.com/search/docs/appearance/ai-features
   - t: "Google Ads Help: Use Keyword Planner"
     url: https://support.google.com/google-ads/answer/7337243
-  - t: "Google Search Central: SEO Starter Guide"
-    url: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
-  - t: "Google Analytics Help: Search Console data in Analytics (16 months of data)"
-    url: https://support.google.com/analytics/answer/13682862
+  - t: "Seer Interactive: AI Overviews and click through rate study"
+    url: https://www.seerinteractive.com/news/fast-company-featured-ai-search-study-from-seer-interactive

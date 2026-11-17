@@ -4,19 +4,21 @@ import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import AdSlot from '../../../components/AdSlot.astro';
 import Newsletter from '../../../components/Newsletter.astro';
 import '../../../styles/assets.css';
-import { LIBRARY, groups, allAssets, liveAssets, isLive, assetUrl, pad } from '../../../lib/assets';
+import { LIBRARY, groups, allAssets, liveAssets, isLive, assetUrl, pad, ALL_KITS_ZIP, fileSize } from '../../../lib/assets';
 import { absolute } from '../../../lib/site';
 
 const title = '36 Free SEO and AEO Templates, Checklists and Prompts';
 const description = 'Free SEO and AEO asset library: 36 templates, checklists and AI prompts for keyword research, technical SEO, AI search visibility and reporting. No sign up.';
 const folder = '<svg class="ra-folder" viewBox="0 0 46 38" aria-hidden="true"><path d="M2 6a4 4 0 0 1 4-4h11l4 5h19a4 4 0 0 1 4 4v21a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4z" fill="#a6ef39"/><path d="M2 12h42v20a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4z" fill="#6cc82a"/></svg>';
+const kitSlugs = new Set(liveAssets.filter((a) => a.kit).map((a) => a.slug));
+const allSize = fileSize(ALL_KITS_ZIP);
 const tagClass = (t: string) => (t === 'Prompts' ? 'ra-tag p' : t === 'Sheet' ? 'ra-tag s' : 'ra-tag');
 const faq = [
   { q: 'Are these SEO assets really free?', a: 'Yes. Every asset page, template, checklist and prompt is free to view, download and use. There is no login, no comment to unlock and no paywall.' },
-  { q: 'What format are the templates in?', a: 'Each template downloads as a CSV file that opens in Excel or Google Sheets, and every table has a Copy button so you can paste it straight into a sheet. Prompts and checklists download as a plain text file.' },
+  { q: 'What do I get in each kit?', a: 'A full kit has an Excel workbook with several tabs, formulas, dropdowns and a worked demo, a full guide as a PDF, a printable checklist and an AI prompt pack. Everything opens in Excel or Google Sheets and any PDF reader. Assets marked Free are being upgraded to full kits.' },
   { q: 'What is the difference between SEO and AEO?', a: 'SEO helps your pages rank in classic search results. AEO (answer engine optimization) helps your content get understood, quoted and cited by AI answers such as Google AI Overviews, ChatGPT, Perplexity and Gemini.' },
   { q: 'Can I use these assets for client work?', a: 'Yes. Use and adapt them for your own sites and for clients. A link back to Brandella Journal is appreciated but never required.' },
-  { q: 'How often are new assets added?', a: 'New assets go live every day until all 36 are published, and published assets are reviewed and updated when search features or tools change.' },
+  { q: 'How often are new assets added?', a: 'New kits are added regularly until all 36 are published, and published kits are reviewed when search features or tools change. The all kits ZIP always contains every finished kit.' },
 ];
 const schema = [
   { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: absolute(LIBRARY.url), isPartOf: { '@id': 'https://brandella.in/#website' },
@@ -38,6 +40,12 @@ const schema = [
         <div class="ra-stat"><b>{liveAssets.length}</b><span>Live now</span></div>
         <div class="ra-stat"><b>&#8377;0</b><span>No login needed</span></div>
       </div>
+      {allSize && (
+        <div class="ra-hub-cta">
+          <a class="ra-btn" href={ALL_KITS_ZIP} download>Download all {kitSlugs.size} full {kitSlugs.size === 1 ? 'kit' : 'kits'} (ZIP, {allSize})</a>
+          <a class="ra-btn ghost" href="#ra-groups">Browse the assets</a>
+        </div>
+      )}
     </header>
 
     <div class="ra-toolbar">
@@ -60,7 +68,7 @@ const schema = [
                 const live = isLive(a.slug);
                 const inner = (
                   <>
-                    <span class:list={['ra-badge', live ? 'live' : 'soon']}>{live ? 'Free' : 'Coming soon'}</span>
+                    <span class:list={['ra-badge', live ? 'live' : 'soon']}>{kitSlugs.has(a.slug) ? 'Full kit' : live ? 'Free' : 'Coming soon'}</span>
                     <div class="ra-card-top"><Fragment set:html={folder} /><div><div class="ra-num">ASSET {pad(a.n)}</div><h3>{a.name}</h3></div></div>
                     <p>{a.short}</p>
                     <div class="ra-tags">{a.formats.map((t) => <span class={tagClass(t)}>{t}</span>)}</div>

@@ -134,9 +134,12 @@ ErrorDocument 404 /404.html
 
 # Correct file types for the free asset library downloads (CSV must not be saved as .txt)
 AddType text/csv .csv
+AddType application/vnd.openxmlformats-officedocument.spreadsheetml.sheet .xlsx
+AddType application/zip .zip
+AddType text/markdown .md
 AddCharset utf-8 .csv .txt
 <IfModule mod_setenvif.c>
-  SetEnvIf Request_URI "/([^/]+\.(csv|txt))$" DLNAME=$1
+  SetEnvIf Request_URI "/([^/]+\.(csv|txt|zip|xlsx|pdf|md))$" DLNAME=$1
 </IfModule>
 
 <IfModule mod_expires.c>
@@ -167,7 +170,7 @@ AddCharset utf-8 .csv .txt
     Header set Cache-Control "no-cache"
   </FilesMatch>
   # Free asset library downloads: always save with the real file name, keep out of search results
-  <FilesMatch "(-template\.csv|-prompts-checklist\.txt)$">
+  <FilesMatch "(-template\.csv|-prompts-checklist\.txt|^brandella-.+\.(zip|xlsx|pdf|md))$">
     Header set Content-Disposition "attachment; filename=\"%{DLNAME}e\"" env=DLNAME
     Header set X-Robots-Tag "noindex"
     Header set Cache-Control "no-cache"

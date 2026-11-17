@@ -4,6 +4,7 @@ import { liveAssets, csvFor, promptsTxt, fileNames } from '../../../../lib/asset
 export function getStaticPaths() {
   const out: { params: { file: string }; props: { body: string } }[] = [];
   for (const a of liveAssets) {
+    if (a.kit) continue;
     const f = fileNames(a.slug);
     if (a.template) out.push({ params: { file: f.csv }, props: { body: csvFor(a) } });
     out.push({ params: { file: f.txt }, props: { body: promptsTxt(a) } });

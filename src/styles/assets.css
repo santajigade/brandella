@@ -137,3 +137,12 @@ a.ra-card:hover { border-color: var(--green); box-shadow: 0 8px 24px rgba(0, 0, 
 .ra-prose .ra-dl-b, .ra-prose .ra-links a, .ra-prose .ra-pager a { text-decoration: none; }
 .ra-sheet td { min-width: 110px; }
 .ra-sheet td:first-child { min-width: 190px; font-weight: 600; }
+.ra-dl-main { border: 2px solid var(--green); }
+.ra-kit { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin: 10px 0 18px; }
+.ra-kit-item { border: 1px solid var(--line); border-top: 4px solid var(--green); border-radius: 10px; padding: 14px 16px; background: #fff; }
+.ra-kit-item strong { display: block; font-size: 16px; margin-bottom: 4px; }
+.ra-kit-item span { font-size: 14.5px; color: var(--ink-2); line-height: 1.55; }
+.ra-sheet td.ra-auto { background: #f2f2f2; font-weight: 700; }
+.ra-sheet tr:nth-child(even) td.ra-auto { background: #ececec; }
+.ra-hub-cta { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 18px; }
+.ra-hub-cta .ra-btn { text-decoration: none; }

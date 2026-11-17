@@ -4,7 +4,7 @@ import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import AdSlot from '../../../components/AdSlot.astro';
 import Newsletter from '../../../components/Newsletter.astro';
 import '../../../styles/assets.css';
-import { LIBRARY, liveAssets, assetUrl, groupName, pad, fileNames, allAssets, isLive, type Asset } from '../../../lib/assets';
+import { LIBRARY, liveAssets, assetUrl, groupName, pad, fileNames, allAssets, isLive, previews, kitFiles, fileSize, type Asset } from '../../../lib/assets';
 import { authors, authorUrl, absolute, formatDate } from '../../../lib/site';
 
 export function getStaticPaths() {
@@ -26,6 +26,16 @@ const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 const promptHtml = (p: string) => esc(p.trim()).replace(/\[([^\]]+)\]/g, '<mark>[$1]</mark>');
 const tsv = a.template ? [a.template.columns, ...a.template.rows].map((r) => r.join('\t')).join('\n') : '';
 const formulaCols = new Set(Object.keys(a.template?.formulas ?? {}).map(Number));
+const pv = previews.get(a.slug);
+const kit = a.kit ? kitFiles(a.slug) : null;
+const kitList = kit ? [
+  { ic: 'ZIP', bg: '#4f9d1a', t: 'Full kit, all files', s: `ZIP, ${fileSize(kit.zip)}`, href: kit.zip, main: true },
+  { ic: 'XLS', bg: '#107c41', t: 'Excel workbook', s: `8 tabs, ${fileSize(kit.xlsx)}`, href: kit.xlsx },
+  { ic: 'PDF', bg: '#c0392b', t: 'Full guide', s: `PDF, ${fileSize(kit.guide)}`, href: kit.guide },
+  { ic: 'PDF', bg: '#e67e22', t: 'Printable checklist', s: `PDF, ${fileSize(kit.checklist)}`, href: kit.checklist },
+  { ic: 'AI', bg: '#111', t: `${a.prompts.length} AI prompts`, s: `Markdown, ${fileSize(kit.prompts)}`, href: kit.prompts },
+] : [];
+const pvTsv = pv ? [pv.columns, ...pv.rows].map((r) => r.join('\t')).join('\n') : '';
 const schema = [
   {
     '@context': 'https://schema.org', '@type': 'WebPage', '@id': `${absolute(assetUrl(a.slug))}#page`,
@@ -56,24 +66,57 @@ const schema = [
         </div>
       </div>
       <aside class="ra-inside" aria-label="Free downloads">
-        <h2>What's inside (all free)</h2>
-        {a.template && (
+        <h2>{kit ? 'Download the free kit' : "What's inside (all free)"}</h2>
+        {kit && kitList.map((k) => (
+          <div class:list={['ra-dl', { 'ra-dl-main': k.main }]}><div class="ra-dl-ic" style={`background:${k.bg}`}>{k.ic}</div><div class="ra-dl-t">{k.t}<small>{k.s}</small></div><a class="ra-dl-b" href={k.href} download>Download</a></div>
+        ))}
+        {!kit && a.template && (
           <div class="ra-dl"><div class="ra-dl-ic" style="background:#107c41">CSV</div><div class="ra-dl-t">{a.template.name}<small>Opens in Excel and Google Sheets</small></div><a class="ra-dl-b" href={`${dl}${files.csv}`} download>Download</a></div>
         )}
-        <div class="ra-dl"><div class="ra-dl-ic" style="background:#111">AI</div><div class="ra-dl-t">{a.prompts.length} AI prompts and checklist<small>ChatGPT, Claude, Gemini (.txt)</small></div><a class="ra-dl-b" href={`${dl}${files.txt}`} download>Download</a></div>
-        <div class="ra-dl"><div class="ra-dl-ic" style="background:#6cc82a">&#10003;</div><div class="ra-dl-t">{a.checklist.length} step checklist<small>Tick it off right on this page</small></div><a class="ra-dl-b" href="#checklist">Open</a></div>
+        {!kit && <div class="ra-dl"><div class="ra-dl-ic" style="background:#111">AI</div><div class="ra-dl-t">{a.prompts.length} AI prompts and checklist<small>ChatGPT, Claude, Gemini (.txt)</small></div><a class="ra-dl-b" href={`${dl}${files.txt}`} download>Download</a></div>}
+        {!kit && <div class="ra-dl"><div class="ra-dl-ic" style="background:#6cc82a">&#10003;</div><div class="ra-dl-t">{a.checklist.length} step checklist<small>Tick it off right on this page</small></div><a class="ra-dl-b" href="#checklist">Open</a></div>}
         <p class="ra-inside-note">No email, no login. Free for personal and client work.</p>
       </aside>
     </section>
 
     <nav class="ra-toc" aria-label="On this page">
-      {a.template && <a href="#template">Template</a>}<a href="#how-to-use">How to use</a>{(a.sections ?? []).length > 0 && <a href="#guide">Guide</a>}<a href="#prompts">AI prompts</a><a href="#checklist">Checklist</a><a href="#faq">FAQ</a>
+      {kit && <a href="#kit">Free kit</a>}{(a.template || pv) && <a href="#template">Template</a>}<a href="#how-to-use">How to use</a>{(a.sections ?? []).length > 0 && <a href="#guide">Guide</a>}<a href="#prompts">AI prompts</a><a href="#checklist">Checklist</a><a href="#faq">FAQ</a>
     </nav>
 
     <article class="ra-prose ra-body" style="margin-top:28px">
       {a.intro.map((p) => <p set:html={p} />)}
 
-      {a.template && (
+      {kit && a.kitContents && (
+        <>
+          <h2 id="kit">What is in the free {a.name.toLowerCase()} kit</h2>
+          <div class="ra-kit">
+            {a.kitContents.map((k) => <div class="ra-kit-item"><strong>{k.t}</strong><span>{k.d}</span></div>)}
+          </div>
+          <p><a class="ra-btn" href={kit.zip} download>Download the full kit (ZIP, {fileSize(kit.zip)})</a></p>
+        </>
+      )}
+
+      {pv && kit && (
+        <>
+          <h2 id="template">Preview: the {pv.sheet} tab</h2>
+          <p>A live look at the first rows of the demo data inside the workbook. Grey columns with a green label calculate by themselves in Excel and Google Sheets.</p>
+          <div class="ra-sheet-wrap">
+            <table class="ra-sheet">
+              <thead><tr>{pv.columns.map((c, i) => <th>{c}{pv.formulaCols.includes(i) && <small>auto formula</small>}</th>)}</tr></thead>
+              <tbody>{pv.rows.map((r) => <tr>{r.map((v, i) => <td class:list={{ 'ra-auto': pv.formulaCols.includes(i) }}>{typeof v === 'number' ? v.toLocaleString('en-IN') : v}</td>)}</tr>)}</tbody>
+            </table>
+          </div>
+          <div class="ra-sheet-bar">
+            <a class="ra-btn" href={kit.xlsx} download>Download the Excel workbook</a>
+            <button class="ra-btn ghost" type="button" data-copy-tsv>Copy preview rows</button>
+            <span class="ra-small" data-copy-msg></span>
+          </div>
+          <p class="ra-small">Demo data for a fictional company, with illustrative numbers. The workbook has more columns, 500 ready rows, a dashboard, a page map and settings.</p>
+          <textarea hidden data-tsv>{pvTsv}</textarea>
+        </>
+      )}
+
+      {!kit && a.template && (
         <>
           <h2 id="template">{a.template.name}: free template preview</h2>
           {a.template.intro && <p set:html={a.template.intro} />}
@@ -174,7 +217,8 @@ const schema = [
       if(!window.fetch||!window.Blob||!window.URL) return;
       e.preventDefault();
       var href=a.getAttribute('href'), name=href.split('/').pop();
-      var type=/\.csv$/i.test(name)?'text/csv;charset=utf-8':'text/plain;charset=utf-8';
+      var ext=(name.split('.').pop()||'').toLowerCase();
+      var type={csv:'text/csv;charset=utf-8',xlsx:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',zip:'application/zip',pdf:'application/pdf',md:'text/markdown;charset=utf-8'}[ext]||'text/plain;charset=utf-8';
       fetch(href,{cache:'no-store'}).then(function(r){ if(!r.ok) throw 0; return r.arrayBuffer(); }).then(function(buf){
         var url=URL.createObjectURL(new Blob([buf],{type:type}));
         var t=document.createElement('a'); t.href=url; t.download=name; document.body.appendChild(t); t.click(); t.remove();
