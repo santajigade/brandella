@@ -22,6 +22,8 @@ export interface Asset extends AssetMeta {
   level: string;
   intro: string[];
   kit?: boolean;
+  /** Number of tabs in the kit workbook (default 8). */
+  tabs?: number;
   kitContents?: { t: string; d: string }[];
   template?: { name: string; intro?: string; columns: string[]; formulas?: Record<string, string>; rows: (string | number)[][]; note?: string };
   steps: { t: string; d: string }[];

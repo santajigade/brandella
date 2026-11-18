@@ -27,7 +27,7 @@ const pv = previews.get(a.slug);
 const kit = a.kit ? kitFiles(a.slug) : null;
 const kitList = kit ? [
   { ic: 'ZIP', bg: '#4f9d1a', t: 'Full kit, all files', s: `ZIP, ${fileSize(kit.zip)}`, href: kit.zip, main: true },
-  { ic: 'XLS', bg: '#107c41', t: 'Excel workbook', s: `8 tabs, ${fileSize(kit.xlsx)}`, href: kit.xlsx },
+  { ic: 'XLS', bg: '#107c41', t: 'Excel workbook', s: `${a.tabs ?? 8} tabs, ${fileSize(kit.xlsx)}`, href: kit.xlsx },
   { ic: 'PDF', bg: '#c0392b', t: 'Full guide', s: `PDF, ${fileSize(kit.guide)}`, href: kit.guide },
   { ic: 'PDF', bg: '#e67e22', t: 'Printable checklist', s: `PDF, ${fileSize(kit.checklist)}`, href: kit.checklist },
   { ic: 'AI', bg: '#111', t: `${a.prompts.length} AI prompts`, s: `Markdown, ${fileSize(kit.prompts)}`, href: kit.prompts },

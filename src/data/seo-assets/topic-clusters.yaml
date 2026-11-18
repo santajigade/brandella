@@ -1,0 +1,320 @@
+seoTitle: "Topic Cluster Template and Pillar Planner for AI Search"
+h1: "Topic Clusters Kit: Excel Cluster Planner, Full Guide and AI Prompts"
+focusKeyword: topic cluster template
+description: "Free topic cluster template in Excel: map pillars and cluster pages, score cluster health, find fan out gaps and plan internal links. Guide and 22 AI prompts."
+published: 2026-11-18
+updated: 2026-11-18
+time: 2 to 3 hours to map your first pillar
+level: Beginner to advanced
+kit: true
+tabs: 10
+intro:
+  - "A topic cluster is easy to draw and hard to keep healthy. This free <strong>topic cluster template</strong> is a complete working kit: an Excel planner that maps every pillar and cluster page, checks the links between them, catches two pages chasing one keyword, tests your cluster against the follow up questions people and AI systems ask, and gives every pillar a Cluster Health Score with a clear next move."
+  - "It is built for the AI search era. Google says AI Overviews and AI Mode may run several related searches across subtopics to build one answer. A cluster that answers those subtopics clearly, on well linked pages, is the most natural way to show both readers and search systems that your site covers a topic properly."
+kitContents:
+  - t: "Excel workbook, 10 tabs"
+    d: "Cluster Map (500 ready rows with 8 automatic columns), Pillars with health scores, Dashboard with two charts, Fan Out Questions, Link Plan, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "3 pillars, 23 pages, 22 fan out questions and 16 link tasks for a fictional HR software company, so you see every check and score working before you add your own data."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to read offline or share with your team."
+  - t: "22 AI prompts"
+    d: "Prompts for pillar selection, cluster mapping, fan out question mining, overlap checks, briefs and link planning, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole cluster process on one page, to tick off for every pillar."
+steps:
+  - t: Choose your site stage
+    d: "Open Settings and pick new, growing or established. This sets the keyword difficulty your site can realistically win when the workbook scores which cluster page to build next."
+  - t: Pick 1 to 3 pillars that match what you sell
+    d: "On the Pillars tab, add each pillar topic with its URL, main keyword, business goal and a target number of cluster pages. A pillar should be broad enough for 6 to 15 useful pages and close enough to your product to matter."
+  - t: Map every page you have and plan the rest
+    d: "On the Cluster Map, list the pillar page, cluster pages and supporting pages for each pillar, live or planned. Use the <a href=\"/resources/seo-aeo-assets/keyword-research/\">keyword research kit</a> to find the subtopics, and give each page one primary keyword."
+  - t: Record the links that exist today
+    d: "For each live page, mark whether it links up to the pillar, whether the pillar links to it, and how many sibling pages link to it. Add clicks and impressions from the Search Console Performance report."
+  - t: List the fan out questions
+    d: "On Fan Out Questions, write the follow up questions a reader or an AI answer would need for each pillar, and the URL that answers each one. The sheet marks every gap and thin answer."
+  - t: Plan the links with real anchor text
+    d: "Add every link you will place to the Link Plan. The sheet catches generic anchors, overlong anchors, self links, unknown URLs and links to pages that are not live yet."
+  - t: Follow the next move for each pillar
+    d: "Read the Cluster Health Score and Next move on the Pillars tab, then work through the Next action column on the Cluster Map. Review the whole workbook every month."
+sections:
+  - h: What topic clusters mean in the AI search era
+    html: |
+      <p>A topic cluster is a group of pages about one subject: a broad <strong>pillar page</strong> that covers the topic as a whole, and focused <strong>cluster pages</strong> that each go deep on one subtopic, all linked together. <a href="https://blog.hubspot.com/marketing/topic-clusters-seo" target="_blank" rel="noopener">HubSpot</a> traces the model back to its 2015 "topics over keywords" research and describes the same three link rules most teams still use: every cluster page links to the pillar, the pillar links to every important cluster page, and cluster pages link to each other where it genuinely helps the reader.</p>
+      <p>Two things make clusters more useful now than when the idea started:</p>
+      <ul>
+        <li><strong>AI answers break questions into subtopics.</strong> Google says AI Overviews and AI Mode <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">may use a query fan out technique</a>, running several related searches across subtopics and sources. A cluster is, quite literally, a set of clear answers to those subtopics.</li>
+        <li><strong>Links are how Google finds and understands pages.</strong> Google's <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener">SEO Starter Guide</a> says Google primarily finds pages through links from pages it already crawled. Its <a href="https://developers.google.com/search/docs/crawling-indexing/links-crawlable" target="_blank" rel="noopener">link best practices</a> add that every page you care about should have a link from at least one other page on your site.</li>
+      </ul>
+      <p>And one thing makes clusters riskier: it has never been easier to generate dozens of thin pages. Google's spam policies define <a href="https://developers.google.com/search/docs/essentials/spam-policies" target="_blank" rel="noopener">scaled content abuse</a> as generating many pages for the primary purpose of manipulating rankings rather than helping users, and name using generative AI to create many pages without adding value as an example. Its <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" target="_blank" rel="noopener">guide to generative AI features</a> also warns that a high quantity of pages does not make a website higher quality. A good cluster is a set of pages each worth reading on its own, not a page count target.</p>
+  - h: What is inside the topic cluster workbook
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>Cluster Map</td><td>One row per page. Finds the pillar URL, checks link health and keyword overlap, scores which page to build next, works out CTR and writes the next action and anchor text.</td><td>Pillar, role, title, URL, keyword, subtopic, intent, volume, KD, value, AI Overview, status, links, clicks, impressions</td></tr>
+          <tr><td>Pillars</td><td>One row per pillar. Coverage, two way links, fan out coverage, overlaps, Cluster Health Score, band and next move.</td><td>Pillar name, URL, keyword, goal, target size</td></tr>
+          <tr><td>Dashboard</td><td>Key numbers, a status table, a pillar health table and two charts.</td><td>Nothing</td></tr>
+          <tr><td>Fan Out Questions</td><td>Checks each follow up question against your live and planned pages: Covered, Thin answer, Planned, Gap.</td><td>Pillar, question, type, URL, answer depth</td></tr>
+          <tr><td>Link Plan</td><td>Checks every planned link: anchor text, both URLs and whether the target is live.</td><td>From URL, to URL, anchor, link type, placed</td></tr>
+          <tr><td>Settings</td><td>Site stage, score weights, health bands, triggers, generic anchor list and dropdowns.</td><td>Optional tuning</td></tr>
+          <tr><td>AI Prompts, Checklist, Sources</td><td>All 22 prompts, the process with automatic progress, and where every fact and assumption comes from.</td><td>Yes or No per step</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas. All 500 Cluster Map rows, 300 question rows and 300 link rows are ready with formulas and dropdowns.</p>
+  - h: How the Cluster Health Score works (with a worked example)
+    html: |
+      <p>Each pillar gets a score from 0 to 100, built from four parts. The weights are editable on Settings.</p>
+      <ul>
+        <li><strong>Coverage (weight 35).</strong> Live cluster pages divided by your target number of cluster pages, capped at 100 percent. Pages with status Live or Update count as live.</li>
+        <li><strong>Two way links (weight 30).</strong> The share of live cluster pages that both link up to the pillar and are linked from it.</li>
+        <li><strong>Fan out coverage (weight 25).</strong> The share of the pillar's questions on the Fan Out Questions tab that are fully answered on a live page.</li>
+        <li><strong>No keyword overlap (weight 10).</strong> Full points when no two pages in the cluster share a primary keyword, fewer points for each page that does.</li>
+      </ul>
+      <p>75 or more is Strong, 50 or more is Growing, anything lower is Thin. The Next move column then checks the weakest part in order: coverage below 50 percent, two way links below 80 percent, fan out coverage below 70 percent, then overlaps.</p>
+      <p><strong>Worked example.</strong> In the demo, HireHive's "Employee onboarding" pillar has a target of 10 cluster pages and 9 pages in the map: the pillar, 7 cluster pages and 1 supporting page.</p>
+      <ul>
+        <li>Coverage: 6 cluster pages are live, so 6 divided by 10 is 60 percent.</li>
+        <li>Two way links: 5 of the 6 live pages link both ways. The blog checklist is linked to the pillar but the pillar does not link back. That is 83 percent.</li>
+        <li>Fan out coverage: 6 of the 10 questions are fully answered. One is only a short mention, one waits on a planned page and two are gaps. That is 60 percent.</li>
+        <li>Overlap: 2 of the 9 pages target "employee onboarding checklist" (a template and a blog post), so this part scores 1 minus 2 divided by 9, about 0.78.</li>
+      </ul>
+      <p>Weighted: (35 x 0.6 + 30 x 0.83 + 25 x 0.6 + 10 x 0.78) divided by 100 gives about 0.69, so the Cluster Health Score is 69 and the band is Growing. Coverage and links pass their triggers, so the next move is "Answer the open fan out questions". The Cluster Map also tells you to fix the overlap: merge the blog checklist into the template page, or give it a different job.</p>
+      <p>The "Performance reviews" pillar shows the other end: only 3 of 8 target pages are live and one live page is an orphan, so it scores 46 (Thin) with the next move "Publish more cluster pages".</p>
+  - h: How the build score picks your next page
+    html: |
+      <p>Planned pages get a Build score from 0 to 100 so you know what to write first. It uses the same logic as our keyword research kit: volume (log scaled, full points at 10,000 searches, weight 35), ease (keyword difficulty compared with what your site stage can win, weight 25) and business value (weight 40). 85 or more is P1, 70 or more is P2, the rest P3.</p>
+      <p><strong>Example.</strong> "employee onboarding software" has 1,600 searches, KD 55 and business value 3, on a growing site whose comfortable difficulty is 30. Volume points are log(1,601) divided by log(10,001), about 0.80. Ease falls from 1 at KD 30 to 0 at KD 70, so KD 55 gives 0.375. The score is (35 x 0.80 + 25 x 0.375 + 40 x 1) divided by 100, about 77, which is P2. "leave tracker" (1,900 searches, KD 28, value 3) scores 94, P1, so the free template gets written first.</p>
+  - h: Column by column guide to the Cluster Map
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>Pillar</td><td>Dropdown of the pillars on the Pillars tab.</td><td>Add the pillar there first.</td></tr>
+          <tr><td>Page role</td><td>Pillar, Cluster or Supporting.</td><td>One Pillar row per pillar. Supporting pages answer small questions.</td></tr>
+          <tr><td>Page title, URL</td><td>The page title and its path, planned or live.</td><td>Keep URLs readable. Google suggests words that are useful to users.</td></tr>
+          <tr><td>Primary keyword</td><td>The one keyword this page targets.</td><td>One page per keyword. The overlap check enforces it.</td></tr>
+          <tr><td>Subtopic or question</td><td>The job this page does in the cluster.</td><td>If two pages have the same job, merge them.</td></tr>
+          <tr><td>Search intent</td><td>Informational, commercial, transactional or navigational.</td><td>Use the <a href="/resources/seo-aeo-assets/search-intent/">search intent kit</a> for tricky ones.</td></tr>
+          <tr><td>Volume, KD, Business value, AI Overview?</td><td>From one keyword data source, plus your 1 to 3 value score.</td><td>Drive the build score.</td></tr>
+          <tr><td>Status</td><td>Planned, Writing, Live, Update or Merge.</td><td>Update pages count as live.</td></tr>
+          <tr><td>Links up to pillar?, Linked from pillar?, Sibling links in</td><td>Yes or No, Yes or No, and a count.</td><td>Check in the page or with a crawler.</td></tr>
+          <tr><td>Clicks, Impressions (28 days)</td><td>From the Search Console Performance report.</td><td>Use the same date range for all pages.</td></tr>
+          <tr><td>Pillar URL</td><td>Automatic from the Pillars tab.</td><td>Use it as the link target from every cluster page.</td></tr>
+          <tr><td>Link health</td><td>Automatic: OK, Add sibling links, Add link up to pillar, Add link from pillar, Orphan risk, Link when live.</td><td>Fix Orphan risk first.</td></tr>
+          <tr><td>Keyword overlap</td><td>Automatic warning when two pages share a primary keyword.</td><td>Merge, redirect or retarget one of them.</td></tr>
+          <tr><td>Build score, Build priority</td><td>Automatic 0 to 100 and P1, P2 or P3.</td><td>Use for planned pages.</td></tr>
+          <tr><td>CTR, Next action</td><td>Automatic CTR and the next step.</td><td>Low CTR is flagged from 100 impressions and below 1 percent (editable).</td></tr>
+          <tr><td>Suggested anchor text</td><td>Automatic: the primary keyword.</td><td>Adjust it so it reads naturally in the sentence.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Internal linking rules for clusters (straight from Google)
+    html: |
+      <p>Google's <a href="https://developers.google.com/search/docs/crawling-indexing/links-crawlable" target="_blank" rel="noopener">link best practices</a> are short and practical. The Link Plan tab checks the ones a spreadsheet can check:</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Google guidance</th><th>What the workbook does</th></tr></thead>
+        <tbody>
+          <tr><td>Every page you care about should have a link from at least one other page on your site.</td><td>Link health flags Orphan risk and missing pillar links.</td></tr>
+          <tr><td>Good anchor text is descriptive, reasonably concise and relevant.</td><td>Anchor check flags anchors over 8 words and single word anchors.</td></tr>
+          <tr><td>Generic phrases like "click here" and "read more" are bad examples.</td><td>A list of 14 generic anchors on Settings, flagged as Generic, rewrite.</td></tr>
+          <tr><td>Give links context: the words before and after a link matter.</td><td>Your judgement. Place links inside sentences that explain why to click.</td></tr>
+          <tr><td>Do not chain links next to each other.</td><td>Your judgement. Spread cluster links where each subtopic is introduced.</td></tr>
+          <tr><td>Do not force keywords into anchors.</td><td>The suggested anchor is a starting point, not a rule.</td></tr>
+        </tbody>
+      </table></div>
+      <p>For a deeper walk through, read our <a href="/internal-linking-best-practices-seo-rankings/">internal linking best practices</a>.</p>
+  - h: Fan out questions, the AI era layer of a cluster
+    html: |
+      <p>Google's generative AI guide describes fan out as concurrent, related queries generated by the model to request more information. You cannot see those queries, but you can predict the obvious ones: definitions, how to steps, comparisons, costs, rules, tools and alternatives. The Fan Out Questions tab turns that into a checklist for every pillar.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Coverage</th><th>Meaning</th><th>Fix</th></tr></thead>
+        <tbody>
+          <tr><td>Covered</td><td>A live page answers it in a full section.</td><td>Keep the answer accurate and current.</td></tr>
+          <tr><td>Thin answer</td><td>A live page only mentions it briefly.</td><td>Expand it into a full, self contained answer.</td></tr>
+          <tr><td>Planned</td><td>The answering page is planned or being written.</td><td>Put the question in that page's brief.</td></tr>
+          <tr><td>Gap</td><td>No page answers it.</td><td>Add a section to the pillar, or plan a cluster page if it needs a full guide.</td></tr>
+          <tr><td>URL not in Cluster Map</td><td>The URL is not mapped yet.</td><td>Add the page or fix the typo.</td></tr>
+        </tbody>
+      </table></div>
+      <p>Two cautions. First, a question does not need its own page just because it exists: most fan out questions are best answered as a section of an existing page. Second, Google says there is no requirement to break content into tiny pieces for AI. Write complete, helpful pages and make each answer easy to find with clear headings. Covering the key entities helps too; see our guide to <a href="/what-is-entity-seo-who-vs-what-2026/">entity SEO</a>.</p>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: choose and map.</strong> Pick one pillar that matches what you sell. Map every existing page on that topic, then plan the missing cluster pages with the keyword research kit.</li>
+        <li><strong>Week 2: fix what exists.</strong> Resolve keyword overlaps, add the missing links up and down, and rescue orphan pages. These are the cheapest wins in the workbook.</li>
+        <li><strong>Week 3: answer questions.</strong> Fill the Fan Out Questions tab. Expand thin answers and add sections for gaps on the pillar page.</li>
+        <li><strong>Week 4: build.</strong> Write the top P1 and P2 planned pages. Link each one both ways the day it goes live, then update the Link Plan.</li>
+      </ul>
+      <p>After that, update statuses and Search Console numbers monthly, and add a second pillar once the first reaches Strong. Our <a href="/search-console-performance-report/">Search Console Performance report guide</a> explains the clicks, impressions and CTR you will track.</p>
+  - h: The chained prompt workflow (from pillar idea to link plan)
+    html: |
+      <p>Prompts 18 to 22 below are built to run in order in one AI chat:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your business, audience and the pillar topic.</li>
+        <li><strong>Map the subtopics</strong> a complete guide to the topic must cover.</li>
+        <li><strong>Group them into pages</strong> with one job and one primary keyword each.</li>
+        <li><strong>Add the fan out questions</strong> and which page answers each one.</li>
+        <li><strong>Produce the Cluster Map and Link Plan</strong> as tables you can paste into the workbook.</li>
+      </ol>
+      <p>Then add real volume and difficulty from your keyword tool. The AI helps you think; real data and your own expertise decide what gets published.</p>
+  - h: Topic cluster mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Publishing pages to hit a number.</strong> A target size is a planning aid. Thin pages written only to fill a cluster are exactly what Google's scaled content policy describes.</li>
+        <li><strong>Two pages for one keyword.</strong> They compete and both rank worse. The overlap check catches it; merge and redirect the weaker one.</li>
+        <li><strong>Pillars that never link out.</strong> A pillar that does not link to its cluster pages leaves them weak and sometimes orphaned.</li>
+        <li><strong>Generic anchors.</strong> "Read more" tells nobody what the page is about. Use descriptive anchors inside real sentences.</li>
+        <li><strong>Choosing pillars far from what you sell.</strong> Traffic that never becomes a customer is expensive. Read <a href="/what-is-topical-authority-how-to-build-it/">what topical authority is and how to build it</a> before picking topics.</li>
+        <li><strong>Mixing intents on one page.</strong> A cluster page that tries to sell and teach at once usually does neither. Give each page one job.</li>
+        <li><strong>Building once and forgetting.</strong> Questions, products and rules change. Review statuses, links and fan out coverage monthly.</li>
+      </ul>
+prompts:
+  - t: Pick pillar topics that fit the business
+    p: |
+      Act as an SEO strategist. My business: [what you sell] to [audience] in [country].
+      Suggest 8 pillar topics that are broad enough for 6 to 15 useful pages each and close to what I sell.
+      For each, give the pillar keyword, why it fits my business and 3 example cluster pages.
+  - t: Map the subtopics of a pillar
+    p: |
+      For the pillar topic "[topic]", list every subtopic a complete, expert resource would cover for [audience].
+      Group them under 5 to 8 headings and mark which deserve their own page and which fit as a section of the pillar.
+  - t: One page, one job
+    p: |
+      Here are my planned cluster pages with their primary keywords: [paste].
+      Find any two pages that would do the same job or target the same intent, and suggest how to merge or retarget them.
+  - t: Keyword overlap and cannibalization check
+    p: |
+      Here are my existing URLs, titles and primary keywords: [paste].
+      Flag pairs of pages that compete for the same query. For each pair, recommend which URL to keep, what to merge and which redirect to add.
+  - t: Fan out questions for a pillar
+    p: |
+      A person asks an AI assistant about "[pillar topic]". List 20 follow up questions it may also need to answer,
+      grouped by type: definition, how to, comparison, cost, problem, rules, tools, alternatives. Keep each question short and natural.
+  - t: Match questions to my pages
+    p: |
+      Here are my pages with their headings: [paste URL and H2s]. Here are the questions for this pillar: [paste].
+      For each question, give the URL that answers it best, and say whether the answer is a full section, a short mention or missing.
+  - t: Pillar page outline
+    p: |
+      Write an outline for a pillar page on "[pillar topic]" for [audience]. Include an answer first opening, H2 sections that each
+      introduce one cluster page (with where the link goes), a FAQ and a short next steps section. Cluster pages: [paste titles and URLs].
+  - t: Cluster page brief
+    p: |
+      Write a brief for a cluster page "[title]" targeting "[primary keyword]" in the "[pillar]" cluster.
+      Include intent, H2 outline, questions to answer, the sentence where it links up to the pillar, 2 sibling pages to link to,
+      and what would make it more useful than the current top results.
+  - t: Descriptive anchor text ideas
+    p: |
+      For each link below, suggest 3 natural, descriptive anchor texts of 2 to 6 words, and a sentence that places the link in context.
+      Avoid generic phrases like click here or read more. Links: [paste from URL, to URL and the target page topic].
+  - t: Find orphan and weak pages
+    p: |
+      Here is a list of my pages with how many internal links point to each: [paste].
+      Which pages are orphans or close to it? For each, suggest 2 existing pages that should link to it and why.
+  - t: Supporting page or section?
+    p: |
+      For each of these small questions in my "[pillar]" cluster, decide whether it deserves its own supporting page or a section
+      on an existing page. Explain in one line, considering search demand and how much there is to say: [paste questions].
+  - t: Cluster gap check against competitors
+    p: |
+      Here are the headings of the top 3 ranking pages for "[pillar keyword]": [paste]. Here are my cluster pages: [paste].
+      List subtopics they cover that my cluster misses, and subtopics where I can offer first hand experience they do not.
+  - t: Entity coverage for a cluster
+    p: |
+      For the topic "[pillar topic]", list the entities an expert would mention: concepts, standards, laws, tools, organizations and roles.
+      Mark which page in my cluster should cover each one: [paste cluster pages].
+  - t: Breadcrumb and URL structure
+    p: |
+      Suggest a clean URL and breadcrumb structure for this cluster so readers can tell where each page sits: [paste pages].
+      Keep URLs short and readable. Note any page that should move and the redirect it needs.
+  - t: Low CTR rewrite for a cluster page
+    p: |
+      My page "[title]" has [impressions] impressions and [clicks] clicks in 28 days for queries like [paste top queries].
+      Suggest 3 better titles and an opening paragraph that match the intent and the angle of the current top results.
+  - t: Cluster refresh plan
+    p: |
+      Here is my cluster with each page's last update date and recent clicks: [paste]. Which 5 pages should I refresh first and why?
+      For each, list what to check: facts, examples, screenshots, links and new questions.
+  - t: Quality check before publishing
+    p: |
+      Review this draft cluster page as a demanding editor: [paste draft]. Does it add original value, first hand detail and clear answers,
+      or does it repeat what every other page says? List the 5 changes that would most improve it for a real reader.
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my content strategist. My business: [what you sell]. Audience: [who]. Country: [country].
+      Pillar topic: [topic]. Goal: [leads, sales or sign ups]. Site stage: [new, growing or established]. Confirm, then wait.
+  - t: "Workflow 2 of 5: map subtopics"
+    p: |
+      List every subtopic a complete resource on the pillar topic must cover for my audience. Group them under clear headings,
+      and note the search intent of each one.
+  - t: "Workflow 3 of 5: group into pages"
+    p: |
+      Group the subtopics into pages. Give each page one job, one primary keyword, a role (Pillar, Cluster or Supporting),
+      a title and a short readable URL. Merge anything that would compete for the same keyword.
+  - t: "Workflow 4 of 5: fan out questions"
+    p: |
+      For this cluster, list 15 follow up questions a reader or an AI answer would need, each with its question type
+      and the URL from the page list above that should answer it. Mark questions no page answers yet.
+  - t: "Workflow 5 of 5: tables for Excel"
+    p: |
+      Turn everything into three tables with tabs between columns, ready to paste into my workbook.
+      Table 1 (Cluster Map): Pillar, Page role, Page title, URL, Primary keyword, Subtopic, Search intent, Status (Planned).
+      Table 2 (Fan Out Questions): Pillar, Question, Question type, Answered by URL.
+      Table 3 (Link Plan): From URL, To URL, Anchor text, Link type. Include links up, down and between siblings.
+checklist:
+  - Chose my site stage on the Settings tab
+  - Picked 1 to 3 pillars that match what the business sells
+  - Set a target number of cluster pages for each pillar
+  - Mapped every existing page on each pillar topic
+  - Gave every page one primary keyword and one job
+  - Resolved every keyword overlap by merging, redirecting or retargeting
+  - Marked links up to the pillar, from the pillar and between siblings
+  - Fixed every Orphan risk page
+  - Added Search Console clicks and impressions for live pages
+  - Listed the fan out questions for each pillar and mapped them to URLs
+  - Expanded thin answers and planned sections or pages for gaps
+  - Replaced every generic or overlong anchor in the Link Plan
+  - Wrote the P1 planned pages first and linked them both ways on launch day
+  - Checked that no page exists only to fill the cluster
+  - Set a monthly date to update statuses, links and numbers
+faq:
+  - q: Is this topic cluster template free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: How many pages should a topic cluster have?
+    a: "There is no official number. Plan as many pages as the topic genuinely needs for your audience, which for most small business pillars is somewhere around 6 to 15. The target in the workbook is your own planning number, not a rule."
+  - q: What is the difference between a pillar page and a cluster page?
+    a: "A pillar page covers a broad topic as a whole and links to every important subtopic. A cluster page goes deep on one subtopic and links back to the pillar."
+  - q: Do topic clusters help with AI Overviews and AI Mode?
+    a: "They can help indirectly. Google says these features may run several related searches across subtopics and that normal SEO best practices apply. A cluster that answers those subtopics clearly on well linked, helpful pages gives both readers and search systems what they need."
+  - q: Is it safe to use AI to write cluster pages?
+    a: "Use AI to plan, outline and check, but make sure every page adds real value. Google's spam policies name generating many pages with AI without adding value for users as scaled content abuse."
+  - q: Does the workbook open in Google Sheets?
+    a: "Yes. Upload the .xlsx file to Google Drive and open it with Google Sheets. Formulas, dropdowns and colours carry over. The charts may need a quick refresh."
+related: [keyword-research, search-intent, internal-linking]
+reads:
+  - t: How to build topic clusters that rank on Google
+    url: /how-to-build-topic-clusters-that-rank/
+  - t: "Pillar pages vs topic clusters: which strategy works better"
+    url: /pillar-pages-vs-topic-clusters-seo-strategy/
+  - t: What is topical authority and how to build it
+    url: /what-is-topical-authority-how-to-build-it/
+tools:
+  - t: Internal Link Checker
+    url: /tools/seo-tools/internal-link-checker/
+  - t: Keyword Grouper
+    url: /tools/google-ads-tools/keyword-grouper/
+  - t: Breadcrumb Schema Generator
+    url: /tools/schema-generators/breadcrumb-schema-generator/
+sources:
+  - t: "Google Search Central: Link best practices for Google (internal links and anchor text)"
+    url: https://developers.google.com/search/docs/crawling-indexing/links-crawlable
+  - t: "Google Search Central: SEO Starter Guide (how Google finds pages, site organization)"
+    url: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+  - t: "Google Search Central: AI features and your website (query fan out)"
+    url: https://developers.google.com/search/docs/appearance/ai-features
+  - t: "Google Search Central: Optimizing your website for generative AI features on Google Search"
+    url: https://developers.google.com/search/docs/fundamentals/ai-optimization-guide
+  - t: "Google Search Central: Spam policies (scaled content abuse)"
+    url: https://developers.google.com/search/docs/essentials/spam-policies
+  - t: "HubSpot: Topic clusters, the next evolution of SEO"
+    url: https://blog.hubspot.com/marketing/topic-clusters-seo
