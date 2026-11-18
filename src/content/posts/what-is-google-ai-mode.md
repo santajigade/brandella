@@ -103,7 +103,7 @@ format: "html"
 <p>AI Mode will not completely replace traditional search overnight.</p>
 <p>For quick lookups, standard results still work well.</p>
 <p>But for complex queries, comparisons, and decision-making, AI-generated responses are faster and more intuitive.</p>
-<p>Even <a href="/category/seo/">SEO</a> professionals are monitoring this shift carefully. Platforms like <strong><a href="https://www.semrush.com/" target="_new" rel="noopener">Semrush</a></strong> have highlighted how AI-driven search experiences are reshaping traffic patterns.</p>
+<p>Even <a href="/category/seo/">SEO</a> professionals are monitoring this shift carefully. Platforms like <strong><a href="https://www.semrush.com/" target="_new" rel="noopener">Semrush</a></strong> have highlighted how AI-driven search experiences are reshaping traffic patterns. To put AI to work on your own SEO tasks, see our <a href="/ai-for-seo-artificial-intelligence/">AI for SEO workflows and prompts</a>.</p>
 <p>The real shift is this:</p>
 <p>Search is becoming conversational.</p>
 <p>Authority is becoming synthesized.</p>
