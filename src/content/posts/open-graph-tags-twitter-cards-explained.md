@@ -8,6 +8,12 @@ categories: ["technical-seo"]
 primaryCategory: "technical-seo"
 description: "Open Graph tags and Twitter Cards explained with code: the fallback chain, 1200x630 image specs, silent failure modes, and why the X validator is gone."
 focusKeyword: "Open Graph Tags"
+takeaways:
+  - "Open Graph tags control link previews on Facebook, LinkedIn, Slack, Discord and iMessage, while Twitter Cards handle X with their own naming convention."
+  - "Open Graph tags use the property= attribute and Twitter Card tags use name=, and mixing up the two is a common, silent cause of failed cards."
+  - "X falls back to og: values when twitter: tags are missing, but twitter:card is still required and an empty twitter:image breaks the fallback."
+  - "A 1200x630 image works as the universal default, and images under about 300x157 make X silently downgrade to the small summary card."
+  - "Cards often fail because tags are injected client-side, image URLs are relative, or platforms cache old data for up to 7 days until re-scraped."
 image: "/wp-content/uploads/2026/08/Open-Graph-Tags.webp"
 imageAlt: "Open Graph Tags"
 words: 1329

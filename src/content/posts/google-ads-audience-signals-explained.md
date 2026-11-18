@@ -8,6 +8,12 @@ categories: ["google-ads"]
 primaryCategory: "google-ads"
 description: "Google Ads audience signals explained simply: how they differ from targeting, how PMax vs Demand Gen treat them, and the March 2026 Lookalike change."
 focusKeyword: "Audience Signals"
+takeaways:
+  - "Audience targeting limits ads to a chosen group, while audience signals are hints that let Google's AI find similar people outside that group."
+  - "In Performance Max, signals can never become a hard limit, but in Demand Gen with optimized targeting off they behave like real targeting."
+  - "Signal types include Affinity, In-Market, Custom segments, Customer Match, detailed demographics and life events, with In-Market showing a 10% CTR lift over Affinity per First Pier."
+  - "Since March 2026, the Lookalike reach slider in Demand Gen acts as a signal strength control instead of a hard constraint."
+  - "Start with first-party data, avoid overloading one asset group, and allow up to 14 days for Google to fully integrate a new signal."
 image: "/wp-content/uploads/2026/08/Audience-Signals.webp"
 imageAlt: "Audience Signals"
 words: 1088

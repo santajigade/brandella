@@ -8,6 +8,12 @@ categories: ["html"]
 primaryCategory: "html"
 description: "HTML heading structure best practices (H1-H6) with examples: a real duplicate-H1 case study, the W3C's actual skip-level nuance, and a heading audit."
 focusKeyword: "HTML Heading Structure"
+takeaways:
+  - "Use one clear H1 per page, then nest H2 through H6 in order without skipping levels when opening a new section."
+  - "Shared components can silently add a second H1, as in a SaaS site whose reusable hero component put a slogan H1 on every blog post."
+  - "The W3C says skipping ranks is fine when closing subsections, so an H2 can follow an H4 that ended the previous section."
+  - "The title tag serves searchers in results and browser tabs, while the H1 serves readers on the page, so the two can differ in wording."
+  - "WCAG 2.2 SC 1.3.1 requires real heading tags instead of styled divs, and SC 2.4.6 requires headings to describe their sections."
 image: "/wp-content/uploads/2026/08/HTML-Heading-Structure.webp"
 imageAlt: "HTML Heading Structure"
 words: 1548

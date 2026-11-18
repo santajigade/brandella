@@ -8,6 +8,12 @@ categories: ["technical-seo"]
 primaryCategory: "technical-seo"
 description: "AI hallucinations explained: why models are trained to guess instead of saying \"I don't know,\" real legal cases, and the RAG techniques that actually help."
 focusKeyword: "AI hallucinations"
+takeaways:
+  - "Language models predict the next token from statistical patterns rather than storing facts, so weak training signal can still produce fluent but false answers."
+  - "OpenAI's 2025 research argues hallucinations emerge from training that rewards confident guessing over admitting uncertainty."
+  - "Iternal's research puts the industry average hallucination rate at approximately 20%, or one error in every five user queries."
+  - "Combining RAG with rigorous screening workflows reduced hallucination rates by 71% in Stanford research."
+  - "The strongest defense layers RAG grounding, required citations, confidence thresholds and human review, though no current technique eliminates hallucinations entirely."
 image: "/wp-content/uploads/2026/08/AI-hallucinations.webp"
 imageAlt: "AI hallucinations"
 words: 1360

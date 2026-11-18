@@ -8,6 +8,12 @@ categories: ["paid-media-analytics"]
 primaryCategory: "paid-media-analytics"
 description: "Customer journey mapping for digital marketing: the five core stages, how \"dark touchpoints\" from AI agents change the picture, and how to build a map."
 focusKeyword: "Customer journey mapping"
+takeaways:
+  - "A customer journey map covers every interaction from awareness to advocacy, while a user experience map only covers how customers use the product."
+  - "Most maps follow five core stages: awareness, consideration, purchase, retention and advocacy, though 2026 journeys rarely move in a straight line."
+  - "Userpilot warns of dark touchpoints, interactions AI agents have with your documentation or pricing pages that never show up in analytics."
+  - "Narrow the scope to one persona and one specific journey, such as trial to paid conversion, instead of mapping the whole customer experience."
+  - "Give every touchpoint an owner and update the map at least quarterly, since a map untouched for six months only records old assumptions."
 image: "/wp-content/uploads/2026/08/Customer-journey-mapping.webp"
 imageAlt: "Customer journey mapping"
 words: 1365

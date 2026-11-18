@@ -8,6 +8,12 @@ categories: ["javascript"]
 primaryCategory: "javascript"
 description: "Dark mode toggle using JavaScript: real code for the preference cascade, preventing the flash of wrong theme, and syncing with live OS changes."
 focusKeyword: "Dark Mode Toggle"
+takeaways:
+  - "A solid dark mode toggle checks localStorage first, then the prefers-color-scheme media query, then falls back to a default light theme."
+  - "An inline script at the very top of the head applies the theme before first paint, preventing a flash of the wrong color scheme."
+  - "Keep all colors in CSS custom properties so the JavaScript only toggles one class and new themes become a CSS-only change."
+  - "Setting color-scheme to light dark lets the browser theme native scrollbars, form controls and date pickers automatically."
+  - "Only follow live OS theme changes when the user has no saved choice, and test both branches with the Chrome DevTools Rendering panel."
 image: "/wp-content/uploads/2026/08/Dark-Mode-Toggle.webp"
 imageAlt: "Dark Mode Toggle"
 words: 1086

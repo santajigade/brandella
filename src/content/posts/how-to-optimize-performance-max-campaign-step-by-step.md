@@ -8,6 +8,12 @@ categories: ["google-ads"]
 primaryCategory: "google-ads"
 description: "How to optimize Performance Max campaign step by step: conversion tracking, assets, bidding order, and the 6-week rule most advertisers break too early."
 focusKeyword: "Optimize Performance Max"
+takeaways:
+  - "Performance Max optimizes only toward the conversion action you set, so choose one primary goal and demote everything else to secondary."
+  - "Load multiple images and at least one video per asset group, replacing assets rated Low and learning from those rated Best."
+  - "Start with Maximize Conversions or Maximize Conversion Value without a target, and wait for 30 to 50 conversions before tightening."
+  - "Split products into themed asset groups by category, margin or intent, using up to 50 search themes per asset group, up from 25."
+  - "Google recommends running new campaigns for at least six weeks without frequent budget, bid or status changes, which reset the learning phase."
 image: "/wp-content/uploads/2026/08/Optimize-Performance-Max.webp"
 imageAlt: "Optimize Performance Max"
 words: 1274

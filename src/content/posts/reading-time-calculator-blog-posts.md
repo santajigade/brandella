@@ -8,6 +8,12 @@ categories: ["development", "javascript"]
 primaryCategory: "javascript"
 description: "Reading time calculator for blog posts: the real word-count-to-WPM formula, why Medium uses 265 WPM, and working JavaScript to build your own."
 focusKeyword: "reading time calculator"
+takeaways:
+  - "Reading time equals word count divided by words per minute, so a 1,000-word article at 200 WPM takes 5 minutes."
+  - "Medium uses 265 WPM and Google's reference point is 200 WPM, while technical documentation should use about 150 WPM."
+  - "Each image adds roughly 12-20 seconds of viewing time and complex tables can add 30-60+ seconds, so word count alone understates reading time."
+  - "Estimates should be rounded up with Math.ceil and calculated from the live DOM so they stay accurate as content changes."
+  - "Displaying reading time can increase engagement by around 30%, and Medium found posts of about 7 minutes earn the highest engagement."
 image: "/wp-content/uploads/2026/08/reading-time-calculator.webp"
 imageAlt: "reading time calculator"
 words: 975

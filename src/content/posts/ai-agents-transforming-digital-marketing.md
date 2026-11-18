@@ -8,6 +8,12 @@ categories: ["artificial-intelligence"]
 primaryCategory: "artificial-intelligence"
 description: "How AI agents are transforming digital marketing: real deployed use cases, the MCP protocol behind them, and why 62% of teams are still just experimenting."
 focusKeyword: "AI Agents"
+takeaways:
+  - "Traditional automation follows fixed if-this-then-that rules, while AI agents receive a goal, choose a path, act, observe results and improve."
+  - "Brinker's 2026 research found 90.3% of marketing organizations already use AI agents somewhere in their stack."
+  - "According to McKinsey, 62% of organizations remain in the experimental phase with agentic AI and only 23% are scaling it beyond pilots."
+  - "Anthropic's Model Context Protocol, released in November 2024, reached 97 million monthly SDK downloads and over 5,800 community-built servers by March 2026."
+  - "Successful rollouts start with one high-volume, well-defined use case, audited data and clear brand and compliance guardrails."
 image: "/wp-content/uploads/2026/08/AI-agents.webp"
 imageAlt: "AI agents"
 words: 1366

@@ -8,6 +8,12 @@ categories: ["ppc-strategy"]
 primaryCategory: "ppc-strategy"
 description: "Attribution models decide which touchpoint gets credit for a sale. GA4 now offers only three — here's how each works and the trap most marketers miss."
 focusKeyword: "Attribution models"
+takeaways:
+  - "GA4 now offers three attribution models: data-driven, paid and organic last click, and Google paid channels last click."
+  - "First-click, linear, time-decay and position-based models were retired from GA4 in November 2023."
+  - "Data-driven attribution evaluates up to 50 actions over the 90 days before a conversion, comparing converting and non-converting paths."
+  - "Google's April 2026 recalibration of data-driven attribution made Search campaigns lose 15-20% of attributed conversions with nothing else in the account changed."
+  - "Below its conversion threshold, cited by 1ClickReport as 400+ conversions per key event, GA4 quietly falls back to a rules-based model."
 image: "/wp-content/uploads/2026/08/Attribution-models.webp"
 imageAlt: "Attribution models"
 words: 1398

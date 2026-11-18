@@ -8,6 +8,12 @@ categories: ["artificial-intelligence"]
 primaryCategory: "artificial-intelligence"
 description: "How Google AI Mode decides which websites to cite: query fan-out explained, why Google increasingly cites itself, and why only 38% of citations rank top 10."
 focusKeyword: "google ai mode citations"
+takeaways:
+  - "Google AI Mode uses query fan-out, splitting one question into several sub-queries, retrieving results for each and then synthesizing a cited answer."
+  - "A Moz analysis of nearly 40,000 queries found 88% of AI Mode citations come from outside the organic top 10."
+  - "ALM Corp found Google.com is the most-cited domain in AI Mode at 17.42%, and its citation share grew 8.4x between April and June 2026."
+  - "SE Ranking's March 2026 study found overall organic domain traffic is the biggest predictor of AI Mode citations, followed by referring domains and content length."
+  - "Searchers can now mark Preferred Sources, but only full domains and subdomains qualify, not subdirectories like example.com/blog."
 image: "/wp-content/uploads/2026/08/Google-AI-Mode.webp"
 imageAlt: "Google AI Mode"
 words: 1376

@@ -8,6 +8,12 @@ categories: ["javascript"]
 primaryCategory: "javascript"
 description: "Sticky table of contents using CSS & JavaScript: real syntax-highlighted code, the 3 silent-failure traps, and the new 2026 CSS-only scrollspy option."
 focusKeyword: "Sticky Table of Contents"
+takeaways:
+  - "A sticky table of contents uses CSS position: sticky to stay in view and JavaScript IntersectionObserver to highlight the active section."
+  - "Sticky silently behaves like position: static when no top value is set or when any ancestor has overflow: hidden."
+  - "Setting max-height and overflow-y: auto on the sticky container lets a TOC taller than the viewport scroll internally instead of being clipped."
+  - "The 2026 CSS scroll-target-group property with :target-current offers JavaScript-free scrollspy, but only in Chrome 140+ and other recent Chromium browsers."
+  - "Wrap scroll-target-group in an @supports check and keep the IntersectionObserver version as a fallback for Firefox and Safari users."
 image: "/wp-content/uploads/2026/08/Sticky-Table-of-Contents.webp"
 imageAlt: "Sticky Table of Contents"
 words: 1143

@@ -8,6 +8,12 @@ categories: ["javascript"]
 primaryCategory: "javascript"
 description: "AI image generator using API: real Node.js/Express code, secure server-side key handling, response format normalization, and retry/rate-limit logic."
 focusKeyword: "AI Image Generator"
+takeaways:
+  - "An AI image generator sends a text prompt to a hosted model such as DALL-E, Stable Diffusion or Flux and receives an image URL or base64 data."
+  - "The API key must stay server-side in an environment variable, and a key found in frontend code or a public repo should be rotated immediately."
+  - "Providers commonly return one of three formats, a signed URL, raw binary or base64 JSON, so code should normalize whichever one arrives."
+  - "Retry only 429 rate limit responses, respecting Retry-After, and fail fast on 400 errors, which usually mean the request payload is wrong."
+  - "One practical SEO use is generating a unique 1200x630 Open Graph image for each article automatically at publish time."
 image: "/wp-content/uploads/2026/08/AI-Image-Generator.webp"
 imageAlt: "AI Image Generator"
 words: 1523

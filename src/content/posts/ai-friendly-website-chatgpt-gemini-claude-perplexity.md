@@ -8,6 +8,12 @@ categories: ["artificial-intelligence"]
 primaryCategory: "artificial-intelligence"
 description: "AI friendly website setup: the exact robots.txt config, llms.txt basics, and content structure that gets you cited by ChatGPT, Gemini, Claude, and Perplexity."
 focusKeyword: "AI Friendly Website"
+takeaways:
+  - "Research from December 2025 found publishers blocking AI crawlers saw a 23.1% total traffic decline without reliably reducing citation rates."
+  - "Training bots like GPTBot and CCBot are separate from retrieval bots like OAI-SearchBot, Claude-SearchBot and PerplexityBot, so blocking each is a separate decision."
+  - "Google-Extended controls Gemini training and grounding only and does not affect Google Search ranking or AI Overview eligibility."
+  - "Many CDNs and WAFs block AI bots at the network layer by default, regardless of what robots.txt allows."
+  - "Several AI crawlers execute little or no JavaScript and give up after 3 to 5 redirects, so server-rendered content and short redirect chains matter."
 image: "/wp-content/uploads/2026/08/AI-friendly-website.webp"
 imageAlt: "AI friendly website"
 words: 1321

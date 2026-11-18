@@ -8,6 +8,12 @@ categories: ["development", "php"]
 primaryCategory: "php"
 description: "Dynamic meta tags in PHP: real PDO code, htmlspecialchars() XSS prevention, safe multi-byte truncation, and Open Graph tags done correctly."
 focusKeyword: "Dynamic Meta Tags"
+takeaways:
+  - "Dynamic meta tags in PHP should fetch page data before any HTML output, use a fallback when data is missing, and escape every value."
+  - "Escape output with htmlspecialchars() and the ENT_QUOTES flag, because the default flag only converts double quotes and leaves single quotes untouched."
+  - "Truncate long descriptions with mb_ functions and trim back to the last full word, since plain substr() can corrupt multi-byte UTF-8 characters."
+  - "Set both Open Graph and twitter:card tags, because X checks its own tags first and may show no preview without a twitter:card tag."
+  - "Append the page number to paginated descriptions to avoid duplicates, and consider noindex for faceted search pages."
 image: "/wp-content/uploads/2026/08/Dynamic-Meta-Tags.webp"
 imageAlt: "Dynamic Meta Tags"
 words: 1507

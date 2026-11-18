@@ -8,6 +8,12 @@ categories: ["seo-tools"]
 primaryCategory: "seo-tools"
 description: "How Perplexity AI finds and ranks sources: the six-stage retrieval pipeline, why Reddit dominates citations, and the two gates content must pass."
 focusKeyword: "Perplexity AI"
+takeaways:
+  - "Perplexity runs a live web search for every question and typically cites only 3 to 8 of the 5 to 15 pages it retrieves."
+  - "Its pipeline combines hybrid retrieval with BM25 and dense embeddings, a three-tier reranker and LLM synthesis constrained by retrieved evidence."
+  - "StackMatix reports Reddit accounts for 46.7% of top Perplexity citations, and Perplexity shows a stronger recency bias than ChatGPT."
+  - "ZipTie found 90% of top-cited sources answer the core question within the first 100 words, and schema-enabled pages reach a 47% Top-3 citation rate versus 28% without."
+  - "PerplexityBot must be allowed in robots.txt, and original first-party data helps content shape the final answer, not just get retrieved."
 image: "/wp-content/uploads/2026/08/Perplexity-AI.webp"
 imageAlt: "Perplexity AI"
 words: 1350

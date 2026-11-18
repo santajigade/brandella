@@ -8,6 +8,12 @@ categories: ["seo-tools"]
 primaryCategory: "seo-tools"
 description: "AI search ranking factors explained: the four foundations that carry across ChatGPT, Perplexity, and Google AI Overviews, and why 80% of AI citations don't rank on Google."
 focusKeyword: "AI search ranking factors"
+takeaways:
+  - "The overlap between top-10 Google rankings and AI-cited sources fell from roughly 75% in mid-2025 to just 17-38% by early 2026."
+  - "One analysis found 80% of sources cited by LLMs do not rank in Google's top 100."
+  - "Attrifast identifies four factors shared across ChatGPT, Perplexity, Claude and Google AI Overviews: authority, schema, concision and cross-source consensus."
+  - "Perplexity weights freshness most, Claude leans on source authority, and Google AI Overviews mostly cite pages already in the organic top 10."
+  - "Wellows found pages cited in Google AI Overviews earn 35% more organic clicks and 91% more paid clicks than uncited competitors."
 image: "/wp-content/uploads/2026/08/AI-search-ranking-factors.webp"
 imageAlt: "AI search ranking factors"
 words: 1364

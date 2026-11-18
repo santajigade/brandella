@@ -8,6 +8,12 @@ categories: ["development", "javascript"]
 primaryCategory: "javascript"
 description: "Detect broken links using JavaScript: real HEAD-request code for browser console, full page scanning, and Node.js sitemap checks with timeout handling."
 focusKeyword: "detect broken links"
+takeaways:
+  - "Detecting broken links in JavaScript means looping through page links, sending a HEAD request to each, and flagging any 400+ status code."
+  - "HEAD requests fetch only response headers, making bulk checks fast, and native Fetch works in modern browsers and Node.js 18+."
+  - "Add a timeout with AbortController and fall back to a GET request when a server returns 405 or 403 for HEAD."
+  - "Deduplicate links with a Set and filter out mailto: and anchor-only links before checking to avoid wasted requests."
+  - "A Node.js script can check every URL in sitemap.xml for whole-site audits, while JavaScript-rendered SPAs need a headless browser like Playwright."
 image: "/wp-content/uploads/2026/08/detect-broken-links.webp"
 imageAlt: "detect broken links"
 words: 1095

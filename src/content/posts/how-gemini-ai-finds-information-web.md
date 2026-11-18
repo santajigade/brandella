@@ -8,6 +8,12 @@ categories: ["seo-tools"]
 primaryCategory: "seo-tools"
 description: "How Gemini AI finds information on the web: how grounding decides when to search, the new Parallel and Exa partner sources, and per-query billing in 2026."
 focusKeyword: "Gemini AI"
+takeaways:
+  - "Gemini uses Grounding with Google Search to run live searches mid-response and attach citations, going beyond its training cutoff."
+  - "A prediction classifier scores each query from 0 to 1 to decide whether a search would improve the answer before any search runs."
+  - "Gemini can run several searches for one prompt, and since Gemini 3 each search query executed is billed separately rather than per prompt."
+  - "In 2026 Google added Parallel Web Search and Exa as partner grounding sources, with Exa respecting noindex opt-out signals."
+  - "Google Search grounding does not use pages that disallow Google-Extended, so publishers can control inclusion through robots.txt."
 image: "/wp-content/uploads/2026/08/Gemini-AI.webp"
 imageAlt: "Gemini AI"
 words: 1406

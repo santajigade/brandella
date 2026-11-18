@@ -8,6 +8,12 @@ categories: ["html"]
 primaryCategory: "html"
 description: "Canonical tag implementation guide with real HTML examples: pagination, hreflang, PDFs, and the mistakes that cause Google to silently ignore your tags."
 focusKeyword: "Canonical tag implementation"
+takeaways:
+  - "A canonical tag must sit in the head, use an absolute URL, appear only once per page and point to a URL returning a 200 status."
+  - "Each paginated page should carry a self-referencing canonical, since pointing every page back to page one can stop deeper pages being indexed."
+  - "Language variants need self-referencing canonicals plus hreflang tags, because canonicalizing all versions to English de-indexes the other languages."
+  - "Two canonical tags pointing to different URLs, often from competing WordPress plugins or themes, cause Google to ignore both."
+  - "Canonical is a hint, and signals like 301 redirects, sitemap inclusion, internal links and HTTPS can override it when they conflict."
 image: "/wp-content/uploads/2026/08/Canonical-tag-implementation.webp"
 imageAlt: "Canonical tag implementation"
 words: 1340

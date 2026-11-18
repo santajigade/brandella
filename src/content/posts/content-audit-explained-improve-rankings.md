@@ -8,6 +8,12 @@ categories: ["content"]
 primaryCategory: "content"
 description: "Content audit explained: why CNET's pruning drove a 30% traffic surge, the penalty-vs-plateau-vs-decay distinction, and the keep/update/delete framework."
 focusKeyword: "Content Audit"
+takeaways:
+  - "A content audit scores every page on performance, accuracy and business value, then sorts it into keep, update, consolidate or delete."
+  - "Semrush research cited by Neal Schaffer found 65% of companies that succeed at content marketing run content audits at least twice a year."
+  - "When CNET pruned thousands of underperforming articles, its organic traffic rose by nearly 30%, according to Ahrefs data cited by AllAble."
+  - "Changing only the published date recovers nothing, while a substantive refresh can win back 40 to 80% of lost traffic within about six weeks."
+  - "Consolidate pages that compete for the same keyword and 301 redirect the weaker URL, since every deletion without a redirect loses a signal."
 image: "/wp-content/uploads/2026/08/Content-Audit.webp"
 imageAlt: "Content Audit"
 words: 1379

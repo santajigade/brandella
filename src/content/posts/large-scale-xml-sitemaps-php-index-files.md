@@ -8,6 +8,12 @@ categories: ["php"]
 primaryCategory: "php"
 description: "Large scale XML sitemaps in PHP: XMLWriter streaming, unbuffered PDO generators, automatic 50k-URL sharding, and sitemap index file generation."
 focusKeyword: "Large Scale XML Sitemaps"
+takeaways:
+  - "The Sitemaps protocol limits each file to 50,000 URLs and 50MB uncompressed, and gzip compression does not raise that 50MB cap."
+  - "PHP's XMLWriter streams elements straight to a file, keeping memory flat, unlike building a DOMDocument for the whole sitemap in memory."
+  - "PDO's MySQL driver buffers full result sets by default, so disable buffered queries and wrap the cursor in a generator that yields one row at a time."
+  - "The generator should shard automatically into a new file every 50,000 URLs, with one sitemap index file submitted to Search Console and robots.txt."
+  - "Only indexable, published pages belong in the source query, because listing noindexed or unpublished pages wastes crawl budget."
 image: "/wp-content/uploads/2026/08/Large-Scale-XML-Sitemap.webp"
 imageAlt: "Large Scale XML Sitemaps"
 words: 1599

@@ -8,6 +8,12 @@ categories: ["technical-seo"]
 primaryCategory: "technical-seo"
 description: "Referral spam explained: crawler spam vs ghost spam, why GA4's unwanted referrals list has a real blind spot, and how to actually filter it out."
 focusKeyword: "Referral spam"
+takeaways:
+  - "Referral spam comes as crawler spam that actually visits a site and ghost spam that sends fake hits straight to GA4 using a Measurement ID."
+  - "A referral source driving hundreds of sessions with near-zero engagement and only a few seconds per session is almost certainly spam."
+  - "GA4's unwanted referrals list allows up to 50 domains per data stream, but it only reroutes spam into the Direct channel rather than deleting it."
+  - "An Exclude data filter for known spam domains, plus a valid hostname filter, gives stronger protection, especially against ghost spam."
+  - "GA4 data filters are not retroactive, so referral sources need monthly review and historical reports keep any spam already recorded."
 image: "/wp-content/uploads/2026/08/Referral-spam.webp"
 imageAlt: "Referral spam"
 words: 1276

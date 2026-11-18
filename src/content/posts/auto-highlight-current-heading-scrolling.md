@@ -8,6 +8,12 @@ categories: ["technical-seo"]
 primaryCategory: "technical-seo"
 description: "Auto highlight current heading scrolling: real IntersectionObserver code, the short last-section fix, and fixed-header offset handling."
 focusKeyword: "highlight current heading scrolling"
+takeaways:
+  - "Scrollspy highlights the table of contents link for the section currently visible, and IntersectionObserver does this more efficiently than scroll listeners."
+  - "A rootMargin bottom value of -70% means only headings in the top 30% of the viewport count as active."
+  - "The last heading on a page is often too short to cross the threshold, so a scroll-position check near the page bottom should force-activate it."
+  - "A fixed header can be handled by adding a negative top rootMargin equal to the header's height."
+  - "The script should only toggle an active class, with all visual styling kept in CSS."
 image: "/wp-content/uploads/2026/08/highlight-current-heading-scrolling.webp"
 imageAlt: "highlight current heading scrolling"
 words: 1410

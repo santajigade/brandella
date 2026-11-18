@@ -8,6 +8,12 @@ categories: ["technical-seo"]
 primaryCategory: "technical-seo"
 description: "Bot traffic in GA4 explained: the four filtering layers, warning signs to check, and why GA4's built-in filter alone won't catch sophisticated bots."
 focusKeyword: "bot traffic in GA4"
+takeaways:
+  - "GA4 automatically excludes known bots using Google research and the IAB/ABC International Spiders and Bots List, but it cannot be disabled or measured."
+  - "Headless browsers, referral spam, internal QA traffic and AI crawlers pass straight through the built-in filter."
+  - "Warning signs include zero engagement time, many one-page sessions, spikes at unusual hours, suspicious referrers and unrealistic device combinations."
+  - "KISSmetrics recommends four layers: internal traffic filters, hostname and unwanted referral filters, engagement segments in Explorations, and server-side detection."
+  - "GA4 can only reveal bot symptoms, so actually blocking bots requires a WAF, Cloudflare or a click-level protection layer."
 image: "/wp-content/uploads/2026/08/bot-traffic-in-GA4.webp"
 imageAlt: "bot traffic in GA4"
 words: 1384

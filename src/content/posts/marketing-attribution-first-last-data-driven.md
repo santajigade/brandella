@@ -8,6 +8,12 @@ categories: ["paid-media-analytics"]
 primaryCategory: "paid-media-analytics"
 description: "Marketing attribution explained: how first click, last click, and data-driven models differ, and why Google removed four models from its products in 2023."
 focusKeyword: "Marketing attribution"
+takeaways:
+  - "First-click gives 100% of credit to the first touchpoint and shows what starts journeys, while last-click gives 100% to the final touchpoint before conversion."
+  - "Last-click overvalues closing channels such as brand search and retargeting while undervaluing the channels that created demand in the first place."
+  - "Data-driven attribution uses machine learning to compare converting and non-converting paths, and Google found it improved conversions by 6% at the same ROAS."
+  - "Google removed first-click, linear, time-decay and position-based models in 2023, leaving last-click and data-driven as the only options in GA4 and Google Ads."
+  - "Data-driven attribution needs roughly 300-400+ conversions to be reliable, so low-volume accounts may do better with last-click plus incrementality testing."
 image: "/wp-content/uploads/2026/08/Marketing-attribution.webp"
 imageAlt: "Marketing attribution"
 words: 1251

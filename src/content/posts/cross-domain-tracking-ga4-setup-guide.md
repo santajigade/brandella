@@ -8,6 +8,12 @@ categories: ["technical-seo"]
 primaryCategory: "technical-seo"
 description: "Cross domain tracking in GA4, fully explained: exact setup steps, the _gl parameter, common failure points, and the referral exclusion step people skip."
 focusKeyword: "Cross domain tracking"
+takeaways:
+  - "Without cross domain tracking, a visitor moving between separate root domains gets new cookies and IDs, so GA4 counts them as a new user."
+  - "GA4 passes identifiers between domains through the _gl URL parameter, whose timestamp invalidates after roughly two minutes by design."
+  - "Subdomains are handled automatically, but www and non-www versions and every other domain in the journey must be listed separately."
+  - "The native setup only works on link clicks, so form submissions and server-side redirects need extra custom handling."
+  - "Add your own domains to the Unwanted Referrals list and force HTTPS throughout, because HTTPS to HTTP downgrades strip the _gl parameter."
 image: "/wp-content/uploads/2026/08/Cross-domain-tracking.webp"
 imageAlt: "Cross domain tracking"
 words: 1395

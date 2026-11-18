@@ -8,6 +8,12 @@ categories: ["social"]
 primaryCategory: "social"
 description: "Social media KPIs every marketer should track: the real engagement rate formula, why only 23% measure ROI correctly, and the 4-6 KPI dashboard rule."
 focusKeyword: "Social Media KPIs"
+takeaways:
+  - "Only 23% of social marketers use social data to measure ROI, and a true KPI connects to revenue, growth or retention within two steps."
+  - "Engagement rate should be calculated as total engagements divided by reach, multiplied by 100, using the same denominator in every reporting period."
+  - "InfluencerDB groups social KPIs into distribution, attention, action and risk or quality categories, with saves and shares often better leading indicators than likes."
+  - "DesignRush's 2026 survey found lead generation is the most common official team KPI, named by 40% of respondents."
+  - "Buffer's 2026 study found replying to comments boosts engagement by 21% on Instagram, 30% on LinkedIn and 42% on Threads."
 image: "/wp-content/uploads/2026/08/Social-Media-KPIs.webp"
 imageAlt: "Social Media KPIs"
 words: 1158
