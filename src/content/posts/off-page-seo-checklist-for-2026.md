@@ -8,6 +8,12 @@ categories: ["link-building", "seo"]
 primaryCategory: "link-building"
 description: "Use this off page SEO checklist for 2026 to build quality backlinks, strengthen domain authority, improve brand mentions, and increase search visibility."
 focusKeyword: "off page seo checklist"
+takeaways:
+  - "Ahrefs measured 75,000 brands and found unlinked brand mentions predicted AI search visibility three times better than backlinks did."
+  - "Split off-page time roughly 50% on link-focused work and 50% on brand-signal work, since a 90/10 split toward link outreach is inverted for 2026."
+  - "Read Google's link spam policies quarterly and stop any tactic described there immediately, before a core update or manual action decides for you."
+  - "Off-page work only succeeds when a site has genuinely linkable assets, because other websites link to real value, not generic product pages or contact forms."
+  - "Track branded search volume and referring domain growth alongside rankings, because off-page SEO now also shapes how often AI systems cite a brand."
 image: "/wp-content/uploads/2026/08/Off-Page-SEO-Checklist.webp"
 imageAlt: "Off Page SEO"
 words: 1409

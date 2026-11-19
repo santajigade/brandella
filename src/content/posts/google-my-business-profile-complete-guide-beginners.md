@@ -8,6 +8,12 @@ categories: ["local-seo", "seo"]
 primaryCategory: "local-seo"
 description: "Google My Business Profile helps businesses improve local visibility, manage listings, attract customers, and appear prominently in Google Search and Maps."
 focusKeyword: "Google My Business Profile"
+takeaways:
+  - "Complete Google Business Profiles get 70% more location visits than incomplete ones."
+  - "Set up your profile at business.google.com with a Google account the business controls long-term, not a temporary employee's personal account."
+  - "Choosing the narrowest accurate primary category is the single biggest ranking lever, sometimes changing Maps visibility more than any other edit."
+  - "Review velocity matters more than total volume, so four recent reviews this month outweigh fifty old ones from years ago."
+  - "Keep your business name, address and phone number identical everywhere, and expect measurable changes within four to eight weeks of a full optimization pass."
 image: "/wp-content/uploads/2026/08/Google-My-Business-Profile.webp"
 imageAlt: "Google My Business Profile"
 words: 1312

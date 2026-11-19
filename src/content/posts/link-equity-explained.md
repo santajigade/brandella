@@ -8,6 +8,12 @@ categories: ["link-building", "seo"]
 primaryCategory: "link-building"
 description: "Link equity explained: how authority flows through internal and external links, what determines link value, and how to fix common equity leaks."
 focusKeyword: "link equity"
+takeaways:
+  - "Link equity is the authority, trust and ranking power that passes from one page to another through a hyperlink, rooted in Google's 1998 PageRank algorithm."
+  - "Equity divides among a page's dofollow outgoing links, so 5 links give each destination roughly 20% while 50 links give each roughly 2%."
+  - "Links from authoritative, topically relevant sites pass more equity, and dofollow links pass equity while nofollow links do not by default."
+  - "Under the Reasonable Surfer model, a contextual link in the first paragraph passes more equity than an identical link buried in a footer."
+  - "Broken internal links are the most common equity leak, and in 2016 Google's Gary Illyes clarified that 301 and 302 redirects retain all PageRank."
 image: "/wp-content/uploads/2026/08/link-equity.webp"
 imageAlt: "link equity"
 words: 1821

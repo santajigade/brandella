@@ -8,6 +8,12 @@ categories: ["google-ads"]
 primaryCategory: "google-ads"
 description: "Value based bidding in Google Ads explained: how tROAS differs from tCPA, the June 2026 rename, and the August 17 change to budget-limited campaigns."
 focusKeyword: "Value Based Bidding"
+takeaways:
+  - "Value based bidding tells Google Ads what each conversion is worth, so the algorithm chases the most valuable conversions instead of the largest number of them."
+  - "Starting June 2026, Google renamed its strategies to simply Target CPA and Target ROAS, and says the underlying bidding behavior is unchanged."
+  - "Demand Gen campaigns need at least 50 conversions with value in the past 35 days, including a minimum of 10 in the past 7 days."
+  - "Assign a distinct value to each conversion action, such as $500 for a booked demo, $200 for a free trial and $15 for a content download."
+  - "Set your initial Target ROAS roughly 20% below your historical ROAS, so a 500% history means starting the target at 400%."
 image: "/wp-content/uploads/2026/08/Value-Based-Bidding.webp"
 imageAlt: "Value Based Bidding"
 words: 1444

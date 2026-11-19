@@ -8,6 +8,12 @@ categories: ["google-ads"]
 primaryCategory: "google-ads"
 description: "Enhanced conversions explained: how the June 2026 unified setup works, real ROAS and CPA data, and the Consent Mode v2 mistake that silently breaks it."
 focusKeyword: "Enhanced Conversions"
+takeaways:
+  - "Enhanced conversions sends hashed first-party data, such as an email, name, address or phone number, to Google using SHA-256 alongside your normal conversion tag."
+  - "Since June 2026, enhanced conversions for web and enhanced conversions for leads use one unified on and off setting instead of two separate toggles."
+  - "Enhanced conversions does not instantly boost performance; its real value is better tracking accuracy and attribution, which then feeds better Smart Bidding decisions."
+  - "To set it up, open your conversion action settings in Google Ads, turn on enhanced conversions and accept the customer data terms."
+  - "Configure Consent Mode v2 with ad_user_data set to granted, because without it your hashed data gets silently dropped."
 image: "/wp-content/uploads/2026/08/Enhanced-Conversions.webp"
 imageAlt: "Enhanced Conversions"
 words: 1269

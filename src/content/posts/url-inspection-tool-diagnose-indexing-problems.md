@@ -8,6 +8,12 @@ categories: ["seo", "technical-seo"]
 primaryCategory: "technical-seo"
 description: "Learn how to use Google's URL Inspection tool to diagnose indexing problems: reading coverage statuses, canonical mismatches, and the Live Test mode."
 focusKeyword: "URL Inspection Tool"
+takeaways:
+  - "The URL Inspection tool shows whether a page is indexed, when it was last crawled, which canonical Google selected and any structured data or mobile issues."
+  - "The default view shows what Google stored from its last successful crawl, while the Live Test checks the page as it is now, including JavaScript rendering."
+  - "Discovered currently not indexed means Google knows the URL exists but has not crawled it yet, often because of crawl budget limits."
+  - "Crawled currently not indexed means Google already evaluated the page and made a deliberate quality decision not to index it."
+  - "Before clicking Request Indexing, confirm robots.txt and meta tags are not blocking the page and that Google's selected canonical matches yours."
 image: "/wp-content/uploads/2026/08/URL-Inspection-Tool.webp"
 imageAlt: "URL Inspection Tool"
 words: 1727

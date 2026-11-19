@@ -8,6 +8,12 @@ categories: ["local-seo", "seo"]
 primaryCategory: "local-seo"
 description: "Local citations explained: what they are, why NAP consistency drives rankings, and how to build a citation profile that boosts local pack visibility in 2026."
 focusKeyword: "local citations"
+takeaways:
+  - "A local citation is any online mention of your business name, address and phone number, whether on a directory, a review site or a local news page."
+  - "Citation signals account for roughly 7% of local pack ranking weight in the 2026 Whitespark study, less than Google Business Profile but still essential."
+  - "Businesses with consistent NAP data across major citation sources are 40% more likely to appear in the Google Local Pack."
+  - "Fix your details at data aggregators like Data Axle and Localeze first, because they feed hundreds of downstream directories automatically."
+  - "Focus on 30 to 50 high-quality citations on tier-1 platforms rather than spreading effort across hundreds of low-authority directories."
 image: "/wp-content/uploads/2026/08/local-citations.webp"
 imageAlt: "local citations"
 words: 1738

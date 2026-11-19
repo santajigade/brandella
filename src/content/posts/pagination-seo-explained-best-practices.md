@@ -8,6 +8,12 @@ categories: ["seo", "technical-seo"]
 primaryCategory: "technical-seo"
 description: "Learn pagination SEO best practices for large websites. Discover how to optimize paginated pages, improve crawling, indexing, and user experience."
 focusKeyword: "Pagination SEO"
+takeaways:
+  - "Google confirmed in 2019 that it no longer uses rel next and rel prev markup for indexing at all."
+  - "Never canonicalize paginated pages to page 1; Google's guidance says to give each page in a sequence its own canonical URL."
+  - "Use real HTML pagination links, because links that exist only after JavaScript runs cause discovery delays in Googlebot's two-phase crawl."
+  - "Single-page applications must update the URL through the browser's History API, or crawlers see no distinct page to index."
+  - "Deep pagination buries older content many clicks from the homepage, so link directly to genuinely important deep pages from elsewhere on the site."
 image: "/wp-content/uploads/2026/08/Pagination-SEO.webp"
 imageAlt: "Pagination SEO"
 words: 1466

@@ -8,6 +8,12 @@ categories: ["seo", "technical-seo"]
 primaryCategory: "technical-seo"
 description: "URL parameters don't directly hurt SEO Google ignores them for ranking. But mismanaged ones waste crawl budget and split link equity. Here's how to fix it."
 focusKeyword: "URL Parameters"
+takeaways:
+  - "URL parameters are values added after a question mark, such as ?color=blue or ?utm_source=email, used for tracking, filtering, sorting and pagination."
+  - "Never use UTM parameters on internal links, because crawlers treat each parameterized link as a unique URL that leads to the same page."
+  - "Point tracking and filter parameter URLs back to the clean version of the page with a canonical tag."
+  - "Google removed the URL Parameters tool from Search Console in 2022, so site owners now rely on canonical tags, robots.txt and SEO crawler tools."
+  - "UTM parameters do not directly affect rankings, but parameter sprawl wastes crawl budget and splits backlink authority across duplicate URLs."
 image: "/wp-content/uploads/2026/08/URL-Parameters.webp"
 imageAlt: "URL Parameters"
 words: 1508

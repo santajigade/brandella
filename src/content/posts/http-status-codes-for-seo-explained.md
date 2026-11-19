@@ -8,6 +8,12 @@ categories: ["seo", "technical-seo"]
 primaryCategory: "technical-seo"
 description: "A 200 status on a broken page is worse than an honest 404. HTTP status codes for SEO explained 301 vs 302, 404 vs 410, soft 404s, and a decision tool."
 focusKeyword: "HTTP Status Codes"
+takeaways:
+  - "A 200 OK status on a broken or empty page creates a soft 404, which wastes crawl budget while telling search engines everything is fine."
+  - "301 permanent redirects consolidate ranking signals from the old URL to the new one, while 302 temporary redirects do not."
+  - "Both 404 and 410 tell Google a page is not live, but 410 states the removal explicitly and permanently."
+  - "During planned downtime, return 503 with a Retry-After header so Google re-checks later instead of treating the outage as permanent removal."
+  - "Sustained 5xx errors make Google reduce its crawl rate, and redirect chains can leak ranking signal, so keep redirects to a single hop."
 image: "/wp-content/uploads/2026/08/HTTP-Status-Codes.webp"
 imageAlt: "HTTP Status Codes"
 words: 1469

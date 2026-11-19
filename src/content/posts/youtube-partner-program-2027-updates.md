@@ -8,6 +8,12 @@ categories: ["social"]
 primaryCategory: "social"
 description: "YouTube Partner Program changes take effect February 1, 2027. New Shorts thresholds, activity rules, and a January 31 deadline creators need to know."
 focusKeyword: "YouTube Partner Program"
+takeaways:
+  - "YouTube's biggest Partner Program changes since 2018 take effect February 1, 2027, and channels already in the program keep their status."
+  - "From February 1, 2027, creators need 10 million qualified Shorts views over the last 90 days to earn ad and subscription revenue on Shorts."
+  - "New applicants will need 1,000 subscribers plus 8,000 qualified watch hours in the past year or 20 million qualified Shorts views in 90 days."
+  - "Current partners must accept the Watch Page, Shorts and, where relevant, Commerce Product monetization modules in YouTube Studio by January 31, 2027."
+  - "A channel stays active with 1,000 qualified watch hours in a year, 1 million qualified Shorts views in 90 days, or two long-form videos or five Shorts every 90 days."
 image: "/wp-content/uploads/2026/08/YouTube-Partner-Program.webp"
 imageAlt: "YouTube Partner Program"
 words: 1842

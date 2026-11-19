@@ -8,6 +8,12 @@ categories: ["mobile-seo", "seo"]
 primaryCategory: "mobile-seo"
 description: "Learn how to identify and fix mobile usability issues in Google Search Console. Improve mobile experience, resolve errors, and boost your SEO rankings."
 focusKeyword: "Mobile Usability"
+takeaways:
+  - "Google's Mobile Usability report lists four problems: text too small, clickable elements too close, content wider than the screen and a missing viewport tag."
+  - "Google flags body text smaller than 12px, but a base font size of at least 16px set in rem units is the safer target."
+  - "Google recommends tap targets of at least 48x48 pixels, with enough spacing that a fingertip cannot accidentally touch two links at once."
+  - "Content wider than the screen usually comes from images or embeds without a width attribute, or from CSS failing to load for Googlebot."
+  - "After fixing, check the page with the URL Inspection tool, click Validate Fix in the Mobile Usability report and test on an actual phone."
 image: "/wp-content/uploads/2026/08/Mobile-Usability.webp"
 imageAlt: "Mobile Usability"
 words: 1204

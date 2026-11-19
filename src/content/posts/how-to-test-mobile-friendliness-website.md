@@ -8,6 +8,12 @@ categories: ["mobile-seo", "seo"]
 primaryCategory: "mobile-seo"
 description: "Google retired its Mobile-Friendly Test tool in 2023. Learn the current tools and step-by-step process to test mobile friendliness properly in 2026."
 focusKeyword: "mobile friendliness"
+takeaways:
+  - "Google retired its standalone Mobile-Friendly Test tool and the Search Console Mobile Usability report in December 2023."
+  - "Google PageSpeed Insights now runs a full Lighthouse audit with mobile and desktop tabs for any URL, with no installation needed."
+  - "Chrome DevTools includes the same Lighthouse engine, so you can run a mobile emulation audit locally without leaving your browser."
+  - "Search Console's Core Web Vitals report groups every URL on a site by status, so problems affecting hundreds of pages are not missed."
+  - "Most mobile failures trace back to a missing viewport meta tag, and body text should stay at 16px or larger on mobile."
 image: "/wp-content/uploads/2026/08/mobile-friendliness.webp"
 imageAlt: "mobile friendliness"
 words: 1585

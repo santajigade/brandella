@@ -8,6 +8,12 @@ categories: ["google-search-console"]
 primaryCategory: "google-search-console"
 description: "Google's August 2026 spam update explained: what it targets, who was hit and a step-by-step checklist to recover lost rankings."
 focusKeyword: "august 2026 spam update"
+takeaways:
+  - "Google began rolling out the August 2026 spam update on August 18 at 9:27 a.m. Pacific, its third spam update of 2026 after March and June."
+  - "The update applies globally and to all languages, and Google said the rollout may take a few days to complete."
+  - "No new spam policy was announced; the update targets sites violating existing spam policies and does not target link spam or site reputation abuse."
+  - "Rollout speed varies a lot between spam updates, and a fast rollout alone does not indicate how severe an update is."
+  - "Avoid reacting to day-one fluctuations and review Search Console data from August 18 onward once the rollout has substantially completed."
 image: "/wp-content/uploads/2026/08/August-2026-spam-update.webp"
 imageAlt: "August 2026 spam update"
 words: 1061

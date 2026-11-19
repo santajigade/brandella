@@ -8,6 +8,12 @@ categories: ["seo", "technical-seo"]
 primaryCategory: "technical-seo"
 description: "Is AMP still relevant in 2026? The badge is gone, Top Stories no longer requires it. Here's what replaced AMP and whether you still need it."
 focusKeyword: "Is AMP Still Relevant"
+takeaways:
+  - "For nearly every new website AMP is no longer relevant in 2026, and Google gives AMP pages no ranking advantage."
+  - "In 2021 Google removed AMP as a Top Stories requirement, so non-AMP pages meeting Core Web Vitals thresholds can compete equally."
+  - "The AMP WordPress plugin has seen an 80% drop in downloads from its peak, and most major publishers have migrated away entirely."
+  - "Core Web Vitals measure real user experience through LCP, INP and CLS on whatever page architecture you choose."
+  - "The modern replacement for AMP means engineering for Core Web Vitals by inlining critical CSS, lazy loading below-the-fold images and using next-gen image formats."
 image: "/wp-content/uploads/2026/08/is-AMP-still-relevant.webp"
 imageAlt: "is AMP still relevant"
 words: 1631

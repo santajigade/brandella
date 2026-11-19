@@ -8,6 +8,12 @@ categories: ["seo", "technical-seo"]
 primaryCategory: "technical-seo"
 description: "Soft 404 errors explained simply: what causes them, how to spot them in Search Console, and the easy fixes for each type."
 focusKeyword: "soft 404"
+takeaways:
+  - "A soft 404 is a label Google adds when a page returns a 200 OK status but looks empty or like an error page."
+  - "Common causes include deleted pages redirected to the homepage, thin or blank placeholder pages and CMS platforms that quietly generate empty pages."
+  - "Find them in the Google Search Console Indexing report by opening the full report and clicking the entry labeled Soft 404."
+  - "If a page should be gone, make it return a proper 404 or 410 status code, and Google will remove it from the index."
+  - "If a page should exist, add real content to it, and send moved pages to their closest relevant match with a 301 redirect."
 image: "/wp-content/uploads/2026/08/soft-404.webp"
 imageAlt: "soft 404"
 words: 1634

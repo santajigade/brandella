@@ -8,6 +8,12 @@ categories: ["off-page-seo", "seo"]
 primaryCategory: "off-page-seo"
 description: "Brand authority vs domain authority: Google confirms it doesn't use DA at all, while brand signals increasingly drive AI search citations in 2026."
 focusKeyword: "brand authority vs domain authority"
+takeaways:
+  - "Google does not use Domain Authority, a Moz metric created in 2004, and John Mueller has repeatedly said it plays no role in ranking."
+  - "Domain Authority predicts how likely a site is to rank on a logarithmic 1 to 100 scale, based on the number and quality of linking domains."
+  - "The May 2024 Google Content Warehouse API leak, with 2,596 modules and 14,014 attributes, showed Google does track a site-level siteAuthority signal."
+  - "Brand authority is a brand's credibility, recognizability and trustworthiness in its industry, shaped by audience perception rather than technical link metrics."
+  - "Domain Authority stays useful for benchmarking and link prospecting, but brand authority should be the priority, built through earned media, digital PR and sameAs schema."
 image: "/wp-content/uploads/2026/08/brand-authority-vs-domain-authority.webp"
 imageAlt: "brand authority vs domain authority"
 words: 1710

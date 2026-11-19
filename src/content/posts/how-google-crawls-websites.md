@@ -8,6 +8,12 @@ categories: ["seo", "technical-seo"]
 primaryCategory: "seo"
 description: "How Google Crawls Websites? Google indexes only 30-60% of a typical site's pages. Learn the full discovery-to-indexing pipeline, the two-wave rendering process."
 focusKeyword: "How Google Crawls Websites"
+takeaways:
+  - "According to Google's John Mueller, Google indexes only 30 to 60% of a typical website's pages."
+  - "Google's pipeline runs through discovery, crawling, rendering and indexing, and new links found during rendering can loop back into discovery."
+  - "Discovery starts from previously crawled pages, known backlinks, submitted XML sitemaps and pages submitted manually through Search Console."
+  - "Googlebot first reads the raw HTML without JavaScript, then runs a slower rendering pass, so heavy JavaScript without server-side rendering delays indexing."
+  - "Crawled currently not indexed means a page failed the quality evaluation, while discovered currently not indexed means Google has not crawled it yet."
 image: "/wp-content/uploads/2026/08/How-Google-Crawls-Websites.webp"
 imageAlt: "How Google Crawls Websites"
 words: 1147

@@ -8,6 +8,12 @@ categories: ["seo", "technical-seo"]
 primaryCategory: "technical-seo"
 description: "Faceted navigation SEO: 7 common mistakes that waste crawl budget and tank rankings on ecommerce sites, with real fixes and a risk checker tool."
 focusKeyword: "Faceted Navigation SEO"
+takeaways:
+  - "A catalog with four filters of ten options each can generate over 10,000 URL combinations, and almost none of them deserve to be indexed."
+  - "The most damaging mistake is letting every filter combination become indexable without canonical tags or indexation controls of any kind."
+  - "Canonicalize low-demand filter URLs to the parent category, and give high search-demand combinations dedicated pages with a unique H1 and self-referencing canonical."
+  - "Enforce a fixed parameter order, because ?color=black&size=10 and ?size=10&color=black can create two separate crawlable URLs for identical content."
+  - "Handle sort orders and view toggles with AJAX and no URL change, so they create no extra URLs and no crawl waste."
 image: "/wp-content/uploads/2026/08/Faceted-Navigation-SEO.webp"
 imageAlt: "Faceted Navigation SEO"
 words: 1741
