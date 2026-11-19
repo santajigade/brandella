@@ -1,0 +1,338 @@
+seoTitle: "Competitor Gap Analysis Template for SEO and AI Search"
+h1: "Competitor Gaps Kit: Excel Gap Finder, Full Guide and AI Prompts"
+focusKeyword: competitor gap analysis template
+description: "Free competitor gap analysis template in Excel: sort every keyword into 7 gap types, score the opportunity, estimate click upside and track AI answer gaps."
+published: 2026-11-19
+updated: 2026-11-19
+time: 2 to 4 hours for your first full gap analysis
+level: Beginner to advanced
+kit: true
+tabs: 10
+intro:
+  - "Every SEO tool can export a list of keywords your competitors rank for. The hard part is deciding which of those hundreds of rows deserve a page, an upgrade or nothing at all. This free <strong>competitor gap analysis template</strong> is a complete working kit that does that sorting for you: an Excel Gap Finder that puts every keyword into one of 7 gap types, scores the opportunity, estimates the click upside, writes the next play and builds a top 10 list."
+  - "It is built for the AI search era. Your competitors now win in two places: the classic results and the AI answers that sit above them. The kit adds an AI Answer Gaps tab, so you can record which sites AI Overviews, AI Mode and AI assistants mention and link for your most important questions, and see where only your competitors show up."
+kitContents:
+  - t: "Excel workbook, 10 tabs"
+    d: "Gap Finder (500 ready rows with 15 automatic columns), Competitors with estimated share of clicks, Dashboard with two charts and a top 10 list, AI Answer Gaps, Action Plan, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "28 keywords, 4 competitors, 12 AI answer checks and 6 planned actions for a fictional invoicing app, so you see every gap type, score and play working before you add your own data."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to read offline or share with your team."
+  - t: "22 AI prompts"
+    d: "Prompts to find your real search competitors, explain why they win, plan pages, test AI answers and write briefs, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole gap analysis process on one page, to tick off every quarter."
+steps:
+  - t: List your real search competitors
+    d: "On the Competitors tab, add your site and up to 4 sites that keep showing up on page one for your main keywords. They may be publishers, template sites or forums, not only the companies you sell against."
+  - t: Export rankings from one tool
+    d: "From one SEO tool (Semrush, Ahrefs, Moz, SE Ranking or similar), export the organic keywords for your site and each competitor, with position, volume and keyword difficulty. Use the same tool and country for every site."
+  - t: Paste one row per keyword
+    d: "In the Gap Finder, paste each keyword with its volume, difficulty and every site's position. Leave a position blank when that site does not rank. The four competitor columns take their names from the Competitors tab."
+  - t: Add intent, value and AI Overview
+    d: "Choose the search intent, give a business value from 1 to 3 and mark whether an AI Overview shows. Our <a href=\"/resources/seo-aeo-assets/search-intent/\">search intent kit</a> helps with tricky queries."
+  - t: Check the AI answers
+    d: "Ask your 10 to 30 most important questions in AI Overviews, AI Mode and at least one AI assistant. On the AI Answer Gaps tab, record who was mentioned and who was linked, with the date."
+  - t: Read the gap types and the top 10
+    d: "The Gap Finder labels each keyword Missing, Untapped, Weak, Shared, Strong, Unique or Open, scores it and writes the play. The Dashboard lists the 10 best opportunities."
+  - t: Move the winners to the Action Plan
+    d: "Copy the keywords you will act on into the Action Plan, choose Target, Monitor or Skip, and give every target an owner and a due date. Refresh positions and AI checks every month."
+sections:
+  - h: What competitor gap analysis means in the AI search era
+    html: |
+      <p>A competitor gap analysis compares the keywords you rank for with the keywords your competitors rank for, then decides what to do about the difference. Most tools use the same vocabulary. <a href="https://www.semrush.com/kb/28-keyword-gap" target="_blank" rel="noopener">Semrush's Keyword Gap documentation</a>, for example, defines <strong>Missing</strong> keywords as ones all your competitors rank for but you do not, <strong>Weak</strong> as ones where you rank lower than all competitors, <strong>Untapped</strong> as ones where at least one competitor ranks and you do not, plus Strong, Shared and Unique. This kit uses the same idea, with a ranking threshold you control.</p>
+      <p>Three things change the job now:</p>
+      <ul>
+        <li><strong>Your search competitors are not only your business rivals.</strong> <a href="https://blog.hubspot.com/marketing/seo-competitor-analysis" target="_blank" rel="noopener">HubSpot's competitor analysis guide</a> puts it plainly: SEO competitors are any sites ranking for your target queries, even if they sell nothing like you. Publishers, template sites, marketplaces and forums often take more of your clicks than the company you think of as your rival.</li>
+        <li><strong>AI answers are a second results page.</strong> Google says AI Overviews and AI Mode <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">may run several related searches</a> across subtopics and sources, and can show a wider and more diverse set of links than a classic search. A competitor can be linked in the answer while you rank on page one below it. That is a gap a keyword export never shows.</li>
+        <li><strong>Copying the competitor is not a strategy.</strong> Google's <a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" target="_blank" rel="noopener">helpful content guidance</a> asks whether your content provides substantial value when compared to other pages in search results, and whether it avoids simply copying or rewriting other sources. Its <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" target="_blank" rel="noopener">guide to generative AI features</a> says non commodity content, with expert or experienced takes beyond common knowledge, will likely influence your presence in AI search more than any other suggestion in that guide.</li>
+      </ul>
+      <p>So the goal of a gap analysis is not "make a page for every keyword they have". It is "find the gaps that matter to the business, and close each one with something better than what ranks today".</p>
+  - h: What is inside the competitor gap workbook
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>Gap Finder</td><td>One row per keyword. Counts competitors in the top N, finds the best competitor, labels the gap type, works out positions to gain, scores the opportunity, sets the priority, writes the play and estimates clicks now and click upside.</td><td>Keyword, topic, intent, volume, KD, business value, your position and URL, 4 competitor positions, AI Overview</td></tr>
+          <tr><td>Competitors</td><td>Your site and up to 4 competitors: keywords in the top N and top 3, estimated clicks and share of clicks, keywords where they beat you, gap volume and AI answer mentions.</td><td>Name, domain, site type, notes</td></tr>
+          <tr><td>Dashboard</td><td>Key numbers, a gap type table, a share of clicks table, the top 10 opportunities and two charts.</td><td>Nothing</td></tr>
+          <tr><td>AI Answer Gaps</td><td>One row per prompt and AI engine: counts competitors mentioned, sets a status (Cited, Mentioned not linked, Competitor only, Nobody in your set, No AI answer) and the next step.</td><td>Prompt, engine, date, who was mentioned and linked</td></tr>
+          <tr><td>Action Plan</td><td>Your target queue. Pulls gap type, score, priority, best competitor, upside and play from the Gap Finder and flags missing owners and overdue items.</td><td>Keyword, decision, content type, URL, owner, date, status</td></tr>
+          <tr><td>Settings</td><td>Ranking threshold, weak gap, site stage, score weights, priority bands, assumed CTR by position, new page format by intent, dropdown lists.</td><td>Optional tuning</td></tr>
+          <tr><td>AI Prompts, Checklist, Sources</td><td>All 22 prompts, the process with automatic progress, and where every fact and assumption comes from.</td><td>Yes or No per step</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas. All 500 Gap Finder rows, 300 AI check rows and 150 Action Plan rows are ready with formulas and dropdowns.</p>
+  - h: The 7 gap types and what to do with each
+    html: |
+      <p>A site "ranks" when its position is inside your threshold (top 20 by default, editable on Settings). The Gap Finder then applies these rules in order:</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Gap type</th><th>Rule in the workbook</th><th>Usual play</th></tr></thead>
+        <tbody>
+          <tr><td>Missing</td><td>You do not rank, every active competitor does.</td><td>Strongest signal of a real gap. New page, or rework an existing page that should rank.</td></tr>
+          <tr><td>Untapped</td><td>You do not rank, at least one competitor does.</td><td>New page if the value is there. Check the format the ranking competitor uses.</td></tr>
+          <tr><td>Weak</td><td>You rank, but the best competitor is at least 5 positions ahead (editable).</td><td>Upgrade your page: depth, first hand detail, internal links, title.</td></tr>
+          <tr><td>Shared</td><td>You rank and you are close to the best competitor, or ahead of some.</td><td>Refresh and add internal links. Small effort, often a quick win.</td></tr>
+          <tr><td>Strong</td><td>You rank above every competitor that ranks.</td><td>Defend: keep it the best answer and refresh it before rivals catch up.</td></tr>
+          <tr><td>Unique</td><td>You rank and no competitor does.</td><td>Protect and expand. These are often your clearest strengths.</td></tr>
+          <tr><td>Open</td><td>Nobody in your set ranks.</td><td>Validate demand first. It may be a real opening or a keyword nobody needs.</td></tr>
+        </tbody>
+      </table></div>
+      <p>Two filters sit on top. Keywords with business value 1 get the priority Monitor and the play "Monitor: low business value", however big the volume. Navigational keywords for another brand (like a competitor's login page) get "Usually skip: people want another brand". Both stay out of the top 10.</p>
+  - h: How the opportunity score and click upside work (with a worked example)
+    html: |
+      <p>Every keyword gets an Opportunity score from 0 to 100, built from four parts. The weights are editable on Settings.</p>
+      <ul>
+        <li><strong>Volume (weight 30).</strong> Log scaled, so full points at 10,000 searches and a 1,000 search keyword still scores well.</li>
+        <li><strong>Ease (weight 20).</strong> Full points when the keyword difficulty is at or below what your site stage can comfortably win (15, 30 or 50), falling to zero 40 points above it.</li>
+        <li><strong>Business value (weight 30).</strong> Your 1 to 3 score divided by 3.</li>
+        <li><strong>Competitor proof (weight 20).</strong> The share of your competitors that rank in the top N. If every rival ranks, the topic clearly matters in your market.</li>
+      </ul>
+      <p>85 or more is P1, 70 or more is P2, the rest P3. Strong and Unique keywords show Defend instead.</p>
+      <p>The <strong>click upside</strong> is an estimate: monthly volume times the assumed click through rate at the best competitor's position (or position 5 when nobody ranks), minus your estimated clicks today. The CTR by position table on Settings is a set of starter assumptions chosen for this kit (25 percent at position 1 down to 1.5 percent at position 10, and 0.5 percent beyond), not a published benchmark. Replace it with your own Search Console CTR by position as soon as you can.</p>
+      <p><strong>Worked example 1: a Missing gap.</strong> In the demo, LedgerLeaf does not rank for "gst invoice format in excel" (2,400 searches, KD 22, business value 3). All 4 competitors rank in the top 20, at positions 4, 7, 15 and 2, so the gap type is Missing and the best competitor is FormFolio at position 2.</p>
+      <ul>
+        <li>Volume: log(2,401) divided by log(10,001) is about 0.85.</li>
+        <li>Ease: KD 22 is below the growing site comfort level of 30, so 1.</li>
+        <li>Business value: 3 divided by 3 is 1. Competitor proof: 4 of 4, so 1.</li>
+      </ul>
+      <p>Weighted: (30 x 0.85 + 20 x 1 + 30 x 1 + 20 x 1) divided by 100 is about 0.95, so the score is 95 and the priority is P1. The upside is 2,400 x 15 percent (the assumed CTR at position 2) minus 0, which is 360 clicks a month. The play is "New page: a product, tool or template page", because the intent is transactional and LedgerLeaf has no page for it. It tops the Dashboard's top 10.</p>
+      <p><strong>Worked example 2: a Weak gap.</strong> "invoice generator for freelancers" (1,900 searches, KD 45, value 3). LedgerLeaf's tool page sits at position 14. BillNest is at 3 and InvoTrack at 6, so the gap is 11 positions and the type is Weak. Ease is 1 minus (45 minus 30) divided by 40, which is 0.625. Competitor proof is 2 of 4, so 0.5. The score is (30 x 0.82 + 20 x 0.625 + 30 x 1 + 20 x 0.5) divided by 100, about 77, so P2. Estimated clicks today are 1,900 x 0.5 percent, about 10. At position 3 they would be 1,900 x 10 percent, 190, so the upside is 180. The play: "Upgrade /invoice-generator/ to close a gap of 11 positions".</p>
+      <p>Across the whole demo the Competitors tab shows the bigger story: TaxPal Guides, a tax publisher LedgerLeaf never thought of as a rival, takes an estimated 35 percent of the clicks in this keyword set, against LedgerLeaf's 12 percent, and has the largest gap volume (26,870 monthly searches where it ranks and LedgerLeaf does not).</p>
+  - h: Column by column guide to the Gap Finder
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>Keyword, Topic</td><td>The keyword and a short topic label.</td><td>Topics let you filter and spot whole clusters a competitor owns.</td></tr>
+          <tr><td>Search intent</td><td>Informational, commercial, transactional or navigational.</td><td>Sets the new page format in the play.</td></tr>
+          <tr><td>Monthly volume, KD</td><td>From one keyword tool, for one country.</td><td>Never mix sources in one sheet.</td></tr>
+          <tr><td>Business value (1 to 3)</td><td>3 close to a sale or lead, 2 builds trust, 1 loosely related.</td><td>Value 1 rows are set to Monitor.</td></tr>
+          <tr><td>Your position, Your ranking URL</td><td>Your position from the tool or from Search Console, and the page that ranks.</td><td>Search Console shows <a href="https://support.google.com/webmasters/answer/7042828" target="_blank" rel="noopener">average position</a>. Decimals are fine.</td></tr>
+          <tr><td>Competitor positions (4 columns)</td><td>Each competitor's position. Blank when they do not rank.</td><td>Headers take the names from the Competitors tab.</td></tr>
+          <tr><td>AI Overview shows?</td><td>Yes or No, from your own check or your tool's SERP features data.</td><td>Use it to pick prompts for the AI Answer Gaps tab.</td></tr>
+          <tr><td>Competitors in top N, Best competitor position, Best competitor</td><td>Automatic.</td><td>The best competitor is the page to study before you write.</td></tr>
+          <tr><td>Gap type, Positions to gain</td><td>Automatic, see the 7 gap types above.</td><td>Filter on Missing first, then Weak.</td></tr>
+          <tr><td>Opportunity score, Priority</td><td>Automatic 0 to 100, and P1, P2, P3, Defend or Monitor.</td><td>Tune weights on Settings, never by hand.</td></tr>
+          <tr><td>Recommended play</td><td>Automatic next step.</td><td>A starting point. Your judgement decides.</td></tr>
+          <tr><td>Your est. clicks now, Est. click upside</td><td>Automatic, from the assumed CTR table.</td><td>Good for comparing rows, not for forecasting traffic.</td></tr>
+          <tr><td>Est. clicks C1 to C4, Rank key</td><td>Helper columns for the Competitors tab and the top 10.</td><td>Leave them alone.</td></tr>
+        </tbody>
+      </table></div>
+  - h: AI answer gaps, the new layer of competitor analysis
+    html: |
+      <p>Keyword tools tell you who ranks. They do not tell you who the AI answer recommends. HubSpot's guide suggests checking whether competitors are cited in Google AI Overviews, ChatGPT or Perplexity for your queries while you are not, and tracking AI visibility separately from rankings. The AI Answer Gaps tab gives that check a fixed shape.</p>
+      <ol>
+        <li>Pick 10 to 30 questions that matter to revenue: "best [product] for [audience]", "[competitor] alternatives", "how to [job your product does]".</li>
+        <li>Ask each one in Google (AI Overview and AI Mode) and in at least one assistant your buyers use. Use a clean, signed out browser and write down the date.</li>
+        <li>Record whether an AI answer appeared, whether you were mentioned, whether you were linked, which competitors were mentioned and the most cited source.</li>
+      </ol>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Status</th><th>Meaning</th><th>Next step</th></tr></thead>
+        <tbody>
+          <tr><td>Cited</td><td>Your page is linked in the answer.</td><td>Keep it accurate, current and easy to quote.</td></tr>
+          <tr><td>Mentioned, not linked</td><td>The answer names you but links someone else.</td><td>Make your page the clearest, most complete source for that answer.</td></tr>
+          <tr><td>Competitor only</td><td>Competitors appear, you do not.</td><td>Study the cited page, then publish a more useful first hand answer.</td></tr>
+          <tr><td>Nobody in your set</td><td>An answer appears but none of your set is in it.</td><td>Open topic: publish a clear answer page and build mentions.</td></tr>
+          <tr><td>No AI answer</td><td>No AI answer for this wording.</td><td>Track it as a classic search keyword.</td></tr>
+        </tbody>
+      </table></div>
+      <p>Google says there are <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">no additional requirements</a> to appear in AI Overviews or AI Mode: a page must be indexed and eligible to show with a snippet, and normal SEO best practices apply. Traffic from these features is counted in the Search Console Performance report under the Web search type. In the demo, 11 of the 12 checks showed an answer, LedgerLeaf was linked in 2 and only competitors appeared in 5. Our guide to <a href="/what-are-ai-citations/">AI citations</a> explains what earns a link in the answer.</p>
+  - h: Who your real search competitors are
+    html: |
+      <p>Start with the sites that rank, not the sites you compete with in sales meetings. Search your 10 most important keywords, note every domain on page one and keep the 4 that appear most often. Then label each one on the Competitors tab, because the type changes how you compete:</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Site type</th><th>Why they rank</th><th>How to compete</th></tr></thead>
+        <tbody>
+          <tr><td>Business competitor</td><td>Product pages, feature pages, comparisons.</td><td>Honest comparisons, real screenshots, clear pricing and proof.</td></tr>
+          <tr><td>Publisher or blog</td><td>Deep explainers, updated often.</td><td>First hand product knowledge and worked examples a publisher cannot give.</td></tr>
+          <tr><td>Template or marketplace site</td><td>Free downloads that match transactional intent.</td><td>A better template plus guidance, ideally inside your product.</td></tr>
+          <tr><td>Forum or community</td><td>Real experiences and opinions.</td><td>Publish your own experience, data and expert answers. Join the conversation honestly.</td></tr>
+          <tr><td>Review or directory site</td><td>Lists of options with ratings.</td><td>Earn honest reviews and listings rather than trying to outrank them.</td></tr>
+        </tbody>
+      </table></div>
+      <p>For the link side of the picture, see our <a href="/competitor-backlink-analysis/">competitor backlink analysis guide</a>. For the page by page side, our <a href="/content-gap-analysis/">content gap analysis</a> guide shows how to compare one of your pages with the pages that beat it.</p>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: set up.</strong> Name your 4 search competitors, export rankings from one tool and fill the Gap Finder. Add intent and business value to every row.</li>
+        <li><strong>Week 2: quick wins.</strong> Work through Weak and Shared keywords where you already have a page. Upgrading an existing page is usually faster than building a new one.</li>
+        <li><strong>Week 3: AI answers.</strong> Run your 10 to 30 prompts in AI Overviews, AI Mode and one assistant. Fix every "Mentioned, not linked" and study every "Competitor only".</li>
+        <li><strong>Week 4: build.</strong> Brief and publish the top P1 Missing and Untapped pages. Put them in the Action Plan with owners and dates, and link them from related pages the day they go live.</li>
+      </ul>
+      <p>After that, refresh positions monthly and rerun the full analysis every quarter. Use our <a href="/search-console-performance-report/">Search Console Performance report guide</a> to replace the assumed CTR table with your own numbers.</p>
+  - h: The chained prompt workflow (from competitor list to briefs)
+    html: |
+      <p>Prompts 18 to 22 below are built to run in order in one AI chat:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your business, audience, country and competitors.</li>
+        <li><strong>Explain the gaps</strong> by pasting your top Missing and Weak rows from the Gap Finder.</li>
+        <li><strong>Diagnose why the competitor wins</strong> from the headings and features of their ranking pages.</li>
+        <li><strong>Plan the play</strong> for each gap: new page, upgrade, merge or skip.</li>
+        <li><strong>Write briefs and the Action Plan</strong> as a table you can paste into the workbook.</li>
+      </ol>
+      <p>The AI does not know real rankings or volumes, and it can be wrong about competitors. Use it to think and draft; let real data from your tool and your own expertise decide.</p>
+  - h: Competitor gap mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Chasing every keyword a rival has.</strong> Their audience and products are not yours. The business value score exists to stop this.</li>
+        <li><strong>Rewriting the competitor's page.</strong> Google's spam policies describe <a href="https://developers.google.com/search/docs/essentials/spam-policies" target="_blank" rel="noopener">scraping</a> as including republishing content from other sites without adding original content or value. Close a gap with something better, not something similar.</li>
+        <li><strong>Mixing data sources.</strong> Positions and volumes from different tools are not comparable. Use one tool and one country per sheet.</li>
+        <li><strong>Only looking at business rivals.</strong> Publishers, template sites and forums are often the real search competitors. In the demo, the biggest one is a tax publisher.</li>
+        <li><strong>Ignoring your strengths.</strong> Strong and Unique keywords need protecting. Refresh them before you chase new ones.</li>
+        <li><strong>Treating click estimates as forecasts.</strong> They come from an assumed CTR table. Use them to rank rows, not to promise traffic.</li>
+        <li><strong>Checking AI answers once.</strong> AI answers change with wording, location and time. Date every check and rerun them monthly.</li>
+      </ul>
+prompts:
+  - t: Find my real search competitors
+    p: |
+      Act as an SEO analyst. My site: [domain]. I sell [what you sell] to [audience] in [country].
+      Here are the domains that appear on page one for my 10 main keywords: [paste keyword and domains].
+      Group the domains into business competitors, publishers, template or marketplace sites, forums and review sites.
+      Recommend the 4 I should track as search competitors and explain why in one line each.
+  - t: Explain a gap list
+    p: |
+      Here are keyword gap rows from my spreadsheet with gap type, intent, volume, KD and each site's position: [paste].
+      Summarise the 5 biggest patterns. Which topics does one competitor own? Where am I close to winning?
+  - t: Why does this competitor win?
+    p: |
+      Here are the headings, word count, media and page type of the page ranking at position [n] for "[keyword]": [paste].
+      Here is the same for my page: [paste]. List the 7 most likely reasons their page is more useful to searchers,
+      most important first. Do not guess about backlinks or traffic.
+  - t: New page or upgrade?
+    p: |
+      For each keyword below I have my ranking URL (or none), the gap type and the best competitor's page type: [paste].
+      Decide for each: new page, upgrade existing page, merge into another page or skip. Give a one line reason.
+  - t: Non commodity angle finder
+    p: |
+      The top pages for "[keyword]" all say roughly the same thing: [paste their main points].
+      Based on my business ([what we do, data we have, experience]), suggest 5 angles only we could write,
+      such as first hand tests, our own numbers, customer examples or expert opinions.
+  - t: Brief for a Missing keyword
+    p: |
+      Write a content brief for a new page targeting "[keyword]" ([intent] intent). The best ranking competitor is [URL description].
+      Include the page type, title, H2 outline, questions to answer, the original value we add, internal links to [our related pages]
+      and what would make it clearly more useful than the current top 3.
+  - t: Upgrade plan for a Weak page
+    p: |
+      My page "[title]" ranks at [position] for "[keyword]". The page at position [position] covers: [paste headings].
+      Mine covers: [paste headings]. List the missing subtopics, outdated parts and weak sections, and give me
+      an upgrade plan in priority order.
+  - t: Competitor topic map
+    p: |
+      Here is a list of keywords one competitor ranks for that I do not: [paste]. Group them into 5 to 10 topics,
+      name each topic, and say which topics fit a business that sells [what you sell] and which to ignore.
+  - t: Comparison page outline
+    p: |
+      Outline an honest comparison page "[my product] vs [competitor]" for [audience]. Include a short verdict,
+      a feature table, pricing notes to verify, who each option suits best, and a FAQ. Mark every claim I must fact check.
+  - t: Alternatives page outline
+    p: |
+      Outline a "[competitor] alternatives" page that is genuinely useful: 6 to 8 options including my product,
+      who each suits, honest pros and cons, and how to choose. Mark every fact I must verify before publishing.
+  - t: AI answer test set
+    p: |
+      I sell [what you sell] to [audience]. Write 25 questions buyers might ask an AI assistant before choosing a product like mine,
+      grouped by stage: problem, solution, comparison, choice. Keep them natural and short.
+  - t: Analyse an AI answer
+    p: |
+      Here is an AI answer to "[question]" with its linked sources: [paste]. Which brands are mentioned, which sources are linked,
+      and what does each linked page do well? What would my page at [URL] need to be the clearest source for this answer?
+  - t: Mentioned but not linked fix
+    p: |
+      AI answers mention my brand for "[question]" but link [competitor URL]. Compare the two pages: [paste both outlines].
+      Suggest the changes that would make my page the most complete, quotable and trustworthy source on this exact question.
+  - t: Defend a Strong keyword
+    p: |
+      I rank first for "[keyword]" with [URL]. Competitors are at [positions]. List what I should refresh every quarter
+      to stay the best result: facts, examples, screenshots, internal links and new follow up questions.
+  - t: Gap volume by topic summary
+    p: |
+      Here is my gap table with topic, gap type, volume and click upside: [paste]. Build a short summary for my manager:
+      the 3 topics with the biggest opportunity, what we will do in the next 30 days and the risks.
+  - t: Skip list sanity check
+    p: |
+      Here are keywords I plan to skip, with intent and business value: [paste]. Challenge my choices.
+      Which ones might matter more than I think, and why? Be brief.
+  - t: Quarterly gap review
+    p: |
+      Here are my gap counts and share of clicks from last quarter: [paste] and this quarter: [paste].
+      What changed, which competitor gained, and which 5 actions should go into next quarter's plan?
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my SEO strategist. My site: [domain]. We sell [what you sell] to [audience] in [country].
+      My 4 search competitors: [names and domains, with their type]. Goal: [leads, sales or sign ups]. Confirm, then wait.
+  - t: "Workflow 2 of 5: explain the gaps"
+    p: |
+      Here are my top 20 Missing, Untapped and Weak keywords with volume, KD, intent and positions: [paste].
+      Group them by topic and say which competitor leads each topic.
+  - t: "Workflow 3 of 5: why they win"
+    p: |
+      For the 5 most valuable gaps, here are the headings and page types of the best competitor pages: [paste].
+      For each, explain why that page wins and what original value we could add that they cannot.
+  - t: "Workflow 4 of 5: plan the plays"
+    p: |
+      For every keyword above, choose one play: new page, upgrade existing page, merge or skip. Give the page type,
+      a working title and a short readable URL for new pages, and say which existing page to upgrade for the rest.
+  - t: "Workflow 5 of 5: table for Excel"
+    p: |
+      Turn the plan into one table with tabs between columns, ready to paste into my Action Plan:
+      Keyword, Decision (Target, Monitor or Skip), Content type (New page, Upgrade existing page, Refresh or Merge), Target URL, Notes.
+      Then list the 3 briefs I should write first.
+checklist:
+  - Listed my site and up to 4 real search competitors with their site type
+  - Exported rankings for every site from one tool and one country
+  - Pasted one row per keyword with volume, difficulty and every site's position
+  - Chose a search intent and a business value for every keyword
+  - Marked which keywords show an AI Overview
+  - Checked 10 to 30 key questions in AI Overviews, AI Mode and one AI assistant, with dates
+  - Reviewed every Missing keyword first, then Untapped and Weak
+  - Studied the best competitor page before planning each new page
+  - Wrote down the original value we add for every target, not just the keyword
+  - Fixed every Mentioned, not linked AI answer
+  - Planned a refresh for every Strong and Unique page
+  - Moved the chosen gaps to the Action Plan with an owner and a due date
+  - Replaced the assumed CTR table with our own Search Console numbers
+  - Set a monthly date to refresh positions and AI checks
+  - Set a quarterly date to rerun the full gap analysis
+faq:
+  - q: Is this competitor gap analysis template free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: Which SEO tool do I need?
+    a: "Any tool that exports organic keywords with position, volume and difficulty for a domain, such as Semrush, Ahrefs, Moz or SE Ranking. Use one tool and one country for all sites. You can also add your own positions from Search Console."
+  - q: What is the difference between Missing and Untapped keywords?
+    a: "Missing means every competitor in your set ranks and you do not. Untapped means at least one competitor ranks and you do not. Missing is the stronger signal that the topic matters in your market."
+  - q: How many competitors should I compare?
+    a: "Three to five is a good range, and the workbook takes 4. Pick the sites that rank most often for your main keywords, even if they are publishers or template sites rather than business rivals."
+  - q: How do I find competitor gaps in AI Overviews and AI Mode?
+    a: "Ask your most important questions in Google and in the AI assistants your buyers use, then record who is mentioned and who is linked on the AI Answer Gaps tab. Date every check, because AI answers change with wording, location and time."
+  - q: Are the click estimates real traffic numbers?
+    a: "No. They use an assumed CTR by position table, so treat them as a way to rank opportunities and compare sites. Replace the table on Settings with your own Search Console CTR by position for better estimates."
+related: [keyword-research, search-intent, serp-analysis]
+reads:
+  - t: "Content gap analysis: 6 steps to find what is missing"
+    url: /content-gap-analysis/
+  - t: "Competitor backlink analysis: the complete step by step guide"
+    url: /competitor-backlink-analysis/
+  - t: How Google AI Mode decides which websites to cite
+    url: /how-google-ai-mode-decides-cite-websites/
+tools:
+  - t: Keyword Grouper
+    url: /tools/google-ads-tools/keyword-grouper/
+  - t: Duplicate Line Remover
+    url: /tools/seo-tools/duplicate-line-remover/
+  - t: Text Similarity Checker
+    url: /tools/content-writing-tools/text-similarity-checker/
+sources:
+  - t: "Semrush Knowledge Base: Keyword Gap (Missing, Weak, Strong, Untapped, Unique and Shared)"
+    url: https://www.semrush.com/kb/28-keyword-gap
+  - t: "HubSpot: SEO competitor analysis, a step by step guide"
+    url: https://blog.hubspot.com/marketing/seo-competitor-analysis
+  - t: "Google Search Central: Creating helpful, reliable, people first content"
+    url: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  - t: "Google Search Central: AI features and your website"
+    url: https://developers.google.com/search/docs/appearance/ai-features
+  - t: "Google Search Central: Optimizing your website for generative AI features on Google Search"
+    url: https://developers.google.com/search/docs/fundamentals/ai-optimization-guide
+  - t: "Google Search Central: Spam policies (scraping and scaled content)"
+    url: https://developers.google.com/search/docs/essentials/spam-policies

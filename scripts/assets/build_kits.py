@@ -86,7 +86,8 @@ def guide_html(slug, a):
     parts.append('<h2>What is in this kit</h2><table><tr><th>Item</th><th>What it is</th></tr>' +
                  ''.join(f'<tr><td><b>{esc(k["t"])}</b></td><td>{esc(k["d"])}</td></tr>' for k in a.get('kitContents', [])) + '</table>')
     parts.append(''.join(f'<p>{p}</p>' for p in a['intro']))
-    parts.append(f'<h2>How to use this {esc(m["name"].lower())} kit</h2><ol class="steps">' +
+    nm = ' '.join(w if w.isupper() else w.lower() for w in m['name'].split())
+    parts.append(f'<h2>How to use this {esc(nm)} kit</h2><ol class="steps">' +
                  ''.join(f'<li><b>{esc(s["t"])}.</b> {s["d"]}</li>' for s in a['steps']) + '</ol>')
     for s in a.get('sections', []):
         body = s['html'].replace('class="ra-sheet-wrap"', '').replace('class="ra-sheet"', '')

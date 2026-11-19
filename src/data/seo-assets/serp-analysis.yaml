@@ -1,0 +1,334 @@
+seoTitle: "SERP Analysis Template: Excel Kit for Google and AI Search"
+h1: "SERP Analysis Kit: Excel SERP Log, Full Guide and AI Prompts"
+focusKeyword: serp analysis template
+description: "Free SERP analysis template in Excel: log page one, rate every result, find the format that wins, score the keyword and compare AI answer links with rankings."
+published: 2026-11-19
+updated: 2026-11-19
+time: 20 to 30 minutes per keyword
+level: Beginner to advanced
+kit: true
+tabs: 11
+intro:
+  - "Before you write a page, look at the pages it has to beat. This free <strong>SERP analysis template</strong> is a complete working kit for doing that properly: an Excel SERP Log where you record every page one result, automatic checks that rate each result Strong, Average or Beatable, a Keywords tab that finds the format Google rewards and gives every keyword an Opportunity score and a verdict, and a Page Plan that turns the analysis into a brief."
+  - "It is built for the AI search era. Page one is no longer ten blue links: AI Overviews, People also ask, videos and product results all compete for attention, and AI answers often link pages that do not rank in the top 10 at all. The kit counts the SERP features on every keyword and has an AI Answer Check tab that compares the links in AI answers with your organic results."
+kitContents:
+  - t: "Excel workbook, 11 tabs"
+    d: "SERP Log (500 ready rows with 8 automatic columns), Keywords with verdicts, Dashboard with two charts, Format Mix, AI Answer Check, Page Plan, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "5 keywords, 50 logged results and 7 AI answer checks for a fictional trekking gear store, so you see every check, score and verdict working before you add your own keywords."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to read offline or share with your writers."
+  - t: "22 AI prompts"
+    d: "Prompts to read a results page, find the winning format, spot weak results, find an angle, compare AI answers and write a brief, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole SERP analysis process on one page, to tick off for every important keyword."
+steps:
+  - t: Set the analysis date and your market
+    d: "On Settings, set the analysis date to the day you check the results. Decide the country and device you care about, because results change with location and device."
+  - t: Add the keyword and its SERP features
+    d: "On the Keywords tab, add the keyword with volume, difficulty, your position and your typical referring domains. Mark Yes for every feature you see: AI Overview, featured snippet, People also ask, videos, images, local pack and product results."
+  - t: Log every page one result
+    d: "Search in a clean, signed out browser. On the SERP Log, add one row per organic result and open each page: site type, page format, main angle, rough length, last update, named author, first hand experience and referring domains."
+  - t: Check the AI answers
+    d: "Look at the AI Overview or AI Mode answer, or ask an AI assistant, and paste the linked URLs on the AI Answer Check tab exactly as they appear in your log."
+  - t: Read the verdict and the format
+    d: "The Keywords tab shows the dominant format, how clear it is, the implied intent, the Opportunity score, the verdict and the feature plays. Use the <a href=\"/resources/seo-aeo-assets/search-intent/\">search intent kit</a> when the format is mixed."
+  - t: Write the brief on Page Plan
+    d: "Pick the keyword on Page Plan. You get the SERP summary and page one at a glance. Write your angle, the original value only you can add, the questions to answer and the format you will build."
+  - t: Recheck every quarter
+    d: "Page one changes. Recheck important keywords every quarter and before you rewrite a page, and keep the dated log as your history."
+sections:
+  - h: What SERP analysis means in the AI search era
+    html: |
+      <p>SERP analysis means studying the search engine results page for a keyword to learn what searchers want and what it takes to rank. You look at the page formats that rank, the sites behind them, how good and how fresh each result is, and which search features take up the page. The output is a decision: go after this keyword or not, with which format and which angle.</p>
+      <p>Three facts from Google shape how to do it well:</p>
+      <ul>
+        <li><strong>Results depend on context.</strong> Google's page on <a href="https://www.google.co.uk/intl/en_uk/search/howsearchworks/how-search-works/ranking-results" target="_blank" rel="noopener">how results are ranked</a> names meaning, relevance, quality, usability and context, and says it may use information such as your location, past Search history and Search settings. Always note the country and device you checked, and use a clean, signed out browser.</li>
+        <li><strong>Page one has many parts.</strong> Google's <a href="https://developers.google.com/search/docs/appearance/visual-elements-gallery" target="_blank" rel="noopener">Visual Elements gallery</a> names text results, rich results, image and video results, sitelinks, the related questions group (also called People also ask) and related searches. Each one changes how much attention the classic results get.</li>
+        <li><strong>AI answers sit on top.</strong> Google says AI Overviews and AI Mode <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">may use query fan out</a>, running several related searches across subtopics, and can show a wider and more diverse set of links than a classic search. The pages an AI answer links are part of the competition, even when they are not in the top 10.</li>
+      </ul>
+      <p>What has not changed: you still have to be more useful than what ranks. Google's <a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" target="_blank" rel="noopener">helpful content guidance</a> asks whether your content provides substantial value when compared to other pages in search results. A SERP analysis is how you find out what those other pages actually offer.</p>
+  - h: What is inside the SERP analysis workbook
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>SERP Log</td><td>One row per result. Pulls the domain, works out page age, checks the keyword in the title, counts 5 weak signals, lists the weak spots, rates the result and flags domains that appear twice.</td><td>Keyword, position, URL, title, site type, format, angle, words, last updated, author, first hand experience, rich attributes, referring domains, AI link</td></tr>
+          <tr><td>Keywords</td><td>One row per keyword. Dominant format and share, format clarity, implied intent, dominant site type, beatable results, link reachable share, dated share, forum share, feature count, Opportunity score, verdict, format to build, feature plays and your status.</td><td>Keyword, volume, KD, market, date, your position, URL and referring domains, 7 SERP features</td></tr>
+          <tr><td>Dashboard</td><td>Key numbers, every keyword's score and verdict, a format count and two charts.</td><td>Nothing</td></tr>
+          <tr><td>Format Mix</td><td>Counts of 12 page formats and 7 site types per keyword.</td><td>Nothing</td></tr>
+          <tr><td>AI Answer Check</td><td>Counts the links in each AI answer, how many are also in your SERP Log and how many come from outside, and says what that means.</td><td>Keyword, engine, date, up to 5 linked URLs</td></tr>
+          <tr><td>Page Plan</td><td>Pick a keyword to see its summary and page one at a glance, then write your brief.</td><td>Keyword, brief boxes</td></tr>
+          <tr><td>Settings</td><td>Analysis date, thresholds, score weights, verdict bands, the format to intent table and dropdown lists.</td><td>Optional tuning</td></tr>
+          <tr><td>AI Prompts, Checklist, Sources</td><td>All 22 prompts, the process with automatic progress, and where every fact and assumption comes from.</td><td>Yes or No per step</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas. All 500 SERP Log rows, 100 keyword rows and 200 AI check rows are ready with formulas and dropdowns.</p>
+  - h: How to log page one properly
+    html: |
+      <ol>
+        <li><strong>Search like your customer.</strong> Use a clean, signed out browser window, set to the country and device you target. Write both on the Keywords tab with the date.</li>
+        <li><strong>Count the features first.</strong> Before you scroll, note what sits above and between the results: AI Overview, featured snippet, People also ask, videos, images, local pack, product results.</li>
+        <li><strong>Open every result.</strong> The snippet is not the page. Google builds title links from several sources, including the title element, headings and anchor text, according to its <a href="https://developers.google.com/search/docs/appearance/title-link" target="_blank" rel="noopener">title link documentation</a>, so the title you see may not match the page.</li>
+        <li><strong>Record what the page really is.</strong> Its format (guide, best of list, checklist, tool, category page and so on), its main angle in a few words, the date it was last updated, whether a named author is shown and whether it shows first hand experience such as tests, photos or real results.</li>
+        <li><strong>Add referring domains</strong> to each ranking page from your SEO tool, if you have one. Leave the cell blank when you do not; blank cells are not counted as weak.</li>
+      </ol>
+      <p>Ten results take about 20 minutes once you are used to it. Do it for the keywords that matter, not for every keyword in your list.</p>
+  - h: How the verdict works (with a worked example)
+    html: |
+      <p>Each keyword with at least 5 logged results gets an Opportunity score from 0 to 100, built from five parts. Weights are editable on Settings.</p>
+      <ul>
+        <li><strong>Beatable results (weight 35).</strong> The share of logged results rated Beatable, meaning 3 or more weak signals.</li>
+        <li><strong>Link reachable results (weight 25).</strong> The share of results whose referring domains are at most twice yours. It is a rough check on whether you can compete on links.</li>
+        <li><strong>Dated results (weight 15).</strong> The share of results last updated more than 12 months before the analysis date.</li>
+        <li><strong>Forum results (weight 10).</strong> The share of forum and community results. When Google ranks discussions, a clear expert page with real experience may be missing.</li>
+        <li><strong>Room for organic results (weight 15).</strong> 1 minus the number of SERP features seen divided by 7. More features usually means less attention for classic results.</li>
+      </ul>
+      <p>55 or more is <strong>Go</strong>, 35 or more is <strong>Go with a strong angle</strong>, anything lower is <strong>Hard: pick a narrower keyword</strong>. These are starter assumptions for this kit, not Google rules.</p>
+      <p><strong>Worked example.</strong> In the demo, TrailNest analyses "kedarkantha trek packing list" (1,900 searches, KD 18). It does not rank yet, and its pages usually have about 12 referring domains.</p>
+      <ul>
+        <li>Format: 5 of the 10 results are checklists, so the dominant format is "Checklist or template" with a 50 percent share. That meets the 50 percent bar, so the format is Clear and the implied intent is Informational.</li>
+        <li>Beatable results: 7 of 10. For example, position 2 was last updated in January 2024, shows no named author and no first hand experience, and has 12 referring domains, which is 4 weak signals. Position 1 has none: it is fresh, written by a named trek leader, full of first hand detail and has 38 referring domains, so it is Strong.</li>
+        <li>Link reachable: 7 of the 9 results with link data have 24 referring domains or fewer (twice TrailNest's 12), so 78 percent.</li>
+        <li>Dated: 7 of 10, so 70 percent. Forum results: 2 of 10, so 20 percent.</li>
+        <li>SERP features: AI Overview, featured snippet, People also ask and videos, 4 of 7, so room for organic is 3 divided by 7, about 0.43.</li>
+      </ul>
+      <p>Weighted: (35 x 0.7 + 25 x 0.78 + 15 x 0.7 + 10 x 0.2 + 15 x 0.43) divided by 100 is about 0.63, so the Opportunity score is 63 and the verdict is <strong>Go</strong>. The format to build is a checklist, and the feature plays say: answer the main question early with first hand detail, put a short, direct answer under a question heading, answer the People also ask questions and add a short original video. The Page Plan brief in the demo turns that into a day by day list from TrailNest's own trek leaders.</p>
+      <p>The other demo keywords show the range. "trekking pole height chart" scores 55 (Go) but its format is Mixed, so the kit says lead with a guide and test others. "best trekking shoes for beginners" scores 39 (Go with a strong angle). "waterproof jacket for trekking" scores 10 (Hard): page one is category and product pages from large retailers and marketplaces with hundreds of referring domains and not one Beatable result. "how to choose a trekking backpack" scores 29 (Hard), yet TrailNest already ranks 9th. Hard does not mean give up there: it means the top spots are strong, so upgrade the page you have instead of building a new one.</p>
+  - h: The 5 weak signals and how to read them
+    html: |
+      <p>Google does not publish a list of what makes a result easy to beat. The weak signals below are practical hints chosen for this kit, each tied to something Google's own guidance asks about. Treat them as a reason to look closer, not as proof.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Weak signal</th><th>Rule in the workbook</th><th>Why it matters</th></tr></thead>
+        <tbody>
+          <tr><td>Dated</td><td>Last updated more than 12 months before the analysis date (editable).</td><td>For topics that change, an outdated page leaves room for a current one. For timeless topics, age matters less.</td></tr>
+          <tr><td>No named author</td><td>Named author? is not Yes.</td><td>Google's helpful content guidance asks: do pages carry a byline, where one might be expected?</td></tr>
+          <tr><td>No first hand experience</td><td>First hand experience? is not Yes.</td><td>The same guidance asks whether content clearly demonstrates first hand expertise and a depth of knowledge.</td></tr>
+          <tr><td>Forum result</td><td>Site type is Forum or community.</td><td>Discussions rank when people want real experience. A well made expert page with that experience can compete.</td></tr>
+          <tr><td>Few links</td><td>Referring domains below 20 (editable). Blank is not counted.</td><td>A rough sign the page is not ranking on links alone.</td></tr>
+        </tbody>
+      </table></div>
+      <p>0 or 1 signal is Strong, 2 is Average, 3 or more is Beatable. The Weak spots column lists the signals in words, so a writer can see at a glance what to do better. What is deliberately not a weak signal: word count. Google's helpful content guidance says it does not have a preferred word count, and its <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" target="_blank" rel="noopener">generative AI guide</a> says there is no ideal page length. The Page Plan shows the typical length of logged results for context only.</p>
+  - h: SERP features and what to do about each
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Feature you see</th><th>What it tells you</th><th>Feature play in the workbook</th></tr></thead>
+        <tbody>
+          <tr><td>AI Overview</td><td>Google answers part of the question on the results page.</td><td>Answer the main question early and add first hand detail the AI answer cannot.</td></tr>
+          <tr><td>Featured snippet</td><td>One result's passage is shown above the rest.</td><td>Put a short, direct answer right under a question heading. Google says you cannot mark up a page to be a <a href="https://developers.google.com/search/docs/appearance/featured-snippets" target="_blank" rel="noopener">featured snippet</a>; its systems decide.</td></tr>
+          <tr><td>People also ask</td><td>The related questions searchers have.</td><td>Answer those questions in clear sections.</td></tr>
+          <tr><td>Video results</td><td>Searchers want to see it done.</td><td>Add a short original video.</td></tr>
+          <tr><td>Image results</td><td>The topic is visual.</td><td>Use original photos with descriptive alt text.</td></tr>
+          <tr><td>Local pack</td><td>Searchers want a place nearby.</td><td>Strengthen your Business Profile for local results.</td></tr>
+          <tr><td>Product or shopping results</td><td>Searchers are ready to compare and buy.</td><td>Add product details, prices and Product structured data.</td></tr>
+        </tbody>
+      </table></div>
+      <p>Google says there are no additional requirements to appear in AI Overviews or AI Mode beyond being indexed and eligible to show with a snippet, and that structured data is not required for generative AI search, though it still matters for rich results.</p>
+  - h: Reading AI answers against the organic top 10
+    html: |
+      <p>The AI Answer Check tab asks one simple question: are the pages an AI answer links the same pages that rank? Paste up to 5 linked URLs per answer, exactly as in your SERP Log, and the sheet counts the overlap.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Overlap with your log</th><th>What it tells you</th></tr></thead>
+        <tbody>
+          <tr><td>60 percent or more</td><td>Mostly links the top results: win the organic page first.</td></tr>
+          <tr><td>30 to 59 percent</td><td>Mixed: some links come from outside the top results. Study those pages too.</td></tr>
+          <tr><td>Below 30 percent</td><td>Links pages outside the top results: a separate opportunity. Being the clearest, most specific source may matter more than position.</td></tr>
+          <tr><td>No AI answer</td><td>Compete in the classic results.</td></tr>
+        </tbody>
+      </table></div>
+      <p>In the demo, the AI Overview for "kedarkantha trek packing list" linked 5 pages, only 2 of them on page one, so 40 percent overlap (Mixed). ChatGPT linked 3 pages for the same keyword and none of them were on page one. Across the demo, 12 AI answer links came from outside the logged results. Our article on <a href="/ai-overviews-clicks-how-to-get-cited-2026/">how to still get cited in AI Overviews</a> covers what those pages tend to do well.</p>
+  - h: Column by column guide to the SERP Log
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>Keyword, Position</td><td>Dropdown of the Keywords tab, and the organic position 1 to 20.</td><td>Count only organic results, not ads.</td></tr>
+          <tr><td>URL, Title shown</td><td>The full URL and the title link as shown.</td><td>Paste the URL the same way on AI Answer Check so the overlap matches.</td></tr>
+          <tr><td>Site type</td><td>Brand or retailer, publisher or blog, specialist business, forum, video platform, marketplace or directory, government or education.</td><td>The Format Mix tab counts them.</td></tr>
+          <tr><td>Page format</td><td>One of 12 formats such as guide, best of list, checklist, tool, product page, category page, video, forum thread.</td><td>Drives the dominant format and implied intent.</td></tr>
+          <tr><td>Main angle</td><td>What makes this page different, in a few words.</td><td>Angles that repeat show you the expected basics. Missing angles are your chance.</td></tr>
+          <tr><td>Approx. words, Last updated</td><td>Rough length and the visible update date.</td><td>Length is context only. The date drives the Dated signal.</td></tr>
+          <tr><td>Named author?, First hand experience?, Rich attributes?</td><td>Yes or No.</td><td>First hand means tests, photos, results or real use, not just opinions.</td></tr>
+          <tr><td>Referring domains, Linked in AI answer?</td><td>From your SEO tool, and Yes if any AI answer you checked links it.</td><td>Leave referring domains blank if you do not know.</td></tr>
+          <tr><td>Domain, Age, Keyword in title?</td><td>Automatic.</td><td>A domain that appears twice is flagged in Results from this domain.</td></tr>
+          <tr><td>Weak signals, Weak spots, Result strength</td><td>Automatic 0 to 5, the list in words, and Strong, Average or Beatable.</td><td>Read Weak spots to your writer.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: pick and log.</strong> Choose your 5 most important target keywords, ideally from the <a href="/resources/seo-aeo-assets/keyword-research/">keyword research kit</a>. Log page one and the SERP features for each.</li>
+        <li><strong>Week 2: AI answers.</strong> Check the AI Overview, AI Mode and one assistant for each keyword. Add the linked URLs and study any page that is linked but does not rank.</li>
+        <li><strong>Week 3: decide.</strong> Read the verdicts. Brief the Go keywords on Page Plan. For Hard keywords, look for a narrower long tail version and log that too.</li>
+        <li><strong>Week 4: write and fix.</strong> Write the first Go page in the format page one rewards, with the angle only you can offer. For keywords where you already rank on page one, upgrade the existing page instead.</li>
+      </ul>
+      <p>After that, make a SERP analysis part of every brief, and recheck important keywords every quarter. Our guide to <a href="/title-tag-optimization/">title tag optimization</a> helps once you know what the winning pages promise.</p>
+  - h: The chained prompt workflow (from SERP to brief)
+    html: |
+      <p>Prompts 18 to 22 below are built to run in order in one AI chat:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your business, audience and the keyword.</li>
+        <li><strong>Paste your SERP Log rows</strong> for the keyword and ask for the patterns.</li>
+        <li><strong>Find the gaps</strong>: what every page covers, what none of them cover, where they are weak.</li>
+        <li><strong>Choose the angle</strong> only your business can offer.</li>
+        <li><strong>Write the brief</strong> in the Page Plan format, ready to paste.</li>
+      </ol>
+      <p>AI assistants cannot see live results reliably and can be confidently wrong about what ranks. Always paste your own logged data, and check anything the AI says about specific pages.</p>
+  - h: SERP analysis mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Reading snippets instead of pages.</strong> Titles and snippets can be rewritten by Google. Open every result.</li>
+        <li><strong>Searching while signed in.</strong> Your history and location can change what you see. Use a clean browser and note the market.</li>
+        <li><strong>Copying the top result.</strong> Matching the format is smart. Matching the content adds nothing. Bring the angle and first hand detail nobody else has.</li>
+        <li><strong>Treating word count as a target.</strong> Google says it has no preferred word count and there is no ideal page length.</li>
+        <li><strong>Ignoring SERP features.</strong> A keyword with an AI Overview, videos and product results above the organic results needs a different plan from a clean page of ten links.</li>
+        <li><strong>Ignoring AI answer links.</strong> Pages outside the top 10 can be the ones linked in the answer. Check them.</li>
+        <li><strong>Analysing once.</strong> Page one changes. Date every log and recheck important keywords every quarter.</li>
+      </ul>
+prompts:
+  - t: Read a results page
+    p: |
+      Here are the page one results for "[keyword]" in [country] on [device], with position, title, site type, page format and main angle: [paste].
+      Summarise in 5 bullets what searchers want, which format wins, and what every result has in common.
+  - t: Implied intent check
+    p: |
+      Based on these page formats for "[keyword]": [paste formats], is the intent informational, commercial, transactional or navigational?
+      If the results are mixed, explain which needs they serve and which one my page for [business] should serve.
+  - t: Find the weak results
+    p: |
+      Here are page one results with update date, named author, first hand experience and referring domains: [paste].
+      Rank them from easiest to hardest to beat and explain each in one line. Do not guess data I did not give you.
+  - t: Common ground and missing angles
+    p: |
+      Here are the H2 headings of the top 5 pages for "[keyword]": [paste]. List the subtopics every page covers (the basics I must include),
+      the subtopics only one or two cover, and useful subtopics none of them cover.
+  - t: Angle only we can offer
+    p: |
+      The top results for "[keyword]" all take these angles: [paste]. My business is [what you do] and we have [data, experience, customers, tools].
+      Suggest 5 angles only we could write, each with one sentence on the proof we would show.
+  - t: First hand detail list
+    p: |
+      I am writing about "[keyword]" for [audience]. List 15 kinds of first hand detail that would make the page clearly better than a generic article,
+      such as photos, measurements, test results, mistakes we saw and customer questions.
+  - t: Featured snippet answer
+    p: |
+      Write a direct answer of 2 to 3 sentences to the question "[question]" that could sit right under a question heading.
+      Then suggest the heading itself and one follow up sentence that leads into the detail.
+  - t: People also ask to sections
+    p: |
+      Here are the People also ask questions for "[keyword]": [paste]. Group them into page sections, suggest an H2 for each group
+      and say which questions deserve their own page instead.
+  - t: SERP feature plan
+    p: |
+      Page one for "[keyword]" shows these features: [AI Overview, featured snippet, People also ask, videos, images, local pack, products].
+      For a [page format] page from [business], what should the page include to have a chance in each feature?
+  - t: Compare AI answer links with rankings
+    p: |
+      The AI answer for "[keyword]" links these pages: [paste URLs]. The organic top 10 is: [paste URLs].
+      Which linked pages are not in the top 10, and what do they do differently, judging from their content: [paste summaries]?
+  - t: Title ideas from the SERP
+    p: |
+      Here are the titles of the top 10 results for "[keyword]": [paste]. Suggest 5 titles for my page that match the intent,
+      stand out from these, stay under 60 characters and promise only what the page delivers.
+  - t: Meta description from the SERP
+    p: |
+      Here are the snippets shown for the top 5 results for "[keyword]": [paste]. Write 3 meta descriptions for my page
+      that are specific, mention what makes it different and stay under 155 characters.
+  - t: Is this keyword worth it?
+    p: |
+      Here is my SERP summary for "[keyword]": verdict [verdict], score [score], dominant format [format], beatable results [n],
+      SERP features [list], my status [status]. Should I target it now, choose a narrower version or skip it? Suggest 3 narrower versions.
+  - t: Narrower long tail versions
+    p: |
+      "[keyword]" is dominated by [site types]. Suggest 10 narrower, more specific versions that a smaller site
+      like mine ([business]) could realistically win, and say which format each would need.
+  - t: Upgrade plan for a page already on page one
+    p: |
+      My page "[title]" ranks [position] for "[keyword]". The pages above it: [paste format, angle and headings].
+      Mine: [paste headings]. Give me an upgrade plan in priority order, keeping what already works.
+  - t: Writer handover note
+    p: |
+      Turn this SERP analysis into a short note for a writer: [paste summary and weak spots]. Include the format, the must cover basics,
+      the angle, the first hand detail to gather and 3 things not to copy from competitors.
+  - t: Quarterly SERP change review
+    p: |
+      Here is my SERP log for "[keyword]" from [old date]: [paste] and today: [paste]. What changed in formats, sites, features and AI answers,
+      and what should I change on my page?
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my SEO content strategist. My business: [what you sell]. Audience: [who]. Country and device: [market].
+      Target keyword: [keyword]. My current page: [URL or none]. Confirm, then wait for my SERP data.
+  - t: "Workflow 2 of 5: patterns in my log"
+    p: |
+      Here are my SERP Log rows for the keyword with position, site type, format, angle, update date, author, first hand experience and weak spots: [paste].
+      Summarise the patterns: winning format, typical site, freshness and what the Strong results share.
+  - t: "Workflow 3 of 5: the gaps"
+    p: |
+      Here are the H2 headings of the 3 Strong results and 3 Beatable results: [paste]. List the basics every page covers,
+      what the Strong results do better, and what none of them do.
+  - t: "Workflow 4 of 5: our angle"
+    p: |
+      Using what you know about my business, choose the single best angle for my page and list the first hand proof we must gather.
+      Explain in 2 sentences why it beats the current page one.
+  - t: "Workflow 5 of 5: brief for Excel"
+    p: |
+      Write the brief as rows with tabs between label and text, ready to paste into my Page Plan:
+      Our angle in one sentence, Original value only we can add, Questions the page must answer, Format we will build, Target URL,
+      Pages that will link to it. Then give an H2 outline.
+checklist:
+  - Set the analysis date, country and device before searching
+  - Searched in a clean, signed out browser
+  - Marked every SERP feature on the Keywords tab
+  - Logged every organic result on page one, opening each page
+  - Recorded format, angle, last update, author and first hand experience for each result
+  - Added referring domains for each result, or left them blank
+  - Checked the AI Overview, AI Mode or an AI assistant and pasted the linked URLs
+  - Studied any AI linked page that is not in the top 10
+  - Read the dominant format, format clarity and implied intent
+  - Read the Opportunity score, verdict and feature plays
+  - Looked for a narrower keyword when the verdict was Hard
+  - Upgraded the existing page when we already rank on page one
+  - Wrote the brief on Page Plan with an angle only we can offer
+  - Listed the first hand detail to gather before writing
+  - Set a quarterly date to recheck important keywords
+faq:
+  - q: Is this SERP analysis template free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: How many results should I analyse per keyword?
+    a: "All of page one, usually 10 organic results. The workbook needs at least 5 before it scores a keyword, and you can log up to position 20 if page two matters to you."
+  - q: Do I need a paid SEO tool?
+    a: "No. Everything except referring domains can be logged by looking at the results and the pages. If you have a tool, add referring domains for a better link reachable check; if not, leave them blank."
+  - q: Why do my results look different from my colleague's?
+    a: "Google says it may use location, past Search history and Search settings to decide what is relevant, and results also change over time. Use a clean, signed out browser, note the country and device, and date every log."
+  - q: How do AI Overviews change SERP analysis?
+    a: "They add a second set of competitors. Pages linked in the AI answer may not rank in the top 10. The AI Answer Check tab compares the two so you know whether to focus on the organic page or on being the clearest source for the answer."
+  - q: Does the workbook open in Google Sheets?
+    a: "Yes. Upload the .xlsx file to Google Drive and open it with Google Sheets. Formulas, dropdowns and colours carry over. The charts may need a quick refresh."
+related: [keyword-research, search-intent, competitor-gaps]
+reads:
+  - t: "AI search vs traditional search: rankings compared"
+    url: /ai-search-vs-traditional-search/
+  - t: "AI Overviews are eating your clicks: how to still get cited"
+    url: /ai-overviews-clicks-how-to-get-cited-2026/
+  - t: "Title tag optimization: 7 proven rules for better rankings"
+    url: /title-tag-optimization/
+tools:
+  - t: SERP Snippet Preview
+    url: /tools/seo-tools/serp-snippet-preview/
+  - t: Heading Structure Checker
+    url: /tools/seo-tools/heading-structure-checker/
+  - t: Readability Score Checker
+    url: /tools/seo-tools/readability-score-checker/
+sources:
+  - t: "Google: How results are automatically generated (ranking results)"
+    url: https://www.google.co.uk/intl/en_uk/search/howsearchworks/how-search-works/ranking-results
+  - t: "Google Search Central: Visual Elements gallery of Google Search"
+    url: https://developers.google.com/search/docs/appearance/visual-elements-gallery
+  - t: "Google Search Central: Creating helpful, reliable, people first content"
+    url: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  - t: "Google Search Central: AI features and your website"
+    url: https://developers.google.com/search/docs/appearance/ai-features
+  - t: "Google Search Central: Optimizing your website for generative AI features on Google Search"
+    url: https://developers.google.com/search/docs/fundamentals/ai-optimization-guide
+  - t: "Google Search Central: Featured snippets and your website"
+    url: https://developers.google.com/search/docs/appearance/featured-snippets
