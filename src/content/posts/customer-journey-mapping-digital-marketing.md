@@ -140,7 +140,7 @@ format: "html"
 
 <h2 id="five-stages"><span class="bx-num">02</span>The Five Core Stages</h2>
 <div class="bx-rule"></div>
-<p><a href="https://improvado.io/blog/customer-journey-map" target="_blank" rel="noopener">Improvado's guide</a> lays out the standard framework: awareness, consideration, purchase, retention, and advocacy. Most maps vary the exact labels, but this five-stage backbone shows up across nearly every serious framework.</p>
+<p><a href="https://improvado.io/blog/customer-journey-map" target="_blank" rel="noopener">Improvado's guide</a> lays out the standard framework: awareness, consideration, purchase, retention, and advocacy. Most maps vary the exact labels, but this five-stage backbone shows up across nearly every serious framework. If you are new to the channels behind each stage, our <a href="/understanding-digital-marketing/">beginner guide to understanding digital marketing</a> explains them one by one.</p>
 
 <p><a href="https://www.text.com/blog/customer-journey/" target="_blank" rel="noopener">Text.com's guide</a> is honest about how messy this looks in practice today: customers rarely move through these stages in a single clean path anymore. They discover a product through search, compare alternatives a week later, abandon the process, then return after an AI-generated answer reframes the problem entirely.</p>
 
