@@ -8,6 +8,12 @@ categories: ["google-ads", "paid-media"]
 primaryCategory: "paid-media"
 description: "Two advertisers, same keyword, different CPC. Quality Score in Google Ads explains why. Learn what it measures and how to improve it in 2026."
 focusKeyword: "Quality Score"
+takeaways:
+  - "Google Ads Quality Score rates each keyword from 1 to 10 based on expected CTR, ad relevance and landing page experience."
+  - "A score of 7 to 10 is strong, 5 to 6 is average and below 5 needs investigating, with low scores costing 3 to 5x more per click."
+  - "The dashboard score is a diagnostic estimate, while a separate real time score is calculated in every auction and feeds into Ad Rank."
+  - "Tighter match types, negative keywords, semantically relevant ad copy, tightly themed ad groups and fast, intent matched landing pages all improve the score."
+  - "Updating ad copy does not instantly reset a keyword's score, which keeps its historical value until enough new performance data builds up."
 image: "/wp-content/uploads/2026/07/Quality-Score.webp"
 imageAlt: "Quality Score"
 words: 1676

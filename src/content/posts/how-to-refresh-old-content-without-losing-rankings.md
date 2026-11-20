@@ -8,6 +8,12 @@ categories: ["content"]
 primaryCategory: "content"
 description: "Refresh Old Content may lose rankings than doing nothing. Learn the 5 rules that protect your equity, plus a safety checklist before you edit."
 focusKeyword: "Refresh Old Content"
+takeaways:
+  - "A safe content refresh keeps the URL, internal links and sections other pages rely on, while making substantive improvements to relevance, accuracy and depth."
+  - "Never change the URL slug during a refresh, because it breaks backlinks, resets indexed history and discards accumulated SEO equity."
+  - "Record a Search Console baseline of clicks, impressions, CTR and position, and check for keyword cannibalization, before editing anything."
+  - "Pages ranking in positions 4 through 15 offer the best chance of a quick measurable win, and the top 20% of pages by traffic and revenue deserve priority."
+  - "Updating only the date does nothing, so match the refresh weight, from a light 90 minute update to a full day rewrite, to what the page needs."
 image: "/wp-content/uploads/2026/08/Refresh-Old-Content.webp"
 imageAlt: "Refresh Old Content"
 words: 1308

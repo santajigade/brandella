@@ -8,6 +8,12 @@ categories: ["on-page-seo", "seo"]
 primaryCategory: "seo"
 description: "Optimize Images for SEO Explained. Google Images drives 22.6% of search traffic. Learn image SEO AVIF/WebP formats, file naming, alt text, srcset without sacrificing visual quality."
 focusKeyword: "Optimize Images"
+takeaways:
+  - "Google Images drives roughly 22.6% of all web search traffic, and images are the LCP element on roughly 38% of pages."
+  - "The 2026 format hierarchy is AVIF first, WebP as the universally supported default, and JPEG or PNG only as a legacy fallback."
+  - "Image file names are a confirmed signal, so use descriptive, lowercase, hyphenated names under roughly 80 characters instead of camera defaults."
+  - "Alt text should describe what the image shows and its function on the page, while purely decorative images should use an empty alt attribute."
+  - "Use srcset and sizes for responsive resolution, the picture element for format fallbacks, and compression around quality 80 to cut size without visible loss."
 image: "/wp-content/uploads/2026/08/Optimize-Images.webp"
 imageAlt: "Optimize Images"
 words: 2238

@@ -8,6 +8,12 @@ categories: ["seo", "technical-seo"]
 primaryCategory: "seo"
 description: "An XML sitemap isn't a ranking factor, but AI systems now use it as a trust signal. Here's what still matters in 2026 and what to fix first."
 focusKeyword: "XML sitemap"
+takeaways:
+  - "An XML sitemap lists a site's important URLs with metadata such as lastmod, and it is a discovery aid that gives no direct ranking boost."
+  - "Sites under roughly 500 pages with solid internal linking probably do not strictly need a sitemap, while large and frequently updated sites genuinely do."
+  - "Sitemaps should list only live, canonical, indexable URLs with honest lastmod dates, and every listed URL should be internally linked and not blocked in robots.txt."
+  - "A robots.txt disallow does not prevent indexing, since Google can still index a disallowed URL if it finds links to it elsewhere."
+  - "A single sitemap file holds a maximum of 50,000 URLs or 50MB uncompressed, so larger sites use a sitemap index split by content type or section."
 image: "/wp-content/uploads/2026/07/XML-sitemap.webp"
 imageAlt: "XML sitemap"
 words: 1845

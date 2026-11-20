@@ -8,6 +8,12 @@ categories: ["artificial-intelligence"]
 primaryCategory: "artificial-intelligence"
 description: "Claude AI cites fewer, more selective sources than ChatGPT. Learn its three-crawler system, Brave-powered Research feature, and what earns a citation."
 focusKeyword: "Claude AI"
+takeaways:
+  - "Claude AI typically cites 2 to 4 sources per response, fewer than the 4 to 8 common on ChatGPT, so each citation slot carries more value."
+  - "Anthropic runs three crawlers: ClaudeBot for training data, Claude-SearchBot for search quality and Claude-User for on demand page fetches, and all honor robots.txt."
+  - "Blocking ClaudeBot only affects training data, while blocking Claude-SearchBot directly reduces visibility in Claude's search powered features."
+  - "Claude answers from training data by default, and its Research feature uses Brave Search, whose smaller and more selective index acts as a quality filter."
+  - "Government, academic and established news sources are favored, while generic listicles, unsourced claims and keyword stuffed pages are filtered or down weighted."
 image: "/wp-content/uploads/2026/07/Claude-AI.webp"
 imageAlt: "Claude AI"
 words: 1527

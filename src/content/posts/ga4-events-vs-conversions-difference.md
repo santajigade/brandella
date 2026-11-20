@@ -8,6 +8,12 @@ categories: ["paid-media", "paid-media-analytics"]
 primaryCategory: "paid-media"
 description: "Every click and scroll in GA4 is an event, but only some matter. Learn what separates GA4 events from conversions (key events) and how to set them up right."
 focusKeyword: "GA4 Events"
+takeaways:
+  - "GA4 records every user action, such as page views, scrolls and clicks, as an event, while a conversion is an event you mark as having real business value."
+  - "Google now calls conversions 'key events' inside GA4, though the term conversions is still used in Google Ads and most third party tools."
+  - "To create one, go to Admin then Events, toggle 'Mark as conversion' on the chosen event and confirm it appears in the Conversions report."
+  - "Mark only a small set of meaningful actions such as purchase, form_submit or sign_up, but do not ignore micro conversions like whitepaper downloads on B2B sites."
+  - "Poorly defined conversion events can distort automated bidding on connected ad platforms, and GA4 numbers will not exactly match old Universal Analytics goals."
 image: "/wp-content/uploads/2026/07/GA4-events.webp"
 imageAlt: "GA4 events"
 words: 1436

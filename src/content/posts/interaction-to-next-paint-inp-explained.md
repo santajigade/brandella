@@ -8,6 +8,12 @@ categories: ["core-web-vitals", "seo"]
 primaryCategory: "seo"
 description: "Discover what Interaction to Next Paint (INP) is, how Google measures responsiveness, common causes of poor INP scores, and proven ways to optimize website performance"
 focusKeyword: "Interaction to Next Paint"
+takeaways:
+  - "Interaction to Next Paint measures how long a page takes to visually respond after a click, tap or key press, reporting the worst or near-worst interaction."
+  - "INP replaced First Input Delay as a Core Web Vital on March 12, 2024, and roughly 43% of websites fail its 200ms good threshold."
+  - "Every INP score has three phases: input delay, processing time and presentation delay, each fixed by breaking up long tasks, lightening handlers or simplifying visual updates."
+  - "Long JavaScript tasks over 50 milliseconds, too many third-party scripts, non-essential work in click handlers and large DOM size are common causes of poor INP."
+  - "Debouncing does not fix slow click handlers and a CDN does not improve INP, because INP measures runtime responsiveness after the page has loaded."
 image: "/wp-content/uploads/2026/07/Interaction-to-Next-Paint.webp"
 imageAlt: "Interaction to Next Paint"
 words: 1750

@@ -8,6 +8,12 @@ categories: ["seo", "seo-basics"]
 primaryCategory: "seo"
 description: "Google's Knowledge Graph holds 500B+ facts. Entity SEO is why \"who is saying it\" now matters more than \"what it says\" for AI citations in 2026."
 focusKeyword: "entity SEO"
+takeaways:
+  - "Google's Knowledge Graph holds an estimated 500 billion facts about 5 billion entities, and Gemini is trained directly on it."
+  - "Entity SEO optimizes for whether Google can confidently connect content to a specific, verified, trusted entity, rather than only matching keywords."
+  - "Organization schema with name, url, logo and sameAs links to Wikipedia, Wikidata and verified social profiles is the foundation of entity establishment."
+  - "Name, canonical URL and description must be identical everywhere an entity appears, because inconsistency blocks Google's entity merge entirely."
+  - "Entity establishment takes months, and local businesses and niche creators increasingly earn Knowledge Panels through consistent entity signals and Person schema for authors."
 image: "/wp-content/uploads/2026/07/entity-SEO.webp"
 imageAlt: "entity SEO"
 words: 1737

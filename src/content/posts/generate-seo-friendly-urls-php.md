@@ -8,6 +8,12 @@ categories: ["on-page-seo", "seo"]
 primaryCategory: "seo"
 description: "Generate SEO-friendly URLs in PHP automatically — a complete slugify function, database uniqueness checks, and Apache/NGINX rewrite rules."
 focusKeyword: "SEO-friendly URLs"
+takeaways:
+  - "A PHP slugify function using iconv and preg_replace turns a title into a lowercase, hyphen separated slug with no external library."
+  - "Checking the database for an existing slug and appending -2, -3 and so on keeps every generated URL unique."
+  - "Generating the slug is only half the job, since Apache or Nginx rewrite rules must route the clean URL to the right script."
+  - "Slugs of 3-5 words work best, while auto-increment IDs, all-numeric slugs and skipped transliteration should be avoided."
+  - "Changing an already indexed slug requires a 301 redirect, otherwise existing backlinks and search results break."
 image: "/wp-content/uploads/2026/08/SEO-friendly-URLs.webp"
 imageAlt: "SEO-friendly URLs"
 words: 1434

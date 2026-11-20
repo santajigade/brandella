@@ -8,6 +8,12 @@ categories: ["core-web-vitals", "seo"]
 primaryCategory: "seo"
 description: "Only 15% of mobile pages pass Lighthouse's render-blocking resources audit. Learn the async/defer fix, critical CSS, and a decision tool for your scripts."
 focusKeyword: "render-blocking resources"
+takeaways:
+  - "Render-blocking resources are CSS and JavaScript files a browser must download and process before painting, and only 15% of mobile pages pass Lighthouse's audit."
+  - "Async scripts download in parallel and run as soon as ready in any order, suiting independent scripts like analytics or ad tags."
+  - "Deferred scripts download in parallel but run after HTML parsing finishes and always in document order, suiting scripts that need the full DOM."
+  - "Stylesheets are render-blocking by default, so the fix is inlining critical CSS and loading the full stylesheet with a preload swap."
+  - "Async and defer only work on external scripts with a src attribute, and a stylesheet with media=\"print\" never blocks a normal screen render."
 image: "/wp-content/uploads/2026/08/render-blocking-resources.webp"
 imageAlt: "render-blocking resources"
 words: 1373

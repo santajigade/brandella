@@ -8,6 +8,12 @@ categories: ["on-page-seo", "seo"]
 primaryCategory: "seo"
 description: "Add JSON-LD schema markup with 7 copy-paste code templates Organization, Article, FAQ, Product, LocalBusiness, Breadcrumb, How To plus a builder tool."
 focusKeyword: "JSON-LD"
+takeaways:
+  - "JSON-LD is a single script tag, invisible to visitors, and Google recommends it over Microdata and RDFa because it does not touch page layout."
+  - "Seven schema types cover most websites: Organization, Article, FAQPage, Product, LocalBusiness, BreadcrumbList and HowTo."
+  - "Google discontinued the FAQ rich result display in May 2026, but FAQ schema is still parsed by crawlers and AI systems."
+  - "Check the page source for application/ld+json, then validate with Google's Rich Results Test and the Schema.org Validator before publishing."
+  - "Common errors include trailing commas, smart quotes, marking up content not visible on the page and prices or dates that do not match visible content."
 image: "/wp-content/uploads/2026/07/JSON-LD.webp"
 imageAlt: "JSON-LD"
 words: 1748

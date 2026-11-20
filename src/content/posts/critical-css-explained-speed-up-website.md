@@ -8,6 +8,12 @@ categories: ["core-web-vitals", "seo"]
 primaryCategory: "seo"
 description: "Critical CSS speeds up first paint dramatically, but can break hover states and dynamic content if done wrong. Real extraction code and a risk checker."
 focusKeyword: "critical CSS"
+takeaways:
+  - "Critical CSS is the minimal set of CSS rules needed to render the visible, above-the-fold part of a page, inlined directly in the HTML head."
+  - "The rest of the stylesheet loads without blocking render using a preload swap, with a noscript fallback in case JavaScript is disabled."
+  - "Tools like the Critical npm package, Penthouse and Jetpack Boost load the page in a headless browser and extract only the rules for visible elements."
+  - "Hover states, JavaScript-injected classes and untested viewport sizes are the most common causes of broken layouts after adding critical CSS."
+  - "Critical CSS should be regenerated whenever above-the-fold layout changes, ideally automatically on every deploy, and it mainly benefits first-time visitors with an empty cache."
 image: "/wp-content/uploads/2026/08/critical-CSS.webp"
 imageAlt: "critical CSS"
 words: 1325

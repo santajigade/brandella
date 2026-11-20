@@ -8,6 +8,12 @@ categories: ["core-web-vitals", "seo"]
 primaryCategory: "seo"
 description: "Browser caching stores files locally after the first visit. Learn the exact Cache-Control headers, Apache/NGINX config, and cache busting explained."
 focusKeyword: "browser caching"
+takeaways:
+  - "Browser caching stores static files like images, CSS, JavaScript and fonts on the visitor's device, so return visits skip downloading them again."
+  - "The Cache-Control header sets how long a file stays valid, and max-age=31536000 seconds, one year, is standard for hashed static assets."
+  - "Cache busting adds a version hash to filenames, like styles.a1b2c3.css, so files can be cached aggressively while updates still reach visitors immediately."
+  - "HTML pages need a much shorter cache duration, often an hour or less, because they change far more often than stylesheets and scripts."
+  - "Caching rules are set at the server level through Apache .htaccess, NGINX configuration or a CDN, not inside individual HTML pages."
 image: "/wp-content/uploads/2026/08/browser-caching.webp"
 imageAlt: "browser caching"
 words: 1201

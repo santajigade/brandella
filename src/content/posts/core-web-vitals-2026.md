@@ -8,6 +8,12 @@ categories: ["core-web-vitals", "seo"]
 primaryCategory: "seo"
 description: "Explore the latest Core Web Vitals updates for 2026, understand Google's performance metrics, and learn how to optimize your site for better rankings."
 focusKeyword: "Core Web Vitals"
+takeaways:
+  - "The Core Web Vitals thresholds did not change in 2026: LCP under 2.5 seconds, INP under 200 milliseconds and CLS under 0.1."
+  - "Only 47% of sites pass all three thresholds together, with pass rates of 78% for LCP, 82% for CLS and 57% for INP."
+  - "The 2026 update tightened INP measurement, expanded CrUX support for soft navigations in single-page apps and made TTFB a more prominent diagnostic in PageSpeed Insights."
+  - "Google evaluates page experience using real mobile field data aggregated over 28 days, and judges each of the three metrics independently with no overall score."
+  - "AI Overviews tend to pull from fast, structurally clean sources, so a slow site that ranks may lose an AI citation to a faster competitor."
 image: "/wp-content/uploads/2026/07/Core-Web-Vitals.webp"
 imageAlt: "Core Web Vitals"
 words: 1867

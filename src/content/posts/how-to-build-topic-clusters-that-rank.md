@@ -8,6 +8,12 @@ categories: ["content"]
 primaryCategory: "content"
 description: "HubSpot's own blog once had thousands of competing pages. Learn the exact 7-step process to build topic clusters that rank, with a real worked example."
 focusKeyword: "topic cluster"
+takeaways:
+  - "Validate the core topic first: it should have 1,000 or more monthly searches, at least 5 distinct subtopics and a real connection to your business."
+  - "Group subtopics by reader intent rather than keyword variation, since phrases like email marketing tips and best practices produce competing pages."
+  - "Map the full cluster before writing, using a three tier structure of pillar page, cluster pages and narrower supporting content."
+  - "Pillar pages run 2,500-5,000 words as overview hubs, cluster pages run 1,200-2,000 words on one subtopic and supporting pages run 300-800 words."
+  - "Link every cluster page back to the pillar with descriptive anchor text, then track rankings, internal link clicks and AI citations to iterate."
 image: "/wp-content/uploads/2026/08/topic-cluster.webp"
 imageAlt: "topic cluster"
 words: 1287

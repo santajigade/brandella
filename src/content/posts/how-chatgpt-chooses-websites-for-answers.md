@@ -8,6 +8,12 @@ categories: ["artificial-intelligence"]
 primaryCategory: "artificial-intelligence"
 description: "ChatGPT doesn't rank sites like Google. Learn the RAG pipeline behind its citations, the trust signals it weighs, and why your first question matters most."
 focusKeyword: "ChatGPT"
+takeaways:
+  - "Many ChatGPT answers come from training data alone, and a live web search is only triggered when a question needs current or specific information."
+  - "When search runs, a six step pipeline interprets the query, retrieves and ranks pages, extracts information, clusters citations and synthesizes the answer."
+  - "Ranking weighs domain authority at about 40%, content quality at about 35% and platform trust at about 25%, with 44% of citations taken from a page's first third."
+  - "A conversation's first question is roughly 2.5 times more likely to trigger a citation than a tenth follow-up, and Wikipedia appears in about one in six cited conversations."
+  - "AI systems cite passages rather than whole pages, so answer first sections, focused topic depth, fresh content and sourced numbers improve citation chances."
 image: "/wp-content/uploads/2026/07/ChatGPT.webp"
 imageAlt: "ChatGPT"
 words: 1441

@@ -8,6 +8,12 @@ categories: ["seo", "seo-basics"]
 primaryCategory: "seo-basics"
 description: "Information gain traces to a real 2018 Google patent, not a buzzword. Learn what it actually says, the 5-dimension scoring rubric, and real examples."
 focusKeyword: "information gain"
+takeaways:
+  - "Information gain is the principle that content adding genuinely new information to a topic earns more value than content repackaging the top ranking results."
+  - "The idea traces to a Google patent filed in 2018 that describes session level personalization, not a confirmed global ranking factor."
+  - "Content can be scored on five dimensions: proprietary data, first-hand evidence, original framework, expert attribution and a freshness hook."
+  - "The Zero-Copy Audit lists every claim in the top 5 results and in your draft, and whatever appears only in your draft is your real information gain."
+  - "AI Overviews filter out redundant sources first, and Princeton's GEO study found original statistics gave a 41% lift in AI citation visibility."
 image: "/wp-content/uploads/2026/08/information-gain.webp"
 imageAlt: "information gain"
 words: 1285

@@ -8,6 +8,12 @@ categories: ["seo", "technical-seo"]
 primaryCategory: "seo"
 description: "X-Robots-Tag is the only way to control indexing on PDFs, images, and videos. Learn the full syntax, crawler targeting, and when to use it vs meta tags."
 focusKeyword: "X-Robots-Tag"
+takeaways:
+  - "X-Robots-Tag is an HTTP response header that carries the same directives as a meta robots tag, such as noindex, nofollow and noarchive."
+  - "It is the only way to control indexing of non-HTML files like PDFs, images and videos, which have no HTML head to hold a meta tag."
+  - "Server rules, for example in Apache, can apply the header to whole file types or directories, and a user agent can be named to target specific crawlers."
+  - "When several crawler specific rules apply, search engines sum the negative directives, so separate nofollow and noindex lines combine into noindex, nofollow."
+  - "If robots.txt blocks a URL, crawlers never fetch it and never see its X-Robots-Tag, which can be checked with DevTools or curl -I."
 image: "/wp-content/uploads/2026/08/X-Robots-Tag.webp"
 imageAlt: "X-Robots-Tag"
 words: 1235

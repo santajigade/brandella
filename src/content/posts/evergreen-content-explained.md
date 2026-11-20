@@ -8,6 +8,12 @@ categories: ["content"]
 primaryCategory: "content"
 description: "What is Evergreen Content? 60% of Google's top 10 pages are over 3 years old. Learn what makes content genuinely evergreen, real examples with a checker."
 focusKeyword: "evergreen content"
+takeaways:
+  - "Evergreen content stays useful and searched for over a long period because it targets permanent informational needs rather than news or seasonal events."
+  - "Ahrefs found that 60% of pages ranking in Google's top 10 are over three years old, while a typical trend driven post gets traffic for about 2 weeks."
+  - "Good evergreen topics include beginner's guides, how-to tutorials, tool comparisons and FAQ style explainers that focus on principles and avoid year specific language."
+  - "Evergreen content still needs periodic updates, and changing the published date, adding a Last Updated note and resubmitting in Search Console signal freshness."
+  - "An 80/20 split between evergreen and seasonal content tends to produce more sustainable long term growth than chasing seasonal work."
 image: "/wp-content/uploads/2026/08/evergreen-content.webp"
 imageAlt: "evergreen content"
 words: 1169

@@ -8,6 +8,12 @@ categories: ["core-web-vitals", "seo"]
 primaryCategory: "seo"
 description: "First Contentful Paint (FCP) measures how fast your first content appears. Learn Google's 1.8s threshold, why it affects bounce rate and SEO, and how to fix a slow score."
 focusKeyword: "First Contentful Paint"
+takeaways:
+  - "First Contentful Paint measures the time from when a page starts loading until the browser shows the first visible text, image, SVG or canvas content."
+  - "Google rates an FCP of 1.8 seconds or less at the 75th percentile as good, 1.8 to 3 seconds as needing work and over 3 seconds as poor."
+  - "FCP is not one of the three Core Web Vitals and not a direct ranking factor, but a slow FCP raises bounce rates and usually drags down LCP."
+  - "The main causes of slow FCP are slow server response time, render blocking CSS and JavaScript, unoptimized web fonts, missing caching or CDN and extra redirects."
+  - "Deferring non critical scripts, preloading critical fonts, enabling caching and using faster hosting or a CDN are low effort fixes that usually improve LCP as well."
 image: "/wp-content/uploads/2026/07/First-Contentful-Paint.webp"
 imageAlt: "First Contentful Paint"
 words: 1558

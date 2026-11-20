@@ -8,6 +8,12 @@ categories: ["google-ads", "paid-media"]
 primaryCategory: "paid-media"
 description: "How Google Ads Auction Works? Every Google search triggers an ad auction resolved in ~200ms. Learn the 6 factors behind Ad Rank, the second-price model, and why bidders don't always win."
 focusKeyword: "Google Ads auction"
+takeaways:
+  - "Every Google Ads auction resolves in roughly 100-300 milliseconds and ranks eligible ads by Ad Rank, not by bid alone."
+  - "Google's documentation lists six Ad Rank factors: bid, ad and landing page quality, Ad Rank thresholds, auction competitiveness, search context and expected impact of extensions."
+  - "A lower bidder with strong Quality Score can win, as when a $4.00 bid with Quality Score 9 beats an $8.00 bid with Quality Score 4."
+  - "In the modified second-price auction, actual CPC equals the next competitor's Ad Rank divided by your Quality Score, plus one cent."
+  - "Quality Score is a visible 1 to 10 diagnostic estimate, while Ad Rank is recalculated in real time for every auction and never displayed."
 image: "/wp-content/uploads/2026/07/Google-Ads-auction.webp"
 imageAlt: "Google Ads auction"
 words: 1482

@@ -8,6 +8,12 @@ categories: ["seo", "seo-basics"]
 primaryCategory: "seo"
 description: "Google's Knowledge Graph holds 800B facts. Semantic SEO explained entities, entity salience, NLP evolution, and a readiness calculator for your pages."
 focusKeyword: "semantic SEO"
+takeaways:
+  - "Semantic SEO optimizes content for meaning, context and topical relevance rather than individual keywords, so search engines understand what a page is about."
+  - "Google's Knowledge Graph holds roughly 800 billion facts about 8 billion entities, such as people, places, organizations and concepts."
+  - "Entity salience measures how strongly content supports its main entity, so covering related concepts matters more than repeating the main term."
+  - "JSON-LD schema with the about and mentions properties explicitly declares a page's core and supporting entities, but it reinforces quality content rather than replacing it."
+  - "Using inconsistent terminology for the same concept across related pages creates entity ambiguity and weakens the topical signals semantic SEO depends on."
 image: "/wp-content/uploads/2026/08/semantic-SEO.webp"
 imageAlt: "semantic SEO"
 words: 1307

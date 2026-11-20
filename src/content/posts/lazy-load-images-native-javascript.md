@@ -8,6 +8,12 @@ categories: ["core-web-vitals", "seo"]
 primaryCategory: "seo"
 description: "Lazy load images with native JavaScript — the one-attribute method, full IntersectionObserver code, and CSS background image handling, with real examples."
 focusKeyword: "lazy load images"
+takeaways:
+  - "The native loading=\"lazy\" attribute lazy loads images with one HTML attribute and is supported by about 95% of global browser traffic."
+  - "The IntersectionObserver API gives full control, such as a 200px rootMargin that loads images just before they scroll into view."
+  - "CSS background images ignore the native loading attribute, so they need IntersectionObserver to add a class that applies the background image."
+  - "Never lazy load the LCP or hero image, because it delays the largest paint by 200-500ms; use fetchpriority=\"high\" instead."
+  - "Always set width and height on lazy loaded images to prevent layout shift, then test with Lighthouse and on a real mobile connection."
 image: "/wp-content/uploads/2026/08/lazy-load-images.webp"
 imageAlt: "lazy load images"
 words: 1423

@@ -8,6 +8,12 @@ categories: ["seo", "technical-seo"]
 primaryCategory: "seo"
 description: "One misplaced line in robots.txt can hide your entire site. Learn the 4 core directives, AI crawler rules, wildcards, and a rule tester tool for 2026."
 focusKeyword: "robots.txt"
+takeaways:
+  - "Robots.txt is a plain text file at the exact domain root that tells crawlers and AI bots which URLs they may access, following the RFC 9309 standard."
+  - "Four core directives cover nearly everything: User-agent, Disallow, Allow and Sitemap, and Google ignores content beyond its 500KB size limit."
+  - "Disallow only stops crawling, not indexing, so a blocked URL can still appear in results if other sites link to it; use noindex to keep it out."
+  - "Separate User-agent blocks let sites block AI training crawlers like GPTBot or ClaudeBot while still allowing Googlebot and on demand fetch bots."
+  - "Common mistakes include leaving Disallow: / from staging, blocking CSS or JS files and relying on Crawl-delay, which Google ignores, so test changes before deploying."
 image: "/wp-content/uploads/2026/08/robots.txt.webp"
 imageAlt: "robots.txt"
 words: 1248

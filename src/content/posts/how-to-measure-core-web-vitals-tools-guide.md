@@ -8,6 +8,12 @@ categories: ["core-web-vitals", "seo"]
 primaryCategory: "seo"
 description: "A page can score 100 in Lighthouse and still fail Core Web Vitals. Here's how PageSpeed Insights, CrUX, and Search Console actually differ."
 focusKeyword: "how to measure core web vitals"
+takeaways:
+  - "Google uses only real-user field data from the Chrome User Experience Report, CrUX, to decide whether Core Web Vitals pass for ranking purposes."
+  - "A page can score 100/100 in Lighthouse and still fail Core Web Vitals, because Lighthouse runs one simulated test on a throttled mid-range mobile device."
+  - "Search Console reports field data only, grouped by URL pattern, making it best for spotting failing templates and site sections at scale."
+  - "PageSpeed Insights combines CrUX field data for a single URL with a Lighthouse lab test and prioritized fix suggestions, making it the practical starting point for one page."
+  - "A healthy workflow checks Lighthouse before deployment and Search Console after, since CrUX field data aggregates over a rolling 28-day window."
 image: "/wp-content/uploads/2026/07/Core-Web-Vitals-1.webp"
 imageAlt: "Core Web Vitals"
 words: 1535

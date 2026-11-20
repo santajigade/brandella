@@ -8,6 +8,12 @@ categories: ["content"]
 primaryCategory: "content"
 description: "91% of published content gets zero organic traffic from Google. Here are the 25 content writing mistakes causing it, grouped into 5 fixable categories."
 focusKeyword: "Content Writing Mistakes"
+takeaways:
+  - "An Ahrefs study found that 91% of content published on the web never gets a single visit from Google search."
+  - "The 25 content writing mistakes fall into five categories: keyword misuse, weak structure, mismatched search intent, technical neglect and outdated content."
+  - "Most zero-traffic pages target topics nobody searches for or lack quality backlinks and internal links pointing to them."
+  - "Keyword stuffing, thin content and other tactics that worked in 2021 now actively hurt rankings and reduce citations in AI answers."
+  - "Intent mismatch and thin content cause the sharpest ranking drops, so audits should start there and check the current top-ranking pages."
 image: "/wp-content/uploads/2026/07/Content-Writing-Mistakes.webp"
 imageAlt: "Content Writing Mistakes"
 words: 1597

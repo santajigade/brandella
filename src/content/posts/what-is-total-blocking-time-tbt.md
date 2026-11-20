@@ -8,6 +8,12 @@ categories: ["digital-marketing"]
 primaryCategory: "digital-marketing"
 description: "TBT carries 30% weight in your Lighthouse score, more than any other metric. Learn what causes high TBT and how to calculate and fix it."
 focusKeyword: "TBT"
+takeaways:
+  - "Total Blocking Time adds up the portion beyond 50 milliseconds of every main thread task between First Contentful Paint and Time to Interactive."
+  - "TBT carries roughly 30% weight in the Lighthouse performance score, more than any other single metric."
+  - "A good TBT is 200ms or less on average mobile hardware, 200-600ms needs improvement and above 600ms is poor."
+  - "TBT is a lab-only metric, not a Core Web Vital, and serves as a proxy for INP, the real-user responsiveness metric."
+  - "Large JavaScript bundles, third-party scripts and framework hydration are the main causes, fixed with code splitting, scheduler.yield() and deferring non-critical scripts."
 image: "/wp-content/uploads/2026/07/TBT.webp"
 imageAlt: "TBT"
 words: 1350

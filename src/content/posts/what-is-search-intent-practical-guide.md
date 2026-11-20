@@ -8,6 +8,12 @@ categories: ["keyword-research", "seo"]
 primaryCategory: "keyword-research"
 description: "Learn what intent-based search is, the 4 types of search intent and how to match your content to each one to rank higher and earn more clicks."
 focusKeyword: "intent-based search"
+takeaways:
+  - "Search intent is the real reason behind a query, the outcome a person wants, whether an explanation, a comparison, a specific website or a purchase."
+  - "The four traditional intent types are informational, navigational, commercial investigation and transactional, and they organize the vast majority of search queries."
+  - "Scanning the top 10 results in an incognito window is the fastest reliable way to infer intent, since the SERP shows what Google believes searchers want."
+  - "A featured snippet or People Also Ask box usually signals informational intent, while a shopping carousel at the top strongly signals transactional intent."
+  - "AI platforms like ChatGPT, Perplexity and Claude increasingly reward three newer patterns: exploratory, comparative research and synthesis intent."
 image: "/wp-content/uploads/2026/08/search-intent.webp"
 imageAlt: "search intent"
 words: 1135

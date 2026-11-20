@@ -8,6 +8,12 @@ categories: ["content"]
 primaryCategory: "content"
 description: "A page can go from 2,000 to 500 visits without any warning sign. Learn what causes content decay, how to diagnose it, and a 6-step refresh process."
 focusKeyword: "content decay"
+takeaways:
+  - "Content decay is the gradual decline in a page's organic traffic, rankings and engagement over months or years, unlike a sudden drop from a penalty."
+  - "Four causes explain most decay: age and freshness preference, competitors improving their pages, shifting search intent and internal keyword cannibalization."
+  - "Compare year over year data, and review pages with traffic down more than 20% over 90 days or a ranking drop of more than 5 positions."
+  - "A page can keep its Google ranking while disappearing from ChatGPT, Perplexity and AI Overviews, so organic rank decay and AI citation decay are separate problems."
+  - "A substantive refresh can recover 40-80% of lost traffic within about six weeks, but pages with minimal traffic and no backlinks are better pruned or consolidated."
 image: "/wp-content/uploads/2026/08/content-decay.webp"
 imageAlt: "content decay"
 words: 1305

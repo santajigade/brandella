@@ -8,6 +8,12 @@ categories: ["content"]
 primaryCategory: "content"
 description: "LinkedIn company page reach dropped 60-66% since 2024. Here's the growth flywheel, content formats, and readiness calculator that still work in 2026."
 focusKeyword: "LinkedIn Company Page"
+takeaways:
+  - "Organic reach on LinkedIn company pages dropped 60 to 66% between 2024 and 2026, so posting updates and press releases no longer works."
+  - "A complete, verified page with a logo is the foundation, since LinkedIn treats the verification badge as a trust signal it rewards."
+  - "Document carousels average around 7% engagement, while unstructured text posts get under 2%, and posts with external links can lose roughly 60% of reach."
+  - "Crossing 150 followers can speed up a page's growth rate by up to 9 times, and employee shared content can earn 10x more organic reach."
+  - "Posting three to five times a week consistently, and tracking saves and shares rather than follower count alone, usually shows meaningful growth within three to six months."
 image: "/wp-content/uploads/2026/07/LinkedIn-company-page.webp"
 imageAlt: "LinkedIn company page"
 words: 1449

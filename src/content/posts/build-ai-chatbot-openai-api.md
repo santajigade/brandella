@@ -8,6 +8,12 @@ categories: ["artificial-intelligence"]
 primaryCategory: "artificial-intelligence"
 description: "Build a real, working AI chatbot with the OpenAI API and Node.js complete backend, frontend, conversation memory, and a cost estimator."
 focusKeyword: "AI chatbot"
+takeaways:
+  - "An OpenAI chatbot needs two parts: a backend server that calls the chat completions endpoint and a frontend chat interface that talks to it."
+  - "Never put the OpenAI API key in frontend JavaScript; store it in a .env file or host environment variables and route requests through the backend."
+  - "The model has no memory between API calls, so the full conversation history must be resent with every request to give the chatbot memory."
+  - "The gpt-4o-mini model costs $0.15 per million input tokens and $0.60 per million output tokens, making it the practical default for most chatbots."
+  - "The system message sets personality and rules, temperature controls variation, max_tokens caps reply length and cost, and rate limiting should be added before going live."
 image: "/wp-content/uploads/2026/08/AI-chatbot.webp"
 imageAlt: "AI chatbot"
 words: 1572

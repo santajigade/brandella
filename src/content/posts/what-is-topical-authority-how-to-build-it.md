@@ -8,6 +8,12 @@ categories: ["seo", "seo-basics"]
 primaryCategory: "seo"
 description: "A site with 30 backlinks can outrank one with 300 through topical authority. Learn the pillar-cluster model, internal linking, and a readiness calculator."
 focusKeyword: "topical authority"
+takeaways:
+  - "Topical authority is how far a search engine sees a site as a comprehensive, trustworthy source on a subject, built across many interconnected pages."
+  - "The pillar and cluster model pairs one comprehensive pillar page with 10-20 supporting cluster articles, each answering one specific question the pillar raises."
+  - "Cluster articles should link back to the pillar with its target keyword in the anchor text, and related clusters should also link to each other."
+  - "Consistent, structured publishing typically starts showing results in 60-90 days, and older cluster pages need regular updates to keep authority from eroding."
+  - "Starting three pillars at once is a common mistake; completing and validating one topic first, then scaling, produces more reliable results."
 image: "/wp-content/uploads/2026/08/topical-authority.webp"
 imageAlt: "topical authority"
 words: 1212

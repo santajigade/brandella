@@ -8,6 +8,12 @@ categories: ["core-web-vitals", "seo"]
 primaryCategory: "seo"
 description: "Speed Index measures how quickly a page fills in visually, not a single moment like FCP. Learn the formula, thresholds, and what actually improves it."
 focusKeyword: "Speed Index"
+takeaways:
+  - "Speed Index measures how quickly above-the-fold content becomes visually complete, calculated from video frames captured during the whole load."
+  - "Google treats 3.4 seconds or less as good on mobile, 3.4-5.8s as needing work and above 5.8s as poor."
+  - "Speed Index carries 10% weight in the Lighthouse performance score and is lab only, never part of CrUX field data."
+  - "Pages that render meaningful content steadily score better than pages that stay blank and show everything at once, even with the same total load time."
+  - "Render-blocking CSS and JavaScript, heavy above-the-fold images and web fonts that block text rendering are common causes of a poor score."
 image: "/wp-content/uploads/2026/07/Speed-Index.webp"
 imageAlt: "Speed Index"
 words: 1294
