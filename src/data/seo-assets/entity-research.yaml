@@ -1,0 +1,354 @@
+seoTitle: "Entity Research Template: Excel Kit for Entity SEO and AI"
+h1: "Entity Research Kit: Excel Entity Map, Full Guide and AI Prompts"
+focusKeyword: entity research template
+description: "Free entity research template in Excel: map the entities behind any topic, score their importance, find coverage gaps, audit your brand and build about JSON-LD."
+published: 2026-11-20
+updated: 2026-11-20
+time: 30 to 45 minutes per topic
+level: Intermediate to advanced
+kit: true
+tabs: 11
+intro:
+  - "Search engines and AI assistants do not just match words. They connect people, places, things and ideas, which are called entities. This free <strong>entity research template</strong> is a complete working kit for mapping them: an Excel Entity Map that scores how important each entity is to a topic, checks how well your page covers it and tells you exactly what to add, plus a Topics tab that gives every page a coverage score and a verdict."
+  - "It is built for the AI search era. AI answers name entities, not keywords, so the kit has an AI Answer Check tab that matches the entities each answer names with your map, a Brand Entity Audit for your own business and authors, and a Page Plan that writes <code>about</code> and <code>mentions</code> JSON-LD with <code>sameAs</code> links for you."
+kitContents:
+  - t: "Excel workbook, 11 tabs"
+    d: "Entity Map (500 ready rows with 22 automatic columns), Topics with verdicts, Dashboard with two charts, AI Answer Check, Brand Entity Audit, Page Plan with a JSON-LD builder, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "4 topics, 37 entities, 7 AI answer checks and a 16 point brand audit for a fictional online tea store, so you see every score, gap and verdict working before you add your own topics."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to read offline or share with your writers."
+  - t: "22 AI prompts"
+    d: "Prompts to list, group and disambiguate entities, find gaps, write entity rich sections, check AI answers and audit your brand, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole entity research process on one page, to tick off for every important topic."
+steps:
+  - t: Add the topic and its main entity
+    d: "On the Topics tab, add the topic or keyword, the main entity the page is about (for example Darjeeling tea), your page URL and how many top results you will check, usually 10."
+  - t: Collect entities from the top results
+    d: "Open each top result. On the Entity Map, add every person, place, product, concept or organization the pages keep naming. Count how many of the checked results mention each one and mark People also ask or related searches."
+  - t: Read the AI answers
+    d: "Ask the topic in AI Overviews, AI Mode or an assistant. On AI Answer Check, type the entities each answer names, spelled exactly as in your map. The map counts them by itself and flags entities you missed."
+  - t: Add reference URLs
+    d: "For each important entity, add a reference URL that pins down which thing you mean: its Wikipedia or Wikidata page or the official site. These become <code>sameAs</code> links in your markup."
+  - t: Mark your coverage and read the gaps
+    d: "For each entity, choose None, Mentioned, Explained or Own section for your page. The sheet gives every entity a tier, a gap and a next action, and every topic a coverage score and verdict."
+  - t: Plan the page and the markup
+    d: "Pick the topic on Page Plan. You get the top 12 entities, the biggest gap and ready JSON-LD with <code>about</code> and <code>mentions</code>. Write the brief, then update the page."
+  - t: Audit your brand and recheck
+    d: "Work through the Brand Entity Audit so your own business and authors are clearly defined. Recheck important topics every quarter, because results and AI answers change."
+sections:
+  - h: What entity research means in the AI search era
+    html: |
+      <p>An entity is a single, well defined thing: a person, a place, an organization, a product, an event or an idea. Darjeeling tea is an entity. So is the town of Darjeeling, and so is the idea of a first flush harvest. Entity research means finding the entities that belong to a topic, deciding which ones matter most, and making sure your page covers them clearly and without confusion.</p>
+      <p>Google has worked this way for years. Its <a href="https://support.google.com/knowledgepanel/answer/9787176" target="_blank" rel="noopener">Knowledge Graph help page</a> says facts in the Knowledge Graph come from a variety of sources, including public sources, licensed data and information from content owners, and that knowledge panels are created automatically. Its <a href="https://developers.google.com/knowledge-graph" target="_blank" rel="noopener">Knowledge Graph Search API</a> lets you search for entities (people, places, things) and returns them in JSON-LD that is compatible with schema.org types.</p>
+      <p>Three things make entities more important now:</p>
+      <ul>
+        <li><strong>AI answers are built from entities.</strong> Google says AI Overviews and AI Mode <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">may use query fan out</a>, running several related searches across subtopics. Each subtopic is usually an entity or an attribute of one. A page that covers the core entities well has more ways to be useful to that process.</li>
+        <li><strong>Ambiguity costs you.</strong> "Darjeeling" can be a town, a district, a tea or a train. Clear context and reference links such as <code>sameAs</code> tell machines which one you mean. schema.org defines <a href="https://schema.org/sameAs" target="_blank" rel="noopener">sameAs</a> as the URL of a reference web page that unambiguously indicates the item's identity, such as its Wikipedia page, Wikidata entry or official website.</li>
+        <li><strong>Your brand is an entity too.</strong> Google's <a href="https://developers.google.com/search/docs/appearance/structured-data/organization" target="_blank" rel="noopener">Organization structured data</a> documentation says some properties are used behind the scenes to disambiguate your organization from other organizations. If AI answers cannot tell who you are, they cannot recommend you.</li>
+      </ul>
+      <p>What has not changed: entities are not a checklist of words to stuff into a page. They are the things a genuinely complete answer has to explain. Our article on <a href="/what-is-entity-seo-who-vs-what-2026/">what entity SEO is</a> covers the idea in more depth; this kit is the hands on method.</p>
+  - h: What is inside the entity research workbook
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>Entity Map</td><td>One row per entity. Works out SERP share, AI answers naming it, AI share, an importance score from 0 to 100, the tier, the coverage it needs, the gap, the next action, the schema property, a sameAs check, a salience check and a JSON-LD fragment.</td><td>Topic, entity, type, role, results mentioning it, People also ask, reference URL, your coverage, optional salience</td></tr>
+          <tr><td>Topics</td><td>One row per topic or page. Entities mapped, main and core entities covered, coverage score, critical gaps, missing reference URLs, brand share in AI answers, biggest gap, verdict and next step.</td><td>Topic, main entity, page URL, results checked</td></tr>
+          <tr><td>Dashboard</td><td>Key numbers, coverage and verdict per topic, entities and gaps by tier, and two charts.</td><td>Nothing</td></tr>
+          <tr><td>AI Answer Check</td><td>Counts the entities each AI answer names, how many are in your map, how many your page explains and how many are new.</td><td>Topic, engine, date, up to 8 entities, brand named, page linked</td></tr>
+          <tr><td>Brand Entity Audit</td><td>16 weighted checks for your own business and authors, with a score and a priority for each check.</td><td>Status, evidence, owner, due date</td></tr>
+          <tr><td>Page Plan</td><td>Pick a topic to see its summary, the top 12 entities by importance, ready <code>about</code> and <code>mentions</code> JSON-LD, and a brief to fill in.</td><td>Topic, headline, brief boxes</td></tr>
+          <tr><td>Settings</td><td>Tier bands, verdict bands, importance weights, the entity type to schema.org type table and dropdown lists.</td><td>Optional tuning</td></tr>
+          <tr><td>AI Prompts, Checklist, Sources</td><td>All 22 prompts, the process with automatic progress, and where every fact and assumption comes from.</td><td>Yes or No per step</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas. All 500 Entity Map rows, 100 topic rows and 200 AI check rows are ready with formulas and dropdowns.</p>
+  - h: How to find the entities for a topic
+    html: |
+      <ol>
+        <li><strong>Start with the main entity.</strong> Write down the one thing the page is about. For a comparison page there can be two. Give them the role Main entity.</li>
+        <li><strong>Read the top results, not just their titles.</strong> Open the top 10 for your keyword in a clean, signed out browser. Note every person, place, product, organization, event and concept the pages keep naming. Count how many of the 10 mention each one.</li>
+        <li><strong>Check People also ask and related searches.</strong> The questions people ask usually name attributes (water temperature, caffeine, price) and related things (masala chai, tea bags). Mark them Yes.</li>
+        <li><strong>Read the AI answers.</strong> Ask the topic in AI Overviews, AI Mode and one or two assistants. Type the entities each answer names on AI Answer Check. Entities that AI answers name but you did not map are flagged as new.</li>
+        <li><strong>Pin down each important entity.</strong> Find its Wikipedia or Wikidata page, or its official site, and paste it as the reference URL. If you cannot find one, the entity may be too vague. Rename it to something more specific.</li>
+        <li><strong>Optional: run a salience check.</strong> The <a href="https://docs.cloud.google.com/natural-language/docs/reference/rest/v1/Entity" target="_blank" rel="noopener">Google Cloud Natural Language API</a> gives each entity in a text a salience score from 0 to 1, where scores closer to 1 are more central to the whole text. It is a separate Cloud product and Google Search does not say it uses it, so treat it only as a second opinion. If your main entity is not the most salient one on your own page, your focus is blurred.</li>
+      </ol>
+      <p>Ten to fifteen entities per topic is usually enough. More rows are not better: the goal is to find the few that a complete answer cannot skip.</p>
+  - h: How the scores work (with a worked example)
+    html: |
+      <p>Every entity except the main entity gets an <strong>importance score</strong> from 0 to 100, built from four parts. Weights are editable on Settings.</p>
+      <ul>
+        <li><strong>SERP share (weight 45).</strong> The share of checked top results that mention the entity.</li>
+        <li><strong>AI share (weight 30).</strong> The share of logged AI answers for the topic that name it. If you have not logged any AI answers yet, this part is left out and the others are scaled up.</li>
+        <li><strong>People also ask or related searches (weight 15).</strong> Yes or No.</li>
+        <li><strong>Reference URL (weight 10).</strong> A well defined entity with a Wikipedia, Wikidata or official page.</li>
+      </ul>
+      <p>55 or more is <strong>Core</strong>, 30 or more is <strong>Supporting</strong>, anything lower is <strong>Peripheral</strong>. The main entity is always 100. Each tier needs a level of coverage: the main entity needs its Own section, Core entities need to be Explained, Supporting entities need at least a Mention, Peripheral ones are optional. These are starter assumptions for this kit, not Google rules.</p>
+      <p>The <strong>coverage score</strong> for a topic is importance weighted: each entity earns its importance times the share of the coverage it needs (capped at 100 percent), divided by the total importance that needs coverage. 80 percent or more is <strong>Strong entity coverage</strong>, 50 percent or more is <strong>Fill the gaps</strong>, lower is <strong>Thin: rebuild around the core entities</strong>.</p>
+      <p><strong>Worked example.</strong> In the demo, LeafLine Teas maps "darjeeling first flush tea". It checks 10 top results and 3 AI answers (an AI Overview, ChatGPT and Perplexity) and maps 12 entities.</p>
+      <ul>
+        <li><strong>Muscatel flavour:</strong> 6 of 10 results mention it (60 percent), all 3 AI answers name it (100 percent), it shows in People also ask, and it has no reference URL. (45 x 0.6 + 30 x 1 + 15) divided by 100 gives 72: <strong>Core</strong>. LeafLine's page does not mention it at all, so it is a <strong>Critical gap</strong>.</li>
+        <li><strong>First flush:</strong> all 10 results, all 3 AI answers and People also ask: 90, Core, and the page gives it its own section, so Covered.</li>
+        <li><strong>Darjeeling</strong> (the place): 8 of 10 results, 1 of 3 AI answers and a reference URL: 56, Core. The page only mentions it, so it is <strong>Partly covered</strong>.</li>
+        <li><strong>Geographical indication:</strong> 4 of 10 results, 1 AI answer and a reference URL: 38, Supporting, not mentioned, so a Gap.</li>
+        <li><strong>Black tea:</strong> 4 results, no AI answer and a reference URL: 28, Peripheral, so Optional.</li>
+      </ul>
+      <p>Adding it up, the page earns 458 of 596 importance points, a coverage score of 77 percent: <strong>Fill the gaps</strong>. The biggest gap is Muscatel flavour. The AI Answer Check also shows the AI Overview names "Spring harvest", which LeafLine had not mapped. Only 1 of the 3 AI answers (Perplexity) named LeafLine itself.</p>
+      <p>The other demo topics show the range. "how to brew green tea" scores 48 percent (<strong>Thin</strong>) with 3 critical gaps: bitterness, matcha and tea bags, the very things the AI answers talk about. "assam vs darjeeling tea" scores 95 percent (<strong>Strong</strong>). "cold brew tea" has only 4 entities mapped, so the sheet asks for at least 5 before it gives a score.</p>
+  - h: Tiers, coverage levels and what each one needs
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tier</th><th>Rule in the workbook</th><th>Coverage needed</th><th>What to do when it is missing</th></tr></thead>
+        <tbody>
+          <tr><td>Main</td><td>Role is Main entity</td><td>Own section</td><td>Make it the clear subject: name it in the title, H1 and first paragraph, and give it its own section.</td></tr>
+          <tr><td>Core</td><td>Importance 55 or more</td><td>Explained</td><td>Add a section that explains what it is and how it connects to the main entity.</td></tr>
+          <tr><td>Supporting</td><td>Importance 30 to 54</td><td>Mentioned</td><td>Mention it where it fits, with a link if you have a page on it.</td></tr>
+          <tr><td>Peripheral</td><td>Importance below 30</td><td>Optional</td><td>Include only if it helps the reader.</td></tr>
+        </tbody>
+      </table></div>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Coverage level</th><th>What it means on your page</th></tr></thead>
+        <tbody>
+          <tr><td>None</td><td>Not on the page.</td></tr>
+          <tr><td>Mentioned</td><td>Named once or twice, without explanation.</td></tr>
+          <tr><td>Explained</td><td>The reader learns what it is and why it matters here, usually in a paragraph or a few sentences.</td></tr>
+          <tr><td>Own section</td><td>It has its own heading and enough detail to answer questions about it.</td></tr>
+        </tbody>
+      </table></div>
+      <p>"Explained" is the level that matters most for AI answers: a clear, self contained explanation of an entity is the kind of passage an answer can use.</p>
+  - h: Making your entities unambiguous with sameAs, about and mentions
+    html: |
+      <p>Each row of the Entity Map builds a small JSON-LD fragment from the entity type, its name and its reference URL. The Page Plan joins them: Main entities go into <code>about</code> and Core and Supporting entities go into <code>mentions</code>, but only once your page covers them. Entities you have not covered yet are left out, because markup must describe what is on the page.</p>
+      <p>schema.org defines <a href="https://schema.org/about" target="_blank" rel="noopener">about</a> as the subject matter of an object, and <a href="https://schema.org/mentions" target="_blank" rel="noopener">mentions</a> as a reference to a concept that the work is not necessarily about. This is the start of the demo output:</p>
+      <pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:#f6f6f6;padding:12px;border-radius:6px;font-size:13px"><code>{"@context":"https://schema.org","@type":"Article",
+       "headline":"Darjeeling First Flush Tea: Taste, Harvest and How to Brew It",
+       "about":[{"@type":"Thing","name":"Darjeeling tea",
+                 "sameAs":"https://en.wikipedia.org/wiki/Darjeeling_tea"}],
+       "mentions":[{"@type":"Thing","name":"First flush"}, ...]}</code></pre>
+      <p>Be honest about what this does. <code>about</code> and <code>mentions</code> are schema.org properties, not a Google rich result, and no search engine promises to use them. They are a cheap, clear way to state your page's entities to any machine that reads the page. Add the other Article properties you use, then test the code with the Schema Markup Validator or the Rich Results Test. Our guide on <a href="/what-is-schema-markup/">what schema markup is</a> covers the basics.</p>
+  - h: Your own brand as an entity
+    html: |
+      <p>The Brand Entity Audit checks how clearly your business and your writers are defined. The facts behind the checks come from Google's documentation:</p>
+      <ul>
+        <li><strong>Organization markup.</strong> Google says there are no required properties for <a href="https://developers.google.com/search/docs/appearance/structured-data/organization" target="_blank" rel="noopener">Organization structured data</a>, recommends adding as many relevant properties as you can, and recommends placing it on your home page or a single page that describes your organization, such as the about page. You do not need it on every page. You can list multiple <code>sameAs</code> URLs, and properties such as the logo can influence which logo Google shows in results and your knowledge panel.</li>
+        <li><strong>Authors.</strong> Google's <a href="https://developers.google.com/search/docs/appearance/structured-data/article" target="_blank" rel="noopener">Article structured data</a> documentation says <code>author.url</code> should link to a page that uniquely identifies the author, that <code>sameAs</code> can be used as an alternative and Google can understand both when disambiguating authors, and that multiple authors should each get their own author field.</li>
+        <li><strong>Knowledge panels.</strong> Google's help pages say knowledge panels are generated automatically and updated as information on the web changes. If a panel shows for you, you can claim it and suggest changes.</li>
+      </ul>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Status</th><th>Points</th><th>Priority shown</th></tr></thead>
+        <tbody>
+          <tr><td>Done</td><td>Full weight</td><td>Done</td></tr>
+          <tr><td>Partly</td><td>Half the weight</td><td>Next</td></tr>
+          <tr><td>Missing</td><td>0</td><td>Fix first when the weight is 8 or more, otherwise Next</td></tr>
+          <tr><td>Not relevant</td><td>Not counted</td><td>Blank</td></tr>
+        </tbody>
+      </table></div>
+      <p>In the demo, LeafLine scores 53 percent (<strong>Partly defined</strong>): its name is consistent and it has Organization markup, but it has no author pages, no author markup and no <code>sameAs</code> links yet. Those are the Fix first rows. Our guide to <a href="/eeat-experience-expertise-authority-trust/">experience, expertise, authority and trust</a> explains why named, credible authors matter.</p>
+  - h: Reading AI answers for entities
+    html: |
+      <p>AI answers are a quick way to see which entities a system treats as part of a topic. For each answer, type up to 8 entities it names, exactly as spelled in your map, and mark whether it named your brand or linked your page.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Result</th><th>What it tells you</th></tr></thead>
+        <tbody>
+          <tr><td>New to your map</td><td>The answer names entities you did not find in the top results. Add them and check how important they are.</td></tr>
+          <tr><td>In your map but not explained</td><td>Your page skips entities the answer treats as part of the topic. Explain them.</td></tr>
+          <tr><td>Covered, brand not named</td><td>Your content is complete; the gap is reputation. Earn mentions on other sites and keep your brand entity clear.</td></tr>
+          <tr><td>Covered and named</td><td>Keep the page fresh and recheck monthly.</td></tr>
+        </tbody>
+      </table></div>
+      <p>AI answers change with the wording, the user, the place and the date. Date every check and treat a single answer as a hint, not a measurement. Our article on <a href="/what-are-ai-citations/">AI citations</a> explains how being named and being linked differ.</p>
+  - h: Column by column guide to the Entity Map
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>Topic, Entity</td><td>Dropdown of the Topics tab, and the entity name.</td><td>Use the same spelling everywhere. AI Answer Check matches names exactly.</td></tr>
+          <tr><td>Entity type</td><td>Person, Organization, Brand or product, Place, Concept, Event, Creative work or Other.</td><td>Sets the schema.org type in the JSON-LD (Settings has the table).</td></tr>
+          <tr><td>Role</td><td>Main entity, part or type of it, attribute or measure, used with or related, person or organization behind it, place, alternative or comparison.</td><td>Only the main entity changes the scoring. The rest helps you plan sections.</td></tr>
+          <tr><td>Top results that mention it</td><td>A count out of the results you checked on the Topics tab.</td><td>Search the page for the name and close variants.</td></tr>
+          <tr><td>People also ask or related searches?</td><td>Yes or No.</td><td>Questions often reveal attributes people care about.</td></tr>
+          <tr><td>Reference URL</td><td>Wikipedia, Wikidata or the official site.</td><td>Becomes <code>sameAs</code>. Never link a page that is about a different thing with the same name.</td></tr>
+          <tr><td>Our coverage, Salience</td><td>None, Mentioned, Explained or Own section, and the optional 0 to 1 salience.</td><td>Judge coverage honestly. A heading with one line under it is a mention.</td></tr>
+          <tr><td>SERP share, AI share, Importance, Tier</td><td>Automatic.</td><td>The main entity is always 100.</td></tr>
+          <tr><td>Gap, Next action</td><td>Automatic.</td><td>Sort by Importance and work down the gaps.</td></tr>
+          <tr><td>Schema property, sameAs check, JSON-LD fragment</td><td>Automatic.</td><td>Only covered entities get <code>mentions</code>.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: map.</strong> Pick your 3 most important pages or planned pages, ideally the pillars from the <a href="/resources/seo-aeo-assets/topic-clusters/">topic clusters kit</a>. Map 10 to 15 entities for each from the top results.</li>
+        <li><strong>Week 2: AI answers and references.</strong> Log 2 or 3 AI answers per topic, add the new entities they reveal and find reference URLs for every Main and Core entity.</li>
+        <li><strong>Week 3: fix the pages.</strong> Close the critical gaps first, starting with the biggest gap on each topic. Add or tighten the sections, then add the JSON-LD from Page Plan and test it.</li>
+        <li><strong>Week 4: your brand.</strong> Work through the Fix first rows of the Brand Entity Audit: author pages, author markup, Organization <code>sameAs</code> links and consistent profiles.</li>
+      </ul>
+      <p>After that, map entities as part of every new brief and recheck important topics every quarter. Our guide to <a href="/what-is-topical-authority-how-to-build-it/">building topical authority</a> shows how entity coverage across many pages adds up.</p>
+  - h: The chained prompt workflow (from topic to entity brief)
+    html: |
+      <p>Prompts 18 to 22 below are built to run in order in one AI chat:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your business, audience, topic and main entity.</li>
+        <li><strong>Paste the headings or text of the top results</strong> and ask for every entity they name.</li>
+        <li><strong>Group and rank</strong> the entities against your Entity Map rows.</li>
+        <li><strong>Find the gaps</strong> between the map and your own page.</li>
+        <li><strong>Write the brief</strong> in the Page Plan format, ready to paste.</li>
+      </ol>
+      <p>AI assistants can invent entities, merge two different things with the same name or give wrong reference URLs. Always paste your own data, and open every reference URL before you use it.</p>
+  - h: Entity research mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Stuffing entity names.</strong> Listing 40 terms without explaining them helps nobody. Explain the few that matter.</li>
+        <li><strong>Mixing up two things with one name.</strong> Check that every reference URL is about the exact thing you mean.</li>
+        <li><strong>Marking up what is not on the page.</strong> <code>mentions</code> should list entities the page really covers. The Page Plan leaves gaps out for this reason.</li>
+        <li><strong>Treating a salience score as a ranking factor.</strong> It is a Cloud API reading, useful as a second opinion only.</li>
+        <li><strong>Forgetting your own brand.</strong> Clear Organization markup, author pages and consistent profiles help machines know who is behind the content.</li>
+        <li><strong>Trusting one AI answer.</strong> Answers vary. Log several, date them and recheck.</li>
+        <li><strong>Mapping once.</strong> New products, people and terms appear. Recheck important topics every quarter.</li>
+      </ul>
+prompts:
+  - t: List the entities in a topic
+    p: |
+      I am writing a page about "[topic]" for [audience]. List the 20 most important entities (people, places, organizations, products, events and concepts)
+      a complete answer must cover. For each give the type and one line on how it connects to [main entity]. Do not invent names.
+  - t: Extract entities from competitor text
+    p: |
+      Here is the text of a top ranking page for "[keyword]": [paste]. List every entity it names, with its type and how many times it appears.
+      Mark the 5 the page treats as most central.
+  - t: Entities from People also ask
+    p: |
+      Here are the People also ask questions and related searches for "[keyword]": [paste].
+      List the entities and attributes these questions are about, and group them by the section of a page they belong in.
+  - t: Disambiguate a name
+    p: |
+      The name "[entity name]" could mean several things. List the possible meanings, and for the one that fits a page about [topic],
+      describe it in one sentence so a reader cannot confuse it. Suggest what kind of reference page would identify it.
+  - t: Role of each entity
+    p: |
+      For the topic "[topic]" with main entity [main entity], classify these entities by role: part or type of it, attribute or measure,
+      used with or related, person or organization behind it, place, alternative or comparison: [paste list].
+  - t: Find missing entities
+    p: |
+      Here are the entities I have mapped for "[topic]": [paste]. What important entities are missing that an expert would expect,
+      and why does each one matter? Only list things you are confident exist.
+  - t: Explain an entity in a self contained passage
+    p: |
+      Write a clear, self contained explanation of [entity] for a page about [topic], in 3 to 4 sentences for [audience].
+      Say what it is, why it matters for [main entity] and one practical detail. Plain language, no hype.
+  - t: Section plan from core entities
+    p: |
+      Here are the Main and Core entities for my page about "[topic]" with their importance scores: [paste].
+      Suggest an H2 and H3 outline where each core entity is explained in the right place, in the order a reader needs them.
+  - t: Compare two main entities
+    p: |
+      My page compares [entity A] and [entity B]. List the attributes readers compare them on (for example taste, price, caffeine),
+      and draft a comparison table with honest, checkable rows. Mark any value I must verify.
+  - t: Check my coverage
+    p: |
+      Here is my page text: [paste]. Here are the entities I expect it to cover: [paste list]. For each entity, say whether the page
+      does not mention it, mentions it, explains it or gives it its own section. Be strict.
+  - t: Read an AI answer for entities
+    p: |
+      Here is an AI answer to "[topic]": [paste]. List every entity it names, in order. Which of these are missing from my Entity Map: [paste names]?
+  - t: Why AI answers skip my brand
+    p: |
+      AI answers about "[topic]" name these brands and sources: [paste]. My business is [what you do]. What do those sources do that makes them
+      easy to name, and what could we do on and off our site to be named too?
+  - t: Organization markup draft
+    p: |
+      Draft Organization JSON-LD for my business: name [name], url [url], logo [logo URL], official profiles [list], address [address], email [email].
+      Use only the facts I gave you. Leave out any property I did not give a value for.
+  - t: Author page outline
+    p: |
+      Draft an author page outline for [name], who writes about [topics]. Include a short bio, real credentials, experience,
+      links to profiles and a list of articles. Mark every detail I must fill in myself instead of inventing it.
+  - t: sameAs URL check
+    p: |
+      Here are entities and the reference URLs I plan to use as sameAs: [paste]. For each, tell me what I should check to confirm the page
+      is about exactly this entity, and flag any that look like a different thing with the same name.
+  - t: Entity based FAQ
+    p: |
+      Write 6 FAQ questions and short answers for a page about "[topic]", each built around one of these entities: [paste core entities].
+      Keep each answer to 2 or 3 factual sentences and mark anything I need to verify.
+  - t: Quarterly entity review
+    p: |
+      Here is my Entity Map for "[topic]" from [old date]: [paste] and the entities named in today's top results and AI answers: [paste].
+      What is new, what dropped out and what should I change on my page?
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my entity SEO strategist. My business: [what you sell]. Audience: [who]. Topic: [topic]. Main entity: [main entity].
+      My page: [URL or planned]. Confirm, then wait for the competitor text.
+  - t: "Workflow 2 of 5: extract entities"
+    p: |
+      Here are the headings and key paragraphs of the top 5 results: [paste]. List every entity they name, with type, role and
+      how many of the 5 pages mention it, as rows I can paste into Excel (tab separated).
+  - t: "Workflow 3 of 5: group and rank"
+    p: |
+      Here are my Entity Map rows with importance scores and tiers: [paste]. Group the Main and Core entities into page sections,
+      and flag any entity that seems wrongly classified, with the reason.
+  - t: "Workflow 4 of 5: the gaps"
+    p: |
+      Here is my current page text: [paste]. Using the groups above, list each Core entity my page does not explain,
+      and for each one write a 3 sentence explanation I can adapt, with the first hand detail I should add from my own experience.
+  - t: "Workflow 5 of 5: brief for Excel"
+    p: |
+      Write the brief as rows with tabs between label and text, ready to paste into my Page Plan: What the page is about in one sentence,
+      Entities to add or explain, Original detail only we can add, Questions the page must answer, Internal links to and from. Then give an H2 outline.
+checklist:
+  - Added the topic, main entity, page URL and number of results checked
+  - Opened the top results and counted how often each entity is mentioned
+  - Marked entities that appear in People also ask or related searches
+  - Logged at least 2 AI answers and typed the entities each one names
+  - Added the new entities that AI answers revealed
+  - Added a reference URL for every Main and Core entity and checked each one
+  - Marked honest coverage levels for the page
+  - Read the tiers, gaps, coverage score and verdict
+  - Closed every critical gap, starting with the biggest one
+  - Made the main entity clear in the title, H1 and first paragraph
+  - Added the about and mentions JSON-LD and tested it
+  - Organization markup with sameAs on the home or About page
+  - Author pages and author markup with url or sameAs for every writer
+  - Checked whether a knowledge panel shows for the brand
+  - Set a quarterly date to recheck important topics
+faq:
+  - q: Is this entity research template free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: What is an entity in SEO?
+    a: "A single, well defined thing: a person, place, organization, product, event or idea. Google's Knowledge Graph Search API describes the entities it holds as people, places and things, and returns them with schema.org types."
+  - q: Do I need a paid tool to find entities?
+    a: "No. You can find them by reading the top results, People also ask and AI answers, which is what the workbook is built around. The Google Cloud Natural Language API and the Knowledge Graph Search API are optional extras for people comfortable with APIs."
+  - q: Will about and mentions markup improve my rankings?
+    a: "Nobody can promise that. They are schema.org properties, not a Google rich result. Use them as a clear statement of what your page covers, and spend most of your effort on explaining the core entities well."
+  - q: How do AI answers change entity research?
+    a: "AI answers name entities directly, so they show you which things a system treats as part of the topic. The AI Answer Check tab compares those entities with your map and your page, and tracks whether your brand is named."
+  - q: Does the workbook open in Google Sheets?
+    a: "Yes. Upload the .xlsx file to Google Drive and open it with Google Sheets. Formulas, dropdowns and colours carry over. The charts may need a quick refresh."
+related: [topic-clusters, serp-analysis, keyword-research]
+reads:
+  - t: "What is entity SEO? Why Google cares more about who than what"
+    url: /what-is-entity-seo-who-vs-what-2026/
+  - t: "What is schema markup? A complete guide for SEO and AI search"
+    url: /what-is-schema-markup/
+  - t: "EEAT explained: experience, expertise, authority and trust"
+    url: /eeat-experience-expertise-authority-trust/
+tools:
+  - t: Organization Schema Generator
+    url: /tools/schema-generators/organization-schema-generator/
+  - t: Article Schema Generator
+    url: /tools/schema-generators/article-schema-generator/
+  - t: JSON Formatter
+    url: /tools/developer-tools/json-formatter/
+sources:
+  - t: "Google: How Google's Knowledge Graph works"
+    url: https://support.google.com/knowledgepanel/answer/9787176
+  - t: "Google Developers: Knowledge Graph Search API"
+    url: https://developers.google.com/knowledge-graph
+  - t: "Google Search Central: Organization structured data"
+    url: https://developers.google.com/search/docs/appearance/structured-data/organization
+  - t: "Google Search Central: Article structured data (author markup best practices)"
+    url: https://developers.google.com/search/docs/appearance/structured-data/article
+  - t: "Google Cloud: Natural Language API Entity reference (salience)"
+    url: https://docs.cloud.google.com/natural-language/docs/reference/rest/v1/Entity
+  - t: "schema.org: sameAs"
+    url: https://schema.org/sameAs

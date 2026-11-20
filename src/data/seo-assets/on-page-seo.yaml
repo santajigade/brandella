@@ -1,0 +1,336 @@
+seoTitle: "On Page SEO Checklist: Excel Audit Kit for Google and AI"
+h1: "On Page SEO Checklist Kit: Excel Page Audit, Full Guide and AI Prompts"
+focusKeyword: on page seo checklist
+description: "Free on page SEO checklist in Excel: audit every page with 19 weighted checks, get a score and grade, see fixes in priority order and track them to done."
+published: 2026-11-20
+updated: 2026-11-20
+time: 10 to 15 minutes per page
+level: Beginner to advanced
+kit: true
+tabs: 9
+intro:
+  - "Most on page SEO checklists are a list of boxes you tick once and forget. This free <strong>on page SEO checklist</strong> is a working audit kit instead: an Excel Page Audit where you type what you see on each page, 19 automatic, weighted checks, a score from 0 to 100 and a grade for every page, the fixes in priority order, and a priority based on where the page already ranks."
+  - "It is built for the AI search era. Next to the classic checks for titles, descriptions, headings, links, images and indexing, it checks what makes a page easy to understand and quote: a direct answer in the first paragraph, original value only you can offer, a named author, an update date and headings that answer real questions. A Page Report turns any URL into a one page fix list, and a Fix Plan tracks every fix to done."
+kitContents:
+  - t: "Excel workbook, 9 tabs"
+    d: "Page Audit (500 ready rows with 7 automatic measures, 19 automatic checks, score, grade, fixes and priority), Page Report, Fix Plan, Dashboard with two charts, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "12 pages of a fictional plant shop (home, category, product, guides, local and service pages, a tool) and 13 tracked fixes, so you see every check, score and priority working before you add your own pages."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to read offline or share with your writers and developers."
+  - t: "22 AI prompts"
+    d: "Prompts to write titles, descriptions, direct answers, question headings and alt text, find internal links and turn an audit row into a fix plan, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole on page SEO checklist on one page, to tick off before you publish or update any page."
+steps:
+  - t: Set the analysis date
+    d: "On Settings, set the analysis date to the day you audit. The length bands, Core Web Vitals thresholds and check weights are ready; change them only if your site needs it."
+  - t: Add your most important pages
+    d: "On Page Audit, add one row per page: URL, page type and the focus keyword. Start with the pages that earn or could earn the most traffic."
+  - t: Copy what is really on the page
+    d: "Open the live page and its source. Paste the title tag, meta description, H1 and first paragraph, and count H1s, question headings, images without alt text and generic links such as click here. Note indexing, canonical and the Rich Results Test result."
+  - t: Add the numbers you have
+    d: "From Search Console, add impressions for the last 28 days and the average position. From PageSpeed Insights, add LCP, INP and CLS. Leave a cell blank when you do not have the number; blank checks are not scored."
+  - t: Read the score, grade and fixes
+    d: "Every page gets a score from 0 to 100, a grade, the number of fixes and the fixes in priority order. Sort by Priority and start with pages marked Blocked or Fix first."
+  - t: Print the Page Report and plan the fixes
+    d: "Pick a URL on Page Report to see every check, what was measured, the rule and how to fix it. Add each fix to the Fix Plan with an owner and a due date."
+  - t: Recheck after every fix
+    d: "Update the page row once a fix is live. The Fix Plan shows Done and verified only when the check really turns OK. Re audit important pages every quarter."
+sections:
+  - h: What on page SEO means in the AI search era
+    html: |
+      <p>On page SEO is everything you control on the page itself so that search engines can find it, understand it and show it, and so that people who land on it get what they came for. It covers the title tag and meta description, headings, the opening paragraph, the content and its original value, images, internal links, structured data, authorship and page experience.</p>
+      <p>Google's <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener">SEO Starter Guide</a> is still the best summary of the basics. Two of its lines shape this kit: a good title is "unique to the page, clear and concise, and accurately describes the contents of the page", and a good meta description is "short, unique to one particular page, and includes the most relevant points of the page."</p>
+      <p>What changes with AI search:</p>
+      <ul>
+        <li><strong>The first paragraph does more work.</strong> AI Overviews, AI Mode and assistants pull short passages that answer a question. A page that answers plainly at the top is easier to use and easier to quote. The kit checks for a direct answer up top and the focus keyword in the first paragraph.</li>
+        <li><strong>Original value matters more than ever.</strong> Google's <a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" target="_blank" rel="noopener">helpful content guidance</a> asks whether content provides original information, reporting, research or analysis, and whether pages carry a byline where one might be expected. Generic pages are the easiest to replace with an AI summary.</li>
+        <li><strong>No special markup is needed for AI features.</strong> Google says there are <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">no additional requirements</a> to appear in AI Overviews or AI Mode beyond being indexed and eligible to show with a snippet. So the basics, indexing first, are the AI checklist too.</li>
+      </ul>
+  - h: What is inside the on page SEO workbook
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>Page Audit</td><td>One row per page. Measures the URL path, title and description length, duplicate titles and descriptions, alt text coverage and Core Web Vitals status, runs 19 weighted checks, and gives a score, grade, number of fixes, fixes in priority order and a priority.</td><td>URL, page type, keyword, title, description, H1, first paragraph, counts, indexing, canonical, structured data, byline, date, direct answer, original value, Core Web Vitals, impressions, position</td></tr>
+          <tr><td>Page Report</td><td>Pick a URL to see all 19 checks with result, what was measured, the rule and how to fix it.</td><td>The URL</td></tr>
+          <tr><td>Fix Plan</td><td>Tracks fixes with the page score, the check weight, the check result now, days left and a flag: Overdue, Due this week, On track, Done and verified, or Done: recheck the page.</td><td>URL, fix, owner, due date, status, notes</td></tr>
+          <tr><td>Dashboard</td><td>Key numbers, score, grade and priority per page, pages failing each check, and two charts.</td><td>Nothing</td></tr>
+          <tr><td>Settings</td><td>Analysis date, length bands, Core Web Vitals thresholds, grade and priority rules, the 19 checks with weights, rules and fixes, page types and dropdown lists.</td><td>Optional tuning</td></tr>
+          <tr><td>AI Prompts, Checklist, Sources</td><td>All 22 prompts, the checklist with automatic progress, and where every fact and assumption comes from.</td><td>Yes or No per step</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas. All 500 Page Audit rows and 300 Fix Plan rows are ready with formulas and dropdowns.</p>
+  - h: The 19 checks and why each one matters
+    html: |
+      <p>Each check scores 1 (pass), 0.5 (partly) or 0 (fix). A check is left blank, and not scored, when it does not apply to the page type or you have no data. The weights are starter assumptions for this kit and are editable on Settings.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Check</th><th>Weight</th><th>Rule</th><th>Why it matters</th></tr></thead>
+        <tbody>
+          <tr><td>Indexable, self canonical</td><td>10</td><td>Indexable and the canonical points to the page itself.</td><td>A page that cannot be indexed cannot rank or appear in AI features. The kit marks it Blocked whatever its score.</td></tr>
+          <tr><td>Keyword in title</td><td>8</td><td>The focus keyword is in the title tag.</td><td>Google uses the title element among other sources to build the <a href="https://developers.google.com/search/docs/appearance/title-link" target="_blank" rel="noopener">title link</a>.</td></tr>
+          <tr><td>Direct answer up top</td><td>8</td><td>The first paragraph answers the question or says what the page offers.</td><td>Readers and answer systems both need the point fast.</td></tr>
+          <tr><td>Original value</td><td>8</td><td>First hand data, photos, tests, examples or experience.</td><td>Google's helpful content questions ask for original information and substantial value compared with other pages.</td></tr>
+          <tr><td>Internal links in</td><td>8</td><td>3 or more pages link to it; 1 or 2 is partly.</td><td>Google's <a href="https://developers.google.com/search/docs/crawling-indexing/links-crawlable" target="_blank" rel="noopener">link best practices</a> say every page you care about should have a link from at least one other page on your site.</td></tr>
+          <tr><td>Keyword in H1, Keyword in first paragraph</td><td>6 each</td><td>One clear main heading and an opening that name the topic.</td><td>Headings help users navigate and Google also uses headings for title links.</td></tr>
+          <tr><td>Title length, Unique title</td><td>5 each</td><td>30 to 60 characters, and no other page uses it.</td><td>The length band is an assumption: long titles may be cut off in results. Every page needs its own title.</td></tr>
+          <tr><td>Meta description, Unique description</td><td>5 and 3</td><td>70 to 160 characters, and unique.</td><td>Google's <a href="https://developers.google.com/search/docs/appearance/snippet" target="_blank" rel="noopener">snippet documentation</a> says there is no limit on length, snippets are cut to fit the device, and identical descriptions on every page are not helpful.</td></tr>
+          <tr><td>Byline, Updated date</td><td>5 and 3</td><td>Articles and guides only.</td><td>Readers want to know who wrote it and how current it is.</td></tr>
+          <tr><td>Image alt text</td><td>5</td><td>90 percent or more of images have alt text.</td><td>Google's <a href="https://developers.google.com/search/docs/appearance/google-images" target="_blank" rel="noopener">image SEO guide</a> calls alt text the most important attribute for image metadata and warns against filling it with keywords.</td></tr>
+          <tr><td>Core Web Vitals</td><td>5</td><td>All three Good = pass, none Poor = partly.</td><td>Page experience for real users. See the thresholds below.</td></tr>
+          <tr><td>Question headings</td><td>4</td><td>Articles and guides have at least one question heading.</td><td>Follow up questions become clear sections with a short answer each.</td></tr>
+          <tr><td>Structured data</td><td>4</td><td>Valid = pass, none = partly, errors = fix.</td><td>It matters for rich results. Google says it is not required for generative AI search.</td></tr>
+          <tr><td>Readable URL, Descriptive anchors</td><td>3 each</td><td>No ?, = or _ and at most 75 characters; no click here or read more links.</td><td>Google says good anchor text is descriptive, reasonably concise and relevant.</td></tr>
+        </tbody>
+      </table></div>
+  - h: How the score works (with a worked example)
+    html: |
+      <p>The score is the weighted share of checks a page passes: the sum of weight x result for every check that applies, divided by the total weight of the checks that apply, times 100. A is 85 or more, B is 70 or more, C is 55 or more, anything lower is D.</p>
+      <p><strong>Worked example.</strong> In the demo, UrbanRoots audits its guide "how to repot a snake plant", which ranks at an average position of 7 with 5,400 impressions in 28 days.</p>
+      <ul>
+        <li><strong>Passes (57 points):</strong> indexable with a self canonical (10), keyword in the 47 character title (8), original value from its own nursery photos (8), title length (5), unique title (5), a 134 character meta description (5), a byline (5), Good Core Web Vitals with LCP 2.3 s, INP 130 ms and CLS 0.04 (5), unique description (3) and a readable URL (3).</li>
+        <li><strong>Partly (5 points):</strong> the H1 "Repotting Your Snake Plant" names the topic but not the focus keyword (half of 6), and there is no structured data (half of 4).</li>
+        <li><strong>Fails (0 points):</strong> no direct answer up top, no internal links pointing to it, the keyword is not in the first paragraph, 5 of 8 images have no alt text (37.5 percent coverage), no question headings, 1 generic "read more" link and no update date.</li>
+      </ul>
+      <p>That is 62 of 104 points, a score of 60, grade <strong>C</strong>, with 9 fixes. Because it already sits between positions 4 and 20, its priority is <strong>Fix first: close to the top</strong>. The fixes come out in weight order: direct answer up top; internal links in; keyword in H1 (partly); keyword in first paragraph; image alt text; question headings; structured data (partly); descriptive anchors; updated date. The Fix Plan already tracks four of them with an owner and a due date.</p>
+      <p>The other demo pages show the range. The low light plants guide scores 98 (A, Healthy). The indoor plants category page scores 83 (B) but is marked Fix first at position 14.5, because it has no meta description and no original value. The plant delivery page scores 33 (D): no keyword in the title, no H1 and no description. The pot size calculator scores 87, yet it is marked <strong>Blocked: fix indexing first</strong>, because a noindex left over from staging keeps it out of Google entirely.</p>
+  - h: Priority rules
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Priority</th><th>Rule (editable on Settings)</th><th>What to do</th></tr></thead>
+        <tbody>
+          <tr><td>Blocked: fix indexing first</td><td>The indexable check fails.</td><td>Fix noindex, robots.txt or canonical before anything else.</td></tr>
+          <tr><td>Healthy: monitor</td><td>Score 85 or more.</td><td>Keep it fresh and recheck every quarter.</td></tr>
+          <tr><td>Protect: fix carefully</td><td>Average position 1 to 3.</td><td>Make small, tested fixes. Do not rewrite what already wins.</td></tr>
+          <tr><td>Fix first: close to the top</td><td>Average position 4 to 20.</td><td>The best return: these pages are already trusted and close to the top.</td></tr>
+          <tr><td>Rework the page</td><td>Score below 50 and not close to the top.</td><td>Rethink intent, format and content, not just tags.</td></tr>
+          <tr><td>Improve when you can</td><td>Everything else.</td><td>Work through the fixes in order.</td></tr>
+        </tbody>
+      </table></div>
+      <p>The hidden Fix value column multiplies impressions by the missing share of the score. Sort by it to choose between several Fix first pages.</p>
+  - h: What Google says you should not worry about
+    html: |
+      <p>Part of a good checklist is what it leaves out. The SEO Starter Guide has a section of things Google believes you should not focus on, and this kit follows it:</p>
+      <ul>
+        <li><strong>Meta keywords.</strong> "Google Search doesn't use the keywords meta tag." The kit does not ask for them.</li>
+        <li><strong>Keyword stuffing.</strong> Repeating the same words over and over is tiring for users and against Google's spam policies. The checks look for the keyword once in the right places, never a density.</li>
+        <li><strong>Keywords in the domain or URL path.</strong> Google says they alone have hardly any effect beyond appearing in breadcrumbs. The URL check only asks for a short, readable path.</li>
+        <li><strong>Content length.</strong> Google says the length of the content alone does not matter for ranking. The workbook records word count for context only and never scores it.</li>
+        <li><strong>Number and order of headings.</strong> Google says it does not matter for Search if headings are out of order and there is no ideal number. The kit checks for one clear main heading and question headings because they help readers, and does not penalise a second H1.</li>
+      </ul>
+      <p>Our guide to <a href="/html-heading-structure-best-practices/">HTML heading structure</a> explains why a logical outline still helps screen readers and users.</p>
+  - h: Titles, descriptions and the first paragraph
+    html: |
+      <p>These three are what people see first, in results and on the page:</p>
+      <ol>
+        <li><strong>Title tag.</strong> Name the topic early, say what makes the page useful, keep it honest. Google builds the title link from several sources, so a vague title may be replaced. Our guide to <a href="/title-tag-optimization/">title tag optimization</a> has 7 rules and examples.</li>
+        <li><strong>Meta description.</strong> One or two sentences that summarise this page only. Google says snippets are mostly created from page content and it sometimes uses the meta description when it describes the page more accurately, so write it as a real summary, not a keyword list.</li>
+        <li><strong>First paragraph.</strong> Answer the main question or say what the page offers in 2 or 3 sentences, using the focus keyword naturally. Then add the detail, proof and steps below.</li>
+      </ol>
+      <p>In the demo, the repotting guide opens with a story about how tough snake plants are. The fix is to open with when to repot, the 3 signs a plant needs it and the pot size to pick, then tell the story.</p>
+  - h: Core Web Vitals thresholds
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Metric</th><th>Good</th><th>Needs improvement</th><th>Poor</th></tr></thead>
+        <tbody>
+          <tr><td>Largest Contentful Paint (LCP)</td><td>2.5 s or less</td><td>Up to 4 s</td><td>Over 4 s</td></tr>
+          <tr><td>Interaction to Next Paint (INP)</td><td>200 ms or less</td><td>Up to 500 ms</td><td>Over 500 ms</td></tr>
+          <tr><td>Cumulative Layout Shift (CLS)</td><td>0.1 or less</td><td>Up to 0.25</td><td>Over 0.25</td></tr>
+        </tbody>
+      </table></div>
+      <p>These bands come from the <a href="https://support.google.com/webmasters/answer/9205520" target="_blank" rel="noopener">Search Console Core Web Vitals report</a>, which uses field data from real users and gives a group the status of its worst metric. The kit does the same: one Poor metric makes the page Poor. In the demo, the Pune nursery page is Poor because of LCP 4.6 s and CLS 0.3, from a heavy hero image and a map embed that shifts the layout. See <a href="/how-to-measure-core-web-vitals-tools-guide/">how to measure Core Web Vitals</a> for where to find your numbers.</p>
+  - h: Column by column guide to the Page Audit
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>URL, Page type, Focus keyword</td><td>The full URL, one of 8 page types and the main keyword.</td><td>Article or guide pages also get the byline, date and question heading checks.</td></tr>
+          <tr><td>Title tag, Meta description, H1, First paragraph</td><td>Pasted from the page source and the page.</td><td>Use view source, not the search result, which may be rewritten.</td></tr>
+          <tr><td>Number of H1s, Question headings, Approx. words</td><td>Counts.</td><td>A heading checker tool does this in seconds. Words are context only.</td></tr>
+          <tr><td>Images, Images without alt</td><td>Counts.</td><td>Count the images that carry meaning, such as photos, charts and product shots.</td></tr>
+          <tr><td>Internal links pointing to it, Generic anchors</td><td>From your crawler or Search Console Links report, and a count of click here style links.</td><td>0 internal links means an orphan page.</td></tr>
+          <tr><td>Indexable?, Canonical, Structured data</td><td>Yes or No; Self, Other URL or Missing; Valid, Errors or None.</td><td>Use URL Inspection in Search Console and the Rich Results Test.</td></tr>
+          <tr><td>Byline, Updated date, Direct answer, Original value</td><td>Yes, No or Not needed.</td><td>Judge honestly; these are the AI era checks.</td></tr>
+          <tr><td>LCP, INP, CLS, Impressions, Avg position</td><td>Field data from PageSpeed Insights, and Search Console for the last 28 days.</td><td>Leave blank if you have no data.</td></tr>
+          <tr><td>Measures, checks, Score, Grade, Fixes, Priority</td><td>Automatic.</td><td>Row 3 shows the weight of each check.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: audit.</strong> Add your 20 most important pages: top earners from Search Console plus pages at positions 4 to 20. Fill every yellow cell.</li>
+        <li><strong>Week 2: unblock and quick wins.</strong> Fix every Blocked page first. Then fix missing titles, descriptions and H1s, alt text and generic anchors on the Fix first pages.</li>
+        <li><strong>Week 3: content fixes.</strong> Add direct answers, question headings, update dates and original value to the Fix first guides. Add internal links from related pages to every orphan; our <a href="/internal-linking-best-practices-seo-rankings/">internal linking guide</a> shows how.</li>
+        <li><strong>Week 4: experience and recheck.</strong> Hand the Core Web Vitals fixes to your developer, update the rows of every page you changed and confirm the Fix Plan shows Done and verified.</li>
+      </ul>
+      <p>After that, run new pages through the checklist before you publish, and re audit important pages every quarter. The <a href="/resources/seo-aeo-assets/serp-analysis/">SERP analysis kit</a> helps when a page scores well but still does not move.</p>
+  - h: The chained prompt workflow (from audit row to fixed page)
+    html: |
+      <p>Prompts 18 to 22 below are built to run in order in one AI chat:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your business, the page and its focus keyword.</li>
+        <li><strong>Paste the audit row and the fixes</strong> in priority order.</li>
+        <li><strong>Rewrite the top of the page:</strong> title, description, H1 and a direct first paragraph.</li>
+        <li><strong>Plan the body fixes:</strong> question headings, original value to add and internal links.</li>
+        <li><strong>Get a fix list for Excel</strong>, ready to paste into the Fix Plan.</li>
+      </ol>
+      <p>AI assistants cannot see your live page, your Search Console data or your real photos and tests. Paste your own data, and never let an assistant invent experience, numbers or quotes.</p>
+  - h: On page SEO mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Polishing a page Google cannot index.</strong> Check indexing and the canonical first.</li>
+        <li><strong>Chasing a word count.</strong> Google says length alone does not matter. Cover the topic, then stop.</li>
+        <li><strong>Stuffing keywords</strong> into titles, headings, alt text or anchors. Once, naturally, in the right places is enough.</li>
+        <li><strong>Copying one description across many pages.</strong> Google says identical descriptions are not helpful when pages appear in results.</li>
+        <li><strong>Leaving pages orphaned.</strong> A page no other page links to is hard to find for people and crawlers.</li>
+        <li><strong>Burying the answer.</strong> Long intros push the point below the fold. Answer first, then explain.</li>
+        <li><strong>Changing URLs to add keywords.</strong> Keywords in the path have hardly any effect, and a change without a redirect loses what the page earned.</li>
+        <li><strong>Auditing once.</strong> Pages drift as people edit them. Recheck important pages every quarter. Our guide to <a href="/how-to-write-seo-friendly-blog/">writing SEO friendly blog posts</a> helps new pages pass the first time.</li>
+      </ul>
+prompts:
+  - t: Title tag options
+    p: |
+      Write 5 title tags for a [page type] about "[focus keyword]" for [audience]. Put the topic near the start, say what makes the page useful
+      ([what is special]), keep each under 60 characters and promise only what the page delivers.
+  - t: Meta description options
+    p: |
+      Write 3 meta descriptions for this page: [paste summary]. Each 1 or 2 sentences, specific, unique to this page, 120 to 155 characters,
+      with the focus keyword "[keyword]" used naturally. No keyword lists.
+  - t: Direct answer opening
+    p: |
+      Here is the first paragraph of my page about "[keyword]": [paste]. Rewrite it as a direct answer in 2 or 3 sentences that answers
+      the main question first, uses the keyword naturally and leads into the detail. Keep my facts; do not add new ones.
+  - t: H1 options
+    p: |
+      Suggest 5 H1 headings for a page whose title is "[title]" and focus keyword is "[keyword]". Clear, natural, not identical to the title.
+  - t: Question headings
+    p: |
+      Here are the People also ask questions and customer questions for "[keyword]": [paste]. Pick the 5 that fit my page about [topic],
+      phrase each as an H2 or H3 and write a 2 sentence direct answer under each.
+  - t: Original value ideas
+    p: |
+      My page about "[keyword]" is generic. My business is [what you do] and we have [data, photos, tests, customers, tools].
+      List 10 kinds of first hand detail I could add that no competitor page has, and where on the page each would go.
+  - t: Alt text for images
+    p: |
+      Write short, specific alt text (under 125 characters) for these images on a page about [topic]: [describe each image].
+      Describe what is in the image. Do not stuff keywords. Say if an image is decorative and needs empty alt text.
+  - t: Internal link finder
+    p: |
+      Here is a list of my site's pages with titles: [paste]. My target page is "[title]" at [URL]. Suggest 5 pages that should link to it,
+      the sentence where the link fits and descriptive anchor text for each.
+  - t: Replace generic anchors
+    p: |
+      Here are paragraphs from my page with generic links such as "click here" or "read more": [paste with the linked URL].
+      Rewrite each link so the anchor text says what the linked page is about. Keep the sentence natural.
+  - t: Structured data choice
+    p: |
+      My page is a [page type] about [topic] with these elements: [author, date, steps, FAQ, product, price, reviews, address].
+      Which schema.org types fit, which properties should I fill from what is really on the page, and what must I not mark up?
+  - t: Byline and author box
+    p: |
+      Write a short author box for [name], who wrote this page about [topic]. Use only these facts: [credentials, experience, role].
+      Then suggest what the linked author page should include.
+  - t: Update note
+    p: |
+      I updated my page about "[keyword]" with these changes: [list]. Write a one line "Last updated" note for the top of the page
+      and a 2 sentence summary of what changed for returning readers.
+  - t: Core Web Vitals brief for a developer
+    p: |
+      My page [URL] has LCP [x] s, INP [x] ms and CLS [x] from field data. It uses [theme, plugins, hero image, embeds].
+      Write a short, prioritised brief for my developer with the likely causes and the first 3 things to test for each poor metric.
+  - t: Duplicate titles and descriptions
+    p: |
+      These pages share the same title or description: [paste URLs with titles and descriptions]. Write a unique title and description
+      for each that reflects what that page alone offers.
+  - t: Page type check
+    p: |
+      Here is the top of my page and its focus keyword "[keyword]": [paste]. Does the page type (guide, product, category, tool, local page)
+      match what someone searching this keyword wants? If not, what should change?
+  - t: Pre publish review
+    p: |
+      Review this draft against an on page SEO checklist: title, description, H1, first paragraph, question headings, original value,
+      internal links, image alt text, byline and date. Draft: [paste]. List what passes and what to fix, most important first.
+  - t: Quarterly re audit summary
+    p: |
+      Here are my page audit rows from [old date]: [paste] and today: [paste]. Summarise what improved, what slipped
+      and which 5 pages I should fix next, with the reason for each.
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my on page SEO editor. My business: [what you sell]. Audience: [who]. The page: [URL], a [page type] about "[focus keyword]",
+      average position [x]. Confirm, then wait for my audit data.
+  - t: "Workflow 2 of 5: the audit row"
+    p: |
+      Here is the Page Audit row and the fixes in priority order for the page: [paste]. Explain in plain words what each fix means
+      for this page and which 3 will make the biggest difference.
+  - t: "Workflow 3 of 5: rewrite the top"
+    p: |
+      Here are the current title, meta description, H1 and first paragraph: [paste]. Rewrite all four so they name the topic clearly,
+      answer the main question first and stay honest. Keep my facts; mark anything you would need me to confirm.
+  - t: "Workflow 4 of 5: body fixes"
+    p: |
+      Here are the page's current H2 headings: [paste] and the questions readers ask: [paste]. Suggest question headings to add, where my
+      first hand detail should go ([what we have]) and 3 related pages on my site that should link here: [paste list of pages].
+  - t: "Workflow 5 of 5: fix list for Excel"
+    p: |
+      Turn everything above into rows with tabs between columns, ready to paste into my Fix Plan:
+      URL, Fix (use the check names from my audit), Owner, Due date, Status (To do), Notes. One fix per row, most important first.
+checklist:
+  - Page is indexable and the canonical points to itself
+  - Focus keyword chosen and checked against search intent
+  - Title tag is unique, names the topic early and fits in about 60 characters
+  - Meta description is unique and summarises this page in 1 or 2 sentences
+  - One clear H1 that names the topic
+  - First paragraph answers the main question and uses the keyword naturally
+  - Question headings for the follow up questions readers ask
+  - Original value added (own data, photos, tests, examples or experience)
+  - Byline with a link to an author page, and a visible update date (articles and guides)
+  - Every meaningful image has short, specific alt text
+  - At least 3 related pages link to this page with descriptive anchor text
+  - No generic click here or read more links
+  - Structured data fits the page and passes the Rich Results Test
+  - URL is short and readable (never changed without a redirect)
+  - Core Web Vitals checked in PageSpeed Insights field data
+  - Page row updated after every fix, and a quarterly re audit date set
+faq:
+  - q: Is this on page SEO checklist free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: How is this different from a normal on page SEO checklist?
+    a: "A normal checklist is a list of boxes. This kit checks each page with formulas, weights the checks, gives every page a score and grade, lists the fixes in priority order and tracks them to done, so you know which pages to fix first."
+  - q: How long should a title tag and meta description be?
+    a: "Google sets no fixed limit and cuts snippets to fit the device. The kit uses 30 to 60 characters for titles and 70 to 160 for descriptions as a practical assumption, and you can change both on Settings."
+  - q: Does word count matter for on page SEO?
+    a: "Not on its own. Google's SEO Starter Guide says the length of the content alone does not matter for ranking. The workbook records word count for context and never scores it."
+  - q: What changes for on page SEO with AI Overviews and AI Mode?
+    a: "Google says there are no extra requirements beyond being indexed and eligible for a snippet, so the basics still come first. What helps most is a clear, direct answer at the top, original value and clear authorship, which the kit checks."
+  - q: Does the workbook open in Google Sheets?
+    a: "Yes. Upload the .xlsx file to Google Drive and open it with Google Sheets. Formulas, dropdowns and colours carry over. The charts may need a quick refresh."
+related: [serp-analysis, search-intent, entity-research]
+reads:
+  - t: "Title tag optimization: 7 proven rules for better rankings"
+    url: /title-tag-optimization/
+  - t: "HTML heading structure best practices (H1 to H6) with examples"
+    url: /html-heading-structure-best-practices/
+  - t: "Internal linking best practices that improve SEO rankings"
+    url: /internal-linking-best-practices-seo-rankings/
+tools:
+  - t: SERP Snippet Preview
+    url: /tools/seo-tools/serp-snippet-preview/
+  - t: Heading Structure Checker
+    url: /tools/seo-tools/heading-structure-checker/
+  - t: Alt Text Checker
+    url: /tools/seo-tools/alt-text-checker/
+sources:
+  - t: "Google Search Central: SEO Starter Guide"
+    url: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+  - t: "Google Search Central: Control your snippets in search results"
+    url: https://developers.google.com/search/docs/appearance/snippet
+  - t: "Google Search Central: Link best practices for Google"
+    url: https://developers.google.com/search/docs/crawling-indexing/links-crawlable
+  - t: "Google Search Central: Google image SEO best practices"
+    url: https://developers.google.com/search/docs/appearance/google-images
+  - t: "Search Console Help: Core Web Vitals report"
+    url: https://support.google.com/webmasters/answer/9205520
+  - t: "Google Search Central: Creating helpful, reliable, people first content"
+    url: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
