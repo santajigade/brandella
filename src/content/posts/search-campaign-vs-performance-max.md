@@ -131,7 +131,7 @@ format: "html"
 
 <h2 id="core-difference"><span class="bx-num">01</span>Search Campaign vs Performance Max: The Core Difference</h2>
 <div class="bx-rule"></div>
-<p>StackMatix's 2026 breakdown states it in one sentence: Search campaigns give you explicit control over the queries that trigger your ads. Performance Max hands that control to Google's algorithm instead. You define keywords in Search; you provide creative assets and audience signals in PMax and let the AI decide where, when, and to whom your ads show.</p>
+<p>StackMatix's 2026 breakdown states it in one sentence: Search campaigns give you explicit control over the queries that trigger your ads. Performance Max hands that control to Google's algorithm instead. You define keywords in Search; you provide creative assets and audience signals in PMax and let the AI decide where, when, and to whom your ads show. For what that shift means in practice, see our guide to <a href="/ai-in-ppc-should-advertisers-be-worried/">AI in PPC and what advertisers still control</a>.</p>
 
 <p><a href="https://support.google.com/google-ads/answer/10724817?hl=en" target="_blank" rel="noopener">Google's own Help Center</a> describes PMax as complementary by design, built to find more converting customers across YouTube, Display, Search, Discover, Gmail, and Maps, alongside your existing keyword-based Search campaigns rather than replacing them.</p>
 
