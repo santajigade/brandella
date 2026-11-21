@@ -1,0 +1,349 @@
+seoTitle: "Title Tag Template: Free Excel Title Lab for Google and AI"
+h1: "Title Tag Template Kit: Excel Title Lab, Title Builder, Guide and AI Prompts"
+focusKeyword: title tag template
+description: "Free title tag template in Excel: check every title against 13 weighted rules, find titles that lose clicks, build better ones and test each change fairly."
+published: 2026-11-21
+updated: 2026-11-21
+time: 5 minutes per page, 1 hour for a first site audit
+level: Beginner to advanced
+kit: true
+tabs: 9
+intro:
+  - "Most title tag templates are a list of formulas you copy once. This free <strong>title tag template</strong> is a working kit instead: an Excel Title Lab that checks every title on your site against 13 weighted rules, compares each page CTR with your own average for the same ranking position, estimates the clicks each weak title costs you, and checks your proposed new title before it goes live."
+  - "It is built for the AI search era, where Google rewrites most titles, tests new ways to pick headlines and links pages from AI Overviews and AI Mode. So the kit also records the title Google really shows, tells you when it was rewritten or cut off, builds new titles from 10 proven patterns, and logs every title change so you only keep the changes that really win clicks."
+kitContents:
+  - t: "Excel workbook, 9 tabs"
+    d: "Title Lab (500 ready rows with 13 automatic measures, 13 weighted checks, score, grade, fixes, priority, missed clicks and a proposed title check), Title Builder, Test Log, Dashboard with two charts, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "14 pages of a fictional coffee gear shop, 10 built titles and 6 title tests, so you see every check, CTR comparison and test verdict working before you add your own pages."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to share with your writers, developers or clients."
+  - t: "22 AI prompts"
+    d: "Prompts to write, shorten, fix and test titles, find why Google rewrites them and match titles to search intent, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole title tag checklist on one page, to tick off before you publish or change any title."
+steps:
+  - t: Set the date and your site name
+    d: "On Settings, set the analysis date and type your site name exactly as it appears in your titles. The length bands, CTR rules and check weights are ready; change them only if your site needs it."
+  - t: Export your pages from Search Console
+    d: "In the Performance report, open the Pages tab for the last 28 days and copy URL, impressions, clicks and average position into the Title Lab."
+  - t: Paste the real title, H1 and keyword
+    d: "Copy the title from the page source (not from the search result), the H1 and the focus keyword. Pick the page type so home and about pages stay out of the CTR averages."
+  - t: Paste the title Google shows
+    d: "For your important pages, search the focus keyword and paste the title Google shows. The kit tells you if it is shown as written, cut off or rewritten."
+  - t: Read the score, priority and missed clicks
+    d: "Sort by Priority. Fix now means a missing, half empty or stuffed title. Rewrite first means low CTR on a page with many impressions. Missed clicks shows what a weak title may cost you."
+  - t: Write and check a new title
+    d: "Use the Title Builder or the AI prompts, then paste your best idea into the Proposed new title column. Edit it until the check says Ready to test."
+  - t: Change one title and log the test
+    d: "Publish the new title, log it on the Test Log with the 28 day numbers before, and come back after 28 days. Keep the winners and revert the losers."
+sections:
+  - h: What a title tag does in the AI search era
+    html: |
+      <p>The title tag is the <code>&lt;title&gt;</code> element in the head of a page. It names the page for browsers, for social shares and above all for search results, where it usually becomes the blue, clickable headline Google calls the <a href="https://developers.google.com/search/docs/appearance/title-link" target="_blank" rel="noopener">title link</a>. A good title helps people decide in a second whether your page answers their search.</p>
+      <p>Google does not simply copy your title. Its title link documentation lists the sources it uses to build the title link: the <code>&lt;title&gt;</code> element, the main visual title on the page, heading elements such as <code>&lt;h1&gt;</code>, the <code>og:title</code> meta tag, other large and prominent text, other text on the page, anchor text on the page, the text of links that point to the page, and <code>WebSite</code> structured data. That is why a vague or stuffed title is often replaced.</p>
+      <p>Three things make titles matter even more now:</p>
+      <ul>
+        <li><strong>Google rewrites most titles.</strong> A Zyppy study of 80,959 titles in early 2022 found Google rewrote 61.6 percent of them. A 2025 study published on <a href="https://searchengineland.com/google-changed-76-of-title-tags-in-q1-2025-heres-what-that-means-454847" target="_blank" rel="noopener">Search Engine Land</a> reported 76 percent, with brand name removal the most common change. The methods differ, but the message is the same: write a title Google has no reason to replace.</li>
+        <li><strong>Google is testing new ways to pick headlines.</strong> In March 2026 Google confirmed to The Verge a small experiment that changed article headlines and site titles in Search, reported by <a href="https://searchenginejournal.com/google-ai-headlines-in-search/570208/" target="_blank" rel="noopener">Search Engine Journal</a>. Google said the aim is to find text on the page that would make a useful title for the query. Clear, accurate titles that match the page are the best protection.</li>
+        <li><strong>AI answers send fewer, more deliberate clicks.</strong> Google says a page only needs to be indexed and eligible to show with a snippet to appear as a supporting link in <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">AI Overviews and AI Mode</a>, with no special optimization. When a searcher already has a summary, your title has to promise something the summary does not: depth, proof, a tool, a fresh number or a local answer.</li>
+      </ul>
+  - h: What is inside the title tag workbook
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>Title Lab</td><td>One row per page. Measures characters, words, the title without the site name, duplicates, where the keyword starts, keyword and site name repeats, a year, the position band, CTR, your band average CTR and how Google shows the title. Runs 13 weighted checks and gives a score, grade, fixes in priority order, a priority, missed clicks and a check of your proposed title.</td><td>URL, page type, focus keyword, current title, H1, the title Google shows, impressions, clicks, position, proposed title</td></tr>
+          <tr><td>Title Builder</td><td>Builds titles from 10 patterns with your keyword, angle and qualifier, adds the site name if you want, and checks the length and keyword position.</td><td>Page type, pattern, keyword, angle, qualifier, site name Yes or No</td></tr>
+          <tr><td>Test Log</td><td>Compares CTR 28 days before and after a title change, waits until the test is long enough and warns when the position moved too much for a fair test.</td><td>URL, date changed, status, before and after numbers</td></tr>
+          <tr><td>Dashboard</td><td>14 key numbers, the 10 biggest click opportunities, your CTR by position band and pages failing each check, with two charts.</td><td>Nothing</td></tr>
+          <tr><td>Settings</td><td>Analysis date, site name, length bands, CTR rules, grades and priority rules, the 13 checks with weights, rules and fixes, title patterns, page types, vague words and years.</td><td>Optional tuning</td></tr>
+          <tr><td>AI Prompts, Checklist, Sources</td><td>All 22 prompts, the checklist with automatic progress, and where every fact and assumption comes from.</td><td>Yes or No per step</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas. All 500 Title Lab rows, 100 Title Builder rows and 200 Test Log rows are ready with formulas and dropdowns.</p>
+  - h: The 13 title checks and why each one matters
+    html: |
+      <p>Each check scores 1 (pass), 0.5 (partly) or 0 (fix). A check is left blank, and not scored, when you have no data for it. The weights are starter assumptions for this kit and are editable on Settings.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Check</th><th>Weight</th><th>Rule</th><th>Why it matters</th></tr></thead>
+        <tbody>
+          <tr><td>Title present, not half empty</td><td>10</td><td>At least 15 characters once the site name and separators are removed.</td><td>Google lists a half empty title such as "| Site Name" as a common issue; it then looks elsewhere on the page.</td></tr>
+          <tr><td>Keyword in title</td><td>8</td><td>The focus keyword appears in the title.</td><td>Searchers scan for the words they typed. In the 2025 study, 77 percent of the changed titles did not include the page's perceived focus keyword.</td></tr>
+          <tr><td>Unique title</td><td>8</td><td>No other page uses the same title.</td><td>Google asks for descriptive text on every page and warns against repeated, boilerplate titles.</td></tr>
+          <tr><td>Title length</td><td>6</td><td>30 to 60 characters pass; under 30 or 61 to 70 partly; over 70 fix.</td><td>Google sets no limit but shortens title links to fit the device. Zyppy found 51 to 60 characters were rewritten least and titles over 70 characters 99.9 percent of the time.</td></tr>
+          <tr><td>No keyword stuffing</td><td>6</td><td>Keyword once, fewer than 3 commas.</td><td>Google says repeated keywords and lists can make results look like spam. A stuffed title is always Fix now.</td></tr>
+          <tr><td>Specific, not vague</td><td>6</td><td>Not a vague word such as Home or Products, at least 3 words.</td><td>Google asks for concise, descriptive titles and gives "Home" and "Profile" as examples to avoid.</td></tr>
+          <tr><td>CTR vs your site average</td><td>6</td><td>At least 80 percent of your own band average pass; 50 to 79 percent partly.</td><td>The only honest benchmark is your own site at the same position, with the same brand and audience.</td></tr>
+          <tr><td>Keyword near the start</td><td>5</td><td>The keyword begins within the first 25 characters.</td><td>The start of the title survives truncation and is what people read first.</td></tr>
+          <tr><td>Year is current</td><td>5</td><td>A year in the title is this year or later.</td><td>Google lists an obsolete year in the title as a common issue and may show a heading instead.</td></tr>
+          <tr><td>Matches the H1</td><td>5</td><td>The H1 contains the focus keyword.</td><td>Google uses headings as a source for title links. Zyppy found matching the title and H1 seems to be an effective strategy.</td></tr>
+          <tr><td>Shown as written</td><td>5</td><td>The title Google shows equals yours; cut off is partly.</td><td>A rewritten title is a signal that Google found better text elsewhere.</td></tr>
+          <tr><td>Site name once</td><td>3</td><td>Exactly once; missing is partly; twice or more is fix.</td><td>Google suggests keeping branding concise, with the site name at the start or end after a delimiter.</td></tr>
+          <tr><td>Clean separators</td><td>3</td><td>No square brackets; a pipe is partly.</td><td>Zyppy saw brackets rewritten 77.6 percent of the time and pipes changed 41 percent of the time, against 19.7 percent for dashes.</td></tr>
+        </tbody>
+      </table></div>
+  - h: How the score and missed clicks work (with a worked example)
+    html: |
+      <p>The score is the weighted share of checks a title passes: the sum of weight x result for every check with data, divided by the total weight of those checks, times 100. A is 85 or more, B is 70 or more, C is 55 or more, anything lower is D.</p>
+      <p>CTR is compared only with your own pages. The kit groups pages into position bands (1 to 3, 4 to 10, 11 to 20, 21 and beyond), adds up clicks and impressions for all pages in the same band with at least 100 impressions, and divides. Home and about pages are left out, because brand searches give them a much higher CTR. <strong>Missed clicks</strong> = impressions x (band average CTR minus page CTR). It is an estimate of what the weak title may cost, not a promise.</p>
+      <p><strong>Worked example.</strong> In the demo, BrewNest checks its guide on the "pour over coffee ratio". The title is "The Ultimate Guide to the Pour Over Coffee Ratio for Beginners and Experts in 2024 | BrewNest". The page sits at position 6.2 with 12,400 impressions and 150 clicks in 28 days.</p>
+      <ul>
+        <li><strong>Measures:</strong> 93 characters, the keyword starts at character 27, the year is 2024 and there is a pipe. CTR is 1.2 percent. The average for BrewNest pages at positions 4 to 10 is 2.9 percent (2,730 clicks from 93,800 impressions), so this page gets 42 percent of the band average. Google shows the H1 instead: "Pour Over Coffee Ratio: Grams, Water and Time".</li>
+        <li><strong>Passes (46 points):</strong> a real title (10), keyword in title (8), unique (8), no stuffing (6), specific (6), matches the H1 (5) and the site name once (3).</li>
+        <li><strong>Partly (4 points):</strong> the keyword starts after character 25 (half of 5) and the pipe separator (half of 3).</li>
+        <li><strong>Fails (0 points):</strong> length over 70 characters, CTR below half the band average, an old year and a rewritten title.</li>
+      </ul>
+      <p>That is 50 of 76 points, a score of 66, grade <strong>C</strong>, with 6 fixes. Because CTR fails on a page with more than 1,000 impressions, its priority is <strong>Rewrite first: low CTR, high impressions</strong>. Missed clicks: 12,400 x (2.9 percent minus 1.2 percent) = about 211 clicks every 28 days.</p>
+      <p>The proposed title "Pour Over Coffee Ratio: Grams, Water and Time (With Chart)" is 58 characters, puts the keyword first, drops the old year and matches what Google already prefers to show, so the check says <strong>Ready to test</strong>. The Test Log has it planned for 28 November.</p>
+      <p>Other demo pages show the range. The home page title "Home | BrewNest" scores 44 (D) and is <strong>Fix now</strong>: once the site name is removed only "Home" is left. The coffee beans category title repeats "coffee beans" 4 times and is Fix now for stuffing, even with a score of 74. The best coffee beans guide scores 85 but is Rewrite first: it still says 2025 and gets less than half the band CTR, about 453 missed clicks. The AeroPress and moka pot guides share the title "Coffee Brewing Guide - BrewNest" and both fail Unique title.</p>
+  - h: Priority rules
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Priority</th><th>Rule (editable on Settings)</th><th>What to do</th></tr></thead>
+        <tbody>
+          <tr><td>Fix now: missing or half empty</td><td>The first check fails.</td><td>Write a real, descriptive title today.</td></tr>
+          <tr><td>Fix now: keyword stuffing</td><td>Keyword 3 or more times, or a comma list.</td><td>Rewrite it as one natural phrase.</td></tr>
+          <tr><td>Rewrite first: low CTR, high impressions</td><td>CTR under half the band average and 1,000 or more impressions.</td><td>The biggest click gains. Rewrite and log a test.</td></tr>
+          <tr><td>Healthy: monitor</td><td>Score 85 or more.</td><td>Leave it alone and recheck every quarter.</td></tr>
+          <tr><td>Protect: test carefully</td><td>Average position 1 to 3.</td><td>Change only with a clear reason, one title at a time.</td></tr>
+          <tr><td>Fix first: close to the top</td><td>Average position 4 to 20.</td><td>Fix the failed checks; these pages already rank.</td></tr>
+          <tr><td>Rewrite the title</td><td>Score below 50.</td><td>Start again with the Title Builder.</td></tr>
+          <tr><td>Improve when you can</td><td>Everything else.</td><td>Work through the fixes in order.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Ten title tag formulas that work
+    html: |
+      <p>The Title Builder uses these patterns. <code>{keyword}</code>, <code>{angle}</code> and <code>{qualifier}</code> are filled in from your row; add your own patterns on Settings.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Pattern</th><th>Best for</th><th>Example from the demo</th></tr></thead>
+        <tbody>
+          <tr><td>{keyword}: {angle}</td><td>Guides, explainers, tools</td><td>Pour Over Coffee Ratio: Grams, Water and Time</td></tr>
+          <tr><td>How to {keyword}: {angle}</td><td>Step by step guides</td><td>How to Use a Moka Pot: 6 Steps for Strong Coffee</td></tr>
+          <tr><td>{keyword}: {qualifier} {angle}</td><td>Lists and reviews from your own tests</td><td>Best Coffee Beans in India: 12 We Tasted Blind</td></tr>
+          <tr><td>{keyword}: Which Is Better for {angle}?</td><td>Comparisons</td><td>Burr vs Blade Grinder: Which Is Better for Pour Over?</td></tr>
+          <tr><td>{keyword} with {angle} ({qualifier})</td><td>Product pages</td><td>Hand Coffee Grinder with Ceramic Burrs (40 Settings)</td></tr>
+          <tr><td>{keyword}: {angle} ({qualifier})</td><td>Category pages</td><td>Coffee Grinders: Manual and Electric (32 Models)</td></tr>
+          <tr><td>{keyword} in {qualifier}: {angle}</td><td>Local pages</td><td>Coffee Roastery in Bengaluru: Visit Our Indiranagar Cafe</td></tr>
+          <tr><td>Free {keyword}: {angle}</td><td>Calculators and tools</td><td>Free Coffee Ratio Calculator: Grams for Any Brew Method</td></tr>
+          <tr><td>{keyword} ({qualifier}): {angle}</td><td>Guides you really update every year</td><td>Coffee Subscription Prices in India (2026): Every Plan Compared</td></tr>
+          <tr><td>{keyword}? {angle}</td><td>Question led articles</td><td>Is a Burr Grinder Worth It? We Tested 6 for a Month</td></tr>
+        </tbody>
+      </table></div>
+      <p>Two rules keep every pattern honest: promise only what the page delivers, and use a number or a year only when it is true. Our guide to <a href="/title-tag-optimization/">title tag optimization</a> has 7 more rules with examples.</p>
+  - h: Why Google rewrites titles and what to do
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>What you see</th><th>Likely cause</th><th>Fix</th></tr></thead>
+        <tbody>
+          <tr><td>Google shows your H1 instead</td><td>The title is long, vague or says something different from the main heading.</td><td>Make the title and H1 describe the same topic; keep the title under about 60 characters.</td></tr>
+          <tr><td>Your site name is gone or added</td><td>Brand text is repeated, long, or Google knows the site name from elsewhere.</td><td>Use the site name once, short, at the start or end after a hyphen or colon.</td></tr>
+          <tr><td>The year changed</td><td>The title shows an old year while the page shows a newer one.</td><td>Update the year only after a real content update, in the title and on the page.</td></tr>
+          <tr><td>Brackets or extra words are dropped</td><td>Square brackets, boilerplate or keyword repeats.</td><td>Remove brackets and repeats; say it once, plainly.</td></tr>
+          <tr><td>A different phrase from the page appears</td><td>Google found text it believes matches the query better.</td><td>Use the searcher's words for the page's main topic in the title.</td></tr>
+        </tbody>
+      </table></div>
+      <p>Google says it cannot change title links by hand for one site, and after you change a title it must recrawl and reprocess the page, which can take days or weeks. That is why the Test Log waits 28 days before it judges a change.</p>
+  - h: Column by column guide to the Title Lab
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>URL, Page type, Focus keyword</td><td>The full URL, one of 8 page types and the main keyword.</td><td>Home and about pages are kept out of the CTR averages (editable on Settings).</td></tr>
+          <tr><td>Current title tag, H1</td><td>From the page source and the page.</td><td>Use view source or a crawler export, not the search result.</td></tr>
+          <tr><td>Title Google shows</td><td>Paste it from a real search for the focus keyword.</td><td>Optional. Titles can change by query and device; check your key pages.</td></tr>
+          <tr><td>Impressions, Clicks, Avg position</td><td>Search Console Performance report, Pages tab, last 28 days.</td><td>AI Overviews and AI Mode traffic is counted in the Web search type.</td></tr>
+          <tr><td>Proposed new title</td><td>Your next title idea.</td><td>Edit until the Proposed title check says Ready to test.</td></tr>
+          <tr><td>Measures, checks, Score, Grade, Fixes, Priority, Missed clicks</td><td>Automatic.</td><td>Row 3 above the checks shows each weight from Settings.</td></tr>
+        </tbody>
+      </table></div>
+      <p>See our guide to the <a href="/search-console-performance-report/">Search Console performance report</a> for where to find each number.</p>
+  - h: How to run a fair title test
+    html: |
+      <ol>
+        <li><strong>Change one thing on one page.</strong> If you also rewrite the content, you will not know what moved CTR.</li>
+        <li><strong>Note the 28 days before.</strong> Impressions, clicks and average position for that URL only.</li>
+        <li><strong>Wait 28 days.</strong> Google needs time to recrawl, and short periods are noisy. The waiting time is editable.</li>
+        <li><strong>Compare like with like.</strong> If the average position moved by more than 2, CTR changed for that reason too. The kit flags it as not a fair test.</li>
+        <li><strong>Decide.</strong> A CTR change of 10 percent or more either way is a win or a loss (editable). Anything smaller is no clear change.</li>
+      </ol>
+      <p>In the demo, the French press guide went from 4.0 to 7.0 percent CTR at almost the same position (3.3 to 3.1): a CTR change of plus 75 percent, so <strong>Win: keep the new title</strong>. The ratio calculator also gained, but it moved from position 4.9 to 2.4, so the kit says <strong>Position moved: not a fair test</strong>.</p>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: collect.</strong> Add your top 50 pages by impressions from Search Console. Paste titles, H1s and keywords, and the title Google shows for the top 20.</li>
+        <li><strong>Week 2: fix the blockers.</strong> Fix every Fix now title: missing, half empty, stuffed and duplicate titles. These are quick and safe.</li>
+        <li><strong>Week 3: rewrite for clicks.</strong> Rewrite the 5 Rewrite first pages with the Title Builder and the prompts. Change them and log each one on the Test Log.</li>
+        <li><strong>Week 4: clean up.</strong> Update old years, remove brackets and repeated site names, and match titles to H1s on the Fix first pages.</li>
+      </ul>
+      <p>After 28 days, read the Test Log verdicts, keep the winners and repeat with the next 5 pages. The <a href="/resources/seo-aeo-assets/on-page-seo/">on page SEO checklist kit</a> covers everything else on the page, and the <a href="/resources/seo-aeo-assets/search-intent/">search intent kit</a> helps when a title gets clicks but the page does not satisfy.</p>
+  - h: The chained prompt workflow (from weak title to logged test)
+    html: |
+      <p>Prompts 18 to 22 below are built to run in order in one AI chat:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your site, audience and site name.</li>
+        <li><strong>Paste the Title Lab row</strong> with the fixes, CTR and the title Google shows.</li>
+        <li><strong>Get 10 new titles</strong> in different patterns, each under 60 characters.</li>
+        <li><strong>Pressure test them</strong> against the page, the search results and your rules.</li>
+        <li><strong>Get rows for Excel</strong>, ready to paste into the Proposed column and the Test Log.</li>
+      </ol>
+      <p>AI assistants cannot see your Search Console data or the live search results. Paste your own numbers, and never let an assistant invent a number, a year or a claim the page does not support.</p>
+  - h: Title tag mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Copying one title across many pages.</strong> Every page needs its own title.</li>
+        <li><strong>Stuffing keywords.</strong> One natural phrase beats a list of variants.</li>
+        <li><strong>Long titles full of filler.</strong> "The Ultimate Guide to" pushes your topic out of view.</li>
+        <li><strong>Old years.</strong> A 2024 title in 2026 tells searchers the page is stale.</li>
+        <li><strong>Promises the page does not keep.</strong> Clickbait may win a click, then lose the reader.</li>
+        <li><strong>Judging a change after a few days.</strong> Wait for recrawling and a full 28 day window.</li>
+        <li><strong>Comparing CTR with a generic benchmark.</strong> Use your own pages at the same position instead.</li>
+        <li><strong>Ignoring the title Google shows.</strong> If Google keeps choosing your H1, that is feedback. Our guide on <a href="/ai-overviews-clicks-how-to-get-cited-2026/">getting cited in AI Overviews</a> explains why clear pages win in AI search too.</li>
+      </ul>
+prompts:
+  - t: Title options for a page
+    p: |
+      Write 10 title tags for a [page type] about "[focus keyword]" for [audience]. Put the keyword in the first 25 characters, say what makes
+      the page useful ([what is special]), keep each under 60 characters, use no brackets and promise only what the page delivers.
+  - t: Shorten a long title
+    p: |
+      This title is [x] characters: "[title]". Write 5 versions under 60 characters that keep the topic at the start and the most
+      useful promise. Do not add new claims.
+  - t: Fix a vague title
+    p: |
+      My [page type] has the vague title "[title]". The page is about [what it covers] for [audience]. Write 5 specific titles that say
+      what the page is, who it is for and why it is useful.
+  - t: Remove keyword stuffing
+    p: |
+      This title repeats keywords: "[title]". Rewrite it as one natural phrase with "[focus keyword]" once, under 60 characters,
+      that a person would want to click.
+  - t: Unique titles for similar pages
+    p: |
+      These pages share the same or nearly the same title: [paste URLs, titles and a one line summary of each]. Write a unique title for
+      each that says what that page alone offers.
+  - t: Why did Google rewrite my title
+    p: |
+      My title tag is "[title]". My H1 is "[H1]". Google shows "[shown title]" for the search "[query]". Explain the most likely reasons
+      Google rewrote it, based on Google's title link guidance, and suggest 3 titles Google would have less reason to change.
+  - t: Match the title and H1
+    p: |
+      My title is "[title]" and my H1 is "[H1]" on a page about "[focus keyword]". Suggest a title and H1 pair that describe the same
+      topic in natural words. The H1 may be longer; the title must stay under 60 characters.
+  - t: Search intent check
+    p: |
+      Here are the titles of the top 10 results for "[query]": [paste]. What do searchers want (guide, list, tool, product, local answer)?
+      Which words and angles repeat? Suggest 5 titles for my page that fit that intent but stand out.
+  - t: Angle beyond the AI answer
+    p: |
+      For the search "[query]", an AI Overview already gives a short answer. My page offers [our data, tool, photos, tests, local detail].
+      Write 5 titles that promise what the summary cannot give, under 60 characters, with no clickbait.
+  - t: Product title pattern
+    p: |
+      Create a title pattern for my [product type] pages using these fields: [name, key spec, size, material, brand]. Show the pattern and
+      5 example titles from these products: [paste]. Each under 60 characters, keyword first.
+  - t: Category title pattern
+    p: |
+      Write title patterns for my category pages ([list categories]) that use the category name first, a useful qualifier such as the
+      number of products or the main types, and the site name "[site name]" once at the end.
+  - t: Local page titles
+    p: |
+      Write 5 title tags for my [service] page in [city or area]. Include the service and the place naturally, one reason to choose us
+      ([proof]) and keep each under 60 characters.
+  - t: Year in the title
+    p: |
+      My title "[title]" includes the year [year]. I updated these parts of the page: [list]. Should the title show a year at all?
+      If yes, write the updated title; if no, write a timeless version.
+  - t: Title for a tool or calculator
+    p: |
+      Write 5 titles for my free [tool name] that says what it does in plain words ([input] to [output]), keyword first, under 60 characters.
+  - t: Translate a title for another market
+    p: |
+      Translate this title for [language and country]: "[title]". Use the words people there really search for "[keyword]", keep the
+      same promise and keep it under 60 characters. Use the language and script of that page.
+  - t: Title test idea list
+    p: |
+      Here are 10 Title Lab rows with title, CTR, band average CTR and position: [paste]. For each, suggest one title change worth
+      testing and the reason, most promising first.
+  - t: Read my test results
+    p: |
+      Here are my Test Log rows (old title, new title, CTR before and after, position before and after, days live): [paste].
+      Which changes look like real wins, which are unfair tests, and what should I test next?
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my title tag editor. My site: [site name], about [topic], for [audience]. My site name in titles is "[site name]".
+      Rules: keyword in the first 25 characters, under 60 characters, no brackets, no keyword repeats, nothing the page does not deliver.
+      Confirm, then wait for my data.
+  - t: "Workflow 2 of 5: the Title Lab row"
+    p: |
+      Here is the Title Lab row for one page: URL, focus keyword, current title, H1, title Google shows, CTR, band average CTR,
+      position and the fixes in priority order: [paste]. Explain in plain words what is wrong with the current title and why Google
+      may be rewriting it.
+  - t: "Workflow 3 of 5: ten new titles"
+    p: |
+      Here is what the page covers and what makes it special: [paste summary]. Write 10 new titles using different patterns
+      (keyword: angle, how to, number and proof, question, comparison). Show the character count of each.
+  - t: "Workflow 4 of 5: pressure test"
+    p: |
+      Here are the top 5 results for "[query]": [paste titles]. Score each of your 10 titles from 1 to 5 for clarity, honesty,
+      difference from the results above and fit with my H1 "[H1]". Keep the best 3 and explain why.
+  - t: "Workflow 5 of 5: rows for Excel"
+    p: |
+      Turn the best title into a row with tabs between columns for my Test Log: URL, Old title, New title, Date changed ([date]),
+      Status (Planned), Impressions before, Clicks before, Position before (use my numbers: [paste]), Notes (the reason for the change).
+checklist:
+  - Every page has its own title tag in the page source, not only in a plugin preview
+  - Title is specific, never just Home, Products or the site name
+  - Focus keyword appears once, naturally, in the first 25 characters or so
+  - Title stays under about 60 characters, and never runs past 70
+  - No keyword repeats, comma lists or square brackets
+  - Site name appears once, short, at the start or end after a hyphen or colon
+  - Title and H1 describe the same topic
+  - A year appears only after a real content update, and matches the page
+  - Title promises only what the page delivers, with a reason to click beyond an AI summary
+  - No two pages share the same title
+  - Title uses the language and script of the page
+  - The title Google shows has been checked for your key pages
+  - CTR compared with your own pages at the same position, not a generic benchmark
+  - One title changed at a time, logged with 28 days of numbers before
+  - Test judged after 28 days, with the position change checked
+faq:
+  - q: Is this title tag template free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: How long should a title tag be?
+    a: "Google sets no character limit and shortens title links to fit the device. The kit treats 30 to 60 characters as a pass, 61 to 70 as partly and over 70 as a fix, because studies found long titles are cut off and rewritten far more often. You can change all three on Settings."
+  - q: Why does Google change my title tag?
+    a: "Google builds the title link from several sources, including the title element, headings, og:title, anchor text and links to the page. It tends to replace titles that are long, vague, stuffed, outdated or different from the main heading. The kit records the title Google shows so you can see the gap."
+  - q: Should I put my brand name in every title?
+    a: "Google suggests keeping branding concise and, where useful, putting the site name once at the start or end after a delimiter such as a hyphen, colon or pipe. The kit checks that the site name appears exactly once."
+  - q: How do I know if a new title works?
+    a: "Log the change on the Test Log with 28 days of Search Console numbers before it, then add the 28 days after. The kit calls a win or a loss only when CTR changed by at least 10 percent and the average position moved by 2 or less."
+  - q: Do title tags still matter with AI Overviews and AI Mode?
+    a: "Yes. Google says pages only need to be indexed and eligible for a snippet to appear as supporting links, with no special optimization. When a searcher already has a summary, your title is what convinces them your page offers more, so clear and honest titles matter more, not less."
+related: [on-page-seo, serp-analysis, search-intent]
+reads:
+  - t: "Title tag optimization: 7 proven rules for better rankings"
+    url: /title-tag-optimization/
+  - t: "Search Console performance report: 5 essential metrics"
+    url: /search-console-performance-report/
+  - t: "AI Overviews are eating your clicks: how to still get cited in 2026"
+    url: /ai-overviews-clicks-how-to-get-cited-2026/
+tools:
+  - t: SERP Snippet Preview
+    url: /tools/seo-tools/serp-snippet-preview/
+  - t: Title Case Converter
+    url: /tools/seo-tools/title-case-converter/
+  - t: Word and Character Counter
+    url: /tools/seo-tools/word-character-counter/
+sources:
+  - t: "Google Search Central: Influencing your title links in search results"
+    url: https://developers.google.com/search/docs/appearance/title-link
+  - t: "Google Search Central: AI features and your website"
+    url: https://developers.google.com/search/docs/appearance/ai-features
+  - t: "Search Console Help: Performance report (Search results)"
+    url: https://support.google.com/webmasters/answer/7576553
+  - t: "Zyppy: Google rewrites 61% of page title tags (study)"
+    url: https://zyppy.com/seo/google-title-rewrites/
+  - t: "Search Engine Land: Google changed 76% of title tags in Q1 2025"
+    url: https://searchengineland.com/google-changed-76-of-title-tags-in-q1-2025-heres-what-that-means-454847
+  - t: "Search Engine Journal: Google tests AI headlines in Search"
+    url: https://searchenginejournal.com/google-ai-headlines-in-search/570208/

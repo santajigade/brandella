@@ -1,0 +1,157 @@
+{
+ "sheet": "Title Lab",
+ "columns": [
+  "Focus keyword",
+  "Current title tag",
+  "Characters",
+  "Google shows it",
+  "Score (0 to 100)",
+  "Grade",
+  "Fixes needed",
+  "Missed clicks (estimate)",
+  "Priority"
+ ],
+ "rows": [
+  [
+   "specialty coffee gear",
+   "Home | BrewNest",
+   15,
+   "Rewritten",
+   44,
+   "D",
+   6,
+   "",
+   "Fix now: missing or half empty"
+  ],
+  [
+   "coffee grinders",
+   "Coffee Grinders: Manual and Electric Burr Grinders - BrewNest",
+   61,
+   "As written",
+   96,
+   "A",
+   1,
+   1,
+   "Healthy: monitor"
+  ],
+  [
+   "hand coffee grinder",
+   "BrewNest Hand Coffee Grinder with Ceramic Burrs and 40 Settings",
+   63,
+   "",
+   95,
+   "A",
+   1,
+   0,
+   "Healthy: monitor"
+  ],
+  [
+   "pour over coffee ratio",
+   "The Ultimate Guide to the Pour Over Coffee Ratio for Beginners and Experts in 2024 | BrewNest",
+   93,
+   "Rewritten",
+   66,
+   "C",
+   6,
+   211,
+   "Rewrite first: low CTR, high impressions"
+  ],
+  [
+   "french press ratio",
+   "French Press Ratio: Grams of Coffee per Cup (Chart) - BrewNest",
+   62,
+   "As written",
+   92,
+   "A",
+   2,
+   327,
+   "Healthy: monitor"
+  ],
+  [
+   "descale a coffee machine",
+   "How to Descale a Coffee Machine With Vinegar or Citric Acid",
+   59,
+   "As written",
+   98,
+   "A",
+   1,
+   0,
+   "Healthy: monitor"
+  ],
+  [
+   "best coffee beans in india",
+   "Best Coffee Beans in India 2025: 12 We Tasted - BrewNest",
+   56,
+   "",
+   85,
+   "A",
+   2,
+   453,
+   "Rewrite first: low CTR, high impressions"
+  ],
+  [
+   "aeropress recipe",
+   "Coffee Brewing Guide - BrewNest",
+   31,
+   "Rewritten",
+   64,
+   "C",
+   4,
+   32,
+   "Fix first: close to the top"
+  ],
+  [
+   "how to use a moka pot",
+   "Coffee Brewing Guide - BrewNest",
+   31,
+   "",
+   74,
+   "B",
+   2,
+   0,
+   "Fix first: close to the top"
+  ],
+  [
+   "coffee beans",
+   "Coffee Beans, Buy Coffee Beans, Coffee Beans Online, Arabica Coffee Beans Best Price",
+   84,
+   "Rewritten",
+   74,
+   "B",
+   4,
+   21,
+   "Fix now: keyword stuffing"
+  ],
+  [
+   "coffee roastery in bengaluru",
+   "Coffee Roastery in Bengaluru: Visit Our Indiranagar Cafe - BrewNest",
+   67,
+   "",
+   91,
+   "A",
+   2,
+   70,
+   "Healthy: monitor"
+  ],
+  [
+   "coffee ratio calculator",
+   "Coffee Ratio Calculator: Grams of Coffee and Water for Any Brew",
+   63,
+   "As written",
+   94,
+   "A",
+   2,
+   0,
+   "Healthy: monitor"
+  ]
+ ],
+ "formulaCols": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ]
+}

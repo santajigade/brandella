@@ -1,0 +1,342 @@
+seoTitle: "Meta Description Template: Free Excel Kit for Google and AI"
+h1: "Meta Description Template Kit: Excel Description Lab, Bulk Builder, Guide and AI Prompts"
+focusKeyword: meta description template
+description: "Free meta description template in Excel: check every description against 13 rules, spot snippet blocks and lost clicks, bulk build unique ones and test them."
+published: 2026-11-21
+updated: 2026-11-21
+time: 5 minutes per page, 1 hour for a first site audit
+level: Beginner to advanced
+kit: true
+tabs: 9
+intro:
+  - "Most meta description templates give you a few fill in the blank sentences. This free <strong>meta description template</strong> is a working kit instead: an Excel Description Lab that checks every description on your site against 13 weighted rules, finds pages where snippets are blocked, compares each page CTR with your own average for the same ranking position, estimates the clicks each weak description costs you, and checks your proposed new description before it goes live."
+  - "It is built for the AI search era. Google writes most snippets from your page content, and a page must be eligible to show a snippet to appear as a supporting link in AI Overviews and AI Mode. So the kit also checks your snippet controls and whether your opening paragraph answers the search, records the snippet Google really shows, writes unique descriptions for hundreds of similar pages from templates, and logs every change so you only keep what wins clicks."
+kitContents:
+  - t: "Excel workbook, 9 tabs"
+    d: "Description Lab (500 ready rows with 14 automatic measures, 13 weighted checks, score, grade, fixes, priority, missed clicks and a proposed description check), Bulk Builder, Test Log, Dashboard with two charts, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "14 pages of a fictional trek operator, 10 bulk built descriptions and 5 description tests, so you see every check, CTR comparison and verdict working before you add your own pages."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to share with your writers, developers or clients."
+  - t: "22 AI prompts"
+    d: "Prompts to write, fix, shorten and scale meta descriptions, turn product data into templates and read your test results, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole meta description checklist on one page, to tick off before you publish or change any description."
+steps:
+  - t: Set the analysis date
+    d: "On Settings, set the analysis date. The length band, boilerplate, snippet and keyword list rules, CTR rules and check weights are ready; change them only if your site needs it."
+  - t: Export your pages from Search Console
+    d: "In the Performance report, open the Pages tab for the last 28 days and copy URL, impressions, clicks and average position into the Description Lab."
+  - t: Paste the title, description and snippet control
+    d: "Copy the title and the meta description from the page source, and the snippet rule from the robots meta tag (none, max-snippet or nosnippet). Say whether the opening paragraph answers the search."
+  - t: Paste the snippet Google shows
+    d: "For your important pages, search the focus keyword and paste the snippet Google shows. The kit tells you whether Google used your description or wrote its own from the page."
+  - t: Read the score, priority and missed clicks
+    d: "Sort by Priority. Fix now means a blocked snippet or a missing description. Rewrite first means low CTR on a page with many impressions. Missed clicks shows what a weak description may cost you."
+  - t: Write single or bulk descriptions
+    d: "Write important descriptions by hand in the Proposed column until the check says Ready to test. For many similar pages, fill the facts on Bulk Builder and let the templates write unique descriptions."
+  - t: Change, log and judge
+    d: "Publish the change, log it on the Test Log with the 28 day numbers before, and judge it after 28 days. Keep the winners and revert the losers."
+sections:
+  - h: How meta descriptions work in the AI search era
+    html: |
+      <p>The meta description is the <code>&lt;meta name="description"&gt;</code> tag in the head of a page: a short summary you write for search engines. It is not a ranking factor in itself. Its job is to help the right people choose your result.</p>
+      <p>Google's <a href="https://developers.google.com/search/docs/appearance/snippet" target="_blank" rel="noopener">snippet documentation</a> sets the rules for this kit:</p>
+      <ul>
+        <li><strong>Snippets come mostly from page content.</strong> Google creates snippets automatically to preview the part of the page most relevant to each search, so one page can show different snippets for different searches. It may use your meta description when it describes the page more accurately than text taken from the page.</li>
+        <li><strong>There is no length limit.</strong> Google says there is no limit on meta description length; snippets are cut as needed, usually to fit the device width.</li>
+        <li><strong>Unique, specific and factual wins.</strong> Google asks for a unique description for each page, says descriptions do not have to be sentences, and suggests facts such as author, date or byline for articles and price or manufacturer for products. Long strings of keywords are unlikely to be shown.</li>
+        <li><strong>Programmatic descriptions are fine at scale.</strong> For large database driven sites, Google says generating descriptions from page data is appropriate and recommended, as long as they are readable and differ from page to page. That is what the Bulk Builder does.</li>
+      </ul>
+      <p>What changes with AI search:</p>
+      <ul>
+        <li><strong>Snippet eligibility is now AI eligibility.</strong> Google's <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">AI features page</a> says a page must be indexed and eligible to be shown in Google Search with a snippet to be a supporting link in AI Overviews or AI Mode, and that <code>nosnippet</code>, <code>data-nosnippet</code>, <code>max-snippet</code> and <code>noindex</code> limit what is shown. A forgotten <code>nosnippet</code> can quietly remove a page from AI answers, so it is a Fix now in this kit.</li>
+        <li><strong>Your opening paragraph matters as much as the tag.</strong> Because Google writes most snippets from the page, the first paragraph should answer the search plainly. Google's <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" target="_blank" rel="noopener">guide to generative AI features</a> also asks for clear headings and content that is not a commodity anyone could produce.</li>
+        <li><strong>The description has to sell what the summary cannot.</strong> When a searcher already sees an AI answer, a good description promises the facts, proof, tools or local detail that only your page has.</li>
+      </ul>
+  - h: What is inside the meta description workbook
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>Description Lab</td><td>One row per page. Measures characters, words, duplicates, pages with the same opening, keyword repeats, commas, numbers, title repeats, a year, the position band, CTR, your band average CTR and whether Google used your description. Runs 13 weighted checks and gives a score, grade, fixes in priority order, a priority, missed clicks and a check of your proposed description.</td><td>URL, page type, focus keyword, title, description, opening Yes or No, snippet control, max-snippet value, the snippet Google shows, impressions, clicks, position, proposed description</td></tr>
+          <tr><td>Bulk Builder</td><td>Writes descriptions for many similar pages from 8 templates, cleans up empty parts and flags length, duplicates and repeated openings.</td><td>URL, template, name, 2 facts, a number, place, offer</td></tr>
+          <tr><td>Test Log</td><td>Compares CTR 28 days before and after a change, waits until the test is long enough and warns when the position moved too much for a fair test.</td><td>URL, date changed, status, before and after numbers</td></tr>
+          <tr><td>Dashboard</td><td>15 key numbers, the 10 biggest click opportunities, your CTR by position band and pages failing each check, with two charts.</td><td>Nothing</td></tr>
+          <tr><td>Settings</td><td>Analysis date, length band, opening length, snippet and keyword list rules, CTR rules, grades and priority rules, the 13 checks with weights, rules and fixes, templates, page types and lists.</td><td>Optional tuning</td></tr>
+          <tr><td>AI Prompts, Checklist, Sources</td><td>All 22 prompts, the checklist with automatic progress, and where every fact and assumption comes from.</td><td>Yes or No per step</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas. All 500 Description Lab rows, 200 Bulk Builder rows and 200 Test Log rows are ready with formulas and dropdowns.</p>
+  - h: The 13 description checks and why each one matters
+    html: |
+      <p>Each check scores 1 (pass), 0.5 (partly) or 0 (fix). A check is left blank, and not scored, when you have no data for it. The weights are starter assumptions for this kit and are editable on Settings.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Check</th><th>Weight</th><th>Rule</th><th>Why it matters</th></tr></thead>
+        <tbody>
+          <tr><td>Description present</td><td>10</td><td>The page has a meta description.</td><td>Google says to describe your important pages first. In a 2020 Ahrefs study, 25 percent of top ranking pages had none.</td></tr>
+          <tr><td>Snippet allowed</td><td>8</td><td>No <code>nosnippet</code>, no <code>max-snippet</code> under 50 characters.</td><td>No snippet means no description in results and no supporting link in AI Overviews or AI Mode.</td></tr>
+          <tr><td>Unique description</td><td>8</td><td>No other page uses it.</td><td>Google asks for a unique description on every page.</td></tr>
+          <tr><td>Not a keyword list</td><td>6</td><td>Not 4 or more commas with fewer than 3 words between them; keyword at most twice.</td><td>Google says keyword strings give people no clear idea of the page and are unlikely to be shown.</td></tr>
+          <tr><td>Opening answers the search</td><td>6</td><td>The first paragraph answers the main question.</td><td>Google builds most snippets from page content, so this is the snippet you will often get.</td></tr>
+          <tr><td>CTR vs your site average</td><td>6</td><td>At least 80 percent of your own band average pass; 50 to 79 percent partly.</td><td>The only honest benchmark is your own site at the same position.</td></tr>
+          <tr><td>Keyword or topic named</td><td>5</td><td>The focus keyword appears; missing is partly.</td><td>A summary should name what the page is about.</td></tr>
+          <tr><td>Length</td><td>5</td><td>70 to 160 characters pass; under 35 fix; otherwise partly.</td><td>No limit, but snippets are cut to fit. Put the most useful words first.</td></tr>
+          <tr><td>Specific facts</td><td>5</td><td>At least one number.</td><td>Google suggests facts like price, date, author or size.</td></tr>
+          <tr><td>Not boilerplate</td><td>5</td><td>No other page starts with the same 40 characters.</td><td>Google's bad example is the same sentence on every article. A shared opening hides what is special about each page.</td></tr>
+          <tr><td>Uses your description</td><td>4</td><td>The snippet Google shows uses your text; written from the page is partly.</td><td>A signal that your description summarises the page well for that search.</td></tr>
+          <tr><td>Adds to the title</td><td>3</td><td>Does not start with the whole title.</td><td>The description should add what the title cannot.</td></tr>
+          <tr><td>Year is current</td><td>3</td><td>A year shown is this year or later.</td><td>An old year looks stale next to fresh results.</td></tr>
+        </tbody>
+      </table></div>
+  - h: How the score and missed clicks work (with a worked example)
+    html: |
+      <p>The score is the weighted share of checks a description passes: the sum of weight x result for every check with data, divided by the total weight of those checks, times 100. A is 85 or more, B is 70 or more, C is 55 or more, anything lower is D.</p>
+      <p>CTR is compared only with your own pages. The kit groups pages into position bands (1 to 3, 4 to 10, 11 to 20, 21 and beyond), adds up clicks and impressions for all pages in the band with at least 100 impressions, and divides. Home and about pages are left out because brand searches give them a much higher CTR. <strong>Missed clicks</strong> = impressions x (band average CTR minus page CTR). It is an estimate, not a promise.</p>
+      <p><strong>Worked example.</strong> In the demo, TrekTrail checks its guide "best time for kedarkantha trek". The description is "Kedarkantha trek, best time for Kedarkantha trek, Kedarkantha in winter, Kedarkantha snow, Kedarkantha weather, Kedarkantha temperature". The page opens with a story, sits at position 5.8 and had 18,000 impressions and 160 clicks in 28 days.</p>
+      <ul>
+        <li><strong>Measures:</strong> 135 characters and 16 words split by 5 commas, under 3 words between commas, so it reads as a keyword list. No number. Google writes the snippet from the page instead, starting with the story. CTR is 0.9 percent. The average for TrekTrail pages at positions 4 to 10 is 3.1 percent (4,120 clicks from 132,000 impressions), so the page gets 28 percent of the band average.</li>
+        <li><strong>Passes (44 points):</strong> description present (10), snippet allowed (8), unique (8), keyword named (5), length (5), not boilerplate (5) and adds to the title (3).</li>
+        <li><strong>Partly (4.5 points):</strong> no specific facts (half of 5) and Google wrote its own snippet (half of 4).</li>
+        <li><strong>Fails (0 points):</strong> a keyword list, an opening that does not answer the search, and CTR below half the band average.</li>
+      </ul>
+      <p>The year check has no data, so the total is 71 points. 48.5 of 71 is a score of 68, grade <strong>C</strong>, with 5 fixes. Because CTR fails on a page with more than 1,000 impressions, the priority is <strong>Rewrite first: low CTR, high impressions</strong>. Missed clicks: 18,000 x (3.1 percent minus 0.9 percent) = about 402 clicks every 28 days.</p>
+      <p>The proposed description "Best time for Kedarkantha trek: December to April for snow and May for clear skies. Weather, crowds and what to pack for all 12 months." is 135 characters, names the topic, answers the question and adds a number, so the check says <strong>Ready to test</strong>. The fix is not only the tag: the page should open with the same answer, because that is where Google usually takes the snippet from.</p>
+      <p>Other demo pages show the range. The trek cost calculator scores 75 but is <strong>Fix now: snippet blocked</strong>, because a <code>nosnippet</code> left over from a template hides it from snippets and AI answers. The Uttarakhand treks category has no description at all, about 292 missed clicks. The Valley of Flowers and Brahmatal pages both open with "Book your Himalayan trek with TrekTrail" and fail Not boilerplate. The winter treks description is 255 characters long and full of commas, but with many words between them, so it is a long sentence, not a keyword list: only Length is partly.</p>
+  - h: Priority rules
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Priority</th><th>Rule (editable on Settings)</th><th>What to do</th></tr></thead>
+        <tbody>
+          <tr><td>Fix now: snippet blocked</td><td><code>nosnippet</code> or <code>max-snippet:0</code>.</td><td>Remove it unless you really want no snippet and no AI supporting link.</td></tr>
+          <tr><td>Fix now: missing description</td><td>No meta description.</td><td>Write one, or build it on Bulk Builder.</td></tr>
+          <tr><td>Rewrite first: low CTR, high impressions</td><td>CTR under half the band average and 1,000 or more impressions.</td><td>The biggest click gains. Rewrite the description and the opening, and log a test.</td></tr>
+          <tr><td>Healthy: monitor</td><td>Score 85 or more.</td><td>Leave it alone and recheck every quarter.</td></tr>
+          <tr><td>Protect: test carefully</td><td>Average position 1 to 3.</td><td>Change only with a clear reason.</td></tr>
+          <tr><td>Fix first: close to the top</td><td>Average position 4 to 20.</td><td>Fix the failed checks; these pages already rank.</td></tr>
+          <tr><td>Rewrite the description</td><td>Score below 50.</td><td>Start again from a framework below.</td></tr>
+          <tr><td>Improve when you can</td><td>Everything else.</td><td>Work through the fixes in order.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Meta description ideas by page type
+    html: |
+      <p>Use these frameworks for hand written descriptions. Each one leads with what the page is, adds facts, and ends with a reason to click.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Page type</th><th>Framework</th><th>Example from the demo</th></tr></thead>
+        <tbody>
+          <tr><td>Guide or article</td><td>Answer in one line + what the page covers + proof</td><td>Best time for Kedarkantha trek: December to April for snow and May for clear skies. Weather, crowds and what to pack for all 12 months.</td></tr>
+          <tr><td>Product or tour</td><td>What it is + 2 key facts + price + offer</td><td>Kedarkantha trek in 6 days from Dehradun: snow summit at 3,800 m, stays and meals included. From Rs 9,500 with free date changes.</td></tr>
+          <tr><td>Category</td><td>How many + how to choose + range</td><td>Compare 24 treks in Uttarakhand by days, altitude and difficulty, with prices from Rs 6,500 and weekly departures from Dehradun.</td></tr>
+          <tr><td>Local page</td><td>Where + when + what you can do there</td><td>Visit our trek office on Rajpur Road, Dehradun, open 9 am to 7 pm every day. Talk to a trek leader, rent gear and book any of our 24 treks.</td></tr>
+          <tr><td>Tool</td><td>Free + input to output + what people forget</td><td>Free trek cost calculator: add your trek, days, travel and gear to see the full cost of a Himalayan trek, with the extras most people forget.</td></tr>
+          <tr><td>Comparison</td><td>What is compared + on what + your proof</td><td>Trekking shoes vs hiking boots on 4 kinds of Himalayan trail: grip, ankle support, weight and price, and what our 12 trek leaders wear.</td></tr>
+          <tr><td>Home</td><td>Who you are + what you offer + why you</td><td>TrekTrail runs small group Himalayan treks from Dehradun: 24 routes, certified trek leaders and fixed departures every week from March to December.</td></tr>
+          <tr><td>About</td><td>Who + how you work + proof</td><td>Meet the 12 certified trek leaders behind TrekTrail, see how we run small group treks from Dehradun and read our safety rules.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Writing descriptions at scale with the Bulk Builder
+    html: |
+      <p>For shops, listings and tour sites with hundreds of similar pages, hand writing every description is not realistic. Google says generating descriptions from page data is appropriate for large database driven sites, as long as each one is readable and different. The Bulk Builder does this with templates such as:</p>
+      <p><code>{name} in {place}: {number}, {fact1}. {fact2}. {offer}.</code></p>
+      <p>In the demo, the Kedarkantha row becomes "Kedarkantha trek in Uttarakhand: 6 days, snow summit at 3,800 m. Stays, meals and permits included. From Rs 9,500 with free date changes." (137 characters, Fits). When a part is empty, the builder removes the gap: the Kuari Pass row has no second fact and still reads "Kuari Pass trek in Uttarakhand: 6 days, views of Nanda Devi from the pass. From Rs 9,500." The last demo row copies the Kedarkantha data by mistake, and both rows are flagged as duplicates.</p>
+      <p>Two tips: put the fact that differs most between pages near the start, so openings do not repeat, and keep a column of real facts in your product data so every description has a number.</p>
+  - h: Column by column guide to the Description Lab
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>URL, Page type, Focus keyword</td><td>The full URL, one of 8 page types and the main keyword.</td><td>Home and about pages are kept out of the CTR averages (editable on Settings).</td></tr>
+          <tr><td>Title tag, Meta description</td><td>From the page source.</td><td>Use view source or a crawler export, not the search result.</td></tr>
+          <tr><td>Opening answers the search?</td><td>Yes or No, after reading the first paragraph.</td><td>Judge honestly: would this paragraph make a good snippet?</td></tr>
+          <tr><td>Snippet control, max-snippet value</td><td>From the robots meta tag: None, max-snippet or nosnippet, and the number.</td><td>-1 means no limit; 0 means no snippet.</td></tr>
+          <tr><td>Snippet Google shows</td><td>Paste it from a real search for the focus keyword.</td><td>Optional. Snippets change by query; check your key pages.</td></tr>
+          <tr><td>Impressions, Clicks, Avg position</td><td>Search Console Performance report, Pages tab, last 28 days.</td><td>AI Overviews and AI Mode traffic is counted in the Web search type.</td></tr>
+          <tr><td>Proposed new description</td><td>Your next description.</td><td>Edit until the check says Ready to test.</td></tr>
+          <tr><td>Measures, checks, Score, Grade, Fixes, Priority, Missed clicks</td><td>Automatic.</td><td>Row 3 above the checks shows each weight from Settings.</td></tr>
+        </tbody>
+      </table></div>
+      <p>Our guide to the <a href="/search-console-performance-report/">Search Console performance report</a> shows where to find each number.</p>
+  - h: How often Google uses your description
+    html: |
+      <p>Google often writes its own snippet. In a 2020 <a href="https://ahrefs.com/blog/meta-description-study/" target="_blank" rel="noopener">Ahrefs study</a> of 20,000 keywords, Google rewrote meta descriptions 62.78 percent of the time, slightly more for long tail searches (65.62 percent) than for popular ones (59.65 percent), and keeping descriptions within length limits barely changed the rate. That data is old, so treat it as a signal, not a rule.</p>
+      <p>Two lessons follow. First, a description is still worth writing: it is shown for many searches, and it is your best summary when Google does use it. Second, the page opening matters just as much, because it is where the rest of your snippets come from. That is why this kit checks both.</p>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: collect and unblock.</strong> Add your top 50 pages by impressions. Fix every <code>nosnippet</code> or tight <code>max-snippet</code> you did not mean, and write descriptions for pages that have none.</li>
+        <li><strong>Week 2: remove duplicates and boilerplate.</strong> Rewrite shared descriptions and repeated openings. For large groups of similar pages, use the Bulk Builder.</li>
+        <li><strong>Week 3: rewrite for clicks.</strong> Rewrite the 5 Rewrite first pages, both the description and the opening paragraph. Log each change on the Test Log.</li>
+        <li><strong>Week 4: add facts.</strong> Add numbers, prices, dates and authors on the Fix first pages, and update old years after real updates.</li>
+      </ul>
+      <p>After 28 days, read the verdicts and repeat with the next 5 pages. The <a href="/resources/seo-aeo-assets/title-tag-optimization/">title tag template kit</a> does the same for titles, and the <a href="/resources/seo-aeo-assets/on-page-seo/">on page SEO checklist kit</a> covers the rest of the page.</p>
+  - h: The chained prompt workflow (from weak description to logged test)
+    html: |
+      <p>Prompts 18 to 22 below are built to run in order in one AI chat:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your site, audience and rules.</li>
+        <li><strong>Paste the Description Lab row</strong> with the fixes, CTR and the snippet Google shows.</li>
+        <li><strong>Get 6 new descriptions and a new opening</strong> that answer the search.</li>
+        <li><strong>Pressure test them</strong> against the search results and the page.</li>
+        <li><strong>Get rows for Excel</strong>, ready to paste into the Proposed column and the Test Log.</li>
+      </ol>
+      <p>AI assistants cannot see your Search Console data or your page. Paste your own facts and numbers, and never let an assistant invent a price, a date or a claim.</p>
+  - h: Meta description mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>A forgotten nosnippet.</strong> It hides the page from snippets and AI supporting links.</li>
+        <li><strong>One description on many pages.</strong> Every page needs its own.</li>
+        <li><strong>Keyword lists.</strong> Write a summary a person would want to read.</li>
+        <li><strong>The same company sentence at the start of every description.</strong> Lead with what is special about the page.</li>
+        <li><strong>No facts.</strong> Numbers, prices, dates and names make a result easy to choose.</li>
+        <li><strong>Only fixing the tag.</strong> Google writes most snippets from the page, so fix the opening too.</li>
+        <li><strong>Judging a change after a few days.</strong> Wait for recrawling and a full 28 day window.</li>
+        <li><strong>Writing for the click alone.</strong> A description that promises more than the page delivers loses the reader. Our guide to <a href="/how-to-write-seo-friendly-blog/">writing SEO friendly blog posts</a> helps the page keep the promise.</li>
+      </ul>
+prompts:
+  - t: Meta description options
+    p: |
+      Write 5 meta descriptions for a [page type] about "[focus keyword]" for [audience]. Each 120 to 155 characters, specific to this page,
+      with the topic named naturally once, at least one real fact from this list: [facts], and a reason to click. No keyword lists.
+  - t: Fix a keyword list
+    p: |
+      This meta description is a list of keywords: "[description]". The page covers: [summary]. Rewrite it as 2 natural sentences,
+      120 to 155 characters, with one real fact and the keyword "[keyword]" once.
+  - t: Remove boilerplate openings
+    p: |
+      These descriptions all start with the same sentence: [paste URLs and descriptions]. Rewrite each so it starts with what is special
+      about that page. Keep each under 155 characters and keep the facts.
+  - t: Unique descriptions for similar pages
+    p: |
+      These pages share one meta description: [paste URLs with a one line summary each]. Write a unique description for each that
+      says what that page alone offers.
+  - t: Answer first opening paragraph
+    p: |
+      Here is the first paragraph of my page about "[keyword]": [paste]. Rewrite it as a direct answer in 2 or 3 sentences that answers
+      the search first, so it would make a good snippet. Keep my facts; do not add new ones.
+  - t: Description from the page content
+    p: |
+      Here is my page: [paste the main text]. Write a meta description of 120 to 155 characters that summarises the whole page, names
+      the main topic and includes the most useful fact. Then list which sentence on the page Google could use as a snippet instead.
+  - t: Why does Google ignore my description
+    p: |
+      My meta description is "[description]". For the search "[query]" Google shows "[shown snippet]". Explain the likely reasons, based
+      on Google's snippet guidance, and suggest a description and an opening sentence that would fit that search better.
+  - t: Product description template
+    p: |
+      Here are 5 rows of my product data with these columns: [paste]. Write a meta description template with placeholders like {name},
+      {fact1}, {fact2}, {number} and {offer} that reads naturally for every row, then show the 5 results with their lengths.
+  - t: Check my bulk descriptions
+    p: |
+      Here are 30 descriptions built from a template: [paste]. Find ones that read badly, repeat the same opening, are near duplicates
+      or are longer than 160 characters, and suggest a fix for each.
+  - t: Article byline description
+    p: |
+      Write a meta description for my article "[title]" by [author], updated [date]. Google suggests descriptions can carry facts like
+      author and date. Include both, plus what the reader learns, in under 155 characters.
+  - t: Local page description
+    p: |
+      Write 3 meta descriptions for my [business type] in [area]. Include the address area, opening hours ([hours]), one proof point
+      ([proof]) and what people can do there. Under 155 characters each.
+  - t: Category page description
+    p: |
+      Write a meta description for my category page "[category]" with [number] items. Say how many, how to choose between them
+      ([main filters]) and the price range ([range]). Under 155 characters.
+  - t: Description beyond the AI answer
+    p: |
+      For "[query]", an AI Overview already answers the basics. My page offers [data, tool, photos, tests, local detail].
+      Write 5 descriptions that promise what the summary cannot give, 120 to 155 characters, no clickbait.
+  - t: Snippet control audit
+    p: |
+      Here are the robots meta tags and data-nosnippet uses on my key pages: [paste URL and tag for each]. Which ones stop Google showing
+      a snippet or limit it too much, what does each do, and which should I remove? Remember a page must be eligible for a snippet to be
+      a supporting link in AI Overviews and AI Mode.
+  - t: Update old years
+    p: |
+      These descriptions mention old years: [paste]. For each, tell me if the year is needed. If the content was updated (my notes: [notes]),
+      write the new description; if not, write a timeless one.
+  - t: Translate a description for another market
+    p: |
+      Translate this meta description for [language and country]: "[description]". Use the words people there search for "[keyword]",
+      keep the facts and keep it under 155 characters.
+  - t: Read my test results
+    p: |
+      Here are my Test Log rows (old description, new description, CTR before and after, position before and after, days live): [paste].
+      Which changes look like real wins, which are unfair tests, and what should I test next?
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my meta description editor. My site: [site], about [topic], for [audience]. Rules: 120 to 155 characters, the topic named
+      once, at least one real fact, no keyword lists, no company boilerplate at the start, nothing the page does not deliver.
+      Confirm, then wait for my data.
+  - t: "Workflow 2 of 5: the Description Lab row"
+    p: |
+      Here is the Description Lab row for one page: URL, focus keyword, title, description, opening paragraph, snippet Google shows,
+      CTR, band average CTR, position and the fixes in priority order: [paste]. Explain in plain words what is wrong and what to fix first.
+  - t: "Workflow 3 of 5: new description and opening"
+    p: |
+      Here are the facts from the page: [paste facts, numbers, prices, dates]. Write 6 new meta descriptions in different styles
+      (answer first, facts first, question, proof, offer, comparison) and one new opening paragraph that answers the search.
+      Show the character count of each description.
+  - t: "Workflow 4 of 5: pressure test"
+    p: |
+      Here are the top 5 results and their snippets for "[query]": [paste]. Score each of your 6 descriptions from 1 to 5 for clarity,
+      facts, honesty and difference from the results above. Keep the best 2 and explain why.
+  - t: "Workflow 5 of 5: rows for Excel"
+    p: |
+      Turn the best description into a row with tabs between columns for my Test Log: URL, Old description, New description,
+      Date changed ([date]), Status (Planned), Impressions before, Clicks before, Position before (use my numbers: [paste]),
+      Notes (the reason for the change).
+checklist:
+  - No nosnippet or tight max-snippet on pages you want in snippets and AI answers
+  - Every important page has its own meta description in the page source
+  - Description summarises this page only, in 1 or 2 sentences or a clear list of facts
+  - Topic named once, naturally, never a list of keywords
+  - Starts with what is special about the page, not a company sentence
+  - "At least one real fact: price, number, duration, date, author or hours"
+  - Adds to the title instead of repeating it
+  - Most useful words in the first 120 characters or so
+  - Opening paragraph of the page answers the search plainly
+  - Promises only what the page delivers
+  - Large groups of similar pages get unique descriptions from templates
+  - Any year shown matches a real update
+  - The snippet Google shows has been checked for your key pages
+  - CTR compared with your own pages at the same position, not a generic benchmark
+  - One change at a time on important pages, logged and judged after 28 days
+faq:
+  - q: Is this meta description template free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: How long should a meta description be?
+    a: "Google says there is no length limit and that snippets are cut to fit the device. The kit treats 70 to 160 characters as a pass and puts the most useful words first. You can change the band on Settings."
+  - q: Why does Google not show my meta description?
+    a: "Google creates most snippets from page content and uses your description when it describes the page better for that search. Keyword lists, boilerplate and vague descriptions are the usual reasons. The kit records the snippet Google shows and checks your opening paragraph too."
+  - q: Do meta descriptions affect rankings?
+    a: "Not directly. They help people choose your result, which is why the kit measures CTR against your own pages at the same position. A good description can win more clicks from the rankings you already have."
+  - q: Can I generate meta descriptions automatically?
+    a: "Yes, for large sites with many similar pages. Google says programmatic descriptions are appropriate for database driven sites if they are readable and different from page to page. The Bulk Builder writes them from your product or listing data and flags duplicates."
+  - q: What changes for meta descriptions with AI Overviews and AI Mode?
+    a: "A page must be indexed and eligible for a snippet to be a supporting link, and nosnippet, data-nosnippet, max-snippet and noindex limit what is shown. So check your snippet controls first, then make sure your opening paragraph and description answer the search clearly."
+related: [title-tag-optimization, on-page-seo, serp-analysis]
+reads:
+  - t: "Search Console performance report: 5 essential metrics"
+    url: /search-console-performance-report/
+  - t: "What Google's AI Overview click data really tells marketers in 2026"
+    url: /googles-ai-overview-click-data-2026/
+  - t: "How to write SEO friendly blog posts that rank on Google"
+    url: /how-to-write-seo-friendly-blog/
+tools:
+  - t: SERP Snippet Preview
+    url: /tools/seo-tools/serp-snippet-preview/
+  - t: Meta Tag Generator
+    url: /tools/seo-tools/meta-tag-generator/
+  - t: Word and Character Counter
+    url: /tools/seo-tools/word-character-counter/
+sources:
+  - t: "Google Search Central: Control your snippets in search results"
+    url: https://developers.google.com/search/docs/appearance/snippet
+  - t: "Google Search Central: AI features and your website"
+    url: https://developers.google.com/search/docs/appearance/ai-features
+  - t: "Google Search Central: Optimizing your website for generative AI features"
+    url: https://developers.google.com/search/docs/fundamentals/ai-optimization-guide
+  - t: "Search Console Help: Performance report (Search results)"
+    url: https://support.google.com/webmasters/answer/7576553
+  - t: "Ahrefs: How often does Google rewrite meta descriptions? (study)"
+    url: https://ahrefs.com/blog/meta-description-study/
