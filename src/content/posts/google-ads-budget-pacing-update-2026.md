@@ -9,6 +9,12 @@ primaryCategory: "paid-media"
 tags: ["Ad Scheduling", "Budget Pacing", "digital marketing", "Google Ads", "PPC Strategy"]
 description: "Understand the Google Ads budget pacing update (June 2026) in simple terms. Learn the difference between old and new system with examples."
 focusKeyword: "Google Ads Budget Pacing"
+takeaways:
+  - "Google Ads now aims to spend the full monthly limit of daily budget times 30.4, regardless of how many days ads run."
+  - "Under the old system, a $50 daily budget running 15 days spent about $750 a month; the new system targets about $1,520."
+  - "Ad schedules are still respected, so spending per active day rises, from $50 to around $101 a day in the same example."
+  - "Billing limits are unchanged, with charges capped at 2 times the daily budget per day and 30.4 times per month."
+  - "Advertisers who use ad scheduling and want to keep the old $750 monthly spend should cut the daily budget to around $25."
 image: "/wp-content/uploads/2026/04/Google-Ads-Budget-Pacing.webp"
 imageAlt: "Google Ads Budget Pacing"
 words: 632

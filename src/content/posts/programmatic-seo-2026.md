@@ -8,6 +8,12 @@ categories: ["seo", "technical-seo"]
 primaryCategory: "seo"
 description: "Google's 2026 quality systems now catch thin, templated programmatic SEO pages fast. Here's what still works and how to audit an at-risk page set."
 focusKeyword: "programmatic SEO"
+takeaways:
+  - "Programmatic SEO built on page volume alone stopped working, as Google's scaled content classifiers now catch thin, templated pages."
+  - "Sites with thin template page sets reported 60% to more than 80% traffic losses on affected pages during the March 2026 core update."
+  - "One agency published 8,400 programmatic pages and saw only about 312 rank on page one after three months."
+  - "A common safe target is about 500 words of unique content per page with 30 to 40% variation, with the template well under 70% of word count."
+  - "Thin programmatic pages can trigger sitewide quality discounts, so new page sets should roll out in batches of 1,000 to 5,000 with indexation monitoring."
 image: "/wp-content/uploads/2026/07/programmatic-SEO.webp"
 imageAlt: "programmatic SEO"
 words: 1930

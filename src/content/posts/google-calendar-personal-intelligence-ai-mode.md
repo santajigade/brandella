@@ -8,6 +8,12 @@ categories: ["artificial-intelligence"]
 primaryCategory: "artificial-intelligence"
 description: "Google Calendar now connects to Personal Intelligence in AI Mode. See what changed, how it works, and what it means for searchers and SEOs in 2026"
 focusKeyword: "AI Mode"
+takeaways:
+  - "Personal Intelligence in AI Mode now connects to Google Calendar, starting in the U.S., with Google saying more countries will follow."
+  - "Calendar is the first Personal Intelligence connection that can act, creating events and invites, while Gmail and Photos only supply read-only context."
+  - "Personal Intelligence launched in January 2026 for AI Pro and Ultra subscribers and reached nearly 200 countries and 98 languages by May with no subscription."
+  - "Every connection is opt-in app by app, can be switched off anytime, and Google says connected personal data is not used to train its AI models."
+  - "Personalized answers mean the same query can produce different results for different people, so content should answer intent clearly rather than chase one ranking."
 image: "/wp-content/uploads/2026/07/AI-Mode.webp"
 imageAlt: "AI Mode"
 words: 2101

@@ -8,6 +8,12 @@ categories: ["seo", "technical-seo"]
 primaryCategory: "seo"
 description: "llms.txt costs nothing to add but the evidence it improves AI visibility is weak. Here's what the file does, who it actually helps, and who should skip it."
 focusKeyword: "llms.txt"
+takeaways:
+  - "llms.txt is a plain Markdown file at yoursite.com/llms.txt that gives AI models a curated summary of key content, and it cannot block crawlers like robots.txt."
+  - "Roughly one site in ten carries the file, based on an SE Ranking study of 300,000 domains, and Ahrefs found 97% of published files received zero requests."
+  - "Google's Gary Illyes said Google does not use the file, and no major AI provider has confirmed it as a citation or visibility signal."
+  - "Documentation and developer tool sites benefit most, because coding agents such as Cursor, GitHub Copilot and Windsurf actively fetch llms.txt files."
+  - "A publicly writable llms.txt is a prompt injection risk, and a stale file left out of sync with the site is arguably worse than having none."
 image: "/wp-content/uploads/2026/07/llms.txt.webp"
 imageAlt: "llms.txt"
 words: 1681

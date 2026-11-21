@@ -8,6 +8,12 @@ categories: ["meta-ads", "paid-media"]
 primaryCategory: "paid-media"
 description: "Threads ads went fully global on January 26, 2026, with CPMs still well below Instagram's. Here's whether and how to test budget there now."
 focusKeyword: "Threads ads"
+takeaways:
+  - "Threads ads went fully global on January 26, 2026, opening more than 400 million monthly active users to advertisers."
+  - "Threads CPMs typically run $3 to $8, compared with $6 to $18 on Instagram, because fewer advertisers currently compete for inventory."
+  - "Threads ads run through the same Meta Ads Manager and Advantage+ system used for Facebook and Instagram, and Advantage+ includes Threads by default."
+  - "Creative that reads like an organic, conversational thread outperforms polished ads, and reusing hooks from strong organic posts works well."
+  - "Threads ads are mobile only, targeting is shallower than mature placements, and tests should run at least one to two weeks before judging results."
 image: "/wp-content/uploads/2026/07/Threads-ads.webp"
 imageAlt: "Threads ads"
 words: 1886

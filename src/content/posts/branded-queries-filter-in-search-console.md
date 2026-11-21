@@ -9,6 +9,12 @@ primaryCategory: "seo"
 tags: ["Branded Queries Filter", "Google Search Console Update", "SEO Tools 2026"]
 description: "How to use the branded queries filter in Google Search Console to split branded and non-branded traffic and spot real SEO growth."
 focusKeyword: "google search console branded non branded filter"
+takeaways:
+  - "Google Search Console's Performance report now has a filter that separates branded and non branded queries without manual regular expressions."
+  - "Branded queries include the brand name, misspellings and unique products, such as Google, Gogle and Gmail for google.com, identified by an AI assisted system."
+  - "The filter works across web, image, video and news search, and a new Insights card shows total branded and non branded clicks."
+  - "Google states the filter does not impact rankings, though occasional misclassification may occur because the system is dynamic."
+  - "The filter is rolling out gradually to top level properties with sufficient query volume, not URL path, subdomain or low volume properties."
 image: "/wp-content/uploads/2026/03/Branded-Queries-Filter.webp"
 imageAlt: "Branded Queries Filter"
 words: 705

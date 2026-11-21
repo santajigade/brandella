@@ -9,6 +9,12 @@ primaryCategory: "content"
 tags: ["AI marketing", "influencer marketing"]
 description: "Discover how AI influencer marketing at scale is transforming digital marketing. Learn from Unilever’s 300,000 creator strategy, its benefits, challenges, and future impact."
 focusKeyword: "AI influencer marketing at scale"
+takeaways:
+  - "Unilever has built a network of nearly 300,000 creators and moved nearly half of its advertising budget to social media marketing."
+  - "Unilever now focuses on local micro influencers, such as thousands of creators in India, instead of a few celebrities."
+  - "Adobe research shows 71% of creators use AI tools for video generation or editing, and 41% use these tools weekly."
+  - "Content overload, inconsistent brand messaging and the limits of A/B testing make results hard to measure at this scale."
+  - "AI platforms such as DAIVID and Adin predict content performance and measure emotional engagement, while human storytelling and trust stay essential."
 image: "/wp-content/uploads/2026/05/AI-influencer-marketing-at-scale.webp"
 imageAlt: "AI influencer marketing at scale"
 words: 849

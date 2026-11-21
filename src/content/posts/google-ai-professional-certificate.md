@@ -9,6 +9,12 @@ primaryCategory: "artificial-intelligence"
 tags: ["AI Certification", "Coursera", "Digital Skills", "Gemini AI", "Google AI", "Google Workspace", "Online Learning", "Small Business"]
 description: "Google AI Professional Certificate with 3 months of AI Pro access. Eligible U.S. small businesses can enroll at no cost"
 focusKeyword: "Google AI Professional Certificate"
+takeaways:
+  - "Google's AI Professional Certificate has seven self-paced modules of about one hour each and includes three months of free access to Google AI Pro."
+  - "Learners complete more than 20 hands-on activities covering content creation, data analysis, visual content and building apps without coding."
+  - "Eligible U.S. small and medium-sized businesses with 500 or fewer employees can enroll free by providing an EIN and verifying through Coursera."
+  - "Standard pricing in the U.S. and Canada is $49 per month on Coursera, Google Skills and Udemy, with no separate exam fee."
+  - "The curriculum centers on Gemini, NotebookLM and Google AI Studio, and eligible businesses also get three months of free Google Workspace Business Standard."
 image: "/wp-content/uploads/2026/02/Google-AI-Professional-Certificate.webp"
 imageAlt: "Google AI Professional Certificate"
 words: 691

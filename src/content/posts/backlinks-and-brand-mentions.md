@@ -9,6 +9,12 @@ primaryCategory: "digital-marketing"
 tags: ["Backlinks", "Brand Mentions", "Link Building Strategy"]
 description: "Learn the difference between backlinks and brand mentions and how to build campaigns that earn long-term authority, trust, and SEO growth for your brand."
 focusKeyword: "Backlinks and Brand Mentions"
+takeaways:
+  - "Backlinks remain a crucial ranking factor, especially from relevant sites in the same industry, but they are harder to earn as outreach grows crowded."
+  - "Google's algorithms now evaluate unlinked brand mentions in news articles, podcasts, reviews, interviews and social posts as real signals of authority."
+  - "Backlinks boost rankings while mentions boost brand memory, and repeated exposure across platforms leads users to visit directly, trust and convert."
+  - "Campaigns earn both links and mentions by creating something worth referencing, such as original research, a helpful tool or a bold thought-leadership take."
+  - "Lasting authority comes from long-term relationships with reporters, bloggers and podcasters and campaigns that keep earning visibility months after launch."
 image: "/wp-content/uploads/2025/11/Backlinks-vs-Brand-Mentions.webp"
 imageAlt: "Backlinks vs Brand Mentions"
 words: 1016

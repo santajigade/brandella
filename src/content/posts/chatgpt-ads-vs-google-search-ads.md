@@ -9,6 +9,12 @@ primaryCategory: "paid-media"
 tags: ["AI advertising", "ChatGPT ads", "Digital Marketing Strategy", "Google search ads"]
 description: "Should marketing leaders invest in ChatGPT ads? A simple comparison of ChatGPT ads vs Google Search ads, reach, targeting, cost and strategy insights."
 focusKeyword: "ChatGPT ads"
+takeaways:
+  - "ChatGPT ads will appear at the bottom of answers, labeled 'Sponsored', and only Free and Go users will see them, not users under 18."
+  - "Google has around 5 billion users, about 5 trillion searches per year, an average CTR of about 3.17% and a conversion rate around 7.5%."
+  - "ChatGPT has around 803 to 858 million unique users and 5.1 to 5.5 billion monthly visits, but its reachable ad audience is smaller."
+  - "Advertisers cannot access private conversation data, and it is still unclear whether ChatGPT will offer keyword bidding, intent categories or audience layers."
+  - "Consumer brands may benefit from early testing with small budgets, while B2B brands should be cautious because many decision-makers use paid plans."
 image: "/wp-content/uploads/2026/02/ChatGPT-Ads.jpg"
 imageAlt: "ChatGPT Ads"
 words: 1094

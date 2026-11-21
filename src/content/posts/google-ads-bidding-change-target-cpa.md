@@ -8,6 +8,12 @@ categories: ["google-ads", "paid-media"]
 primaryCategory: "paid-media"
 description: "Starting August 17, 2026, Google Ads pulls budget-limited Target CPA and Target ROAS campaigns back to their stated target. Here's the timeline and what to do now."
 focusKeyword: "Target CPA"
+takeaways:
+  - "From August 17, 2026, budget-limited Target CPA and Target ROAS campaigns will perform more consistently toward their stated targets instead of quietly beating them."
+  - "A campaign converting at a $5 CPA against a $10 Target CPA will drift up toward the $10 figure, while daily and monthly budgets stay respected."
+  - "Google will not change targets automatically, and the Bid Target Adjustment Tool, available from July 6, 2026, lets advertisers keep, match or reset targets."
+  - "Budget-limited Search, Shopping, Performance Max, Demand Gen and Travel campaigns are affected, while App, Video reach and Video view campaigns are out of scope."
+  - "Advertisers should filter for 'Limited by budget' campaigns and set new targets near their trailing 90 day average rather than their best week."
 image: "/wp-content/uploads/2026/07/Target-CPA.webp"
 imageAlt: "Target CPA"
 words: 2011

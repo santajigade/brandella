@@ -8,6 +8,12 @@ categories: ["artificial-intelligence"]
 primaryCategory: "artificial-intelligence"
 description: "About 68% of US Google searches end without a click, largely due to AI Overviews. Here's the exact content structure that still gets cited inside them"
 focusKeyword: "AI Overviews"
+takeaways:
+  - "Roughly 68% of US Google searches now end without a click, and organic click-through rate drops about 50% on average when an AI Overview appears."
+  - "Pew Research found users click an organic result about 8% of the time when an AI Overview is present, compared with roughly 15% without one."
+  - "AI Overviews split queries into related sub-queries and pull passages from several sources, favoring answer-first, short, standalone paragraphs with specific numbers."
+  - "Pages that already rank well organically are far more likely to be cited, so citation-focused structure works on top of solid rankings."
+  - "Success should be tracked through impressions, citations and brand search volume alongside clicks, since a citation can build recognition without a visit."
 image: "/wp-content/uploads/2026/07/AI-Overviews.webp"
 imageAlt: "AI Overviews"
 words: 1986

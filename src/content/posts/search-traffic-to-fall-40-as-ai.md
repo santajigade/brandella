@@ -9,6 +9,12 @@ primaryCategory: "artificial-intelligence"
 tags: ["Future of search traffic", "Google AI Overviews impact", "Publishers and AI impact"]
 description: "Reuters Institute survey shows publishers expect search traffic to drop 40% in three years as AI answers grow. Here’s what it means for creators"
 focusKeyword: "Search traffic"
+takeaways:
+  - "A Reuters Institute survey of 280 senior media leaders from 51 countries found publishers expect search traffic to fall more than 40% in three years."
+  - "Facebook traffic to news sites is down 43% in the last three years and X referrals are down 46%, while Chartbeat data shows Google traffic dipping."
+  - "Publishers plan to invest more in original reporting and scale back how-to articles, general guides and basic informational posts that AI answers well."
+  - "Video, podcasts and short-form formats on YouTube, TikTok and Instagram are getting more budget as text articles become less of a priority."
+  - "Subscriptions are now the main business model, and interest in content licensing deals with AI companies has nearly doubled in two years."
 image: "/wp-content/uploads/2026/01/Search-Traffic.webp"
 imageAlt: "Search Traffic"
 words: 1133

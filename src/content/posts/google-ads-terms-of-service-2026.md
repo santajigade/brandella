@@ -8,6 +8,12 @@ categories: ["google-ads", "paid-media"]
 primaryCategory: "paid-media"
 description: "Google's updated Google Ads terms took effect July 1, 2026, expanding AI automation while advertisers keep full liability. Here's what changed and what to check."
 focusKeyword: "Google Ads terms"
+takeaways:
+  - "The updated Google Ads terms of service took effect on July 1, 2026, with no acceptance or account changes required from advertisers."
+  - "The new terms authorize Google's automated features to format, select or generate targets, ads or destinations on the advertiser's behalf."
+  - "Advertisers remain fully responsible for the resulting campaigns and assets, including reviewing, editing or removing anything automation generates."
+  - "Inputs typed into Google Ads conversational tools can now be used by Google's systems, and crawling permissions for automated setup are spelled out more explicitly."
+  - "The changes apply only to Google Ads accounts, and regional updates cover arbitration language, regulatory operating fees and Google BR's role in Brazil."
 image: "/wp-content/uploads/2026/07/Google-Ads-terms.webp"
 imageAlt: "Google Ads terms"
 words: 2028

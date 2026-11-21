@@ -9,6 +9,12 @@ primaryCategory: "artificial-intelligence"
 tags: ["AI in Search", "AI Search Growth", "B2B SEO", "Digital Marketing Trends", "Google AI Overviews", "Healthcare SEO", "Organic Search Trends", "SEO 2026"]
 description: "Google AI Overviews has grown 58% in one year and now appears in nearly half of all search queries. Discover how it is transforming SEO, industries, and traditional organic search in 2026."
 focusKeyword: "Google AI Overviews"
+takeaways:
+  - "BrightEdge research shows Google AI Overviews coverage increased by 58 percent between February 2025 and February 2026."
+  - "Healthcare queries triggered AI Overviews around 72 percent of the time in 2024, rising to 88 percent by the end of 2025."
+  - "Education coverage jumped from 18 percent to 83 percent, B2B technology from 36 percent to 82 percent and restaurants from 10 percent to 78 percent."
+  - "Classic organic results still appear in about 52 percent of queries, but an AI Overview block often exceeds 1,200 pixels and pushes results below the fold."
+  - "Only about 17 percent of sources cited in AI Overviews also rank in the top 10 organic results, so ranking and AI visibility need separate attention."
 image: "/wp-content/uploads/2026/03/Google-AI-Overviews.webp"
 imageAlt: "Google AI Overviews"
 words: 998
