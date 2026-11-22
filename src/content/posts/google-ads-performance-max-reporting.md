@@ -9,6 +9,12 @@ primaryCategory: "paid-media"
 tags: ["Google Ads Performance Max updates", "Performance Max campaign insights", "Performance Max Reporting"]
 description: "Explore Google’s new Performance Max Reporting update with deeper asset insights, channel data, and tools to improve campaign transparency"
 focusKeyword: "Performance Max Reporting"
+takeaways:
+  - "Google Ads now lets advertisers break down Performance Max data by device, time, conversion type and network."
+  - "The channel performance report, currently in beta, shows how budget is spread across YouTube, Display, Search, Discover, Gmail and Maps."
+  - "The upgraded asset report can be segmented by network or device and includes a Network (with search partners) view."
+  - "Asset level totals can exceed campaign totals and asset level CTR, CPC and ROAS are approximate, so judge results at asset group or campaign level."
+  - "A new diagnostics feature flags problems such as limited serving caused by restrictive bid targets."
 image: "/wp-content/uploads/2025/11/Performance-Max-campaign-insights.webp"
 imageAlt: "Performance Max campaign insights"
 words: 609
