@@ -1,0 +1,348 @@
+seoTitle: "Internal Linking Template: Free Excel Link Audit Kit"
+h1: "Internal Linking Kit: Excel Link Map, Page Audit, Link Planner and AI Prompts"
+focusKeyword: internal linking template
+description: "Free internal linking template in Excel: map every link, find orphan pages, deep pages and weak anchors, score each page and plan new links before you add them."
+published: 2026-11-22
+updated: 2026-11-22
+time: 2 to 3 hours for a first audit of a small site
+level: Beginner to advanced
+kit: true
+tabs: 9
+intro:
+  - "Most internal linking templates are a list of URLs with a column for notes. This free <strong>internal linking template</strong> is a working kit instead: an Excel Link Map that checks every internal link on your site, a Page Inventory that counts links in and out for every page and scores it against 13 weighted checks, and a Link Planner that tells you whether a new link is worth adding before you touch the page."
+  - "It is built for the AI search era. Google finds most new pages through links, and its guidance for AI Overviews and AI Mode lists making your content easy to find through internal links as a basic best practice. So the kit finds orphan pages, pages buried too deep, links to broken or redirected URLs, links Google cannot crawl, generic anchors and topic clusters whose hub page forgets its own articles, then ranks the fixes by search demand."
+kitContents:
+  - t: "Excel workbook, 9 tabs"
+    d: "Page Inventory (500 ready rows with 20 link measures, 13 weighted checks, score, grade, fixes, priority and links to add), Link Map (1,000 ready rows), Link Planner, Dashboard with two charts, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "20 pages, 52 internal links and 8 planned links for a fictional plant shop, so you see orphans, broken links, redirects, generic anchors and every verdict working before you add your own site."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to share with your writers, developers or clients."
+  - t: "22 AI prompts"
+    d: "Prompts to find link ideas, write descriptive anchors, connect topic clusters, rescue orphan pages and read your crawl, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole internal linking checklist on one page, to tick off before you publish a page or after every site crawl."
+steps:
+  - t: Set up clusters and rules
+    d: "On Settings, set the analysis date and list your topic clusters with the URL of each hub page. Check the page types and the content link targets for High, Medium and Low priority pages."
+  - t: Crawl your site
+    d: "Run any crawler and copy URL, status code, indexable, in sitemap and click depth into the Page Inventory. Give each page a type, a cluster, a focus keyword and a business priority."
+  - t: Add Search Console numbers
+    d: "From the Performance report, Pages tab, last 28 days, add impressions, clicks and average position. They decide which pages need links first."
+  - t: Paste the internal links
+    d: "Paste the crawler's internal links export (source, target, anchor) into the Link Map and choose the link type, whether it is a real <code>&lt;a href&gt;</code> link and the rel value."
+  - t: Read the score and priority
+    d: "Sort the Page Inventory by Priority. Fix orphans and broken links first, then repoint links to redirected or deleted pages, then boost pages close to the top of Google."
+  - t: Plan and add links
+    d: "Write each new link on the Link Planner until it says Ready to add. Add it in the body text of the source page, mark it Added and copy it into the Link Map."
+  - t: Crawl again and compare
+    d: "Crawl again after a few weeks. Compare orphans, click depth, links to broken pages and the average score on the Dashboard, then repeat with the next pages."
+sections:
+  - h: How internal linking works in the AI search era
+    html: |
+      <p>An internal link is a link from one page on your site to another. It does three jobs at once: it helps people move to the next useful page, it helps Google find and understand your pages, and it shows which pages you think matter most.</p>
+      <p>Google's <a href="https://developers.google.com/search/docs/crawling-indexing/links-crawlable" target="_blank" rel="noopener">link best practices</a> and <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener">SEO starter guide</a> set the rules for this kit:</p>
+      <ul>
+        <li><strong>Links are how Google finds pages.</strong> Google says it primarily finds pages through links from pages it already crawled, and that the vast majority of new pages it finds every day are found through links.</li>
+        <li><strong>Every page you care about needs a link.</strong> Google says every page you care about should have a link from at least one other page on your site. A page with none is an orphan.</li>
+        <li><strong>Only real links count reliably.</strong> Google can generally only crawl a link if it is an <code>&lt;a&gt;</code> element with an <code>href</code> attribute. Links added with JavaScript are fine when they use that markup; buttons and <code>onclick</code> handlers are not.</li>
+        <li><strong>Anchor text should describe the target.</strong> Good anchor text is descriptive, reasonably concise and relevant to both pages. "Click here" and "read more" tell Google nothing, and stuffing keywords into anchors is against Google's spam policies.</li>
+        <li><strong>There is no magic number.</strong> Google says there is no ideal number of links on a page. This kit sets editable targets instead, based on how important a page is to you.</li>
+      </ul>
+      <p>What changes with AI search:</p>
+      <ul>
+        <li><strong>Internal links are on Google's AI checklist.</strong> Google's <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">AI features page</a> says there are no special requirements for AI Overviews or AI Mode, and lists "making your content easily findable through internal links" among the best practices that still apply. A page must be indexed and eligible for a snippet to be a supporting link, and an orphan page may never get that far.</li>
+        <li><strong>AI answers draw on many pages per question.</strong> Google says AI Overviews and AI Mode can use a query fan out technique, running related searches to find supporting pages. A well linked topic cluster gives it more connected, relevant pages from your site to choose from.</li>
+        <li><strong>Context travels with the link.</strong> A descriptive anchor inside a relevant paragraph tells people and machines what the next page answers. That is why the kit counts content links in the body separately from menu and footer links.</li>
+      </ul>
+  - h: What is inside the internal linking workbook
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>Page Inventory</td><td>One row per page. Counts pages linking in, content links in and out, links from the same cluster, links from and to the hub, generic anchors, not crawlable and nofollow links, and links to broken or redirected pages. Runs 13 weighted checks and gives a score, grade, fixes in priority order, a priority and the content links still needed.</td><td>URL, page type, topic cluster, focus keyword, business priority, status code, indexable, in sitemap, click depth, impressions, clicks, position</td></tr>
+          <tr><td>Link Map</td><td>One row per internal link. Looks up the target's status and cluster and flags broken and redirected targets, noindex targets, empty, generic and long anchors, links that are not crawlable, internal nofollow, self links and repeats.</td><td>Source URL, target URL, anchor text, link type, real <code>&lt;a href&gt;</code> link, rel</td></tr>
+          <tr><td>Link Planner</td><td>Checks every planned link: is the target live, does the link already exist, is the anchor descriptive and short, does it name the target topic, how strong is the source page and how many links the target still needs.</td><td>Source, target, proposed anchor, placement, status</td></tr>
+          <tr><td>Dashboard</td><td>16 key numbers, the 10 pages that need links most, live pages by click depth, a topic cluster table and pages failing each check, with two charts.</td><td>Nothing</td></tr>
+          <tr><td>Settings</td><td>Analysis date, link rules, the 13 checks with weights, rules and fixes, page types, priority targets, link types, clusters with hub pages, generic anchors and lists.</td><td>Optional tuning</td></tr>
+          <tr><td>AI Prompts, Checklist, Sources</td><td>All 22 prompts, the checklist with automatic progress, and where every fact and assumption comes from.</td><td>Yes or No per step</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas. All 500 Page Inventory rows, 1,000 Link Map rows and 200 Link Planner rows are ready with formulas and dropdowns.</p>
+  - h: The 13 internal link checks and why each one matters
+    html: |
+      <p>Each check scores 1 (pass), 0.5 (partly) or 0 (fix) for live pages, meaning status 200 and indexable. A check is left blank, and not scored, when it does not apply. The weights and thresholds are starter assumptions for this kit and are editable on Settings.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Check</th><th>Weight</th><th>Rule</th><th>Why it matters</th></tr></thead>
+        <tbody>
+          <tr><td>Not an orphan</td><td>10</td><td>At least 1 link from another page.</td><td>Google says every page you care about should have a link from at least one other page.</td></tr>
+          <tr><td>Enough content links in</td><td>8</td><td>Content links from different pages reach the target for the page's priority (High 5, Medium 3, Low 1). Half = partly.</td><td>Links in the body text from related pages carry the most context. Home and about pages are not checked.</td></tr>
+          <tr><td>Shallow click depth</td><td>7</td><td>3 clicks or less pass, 4 partly, 5 or more fix.</td><td>Deep pages are harder for people and crawlers to reach. The 3 click rule is common SEO advice, not a Google rule.</td></tr>
+          <tr><td>No broken links out</td><td>7</td><td>No link to a 4xx or 5xx page.</td><td>Broken links waste a visit and a crawl.</td></tr>
+          <tr><td>Linked from its hub</td><td>6</td><td>The cluster's hub page links to it.</td><td>A hub that links to every article connects the whole cluster from the top.</td></tr>
+          <tr><td>Descriptive anchors</td><td>6</td><td>No generic anchors pass; up to 25 percent partly.</td><td>Google says good anchor text is descriptive and gives "click here" and "read more" as bad examples.</td></tr>
+          <tr><td>Crawlable links in</td><td>5</td><td>Every link in is a real <code>&lt;a href&gt;</code>.</td><td>Google can only reliably crawl <code>&lt;a&gt;</code> elements with an href.</td></tr>
+          <tr><td>No redirected links out</td><td>4</td><td>0 pass, 1 or 2 partly, 3 or more fix.</td><td>Link to the final URL. Google says long redirect chains hurt crawling.</td></tr>
+          <tr><td>Enough content links out</td><td>4</td><td>Articles and hubs: 3 or more content links out pass, 1 or 2 partly.</td><td>Every article should lead somewhere useful: the hub, a sibling and the offer.</td></tr>
+          <tr><td>Links back to its hub</td><td>3</td><td>The page links to its hub. Missing = partly.</td><td>Closes the loop so readers and crawlers can climb back to the main topic.</td></tr>
+          <tr><td>Anchor variety</td><td>3</td><td>With 3 or more content links in, the top anchor is at most 60 percent; up to 80 percent partly.</td><td>Natural, varied anchors describe the page in different ways. An assumption of this kit.</td></tr>
+          <tr><td>Followed internal links</td><td>3</td><td>No internal link uses nofollow. Any = partly.</td><td>Google says to use nofollow only when you do not trust the source.</td></tr>
+          <tr><td>In XML sitemap</td><td>3</td><td>In the sitemap = pass, missing = partly.</td><td>A sitemap helps discovery, but Google says it does not guarantee that pages are crawled or indexed.</td></tr>
+        </tbody>
+      </table></div>
+  - h: How the score and priority work (with a worked example)
+    html: |
+      <p>The score is the weighted share of checks a page passes: the sum of weight x result for every check with data, divided by the total weight of those checks, times 100. A is 85 or more, B is 70 or more, C is 55 or more, anything lower is D. A page that is not live (a redirect, a 404 or noindex) gets no score; if other pages still link to it, its priority says so.</p>
+      <p><strong>Worked example.</strong> In the demo, LeafBox checks its guide "snake plant care". It is a High priority article in the Plant care cluster, at click depth 4, with 26,000 impressions in 28 days at average position 6.2.</p>
+      <ul>
+        <li><strong>Links in:</strong> only 2 pages link to it. The snake plant product page uses the anchor "Read more" and the watering guide uses "click here". Both are generic, so the generic share is 100 percent. The target for a High priority page is 5 content links, so it needs 3 more. The Plant care hub links to three other articles but not to this one.</li>
+        <li><strong>Links out:</strong> 4 content links, to the hub, the product, the watering guide and the old <code>/zz-plant/</code> URL, which now redirects.</li>
+        <li><strong>Passes (35 points):</strong> not an orphan (10), no broken links out (7), crawlable links in (5), enough content links out (4), links back to its hub (3), followed internal links (3) and in XML sitemap (3).</li>
+        <li><strong>Partly (5.5 points):</strong> click depth 4 (half of 7) and 1 redirected link out (half of 4).</li>
+        <li><strong>Fails (0 points):</strong> enough content links in, linked from its hub and descriptive anchors.</li>
+      </ul>
+      <p>Anchor variety needs 3 content links in, so it is not checked and the total weight is 66. 40.5 of 66 is a score of 61, grade <strong>C</strong>, with 5 fixes. Because the page ranks between positions 4 and 20, has more than 500 impressions and still needs links, the priority is <strong>Boost: add links, close to the top</strong>. It is also first in the Dashboard list of pages that need links most.</p>
+      <p>The fix is quick: add the page to the Plant care hub list (which also cuts its click depth), add a link from the bedroom plants article with the anchor "how to care for a snake plant", rewrite "Read more" and "click here" into descriptive anchors, and point the old <code>/zz-plant/</code> link straight at <code>/shop/zz-plant/</code>. The two planned links take it from 2 to 4 of its 5 content links.</p>
+      <p>Other demo pages show the range. The areca palm product and the "plants safe for cats" article are <strong>orphans</strong>: no page links to them and the crawler cannot reach them, and the cats article is not even in the sitemap. The old <code>/zz-plant/</code> URL (301) and the deleted fertiliser guide (404) still get 2 links each, so they show <strong>Fix links: page not live, repoint links</strong>. The repotting guide sits 5 clicks deep, so it shows <strong>Restructure: page is too deep</strong>. The office desk article gets one link with <code>nofollow</code> and one from a JavaScript button, so both of those checks are partly.</p>
+  - h: Priority rules
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Priority</th><th>Rule</th><th>What to do</th></tr></thead>
+        <tbody>
+          <tr><td>Fix links: page not live, repoint links</td><td>A redirect, 404 or noindex page that still gets links.</td><td>Update every link to the final live URL. Filter the Link Map by the target.</td></tr>
+          <tr><td>Fix now: orphan page</td><td>A live page with no links in.</td><td>Link to it from its hub and 2 or 3 related pages, or remove or merge it if nobody needs it.</td></tr>
+          <tr><td>Fix now: broken links on this page</td><td>The page links to a 4xx or 5xx URL.</td><td>Update or remove each broken link.</td></tr>
+          <tr><td>Boost: add links, close to the top</td><td>Position 4 to 20, 500 or more impressions and content links still needed (all editable).</td><td>The biggest wins. Add descriptive links from related pages and the hub.</td></tr>
+          <tr><td>Restructure: page is too deep</td><td>Click depth at or above the fail level.</td><td>Link to it from a hub, a category or a page near the home page.</td></tr>
+          <tr><td>Healthy: monitor</td><td>Score 85 or more.</td><td>Leave it and recheck after the next crawl.</td></tr>
+          <tr><td>Improve when you can</td><td>Everything else.</td><td>Work through the fixes in order.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Link issues the Link Map finds
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Issue</th><th>What it means</th><th>Fix</th></tr></thead>
+        <tbody>
+          <tr><td>broken target</td><td>The target returns 4xx or 5xx.</td><td>Link the right live page or remove the link.</td></tr>
+          <tr><td>redirected target: link the final URL</td><td>The target returns 3xx.</td><td>Replace the URL with the final destination.</td></tr>
+          <tr><td>target is noindex</td><td>You link to a page you asked Google not to index.</td><td>Link the indexable version, or rethink the noindex.</td></tr>
+          <tr><td>target not in inventory</td><td>The target URL is missing from the Page Inventory.</td><td>Add it, or check for a typo, a parameter or a trailing slash.</td></tr>
+          <tr><td>empty anchor</td><td>No text and no image alt.</td><td>Add text, or alt text on the linked image. Google uses the alt as the anchor for image links.</td></tr>
+          <tr><td>generic anchor</td><td>An anchor from the generic list on Settings.</td><td>Say what the target page is about.</td></tr>
+          <tr><td>long anchor</td><td>More than 10 words.</td><td>Keep the words that describe the target.</td></tr>
+          <tr><td>not a crawlable link</td><td>Not an <code>&lt;a href&gt;</code> element.</td><td>Use a real link with an href.</td></tr>
+          <tr><td>nofollow on an internal link</td><td>rel nofollow on your own page.</td><td>Remove it.</td></tr>
+          <tr><td>links to itself</td><td>Source and target are the same page.</td><td>Usually a breadcrumb or menu item. Harmless, but it is not a link to another page.</td></tr>
+          <tr><td>repeat link (counted once)</td><td>The same source already links to this target.</td><td>Fine for menus. In body text, one good link is enough.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Planning new links with the Link Planner
+    html: |
+      <p>Most link mistakes happen when a link is added in a hurry. The Link Planner checks each idea first and gives one verdict: Ready to add, Already linked, Target not live, Rewrite the anchor, Shorten the anchor, Same page or Added.</p>
+      <p>In the demo, three planned links are <strong>Ready to add</strong>, including the hub list link and the bedroom article link for the snake plant care guide, and a link from the Pet safe plants hub that rescues the cats article from orphan status. A link from the shop's ZZ plant page to the old <code>/zz-plant/</code> URL says <strong>Target not live: link the final URL</strong>. A planned "click here" link says <strong>Rewrite the anchor: generic</strong>. A link that already exists says <strong>Already linked: skip or improve the anchor</strong>.</p>
+      <p>Two columns help you choose between ideas: <strong>Source impressions</strong> shows how much search traffic the source page gets (a page people actually visit is a better place for a link), and <strong>Target still needs</strong> shows how many content links the target is short of.</p>
+  - h: Column by column guide
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>URL, Page type, Topic cluster</td><td>The full URL exactly as in the Link Map, one of 9 page types and a cluster from Settings.</td><td>Keep URLs consistent: same protocol, same trailing slash.</td></tr>
+          <tr><td>Focus keyword</td><td>The main topic of the page.</td><td>Used to check whether anchors name the target topic.</td></tr>
+          <tr><td>Business priority</td><td>High, Medium or Low.</td><td>Sets how many content links the page should get.</td></tr>
+          <tr><td>Status code, Indexable?, In XML sitemap?</td><td>From your crawler.</td><td>Only status 200 and indexable pages are scored.</td></tr>
+          <tr><td>Click depth</td><td>Clicks from the home page, from your crawler.</td><td>Leave blank when the crawler cannot reach the page: that is a warning in itself.</td></tr>
+          <tr><td>Impressions, Clicks, Avg position</td><td>Search Console, Pages tab, last 28 days.</td><td>Used for the Boost priority and the Dashboard list.</td></tr>
+          <tr><td>Link Map: Link type</td><td>Contextual, Image in content, Related box, Navigation, Breadcrumb, Footer, Sidebar or Pagination.</td><td>Only types marked as content links on Settings count as content links.</td></tr>
+          <tr><td>Link Map: Real &lt;a href&gt; link?, rel</td><td>Yes or No, and follow, nofollow, sponsored or ugc.</td><td>Most crawlers report both.</td></tr>
+          <tr><td>Measures, checks, Score, Grade, Fixes, Priority</td><td>Automatic.</td><td>Row 3 above the checks shows each weight from Settings.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Where to get the data
+    html: |
+      <ul>
+        <li><strong>A crawler</strong> gives you the full list of pages and every internal link with its anchor, status codes, indexability and click depth. Any crawler that exports internal links works.</li>
+        <li><strong>The Search Console Links report</strong> shows your top internally linked pages and which pages link to each one. Google says it is a sample, not a complete list, that tables are limited to 1,000 rows and that pages are grouped by canonical URL, so use it to cross check, not as your link map. See the <a href="https://support.google.com/webmasters/answer/9049606" target="_blank" rel="noopener">Links report help page</a>.</li>
+        <li><strong>Your XML sitemap</strong> tells you which pages you want indexed. Google's <a href="https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview" target="_blank" rel="noopener">sitemap overview</a> says a site that is properly linked can usually be discovered without one, and that on large sites it is harder to make sure every page is linked by at least one other page. Compare the two: a page in the sitemap with no links in is an orphan.</li>
+      </ul>
+      <p>Our guide to <a href="/how-google-crawls-websites/">how Google crawls websites</a> explains why links matter for discovery.</p>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: crawl and clean.</strong> Fill the Page Inventory and Link Map. Fix every broken link and repoint links to redirected or deleted pages.</li>
+        <li><strong>Week 2: rescue orphans.</strong> Link every orphan from its hub and 2 related pages, or merge or remove pages nobody needs.</li>
+        <li><strong>Week 3: connect clusters.</strong> Make each hub link to all its articles and each article link back to its hub. Rewrite generic anchors.</li>
+        <li><strong>Week 4: boost.</strong> Add 2 or 3 descriptive content links to each Boost page from related pages that get traffic. Bring deep pages closer to the home page.</li>
+      </ul>
+      <p>Then crawl again and compare the Dashboard. Plan clusters with the <a href="/resources/seo-aeo-assets/topic-clusters/">topic cluster template kit</a>, and check the rest of each page with the <a href="/resources/seo-aeo-assets/on-page-seo/">on page SEO checklist kit</a>.</p>
+  - h: The chained prompt workflow (from crawl to new links)
+    html: |
+      <p>Prompts 18 to 22 below are built to run in order in one AI chat:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your site, clusters and link rules.</li>
+        <li><strong>Paste the Page Inventory rows</strong> for one cluster with their checks and fixes.</li>
+        <li><strong>Get link ideas</strong> with source, target, anchor and the exact sentence to place it in.</li>
+        <li><strong>Pressure test the ideas</strong> for relevance, anchor quality and over linking.</li>
+        <li><strong>Get rows for Excel</strong>, ready to paste into the Link Planner.</li>
+      </ol>
+      <p>AI assistants cannot crawl your site or see your Search Console data. Paste your own URLs, titles and numbers, and check that every suggested page really exists before you link to it.</p>
+  - h: Internal linking mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Publishing without links.</strong> Every new page needs links from its hub and related pages on the day it goes live.</li>
+        <li><strong>Leaving links to old URLs.</strong> After a redirect or deletion, update the links, not just the redirect.</li>
+        <li><strong>Generic anchors.</strong> "Click here" and "read more" waste the best signal you control.</li>
+        <li><strong>Exact match anchors everywhere.</strong> Describe the page naturally; do not force the same keyword into every link.</li>
+        <li><strong>JavaScript links.</strong> Buttons and <code>onclick</code> handlers are not reliable links for Google.</li>
+        <li><strong>Nofollow on internal links.</strong> Leftover plugin settings can hide your own pages.</li>
+        <li><strong>Counting menu links as enough.</strong> Menus help, but links in the body text of related pages carry the context.</li>
+        <li><strong>Linking for the sake of it.</strong> Add a link when it helps the reader take the next step. Our guide to <a href="/internal-linking-best-practices-seo-rankings/">internal linking best practices</a> covers placement and anchors in more depth.</li>
+      </ul>
+prompts:
+  - t: Link ideas for a new page
+    p: |
+      I just published "[title]" at [URL] about "[focus keyword]". Here are my other pages with title and URL: [paste list].
+      Suggest the 5 most relevant pages that should link to the new page. For each, give a descriptive anchor and the kind of
+      sentence where the link fits naturally. Only use pages from my list.
+  - t: Rescue an orphan page
+    p: |
+      This page has no internal links: [URL, title, summary]. Here are pages in the same topic: [paste titles and URLs].
+      Which 3 pages should link to it, with what anchor, and where in each page? If none fit, say whether I should merge it into another page.
+  - t: Rewrite generic anchors
+    p: |
+      These internal links use generic anchors: [paste source URL, target URL, anchor, and the sentence around it].
+      Rewrite each anchor so it describes the target page in 2 to 6 words, and rewrite the sentence if needed so it reads naturally.
+  - t: Anchor variations
+    p: |
+      Write 8 natural anchor text variations for links to my page about "[topic]" ([URL]). Mix the topic, a question, a benefit
+      and a partial phrase. Keep each under 7 words. No keyword stuffing.
+  - t: Hub page link list
+    p: |
+      My hub page "[hub title]" covers [topic]. These articles belong to the cluster: [paste titles and URLs].
+      Write a short, useful section for the hub that links to every article with a descriptive anchor and one line on what each answers.
+  - t: Find missing cluster links
+    p: |
+      Here are the pages in my "[cluster]" cluster and the links between them (source, target): [paste]. Which pages are not
+      linked from the hub, which do not link back, and which pairs of articles should link to each other? Give a table.
+  - t: Contextual link spots
+    p: |
+      Here is the text of my article: [paste]. Here are pages I could link to: [titles and URLs]. Find the 3 best sentences
+      in the article to add a link, with the anchor words to use from that sentence. Do not add new sentences unless needed.
+  - t: Reduce click depth
+    p: |
+      These pages are 5 or more clicks from my home page: [paste URLs and titles]. My hub and category pages are: [paste].
+      Suggest where each deep page should be linked from so it ends up 3 clicks or less from the home page.
+  - t: Fix links to redirects
+    p: |
+      Here are internal links that point to redirected URLs, with the final URL for each: [paste source, old target, final target].
+      Give me a find and replace list per source page, and point out any old URL that should be removed instead.
+  - t: Broken link replacements
+    p: |
+      These internal links point to deleted pages: [paste source URL, broken URL, anchor]. Here are my live pages: [paste titles and URLs].
+      Suggest the best live replacement for each broken link, or say remove it if nothing fits.
+  - t: Product links from articles
+    p: |
+      My article "[title]" helps readers with [problem]. My related products or services are: [paste]. Suggest 2 natural places
+      to link to the most relevant offer, with honest anchors that describe the product, not a hard sell.
+  - t: Related articles section
+    p: |
+      Here are my articles with title, URL and topic: [paste]. For the article "[title]", choose the 3 best related articles and
+      write a one line teaser for each that makes the reader want to click. Explain why each is related.
+  - t: Internal link plan for a new cluster
+    p: |
+      I am building a cluster on "[topic]" with a hub and these planned articles: [list]. Draw the link plan: which page links to
+      which, with anchor ideas, so every article is linked from the hub, links back, and links to 1 or 2 siblings.
+  - t: Audit my navigation
+    p: |
+      Here is my main menu and footer: [paste links and labels]. My most important pages by business value are: [list].
+      Which important pages are missing from the menu or hubs, and which menu labels are unclear?
+  - t: Explain my crawl
+    p: |
+      Here are summary numbers from my internal link audit: [paste Dashboard key numbers]. Explain in plain words what is most
+      wrong with my internal linking, what to fix first, and what I can safely ignore.
+  - t: Merge or link decision
+    p: |
+      These two pages cover similar topics: [URL A, title, summary] and [URL B, title, summary]. Should I merge them, or keep both
+      and link between them? If I keep both, how should each page link to the other and with what anchor?
+  - t: Check links for AI search
+    p: |
+      Here is the opening of my page about "[topic]" and the internal links in it: [paste]. Do the links and anchors make clear
+      what each linked page answers? Suggest changes so a reader, or an AI system summarising the page, can follow the topic.
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my internal linking editor. My site: [site], about [topic], for [audience]. My clusters and hub pages: [paste].
+      Rules: links go in the body text where they help the reader, anchors are descriptive and 2 to 6 words, no generic anchors,
+      no exact match stuffing, only real pages from my lists. Confirm, then wait for my data.
+  - t: "Workflow 2 of 5: the Page Inventory rows"
+    p: |
+      Here are the Page Inventory rows for my "[cluster]" cluster: URL, title, focus keyword, impressions, position, content links in,
+      content links to add, linked from hub, priority and fixes: [paste]. Summarise the 3 biggest linking problems in this cluster.
+  - t: "Workflow 3 of 5: link ideas"
+    p: |
+      Here are the titles and a short summary of every page in the cluster plus my top pages by traffic: [paste]. Suggest up to 12 new
+      links that fix the problems you found. For each: source URL, target URL, anchor and the sentence where it fits.
+  - t: "Workflow 4 of 5: pressure test"
+    p: |
+      Review your 12 link ideas. Remove any that are not truly relevant, that use a weak or repeated anchor, or that would put too many
+      links in one paragraph. Keep the best 8 and explain each choice in one line.
+  - t: "Workflow 5 of 5: rows for Excel"
+    p: |
+      Turn the best 8 links into rows with tabs between columns for my Link Planner: Source URL, Target URL, Proposed anchor,
+      Placement (Early in the body, In the body, List or table, or Navigation or template), Status (Planned), Date added (blank),
+      Notes (the reason for the link).
+checklist:
+  - Every page you care about has at least one link from another page
+  - Each hub page links to every article in its cluster
+  - Each article links back to its hub and to 1 or 2 related articles
+  - Important pages get links in the body text of related pages, not only from menus
+  - Anchors describe the target page in a few words; no click here or read more
+  - Anchors vary naturally instead of repeating one exact keyword
+  - Every link is a real a element with an href, not a JavaScript button
+  - No internal links use nofollow
+  - No links point to 404 pages or deleted content
+  - Links point to the final URL, not to a redirect
+  - Important pages are 3 clicks or less from the home page
+  - Pages in the XML sitemap all have links in from other pages
+  - New pages get their links on the day they are published
+  - Pages close to page one of Google get extra links from related pages that get traffic
+  - The site is crawled again after changes and the results compared
+faq:
+  - q: Is this internal linking template free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: How many internal links should a page have?
+    a: "Google says there is no magical ideal number. The kit uses editable targets instead: 5 content links in for High priority pages, 3 for Medium and 1 for Low, and 3 content links out for articles and hubs. Change them on Settings to fit your site."
+  - q: What is an orphan page?
+    a: "A page that no other page on your site links to. Google says every page you care about should have a link from at least one other page. The kit flags orphans and shows them first, and the Dashboard counts live pages the crawler cannot reach."
+  - q: Does anchor text still matter?
+    a: "Yes. Google says anchor text tells people and Google something about the page you link to, and that good anchors are descriptive, reasonably concise and relevant. The kit flags generic, empty and very long anchors and checks that anchors vary."
+  - q: Where do I get my internal link data?
+    a: "From any website crawler that exports internal links with anchors, status codes and click depth. The Search Console Links report is useful to cross check, but Google says it is a sample limited to 1,000 rows in each table."
+  - q: Do internal links help with AI Overviews and AI Mode?
+    a: "Google says there are no special requirements for its AI features and lists making content easily findable through internal links among the best practices. A page must be indexed and eligible for a snippet to be a supporting link, so connecting every useful page is the first step."
+related: [topic-clusters, on-page-seo, schema-markup]
+reads:
+  - t: "Internal linking best practices that improve SEO rankings"
+    url: /internal-linking-best-practices-seo-rankings/
+  - t: "How Google crawls websites: from discovery to indexing"
+    url: /how-google-crawls-websites/
+  - t: "Structuring HTML for better AI crawlability: a 7 step guide"
+    url: /structuring-html-for-ai-crawlability/
+tools:
+  - t: Internal Link Checker
+    url: /tools/seo-tools/internal-link-checker/
+  - t: XML Sitemap Generator
+    url: /tools/technical-seo-tools/xml-sitemap-generator/
+  - t: htaccess Redirect Generator
+    url: /tools/technical-seo-tools/htaccess-redirect-generator/
+sources:
+  - t: "Google Search Central: Link best practices for Google"
+    url: https://developers.google.com/search/docs/crawling-indexing/links-crawlable
+  - t: "Google Search Central: SEO Starter Guide"
+    url: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+  - t: "Google Search Central: AI features and your website"
+    url: https://developers.google.com/search/docs/appearance/ai-features
+  - t: "Google Search Central: What is a sitemap"
+    url: https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview
+  - t: "Search Console Help: Links report"
+    url: https://support.google.com/webmasters/answer/9049606
+  - t: "Ahrefs: Internal links for SEO, an actionable guide"
+    url: https://ahrefs.com/blog/internal-links-for-seo/

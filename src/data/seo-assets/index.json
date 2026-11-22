@@ -20,7 +20,7 @@
     { "n": 8, "slug": "title-tag-optimization", "name": "Title Tag Optimization", "group": "on-page", "short": "Formulas and examples for titles that fit and get clicked.", "formats": ["Template", "Prompts"] },
     { "n": 9, "slug": "meta-description-ideas", "name": "Meta Description Ideas", "group": "on-page", "short": "Ready frameworks for descriptions that lift click through rate.", "formats": ["Template", "Prompts"] },
     { "n": 10, "slug": "internal-linking", "name": "Internal Linking", "group": "on-page", "short": "Find orphan pages and plan links that pass authority.", "formats": ["Sheet", "Checklist"] },
-    { "n": 11, "slug": "schema-markup", "name": "Schema Markup", "group": "on-page", "short": "Copy and paste JSON-LD for Article, FAQ, Product and more.", "formats": ["Code", "Checklist"] },
+    { "n": 11, "slug": "schema-markup", "name": "Schema Markup", "group": "on-page", "short": "Copy and paste JSON-LD for Article, Product, Event and more.", "formats": ["Code", "Checklist"] },
     { "n": 12, "slug": "technical-audits", "name": "Technical Audits", "group": "technical", "short": "A full technical SEO audit sheet with severity scoring.", "formats": ["Sheet", "Checklist"] },
     { "n": 13, "slug": "crawlability-checks", "name": "Crawlability Checks", "group": "technical", "short": "Robots.txt, sitemaps, canonicals and indexing in one checklist.", "formats": ["Checklist"] },
     { "n": 14, "slug": "site-speed-wins", "name": "Site Speed Wins", "group": "technical", "short": "Quick Core Web Vitals fixes ranked by effort and impact.", "formats": ["Sheet", "Checklist"] },

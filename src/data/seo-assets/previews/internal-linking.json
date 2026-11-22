@@ -1,0 +1,143 @@
+{
+ "sheet": "Page Inventory",
+ "columns": [
+  "URL",
+  "Page type",
+  "Pages linking in",
+  "Content links in (pages)",
+  "Score (0 to 100)",
+  "Grade",
+  "Fixes needed",
+  "Priority"
+ ],
+ "rows": [
+  [
+   "https://leafbox.example/",
+   "Home",
+   4,
+   0,
+   100,
+   "A",
+   0,
+   "Healthy: monitor"
+  ],
+  [
+   "https://leafbox.example/shop/",
+   "Category",
+   5,
+   0,
+   85,
+   "A",
+   1,
+   "Boost: add links, close to the top"
+  ],
+  [
+   "https://leafbox.example/shop/snake-plant/",
+   "Product",
+   6,
+   6,
+   92,
+   "A",
+   2,
+   "Healthy: monitor"
+  ],
+  [
+   "https://leafbox.example/shop/zz-plant/",
+   "Product",
+   4,
+   4,
+   89,
+   "A",
+   2,
+   "Boost: add links, close to the top"
+  ],
+  [
+   "https://leafbox.example/shop/money-plant/",
+   "Product",
+   1,
+   1,
+   87,
+   "A",
+   1,
+   "Boost: add links, close to the top"
+  ],
+  [
+   "https://leafbox.example/shop/areca-palm/",
+   "Product",
+   0,
+   0,
+   41,
+   "D",
+   3,
+   "Fix now: orphan page"
+  ],
+  [
+   "https://leafbox.example/plant-care/",
+   "Pillar or hub",
+   5,
+   4,
+   93,
+   "A",
+   1,
+   "Boost: add links, close to the top"
+  ],
+  [
+   "https://leafbox.example/plant-care/how-often-to-water-indoor-plants/",
+   "Article",
+   3,
+   3,
+   100,
+   "A",
+   0,
+   "Healthy: monitor"
+  ],
+  [
+   "https://leafbox.example/plant-care/snake-plant-care/",
+   "Article",
+   2,
+   2,
+   61,
+   "C",
+   5,
+   "Boost: add links, close to the top"
+  ],
+  [
+   "https://leafbox.example/plant-care/yellow-leaves-on-plants/",
+   "Article",
+   2,
+   2,
+   83,
+   "B",
+   2,
+   "Fix now: broken links on this page"
+  ],
+  [
+   "https://leafbox.example/plant-care/repotting-guide/",
+   "Article",
+   1,
+   1,
+   86,
+   "A",
+   2,
+   "Restructure: page is too deep"
+  ],
+  [
+   "https://leafbox.example/low-light-plants/",
+   "Pillar or hub",
+   5,
+   4,
+   93,
+   "A",
+   1,
+   "Boost: add links, close to the top"
+  ]
+ ],
+ "formulaCols": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ]
+}

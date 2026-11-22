@@ -1,0 +1,143 @@
+{
+ "sheet": "Schema Lab",
+ "columns": [
+  "URL",
+  "Schema type",
+  "Missing required (list)",
+  "Recommended present",
+  "Score (0 to 100)",
+  "Grade",
+  "Rich result eligibility",
+  "Priority"
+ ],
+ "rows": [
+  [
+   "https://brewnest.example/",
+   "Organization",
+   "",
+   6,
+   89,
+   "A",
+   "Details only: no review stars for self serving reviews",
+   "Fix now: self serving review markup"
+  ],
+  [
+   "https://brewnest.example/",
+   "WebSite",
+   "",
+   1,
+   100,
+   "A",
+   "Test it in the Rich Results Test",
+   "Healthy: monitor"
+  ],
+  [
+   "https://brewnest.example/blog/pour-over-coffee-guide/",
+   "BlogPosting",
+   "",
+   4,
+   96,
+   "A",
+   "Eligible (Google does not guarantee it)",
+   "Improve: add recommended properties"
+  ],
+  [
+   "https://brewnest.example/blog/pour-over-coffee-guide/",
+   "BreadcrumbList",
+   "",
+   0,
+   100,
+   "A",
+   "Eligible (Google does not guarantee it)",
+   "Healthy: monitor"
+  ],
+  [
+   "https://brewnest.example/blog/best-coffee-beans-india/",
+   "BlogPosting",
+   "",
+   6,
+   84,
+   "B",
+   "Eligible (Google does not guarantee it)",
+   "Improve when you can"
+  ],
+  [
+   "https://brewnest.example/shop/monsoon-malabar-250g/",
+   "Product",
+   "",
+   4,
+   100,
+   "A",
+   "Eligible (Google does not guarantee it)",
+   "Healthy: monitor"
+  ],
+  [
+   "https://brewnest.example/shop/kalimpong-light-roast/",
+   "Product",
+   "",
+   2,
+   72,
+   "B",
+   "No: does not match the page",
+   "Fix now: markup does not match the page"
+  ],
+  [
+   "https://brewnest.example/shop/coorg-dark-roast/",
+   "Product",
+   "one of offers, review, aggregateRating",
+   0,
+   56,
+   "C",
+   "No: required properties missing",
+   "Fix now: required properties missing"
+  ],
+  [
+   "https://brewnest.example/shop/",
+   "Product",
+   "",
+   2,
+   79,
+   "B",
+   "No: wrong type for this page",
+   "Fix: wrong type for this page"
+  ],
+  [
+   "https://brewnest.example/cafe/koregaon-park/",
+   "LocalBusiness",
+   "",
+   7,
+   100,
+   "A",
+   "Eligible (Google does not guarantee it)",
+   "Healthy: monitor"
+  ],
+  [
+   "https://brewnest.example/events/home-brewing-workshop/",
+   "Event",
+   "location.address",
+   5,
+   60,
+   "C",
+   "No: required properties missing",
+   "Fix now: required properties missing"
+  ],
+  [
+   "https://brewnest.example/videos/aeropress-recipe/",
+   "VideoObject",
+   "uploadDate",
+   3,
+   56,
+   "C",
+   "No: required properties missing",
+   "Fix now: required properties missing"
+  ]
+ ],
+ "formulaCols": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ]
+}

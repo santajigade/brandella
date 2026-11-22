@@ -1,0 +1,351 @@
+seoTitle: "Schema Markup Template: Free JSON-LD Builder and Audit Kit"
+h1: "Schema Markup Kit: JSON-LD Builder, Schema Audit Sheet, Rollout Plan and AI Prompts"
+focusKeyword: schema markup template
+description: "Free schema markup template in Excel: build copy and paste JSON-LD for 9 types, audit every block against Google rules and spot retired rich results like FAQ."
+published: 2026-11-22
+updated: 2026-11-22
+time: 10 minutes per markup block, 2 hours for a first site audit
+level: Beginner to advanced
+kit: true
+tabs: 9
+intro:
+  - "Most schema markup templates are a few JSON-LD snippets to copy. This free <strong>schema markup template</strong> is a working kit instead: an Excel JSON-LD Builder that writes clean, copy and paste markup for 9 types from plain form fields, and a Schema Lab that audits every structured data block on your site against Google's required and recommended properties, its quality rules and 11 weighted checks."
+  - "It is built for 2026. Google has retired several rich results, including FAQ rich results in May 2026, and it says there is no special schema needed for AI Overviews or AI Mode, only markup that matches the visible page. So the kit tells you which types still earn a Google result, which markup is missing required properties, which values no longer match the page, which pages are blocked, where the type is wrong for the page and where review markup is self serving, and it plans the rollout per template."
+kitContents:
+  - t: "Excel workbook, 9 tabs"
+    d: "Schema Lab (500 ready rows with 12 measures, 11 weighted checks, score, grade, fixes, rich result eligibility and priority), JSON-LD Builder for 9 types, Rollout Plan, Dashboard with two charts, Settings with Google's rules for 17 types, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "15 markup blocks on 13 pages and 10 template rows for a fictional coffee roastery, plus filled builder examples, so you see every check, verdict and JSON-LD output working before you add your own site."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to share with your developers, writers or clients."
+  - t: "22 AI prompts"
+    d: "Prompts to write, audit, fix and translate JSON-LD, choose the right type for a page and check markup against the visible content, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole structured data checklist on one page, to tick off before you release markup on any template."
+steps:
+  - t: Check the type rules
+    d: "On Settings, set the analysis date and look at the Type Rules for the types you use. Google's required and recommended properties for 17 types are ready, with retired rich results marked."
+  - t: List your templates
+    d: "On the Rollout Plan, add one row per page template and schema type (blog post plus BlogPosting, product page plus Product). Markup is added per template, so this is your plan."
+  - t: Test one live URL per template
+    d: "Run a sample URL through the <a href=\"https://search.google.com/test/rich-results\" target=\"_blank\" rel=\"noopener\">Rich Results Test</a> and note the result and the properties it finds."
+  - t: Add a Schema Lab row per block
+    d: "Paste the schema type, the format and the property names, comma separated, with a dot for nested ones like <code>author.name</code> or <code>offers.price</code>."
+  - t: Compare with the visible page
+    d: "Check every marked up value against what visitors see: prices, dates, names, hours, ratings. Choose Yes, Partly or No, and add the Search Console report status and whether the page is blocked."
+  - t: Fix by priority
+    d: "Sort by Priority. Fix blocked pages, mismatches and missing required properties first. Build new or corrected markup on the JSON-LD Builder."
+  - t: Release, validate and recheck
+    d: "After release, test again, watch the Search Console enhancement reports, mark the template Validated and recheck values every time the template or prices change."
+sections:
+  - h: Schema markup in the AI search era
+    html: |
+      <p>Schema markup, or structured data, is code that describes a page in a standard vocabulary from schema.org: this is a product with this price, this is an article by this author, this is an event on this date at this place. Google uses it to understand pages and to show some results with extra features, called rich results.</p>
+      <p>Google's <a href="https://developers.google.com/search/docs/appearance/structured-data/sd-policies" target="_blank" rel="noopener">general structured data guidelines</a> set the rules for this kit:</p>
+      <ul>
+        <li><strong>JSON-LD is recommended.</strong> Google supports JSON-LD, Microdata and RDFa, and marks JSON-LD as recommended.</li>
+        <li><strong>Markup must match the page.</strong> Google says structured data must be a true representation of the page content, and not to mark up content that is not visible to readers or that is misleading.</li>
+        <li><strong>Required properties decide eligibility.</strong> Google says items missing required properties are not eligible for rich results, and that the more recommended properties you provide, the higher quality the result is to users.</li>
+        <li><strong>Do not block the page.</strong> Google says not to block structured data pages with robots.txt, noindex or other access controls.</li>
+        <li><strong>Nothing is guaranteed.</strong> Google does not guarantee that structured data will show up in results, even when it is correct. A structured data manual action removes rich result eligibility but, Google says, does not affect how the page ranks.</li>
+      </ul>
+      <p>What changes with AI search:</p>
+      <ul>
+        <li><strong>No special schema for AI.</strong> Google's <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">AI features page</a> says there is no special schema.org structured data you need to add to appear in AI Overviews or AI Mode, and no new machine readable files are needed.</li>
+        <li><strong>Matching the visible text is now a stated best practice.</strong> The same page lists "making sure your structured data matches the visible text on the page" among the practices that still apply. That is why Matches the visible page carries the highest weight in this kit, together with required properties.</li>
+        <li><strong>Fewer rich result types.</strong> Google keeps simplifying results. FAQ rich results stopped appearing on 7 May 2026, How to rich results ended in 2023, and several features were phased out in 2025. Time spent on retired types is time not spent on Product, Article, Event or LocalBusiness markup that still earns a result.</li>
+      </ul>
+  - h: Which schema types still earn a Google result
+    html: |
+      <p>This is the Type Rules table on Settings, built from Google's documentation for each feature (read November 2026). Check the doc for a type before a big rollout, because Google updates them.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Schema type</th><th>What Google can show</th><th>Status</th><th>Required</th></tr></thead>
+        <tbody>
+          <tr><td>Article, BlogPosting, NewsArticle</td><td>A better title, image and date</td><td>Supported</td><td>None; headline, image, dates and author are recommended</td></tr>
+          <tr><td>Product</td><td>Product snippet: price, availability, ratings</td><td>Supported</td><td>name, plus one of offers, review or aggregateRating; offers.price inside an offer</td></tr>
+          <tr><td>Organization</td><td>Name, logo and company facts</td><td>Supported</td><td>None; name, url, logo, sameAs and more are recommended</td></tr>
+          <tr><td>LocalBusiness</td><td>Address, hours and phone</td><td>Supported</td><td>name, address</td></tr>
+          <tr><td>BreadcrumbList</td><td>Breadcrumb trail</td><td>Supported</td><td>itemListElement, with item, name and position per crumb (item optional on the last)</td></tr>
+          <tr><td>VideoObject</td><td>Thumbnail, date and key moments</td><td>Supported</td><td>name, thumbnailUrl, uploadDate</td></tr>
+          <tr><td>Event</td><td>Date, place and tickets</td><td>Supported</td><td>name, startDate, location with address</td></tr>
+          <tr><td>ProfilePage</td><td>The person or organization behind content</td><td>Supported</td><td>mainEntity with a name</td></tr>
+          <tr><td>DiscussionForumPosting</td><td>Forum threads</td><td>Supported</td><td>author, author.name, datePublished, and one of text, image or video</td></tr>
+          <tr><td>Review</td><td>Star rating</td><td>Supported</td><td>author, itemReviewed with name, reviewRating with ratingValue</td></tr>
+          <tr><td>WebSite</td><td>Site name in results</td><td>Supported</td><td>name, url</td></tr>
+          <tr><td>Person</td><td>No result of its own; used inside Article, ProfilePage and others</td><td>Supports other types</td><td>None</td></tr>
+          <tr><td>FAQPage</td><td>FAQ rich result</td><td>Retired 2026</td><td>Not shown in Google Search from 7 May 2026</td></tr>
+          <tr><td>HowTo</td><td>How to rich result</td><td>Retired 2023</td><td>Ended on mobile in August 2023 and on desktop in September 2023</td></tr>
+          <tr><td>ClaimReview</td><td>Fact check rich result</td><td>Retired 2025</td><td>Phased out of Google Search in 2025</td></tr>
+        </tbody>
+      </table></div>
+      <p>Google's <a href="https://developers.google.com/search/docs/appearance/structured-data/search-gallery" target="_blank" rel="noopener">search gallery</a> lists every feature it supports today, including types not in this table such as Recipe, Job posting and Course list. Add any of them to the empty Type Rules rows.</p>
+  - h: What is inside the schema markup workbook
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>Schema Lab</td><td>One row per markup block. Looks up what Google can show and the type's status, checks the page type, counts required and recommended properties and lists the missing ones, flags self serving reviews and stale values. Runs 11 weighted checks and gives a score, grade, fixes, rich result eligibility and a priority.</td><td>URL, page type, schema type, format, property names, matches page, Rich Results Test, Search Console report, blocked, last checked, impressions</td></tr>
+          <tr><td>JSON-LD Builder</td><td>Writes one line, copy and paste JSON-LD for Article or BlogPosting, Product, Organization, LocalBusiness, BreadcrumbList, VideoObject, Event, ProfilePage and WebSite. Leaves empty optional fields out and checks for missing required ones.</td><td>Plain values: names, URLs, dates, prices</td></tr>
+          <tr><td>Rollout Plan</td><td>One row per template and type, with what Google can show, required and recommended properties, days to target and the next step.</td><td>Template, example URL, pages, type, owner, status, target date</td></tr>
+          <tr><td>Dashboard</td><td>15 key numbers, results by schema type, blocks by priority and blocks failing each check, with two charts.</td><td>Nothing</td></tr>
+          <tr><td>Settings</td><td>Analysis date, coverage and freshness rules, grades, the 11 checks with weights, rules and fixes, the Type Rules table for 17 types and lists.</td><td>Optional tuning and new types</td></tr>
+          <tr><td>AI Prompts, Checklist, Sources</td><td>All 22 prompts, the checklist with automatic progress, and where every fact and assumption comes from.</td><td>Yes or No per step</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas. All 500 Schema Lab rows and 100 Rollout Plan rows are ready with formulas and dropdowns.</p>
+  - h: The 11 schema checks and why each one matters
+    html: |
+      <p>Each check scores 1 (pass), 0.5 (partly) or 0 (fix). A check is left blank, and not scored, when it does not apply or you have no data. The weights and thresholds are starter assumptions for this kit and are editable on Settings.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Check</th><th>Weight</th><th>Rule</th><th>Why it matters</th></tr></thead>
+        <tbody>
+          <tr><td>All required properties</td><td>12</td><td>Every required property, each either or group and conditional ones like offers.price with offers.</td><td>Google says items missing required properties are not eligible for rich results.</td></tr>
+          <tr><td>Matches the visible page</td><td>12</td><td>Your check: Yes, Partly or No.</td><td>Markup must be a true representation of the page. The Rich Results Test cannot see a wrong price.</td></tr>
+          <tr><td>Not blocked for Googlebot</td><td>8</td><td>No robots.txt block, noindex or login.</td><td>Google cannot use markup on a page it cannot crawl or index.</td></tr>
+          <tr><td>Passes Rich Results Test</td><td>8</td><td>Valid pass, warnings partly, invalid or not tested fix.</td><td>The quickest way to catch technical errors.</td></tr>
+          <tr><td>Type earns a Google result</td><td>6</td><td>Supported pass, retired partly.</td><td>Retired rich results no longer show, whatever the markup.</td></tr>
+          <tr><td>Enough recommended properties</td><td>6</td><td>70 percent or more pass, 40 percent or more partly.</td><td>Google says more recommended properties give a higher quality result.</td></tr>
+          <tr><td>Type fits the page</td><td>6</td><td>The page type is in the type's Best on list.</td><td>For example, product snippets are for pages about one product, not categories.</td></tr>
+          <tr><td>Search Console status</td><td>5</td><td>Report valid pass, warnings partly, errors fix.</td><td>Shows problems across every page of a template, not just one URL.</td></tr>
+          <tr><td>No self serving reviews</td><td>5</td><td>No review or aggregateRating in Organization or LocalBusiness markup about your own business.</td><td>Google supports these reviews only on sites that capture reviews about other businesses.</td></tr>
+          <tr><td>Values up to date</td><td>4</td><td>Checked within 180 days pass, 365 partly.</td><td>Google asks for up to date information. Prices, hours and dates go stale fast.</td></tr>
+          <tr><td>JSON-LD format</td><td>3</td><td>JSON-LD pass, Microdata or RDFa partly.</td><td>All three work; JSON-LD is Google's recommended format and the easiest to maintain.</td></tr>
+        </tbody>
+      </table></div>
+  - h: How the score and eligibility work (with a worked example)
+    html: |
+      <p>The score is the weighted share of checks a markup block passes: the sum of weight x result for every check with data, divided by the total weight of those checks, times 100. A is 85 or more, B is 70 or more, C is 55 or more, anything lower is D. Rich result eligibility is a separate verdict: a block is Eligible only when the type is supported, nothing required is missing, the page is not blocked, the values match the page, the type fits and the Rich Results Test passes. Even then Google does not guarantee a rich result.</p>
+      <p><strong>Worked example.</strong> In the demo, BrewNest checks the Product markup on its Kalimpong light roast page. The markup has <code>name, image, description, brand, offers, offers.price, offers.priceCurrency</code>. The Rich Results Test says Valid, Search Console shows Warnings, and the values were last checked on 10 March 2026. But the markup still says Rs 499 while the page now says Rs 549.</p>
+      <ul>
+        <li><strong>Required:</strong> 3 of 3 present: name, one of the offers, review or aggregateRating group (offers), and offers.price because offers is used.</li>
+        <li><strong>Recommended:</strong> 2 of 5 present (offers and offers.priceCurrency), so 40 percent. Missing: aggregateRating, review, offers.availability.</li>
+        <li><strong>Passes (43 points):</strong> type earns a result (6), all required properties (12), not blocked (8), Rich Results Test (8), type fits the page (6) and JSON-LD (3).</li>
+        <li><strong>Partly (7.5 points):</strong> recommended properties (half of 6), Search Console warnings (half of 5) and values last checked 257 days ago (half of 4).</li>
+        <li><strong>Fails (0 points):</strong> matches the visible page.</li>
+      </ul>
+      <p>Self serving reviews do not apply to Product, so the total weight is 70. 50.5 of 70 is a score of 72, grade <strong>B</strong>, with 4 fixes. A B looks fine, but the priority is <strong>Fix now: markup does not match the page</strong> and eligibility says <strong>No: does not match the page</strong>. This is the lesson of the example: the Rich Results Test checks syntax, not truth. Only you can see that the price changed.</p>
+      <p>The fix is to output the price from the same field the page uses, add <code>offers.availability</code>, and recheck the values. Build the corrected block on the JSON-LD Builder to see the shape.</p>
+      <p>Other demo rows show the range. The home page Organization markup includes <code>aggregateRating</code> and <code>review</code> from a review widget, so it shows <strong>Fix now: self serving review markup</strong>. The Coorg dark roast is missing its price block, so the list says <strong>one of offers, review, aggregateRating</strong>. The shop category page carries Product markup and shows <strong>Fix: wrong type for this page</strong>. The workshop Event is missing <code>location.address</code> and the AeroPress video is missing <code>uploadDate</code>. The FAQ and How to blocks show <strong>Low priority: rich result retired</strong>. The author profile is perfect markup on a page set to noindex by mistake, so it shows <strong>Fix now: blocked for Googlebot</strong>. The pour over guide scores 96 but covers only 57 percent of recommended Article properties, so it shows <strong>Improve: add recommended properties</strong> (dateModified, author.name and author.url).</p>
+  - h: Priority rules
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Priority</th><th>Rule</th><th>What to do</th></tr></thead>
+        <tbody>
+          <tr><td>Fix now: blocked for Googlebot</td><td>robots.txt, noindex or a login blocks the page.</td><td>Unblock it, unless the page should really stay out of Google.</td></tr>
+          <tr><td>Fix now: markup does not match the page</td><td>Matches = No.</td><td>Generate markup from the same data the page shows.</td></tr>
+          <tr><td>Fix now: required properties missing</td><td>Any required property missing on a supported type.</td><td>Add it in the template.</td></tr>
+          <tr><td>Fix now: invalid markup</td><td>Rich Results Test says Invalid.</td><td>Fix the syntax errors the test lists.</td></tr>
+          <tr><td>Fix now: self serving review markup</td><td>Reviews in Organization or LocalBusiness markup about your own business.</td><td>Remove review and aggregateRating from that markup.</td></tr>
+          <tr><td>Fix: wrong type for this page</td><td>Page type not in the type's Best on list.</td><td>Use a type that describes the main content, or remove the markup.</td></tr>
+          <tr><td>Low priority: rich result retired</td><td>FAQPage, HowTo or ClaimReview.</td><td>Accurate markup can stay; do not invest more time.</td></tr>
+          <tr><td>Improve: add recommended properties</td><td>Recommended coverage below 70 percent.</td><td>Add the recommended properties you can fill with true facts.</td></tr>
+          <tr><td>Healthy: monitor</td><td>Score 85 or more.</td><td>Recheck after template or price changes.</td></tr>
+          <tr><td>Improve when you can</td><td>Everything else.</td><td>Work through the fixes in order.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Using the JSON-LD Builder
+    html: |
+      <p>Each of the 9 blocks has plain fields (name, URL, date, price), a note saying whether Google requires or recommends the property, a grey output cell and a check. Empty optional fields are left out by themselves, so the output stays valid.</p>
+      <ol>
+        <li>Fill the yellow fields with facts that appear on the page. Use ISO 8601 dates with a time zone, such as <code>2026-12-13T10:00:00+05:30</code>.</li>
+        <li>Wait for the check to say <strong>Ready to paste</strong>. If it says Missing, add what it lists.</li>
+        <li>Copy the grey output cell. It is one line, so it pastes cleanly into a page, a CMS field or a tag manager.</li>
+        <li>Paste it into the page head or body, publish, and test the live URL in the Rich Results Test.</li>
+      </ol>
+      <p>For example, the demo Product block outputs <code>"offers": {"@type": "Offer", "price": 549, "priceCurrency": "INR", "availability": "https://schema.org/InStock"}</code> and a rating with 38 reviews. The BreadcrumbList block leaves <code>item</code> off the last crumb, as Google allows. Every demo output is checked as valid JSON when the kit is built.</p>
+      <p>For templates with hundreds of pages, use the builder output as the pattern and have your CMS fill the values from page data. Our guide on <a href="/how-to-add-schema-markup-json-ld/">how to add schema markup to any website</a> shows where to place it on common platforms.</p>
+  - h: Column by column guide to the Schema Lab
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>URL, Page type</td><td>The page and one of 16 page types.</td><td>A page with two blocks (Article and BreadcrumbList) gets two rows.</td></tr>
+          <tr><td>Schema type, Format</td><td>A type from Type Rules, and JSON-LD, Microdata or RDFa.</td><td>Spelling must match the Type Rules row. A LocalBusiness subtype can use the LocalBusiness row.</td></tr>
+          <tr><td>Properties in the markup</td><td>Property names, comma separated. Nested names with a dot: <code>author.name</code>, <code>offers.price</code>, <code>location.address</code>.</td><td>A nested name also counts its parent, so <code>author.name</code> covers <code>author</code>.</td></tr>
+          <tr><td>Matches the visible page?</td><td>Yes, Partly or No, after comparing every value with the page.</td><td>The most important judgement in the sheet. Be strict.</td></tr>
+          <tr><td>Rich Results Test, Search Console report</td><td>The result of each.</td><td>Use Not supported by the test for types the test does not cover.</td></tr>
+          <tr><td>Blocked for Googlebot?, Values last checked</td><td>Yes or No, and a date.</td><td>Check robots.txt, the robots meta tag and logins.</td></tr>
+          <tr><td>Impressions</td><td>Search Console, last 28 days.</td><td>Fix markup on pages people actually see first.</td></tr>
+          <tr><td>Measures, checks, Score, Grade, Fixes, Eligibility, Priority</td><td>Automatic.</td><td>Row 3 above the checks shows each weight from Settings.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: inventory.</strong> List every template on the Rollout Plan and test one URL each. Fill the Schema Lab for your top 20 pages by impressions.</li>
+        <li><strong>Week 2: fix the blockers.</strong> Unblock pages, fix mismatched values and add missing required properties in the templates.</li>
+        <li><strong>Week 3: clean up.</strong> Remove self serving review markup and wrong types, and stop new work on retired types like FAQ and How to.</li>
+        <li><strong>Week 4: add value.</strong> Add recommended properties and roll out supported types you are missing, such as Product offers, Event or BreadcrumbList, using the builder.</li>
+      </ul>
+      <p>Then watch the Search Console reports and mark templates Validated. Structured data helps Google understand who you are; the <a href="/resources/seo-aeo-assets/entity-research/">entity research template kit</a> helps you decide which entities and facts each page should make clear.</p>
+  - h: The chained prompt workflow (from page to validated markup)
+    html: |
+      <p>Prompts 18 to 22 below are built to run in order in one AI chat:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your site and the rules: only visible facts, JSON-LD, Google's required properties.</li>
+        <li><strong>Paste the page text</strong> and the facts it shows.</li>
+        <li><strong>Get the JSON-LD</strong> for the right type with every required and useful recommended property.</li>
+        <li><strong>Pressure test it</strong> line by line against the page and Google's rules.</li>
+        <li><strong>Get a row for Excel</strong>, ready to paste into the Schema Lab.</li>
+      </ol>
+      <p>AI assistants often invent ratings, prices or dates to fill a schema. Give them only the facts on your page, and always run the result through the Rich Results Test.</p>
+  - h: Schema markup mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Markup that does not match the page.</strong> Old prices, old dates and hidden content break Google's rules and its AI best practice.</li>
+        <li><strong>Missing required properties.</strong> No rich result is possible without them.</li>
+        <li><strong>Reviews about yourself.</strong> Star ratings from your own widget in Organization or LocalBusiness markup will not show.</li>
+        <li><strong>Product markup on category pages.</strong> Product snippets are for pages about one product.</li>
+        <li><strong>Investing in retired types.</strong> FAQ and How to rich results are gone; spend the time on supported types.</li>
+        <li><strong>Blocking the page.</strong> noindex or robots.txt makes the best markup useless.</li>
+        <li><strong>Trusting the Rich Results Test alone.</strong> It checks syntax and required fields, not whether the values are true.</li>
+        <li><strong>Expecting schema to rank the page.</strong> Structured data helps Google understand and present a page; it does not replace helpful content. Our guide <a href="/what-is-schema-markup/">what is schema markup</a> explains what it can and cannot do.</li>
+      </ul>
+prompts:
+  - t: Choose the right schema type
+    p: |
+      Here is a summary of my page: [URL, page type, main content]. Which schema.org type best describes the main content, and does
+      Google show a rich result for it today? List any secondary types worth adding, like BreadcrumbList. Only suggest types that
+      describe content visible on the page.
+  - t: JSON-LD from page text
+    p: |
+      Here is the visible text of my [page type] page: [paste]. Write JSON-LD for the [type] type using only facts that appear in this text.
+      Include Google's required properties and the recommended ones the text supports. Do not invent prices, ratings, dates or names.
+  - t: Audit existing markup
+    p: |
+      Here is the JSON-LD on my page: [paste]. And here is the visible page text: [paste]. List every value in the markup that is not on the
+      page or differs from it, every required property Google needs for this type that is missing, and any property that looks invented.
+  - t: Fix Rich Results Test errors
+    p: |
+      The Rich Results Test shows these errors and warnings for my page: [paste]. Here is my markup: [paste]. Explain each issue in plain
+      words and give me the corrected JSON-LD.
+  - t: Product markup from a catalogue row
+    p: |
+      Here is one row of my product data with these columns: [paste]. Write Product JSON-LD with name, image, description, brand, sku and
+      an Offer with price, priceCurrency and availability. Then turn it into a template with placeholders I can fill from each row.
+  - t: Article markup with author
+    p: |
+      Write BlogPosting JSON-LD for my article "[title]" by [author] ([author profile URL]), published [date], updated [date], with this
+      main image: [URL]. Use ISO 8601 dates with my time zone ([zone]). Add only properties I gave you.
+  - t: LocalBusiness markup
+    p: |
+      Write JSON-LD for my [business type] using the most specific schema.org subtype. Name: [name]. Address: [address]. Phone: [phone].
+      Hours: [hours]. Website: [URL]. Coordinates: [lat, long]. Use openingHoursSpecification for the hours. No reviews or ratings.
+  - t: Event markup
+    p: |
+      Write Event JSON-LD for "[event]" on [date and time] at [venue and full address], tickets [price and currency] at [URL],
+      organised by [organiser]. Add eventStatus and eventAttendanceMode. Flag anything Google requires that I did not give you.
+  - t: Breadcrumb markup
+    p: |
+      My page [URL] sits under this trail: [Home > Section > Page, with URLs]. Write BreadcrumbList JSON-LD that matches the breadcrumb
+      shown on the page. Leave item off the last crumb if it is the current page.
+  - t: Video markup
+    p: |
+      Write VideoObject JSON-LD for my video "[title]": description [text], thumbnail [URL], upload date [date], duration [minutes and seconds],
+      file URL [URL], embed URL [URL]. Convert the duration to ISO 8601.
+  - t: Organization and site name
+    p: |
+      Write Organization JSON-LD for my home page and a separate WebSite block for the site name. Name: [name]. Other name: [short name].
+      URL: [URL]. Logo: [URL]. Official profiles: [URLs]. Contact: [email, phone]. Address: [address]. No reviews or ratings.
+  - t: Author profile page
+    p: |
+      Write ProfilePage JSON-LD for the author page of [name] at [URL]: [short bio], photo [URL], profiles [URLs], page created [date],
+      updated [date]. The person should be the mainEntity.
+  - t: Is this review markup allowed
+    p: |
+      I want to add review stars with this markup: [paste]. The reviews are about [my own business or another product or business] and
+      they come from [source]. Based on Google's review snippet guidelines, is this eligible? If not, what should I do instead?
+  - t: Retired rich results check
+    p: |
+      My site uses these schema types: [list]. Which of them no longer produce a rich result in Google Search, and which still do?
+      For the retired ones, should I keep, change or remove the markup? Base your answer on Google's current documentation and say what to verify.
+  - t: Microdata to JSON-LD
+    p: |
+      Here is the Microdata on my page: [paste HTML]. Convert it to an equivalent JSON-LD block with the same values, and list the HTML
+      attributes I can remove once the JSON-LD is live.
+  - t: Template wide markup plan
+    p: |
+      My site has these templates: [list with page counts]. Suggest the schema types for each template, the data fields each needs from my
+      CMS, and the order to roll them out based on which still earn a Google result.
+  - t: Explain my schema audit
+    p: |
+      Here are the key numbers and top issues from my schema audit: [paste Dashboard numbers and Schema Lab priorities]. Explain in plain
+      words what to fix first, what can wait and what I can ignore.
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my structured data editor. My site: [site], about [topic]. Rules: JSON-LD only, the most specific schema.org type, every
+      Google required property, recommended properties only when the page shows the fact, never invent values, no reviews about my own
+      business. Confirm, then wait for my page.
+  - t: "Workflow 2 of 5: the page"
+    p: |
+      Here is the page: URL [URL], page type [type], visible text [paste], and these facts that appear on it: [prices, dates, names, address,
+      hours]. Tell me which schema types fit this page and which Google rich results they can earn.
+  - t: "Workflow 3 of 5: the JSON-LD"
+    p: |
+      Write the JSON-LD for the main type you chose, plus BreadcrumbList if the page shows a breadcrumb. Use only the facts I gave you.
+      After the code, list each Google required property and where its value comes from on the page.
+  - t: "Workflow 4 of 5: pressure test"
+    p: |
+      Check your JSON-LD line by line: is every value visible on the page, are all required properties present, is the type right for the page,
+      are dates in ISO 8601 with a time zone, and is anything invented or self serving? Return the corrected code.
+  - t: "Workflow 5 of 5: row for Excel"
+    p: |
+      Turn the final markup into a row with tabs between columns for my Schema Lab: URL, Page type, Schema type, Format (JSON-LD),
+      Properties in the markup (comma separated property names, nested ones with a dot), Matches the visible page (Yes),
+      Rich Results Test (Not tested), Search Console report (blank), Blocked for Googlebot (No), Values last checked ([today]), Notes.
+checklist:
+  - Each template has a planned schema type that describes its main content
+  - The type still earns a Google result; no new work on retired FAQ or How to rich results
+  - All Google required properties are present for each type
+  - Recommended properties are added where the page shows the fact
+  - Every marked up value is visible on the page and matches it exactly
+  - Nothing in the markup is hidden, invented or misleading
+  - No review or rating markup about your own business
+  - Product markup only on pages about one product
+  - Markup is in JSON-LD and generated from the same data the page shows
+  - Dates use ISO 8601 with a time zone
+  - Marked up pages are not blocked by robots.txt, noindex or a login
+  - A sample URL per template passes the Rich Results Test before release
+  - Search Console enhancement reports are checked after release
+  - Values are rechecked after every template, price or schedule change
+faq:
+  - q: Is this schema markup template free?
+    a: "Yes. The Excel workbook, JSON-LD Builder, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: Which format should I use for structured data?
+    a: "Google supports JSON-LD, Microdata and RDFa and recommends JSON-LD. The kit's builder writes JSON-LD and the Schema Lab scores Microdata and RDFa as partly, because they work but are harder to maintain."
+  - q: Does schema markup help with AI Overviews and AI Mode?
+    a: "Google says there is no special schema.org structured data needed to appear in its AI features, and lists making sure structured data matches the visible text as a best practice. So accurate markup on a good page helps; extra markup just for AI does not."
+  - q: Should I remove FAQ schema now that FAQ rich results are gone?
+    a: "Google stopped showing FAQ rich results on 7 May 2026. Accurate FAQ markup can stay, but it will not produce a rich result, so the kit marks it as low priority. Spend new effort on supported types such as Product, Article, Event or LocalBusiness."
+  - q: Why does the Rich Results Test pass but I get no rich result?
+    a: "The test checks syntax and required properties. Google also needs the values to match the page, the page to be indexable and the content to meet its guidelines, and even then it does not guarantee a rich result. The kit checks those other conditions too."
+  - q: Can I add star ratings for my own business?
+    a: "Not in Organization or LocalBusiness markup about your own business. Google supports review markup for these types only on sites that capture reviews about other businesses. The kit flags this as self serving review markup."
+related: [entity-research, internal-linking, on-page-seo]
+reads:
+  - t: "What is schema markup? A complete guide for SEO and AI search"
+    url: /what-is-schema-markup/
+  - t: "How to add schema markup to any website (JSON-LD examples)"
+    url: /how-to-add-schema-markup-json-ld/
+  - t: "LocalBusiness schema markup: 7 essential properties to add"
+    url: /localbusiness-schema-markup/
+tools:
+  - t: Article Schema Generator
+    url: /tools/schema-generators/article-schema-generator/
+  - t: Product Schema Generator
+    url: /tools/schema-generators/product-schema-generator/
+  - t: Local Business Schema Generator
+    url: /tools/schema-generators/local-business-schema-generator/
+sources:
+  - t: "Google Search Central: General structured data guidelines"
+    url: https://developers.google.com/search/docs/appearance/structured-data/sd-policies
+  - t: "Google Search Central: Structured data markup that Google Search supports"
+    url: https://developers.google.com/search/docs/appearance/structured-data/search-gallery
+  - t: "Google Search Central: AI features and your website"
+    url: https://developers.google.com/search/docs/appearance/ai-features
+  - t: "Google Search Central: Product snippet structured data"
+    url: https://developers.google.com/search/docs/appearance/structured-data/product-snippet
+  - t: "Google Search Central: Latest documentation updates (FAQ rich result retirement)"
+    url: https://developers.google.com/search/updates
+  - t: "Google Search Central Blog: Changes to HowTo and FAQ rich results"
+    url: https://developers.google.com/search/blog/2023/08/howto-faq-changes
