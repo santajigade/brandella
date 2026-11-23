@@ -1,0 +1,142 @@
+{
+ "sheet": "URL Checker",
+ "columns": [
+  "URL",
+  "Should be indexed?",
+  "Status code",
+  "Indexability",
+  "Score (0 to 100)",
+  "Grade",
+  "Fixes needed",
+  "Verdict"
+ ],
+ "rows": [
+  [
+   "https://brightledger.example/",
+   "Yes",
+   200,
+   "Indexable",
+   100,
+   "A",
+   0,
+   "Healthy"
+  ],
+  [
+   "https://brightledger.example/pricing/",
+   "Yes",
+   200,
+   "Indexable",
+   100,
+   "A",
+   0,
+   "Healthy"
+  ],
+  [
+   "https://brightledger.example/features/invoicing/",
+   "Yes",
+   200,
+   "Indexable",
+   97,
+   "A",
+   1,
+   "Healthy"
+  ],
+  [
+   "https://brightledger.example/features/payroll/",
+   "Yes",
+   200,
+   "Indexable",
+   98,
+   "A",
+   1,
+   "Healthy"
+  ],
+  [
+   "https://brightledger.example/features/expenses/",
+   "Yes",
+   200,
+   "Indexable",
+   91,
+   "A",
+   1,
+   "Investigate: Google has not indexed it"
+  ],
+  [
+   "https://brightledger.example/features/reports/",
+   "Yes",
+   503,
+   "Server error",
+   69,
+   "C",
+   3,
+   "Fix now: not returning 200"
+  ],
+  [
+   "https://brightledger.example/integrations/tally/",
+   "Yes",
+   200,
+   "Blocked by robots.txt",
+   67,
+   "C",
+   3,
+   "Fix now: blocked by robots.txt"
+  ],
+  [
+   "https://brightledger.example/blog/",
+   "Yes",
+   200,
+   "Indexable",
+   100,
+   "A",
+   0,
+   "Healthy"
+  ],
+  [
+   "https://brightledger.example/blog/gst-invoice-format/",
+   "Yes",
+   200,
+   "Indexable",
+   100,
+   "A",
+   0,
+   "Healthy"
+  ],
+  [
+   "https://brightledger.example/blog/how-to-file-gst-returns/",
+   "Yes",
+   200,
+   "Indexable",
+   95,
+   "A",
+   1,
+   "Healthy"
+  ],
+  [
+   "https://brightledger.example/blog/tds-rates-2026/",
+   "Yes",
+   200,
+   "Noindex",
+   70,
+   "B",
+   3,
+   "Fix now: noindex on a page you want"
+  ],
+  [
+   "https://brightledger.example/blog/payroll-compliance-checklist/",
+   "Yes",
+   200,
+   "Indexable",
+   69,
+   "C",
+   4,
+   "Link it: orphan page"
+  ]
+ ],
+ "formulaCols": [
+  3,
+  4,
+  5,
+  6,
+  7
+ ]
+}

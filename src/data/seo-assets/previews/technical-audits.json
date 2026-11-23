@@ -1,0 +1,142 @@
+{
+ "sheet": "Issue Log",
+ "columns": [
+  "Issue ID",
+  "Check ID",
+  "Area",
+  "URLs affected",
+  "Severity",
+  "Priority score (0 to 100)",
+  "Priority",
+  "Deadline status"
+ ],
+ "rows": [
+  [
+   "ISS-001",
+   "TA06",
+   "Crawling and robots.txt",
+   310,
+   "Critical",
+   100,
+   "P1: fix now",
+   "Due soon"
+  ],
+  [
+   "ISS-002",
+   "TA08",
+   "Indexing and directives",
+   46,
+   "Critical",
+   30,
+   "P1: fix now",
+   "Due soon"
+  ],
+  [
+   "ISS-003",
+   "TA44",
+   "Page experience and speed",
+   1450,
+   "High",
+   20,
+   "P2: this sprint",
+   "Overdue by 6 days"
+  ],
+  [
+   "ISS-004",
+   "TA17",
+   "Status codes and redirects",
+   620,
+   "Medium",
+   13,
+   "P3: plan it",
+   "On track"
+  ],
+  [
+   "ISS-005",
+   "TA22",
+   "Canonicals and duplicates",
+   212,
+   "High",
+   21,
+   "P2: this sprint",
+   "Due soon"
+  ],
+  [
+   "ISS-006",
+   "TA27",
+   "Site structure and links",
+   38,
+   "High",
+   42,
+   "P1: fix now",
+   "Due soon"
+  ],
+  [
+   "ISS-007",
+   "TA12",
+   "Indexing and directives",
+   380,
+   "Medium",
+   8,
+   "P3: plan it",
+   "On track"
+  ],
+  [
+   "ISS-008",
+   "TA38",
+   "JavaScript and rendering",
+   24,
+   "Medium",
+   7,
+   "P3: plan it",
+   "On track"
+  ],
+  [
+   "ISS-009",
+   "TA33",
+   "XML sitemaps",
+   95,
+   "Medium",
+   12,
+   "P3: plan it",
+   "On track"
+  ],
+  [
+   "ISS-010",
+   "TA50",
+   "HTTPS and security",
+   140,
+   "Medium",
+   21,
+   "Closed",
+   "Closed on time"
+  ],
+  [
+   "ISS-011",
+   "TA58",
+   "AI search readiness",
+   64,
+   "High",
+   51,
+   "Validating",
+   "Validating"
+  ],
+  [
+   "ISS-012",
+   "TA59",
+   "AI search readiness",
+   4200,
+   "Medium",
+   21,
+   "Closed",
+   "Closed late"
+  ]
+ ],
+ "formulaCols": [
+  2,
+  4,
+  5,
+  6,
+  7
+ ]
+}

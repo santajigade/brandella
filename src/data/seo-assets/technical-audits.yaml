@@ -1,0 +1,345 @@
+seoTitle: "Technical SEO Audit Template: Free Excel Audit Kit"
+h1: "Technical SEO Audit Kit: 61 Check Audit Sheet, Issue Log, Fix Plan and AI Prompts"
+focusKeyword: technical seo audit template
+description: "Free technical SEO audit template in Excel: 61 checks in 13 areas, severity scoring, a priority score for every issue, deadlines and ready to paste dev tickets."
+published: 2026-11-23
+updated: 2026-11-23
+time: Half a day for a first audit of a small site, then 1 hour a month
+level: Intermediate to advanced
+kit: true
+tabs: 9
+intro:
+  - "Most technical SEO audit templates are a long list of checks with a Pass or Fail column. This free <strong>technical SEO audit template</strong> is a working kit instead: an Excel workbook with 61 checks in 13 areas, each with how to test it, a pass rule and a default severity, so you get a health score for every area of your site. Every problem you find goes on an Issue Log that scores it by severity, reach, traffic and effort, sets a deadline and turns it into a developer ticket."
+  - "It is built for the AI search era. Google says there are no extra technical requirements for AI Overviews and AI Mode: a page must be indexed and eligible to show a snippet. That makes the basics more important, not less, and it adds a few new checks: bot protection that blocks crawlers by accident, snippet controls that hide your text from AI features, AI bot rules in robots.txt that nobody decided on, and content that only appears with JavaScript, which many AI crawlers do not run."
+kitContents:
+  - t: "Excel workbook, 9 tabs"
+    d: "Audit Checks (61 checks in 13 areas with how to test, pass rule, default severity and an automatic status), Issue Log (500 ready rows with priority score, P1 to P4, deadline and deadline status), Fix Plan with ticket text and a weekly capacity check, Dashboard with two charts, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "A full audit of a fictional outdoor gear store: results for all 61 checks, 15 issues and 10 planned tickets, so you see the health score, every priority and every deadline working before you add your own site."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to share with your developers, hosting team or clients."
+  - t: "22 AI prompts"
+    d: "Prompts to read crawl exports, explain Search Console reports, size an issue, write developer tickets and plan a fix sprint, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The core technical SEO audit checklist on one page, to tick off after every release or once a month."
+steps:
+  - t: Set the rules
+    d: "On Settings, set the audit date, your owners and your weekly fix capacity in effort points. Check the severity weights and fix deadlines; they are starter assumptions."
+  - t: Collect the data
+    d: "Crawl your site with any crawler, then open Search Console: Page indexing, Crawl Stats, Core Web Vitals, Sitemaps, HTTPS and Security issues. Add your server or CDN logs if you have them."
+  - t: Work through the checks
+    d: "On Audit Checks, test each of the 61 checks with the method shown and choose Pass, Warning, Fail, Not checked or Not applicable. Write the evidence next to it."
+  - t: Log every problem
+    d: "For every Fail or Warning, add a row on the Issue Log: the check ID, the section or template, URLs affected out of the URLs in that section, impressions on those URLs, effort and owner."
+  - t: Read the priority
+    d: "Sort the Issue Log by Priority score. P1 means fix now, P2 this sprint, P3 plan it and P4 backlog. Critical issues are always P1."
+  - t: Plan and ticket the fixes
+    d: "Put P1 and P2 issues on the Fix Plan with a week, acceptance criteria and a validation method. Copy the ticket text into your tracker and keep each week inside your capacity."
+  - t: Validate and repeat
+    d: "When a fix ships, mark the issue Validating, test it, then mark it Fixed. Audit again every month or after each release and compare the health score on the Dashboard."
+sections:
+  - h: What a technical SEO audit checks in the AI search era
+    html: |
+      <p>A technical SEO audit answers one question: can search engines and AI systems crawl, render and index the pages you care about, and do those pages work well for people? Google's <a href="https://developers.google.com/search/docs/essentials/technical" target="_blank" rel="noopener">technical requirements</a> set the floor. There are three: Googlebot is not blocked, the page works (Google receives an HTTP 200 status) and the page has indexable content. Google adds that meeting them does not guarantee indexing.</p>
+      <p>What changes with AI search:</p>
+      <ul>
+        <li><strong>No shortcut for AI features.</strong> Google's <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">AI features page</a> says there are no additional technical requirements for AI Overviews or AI Mode. A page must be indexed and eligible to be shown with a snippet. So every indexing problem is now also an AI visibility problem.</li>
+        <li><strong>Crawling must be allowed by your whole stack.</strong> Google's list of best practices includes making sure crawling is allowed in robots.txt and by any CDN or hosting infrastructure. Bot protection rules that challenge crawlers are a common modern cause of crawl drops.</li>
+        <li><strong>Snippet controls reach AI features.</strong> Google says <code>nosnippet</code>, <code>data-nosnippet</code>, <code>max-snippet</code> and <code>noindex</code> limit what it shows from your pages in Search, AI features included. A forgotten <code>max-snippet:0</code> can quietly keep a page out of AI answers.</li>
+        <li><strong>Content in text, in the HTML.</strong> Google says it can process JavaScript as long as it is not blocked. Other AI crawlers are different: a <a href="https://vercel.com/blog/the-rise-of-the-ai-crawler" target="_blank" rel="noopener">Vercel and MERJ study</a> from December 2024 found that none of the major AI crawlers it measured rendered JavaScript. Key text in the initial HTML is the safe choice.</li>
+        <li><strong>No special AI files needed for Google.</strong> Google says you do not need new machine readable files or AI text files to appear in its AI features, and that Google Search ignores llms.txt. The kit treats llms.txt as optional and checks the basics instead.</li>
+      </ul>
+  - h: What is inside the technical SEO audit workbook
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>Audit Checks</td><td>61 checks in 13 areas, each with how to test it, the pass rule and a default severity. Scores Pass 1, Warning 0.5 and Fail 0, weighted by severity, and flags every Fail or Warning that has no issue logged yet.</td><td>Result and evidence per check</td></tr>
+          <tr><td>Issue Log</td><td>One row per issue, 500 rows ready. Works out severity, share of the section affected, reach and traffic factors, effort points, a priority score from 0 to 100, P1 to P4, the fix deadline, days open and whether the issue is on track, due soon, overdue or closed on time.</td><td>Check ID, issue, example URL, section, URLs affected, URLs in the section, impressions, effort, owner, status, dates</td></tr>
+          <tr><td>Fix Plan</td><td>Writes a ready to paste developer ticket for each issue and the next step (write criteria, schedule, choose validation, ready, passed, failed). A weekly table checks planned effort against your capacity.</td><td>Issue ID, week, acceptance criteria, validation method and result</td></tr>
+          <tr><td>Dashboard</td><td>Health score and grade, 18 key numbers, the top 10 open issues, health by area and issues by severity, with two charts.</td><td>Nothing</td></tr>
+          <tr><td>Settings</td><td>Audit date, P1 to P3 thresholds, the Critical rule, severity weights and deadlines, effort points, reach and traffic bands, capacity, owners and lists.</td><td>Optional tuning</td></tr>
+          <tr><td>AI Prompts, Checklist, Sources</td><td>All 22 prompts, the checklist with automatic progress, and where every fact and assumption comes from.</td><td>Yes or No per step</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas. The Issue IDs in column A stay fixed when you sort, so the Fix Plan never points at the wrong issue.</p>
+  - h: The 61 checks in 13 areas
+    html: |
+      <p>Every check has a default severity you can change. The severity sets the weight in the health score (Critical 10, High 6, Medium 3, Low 1) and the default deadline of any issue you log against it.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Area</th><th>Checks</th><th>Examples</th></tr></thead>
+        <tbody>
+          <tr><td>Crawling and robots.txt</td><td>7</td><td>robots.txt never returns 5xx; nothing important blocked; CSS and JavaScript not blocked; a Googlebot group repeats the rules it needs; CDN and bot protection let Googlebot through.</td></tr>
+          <tr><td>Indexing and directives</td><td>6</td><td>No noindex on pages you want; noindex pages not blocked; important pages indexed; Crawled and Discovered currently not indexed reviewed; no soft 404s; staging and search pages out of the index.</td></tr>
+          <tr><td>Status codes and redirects</td><td>7</td><td>Important pages return 200; removed pages return 404 or 410; 301 or 308 for permanent moves; internal links point to the final URL; no loops; real 404 status on the error page.</td></tr>
+          <tr><td>Canonicals and duplicates</td><td>6</td><td>Self referencing canonicals; canonicals to live, indexable URLs; canonical, sitemap and links agree; one site version; parameter URLs handled; Google selected canonical matches yours.</td></tr>
+          <tr><td>Site structure and links</td><td>5</td><td>No orphan pages; important pages within 3 clicks; real <code>&lt;a href&gt;</code> links; hubs link to their section; crawlable pagination.</td></tr>
+          <tr><td>XML sitemaps</td><td>5</td><td>Submitted and read; only 200, indexable, canonical URLs; 50,000 URLs and 50 MB per file; accurate lastmod; listed in robots.txt.</td></tr>
+          <tr><td>JavaScript and rendering</td><td>4</td><td>Content and links in the rendered HTML; key content in the initial HTML; real status codes in app routes; no content behind clicks.</td></tr>
+          <tr><td>Mobile</td><td>3</td><td>Same content, headings, structured data and meta on mobile; viewport and readable text; no pop ups hiding content.</td></tr>
+          <tr><td>Page experience and speed</td><td>5</td><td>LCP, INP and CLS good at the 75th percentile; images optimised; fast server response.</td></tr>
+          <tr><td>HTTPS and security</td><td>4</td><td>HTTPS everywhere; no mixed content; http redirects with 301; no security issues or manual actions.</td></tr>
+          <tr><td>Structured data</td><td>3</td><td>Passes the Rich Results Test; matches the visible text; Organization markup on the home page.</td></tr>
+          <tr><td>International</td><td>2</td><td>hreflang return links and valid codes; each language canonicalises to itself.</td></tr>
+          <tr><td>AI search readiness</td><td>4</td><td>Snippets allowed; AI bot policy matches robots.txt; key content as text; logs show allowed bots get 200.</td></tr>
+        </tbody>
+      </table></div>
+      <p>For a deep, URL by URL check of robots.txt, sitemaps, canonicals and indexing, use the <a href="/resources/seo-aeo-assets/crawlability-checks/">crawlability checklist kit</a> next to this audit.</p>
+  - h: Google rules and thresholds behind the checks
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Topic</th><th>What Google or web.dev says</th><th>Used in</th></tr></thead>
+        <tbody>
+          <tr><td>robots.txt size</td><td>Google enforces a 500 KiB limit and ignores content after it.</td><td>TA04</td></tr>
+          <tr><td>robots.txt errors</td><td>A 4xx (except 429) is treated as no restrictions. With a 5xx, Google stops crawling the site for the first 12 hours, then uses the last good copy for up to 30 days.</td><td>TA01</td></tr>
+          <tr><td>robots.txt groups</td><td>Only one group is valid for a crawler: the most specific matching user agent. User agent groups and the * group are not combined.</td><td>TA05</td></tr>
+          <tr><td>Supported fields</td><td>user-agent, allow, disallow and sitemap. Other fields such as crawl-delay are not supported.</td><td>TA04</td></tr>
+          <tr><td>Redirects</td><td>Google's crawlers follow up to 10 redirect hops. 301 and 308 are a strong signal for the target, 302 and 307 a weak one.</td><td>TA16, TA17</td></tr>
+          <tr><td>4xx and 5xx</td><td>Google does not index URLs that return 4xx and removes indexed ones. 5xx and 429 slow crawling, and URLs that keep returning a server error are dropped.</td><td>TA07, TA14, TA15</td></tr>
+          <tr><td>Soft 404</td><td>A 200 page whose content suggests an error, an empty page or an error message shows as a soft 404.</td><td>TA12, TA20</td></tr>
+          <tr><td>Canonicals</td><td>Redirects and rel canonical are strong signals, sitemap inclusion a weak one. Do not use robots.txt or noindex for canonicalisation.</td><td>TA21 to TA26</td></tr>
+          <tr><td>Sitemaps</td><td>50 MB uncompressed or 50,000 URLs per file, absolute URLs, lastmod used only if consistently and verifiably accurate.</td><td>TA33 to TA36</td></tr>
+          <tr><td>Core Web Vitals</td><td>Good at the 75th percentile: LCP 2.5 s or less, INP 200 ms or less, CLS 0.1 or less. Poor: over 4 s, 500 ms and 0.25.</td><td>TA44 to TA46</td></tr>
+          <tr><td>Mobile first indexing</td><td>Google uses the mobile version of a site, crawled with the smartphone agent, for indexing and ranking, and does not load content that needs a click, swipe or typing.</td><td>TA40, TA41</td></tr>
+        </tbody>
+      </table></div>
+      <p>Sources: <a href="https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec" target="_blank" rel="noopener">robots.txt specification</a>, <a href="https://developers.google.com/crawling/docs/troubleshooting/http-status-codes" target="_blank" rel="noopener">HTTP status codes</a>, <a href="https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls" target="_blank" rel="noopener">canonical methods</a>, <a href="https://web.dev/articles/defining-core-web-vitals-thresholds" target="_blank" rel="noopener">Core Web Vitals thresholds</a> and <a href="https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing" target="_blank" rel="noopener">mobile first indexing</a>.</p>
+  - h: How the health score works
+    html: |
+      <p>Each check you test scores Pass 1, Warning 0.5 or Fail 0, times its severity weight. The health score is the points earned divided by the points possible, times 100, for every check with a result. Not checked and Not applicable are left out, so an unfinished audit is not punished, but the Dashboard counts what is still to do. Grade A is 90 or more, B 75 or more, C 60 or more, anything lower is D (all editable).</p>
+      <p>In the demo, TrailNest (a fictional outdoor gear store) has 57 of 61 checks done: 6 fails and 8 warnings. It earns 194 of 248 possible points, a health score of <strong>78</strong>, grade <strong>B</strong>. The weakest area is Canonicals and duplicates at 50: two High checks fail (canonicals pointing to 404 pages, and an http www version that returns 200 instead of redirecting). Indexing scores 63 and Site structure 62. Mobile and HTTPS score 100.</p>
+      <p>The Status column catches gaps. The http www check failed but nobody logged an issue for it yet, so it says <strong>Log an issue</strong>, and the Dashboard counts 1 failed or warning check with no issue logged.</p>
+  - h: How the priority score works (with a worked example)
+    html: |
+      <p>Every issue gets a priority score from 0 to 100:</p>
+      <p><strong>Priority score = 10 x severity weight x the average of the reach factor and the traffic factor / effort points</strong>, rounded, with a maximum of 100.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Input</th><th>Bands (editable)</th></tr></thead>
+        <tbody>
+          <tr><td>Severity weight</td><td>Critical 10, High 6, Medium 3, Low 1. Blank override = the check's default severity.</td></tr>
+          <tr><td>Reach factor (URLs affected / URLs in the section)</td><td>50 percent or more 1.0; 10 percent or more 0.7; 1 percent or more 0.4; less 0.2. Blank = 0.4.</td></tr>
+          <tr><td>Traffic factor (impressions on affected URLs, 28 days)</td><td>10,000 or more 1.0; 1,000 or more 0.7; 100 or more 0.4; less 0.2. Blank = 0.4.</td></tr>
+          <tr><td>Effort points</td><td>S (under a day) 1, M (a few days) 2, L (one to two weeks) 3, XL (a project) 5.</td></tr>
+        </tbody>
+      </table></div>
+      <p>The score then sets the band: <strong>P1: fix now</strong> at 40 or more, <strong>P2: this sprint</strong> at 15 or more, <strong>P3: plan it</strong> at 6 or more, and <strong>P4: backlog</strong> below that. Critical issues are always P1. All of these are assumptions of this kit; Google publishes no severity scale.</p>
+      <p><strong>Worked example.</strong> TrailNest finds that 212 colour variant pages (for example <code>/gear/jackets/storm-shell-red/</code>) have a canonical pointing to discontinued parent products that now return 404. The check is TA22, Canonicals point to live, indexable URLs, with a default severity of High.</p>
+      <ul>
+        <li><strong>Severity:</strong> High, weight 6.</li>
+        <li><strong>Reach:</strong> 212 of 1,450 product URLs is 14.6 percent, so the reach factor is 0.7.</li>
+        <li><strong>Traffic:</strong> the affected pages had 7,800 impressions in 28 days, so the traffic factor is 0.7.</li>
+        <li><strong>Effort:</strong> M, a few days of developer work, 2 points.</li>
+        <li><strong>Score:</strong> 10 x 6 x (0.7 + 0.7) / 2 / 2 = <strong>21</strong>, so the priority is <strong>P2: this sprint</strong>.</li>
+        <li><strong>Deadline:</strong> found on 12 November, High issues are due in 14 days, so it is due on 26 November. On the audit date of 23 November it has been open 11 days and shows <strong>Due soon</strong>.</li>
+      </ul>
+      <p>Compare it with the other demo issues. 38 orphan trail guides are also High, with similar reach and traffic, but the fix takes under a day (S, 1 point), so they score <strong>42</strong> and jump to P1: cheap fixes on important pages come first. Bot protection that challenges Googlebot on all 310 trail guides with 41,000 impressions scores the full <strong>100</strong>. Noindex on 46 brand new product pages scores only 30 because the pages have no impressions yet, but the check is Critical, so it is still P1. The slow product template (LCP 3.4 s on mobile) is High and touches every product page, but it is an L job, so it scores 20, P2, and it is already <strong>Overdue by 6 days</strong>.</p>
+  - h: Deadlines and the Fix Plan
+    html: |
+      <p>Each severity has a fix window: Critical 7 days, High 14, Medium 30 and Low 90 (editable). The due date is the found date plus that window. The deadline status says On track, Due soon (within 7 days), Overdue by N days, Validating, Closed on time or Closed late. In the demo, 5 issues are due soon, 1 is overdue, the mixed content fix closed on time and the OAI-SearchBot robots.txt fix closed late.</p>
+      <p>The Fix Plan turns an issue into a ticket. Pick the Issue ID and add the week, what done looks like and how you will validate it. The ticket text joins severity, priority, the issue, the check, URLs affected, an example URL, the owner, the acceptance criteria and the validation method into one line to paste into Jira, Trello or an email. The Next step column tells you what is missing.</p>
+      <p>The capacity table adds up effort points per week. With a capacity of 8 points, TrailNest's Week 1 plan (4 quick fixes, 4 points) is fine, but Week 2 holds 10 points and shows <strong>Over capacity by 2</strong>, so one ticket moves to Week 3. One planned ticket has no acceptance criteria yet, one has no validation method and one is not scheduled, and the Next step column says so for each.</p>
+  - h: Column by column guide to the Issue Log
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>Issue ID</td><td>Fixed IDs, ISS-001 to ISS-500.</td><td>Do not retype them; they keep the Fix Plan linked when you sort.</td></tr>
+          <tr><td>Check ID</td><td>The check the issue belongs to, from Audit Checks.</td><td>Brings in the area, the check name, the default severity and how to retest.</td></tr>
+          <tr><td>Issue found, Example URL</td><td>One sentence on what is wrong and one URL that shows it.</td><td>Write it so a developer understands it without you.</td></tr>
+          <tr><td>Section or template, URLs affected, URLs in the section</td><td>Where the issue lives and how big it is.</td><td>Count both from the same crawl. Blank sizes use the 0.4 factor.</td></tr>
+          <tr><td>Impressions on affected URLs</td><td>Search Console, Performance, Pages, last 28 days, summed for the affected URLs.</td><td>Use 0 for brand new pages; leave blank for files like sitemaps.</td></tr>
+          <tr><td>Severity override</td><td>Only when this case is worse or milder than the check's default.</td><td>The demo raises a 200 error page to High because every typo becomes a soft 404.</td></tr>
+          <tr><td>Effort, Owner, Status</td><td>S, M, L or XL; who fixes it; Open, In progress, Validating, Fixed or Won't fix.</td><td>Validating means the fix shipped and you are checking it.</td></tr>
+          <tr><td>Found on, Fixed on</td><td>Dates.</td><td>Found on starts the deadline clock.</td></tr>
+          <tr><td>Grey columns</td><td>Area, check, severity, factors, score, priority, deadline and how to retest.</td><td>Sort by Priority score, largest first.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Where to get the data
+    html: |
+      <ul>
+        <li><strong>A crawler</strong> gives status codes, redirects, canonicals, meta robots, click depth, internal links and page sizes. Crawl once with JavaScript rendering and once without to compare.</li>
+        <li><strong>Search Console</strong>: Page indexing (why pages are not indexed), URL Inspection (Google selected canonical and the rendered HTML), Crawl Stats (host status, response codes and response time), Core Web Vitals, Sitemaps, HTTPS and Security issues. Our guide to the <a href="/understanding-crawl-stats-report/">Crawl Stats report</a> explains each chart.</li>
+        <li><strong>Server or CDN logs</strong> show what Googlebot and AI bots really fetch and what status they get. Check them after any firewall or bot protection change.</li>
+        <li><strong>PageSpeed Insights</strong> gives field data at the 75th percentile for each template, the numbers the Core Web Vitals checks use.</li>
+      </ul>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: crawl and test.</strong> Crawl the site, pull the Search Console reports and work through all 61 checks. Log every Fail and Warning.</li>
+        <li><strong>Week 2: fix P1.</strong> Fix everything that blocks crawling or indexing: robots.txt, bot protection, noindex, 5xx and broken canonicals. Validate each fix in URL Inspection.</li>
+        <li><strong>Week 3: fix P2.</strong> Redirect chains, orphan pages, soft 404s, sitemap clean up and the slowest template.</li>
+        <li><strong>Week 4: AI readiness and validation.</strong> Check snippet controls, AI bot rules and content in the initial HTML, start Validate fix in Search Console for fixed issues, then audit again and compare the health score.</li>
+      </ul>
+      <p>Read our guides to <a href="/how-google-crawls-websites/">how Google crawls websites</a> and <a href="/crawl-budget-explained/">crawl budget</a> before you plan big structural changes.</p>
+  - h: The chained prompt workflow (from crawl export to tickets)
+    html: |
+      <p>Prompts 18 to 22 below are built to run in order in one AI chat:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your site, platform, templates and the severity rules.</li>
+        <li><strong>Paste the failing checks</strong> with your evidence and get each one explained in plain words.</li>
+        <li><strong>Size each issue</strong>: URLs affected, the section, likely cause and effort.</li>
+        <li><strong>Pressure test</strong> the list for false alarms and missing root causes.</li>
+        <li><strong>Get rows for Excel</strong>, ready to paste into the Issue Log.</li>
+      </ol>
+      <p>AI assistants cannot crawl your site or see your Search Console. Paste real exports, and confirm every diagnosis with a recrawl or URL Inspection before you ticket it.</p>
+  - h: Technical SEO audit mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Treating every warning the same.</strong> A crawler can report thousands of issues. Severity, reach, traffic and effort decide what matters.</li>
+        <li><strong>Auditing without Search Console.</strong> A crawler shows what could go wrong; Page indexing and Crawl Stats show what Google actually saw.</li>
+        <li><strong>Forgetting the CDN and firewall.</strong> Bot protection can block Googlebot while your own browser works fine.</li>
+        <li><strong>Using robots.txt to remove pages.</strong> Google says not to use robots.txt for canonicalisation, and a blocked page cannot show its noindex.</li>
+        <li><strong>Fixing redirects but not links.</strong> Point internal links straight at the final URL.</li>
+        <li><strong>Copying AI bot block lists.</strong> Decide per bot: training bots and AI search bots are different, and blocking a search bot can remove you from that AI search.</li>
+        <li><strong>Shipping without validation.</strong> Every ticket needs a done when line and a way to prove it, or the same issue comes back after the next release.</li>
+        <li><strong>One audit a year.</strong> Most technical problems arrive with releases. A short monthly audit catches them while they are small. Our guide to <a href="/build-seo-audit-tool-javascript/">building your own SEO audit tool</a> shows how to automate the basic checks.</li>
+      </ul>
+prompts:
+  - t: Explain a Search Console report
+    p: |
+      Here is a screenshot description or export of my Search Console [Page indexing / Crawl Stats / Core Web Vitals] report: [paste].
+      Explain in plain words what it shows, which numbers are normal, which are a problem, and what I should check first on my site.
+  - t: Read a crawl export
+    p: |
+      Here is a crawl export with URL, status code, indexability, canonical, meta robots and click depth: [paste up to 200 rows].
+      Group the problems by type, count the URLs in each group and tell me which 5 groups matter most for Google and why.
+  - t: Diagnose an indexing drop
+    p: |
+      My indexed pages dropped from [number] to [number] between [date] and [date]. Recent changes: [releases, plugin updates, CDN or firewall changes].
+      List the 8 most likely technical causes in order, how to confirm each one, and which Search Console report shows it.
+  - t: Review my robots.txt
+    p: |
+      Here is my robots.txt: [paste]. My important sections are [list]. Check it against Google's rules: supported fields, the most specific group
+      rule, blocked CSS or JavaScript, blocked important sections and the sitemap line. Also list every AI bot it names and what each rule does.
+  - t: Redirect map check
+    p: |
+      Here is my redirect list (old URL, new URL, status code): [paste]. Find chains, loops, temporary redirects used for permanent moves and
+      redirects to the home page. Give me a clean one hop map.
+  - t: Canonical conflicts
+    p: |
+      Here are URLs with their canonical, sitemap status and the internal link URL most pages use: [paste]. Find every page where these do not
+      agree, and tell me which URL should win for each and why.
+  - t: Soft 404 finder
+    p: |
+      Here are URLs that return 200 with their title, word count and main text start: [paste]. Which look like empty, error or thin pages that
+      Google could treat as soft 404s? Suggest 404, 410, noindex, redirect or improve for each.
+  - t: JavaScript rendering gap
+    p: |
+      Here is the raw HTML of my page [URL]: [paste view source] and here is the text of the rendered page: [paste]. List the content, links and meta
+      tags that only exist after JavaScript runs, and rate how much each matters for Google and for AI crawlers that do not run JavaScript.
+  - t: Core Web Vitals plan
+    p: |
+      My [template] pages have LCP [x] s, INP [y] ms and CLS [z] at the 75th percentile on mobile. The page uses [CMS, theme, main scripts, hero image].
+      Give me the 6 most likely causes and fixes in order of impact, with how a developer can confirm each one.
+  - t: Size an issue
+    p: |
+      Issue: [describe]. It appears on [URL pattern]. My site has [number] URLs in that section and these Search Console numbers: [paste].
+      Estimate how many URLs are affected, how much traffic is at risk, and the effort to fix (S, M, L or XL) with your reasoning.
+  - t: Write a developer ticket
+    p: |
+      Write a developer ticket for this SEO issue: [issue, example URL, URLs affected, severity]. Include a short title, what is wrong, why it matters
+      in one sentence, the exact change needed, acceptance criteria that can be tested, and how to validate after release.
+  - t: Explain an issue to a manager
+    p: |
+      Explain this technical SEO issue to a non technical manager in 5 sentences: [issue]. Say what it costs if we wait, what the fix involves and
+      how long it takes. No jargon.
+  - t: Bot protection check
+    p: |
+      Our CDN or firewall is [provider] with these bot rules: [paste or describe]. Our Crawl Stats report shows [paste numbers]. Could these rules be
+      blocking or challenging Googlebot or AI search bots? Tell me what to check in the logs and how to allow verified crawlers safely.
+  - t: AI bot policy
+    p: |
+      Our goals: [for example be cited in AI search, but not used for model training]. Here is our robots.txt: [paste]. For GPTBot, OAI-SearchBot,
+      ChatGPT-User, ClaudeBot, Claude-SearchBot, Claude-User, PerplexityBot, Perplexity-User and Google-Extended, say what each one is for and
+      whether our current rules match our goals. Only use what the vendors' own documentation says, and tell me to check it.
+  - t: Snippet controls audit
+    p: |
+      Here are the meta robots and X-Robots-Tag values found on my pages: [paste URL and value]. Which ones limit snippets (nosnippet, max-snippet,
+      data-nosnippet) or indexing, and which pages should I change so they can appear in search snippets and AI features?
+  - t: Migration risk review
+    p: |
+      We plan to [migrate domain / change CMS / change URL structure] on [date]. Here is our plan: [paste]. List the technical SEO risks, the checks to run
+      before, on the day and after launch, and what to monitor for 4 weeks.
+  - t: Monthly audit summary
+    p: |
+      Here are this month's audit numbers: health score [x] (last month [y]), area scores [paste], open issues by priority [paste], overdue [n].
+      Write a short monthly summary for the team: what improved, what got worse, the 3 priorities for next month.
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my technical SEO auditor. My site: [domain], built on [CMS or framework], [number] URLs, main templates: [list]. Hosting and CDN: [details].
+      Severity rules: Critical blocks crawling or indexing of important pages, High hurts many URLs, Medium is waste or weak signals, Low is hygiene.
+      Confirm, then wait for my audit results.
+  - t: "Workflow 2 of 5: explain the failing checks"
+    p: |
+      Here are my failed and warning checks with the evidence I found: [paste check ID, check, result, evidence]. For each one, explain in plain words what is
+      wrong, the most likely cause on my platform, and what I should confirm before I log it.
+  - t: "Workflow 3 of 5: size each issue"
+    p: |
+      Here are the section sizes and 28 day impressions for my templates: [paste]. For each issue you explained, estimate URLs affected, the section, the
+      effort (S, M, L or XL) and the owner (SEO, Developer, Content, Hosting or IT). Show your reasoning briefly.
+  - t: "Workflow 4 of 5: pressure test"
+    p: |
+      Review your list. Remove false alarms, merge issues that share one root cause, and flag anything where the fix could break something else.
+      Tell me which 3 issues you are least sure about and how to confirm them.
+  - t: "Workflow 5 of 5: rows for Excel"
+    p: |
+      Turn the final list into rows with tabs between columns for my Issue Log: Check ID, Issue found, Example URL, Section or template, URLs affected,
+      URLs in the section, Impressions (28 days), Severity override (blank unless needed), Effort, Owner, Status (Open), Found on ([today's date]).
+checklist:
+  - robots.txt returns 200 and blocks no page you want in Search
+  - CSS, JavaScript and images needed to render are not blocked
+  - CDN, firewall and bot protection let Googlebot and the AI search bots you allow through
+  - No noindex, nosnippet or max-snippet:0 on pages you want in Search and AI features
+  - Important pages return 200; removed pages return 404 or 410
+  - Permanent redirects use 301 or 308 and internal links point to the final URL
+  - Every indexable page has a self referencing canonical that points to a live URL
+  - "One version of the site: http, www and trailing slash variants redirect to it"
+  - No orphan pages and important pages within 3 clicks of the home page
+  - XML sitemaps list only 200, indexable, canonical URLs and are read successfully
+  - Main content and links are in the HTML, not only after JavaScript or clicks
+  - Mobile shows the same content, headings, structured data and meta as desktop
+  - LCP, INP and CLS are good at the 75th percentile for every main template
+  - HTTPS everywhere, no mixed content, no security issues or manual actions
+  - Every issue has a severity, an owner, a deadline and a way to validate the fix
+  - The audit is repeated after every major release and at least once a month
+faq:
+  - q: Is this technical SEO audit template free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: What does a technical SEO audit include?
+    a: "This kit covers 61 checks in 13 areas: crawling and robots.txt, indexing, status codes and redirects, canonicals, site structure, XML sitemaps, JavaScript rendering, mobile, page experience and Core Web Vitals, HTTPS and security, structured data, international and AI search readiness."
+  - q: How do you prioritise technical SEO issues?
+    a: "The Issue Log multiplies a severity weight by the average of a reach factor (share of the section affected) and a traffic factor (impressions on those URLs), then divides by effort. The score from 0 to 100 sets P1 to P4, and Critical issues are always P1. Every weight is editable."
+  - q: How often should I run a technical SEO audit?
+    a: "Run a full audit when you start, then a shorter one every month and after every major release, migration or CDN change. Most technical problems arrive with changes, so frequent small audits catch them early."
+  - q: Do I need special technical SEO for AI Overviews and AI Mode?
+    a: "Google says there are no additional technical requirements. A page must be indexed and eligible to be shown with a snippet. So the basics matter most, plus checks for snippet controls, crawling allowed by your CDN, and key content available as text."
+  - q: Which tools do I need for the audit?
+    a: "Any website crawler, Google Search Console (Page indexing, URL Inspection, Crawl Stats, Core Web Vitals, Sitemaps), PageSpeed Insights and, if you can get them, server or CDN logs. The free Brandella tools below help with robots.txt, redirects and hreflang."
+related: [on-page-seo, internal-linking, schema-markup]
+reads:
+  - t: "How Google crawls websites: from discovery to indexing"
+    url: /how-google-crawls-websites/
+  - t: "Crawl budget explained: why Google ignores some pages and how to fix it"
+    url: /crawl-budget-explained/
+  - t: "Core Web Vitals 2026: what's changed and how to pass Google's metrics"
+    url: /core-web-vitals-2026/
+tools:
+  - t: Robots.txt Tester
+    url: /tools/technical-seo-tools/robots-txt-tester/
+  - t: htaccess Redirect Generator
+    url: /tools/technical-seo-tools/htaccess-redirect-generator/
+  - t: Hreflang Checker
+    url: /tools/technical-seo-tools/hreflang-checker/
+sources:
+  - t: "Google Search Central: Google Search technical requirements"
+    url: https://developers.google.com/search/docs/essentials/technical
+  - t: "Google Crawling Infrastructure: How HTTP status codes affect Google's crawlers"
+    url: https://developers.google.com/crawling/docs/troubleshooting/http-status-codes
+  - t: "Google Crawling Infrastructure: How Google interprets the robots.txt specification"
+    url: https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec
+  - t: "Google Search Central: How to specify a canonical URL"
+    url: https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls
+  - t: "web.dev: How the Core Web Vitals metrics thresholds were defined"
+    url: https://web.dev/articles/defining-core-web-vitals-thresholds
+  - t: "Google Search Central: AI features and your website"
+    url: https://developers.google.com/search/docs/appearance/ai-features

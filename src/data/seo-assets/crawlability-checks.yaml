@@ -1,0 +1,345 @@
+seoTitle: "Crawlability Checklist: Free Excel Crawl and Index Kit"
+h1: "Crawlability Checks Kit: URL Checker, Robots.txt Review, Sitemap and AI Bot Audit"
+focusKeyword: crawlability checklist
+description: "Free crawlability checklist in Excel: test robots.txt, noindex, canonicals, sitemaps and AI bot access URL by URL, and see exactly why a page is not indexed."
+published: 2026-11-23
+updated: 2026-11-23
+time: 2 hours for a first check of a small site, then 30 minutes a week
+level: Beginner to advanced
+kit: true
+tabs: 11
+intro:
+  - "Most crawlability checklists are a list of things to look at: robots.txt, sitemaps, canonicals, noindex. This free <strong>crawlability checklist</strong> is a working kit instead. An Excel URL Checker takes each page, asks whether you want it indexed, and checks every signal against that goal with 13 weighted checks, so it can say exactly what is wrong: blocked by robots.txt, noindex on a page you want, a canonical that points elsewhere, an orphan, a sitemap full of redirects, or a noindex Google can never see."
+  - "It is built for the AI search era. Your robots.txt now decides who can read your site for search, for AI answers and for AI training, and those are different bots with different rules. The kit reads your robots.txt line by line the way Google's specification describes, flags the traps (like a Googlebot group that silently drops every * rule), checks each sitemap file against Google's limits, and compares your policy for Googlebot, Google-Extended and the OpenAI, Anthropic and Perplexity bots with what your file really does."
+kitContents:
+  - t: "Excel workbook, 11 tabs"
+    d: "URL Checker (500 ready rows with 7 measures, 13 weighted checks, score, grade, fixes and a verdict), Robots.txt Review (150 lines), Sitemap Files, AI Bot Access for 10 bots, Dashboard with two charts, Monitoring Plan, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "27 URLs, a 23 line robots.txt, 6 sitemap files and 12 monitoring tasks for a fictional accounting software company, so you see every conflict and verdict working before you add your own site."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to share with your developers, hosting team or clients."
+  - t: "22 AI prompts"
+    d: "Prompts to review robots.txt, plan AI bot rules, explain Page indexing reasons, clean sitemaps and decide between noindex, canonical and robots.txt, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole crawlability checklist on one page, to tick off after every release, migration or CDN change."
+steps:
+  - t: Set the date and rules
+    d: "On Settings, set the audit date. Check the click depth rule, the lastmod allowance and the check weights; they are starter assumptions."
+  - t: List your URLs and your intent
+    d: "On the URL Checker, add your important pages from every template and the URLs you want kept out (filters, internal search, tags, old URLs, staging). Choose Yes or No in Should be indexed? for each."
+  - t: Add crawler and Search Console facts
+    d: "From your crawler: status code, blocked by robots.txt, noindex, canonical, in sitemap, internal links in and click depth. From Search Console: the closest Page indexing reason, from the report or URL Inspection."
+  - t: Paste robots.txt
+    d: "Paste your robots.txt into Robots.txt Review, one line per row, and add the file size. Read every High and Medium flag."
+  - t: Check sitemap files and bots
+    d: "Add each sitemap file with its URL count, size and Search Console status. On AI Bot Access, choose Allow or Block for each bot and add log hits if you have them."
+  - t: Fix by verdict
+    d: "Sort the URL Checker by Verdict. Fix every Fix now and Conflict row first, then canonicals, orphans, pages Google has not indexed and sitemap clean up."
+  - t: Monitor every week
+    d: "Use the Monitoring Plan: compare robots.txt each week, read the Page indexing and Sitemaps reports, and recheck after every release or CDN change."
+sections:
+  - h: What crawlability means in the AI search era
+    html: |
+      <p>Crawlability is whether a crawler can reach a page and read it. Indexability is whether the page is allowed and fit to be stored in the index. A page can fail at either step, and the signals often contradict each other: a page in the sitemap that robots.txt blocks, a page you want indexed with a canonical that points somewhere else, a noindex that Google cannot see because the page is blocked.</p>
+      <p>Google's <a href="https://developers.google.com/search/docs/essentials/technical" target="_blank" rel="noopener">technical requirements</a> start here: Googlebot is not blocked, the page returns HTTP 200 and it has indexable content. For AI search, Google's <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">AI features page</a> adds no new requirements: a page must be indexed and eligible to show a snippet, and crawling must be allowed in robots.txt and by any CDN or hosting infrastructure.</p>
+      <p>What is new is the number of bots. Each AI company now runs separate user agents for search, for model training and for fetches a user asks for, and they treat robots.txt differently:</p>
+      <ul>
+        <li><strong>Search and AI search bots</strong> such as Googlebot, OAI-SearchBot, Claude-SearchBot and PerplexityBot decide whether you can appear and be linked in those answers. OpenAI says sites opted out of OAI-SearchBot will not be shown in ChatGPT search answers.</li>
+        <li><strong>Training bots and tokens</strong> such as GPTBot, ClaudeBot and Google-Extended control whether content is used to train models. Google says Google-Extended does not affect inclusion or ranking in Google Search.</li>
+        <li><strong>User requested fetchers</strong> such as ChatGPT-User, Claude-User and Perplexity-User visit a page because a person asked. OpenAI says robots.txt rules may not apply to ChatGPT-User, and Perplexity says Perplexity-User generally ignores robots.txt.</li>
+      </ul>
+      <p>JavaScript matters too. Google renders JavaScript, but a <a href="https://vercel.com/blog/the-rise-of-the-ai-crawler" target="_blank" rel="noopener">Vercel and MERJ study</a> from December 2024 found that none of the major AI crawlers it measured rendered JavaScript. The kit checks whether your main content is in the raw HTML.</p>
+  - h: What is inside the crawlability workbook
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>URL Checker</td><td>One row per URL. Works out parameter URLs, canonical state, the canonical target's status and indexability, what Google can do with the page, the lastmod gap and whether Google says it is indexed. Runs 13 weighted checks and gives a score, grade, fixes in order and a verdict.</td><td>URL, page type, should be indexed, status, redirect target, blocked, noindex, canonical, sitemap, lastmod, last change, links in, click depth, raw HTML, Search Console status, impressions</td></tr>
+          <tr><td>Robots.txt Review</td><td>Splits every line into field and value, removes comments, tracks which user agent group each rule belongs to, says whether Google supports the field and flags risky rules with a severity. Checks the 500 KiB limit.</td><td>The robots.txt lines and the file size</td></tr>
+          <tr><td>Sitemap Files</td><td>Checks each file for status, absolute URL, the 50,000 URL and 50 MB limits, Search Console errors, discoverability and how long since Google read it.</td><td>Sitemap URL, type, status, URLs, size, listed, submitted, status, last read</td></tr>
+          <tr><td>AI Bot Access</td><td>10 bots with what each vendor says they do. Finds whether each bot has its own group or uses the * group, whether it is blocked from the whole site, compares that with your policy and writes the lines to add.</td><td>Your policy and log hits per bot</td></tr>
+          <tr><td>Dashboard</td><td>19 key numbers, URLs by verdict and URLs failing each check, with two charts.</td><td>Nothing</td></tr>
+          <tr><td>Monitoring Plan</td><td>12 recurring checks with next due date and status: OK, Due soon, Overdue, Never done or follow up.</td><td>Last done date and result</td></tr>
+          <tr><td>Settings, AI Prompts, Checklist, Sources</td><td>Thresholds, weights, lists, 22 prompts, the checklist with progress, and where every fact comes from.</td><td>Optional tuning</td></tr>
+        </tbody>
+      </table></div>
+  - h: The 13 URL checks and why each one matters
+    html: |
+      <p>Each check scores 1 (pass), 0.5 (partly) or 0 (fix). A check is blank when it does not apply: most checks only run for pages you want indexed, and two run only for pages you want kept out. The weights are starter assumptions, editable on Settings.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Check</th><th>Weight</th><th>Rule</th><th>Why it matters</th></tr></thead>
+        <tbody>
+          <tr><td>Not blocked by robots.txt</td><td>10</td><td>Wanted pages are allowed for Googlebot.</td><td>Googlebot not being blocked is the first technical requirement.</td></tr>
+          <tr><td>No noindex</td><td>10</td><td>Wanted pages have no noindex in meta robots or the X-Robots-Tag header.</td><td>A noindex keeps the page out of Search and its AI features.</td></tr>
+          <tr><td>Returns 200</td><td>9</td><td>Wanted pages return 200.</td><td>Google does not index 4xx URLs, and 5xx URLs that keep failing are dropped.</td></tr>
+          <tr><td>Canonical points to itself</td><td>7</td><td>Self = pass, missing = partly, another URL = fix.</td><td>Google recommends a self referencing canonical; a canonical elsewhere asks Google to index the other URL.</td></tr>
+          <tr><td>Canonical target is live</td><td>6</td><td>The canonical target returns 200, is not noindex and not blocked.</td><td>A canonical pointing to a redirect or 404 sends mixed signals.</td></tr>
+          <tr><td>Noindex can be seen</td><td>6</td><td>A noindex page is not blocked by robots.txt.</td><td>Google cannot read a noindex on a page it is not allowed to crawl, and a blocked URL may still be indexed without its content.</td></tr>
+          <tr><td>Sitemap lists only indexable URLs</td><td>5</td><td>Sitemap URLs are indexable; wanted pages missing from it = partly.</td><td>Google says to include the URLs you want to see in search results: the canonical ones.</td></tr>
+          <tr><td>lastmod is accurate</td><td>2</td><td>Not in the future, not older than the last real change, not more than 7 days after it.</td><td>Google uses lastmod only if it is consistently and verifiably accurate.</td></tr>
+          <tr><td>Linked internally</td><td>7</td><td>At least 1 internal link in.</td><td>Google finds most pages through links; an orphan relies on the sitemap alone.</td></tr>
+          <tr><td>Shallow click depth</td><td>4</td><td>3 clicks or less pass, 4 partly, 5 or more or unreachable fix.</td><td>Deep pages are found and refreshed less. The 3 click rule is common advice, not a Google rule.</td></tr>
+          <tr><td>Content in the raw HTML</td><td>4</td><td>Main content in the initial HTML = pass, only after JavaScript = partly.</td><td>Google renders JavaScript; many AI crawlers do not.</td></tr>
+          <tr><td>Unwanted URL kept out</td><td>5</td><td>Pages you do not want: indexed = fix, still indexable = partly.</td><td>Filters, internal search and staging pages waste crawling and can show up in search instead of your real pages.</td></tr>
+          <tr><td>Google has indexed it</td><td>6</td><td>The Page indexing status for a wanted page is Indexed.</td><td>The final proof. Any other status needs URL Inspection.</td></tr>
+        </tbody>
+      </table></div>
+  - h: How the score and verdict work (with a worked example)
+    html: |
+      <p>The score is the weighted share of checks a URL passes: the sum of weight x result for every check that applies, divided by the total weight of those checks, times 100. A is 85 or more, B 70 or more, C 55 or more, anything lower is D. The verdict is separate from the score: it names the first blocking problem in a fixed order, because one noindex matters more than five small passes.</p>
+      <p><strong>Worked example.</strong> In the demo, BrightLedger (a fictional accounting software company) published "TDS rates 2026" at <code>/blog/tds-rates-2026/</code>. It returns 200, has a self canonical, 6 internal links, a click depth of 2, its content is in the raw HTML and it is in the blog sitemap with an accurate lastmod. But the draft's <code>noindex</code> meta tag went live with it, and the Page indexing status is Excluded by noindex.</p>
+      <ul>
+        <li><strong>Checks that apply:</strong> 11 of 13, with a total weight of 70. Canonical target is live (no other canonical) and Unwanted URL kept out (it is a wanted page) do not apply.</li>
+        <li><strong>Passes (49 points):</strong> not blocked (10), returns 200 (9), canonical points to itself (7), noindex can be seen (6), lastmod is accurate (2), linked internally (7), shallow click depth (4) and content in the raw HTML (4).</li>
+        <li><strong>Fails (0 points):</strong> no noindex (10), sitemap lists only indexable URLs (5, because the sitemap lists a noindex page) and Google has indexed it (6).</li>
+      </ul>
+      <p>49 of 70 is a score of <strong>70</strong>, grade <strong>B</strong>, with 3 fixes. The verdict is <strong>Fix now: noindex on a page you want</strong>. A B grade on a page that is completely out of Google is the reason the verdict exists. One fix solves all three: remove the noindex, then request indexing in URL Inspection.</p>
+  - h: The Googlebot group trap (second worked example)
+    html: |
+      <p>Google's <a href="https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec" target="_blank" rel="noopener">robots.txt specification</a> says only one group is valid for a crawler: the group with the most specific user agent that matches. User agent groups and the * group are not combined.</p>
+      <p>BrightLedger's robots.txt has a sensible * group (block <code>/app/</code>, <code>/search</code> and <code>?sort=</code> URLs). Then someone added a Googlebot group with <code>Noindex: /blog/tag/</code>, <code>Disallow: /staging/</code> and <code>Disallow: /integrations/</code>. From that moment Googlebot ignores the whole * group. The Robots.txt Review flags the Googlebot line as <strong>High</strong> and the Noindex line as ignored, because Google supports only user-agent, allow, disallow and sitemap.</p>
+      <p>The URL Checker shows the damage:</p>
+      <ul>
+        <li><code>/search?q=invoice</code> is no longer blocked for Googlebot and is now indexed: <strong>Clean up: indexed but you do not want it</strong>, score 0.</li>
+        <li><code>/integrations/tally/</code>, a landing page with 2,300 impressions, is blocked: <strong>Fix now: blocked by robots.txt</strong>.</li>
+        <li><code>/staging/new-homepage/</code> has a noindex but is blocked, so Google cannot see it: <strong>Conflict: noindex hidden by robots.txt</strong>.</li>
+      </ul>
+      <p>The fix: delete the Googlebot group or copy every * rule it needs into it, drop the Noindex and <code>/integrations/</code> lines, and protect staging with a password instead of robots.txt.</p>
+  - h: Verdicts and what to do
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Verdict</th><th>When</th><th>What to do</th></tr></thead>
+        <tbody>
+          <tr><td>Fix now: blocked by robots.txt</td><td>A wanted page is disallowed for Googlebot.</td><td>Narrow or remove the rule; test it with a robots.txt tester.</td></tr>
+          <tr><td>Fix now: noindex on a page you want</td><td>Meta robots or X-Robots-Tag noindex.</td><td>Remove it in the template, plugin or server header; request indexing.</td></tr>
+          <tr><td>Fix now: not returning 200</td><td>A wanted page returns 3xx, 4xx or 5xx.</td><td>Fix the error, or link and list the final URL instead.</td></tr>
+          <tr><td>Fix: canonical points elsewhere</td><td>A wanted page canonicalises to another URL.</td><td>Make the canonical self referencing, or stop wanting this URL indexed.</td></tr>
+          <tr><td>Link it: orphan page</td><td>A wanted page has no internal links in.</td><td>Link it from its hub and related pages.</td></tr>
+          <tr><td>Investigate: Google has not indexed it</td><td>Every signal is fine but the status is not Indexed.</td><td>Use URL Inspection; improve content, merge duplicates, add links.</td></tr>
+          <tr><td>Conflict: noindex hidden by robots.txt</td><td>A noindex page is blocked.</td><td>Unblock it so Google can read the noindex.</td></tr>
+          <tr><td>Clean up: indexed but you do not want it</td><td>An unwanted URL is indexed.</td><td>Add noindex and keep it crawlable, or canonicalise or remove it.</td></tr>
+          <tr><td>Clean up: remove from the sitemap</td><td>An unwanted, non indexable URL is in a sitemap.</td><td>Remove redirects, 404s, noindex and canonicalised URLs from sitemaps.</td></tr>
+          <tr><td>Fix: canonical target not live</td><td>The canonical target is a redirect, error or noindex page.</td><td>Point the canonical at the live version.</td></tr>
+          <tr><td>Decide: still open to indexing</td><td>You do not want it, but nothing stops Google indexing it.</td><td>Choose noindex, a canonical or removal.</td></tr>
+          <tr><td>Healthy, Improve when you can, OK: kept out as planned</td><td>No blocking problem.</td><td>Work through the fixes column when you have time.</td></tr>
+        </tbody>
+      </table></div>
+  - h: robots.txt rules the review checks
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Rule</th><th>Flag in the kit</th></tr></thead>
+        <tbody>
+          <tr><td>Google supports user-agent, allow, disallow and sitemap. Other fields such as crawl-delay are not supported.</td><td>Google supports it? says No for crawl-delay, noindex and unknown fields (Low).</td></tr>
+          <tr><td>Only the most specific matching group applies; user agent groups and * are not combined.</td><td>Googlebot group warning (High).</td></tr>
+          <tr><td>Paths start with / and are case sensitive; * matches any characters and $ marks the end of the URL.</td><td>Path should start with / or * (Medium).</td></tr>
+          <tr><td>A rule without a path is ignored.</td><td>Empty disallow: this group may crawl everything (Info).</td></tr>
+          <tr><td>Google enforces a 500 KiB limit and ignores the rest.</td><td>Size check at the top of the tab.</td></tr>
+          <tr><td>Sitemap lines use a full URL.</td><td>Sitemap URL must be absolute (Medium).</td></tr>
+          <tr><td>Pages need their CSS, JavaScript and fonts to render the way visitors see them.</td><td>May block files needed to render (Medium), using the path list on Settings.</td></tr>
+          <tr><td>Disallow: / blocks everything for that group.</td><td>High for * or Googlebot, Info for other bots (check your AI bot policy).</td></tr>
+        </tbody>
+      </table></div>
+      <p>The first six rules come from Google's specification; the CSS and JavaScript list is an editable assumption of this kit. Google also caches robots.txt for up to 24 hours, treats a 4xx robots.txt (except 429) as no restrictions, and stops crawling for 12 hours when robots.txt returns a 5xx. A robots.txt applies only to its own host, protocol and port, so each subdomain needs its own file. Our <a href="/robots-txt-complete-guide/">complete robots.txt guide</a> has examples for every rule.</p>
+  - h: Sitemaps, canonicals and noindex together
+    html: |
+      <p>Google's <a href="https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap" target="_blank" rel="noopener">sitemap guide</a> limits each file to 50 MB uncompressed or 50,000 URLs, asks for absolute URLs, ignores <code>priority</code> and <code>changefreq</code>, and uses <code>lastmod</code> only if it is consistently and verifiably accurate. It also calls submitting a sitemap merely a hint.</p>
+      <p>Its <a href="https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls" target="_blank" rel="noopener">canonical guide</a> ranks the signals: redirects and rel canonical are strong, sitemap inclusion is weak. It says not to use robots.txt for canonicalisation, not to use noindex to choose a canonical within a site, and not to send different canonicals through different methods.</p>
+      <p>In the demo, the docs sitemap has 52,400 URLs and must be split. The old <code>/blog-sitemap.xml</code> returns 404 but is still named in robots.txt with a relative URL. A landing page sitemap is not in robots.txt, an index or Search Console, so Google may never find it. And 7 URLs in sitemaps are not indexable: a 503 page, a blocked page, the noindex blog post, a canonicalised docs page, two redirects and a 404.</p>
+      <p>Choosing the right tool: use <strong>noindex</strong> for pages that should stay crawlable but out of Search, a <strong>canonical</strong> for duplicates of a page you want indexed, a <strong>404 or 410</strong> for pages that are gone, and <strong>robots.txt</strong> only to stop crawling of URL spaces that waste crawl time. Read our <a href="/canonical-tag-implementation-guide/">canonical tag implementation guide</a> for HTML examples.</p>
+  - h: Column by column guide to the URL Checker
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>URL, Page type, Should be indexed?</td><td>The full URL, one of 11 page types and your intent.</td><td>Intent is the most important column: every check depends on it.</td></tr>
+          <tr><td>Status code, Redirects to</td><td>From the crawler.</td><td>Use the status Googlebot gets, not your logged in browser.</td></tr>
+          <tr><td>Blocked by robots.txt?</td><td>Yes or No for Googlebot.</td><td>Test with a robots.txt tester or your crawler's robots report.</td></tr>
+          <tr><td>Noindex</td><td>No, Meta robots, X-Robots-Tag or Both.</td><td>Check the HTTP headers too; CDNs and servers add X-Robots-Tag.</td></tr>
+          <tr><td>Canonical URL</td><td>The full canonical URL, or blank if there is none.</td><td>Must match the URL exactly to count as Self, including the trailing slash.</td></tr>
+          <tr><td>In XML sitemap?, Sitemap lastmod, Last real content change</td><td>From the sitemap and your CMS.</td><td>The last real change is when the main content changed, not the footer.</td></tr>
+          <tr><td>Internal links in, Click depth</td><td>From the crawler.</td><td>Leave click depth blank when the crawler cannot reach the page.</td></tr>
+          <tr><td>Main content in raw HTML?</td><td>Yes or No.</td><td>Compare view source with the rendered page.</td></tr>
+          <tr><td>Search Console status</td><td>The closest Page indexing reason.</td><td>URL Inspection shows it per URL.</td></tr>
+          <tr><td>Grey columns</td><td>Measures, checks, score, grade, fixes and verdict.</td><td>Sort or filter by Verdict.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: map intent.</strong> List 50 to 200 URLs: every template, your top pages and every kind of URL you want kept out. Mark Should be indexed? for each.</li>
+        <li><strong>Week 2: fix blockers.</strong> Clear every Fix now and Conflict row. Review robots.txt flags and fix the High ones on the same day.</li>
+        <li><strong>Week 3: clean signals.</strong> Fix canonicals, remove non indexable URLs from sitemaps, split oversized files and link every orphan.</li>
+        <li><strong>Week 4: bots and monitoring.</strong> Set your AI bot policy, add the missing lines, check your CDN rules and logs, and start the weekly Monitoring Plan.</li>
+      </ul>
+      <p>Then run the full <a href="/resources/seo-aeo-assets/technical-audits/">technical SEO audit kit</a> for speed, mobile, HTTPS and structured data. Our guide to the <a href="/url-inspection-tool-diagnose-indexing-problems/">URL Inspection tool</a> shows how to read each indexing status.</p>
+  - h: The chained prompt workflow (from robots.txt to fixes)
+    html: |
+      <p>Prompts 18 to 22 below are built to run in order in one AI chat:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your site, your URL types and which ones you want indexed.</li>
+        <li><strong>Paste robots.txt</strong> and get the effective rules for each bot that matters.</li>
+        <li><strong>Paste the URL Checker rows</strong> with verdicts and get the root causes grouped.</li>
+        <li><strong>Pressure test the fixes</strong> so nothing you want gets blocked by accident.</li>
+        <li><strong>Get the change list</strong>: the new robots.txt, sitemap changes and rows for your tracker.</li>
+      </ol>
+      <p>AI assistants cannot fetch your robots.txt reliably or see your Search Console. Paste the real files and exports, and test every changed rule with a robots.txt tester before you publish it.</p>
+  - h: Crawlability mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Using robots.txt to remove pages.</strong> A blocked URL can still be indexed without its content, and Google cannot see a noindex on it.</li>
+        <li><strong>A bot group that forgets the * rules.</strong> Any named group replaces the * group for that bot.</li>
+        <li><strong>Noindex or crawl-delay in robots.txt.</strong> Google does not support them there.</li>
+        <li><strong>Sitemaps full of redirects and 404s.</strong> List only the canonical, indexable URLs you want in Search.</li>
+        <li><strong>lastmod on every URL set to today.</strong> If lastmod is not accurate, Google stops trusting it.</li>
+        <li><strong>Copying an AI block list.</strong> Block training bots if you want, but check you are not blocking AI search bots you want citations from.</li>
+        <li><strong>Forgetting the CDN.</strong> Bot protection can block crawlers your robots.txt allows. Check logs for 403s to bots.</li>
+        <li><strong>Staging sites protected only by robots.txt.</strong> Use a password. Our guide to <a href="/what-is-xml-sitemap-ai-search-era/">XML sitemaps in the AI search era</a> covers what else belongs in your crawl setup.</li>
+      </ul>
+prompts:
+  - t: Explain my robots.txt
+    p: |
+      Here is my robots.txt: [paste]. For each group, list the user agents and the rules. Then tell me, for Googlebot, Bingbot, GPTBot,
+      OAI-SearchBot, ClaudeBot and PerplexityBot, which group each one follows and what it may not crawl. Remember that only the most
+      specific matching group applies.
+  - t: Test URLs against robots.txt
+    p: |
+      Here is my robots.txt: [paste] and these URLs: [paste list]. For Googlebot, say whether each URL is allowed or blocked and which rule
+      decides it. Use the longest matching path, and the least restrictive rule when an allow and a disallow are the same length.
+  - t: Write robots.txt for my policy
+    p: |
+      My site: [domain]. Keep these out of crawling: [paths]. Bot policy: allow search and AI search bots, block AI training bots
+      [or your policy]. Write a clean robots.txt with only user-agent, allow, disallow and sitemap lines, and explain each group.
+  - t: Find the Googlebot group trap
+    p: |
+      Here is my robots.txt: [paste]. Does any named group (for example Googlebot) lose rules that only exist in the * group? List the
+      rules each named group is missing and give me corrected groups.
+  - t: Clean my sitemap
+    p: |
+      Here are the URLs in my sitemap with status code, noindex and canonical: [paste]. List every URL that should not be in the sitemap and
+      why, and any important URL from this list of pages I want indexed that is missing: [paste].
+  - t: Fix lastmod logic
+    p: |
+      My CMS sets lastmod like this: [describe]. Here are 20 URLs with lastmod and the real last content change: [paste]. Is our lastmod
+      accurate? Write the rule a developer should implement so lastmod only changes when the main content changes.
+  - t: Split a large sitemap
+    p: |
+      My sitemap [name] has [number] URLs and is [size] MB. Here is our URL structure: [describe]. Propose how to split it into files under
+      50,000 URLs and 50 MB, how to name them and what the sitemap index should look like.
+  - t: Explain a Page indexing reason
+    p: |
+      Search Console shows [reason, for example Crawled, currently not indexed] for these URLs: [paste with page type and a short summary].
+      Explain what the reason means, the 5 most likely causes for pages like these, and what to check in URL Inspection.
+  - t: Crawled or discovered but not indexed
+    p: |
+      These pages are not indexed: [paste URL, title, word count, internal links in, impressions]. Which look like a content quality problem,
+      which like a discovery problem and which like duplicates? Suggest improve, merge, link, noindex or remove for each.
+  - t: Noindex, canonical or robots.txt?
+    p: |
+      I want to handle these URL types: [paste list, for example filter URLs, internal search, tag pages, print versions, old campaign pages].
+      For each, should I use noindex, a canonical, a 404 or 410, a redirect, or a robots.txt disallow? Explain each choice in one line.
+  - t: Parameter URL plan
+    p: |
+      My site creates URLs with these parameters: [paste examples with ?sort=, ?color=, ?page= and so on]. Which create real unique content,
+      which are duplicates and which waste crawling? Give me a rule per parameter.
+  - t: Canonical conflicts
+    p: |
+      Here are URLs with their canonical, status code, sitemap status and how internal links point to them: [paste]. Find every conflict
+      and tell me which URL should be the canonical for each group.
+  - t: JavaScript content check
+    p: |
+      Here is the raw HTML of [URL]: [paste view source] and the visible text of the rendered page: [paste]. Which important content, links,
+      title or meta tags exist only after JavaScript? What should be server rendered first?
+  - t: AI bot policy
+    p: |
+      Our goals: [for example appear and be cited in AI search, but not be used for training]. Explain the difference between search bots,
+      training bots and user requested fetchers for OpenAI, Anthropic, Perplexity and Google, and which robots.txt tokens match our goals.
+      Tell me to confirm every token on each vendor's own crawler page.
+  - t: Read bot traffic in my logs
+    p: |
+      Here is a summary of my server logs for 30 days: user agent, hits, status codes and top paths: [paste]. Which bots get errors, which
+      crawl pages they should not, and which important sections they never reach? Remind me to verify bots by IP or reverse DNS.
+  - t: CDN and firewall check
+    p: |
+      Our CDN or firewall is [provider] with these bot settings: [describe]. Our logs show [403 or challenge counts by user agent]. Could we
+      be blocking Googlebot or AI search bots we want? What should we change and how do we test it safely?
+  - t: Migration crawl checks
+    p: |
+      We are moving from [old setup] to [new setup] on [date]. Write the crawlability checks for before launch, launch day and the first
+      4 weeks: robots.txt, sitemaps, redirects, canonicals, noindex, status codes and Search Console reports.
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my crawlability reviewer. My site: [domain] on [CMS or framework]. URL types I want indexed: [list]. URL types I want kept out:
+      [list]. Bot policy: [policy]. Only use Google's robots.txt rules: one group per crawler, longest path wins. Confirm, then wait.
+  - t: "Workflow 2 of 5: robots.txt"
+    p: |
+      Here is my robots.txt: [paste]. For Googlebot and each bot in my policy, give the group it follows and its effective rules.
+      List every rule that conflicts with my lists of URLs to index and to keep out.
+  - t: "Workflow 3 of 5: the URL Checker rows"
+    p: |
+      Here are my URL Checker rows with URL, should be indexed, indexability, Search Console status, fixes and verdict: [paste]. Group the
+      problems by root cause (one robots rule, one template, one plugin) and rank the groups by how many important URLs they affect.
+  - t: "Workflow 4 of 5: pressure test"
+    p: |
+      For each fix you suggest, tell me what else it could change. Would a robots.txt edit block anything I want indexed? Would a noindex hit
+      pages that get traffic? Remove or adjust any risky fix.
+  - t: "Workflow 5 of 5: the change list"
+    p: |
+      Give me the final change list: the full corrected robots.txt, the sitemap changes, and one row per remaining fix with tabs between
+      columns: URL or pattern, Problem, Fix, Owner (SEO, Developer, Content or Hosting), How to validate.
+checklist:
+  - robots.txt returns 200, is under 500 KiB and uses only user-agent, allow, disallow and sitemap
+  - No page you want indexed is blocked by robots.txt, for Googlebot or for the AI search bots you allow
+  - Any named bot group repeats every * rule that bot still needs
+  - CSS, JavaScript and fonts needed to render pages are not blocked
+  - No noindex in meta robots or X-Robots-Tag on pages you want indexed
+  - Pages with noindex are not blocked, so Google can see the noindex
+  - Every page you want indexed returns 200 and has a self referencing canonical
+  - Canonicals point to live, indexable URLs, never to redirects or 404s
+  - Sitemaps list only 200, indexable, canonical URLs, each file under 50,000 URLs and 50 MB
+  - Sitemaps use absolute URLs, are listed in robots.txt or submitted, and lastmod is accurate
+  - Every page you want indexed has internal links and sits within 3 clicks of the home page
+  - Main content is in the raw HTML, not only after JavaScript runs
+  - Filter, search, tag, staging and old URLs are handled with noindex, canonicals, 404s or passwords on purpose
+  - Your policy for every search and AI bot matches what robots.txt and your CDN really do
+  - The Page indexing and Sitemaps reports are checked weekly and robots.txt changes are compared
+faq:
+  - q: Is this crawlability checklist free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: What is the difference between crawlability and indexability?
+    a: "Crawlability is whether a crawler can reach and read a page. Indexability is whether the page is allowed and fit to be stored in the index. A page can be crawlable but carry a noindex, or be blocked by robots.txt and still appear in Google without its content."
+  - q: Should I block a page with robots.txt or noindex?
+    a: "To keep a page out of Google Search, use noindex and leave the page crawlable so Google can read it. Use robots.txt to stop crawling of URL spaces that waste crawl time. Google says a URL disallowed in robots.txt may still be indexed without its content."
+  - q: Does Google follow crawl-delay or noindex in robots.txt?
+    a: "No. Google supports user-agent, allow, disallow and sitemap, and says other fields such as crawl-delay are not supported. Some other crawlers, such as Anthropic's, say they support Crawl-delay."
+  - q: Should I block AI bots in robots.txt?
+    a: "That is a business choice. Training bots (GPTBot, ClaudeBot, the Google-Extended token) and AI search bots (OAI-SearchBot, Claude-SearchBot, PerplexityBot) are separate, so you can block training and still appear in AI search. Google says Google-Extended does not affect Google Search."
+  - q: Why is my page not indexed when everything looks fine?
+    a: "If the page is crawlable, returns 200, has no noindex and a self canonical, the reason is usually quality, duplication or discovery. The kit shows this as Investigate: Google has not indexed it. Check URL Inspection, improve the content, add internal links and merge near duplicates."
+related: [technical-audits, internal-linking, schema-markup]
+reads:
+  - t: "Robots.txt explained: complete guide with examples"
+    url: /robots-txt-complete-guide/
+  - t: "What is an XML sitemap, and does it still matter in the AI search era?"
+    url: /what-is-xml-sitemap-ai-search-era/
+  - t: "How to use the URL Inspection tool to diagnose indexing problems"
+    url: /url-inspection-tool-diagnose-indexing-problems/
+tools:
+  - t: Robots.txt Generator
+    url: /tools/technical-seo-tools/robots-txt-generator/
+  - t: XML Sitemap Validator
+    url: /tools/technical-seo-tools/xml-sitemap-validator/
+  - t: AI Crawler Log Analyzer
+    url: /tools/ai-tools/ai-crawler-log-analyzer/
+sources:
+  - t: "Google Crawling Infrastructure: How Google interprets the robots.txt specification"
+    url: https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec
+  - t: "Google Search Central: Build and submit a sitemap"
+    url: https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap
+  - t: "Google Search Central: How to specify a canonical URL"
+    url: https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls
+  - t: "Google Crawling Infrastructure: Google's common crawlers (including Google-Extended)"
+    url: https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers
+  - t: "OpenAI: Overview of OpenAI crawlers"
+    url: https://developers.openai.com/api/docs/bots
+  - t: "Anthropic: Does Anthropic crawl data from the web, and how can site owners block the crawler?"
+    url: https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
