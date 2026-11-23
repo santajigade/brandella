@@ -17,7 +17,7 @@ const sections = MENU.map((slug) => ({
   items: inCategory(posts, slug).slice(0, 4),
 }));
 const schema = [{
-  '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${SITE.url}/#website`,
+  '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${SITE.url}/#website`, alternateName: ['Brandella', 'brandella.in'],
   name: SITE.name, url: `${SITE.url}/`, publisher: { '@id': `${SITE.url}/#organization` },
   potentialAction: { '@type': 'SearchAction', target: `${SITE.url}/search/?q={search_term_string}`, 'query-input': 'required name=search_term_string' },
 }];
