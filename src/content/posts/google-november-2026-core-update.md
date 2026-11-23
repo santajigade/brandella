@@ -16,7 +16,7 @@ takeaways:
   - "Fix dropped pages for people rather than quick fixes, rule out technical causes, and expect recovery to take several months."
 image: "/images/covers/google-november-2026-core-update.webp"
 imageAlt: "Google November 2026 core update rollout"
-updated: "2026-11-13T11:15:00+05:30"
+updated: "2026-11-23T10:20:00+05:30"
 format: "md"
 ---
 
@@ -28,9 +28,9 @@ This affects every site that gets traffic from Google Search, in every country a
 
 ![Google November 2026 core update key facts: started November 10, global, all languages, up to 2 weeks rollout](/images/infographics/ig-google-november-2026-core-update-1.webp)
 
-## Rollout status (updated November 13, 2026)
+## Rollout status (updated November 23, 2026)
 
-As of November 13, the Google November 2026 core update is still rolling out. Google's Search Status Dashboard has not marked it complete yet. If it follows the March and May 2026 pattern of about 12 days, expect completion around November 22. We will update this page when Google confirms the end date.
+As of November 23, 2026, the Google November 2026 core update is still rolling out. Google's [Search Status Dashboard](https://status.search.google.com/incidents/WLxcJyC6jMWMfryxsKMc) has not marked it complete yet, so the rollout has now run for 13 days. Google's own estimate was up to 2 weeks, which points to completion within the next few days. We will update this page with the exact end date as soon as Google confirms it.
 
 ## What Google confirmed about the November 2026 core update
 
