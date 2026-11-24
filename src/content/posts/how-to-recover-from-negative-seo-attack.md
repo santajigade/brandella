@@ -172,31 +172,6 @@ format: "html"
 <div class="bx-spec"><div class="v">70-80%</div><div class="k">manual penalty recovery success rate when disavow is paired with documentation</div></div>
 <div class="bx-spec"><div class="v">3-6 mo</div><div class="k">typical timeline to see ranking recovery after a confirmed attack cleanup</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="rule-out-first"><span class="bx-num">01</span>Rule Out the Common Non-Attack Causes First</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.searchenginemagazine.com/negative-seo" target="_blank" rel="noopener">Search Engine Magazine's 2026 breakdown of negative SEO</a> makes a point every panicked site owner needs to hear: experienced SEOs rarely blame negative SEO without evidence, because a Google <a href="/google-november-2026-core-update/">core update</a>, an accidental noindex, a redesign that broke internal links, or a competitor simply publishing stronger content explain far more ranking losses than deliberate attacks.</p>
@@ -213,31 +188,6 @@ format: "html"
 <span class="lbl">Why This Shift Matters for Recovery</span>
 <p>If your instinct is to jump straight to the disavow tool, pause. The Seo Handbook's analysis notes the disavow file matters far less than it once did, since Google ignores most spam links automatically. Reserve it for an actual manual action, not a scary-looking backlink report.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="signs-of-attack"><span class="bx-num">03</span>Signs You're Dealing With a Genuine Attack</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.numinix.com/blog/how-to-recover-from-negative-seo-link-attack/" target="_blank" rel="noopener">Numinix's February 2026 recovery guide</a> lists the combination worth watching for, since any single symptom alone usually has an innocent explanation.</p>
@@ -281,31 +231,6 @@ domain:another-spam-domain.com
 </div>
 
 <p>Every new upload replaces the previous file entirely, so keep a running master document of every domain you've disavowed and why, especially if you ever change SEO agencies or consultants. <a href="https://koanthic.com/en/google-disavow-tool-complete-guide-how-to-use-2026/" target="_blank" rel="noopener">Koanthic's 2026 disavow guide</a> puts recovery success rates at 70% to 80% when disavow is paired with proper documentation, compared to 20% to 30% for sites that skip that step.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="hacking-gmb"><span class="bx-num">06</span>Recovering From Hacking and GMB Hijacking</h2>
 <div class="bx-rule"></div>
 <p>A compromised site is the most urgent scenario on this list. <a href="https://rankcrown.com/resources/disavow-links-guide" target="_blank" rel="noopener">Rank Crown's 2026 guide to the disavow tool</a> notes that hacked-site spam injection is one of the two genuine scenarios where disavow legitimately belongs in the recovery process, once the site itself has been cleaned.</p>

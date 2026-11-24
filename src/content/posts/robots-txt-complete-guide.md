@@ -121,35 +121,6 @@ format: "html"
 <p>Robots.txt is a plain-text file placed at the root of a website that tells search engine crawlers and AI bots which URLs they are allowed or not allowed to access.</p>
 
 <p>It follows the Robots Exclusion Protocol, formalized as RFC 9309, a standard respected by Google, Bing, and most major AI crawlers.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <p>We covered the page-level counterpart to this file in our <a href="/meta-robots-tags-explained-2/" target="_blank" rel="noopener">meta robots tags guide</a>. Robots.txt blocks crawling before a page is ever fetched; meta robots tags control indexing after it already has been.</p>
 
 <div class="brt-stat-grid">
@@ -222,35 +193,7 @@ format: "html"
 <span class="k">User-agent:</span> <span class="v">ClaudeBot</span>
 <span class="k">Disallow:</span> <span class="v">/</span></pre>
 </div>
-<p class="brt-code-caption">Different bots from the same company often serve different purposes; block selectively, not all at once</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<h2 id="should-you-block-ai-crawlers-entirely">Should You Block AI Crawlers Entirely?</h2>
+<p class="brt-code-caption">Different bots from the same company often serve different purposes; block selectively, not all at once</p><h2 id="should-you-block-ai-crawlers-entirely">Should You Block AI Crawlers Entirely?</h2>
 <p>This depends entirely on your goals. Tap through both perspectives.</p>
 
 <div class="brt-tabs">
@@ -348,35 +291,7 @@ function brtTest(){
 
 <p>According to <a href="https://fieldari.com/en/blog/robots-txt-complete-guide-with-examples" target="_blank" rel="noopener">Fieldari's guide to examples, rules, and mistakes</a>, the gap between what this file does and what it doesn't do is exactly where even experienced developers trip up, making a test pass before publishing a genuinely worthwhile habit.</p>
 
-<p>According to <a href="https://validatehtml.com/robots-txt-syntax" target="_blank" rel="noopener">ValidateHTML's complete syntax reference</a>, running the final file through a dedicated syntax checker catches typos and malformed directives a quick manual read-through can easily miss.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<h2 id="faqs-on-robots-txt">FAQs on Robots.txt</h2>
+<p>According to <a href="https://validatehtml.com/robots-txt-syntax" target="_blank" rel="noopener">ValidateHTML's complete syntax reference</a>, running the final file through a dedicated syntax checker catches typos and malformed directives a quick manual read-through can easily miss.</p><h2 id="faqs-on-robots-txt">FAQs on Robots.txt</h2>
 
 <div class="brt-faq-item">
 <div class="brt-faq-q">Does robots.txt prevent a page from being indexed?</div>

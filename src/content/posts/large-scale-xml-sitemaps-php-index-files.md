@@ -124,16 +124,6 @@ format: "html"
 <div class="bx-spec"><div class="v">50MB</div><div class="k">maximum uncompressed file size per sitemap, gzip doesn't change this cap</div></div>
 <div class="bx-spec"><div class="v">50,000</div><div class="k">maximum sitemap files a single index file may reference</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="xmlwriter-streaming"><span class="bx-num">02</span>Streaming a Sitemap File With XMLWriter</h2>
 <div class="bx-rule"></div>
 <p>Instead of building a DOM object in memory and serializing it at the end, PHP's XMLWriter class writes elements incrementally, directly to a file or output stream, keeping memory usage flat regardless of how many URLs you write.</p>
@@ -187,16 +177,6 @@ format: "html"
 <span class="lbl">Quick Tip</span>
 <p>Only indexable, published pages belong in the query. Unpublish a page and forget to exclude it here, and you're actively asking search engines to crawl and index content you no longer want in results, which wastes crawl budget on exactly the pages that matter least.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="sharding"><span class="bx-num">04</span>Sharding Into Multiple Files at the 50,000 Mark</h2>
 <div class="bx-rule"></div>
 <p>Once total URLs exceed 50,000, the generator needs to close the current file and open a new one automatically, rather than one script writing a single oversized file that violates the protocol.</p>
@@ -274,16 +254,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p>A documented real-world case handled 60 million URLs across 20 languages in PHP and Laravel. The team's original approach kept every processed item in memory until hitting the 50,000 limit, which meant items sat in RAM the whole time. Switching to write-and-stream in small batches, opening and closing the sitemap file as needed, was what actually made the process viable at that scale.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="gzip"><span class="bx-num">06</span>Gzip Compression Without Blowing Up Memory</h2>
 <div class="bx-rule"></div>
 <p><a href="https://lettercounter.org/blog/xml-sitemap-url-limits/" target="_blank" rel="noopener">Letter Counter's guide</a> notes gzip compression can reduce actual transfer size by 70-90% without affecting how the 50MB limit is calculated, since the cap applies to the uncompressed content. For large sitemaps, compress the already-written file rather than trying to gzip inline during the write loop.</p>

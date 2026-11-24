@@ -125,16 +125,6 @@ format: "html"
 <div class="bx-spec"><div class="v">78%</div><div class="k">of enterprise AI teams running MCP-backed agents in production by mid-2026</div></div>
 <div class="bx-spec"><div class="v">N+M</div><div class="k">total integrations needed with MCP, down from N×M without it</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="usb-c-analogy"><span class="bx-num">01</span>MCP Explained Simply: The USB-C Analogy</h2>
 <div class="bx-rule"></div>
 <p>The <a href="https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro" target="_blank" rel="noopener">official MCP documentation</a> uses the comparison that sticks best: think of MCP like a USB-C port for AI applications. Just as USB-C gives every device one standard way to connect, MCP gives AI applications one standard way to connect to external systems.</p>
@@ -151,16 +141,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p><a href="https://medium.com/@gr8nishan/what-is-model-context-protocol-mcp-a-beginner-friendly-guide-for-ai-developers-1badf2c4a4e3" target="_blank" rel="noopener">Medium contributor Nishan Jain</a> explains the problem with a simple travel-app example: a payment system expects one data format, a seat selection system expects another, a baggage service expects a third. Without MCP, you're not just sending information, you're writing separate translators for every single tool, and rewriting them whenever one changes.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="three-roles"><span class="bx-num">03</span>The Three Roles: Host, Client, Server</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.dremio.com/blog/the-model-context-protocol-mcp-a-beginners-guide-to-plug-and-play-agents/" target="_blank" rel="noopener">Dremio's guide</a> breaks down the three parts every MCP setup has: the Host is the environment where the AI model actually lives, like Claude Desktop or another AI-enabled app. The Client connects that host to servers. The Server exposes the actual tools, data, or capabilities being offered.</p>
@@ -178,16 +158,6 @@ format: "html"
 <p><a href="https://www.descope.com/learn/post/mcp" target="_blank" rel="noopener">Descope's guide</a> walks through what happens once you ask an AI assistant something that needs an outside tool: the client connects to configured servers, calls a discover method to ask what tools and resources are available, then invokes the right one and returns the result back through the model.</p>
 
 <p>The same guide notes a real, recent architecture change: as of the July 28, 2026 spec revision, remote transport became fully stateless. Earlier versions used a handshake to establish a session upfront; the current spec removes that step entirely, each request now carries everything it needs on its own.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="security"><span class="bx-num">06</span>Security: The Part Most Beginner Guides Skip</h2>
 <div class="bx-rule"></div>
 <p><a href="https://ai.plainenglish.io/mcp-model-context-protocol-explained-for-beginners-2b19e211cc58" target="_blank" rel="noopener">AI in Plain English's guide</a> is direct about this gap: when you give a model the ability to act, not just talk, you've created a new kind of risk, and it's the part most beginner explainers leave out entirely.</p>

@@ -184,11 +184,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>Everything below is production usable code, not a toy example, built around the same HTTP rules a framework would enforce anyway.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">02</span>
@@ -373,11 +368,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     <li><b>Version the API in the URL path:</b> a prefix like /v1/posts leaves room to change the response shape later without breaking existing clients.</li>
   </ul>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">09</span>
@@ -483,11 +473,6 @@ curl <span class="tok-prop">-X</span> POST https://api.example.com/posts \
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Ship a Lightweight PHP API?</h3>

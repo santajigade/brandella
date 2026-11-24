@@ -133,35 +133,6 @@ format: "html"
 
 <p>We covered the real-user counterpart to this metric in our <a href="/interaction-to-next-paint-inp-explained/" target="_blank" rel="noopener">INP guide</a>. TBT is the lab-based proxy for INP, useful specifically because INP is much harder to measure before a site is live.</p>
 
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
-
 <div class="btbt-stat-grid">
 <div class="btbt-stat-card"><div class="btbt-stat-num">30%</div><p>weight TBT carries in the overall Lighthouse performance score, the highest of any metric</p></div>
 <div class="btbt-stat-card"><div class="btbt-stat-num">50ms</div><p>is the threshold a task must exceed before it starts counting toward this metric</p></div>
@@ -216,34 +187,6 @@ format: "html"
 <p>A low reading here often correlates with a low INP, since both measure symptoms of the same underlying problem: a busy main thread. This makes it a useful early-warning signal before a site accumulates enough real traffic for INP field data to be meaningful.</p>
 </div>
 </div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="the-three-most-common-causes">The Three Most Common Causes</h2>
 <div class="btbt-table-wrap">
 <table class="btbt-table">
@@ -327,34 +270,6 @@ function btbtCalc(){
 <p>According to <a href="https://www.pagespeedmatters.com/resources/glossary/total-blocking-time" target="_blank" rel="noopener">PageSpeed Matters' 2026 guide</a>, three strategies address the underlying cause directly: code-splitting so JavaScript loads on demand, breaking long tasks into smaller chunks using the scheduler.yield() API, and deferring non-critical scripts until after the user actually interacts.</p>
 
 <p>According to <a href="https://last9.io/blog/total-blocking-time-tbt/" target="_blank" rel="noopener">Last9's guide to fixing this metric</a>, auditing third-party scripts specifically is often the fastest win, since tag managers, chat widgets, and marketing pixels frequently run unnecessary work on the main thread that the site owner never explicitly requested.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="why-mobile-devices-amplify-the-problem">Why Mobile Devices Amplify the Problem</h2>
 <p>According to <a href="https://pagevitals.com/academy/total-blocking-time/" target="_blank" rel="noopener">PageVitals' guide for website owners</a>, mid-range phones amplify long tasks significantly, so a page that looks fine on desktop often turns out to be genuinely broken-feeling on mobile hardware.</p>
 

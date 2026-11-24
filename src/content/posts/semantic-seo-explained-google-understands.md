@@ -141,34 +141,6 @@ format: "html"
 <div class="bss-stat-card"><div class="bss-stat-num">18.76%</div><p>of US search queries now trigger an AI Overview instead of a traditional results list</p></div>
 <div class="bss-stat-card"><div class="bss-stat-num">4</div><p>major NLP model generations have reshaped how Google reads content since 2013</p></div>
 </div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="how-google-s-language-understanding-evolved">How Google's Language Understanding Evolved</h2>
 <div class="bss-timeline">
 <div class="bss-tl-stops">
@@ -322,34 +294,6 @@ function bssCalc(){
   else { verdict.innerText = "Select an option for each factor to calculate your score."; }
 }
 </script>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="semantic-seo-s-role-in-ai-search-visibility">Semantic SEO's Role in AI Search Visibility</h2>
 <p>According to <a href="https://indexcraft.in/blog/strategy/semantic-seo-entity-optimization-guide" target="_blank" rel="noopener">Indexcraft's complete 2026 guide to semantic SEO and entity optimization</a>, semantic depth determines whether AI systems understand your content at all, while entity clarity determines whether they trust it enough to cite as a source.</p>
 
@@ -393,34 +337,6 @@ function bssCalc(){
 <div class="bss-faq-q">Does semantic SEO help with AI Overviews and AI search results?</div>
 <div class="bss-faq-a">Yes. The same semantic depth and entity clarity that help traditional rankings also determine whether AI systems like AI Overviews, ChatGPT, and Perplexity trust a page enough to cite it.</div>
 </div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <div class="bss-related-box">
 <h3>Related Articles</h3>
 <ul>

@@ -111,16 +111,6 @@ format: "html"
 <div class="bx-spec"><div class="v">1</div><div class="k">inline script needed in the head to prevent a flash of the wrong theme</div></div>
 <div class="bx-spec"><div class="v">0</div><div class="k">external libraries required for a complete vanilla JS implementation</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="prevent-flash"><span class="bx-num">02</span>Preventing the Flash of Wrong Theme</h2>
 <div class="bx-rule"></div>
 <p><a href="https://dev.to/wrux/super-simple-light-dark-mode-switch-38nl" target="_blank" rel="noopener">Callum's guide on DEV Community</a> gets the ordering right: this inline script needs to sit at the very top of the head, executed as early as possible, before any CSS or content renders.</p>
@@ -141,16 +131,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p><a href="https://olliewilliams.xyz/blog/dark-mode/" target="_blank" rel="noopener">Ollie Williams' guide</a> highlights a simpler native option many implementations skip: setting a meta tag with name="color-scheme" and content="light dark" lets the browser handle native form controls, scrollbars, and other built-in UI elements automatically, without any custom CSS needed for those specific pieces.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="toggle-function"><span class="bx-num">03</span>The Toggle Button Function</h2>
 <div class="bx-rule"></div>
 <p>Once the initial theme is set correctly, the toggle itself just needs to flip the class and save the new preference. <a href="https://whitep4nth3r.com/blog/best-light-dark-mode-theme-toggle-javascript/" target="_blank" rel="noopener">whitep4nth3r's guide</a> calls this the "preference cascade" in action, with the stored user preference always taking priority once it exists.</p>
@@ -206,16 +186,6 @@ body {
   transition: background-color 0.2s ease, color 0.2s ease;
 }</pre>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="listening-os-changes"><span class="bx-num">05</span>Listening for Live OS Theme Changes</h2>
 <div class="bx-rule"></div>
 <p>Some users switch their OS theme while your site is still open. <a href="https://dev.to/abbeyperini/dark-mode-toggle-and-prefers-color-scheme-4f3m" target="_blank" rel="noopener">Abbey Perini's guide</a> covers listening for this properly, but only when the user hasn't explicitly overridden the setting themselves, otherwise a manual choice would get silently overwritten.</p>

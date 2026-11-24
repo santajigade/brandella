@@ -147,34 +147,6 @@ format: "html"
 <p>If you have been following Google's Personal Intelligence rollout, you already know it started with Gmail and Google Photos. Now Calendar joins the mix, and it is not just another data source. It is the first connected app that can act on your behalf, not just read your information. That is a meaningful shift for anyone who follows AI Mode, and it is a shift you should understand if you write, market, or optimize content for search.</p>
 
 <p>In this article, we will break down exactly what changed, why Calendar is different from Gmail and Photos, what it means for everyday searchers, and what it means for marketers watching how <a href="/what-is-google-ai-mode/" target="_blank" rel="noopener">AI Mode in Google Search</a> keeps evolving. We will also look at the privacy trade-offs, because giving an AI access to your calendar is a bigger ask than giving it access to your shopping history.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-is-personal-intelligence-in-ai-mode">What Is Personal Intelligence in AI Mode?</h2>
 
 <p>Personal Intelligence is Google's system for making AI Mode responses feel personal instead of generic. Instead of giving everyone the same answer to "what should I do this weekend," Personal Intelligence lets AI Mode look at your own Gmail, your own Photos, and now your own Calendar, then shape the answer around your actual life.</p>
@@ -300,34 +272,6 @@ format: "html"
 </tbody>
 </table>
 </div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-this-means-two-perspectives">What This Means: Two Perspectives</h2>
 <p>This update lands differently depending on whether you are using AI Mode as a searcher or watching it as someone who works in SEO and <a href="/understanding-digital-marketing/">digital marketing</a>. Tap through both views below.</p>
 
@@ -401,34 +345,6 @@ function bpiCheck(){
 <p>Search Engine Land has tracked this same expansion, pointing out that Personal Intelligence pushes Google further into personalized search using first-party data, which makes results harder to replicate or rank against in the traditional sense. When a calendar, an inbox, and a photo library can all shape one answer, the old idea of a single "correct" ranking position for a query starts to blur. That is a real shift, and it is one every SEO team should be watching, not just reading about once and forgetting.</p>
 
 <p>Google has also been clear, in its own <a href="https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/" target="_blank" rel="noopener">official Personal Intelligence expansion post</a>, that transparency and control sit at the center of this feature. Every connection is opt-in, every connection can be switched off, and nothing here changes how organic content is ranked. It simply changes how the final answer is assembled for the person asking.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="faqs-on-google-calendar-and-personal-intelligence-in-ai-mode">FAQs on Google Calendar and Personal Intelligence in AI Mode</h2>
 
 <div class="bpi-faq-item">

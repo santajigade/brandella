@@ -239,10 +239,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>GA4's automatic file download detection covers nearly 30 different file extensions out of the box, according to <a href="https://support.google.com/analytics/answer/9216061?hl=en">Google's own Enhanced Measurement reference</a>, everything from PDFs and spreadsheets to <code>.zip</code> archives and <code>.mp3</code> audio files.</p>
 </div>
 
-<div class="bx-ad">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -279,10 +275,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Still setting up your container from scratch? Our <a href="/google-tag-manager-explained-for-beginners/">beginner's guide to GTM</a> is a good companion before you get to the custom cases below.</p>
 </div>
 
-<div class="bx-ad">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">03</span>
@@ -323,10 +315,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p><a href="https://www.lovesdata.com/blog/enhanced-measurement/">Loves Data's own guide to Enhanced Measurement</a> is worth a read if you want the full picture of what else it covers beyond file downloads, since duplicating an already automatic event wastes effort.</p>
 </div>
 
-<div class="bx-ad">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">05</span>
@@ -376,10 +364,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <li><b>Test the actual failure case, not just the happy path.</b> Click the long URL, the uppercase extension, and the JavaScript button specifically, the same three real gaps this guide walked through.</li>
 </div>
 
-<div class="bx-ad">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>

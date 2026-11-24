@@ -186,11 +186,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>The <a href="https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html" target="_blank" rel="noopener">OWASP Input Validation Cheat Sheet</a> treats this same distinction as foundational, and most real world security issues in PHP applications trace back to skipping one half of it.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">02</span>
@@ -359,11 +354,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     <li><b>Fail closed on unexpected shapes:</b> a field that should be a string but arrives as an array is a sign of a crafted request, not a bug to work around.</li>
   </ul>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">08</span>
@@ -471,11 +461,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Lock Down Your Form Handlers?</h3>

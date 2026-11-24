@@ -233,11 +233,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>A concrete example makes the stakes clearer. An online store testing a green checkout button against the existing blue one only learns something useful if every visitor who saw green keeps seeing green across their whole visit, and every visitor bucketed into blue never accidentally sees the other color partway through checkout. One flipped bucket in the middle of a session and that visitor's data belongs in neither group anymore.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">02</span>
@@ -321,11 +316,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     <p>Browsers cap <code>localStorage</code> per origin, typically around 5MB according to <a href="https://developer.mozilla.org/en-US/docs/Web/API/Storage_API/Storage_quota" target="_blank" rel="noopener">MDN's storage quota documentation</a>, which is enormous next to a few bytes of variant assignment. A javascript ab testing script running dozens of concurrent tests still would not come close to that ceiling.</p>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">04</span>
@@ -370,11 +360,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>Google's own <a href="https://developers.google.com/analytics/devguides/collection/ga4/events" target="_blank" rel="noopener">GA4 event reference</a> covers the parameter naming rules worth following here, mainly that a custom parameter like <code>variant</code> needs to be registered as a custom dimension in GA4's admin panel before it shows up as a usable report column, not just in the raw event stream.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">06</span>
@@ -466,11 +451,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Run Your Own First Real Test?</h3>

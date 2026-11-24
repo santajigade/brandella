@@ -154,31 +154,6 @@ format: "html"
 <div class="bx-spec"><div class="v">48px</div><div class="k">minimum tap target size Google recommends</div></div>
 <div class="bx-spec"><div class="v">16px</div><div class="k">minimum body font size to avoid the text-too-small flag</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="01text-too-small-to-read"><span class="bx-num">01</span>Text Too Small to Read</h2>
 <div class="bx-rule"></div>
 <p>According to <a href="https://sadekurrahman.com/fixing-mobile-usability-errors-in-google-search-console/" target="_blank" rel="noopener">Sadekur Rahman's 2026 complete guide to fixing mobile usability errors</a>, Google flags body text smaller than 12px, though a 16px minimum is the safer, more comfortable target.</p>
@@ -213,31 +188,6 @@ nav ul li { <span class="k">margin-bottom:</span> <span class="v">8px</span>; }
 nav ul li a { <span class="k">display:</span> <span class="v">block</span>; <span class="k">padding:</span> <span class="v">12px</span>; }</pre>
 </div>
 <p class="bx-code-caption">Draw a mental 48x48px box around every tap target; boxes shouldn't overlap</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="03content-wider-than-the-screen"><span class="bx-num">03</span>Content Wider Than the Screen</h2>
 <div class="bx-rule"></div>
 <p>According to <a href="https://pqina.nl/blog/fix-google-mobile-usability-issues/" target="_blank" rel="noopener">PQINA's guide to fixing mobile usability issues with a CSS snippet</a>, this often happens when an image or embedded element lacks a width attribute, or when CSS fails to load entirely and Googlebot sees the raw, unstyled HTML.</p>
@@ -266,31 +216,6 @@ nav ul li a { <span class="k">display:</span> <span class="v">block</span>; <spa
 &lt;meta name=<span class="v">"viewport"</span> content=<span class="v">"width=device-width, initial-scale=1"</span>&gt;</pre>
 </div>
 <p class="bx-code-caption">If this exists but is misconfigured, check that width=device-width is included exactly</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="05error-fixer-tap-to-explore"><span class="bx-num">05</span>Error Fixer, Tap to Explore</h2>
 <div class="bx-rule"></div>
 <p>Tap each error type for a one-line summary of the fix.</p>

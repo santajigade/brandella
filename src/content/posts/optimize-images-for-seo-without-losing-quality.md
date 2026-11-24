@@ -138,35 +138,6 @@ format: "html"
 
 <p>Optimize images for SEO means combining the right file format, genuine compression, descriptive naming, accurate alt text, and responsive delivery so images load fast, rank in Google Images, and still look sharp to a human visitor.</p>
 
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
-
 <p>None of these five elements works well in isolation. Skipping any one of them undermines the others.</p>
 
 <p>We covered why this matters for loading speed specifically in our <a href="/what-is-largest-contentful-paint-lcp/" target="_blank" rel="noopener">LCP guide</a>. Images are the LCP element on roughly 38% of pages, which makes image optimization one of the highest-leverage performance fixes available on most sites.</p>
@@ -222,34 +193,6 @@ format: "html"
 </div>
 
 <p>Use lowercase letters, hyphens rather than underscores, and keep the name descriptive but under roughly 80 characters. A camera-generated filename tells Google nothing about the image's content at all.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="writing-alt-text-that-actually-helps">Writing Alt Text That Actually Helps</h2>
 <p>According to <a href="https://thestacc.com/blog/image-seo-guide/" target="_blank" rel="noopener">The Stacc's 8-step image SEO guide</a>, alt text is the primary text signal Google Images uses to match an image to a search query, and pages with accurate, natural alt text consistently outrank pages with generic or keyword-stuffed alternatives.</p>
 
@@ -303,34 +246,6 @@ sharp(<span class="s">'input.jpg'</span>)
   .toFile(<span class="s">'output.webp'</span>);</pre>
 </div>
 <p class="bio-code-caption">Quality 80 typically preserves visible sharpness while cutting file size substantially</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="image-seo-score-checker">Image SEO Score Checker</h2>
 <p>Score a specific image against the five factors that actually matter.</p>
 

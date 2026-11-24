@@ -125,16 +125,6 @@ format: "html"
 <div class="bx-spec"><div class="v">30%</div><div class="k">engagement increase reported when reading time is displayed on blog posts</div></div>
 <div class="bx-spec"><div class="v">7</div><div class="k">minutes, the read time Medium found achieves the highest engagement</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="formula"><span class="bx-num">01</span>The Reading Time Formula</h2>
 <div class="bx-rule"></div>
 <p>The base formula behind every reading time calculator is straightforward: Reading Time = Word Count ÷ Words Per Minute. A 1,000-word article at 200 WPM comes out to 5 minutes.</p>
@@ -158,16 +148,6 @@ const articleText = document.querySelector('.article-content').innerText;
 const readTime = calculateReadingTime(articleText);
 document.getElementById('reading-time').innerText = `${readTime} min read`;</pre>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="images-accuracy"><span class="bx-num">03</span>Accounting for Images: The Part Most Calculators Skip</h2>
 <div class="bx-rule"></div>
 <p>Word count alone understates total engagement time for heavily illustrated content. Each image adds roughly 12-20 seconds of viewing time, decreasing slightly for each additional image as readers skim faster through a gallery. Complex tables or figures can add 30-60+ seconds for real comprehension.</p>
@@ -225,16 +205,6 @@ const readTime = calculateReadingTimeWithImages(articleText, 5);</pre>
 const result = autoReadingTime('.article-content');
 document.getElementById('reading-time').innerText = result.label;</pre>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="table"><span class="bx-num">05</span>Reading Speed Reference by Content Type</h2>
 <div class="bx-rule"></div>
 <p>Different content types genuinely need different WPM assumptions for an accurate estimate.</p>

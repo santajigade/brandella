@@ -235,11 +235,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>A javascript live search filter also has a real cost advantage over a server backed search. Every keystroke that stays entirely inside the browser is one less request hitting a backend, one less database query, and one less round trip a slow connection has to wait through, which matters most for a list that already lives on the page as plain data.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">02</span>
@@ -307,11 +302,6 @@ searchInput.addEventListener(<span class="tok-str">'input'</span>, (<span class=
 
   <p><a href="https://web.dev/articles/debounce-your-input-handlers" target="_blank" rel="noopener">web.dev's guidance on input handlers</a> covers the same trade off from a page performance angle: an undebounced handler on a large list is a common, avoidable cause of a sluggish feeling interface.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">04</span>
@@ -364,11 +354,6 @@ searchInput.addEventListener(<span class="tok-str">'input'</span>, (<span class=
 
   <p>A query that matches everything deserves the same attention as one that matches nothing. Clearing the input field entirely should restore the full original list immediately, not leave the last search's results stuck on screen, and the empty string check already built into <code>filterItems</code> from section two handles that case correctly without any extra code.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">06</span>
@@ -462,11 +447,6 @@ searchInput.addEventListener(<span class="tok-str">'input'</span>, (<span class=
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Add Real Time Search to Your Own List?</h3>

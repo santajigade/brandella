@@ -200,11 +200,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>The pattern below, cache aside, is the simplest way to put that speed in front of an existing <a href="https://dev.mysql.com/doc/" target="_blank" rel="noopener">MySQL</a> or PostgreSQL query without rewriting how the application talks to its database.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">02</span>
@@ -320,11 +315,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
   <p class="bx-shot-caption">Actual output confirming a write invalidates the stale key and the following read repopulates it.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">06</span>
@@ -445,11 +435,6 @@ redis-cli info stats | grep keyspace</code></pre>
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Speed Up Your Slowest Endpoints?</h3>

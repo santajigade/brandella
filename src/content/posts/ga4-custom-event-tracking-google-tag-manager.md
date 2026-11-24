@@ -133,35 +133,6 @@ format: "html"
 
 <p>We covered the reporting side of this in our <a href="/ga4-events-vs-conversions-difference/" target="_blank" rel="noopener">GA4 events vs conversions guide</a>. This article is the implementation half: the actual code and GTM configuration that makes a custom event exist in the first place.</p>
 
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
-
 <div class="bce-stat-grid">
 <div class="bce-stat-card"><div class="bce-stat-num">3</div><p>components make up every custom event setup: dataLayer push, trigger, and tag</p></div>
 <div class="bce-stat-card"><div class="bce-stat-num">1</div><p>line of JavaScript is often all that's needed to push a custom event to the dataLayer</p></div>
@@ -206,34 +177,6 @@ format: "html"
 </tbody>
 </table>
 </div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="step-3-create-data-layer-variables-for-your-parameters">Step 3: Create Data Layer Variables for Your Parameters</h2>
 <div class="bce-code-box">
 <pre><span class="k">Variable Type:</span> Data Layer Variable
@@ -347,34 +290,6 @@ function bceBuild(){
   document.getElementById('bceOutput').innerText = output;
 }
 </script>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="when-to-use-a-custom-event-vs-a-recommended-event">When to Use a Custom Event vs. a Recommended Event</h2>
 <p>According to <a href="https://www.analyticsmania.com/post/how-to-track-custom-events-with-google-analytics-4/" target="_blank" rel="noopener">Analytics Mania's guide to custom events in GA4</a>, Google's recommended events come with predefined parameters and are worth using whenever your interaction matches one, since analysts and future team members will recognize the naming convention immediately.</p>
 
@@ -396,34 +311,6 @@ function bceBuild(){
 <p>Once the tag fires correctly in Preview mode, switching to GA4's DebugView confirms the event and its parameters arrived at the property with the correct values before publishing the container live to real visitors.</p>
 
 <p>According to <a href="https://www.owntag.eu/blog/custom-event-tracking-ga4/" target="_blank" rel="noopener">Owntag's guide referenced earlier</a>, keeping a simple internal reference document listing every dataLayer event name, its GTM trigger, and its corresponding GA4 event name prevents naming drift as more people on a team start adding new tracking over time.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="faqs-on-ga4-custom-event-tracking">FAQs on GA4 Custom Event Tracking</h2>
 
 <div class="bce-faq-item">

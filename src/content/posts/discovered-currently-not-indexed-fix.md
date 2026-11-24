@@ -177,31 +177,6 @@ format: "html"
 <div class="bx-spec"><div class="v">4</div><div class="k">core reasons pages get stuck: slow site, low priority, page priority, crawl budget</div></div>
 <div class="bx-spec"><div class="v">No date</div><div class="k">last crawl date shown for these URLs, confirming Googlebot hasn't visited yet</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-it-means"><span class="bx-num">01</span>What "Discovered - Currently Not Indexed" Actually Means</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.onely.com/blog/how-to-fix-discovered-currently-not-indexed-in-google-search-console/" target="_blank" rel="noopener">Onely's March 2026 guide</a> defines it precisely: the status means Google knows the URL exists but has not crawled it yet. The page may have been found through internal links or an XML sitemap, but Google hasn't fetched it, so it can't be indexed. In Search Console, these URLs usually show no last crawl date at all.</p>
@@ -218,31 +193,6 @@ format: "html"
 <span class="lbl">More Pages Isn't Automatically Better</span>
 <p>Search Engine Journal's coverage documents Mueller's direct response to a large e-commerce site asking whether deindexing millions of duplicate product pages would help: the real question isn't page count, it's whether the remaining pages actually improve quality. Trimming volume without improving substance doesn't move the needle.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="discovered-vs-crawled"><span class="bx-num">03</span>Discovered vs Crawled - Currently Not Indexed</h2>
 <div class="bx-rule"></div>
 <p>Onely's guide, referenced above, draws the line that matters most for diagnosis: discovered means Google has not fetched the page at all. Crawled means Google fetched it and still declined to index it, a fundamentally different, quality-driven decision rather than a queue position.</p>
@@ -306,31 +256,6 @@ format: "html"
 <p>Ahrefs' guide, referenced above, notes there's an unofficial daily limit on manual submissions, typically 10 to 15 URLs per day, and confirms Google offers a batch Indexing API for submitting multiple URLs at once for eligible content types.</p>
 
 <p><a href="https://www.ryrob.com/discovered-currently-not-indexed-fix/" target="_blank" rel="noopener">Ryan Robinson's guide</a>, matching the video above, frames the right sequence clearly: request indexing works best after structural fixes are made, not as a substitute for them. Repeating the request on an unchanged page rarely produces a different outcome.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="cause-fix-table"><span class="bx-num">08</span>Cause vs Fix Reference Table</h2>
 <div class="bx-rule"></div>
 <p>Different root causes call for entirely different fixes, which is why diagnosis has to come before action.</p>

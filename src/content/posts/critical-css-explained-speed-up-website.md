@@ -134,35 +134,6 @@ format: "html"
 
 <p>We covered the broader render-blocking problem in our <a href="/render-blocking-resources-css-javascript/" target="_blank" rel="noopener">render-blocking resources guide</a>. Critical CSS is the specific technique for solving the CSS half of that problem without simply deleting styles visitors actually need.</p>
 
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
-
 <div class="bcc-stat-grid">
 <div class="bcc-stat-card"><div class="bcc-stat-num">1st</div><p>paint happens immediately once critical CSS is inlined, no external request needed</p></div>
 <div class="bcc-stat-card"><div class="bcc-stat-num">2</div><p>parts every setup needs: inlined critical CSS, and deferred full CSS</p></div>
@@ -229,34 +200,6 @@ format: "html"
 <strong>Where This Breaks Design</strong>
 <p>Critical CSS tools only see what renders in the initial headless browser snapshot. Hover states, JavaScript-injected classes, and content that appears after user interaction are frequently missed, causing those elements to look broken until the full stylesheet finishes loading behind them.</p>
 </div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="common-causes-of-broken-layouts-after-implementation">Common Causes of Broken Layouts After Implementation</h2>
 <div class="bcc-table-wrap">
 <table class="bcc-table">
@@ -344,34 +287,6 @@ function bccCalc(){
   else { verdict.innerText = "Low risk. Your setup already follows most safe critical CSS practices."; }
 }
 </script>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="manual-extraction-vs-automated-tools">Manual Extraction vs. Automated Tools</h2>
 <p>According to <a href="https://webeyez.com/insights/guides/critical-css-generator-free-guide" target="_blank" rel="noopener">Webeyez's guide to critical CSS generation</a>, running an extraction tool against key templates, homepage, category, product, and cart pages, produces a reusable baseline rather than requiring manual work on every single page individually.</p>
 

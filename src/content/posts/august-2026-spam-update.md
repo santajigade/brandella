@@ -130,16 +130,6 @@ format: "html"
 <div class="bx-spec"><div class="v">3rd</div><div class="k">spam update of 2026, following March and June</div></div>
 <div class="bx-spec"><div class="v">Global</div><div class="k">rollout covering all languages and regions at once</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-happened"><span class="bx-num">01</span>What Happened: The August 2026 Spam Update</h2>
 <div class="bx-rule"></div>
 <p>Google's <a href="https://status.search.google.com/incidents/LEubPCm2octf2uMqCFKE" target="_blank" rel="noopener">Search Status Dashboard</a> logged the incident directly: "Released the August 2026 spam update, which applies globally and to all languages. The rollout may take a few days to complete."</p>
@@ -156,16 +146,6 @@ format: "html"
 <span class="lbl">If Link Spam Isn't the Target, Recovery Looks Different</span>
 <p>Google's documentation draws an important distinction: link spam updates permanently strip away any ranking benefit spammy links provided, even after cleanup. Since this update isn't a link spam update, sites affected by genuine content-related violations have a real path back once they bring pages into compliance.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="comparison"><span class="bx-num">03</span>How This Compares to 2026's Earlier Spam Updates</h2>
 <div class="bx-rule"></div>
 <p>Rollout speed varies a lot between spam updates, and speed alone doesn't indicate severity. Search Engine Journal's reporting notes the March 2026 spam update was the fastest confirmed rollout in the dashboard's history, while the June 2026 update followed a separate May 15 clarification that Google's spam policies also apply to attempts to manipulate AI Overviews and <a href="/what-is-google-ai-mode/">AI Mode</a> responses.</p>
@@ -252,16 +232,7 @@ format: "html"
 <script>
 function bxCalc(){var selects=document.querySelectorAll('.bx-calc-select');var total=0;selects.forEach(function(s){var weight=parseFloat(s.getAttribute('data-weight'));var value=parseFloat(s.value);total+=weight*value;});var pct=Math.round(total);document.getElementById('bxGaugeFill').style.width=pct+'%';document.getElementById('bxGaugeScore').innerText=pct+'%';var verdict=document.getElementById('bxVerdict');if(pct>=65){verdict.innerText="Likely affected. Review your spam policy compliance and monitor closely.";}else if(pct>=30){verdict.innerText="Possibly affected. Keep watching Search Console over the next few days.";}else{verdict.innerText="Low likelihood. Continue normal monitoring as the rollout completes.";}}
 (function(){var root=document.currentScript.parentNode.querySelector('.bmc-flow')||document.querySelector('.bmc-flow');var steps=root.querySelectorAll('#bxSteps .bx-step'),sT=root.querySelector('#bxStepT'),sD=root.querySelector('#bxStepD');steps.forEach(function(s){s.addEventListener('click',function(){steps.forEach(function(x){x.classList.remove('on');});s.classList.add('on');sT.textContent=s.getAttribute('data-t');sD.textContent=s.getAttribute('data-d');});});})();
-</script>
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<h2 id="faq"><span class="bx-num">07</span>FAQs on the August 2026 Spam Update</h2>
+</script><h2 id="faq"><span class="bx-num">07</span>FAQs on the August 2026 Spam Update</h2>
 <div class="bx-rule"></div>
 <div class="bx-faq" id="bxFaq">
 <button class="bx-q">When did the August 2026 spam update start?<span class="ic">+</span></button>

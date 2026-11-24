@@ -122,35 +122,6 @@ format: "html"
 <p>X-Robots-Tag is an HTTP response header that delivers the same indexing and serving directives as a meta robots tag, noindex, nofollow, noarchive, and more.</p>
 
 <p>It applies these rules at the server level to any file type, including PDFs, images, and videos that have no HTML head to hold a meta tag at all.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <p>We covered the page-level version of these directives in our <a href="/meta-robots-tags-explained-2/" target="_blank" rel="noopener">meta robots tags guide</a>, and the crawling layer beneath both in our <a href="/robots-txt-complete-guide/" target="_blank" rel="noopener">robots.txt guide</a>. X-Robots-Tag is the piece that handles everything those two cannot.</p>
 
 <div class="bxr-stat-grid">
@@ -239,35 +210,7 @@ format: "html"
 <tr><td><code>indexifembedded</code></td><td>Allows indexing when embedded via iframe, even with noindex set</td></tr>
 </tbody>
 </table>
-</div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<h2 id="which-robots-control-should-i-use">Which Robots Control Should I Use?</h2>
+</div><h2 id="which-robots-control-should-i-use">Which Robots Control Should I Use?</h2>
 <p>Select the resource type to see the right tool for the job.</p>
 
 <div class="bxr-calc">
@@ -333,35 +276,7 @@ curl -I https://example.com/document.pdf</pre>
 <p class="bxr-code-caption">The -I flag returns headers only, showing any X-Robots-Tag present on that response</p>
 
 <h2 id="the-one-trap-shared-with-meta-robots-tags">The One Trap Shared With Meta Robots Tags</h2>
-<p>According to <a href="https://searchroost.com/blog/x-robots-tag-header-seo" target="_blank" rel="noopener">Search Roost's guide to HTTP-level index controls</a>, blocking a URL in robots.txt prevents the crawler from ever fetching it, which means any X-Robots-Tag on that response is never seen or followed either.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<h2 id="faqs-on-x-robots-tag">FAQs on X-Robots-Tag</h2>
+<p>According to <a href="https://searchroost.com/blog/x-robots-tag-header-seo" target="_blank" rel="noopener">Search Roost's guide to HTTP-level index controls</a>, blocking a URL in robots.txt prevents the crawler from ever fetching it, which means any X-Robots-Tag on that response is never seen or followed either.</p><h2 id="faqs-on-x-robots-tag">FAQs on X-Robots-Tag</h2>
 
 <div class="bxr-faq-item">
 <div class="bxr-faq-q">When should I use X-Robots-Tag instead of a meta robots tag?</div>

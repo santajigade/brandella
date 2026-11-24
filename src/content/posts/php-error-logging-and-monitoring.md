@@ -278,11 +278,6 @@ register_shutdown_function(<span class="tok-kw">function</span> () {
     <p>The <a href="https://github.com/php-fig/log" target="_blank" rel="noopener">PSR-3 logger interface</a>, maintained by the <a href="https://www.php-fig.org/psr/psr-3/" target="_blank" rel="noopener">PHP Framework Interop Group</a>, standardizes eight severity levels from debug up to emergency. Building custom log output around those same level names keeps a hand rolled logger compatible with tools that expect a PSR-3 style logger later.</p>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">03</span>
@@ -324,11 +319,6 @@ register_shutdown_function(<span class="tok-kw">function</span> () {
 
   <p>Counting entries by level this way turns a wall of raw text into a handful of numbers a threshold check can actually reason about, which is what the next section reacts to.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">05</span>
@@ -384,11 +374,6 @@ register_shutdown_function(<span class="tok-kw">function</span> () {
 
   <p>The same threshold thinking applies beyond application errors too. The token bucket limiter covered in <a href="/php-rate-limiting/" target="_blank" rel="noopener">PHP rate limiting</a> is itself a source worth logging and monitoring, since a sudden spike in rejected requests often signals an attack before it shows up anywhere else.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">07</span>
@@ -460,11 +445,6 @@ register_shutdown_function(<span class="tok-kw">function</span> () {
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Stop Missing Errors on Your Production Site?</h3>

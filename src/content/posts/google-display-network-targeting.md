@@ -306,10 +306,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </tbody>
 </table>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -347,10 +343,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>If your content strategy already leans on automated placement discovery, compare it against our <a href="/demand-gen-campaigns-explained/">Demand Gen campaigns guide</a>, since Demand Gen hands placement decisions to Google entirely while standard Display still lets you choose manually.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -364,10 +356,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>Portent's advice lines up with Google's own caution here: gather performance data first, then refine with exclusions once the numbers justify it, rather than narrowing the audience on day one based on assumptions. Demographics rarely work as a stand alone Google Display Network targeting option; they earn their keep as a layer on top of a segment or a placement list.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>
@@ -388,10 +376,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <li><b>Treating custom segments as "set and forget."</b> Revisit the keywords, URLs, and apps feeding a segment every quarter so it still matches current buyer language.</li>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-fact">
   <span class="bx-fact-label">Did You Know</span>

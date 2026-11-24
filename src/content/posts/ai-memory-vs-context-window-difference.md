@@ -122,16 +122,6 @@ format: "html"
 <div class="bx-spec"><div class="v">60-70%</div><div class="k">of an advertised context window that's typically usable in practice</div></div>
 <div class="bx-spec"><div class="v">91.6%</div><div class="k">accuracy Mem0's selective memory approach achieved, versus 72.9% for dumping full context</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="core-distinction"><span class="bx-num">01</span>AI Memory vs Context Window: The Core Distinction</h2>
 <div class="bx-rule"></div>
 <p><a href="https://mem0.ai/blog/context-window-vs-persistent-memory-why-1m-tokens-isn-t-enough" target="_blank" rel="noopener">Mem0's guide</a> states it in one clean line: a large context window handles within-session coherence. Persistent memory handles everything else, continuity across sessions, cost control at scale, and reliable retrieval of the facts that actually matter. The two are not alternatives, they're different layers of the same architecture.</p>
@@ -148,16 +138,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p><a href="https://www.ibm.com/think/topics/context-window" target="_blank" rel="noopener">IBM's documentation</a> confirms context windows have grown dramatically: some 2026 models reach up to 10 million tokens. But <a href="https://atlan.com/know/memory-layer-vs-context-window/" target="_blank" rel="noopener">Atlan's analysis</a> found real-world effective capacity runs at only 60-70% of advertised limits, the reasons are structural, not incidental, tied to how transformer attention actually works.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="memory-explained"><span class="bx-num">03</span>AI Memory vs Context Window: What Memory Actually Is</h2>
 <div class="bx-rule"></div>
 <p><a href="https://sentx.ai/blog/ai-memory-vs-context-window/" target="_blank" rel="noopener">Sentx's guide</a> gives the clearest test for telling the two apart: open a new chat and ask the assistant something it should only know from a prior session. If it answers correctly, the tool has memory. If it has no idea, it only has a context window, and everything was lost the moment the first chat ended.</p>
@@ -175,16 +155,6 @@ format: "html"
 <p><a href="https://redis.io/blog/llm-context-windows/" target="_blank" rel="noopener">Redis' guide</a> is direct about the tempting but wrong shortcut: bigger context windows alone won't get a system to production reliably. You still need infrastructure that handles caching, retrieval, and memory management on top of raw window size.</p>
 
 <p>IBM's documentation, referenced above, adds the cost dimension driving this: transformer attention cost scales quadratically with token length, so doubling input length roughly quadruples compute cost. A massive context window filled with unstructured content becomes economically impractical for high-volume production use, not just technically limited.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="benchmark"><span class="bx-num">06</span>What the Benchmark Data Actually Shows</h2>
 <div class="bx-rule"></div>
 <p>Mem0's guide, referenced above, shares concrete 2026 LoCoMo benchmark results worth knowing. Full-context baseline: 72.9% accuracy, over 26,000 tokens used, with 17.12 second latency at the 95th percentile. Their selective memory approach hit 91.6% accuracy using under 7,000 tokens on average, with latency around 1.44 seconds.</p>

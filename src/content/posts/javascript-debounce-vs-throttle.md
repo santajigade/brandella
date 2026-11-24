@@ -236,11 +236,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>Once you have watched both techniques fire in real code, the javascript debounce vs throttle distinction stops being two vocabulary words and starts being an actual design decision you make on purpose, handler by handler.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">02</span>
@@ -355,11 +350,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     <p>Pick a throttle limit that matches how often a human can actually perceive an update, usually somewhere between 100 and 250 milliseconds for a scroll or resize handler. Going much lower barely improves what a user notices while still costing extra main thread time.</p>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">06</span>
@@ -407,11 +397,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     <p><a href="https://lodash.com/" target="_blank" rel="noopener">Lodash</a>, one of the most widely used JavaScript utility libraries, ships its own <code>debounce</code> and <code>throttle</code> implementations with extra options like a leading edge call and a maximum wait time, both handled manually in the plain versions built earlier in this guide. Its <a href="https://github.com/lodash/lodash" target="_blank" rel="noopener">source on GitHub</a> is worth reading once the hand rolled version above feels familiar.</p>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">08</span>
@@ -470,11 +455,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Stop Your Event Handlers From Overworking?</h3>

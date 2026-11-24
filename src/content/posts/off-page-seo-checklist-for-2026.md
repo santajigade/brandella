@@ -134,31 +134,6 @@ format: "html"
 <div class="boc-stat-card"><div class="boc-stat-num">50/50</div><p>the ideal split between link-focused work and brand-signal work in 2026</p></div>
 <div class="boc-stat-card"><div class="boc-stat-num">5-14.5%</div><p>monthly new referring domain growth is the natural pace for top-ranking pages</p></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="boc-ad-wrap">
-    <div class="boc-ad-divider" style="margin-bottom:20px;">
-        <div class="boc-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="boc-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="boc-ad-divider" style="margin-top:20px;">
-        <div class="boc-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="boc-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <div class="boc-cat-header"><div class="boc-cat-num">1</div><h3>Backlink Foundation</h3></div>
 <div class="boc-checklist">
 <div class="boc-check-item"><div class="boc-check-box"></div><p><strong>Run a full backlink audit</strong> before launching any new acquisition campaign, per <a href="https://www.w3era.com/blog/seo/off-page-seo-checklist/" target="_blank" rel="noopener">W3era's off-page SEO checklist for 2026</a>.</p></div>
@@ -170,31 +145,6 @@ format: "html"
 
 <h2 id="protecting-the-work-link-spam-policy-discipline">Protecting the Work: Link Spam Policy Discipline</h2>
 <p>According to <a href="https://www.techprevue.com/off-page-seo-checklist/" target="_blank" rel="noopener">TechPrevue's data-ranked 2026 off-page SEO checklist</a>, reading Google's link spam policies quarterly, and stopping any tactic described there immediately, prevents a <a href="/google-november-2026-core-update/">core update</a> or manual action from making that decision for you instead.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="boc-ad-wrap">
-    <div class="boc-ad-divider" style="margin-bottom:20px;">
-        <div class="boc-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="boc-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="boc-ad-divider" style="margin-top:20px;">
-        <div class="boc-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="boc-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <div class="boc-cat-header"><div class="boc-cat-num">2</div><h3>Brand and Mention Building</h3></div>
 <div class="boc-checklist">
 <div class="boc-check-item"><div class="boc-check-box"></div><p><strong>Set up brand mention monitoring</strong> to find every place your name appears, linked or not.</p></div>
@@ -217,31 +167,6 @@ format: "html"
 <div class="boc-check-item"><div class="boc-check-box"></div><p><strong>Actively generate genuine reviews</strong>, and respond to both positive and negative feedback professionally.</p></div>
 <div class="boc-check-item"><div class="boc-check-box"></div><p><strong>List on industry-specific directories</strong> relevant to your actual niche, not generic high-volume ones.</p></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="boc-ad-wrap">
-    <div class="boc-ad-divider" style="margin-bottom:20px;">
-        <div class="boc-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="boc-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="boc-ad-divider" style="margin-top:20px;">
-        <div class="boc-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="boc-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <div class="boc-cat-header"><div class="boc-cat-num">4</div><h3>Measurement and Safety</h3></div>
 <div class="boc-checklist">
 <div class="boc-check-item"><div class="boc-check-box"></div><p><strong>Track links, mentions, rankings, and traffic monthly</strong>, not just link count alone.</p></div>

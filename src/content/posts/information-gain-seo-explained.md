@@ -134,35 +134,7 @@ format: "html"
 <strong>Important Accuracy Note</strong>
 <p>Google's patent, "Contextual estimation of link information gain," actually describes a session-level personalization mechanism: filtering redundant follow-up documents for an individual user's continued search journey, not a confirmed global ranking signal applied to every query.</p>
 <p>Search Engine Journal's Roger Montti has argued the patent is more relevant to chatbot-style follow-up interactions than traditional search rankings. Treat information gain as a genuinely useful content-quality framework, not a verified, confirmed ranking factor.</p>
-</div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<h2 id="what-google-s-patent-actually-describes">What Google's Patent Actually Describes</h2>
+</div><h2 id="what-google-s-patent-actually-describes">What Google's Patent Actually Describes</h2>
 <p>According to <a href="https://inlinks.com/insight/information-gain/" target="_blank" rel="noopener">InLinks' explanation of information gain</a>, the patent describes two sets of documents: those a user already viewed, and new candidate documents not yet shown.</p>
 
 <p>A machine learning model scores the new set based on how much unique information it adds relative to the first.</p>
@@ -195,35 +167,7 @@ format: "html"
 <tr><td>Freshness hook</td><td>Current context the existing SERP has not yet addressed</td></tr>
 </tbody>
 </table>
-</div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<h2 id="the-zero-copy-audit-a-practical-technique">The Zero-Copy Audit: A Practical Technique</h2>
+</div><h2 id="the-zero-copy-audit-a-practical-technique">The Zero-Copy Audit: A Practical Technique</h2>
 <div class="big-steps">
 <div class="big-step">
 <div class="big-step-num">1</div>
@@ -343,35 +287,7 @@ function bigCalc(){
 <h2 id="applying-this-to-an-existing-content-library">Applying This to an Existing Content Library</h2>
 <p>According to <a href="https://contadu.com/information-gain-score-what-googles-patent-means-for-your-content-strategy-2/" target="_blank" rel="noopener">Contadu's guide to what the patent means for content strategy</a>, formulating a clear thesis before writing, rather than a generic overview title, naturally pushes a draft toward covering something the existing SERP does not.</p>
 
-<p>According to <a href="https://backlinko.com/information-gain" target="_blank" rel="noopener">Backlinko's guide to how top content leaders win with information gain</a>, reviewing older, established articles against this same five-dimension framework often reveals easy opportunities to add a missing data point or expert quote without a full rewrite.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<h2 id="faqs-on-information-gain-seo">FAQs on Information-Gain SEO</h2>
+<p>According to <a href="https://backlinko.com/information-gain" target="_blank" rel="noopener">Backlinko's guide to how top content leaders win with information gain</a>, reviewing older, established articles against this same five-dimension framework often reveals easy opportunities to add a missing data point or expert quote without a full rewrite.</p><h2 id="faqs-on-information-gain-seo">FAQs on Information-Gain SEO</h2>
 
 <div class="big-faq-item">
 <div class="big-faq-q">Is information gain a confirmed Google ranking factor?</div>

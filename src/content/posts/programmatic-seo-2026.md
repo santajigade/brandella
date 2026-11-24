@@ -150,34 +150,6 @@ format: "html"
 <div class="bps-stat-card"><div class="bps-stat-num">312</div><p>pages out of 8,400 programmatic pages actually ranked on page one after three months</p></div>
 <div class="bps-stat-card"><div class="bps-stat-num">30-40%</div><p>minimum page-level content variation generally needed to avoid a thin content classification</p></div>
 </div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-programmatic-seo-actually-is">What Programmatic SEO Actually Is</h2>
 <p><a href="https://www.semrush.com/blog/programmatic-seo/" target="_blank" rel="noopener">Programmatic SEO</a> is the practice of generating large numbers of pages automatically from a template and a structured dataset, rather than writing each page individually. Programmatic SEO works best when the underlying data genuinely justifies a separate page for each entry.</p>
 
@@ -263,34 +235,6 @@ format: "html"
 <p>Tutorial-style content that depends on original expertise, opinion pieces, and any topic where the "data" is really just a keyword variation rather than a fact that changes per page are poor fits. These are better served by manually written, in-depth content.</p>
 </div>
 </div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="uniqueness-benchmarks-at-a-glance">Uniqueness Benchmarks at a Glance</h2>
 <div class="bps-table-wrap">
 <table class="bps-table">
@@ -374,34 +318,6 @@ function bpsCheck(){
 <p>This is the same principle behind writing content built for AI citations, covered in our <a href="/aeo-vs-seo-vs-geo-difference-2026/" target="_blank" rel="noopener">Generative Engine Optimization guide</a>: specific, synthesized information consistently outperforms generic, templated text, whether the reader is a person or an AI system.</p>
 
 <p>Roll the reworked template out in small batches, checking indexation and engagement at each stage rather than republishing every page at once. For a broader view of how content strategy has shifted this year, see our <a href="/category/seo/" target="_blank" rel="noopener">Google Search algorithm updates for 2026</a>.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="the-data-infrastructure-programmatic-seo-actually-needs">The Data Infrastructure Programmatic SEO Actually Needs</h2>
 <p>Most programmatic SEO failures trace back to a data problem, not a writing problem. The template is rarely the issue. The dataset feeding it usually is.</p>
 

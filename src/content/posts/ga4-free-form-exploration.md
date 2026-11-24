@@ -312,10 +312,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <div class="bx-stat"><b>10M</b><span>events per query before sampling</span></div>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -404,10 +400,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>Notice the total of 201. It matches the <code>click</code> event count in the standard Events report for the same 28 days, which is a quick way to confirm your filter is correct.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -467,10 +459,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Add a second tab with the plus button next to the tab name. You can keep a filtered version and an unfiltered version of the same report side by side.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -529,10 +517,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>Once these five are saved, your monthly reporting becomes a matter of opening Explore and changing the date range. That is the real payoff of learning the GA4 free form exploration properly.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <h2 class="bx-h2" id="faq" style="margin-top:40px">Frequently Asked Questions</h2>
 

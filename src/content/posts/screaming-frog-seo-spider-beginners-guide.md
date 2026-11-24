@@ -146,31 +146,6 @@ format: "html"
 <div class="bsf-stat-card"><div class="bsf-stat-num">300+</div><p>distinct SEO issues, warnings, and opportunities the tool can identify</p></div>
 <div class="bsf-stat-card"><div class="bsf-stat-num">2010</div><p>the year Screaming Frog first launched, now the industry-standard crawler</p></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bsf-ad-wrap">
-    <div class="bsf-ad-divider" style="margin-bottom:20px;">
-        <div class="bsf-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bsf-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bsf-ad-divider" style="margin-top:20px;">
-        <div class="bsf-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bsf-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-the-interface-actually-looks-like">What the Interface Actually Looks Like</h2>
 <div class="bsf-mockup">
 <svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg">
@@ -227,31 +202,6 @@ format: "html"
 </div>
 </div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bsf-ad-wrap">
-    <div class="bsf-ad-divider" style="margin-bottom:20px;">
-        <div class="bsf-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bsf-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bsf-ad-divider" style="margin-top:20px;">
-        <div class="bsf-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bsf-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="watch-a-full-beginner-walkthrough">Watch: A Full Beginner Walkthrough</h2>
 <div class="bsf-video-box">
 <div class="bsf-video-wrap">
@@ -280,31 +230,6 @@ format: "html"
 <p>Upload a specific list of URLs to check, rather than crawling an entire site. Useful for auditing a sitemap or checking a specific batch of pages.</p>
 </div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bsf-ad-wrap">
-    <div class="bsf-ad-divider" style="margin-bottom:20px;">
-        <div class="bsf-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bsf-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bsf-ad-divider" style="margin-top:20px;">
-        <div class="bsf-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bsf-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="step-3-the-reports-every-beginner-should-check-first">Step 3: The Reports Every Beginner Should Check First</h2>
 <div class="bsf-table-wrap">
 <table class="bsf-table">
@@ -390,31 +315,6 @@ function bsfDecide(){
 <p>By default, only 2xx pages are included, which is usually the correct choice for a real sitemap.</p>
 
 <p>To check an existing sitemap instead, switch to List mode, then Upload, and paste in the sitemap URL. This crawls every URL listed in the sitemap and flags any that return errors, redirects, or other issues a healthy sitemap shouldn't contain.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bsf-ad-wrap">
-    <div class="bsf-ad-divider" style="margin-bottom:20px;">
-        <div class="bsf-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bsf-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bsf-ad-divider" style="margin-top:20px;">
-        <div class="bsf-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bsf-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="storage-mode-database-vs-memory">Storage Mode: Database vs. Memory</h2>
 <p>According to <a href="https://www.mediasearchgroup.com/blog/screaming-frog-seo-spider-optimization/" target="_blank" rel="noopener">Media Search Group's guide referenced above</a>, Screaming Frog offers two storage modes that significantly affect crawl performance on larger sites.</p>
 

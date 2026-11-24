@@ -242,11 +242,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>A signup form, a checkout form, and a newsletter form on the same site can all share the exact same four validator functions, with only the field wiring differing between them. Writing the logic once and reusing it everywhere keeps the whole site's forms behaving consistently, instead of each page reinventing slightly different rules.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">02</span>
@@ -312,11 +307,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>A 300 millisecond window works well for a text field like email, long enough to cover a natural typing rhythm but short enough that a genuine pause still feels instant to the person typing. A slower field, like one that triggers a network lookup, might reasonably use something closer to 500 or 600 milliseconds instead.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">04</span>
@@ -364,11 +354,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>Styling the error state matters too, not only the markup. <a href="https://css-tricks.com/form-validation-ux-html5-javascript/" target="_blank" rel="noopener">CSS-Tricks' guide to form validation UX</a> recommends pairing the color change with a visible icon and border thickness change, since color alone is unreliable for a visitor with a color vision deficiency, not just for someone using a screen reader.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">06</span>
@@ -460,11 +445,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Ditch the Validation Library?</h3>

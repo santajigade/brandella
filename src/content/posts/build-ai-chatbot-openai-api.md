@@ -130,35 +130,6 @@ format: "html"
 
 <p>We covered the strategic side of AI agents in our <a href="/what-is-an-ai-agent/" target="_blank" rel="noopener">AI agent guide</a>. This article is the hands-on build: real, working code for an actual AI chatbot, end to end.</p>
 
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
-
 <div class="bai-stat-grid">
 <div class="bai-stat-card"><div class="bai-stat-num">$0.15</div><p>per 1 million input tokens using OpenAI's cost-effective gpt-4o-mini model</p></div>
 <div class="bai-stat-card"><div class="bai-stat-num">2</div><p>parts every AI chatbot needs: a backend that calls the API, and a frontend chat UI</p></div>
@@ -282,34 +253,6 @@ npm install express openai dotenv cors</pre>
 &lt;/script&gt;</pre>
 </div>
 <p class="bai-code-caption">A minimal chat UI: no framework required, just fetch() talking to your own backend</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="step-4-adding-conversation-memory">Step 4: Adding Conversation Memory</h2>
 <p>According to <a href="https://cloudinary.com/blog/quick-answers-better-experience-chatbot-openai-nodejs-react" target="_blank" rel="noopener">Cloudinary's guide to building a developer chatbot with OpenAI</a>, the model itself has no memory between separate API calls, so the full conversation array must be resent every time.</p>
 <p>The basic version above forgets everything after each message. Passing the full conversation history back to the API gives the AI chatbot actual memory.</p>
@@ -380,34 +323,6 @@ document.getElementById('baiMessages').addEventListener('input', baiEstimate);
 document.getElementById('baiTokens').addEventListener('input', baiEstimate);
 baiEstimate();
 </script>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="key-parameters-that-shape-your-ai-chatbot-s-behavior">Key Parameters That Shape Your AI Chatbot's Behavior</h2>
 <p>According to <a href="https://www.kartikkalia.in/blog/openai-chat-completion-api-tutorial/" target="_blank" rel="noopener">a complete guide to the OpenAI Chat Completion API</a>, understanding these four parameters covers most of what shapes an AI chatbot's actual behavior.</p>
 <div class="bai-table-wrap">

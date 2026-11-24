@@ -125,16 +125,6 @@ format: "html"
 <div class="bx-spec"><div class="v">1,000-1,500</div><div class="k">numbers typically making up a single text embedding's coordinates in meaning-space</div></div>
 <div class="bx-spec"><div class="v">0</div><div class="k">retraining required to update a RAG system's knowledge, just update the source documents</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="basic-idea"><span class="bx-num">01</span>Retrieval-Augmented Generation: The Basic Idea</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.ibm.com/think/topics/retrieval-augmented-generation" target="_blank" rel="noopener">IBM's documentation</a> lays out the flow in one sentence: an information retrieval model queries the knowledge base for relevant data, that data is returned, and the RAG system engineers an augmented prompt to the LLM with that added context before generating a response.</p>
@@ -151,16 +141,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p><a href="https://futureagi.com/blog/what-is-retrieval-augmented-generation-2026/" target="_blank" rel="noopener">FutureAGI's guide</a> shares a cautionary real-world example: a support agent built on RAG confidently told a customer, "Per Section 7.3 of your enterprise agreement, refunds are processed within 14 business days." The retriever had actually returned five chunks, and none of them contained Section 7.3 or mentioned refunds at all. The model invented the citation because the prompt told it to cite sources, and every dashboard still looked healthy.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="embeddings"><span class="bx-num">03</span>Embeddings and Chunking: Where RAG Quietly Breaks</h2>
 <div class="bx-rule"></div>
 <p><a href="https://ai.plainenglish.io/rag-explained-how-retrieval-augmented-generation-actually-works-0fb5470264d1" target="_blank" rel="noopener">AI in Plain English's guide</a> explains embeddings with an analogy worth remembering: imagine a giant map, but instead of geography, it represents meaning. Every sentence or paragraph gets placed somewhere based on what it means, similar meanings cluster together, different ones sit far apart. An embedding is just that piece of text's coordinates on the map.</p>
@@ -178,16 +158,6 @@ format: "html"
 <p>Atlan's guide, referenced above, names three specific failure modes production teams run into repeatedly. Security bypass, when flat vector stores with weak access control expose content to users who shouldn't see it. Lost in the middle, when long context windows stuffed with too many retrieved chunks bury the actually relevant evidence under noise.</p>
 
 <p>The third is retrieval-generation misalignment: the retriever optimizes for relevance, the generator optimizes for coherence, and when these two objectives aren't co-designed and evaluated together, the system produces fluent, confident, and factually unreliable output.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="table"><span class="bx-num">06</span>RAG vs Fine-Tuning</h2>
 <div class="bx-rule"></div>
 <p>A quick comparison of the two main ways to give a model access to new knowledge.</p>

@@ -237,11 +237,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>The savings compound across a whole site too. A single deferred request feels small on one page, but multiplied across every article on a busy blog, it adds up to a meaningful amount of bandwidth and script execution time that never has to happen for visitors who read one section and leave. A site publishing dozens of articles a month sees that saving repeated on every single one of them.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">02</span>
@@ -302,11 +297,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
   <p class="bx-shot-caption">Actual output from guard.js, run against 6 real simulated observer fires.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">04</span>
@@ -349,11 +339,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>That placeholder also needs to sit inside an ARIA live region so a screen reader announces the comments arriving, the same accessibility gap covered for empty search results in an earlier guide applies here too, silent content changes are easy for a sighted visitor to notice and easy for a screen reader user to miss entirely.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">06</span>
@@ -447,11 +432,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Trim Your Page's Below the Fold Weight?</h3>

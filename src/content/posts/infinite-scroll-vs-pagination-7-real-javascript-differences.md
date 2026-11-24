@@ -237,11 +237,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>The infinite scroll vs pagination decision also shapes how much JavaScript actually ships to the browser. Pagination can work with almost no client side script at all, a server rendering each page fresh on request, while infinite scroll fundamentally depends on client side JavaScript to detect scroll position and fetch new data without a full page reload.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">02</span>
@@ -307,11 +302,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </div>
   <p class="bx-shot-caption">Real Chromium, real scrolling, real page navigation. One grows, one doesn't.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">04</span>
@@ -353,11 +343,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p><a href="https://www.nngroup.com/articles/infinite-scrolling/" target="_blank" rel="noopener">Nielsen Norman Group's research on infinite scroll</a> raises a second concern beyond crawling: a visitor who scrolls away and then hits the back button often loses their exact scroll position entirely, landing back at the top of a feed they had already scrolled through once.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">06</span>
@@ -450,11 +435,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Pick the Right One for Your Page?</h3>

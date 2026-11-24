@@ -172,31 +172,6 @@ format: "html"
 <div class="bx-spec"><div class="v">Apr 17</div><div class="k">2026 date Google added two new bans to its rating manipulation policy</div></div>
 <div class="bx-spec"><div class="v">30%</div><div class="k">more foot traffic seen by top-rated businesses over lower-rated competitors</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="core-rule"><span class="bx-num">01</span>The Core Rule Behind Every Google Review Policy</h2>
 <div class="bx-rule"></div>
 <p>Everything Google enforces comes down to one requirement buried in its Maps user-generated content rules: a review has to be based on a real experience and accurately represent the business. Google's own <a href="https://support.google.com/contributionpolicy/answer/7400114?hl=en" target="_blank" rel="noopener">Maps user-generated content policy</a> prohibits content that isn't grounded in a genuine interaction.</p>
@@ -215,31 +190,6 @@ format: "html"
 <span class="lbl">What This Doesn't Ban</span>
 <p><a href="https://www.threechaptermedia.com/blog/google-review-policy-2026" target="_blank" rel="noopener">Threechaptermedia's coverage</a> of the update makes an important clarification: Google didn't ban customers from mentioning staff by name organically. A customer writing "Jake was fantastic" on their own is completely fine. What's prohibited is the business engineering that mention through coached requests or campaigns.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="review-gating"><span class="bx-num">03</span>Review Gating Is Banned and Now Actively Enforced</h2>
 <div class="bx-rule"></div>
 <p>Review gating means pre-screening customers by sentiment before sending them to leave a public review, usually through a satisfaction survey that routes four- and five-star responses to Google while sending anything lower to a private form.</p>
@@ -306,31 +256,6 @@ composer directly instead of the general profile page.</pre>
 </div>
 
 <p>Notice what's absent from both templates: no mention of staff names, no request for specific content, and no conditional offer. That neutrality is exactly what keeps a request compliant.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="checklist"><span class="bx-num">09</span>Compliant Review Collection Checklist</h2>
 <div class="bx-rule"></div>
 <p>Reduce friction, ask everyone the same way, and let automation handle the timing. That's the entire compliant playbook once you strip out the shortcuts.</p>

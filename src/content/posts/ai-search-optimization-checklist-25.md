@@ -121,16 +121,6 @@ format: "html"
 <div class="bx-spec"><div class="v">88%</div><div class="k">of AI Mode citations that come from outside the organic top 10 in 2026</div></div>
 <div class="bx-spec"><div class="v">57.7%</div><div class="k">of AI traffic that brand-entry pages capture, versus just 3% of AI citations</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="foundation"><span class="bx-num">01</span>AI Search Optimization Checklist: Foundation First (Items 1-5)</h2>
 <div class="bx-rule"></div>
 <p><a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" target="_blank" rel="noopener">Google's own developers guide</a> puts it plainly: generative AI models use publicly accessible, crawlable content to learn patterns and provide relevant, grounded responses. Get crawlability right, or nothing else on this checklist matters.</p>
@@ -154,16 +144,6 @@ format: "html"
 <div class="bx-tipitem"><span class="tn">9</span><span class="tt">Add FAQ and HowTo schema where relevant.</span><p class="td">The same guide pairs this directly with structure, schema helps AI systems parse which section answers which question.</p></div>
 <div class="bx-tipitem"><span class="tn">10</span><span class="tt">Never sacrifice human readability for extraction.</span><p class="td">ToTheWeb's guide, referenced above, cites Google's June 2026 confirmation that its systems can understand multiple topics on a page and surface the relevant part automatically, organize for people first.</p></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="authority"><span class="bx-num">03</span>Building Authority AI Systems Trust (Items 11-15)</h2>
 <div class="bx-rule"></div>
 <p>LocalMighty's guide, referenced above, is direct about the underlying mechanism: AI tools don't pick brands randomly, they look for sources they can verify, cross-check, and confidently reuse.</p>
@@ -187,16 +167,6 @@ format: "html"
 <div class="bx-tipitem"><span class="tn">19</span><span class="tt">Add unique value beyond common knowledge.</span><p class="td">Scalenut's guide, referenced above, warns that pages saying the same thing every other ranking page says give AI no reason to trust them as the better source.</p></div>
 <div class="bx-tipitem"><span class="tn">20</span><span class="tt">Support text with quality images and video.</span><p class="td">Google's own guide notes generative AI features can surface images and video alongside links, giving well-supported pages more surface area to appear in.</p></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="measurement"><span class="bx-num">05</span>Measurement and Ongoing Audits (Items 21-25)</h2>
 <div class="bx-rule"></div>
 <p>The last five items on this AI search optimization checklist cover the habits that separate a one-time project from an actual ongoing practice.</p>

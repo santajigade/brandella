@@ -258,11 +258,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Give every container a name with <code>container-name</code> once you have more than one nested container on the page. Without a name, an unnamed <code>@container</code> rule matches the nearest ancestor container, which gets confusing fast in a deeply nested layout.</p>
 </div>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -315,11 +310,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>You do not have to trust a table alone. <code>CSS.supports()</code> lets you check container query support at runtime, directly in the browser doing the rendering, which is exactly what we did for the real proof coming up next.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -406,11 +396,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p><a href="https://developer.chrome.com/blog/css-ui-ecommerce-cq" target="_blank" rel="noopener">Chrome's own developer blog</a> has published several real production case studies of css container queries solving exactly this kind of component layout problem, well worth a read once your first component ships.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>
@@ -449,11 +434,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>Teams tracking <a href="/core-web-vitals-2026/" target="_blank" rel="noopener">Core Web Vitals</a> in 2026 increasingly reach for container queries specifically because they replace runtime layout logic with something the rendering engine already has to compute anyway, which is a genuinely free performance win rather than a tradeoff.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">08</span>

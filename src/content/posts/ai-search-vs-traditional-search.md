@@ -122,16 +122,6 @@ format: "html"
 <div class="bx-spec"><div class="v">58%</div><div class="k">drop in position-1 organic click-through rate when an AI Overview appears on the page</div></div>
 <div class="bx-spec"><div class="v">68%</div><div class="k">of pages cited inside AI Overviews that don't even appear in the top ten organic results</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="core-difference"><span class="bx-num">01</span>AI Search vs Traditional Search: The Core Difference</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.matthewedgar.net/generative-ai-vs-traditional-search-technical-differences/" target="_blank" rel="noopener">Matthew Edgar's guide</a> states the technical distinction cleanly: traditional search is powered by an index and designed to rank results most relevant to a query. Generative AI search is powered by an LLM and designed to create a comprehensive response to the prompt directly.</p>
@@ -148,16 +138,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p><a href="https://ridgemarketing.com/blog/how-people-search-in-2026-understanding-the-split-path-model/" target="_blank" rel="noopener">Ridge Marketing's research</a> found something that explains a lot of confusing data: people are splitting their behavior by task. 37% of consumers now start searches with AI rather than Google, yet traditional search still commands roughly 90% of global search traffic. The resolution: AI tools get used for exploratory research, traditional search still dominates decision-making and purchases.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="query-style"><span class="bx-num">03</span>How Query Style Changes Everything Downstream</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.connecticallc.com/ai-search-vs-traditional-search-and-what-you-need-to-know/" target="_blank" rel="noopener">Connectica's guide</a> illustrates the shift with a direct comparison: "best digital marketing agency Florida" is a traditional keyword query. "What is the best digital agency near me that specializes in AI-search marketing?" is how the same intent shows up in an AI search box, natural language, specific, and conversational.</p>
@@ -175,16 +155,6 @@ format: "html"
 <p>Ridge Marketing's guide, referenced above, names this pattern the split-path model: AI tools for exploratory research and quick answers, traditional search engines for decision-making and purchase-stage queries. Businesses need visibility strategies for both, not a bet on one replacing the other.</p>
 
 <p><a href="https://www.2pointagency.com/blog/ai-search-vs-traditional-seo/" target="_blank" rel="noopener">2POINT Agency's guide</a> reinforces this as a layering story, not a replacement one: your existing SEO foundation still matters, and the new AI optimization layer sits directly on top of it, rather than tearing it down and starting over.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="table"><span class="bx-num">06</span>AI Search vs Traditional Search: Side by Side</h2>
 <div class="bx-rule"></div>
 <p>A quick reference comparing the two systems directly.</p>

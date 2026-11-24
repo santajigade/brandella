@@ -278,10 +278,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   </tbody>
 </table>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">03</span>
@@ -319,10 +315,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Add the exact match version of each ad group's own keywords as a negative on every sibling ad group in the same campaign, so one tightly targeted ad never steals clicks from another.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">05</span>
@@ -336,10 +328,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>Go further than a one by one read, and build a pivot table instead: each search term as a row, a count of ad groups it appears in as the value. A term spread across many ad groups is usually a sign your Google Ads negative keywords need to move up a level, from an ad group into the campaign or the shared list.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -386,10 +374,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Performance Max campaigns could hold only 100 negative keywords each, added through a Google representative, until Google raised the limit to 10,000 per campaign in March 2025 to match Search campaigns. <a href="https://www.searchenginejournal.com/google-pmax-negative-keyword-limit-increase/542336/">Search Engine Journal</a> reported the change after advertisers said the original cap felt too restrictive for real campaign management.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-faq">
   <div class="bx-faq-item open">

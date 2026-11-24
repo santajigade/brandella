@@ -117,16 +117,6 @@ format: "html"
 <div class="bx-spec"><div class="v">40%</div><div class="k">more conversions on average for advertisers using 3+ of Google's 4 best practices</div></div>
 <div class="bx-spec"><div class="v">15x</div><div class="k">your target CPA is Google's recommended minimum daily budget</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-it-is"><span class="bx-num">01</span>What Demand Gen Campaigns Actually Are</h2>
 <div class="bx-rule"></div>
 <p><a href="https://support.google.com/google-ads/answer/13695777?hl=en" target="_blank" rel="noopener">Google's own Help Center</a> defines it as campaigns that capture engagement and action across YouTube (including Shorts), Discover, Gmail, Maps, and the Google Display Network, reaching over 3 billion monthly active users with more than 50 billion daily views on Shorts alone.</p>
@@ -143,16 +133,6 @@ format: "html"
 <span class="lbl">Lookalike Segments Are Being Phased Out</span>
 <p>Aubado's 2026 guide flags a related shift worth planning around: Google began sunsetting Lookalike segments in Demand Gen starting March 2025, with full removal expected by the end of 2026. The replacement is optimized targeting, which uses your first-party audience as a seed signal rather than a strict similarity match, performing comparably once your seed audience is 5,000+ users.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="where-demand-gen-fits"><span class="bx-num">03</span>Where Demand Gen Fits vs Search and Performance Max</h2>
 <div class="bx-rule"></div>
 <p>North Country Growth's guide makes the comparison to PMax specific: Performance Max is fully automated across Search, Shopping, Display, YouTube, Discover, and Gmail with minimal transparency. Demand Gen hands back real control, placement-level exclusions, custom audience segments, and lookalike-style targeting, while running only on YouTube, Gmail, Discover, and now Display.</p>

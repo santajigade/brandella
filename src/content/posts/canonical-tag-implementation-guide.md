@@ -125,16 +125,6 @@ format: "html"
 <div class="bx-spec"><div class="v">320%</div><div class="k">increase in ranking keywords from a single canonical tag fix, from 154 to 724</div></div>
 <div class="bx-spec"><div class="v">1</div><div class="k">canonical tag allowed per page, two competing tags cause Google to ignore both</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="basic-implementation"><span class="bx-num">01</span>Canonical Tag Implementation: The Basic Rules</h2>
 <div class="bx-rule"></div>
 <p><a href="https://sentinelserp.com/blog/canonical-tags-guide" target="_blank" rel="noopener">Sentinel's guide</a> is precise about the formatting rules that quietly break implementations: the tag must appear inside the head element, reference an absolute URL including the protocol, and match the exact casing and trailing slash style of the canonical version. Relative paths work in browsers but get interpreted inconsistently by crawlers.</p>
@@ -159,16 +149,6 @@ format: "html"
   &lt;link rel="canonical" href="https://example.com/product/shoes" /&gt;
 &lt;/head&gt;</pre>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="pagination"><span class="bx-num">03</span>Pagination: The Mistake Almost Everyone Makes</h2>
 <div class="bx-rule"></div>
 <p><a href="https://searchengineland.com/canonicalization-seo-448161" target="_blank" rel="noopener">Search Engine Land's guide</a> is direct about the most damaging pagination error: canonicalizing every paginated page back to page one effectively tells Google that all deeper pages are duplicates and should be ignored. If page 2 or page 10 contains unique products or articles, they may never get crawled or indexed at all.</p>
@@ -208,16 +188,6 @@ format: "html"
 <div class="bx-code-label">Canonical for a PDF via HTTP Header</div>
 <pre>Link: &lt;https://example.com/whitepaper.pdf&gt;; rel="canonical"</pre>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="mistakes"><span class="bx-num">06</span>The Mistakes That Silently Break Implementations</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.dbeta.co.uk/blog/canonical-tags-explained-for-developers.html" target="_blank" rel="noopener">dbeta's guide</a> names the most common structural error: outputting more than one canonical tag on a single page. Google's own JavaScript SEO guidance explicitly warns that incorrect implementations can create multiple canonicals or overwrite an existing one, leading to unpredictable results.</p>

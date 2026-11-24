@@ -246,11 +246,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel" target="_blank" rel="noopener">MDN's full reference for the rel attribute</a> lists dozens of recognized values, but in day to day work, four cover almost every real use case: preload, prefetch, canonical, and alternate.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -278,11 +273,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>The <code>as</code> attribute is not optional decoration. It tells the browser what kind of request to make, which request priority to assign, and which Content Security Policy rules apply, so a <code>preload</code> link without a matching <code>as</code> value routinely gets fetched with the wrong priority or ignored outright.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">03</span>
@@ -336,11 +326,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>According to <a href="https://caniuse.com/link-rel-preload" target="_blank" rel="noopener">caniuse.com's tracking data</a>, <code>rel="preload"</code> has been reliably supported across every major browser engine for years, while <code>rel="canonical"</code> and <code>rel="alternate"</code> have been understood since the earliest days of HTML, since they describe document relationships rather than a newer performance feature.</p>
 </div>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">05</span>
@@ -392,11 +377,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p><a href="https://web.dev/articles/preload-critical-assets" target="_blank" rel="noopener">Google's own web.dev guidance on preloading critical assets</a> recommends limiting preload to genuinely render critical resources, since preloading too much simply moves congestion earlier in the load rather than removing it.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>

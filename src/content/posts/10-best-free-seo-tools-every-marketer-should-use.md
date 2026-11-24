@@ -118,31 +118,6 @@ format: "html"
 <div class="bft-stat-card"><div class="bft-stat-num">96.55%</div><p>of pages Ahrefs analyzed get zero organic traffic from Google, per their own study</p></div>
 <div class="bft-stat-card"><div class="bft-stat-num">$0</div><p>total cost to run a genuinely solid SEO workflow using this list alone</p></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bft-ad-wrap">
-    <div class="bft-ad-divider" style="margin-bottom:20px;">
-        <div class="bft-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bft-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bft-ad-divider" style="margin-top:20px;">
-        <div class="bft-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bft-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="the-foundation-google-s-own-tools">The Foundation: Google's Own Tools</h2>
 <div class="bft-tools">
 <div class="bft-tool">
@@ -181,31 +156,6 @@ format: "html"
 </div>
 </div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bft-ad-wrap">
-    <div class="bft-ad-divider" style="margin-bottom:20px;">
-        <div class="bft-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bft-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bft-ad-divider" style="margin-top:20px;">
-        <div class="bft-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bft-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="keyword-research-beyond-google-s-own-tools">Keyword Research Beyond Google's Own Tools</h2>
 <div class="bft-tools">
 <div class="bft-tool">
@@ -265,31 +215,6 @@ format: "html"
 </div>
 </div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bft-ad-wrap">
-    <div class="bft-ad-divider" style="margin-bottom:20px;">
-        <div class="bft-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bft-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bft-ad-divider" style="margin-top:20px;">
-        <div class="bft-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bft-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="quick-comparison-where-each-tool-fits">Quick Comparison: Where Each Tool Fits</h2>
 <div class="bft-table-wrap">
 <table class="bft-table">

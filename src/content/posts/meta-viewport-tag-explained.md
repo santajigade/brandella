@@ -244,11 +244,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>If you only remember one thing from this article, remember this exact string: <code>width=device-width, initial-scale=1</code>. It covers the overwhelming majority of real world cases correctly.</p>
 </div>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -311,11 +306,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 <span class="tok-cm">// no tag: 980. with width=device-width tag: 390, on the same real device</span></code></pre>
 </div>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">05</span>
@@ -347,11 +337,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>A newer value worth knowing is <code>viewport-fit=cover</code>, which tells a browser to extend the page's content behind a device's notch or rounded corners rather than leaving an unstyled black bar. It only matters on devices with that kind of screen cutout, but it is genuinely useful once one shows up in your analytics.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -395,11 +380,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>According to <a href="https://caniuse.com/viewport-unit-variants" target="_blank" rel="noopener">caniuse.com's tracking data</a>, viewport based sizing has been reliably supported across every major mobile browser for years, so a missing tag is essentially always an oversight, never a real browser compatibility limitation.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">08</span>

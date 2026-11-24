@@ -233,10 +233,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>In practice this shows up as two pain points: Interaction to Next Paint getting worse the deeper someone navigates, and Largest Contentful Paint looking fine on the first load but meaningless on every route after that. This guide on Core Web Vitals for single page applications walks through why both happen and which fixes actually move the needle.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -272,10 +268,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Astro's 2023 Web Framework Performance Report, built on real Chrome User Experience Report data, found that only roughly one in four Next.js sites and one in five Nuxt sites passed the overall Core Web Vitals assessment, while the industry wide INP pass rate sat at 60.9 percent. <a href="https://astro.build/blog/2023-web-framework-performance-report/">Astro</a> credited the gap to how much client side JavaScript these architectures ship by default.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -318,10 +310,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>The fourth fix lives inside the route transition itself: reduce how much synchronous work a single click triggers. Defer analytics and non critical widgets until after the next paint, break large render functions into smaller chunks the browser can interrupt, and use CSS transitions instead of JavaScript animation. Every millisecond trimmed there is a millisecond INP improves.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>
@@ -341,10 +329,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <li><b>Assuming a rewrite is the only option.</b> A hybrid rendering setup, not a full framework migration, usually solves most of the pain.</li>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-faq">
   <div class="bx-faq-item open">

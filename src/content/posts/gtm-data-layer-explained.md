@@ -243,11 +243,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>If you're still setting up Google Tag Manager itself, our <a href="/google-tag-manager-explained-for-beginners/">beginner's guide to GTM</a> covers the container and workspace basics this article builds on.</p>
 </div>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -300,11 +295,6 @@ window.dataLayer.push({
 
 <p>A path like <code>ecommerce.items.0.item_name</code> walks into the <code>ecommerce</code> key, then <code>items</code>, then array index <code>0</code>, then <code>item_name</code>, exactly the way this small real function does above. This is the same mechanism behind every "Data Layer Variable" you'll configure in a real container, whether it's reading a simple top level field or a deeply nested ecommerce value.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -342,11 +332,6 @@ window.dataLayer.push({
   <p>If a variable value looks like it belongs to the wrong event, check whether it's set to version 1 or version 2 before assuming the push itself is wrong. Our guide to <a href="/common-gtm-mistakes-tracking/">common GTM mistakes</a> covers several more issues that look identical to this one from the outside.</p>
 </div>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -383,11 +368,6 @@ window.dataLayer.push({
   <li><b>Nest ecommerce data under one key.</b> Matching GA4's own real schema means less remapping work inside every tag.</li>
 </div>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>

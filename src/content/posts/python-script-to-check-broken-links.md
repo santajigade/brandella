@@ -206,11 +206,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>A <a href="/how-to-detect-broken-links-javascript/" target="_blank" rel="noopener">JavaScript based checker</a> running in a browser works well for a single page. A python script to check broken links is built for the opposite case: an entire site, checked the same way, every time.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">02</span>
@@ -375,11 +370,6 @@ pip install requests beautifulsoup4 lxml pandas tenacity</code></pre>
 
   <p>Keep <code>max_workers</code> reasonable rather than maxing it out. Ten to twenty workers checks a large site quickly without hammering your own server or a third party site hard enough to trigger a block.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">06</span>
@@ -561,11 +551,6 @@ pip install requests beautifulsoup4 lxml pandas tenacity</code></pre>
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Keep Your Whole Site Link Healthy?</h3>

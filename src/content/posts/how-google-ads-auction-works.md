@@ -133,35 +133,6 @@ format: "html"
 
 <p>This connects directly to our guide on <a href="/google-ads-quality-score-explained/" target="_blank" rel="noopener">Google Ads Quality Score</a>. Quality Score is the input. The auction mechanism covered here is where that input actually gets put to work.</p>
 
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
-
 <div class="bga-stat-grid">
 <div class="bga-stat-card"><div class="bga-stat-num">~200ms</div><p>the roughly 100-300 millisecond window in which an entire ad auction resolves</p></div>
 <div class="bga-stat-card"><div class="bga-stat-num">6</div><p>factors Google's own documentation lists as making up Ad Rank</p></div>
@@ -232,34 +203,6 @@ format: "html"
 <p>Ad Rank is calculated fresh, in real time, the instant a search actually triggers your ad to compete. It incorporates Quality Score alongside bid, extensions, thresholds, and search context, none of which is ever displayed as a single visible number.</p>
 </div>
 </div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="ad-rank-estimator">Ad Rank Estimator</h2>
 <p>Enter your max bid and Quality Score to estimate your Ad Rank, then compare it against a competitor.</p>
 
@@ -352,34 +295,6 @@ function bgaCalc(){
 <p>The one with a stronger Quality Score converts that bid increase into a larger jump in Ad Rank, since the two values multiply together rather than simply adding.</p>
 
 <p>According to Google's own documentation referenced above, the competitiveness of the specific auction also matters. A crowded auction with several closely matched Ad Ranks behaves differently than a sparse one with a single dominant advertiser, even at identical bid and Quality Score levels.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="how-smart-bidding-changes-your-role-in-the-google-ads-auction">How Smart Bidding Changes Your Role in the Google Ads Auction</h2>
 <p>According to <a href="https://www.factors.ai/blog/google-ad-rank" target="_blank" rel="noopener">Factors' 2026 guide to improving Ad Rank</a>, ad extensions like sitelinks, callouts, and structured snippets can boost Ad Rank at no extra cost, since they factor directly into the expected impact of extensions component.</p>
 

@@ -179,31 +179,6 @@ format: "html"
 <div class="bx-spec"><div class="v">1,000+</div><div class="k">pages is roughly when Google says this report starts being genuinely useful</div></div>
 <div class="bx-spec"><div class="v">3</div><div class="k">main things to watch: crawl requests, response time, and host status</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-is-it"><span class="bx-num">01</span>So, What Is the Crawl Stats Report?</h2>
 <div class="bx-rule"></div>
 <p>Here's the simplest way to put it. Google's own <a href="https://support.google.com/webmasters/answer/9679690?hl=en" target="_blank" rel="noopener">Search Console Help page</a> says the Crawl Stats report shows statistics about Google's crawling history on your website, how many requests were made, what your server replied with, and any availability problems Google ran into.</p>
@@ -220,31 +195,6 @@ format: "html"
 <p>This is the part people get stuck on. <a href="https://neilpatel.com/blog/google-search-console-crawl-stats/" target="_blank" rel="noopener">Neil Patel's guide</a> points out it's not sitting in the main left-hand menu like most reports. You'll find it under Settings, then a section called Crawling, then a link that says "Open Report" next to Crawl stats.</p>
 
 <p><a href="https://rightblogger.com/blog/crawl-stats-report" target="_blank" rel="noopener">RightBlogger's 2026 guide</a> adds one thing worth knowing before you go looking: this report only shows up for root-level properties. That means your whole domain (like example.com), not a sub-folder property like example.com/blog/. If you only verified a subfolder in Search Console, you simply won't see this report.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="the-main-numbers"><span class="bx-num">03</span>The Main Numbers You'll See</h2>
 <div class="bx-rule"></div>
 <p>When the report opens, you'll see a chart and a handful of numbers. <a href="https://nkyseo.com/crawl-stats-report/" target="_blank" rel="noopener">Nkyseo's 2026 walkthrough</a> breaks it down nicely: total crawl requests tells you how active Google has been on your site, and average response time tells you how fast your server felt from Google's side.</p>
@@ -287,31 +237,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p><a href="https://edwardbate.com/resources/google-search-console-crawl-stats-guide/" target="_blank" rel="noopener">Edward Bate's guide</a> notes that "crawl budget" genuinely isn't something 95% of websites need to worry about, especially if you're under about 1,000 to 10,000 pages. It only becomes a real concern for very large sites.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="table"><span class="bx-num">07</span>A Simple Cheat Sheet for the Report</h2>
 <div class="bx-rule"></div>
 <p>Here's a quick reference so you don't have to remember everything at once.</p>

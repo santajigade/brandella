@@ -252,11 +252,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Name your tokens by role, not by appearance. <code>--bg</code> and <code>--fg</code> survive a theme change. A token literally named <code>--white</code> does not, since it stops being white the moment dark mode turns it into something else.</p>
 </div>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -346,11 +341,6 @@ document.documentElement.<span class="tok-fn">setAttribute</span>(<span class="t
 <span class="tok-cm">// --bg still resolves to #ffffff even after the OS is emulated dark again</span></code></pre>
 </div>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">05</span>
@@ -405,11 +395,6 @@ document.documentElement.<span class="tok-fn">setAttribute</span>(<span class="t
   <p>The <a href="https://www.w3.org/TR/mediaqueries-5/#prefers-color-scheme" target="_blank" rel="noopener">W3C's Media Queries Level 5 specification</a> defines <code>prefers-color-scheme</code> purely as a user preference signal, with no mechanism in the spec itself for a page to write back to it, which is exactly why the override has to live in your own markup instead.</p>
 </div>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>
@@ -436,11 +421,6 @@ document.documentElement.<span class="tok-fn">setAttribute</span>(<span class="t
 
 <p><a href="https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/" target="_blank" rel="noopener">CSS-Tricks' complete guide to dark mode</a> and <a href="https://developer.chrome.com/blog/auto-dark-theme" target="_blank" rel="noopener">Chrome's own developer blog</a> are both worth bookmarking alongside this one, since browser level automatic dark theming continues to evolve independently of anything a page author controls directly.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">08</span>

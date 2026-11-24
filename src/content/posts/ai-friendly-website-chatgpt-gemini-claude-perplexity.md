@@ -125,16 +125,6 @@ format: "html"
 <div class="bx-spec"><div class="v">3-8</div><div class="k">sources most AI engines cite per answer, out of the full web they could pull from</div></div>
 <div class="bx-spec"><div class="v">7+</div><div class="k">distinct AI bots worth individually addressing in robots.txt across four major engines</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="crawlers-vs-training"><span class="bx-num">01</span>AI-Friendly Website Setup Starts With Bot Access</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.anagram.ai/blog/ai-crawler-access-guide-2026" target="_blank" rel="noopener">Anagram's guide</a> draws the distinction that matters most: each AI company runs separate bots for different jobs. Training crawlers feed the model's knowledge base. Search-indexing bots power live retrieval. User-fetch bots grab a single page when someone explicitly asks the assistant to visit a URL.</p>
@@ -151,16 +141,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p><a href="https://trevorlasn.com/blog/google-extended-robots-txt" target="_blank" rel="noopener">Trevor Lasn's guide</a> clarifies something widely misunderstood: Google-Extended controls AI training and grounding inside Gemini Apps and Vertex AI, but it does not affect Google Search ranking or AI Overview eligibility at all. Those are governed separately, so disallowing Google-Extended won't touch your regular search visibility.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="llms-txt"><span class="bx-num">03</span>Beyond robots.txt: What llms.txt Actually Does</h2>
 <div class="bx-rule"></div>
 <p><a href="https://capston.io/blog/llms-txt-vs-robots-txt" target="_blank" rel="noopener">Capston's guide</a> draws the clean distinction: robots.txt controls access, llms.txt guides AI engines to your best content once they're already allowed in. They're complementary, not substitutes for each other.</p>
@@ -183,16 +163,6 @@ format: "html"
 <span class="lbl">Redirects Can Silently Drop AI Crawlers</span>
 <p><a href="https://captaindns.com/blog/ai-crawler-redirect-limits-2026" target="_blank" rel="noopener">CaptainDNS' 2026 research</a> found AI crawlers apply notably lower hop limits than Googlebot, typically 3 to 5 redirects before giving up. A redirect chain that passes fine for Google can wipe a page entirely from ChatGPT, Claude, or Perplexity's citation pool if it exceeds that shorter tolerance.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="code"><span class="bx-num">06</span>A Working robots.txt Configuration</h2>
 <div class="bx-rule"></div>
 <p>Here's a practical, selective configuration allowing search/retrieval bots across all four engines while keeping sensitive paths blocked.</p>

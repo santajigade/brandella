@@ -125,16 +125,6 @@ format: "html"
 <div class="bx-spec"><div class="v">0</div><div class="k">external libraries required for a working vanilla JS implementation</div></div>
 <div class="bx-spec"><div class="v">3.6KB</div><div class="k">minified size of Tocbot, a popular dependency-free reference implementation</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="basic-toc"><span class="bx-num">01</span>Basic Table of Contents Generator</h2>
 <div class="bx-rule"></div>
 <p>Query headings with a scoped selector to avoid pulling in unrelated headings from your header, sidebar, or footer. This example targets only headings inside a content container.</p>
@@ -209,16 +199,6 @@ function assignUniqueIds(headings) {
   });
 }</pre>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="accessible-nested"><span class="bx-num">03</span>Accessible, Nested Table of Contents</h2>
 <div class="bx-rule"></div>
 <p>Wrap the generated list in a nav element with an aria-label to create a proper accessible navigation landmark. This version also nests h3 headings under their parent h2, matching visual and semantic hierarchy.</p>
@@ -287,16 +267,6 @@ function assignUniqueIds(headings) {
 
 highlightActiveSection('.article-content', '#toc');</pre>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="table"><span class="bx-num">05</span>Approach Comparison</h2>
 <div class="bx-rule"></div>
 <p>A quick reference for choosing between a custom script and an off-the-shelf library.</p>

@@ -122,16 +122,6 @@ format: "html"
 <div class="bx-spec"><div class="v">17-38%</div><div class="k">overlap between top-10 Google rankings and AI-cited sources by early 2026, down from ~75%</div></div>
 <div class="bx-spec"><div class="v">4</div><div class="k">core factors that carry across ChatGPT, Perplexity, Claude, and Google AI Overviews</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="why-different"><span class="bx-num">01</span>AI Search Ranking Factors: Why the Old Playbook Broke</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.rankability.com/reports/state-of-ai-search/" target="_blank" rel="noopener">Rankability's 2026 report</a> puts the core shift in one line: ranking and citation have decoupled. Winning the old Google ranking game no longer guarantees winning the new AI visibility game.</p>
@@ -148,16 +138,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p><a href="https://www.goodfirms.co/resources/seo-statistics-ai-search-rankings-zero-click-trends" target="_blank" rel="noopener">Goodfirms' 2026 survey</a> of SEO practitioners found something rare: every single respondent agreed that trust and credibility signals are becoming more important as AI systems take over source selection. Trust has stopped being just a ranking factor and become the primary filter for AI inclusion entirely.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="authority"><span class="bx-num">03</span>Factor 1: Authority, Redefined</h2>
 <div class="bx-rule"></div>
 <p>ZeroClick Labs' guide, referenced above, is specific about what authority means in this context: domain authority still matters, but it's superseded by topical depth. Original research, consistent topical coverage, and corroboration from other credible sources carry more weight than raw backlink count alone.</p>
@@ -184,16 +164,6 @@ format: "html"
 <span class="lbl">Engines Weigh These Four Differently</span>
 <p>Attrifast's guide, referenced above, notes real variation worth knowing: Perplexity weights freshness heaviest of the four factors. Claude leans hardest on source authority, preferring Wikipedia and established publishers. Google AI Overviews almost exclusively cites pages already ranking in the organic top-10 for that query. The foundations are shared, the weighting isn't.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="table"><span class="bx-num">07</span>AI Search Ranking Factors by Engine</h2>
 <div class="bx-rule"></div>
 <p>A quick reference for how the same four foundational factors get prioritized differently by engine. For Gemini's specific grounding mechanics, see our <a href="/how-gemini-ai-finds-information-web/" target="_blank" rel="noopener">how Gemini AI finds information guide</a>.</p>

@@ -252,11 +252,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>A useful test: if you can describe what a block of markup IS, not just where it sits on the page, there is probably a semantic tag for it already. "This is the navigation" becomes <code>nav</code>. "This is the main content" becomes <code>main</code>.</p>
 </div>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -324,11 +319,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 <span class="tok-cm">// div soup: [] roles found. Semantic markup: 6 real landmark roles found.</span></code></pre>
 </div>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">05</span>
@@ -392,11 +382,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p><a href="https://web.dev/learn/html/semantic-html" target="_blank" rel="noopener">web.dev's own HTML course</a> walks through this exact refactor pattern element by element, which is a genuinely useful second pass once you have converted the obvious cases yourself.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>
@@ -425,11 +410,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p><a href="https://www.smashingmagazine.com/2013/01/the-importance-of-sections/" target="_blank" rel="noopener">Smashing Magazine's long standing guide to sectioning elements</a> remains one of the clearest walkthroughs of exactly where the line sits between a section, an article, and a plain div.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">08</span>

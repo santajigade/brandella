@@ -240,10 +240,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 </div>
 
 
- <div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 
 <div class="bx-section-head">
@@ -306,10 +302,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 // -> InvalidArgumentException: Invalid lastmod value, not real W3C datetime format</code></pre>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -360,10 +352,6 @@ echo gzencode($xml, 9);</code></pre>
 </div>
 <p class="bx-shot-caption">The gzip compressed response decodes back to the identical original XML content.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -382,11 +370,6 @@ echo gzencode($xml, 9);</code></pre>
 
 <p>Worth checking too: the same directory rule from section 01 applies just as strictly to a real deployment as it does on paper. A sitemap index served from the site root that lists a sitemap living on a completely different subdomain will genuinely be rejected, even though the file itself is perfectly valid XML. Keeping every generated file, index included, under one predictable real path avoids that entirely.</p>
 
-<div class="bx-ad">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>

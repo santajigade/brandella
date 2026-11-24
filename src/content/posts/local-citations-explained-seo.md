@@ -168,31 +168,6 @@ format: "html"
 <div class="bx-spec"><div class="v">40%</div><div class="k">more likely to appear in the Local Pack with consistent NAP data</div></div>
 <div class="bx-spec"><div class="v">2-3x</div><div class="k">more citations held by top 3 local pack results vs positions 7-10</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-are-citations"><span class="bx-num">01</span>What Are Local Citations, Explained Simply</h2>
 <div class="bx-rule"></div>
 <p>According to <a href="https://www.brightlocal.com/learn/what-are-local-citations/" target="_blank" rel="noopener">BrightLocal's guide to local citations</a>, a citation is any online mention of your business's name, address, and phone number, usually shortened to NAP, whether that mention lives on a directory, a review site, or a local news page.</p>
@@ -242,31 +217,6 @@ format: "html"
 <span class="lbl">Citations Are a Floor, Not a Ceiling</span>
 <p>According to <a href="https://www.southtowndesigns.com/seo-citations/" target="_blank" rel="noopener">Southtown Web Design's 2026 SEO citations guide</a>, citations sit in the mid-tier of local pack influences, typically fifth to seventh in importance behind reviews and on-page optimization, yet they remain a baseline requirement every other local SEO effort depends on.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="structured-unstructured"><span class="bx-num">03</span>Structured vs Unstructured Local Citations Explained</h2>
 <div class="bx-rule"></div>
 <p>According to <a href="https://www.semrush.com/blog/what-are-local-citations-in-seo/" target="_blank" rel="noopener">Semrush's overview of local citations</a>, citations come in two distinct forms, and most businesses only ever build one of them.</p>
@@ -293,31 +243,6 @@ format: "html"
 <p>According to <a href="https://www.replywiseai.com/blog/local-seo-citation-building-guide" target="_blank" rel="noopener">ReplyWise AI's 2026 citation building guide</a>, major data aggregators like Data Axle and Localeze feed your business data to hundreds of downstream directories automatically, which makes them a critical, easily overlooked starting point.</p>
 
 <p>If your details are wrong at the aggregator level, correcting a single listing manually rarely sticks. The aggregator's next data push simply overwrites your fix, which is why aggregator-level accuracy has to come before individual directory cleanup.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="citation-tiers"><span class="bx-num">06</span>Citation Source Tiers and Where to Focus</h2>
 <div class="bx-rule"></div>
 <p>According to <a href="https://www.verlua.com/blog/local-citation-building-guide" target="_blank" rel="noopener">Verlua's 2026 local citation building guide</a>, businesses should focus on 30 to 50 high-quality citations across tier-1 platforms rather than spreading effort across hundreds of low-authority directories.</p>

@@ -241,11 +241,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>OpenAI and Anthropic are far from the only two labs running crawlers against your pages. <a href="https://knownagents.com/agents" target="_blank" rel="noopener">Known Agents' own directory</a> catalogs dozens of named AI agents, assistants, and data providers across more than a dozen categories, which is a useful reality check on just how many distinct clients your AI crawlability actually needs to hold up for.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -300,11 +295,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>This is the single most useful test you can run for AI crawlability on your own site: fetch a key page with JavaScript disabled and see what is actually left. If the answer is close to nothing, that page's AI crawlability is close to nothing too, regardless of how it looks in a real browser.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -353,11 +343,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>An llms.txt file does not replace good HTML AI crawlability, it supplements it. A crawler that cannot parse your actual pages will not be helped much by a tidy index pointing at them. See our <a href="/llms-txt-explained/" target="_blank" rel="noopener">dedicated llms.txt guide</a> and our broader <a href="/ai-friendly-website-chatgpt-gemini-claude-perplexity/" target="_blank" rel="noopener">AI friendly website checklist</a> for the full setup.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -387,11 +372,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p><a href="https://web.dev/articles/rendering-on-the-web" target="_blank" rel="noopener">Google's own web.dev guidance on rendering strategies</a> makes a related point worth remembering here: the rendering approach that is best for a human visitor's speed is not automatically the one that is best for AI crawlability, since a fast, client heavy build can still leave a crawler with almost nothing to read.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>

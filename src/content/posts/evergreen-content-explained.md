@@ -138,35 +138,7 @@ format: "html"
 <div class="bec-stat-card"><div class="bec-stat-num">60%</div><p>of pages ranking in Google's top 10 are over three years old, per Ahrefs research</p></div>
 <div class="bec-stat-card"><div class="bec-stat-num">2</div><p>weeks is roughly how long a typical trend-driven post keeps generating traffic</p></div>
 <div class="bec-stat-card"><div class="bec-stat-num">80/20</div><p>is a reasonable target split between evergreen and seasonal content investment</p></div>
-</div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<h2 id="trending-traffic-vs-evergreen-traffic-visualized">Trending Traffic vs. Evergreen Traffic, Visualized</h2>
+</div><h2 id="trending-traffic-vs-evergreen-traffic-visualized">Trending Traffic vs. Evergreen Traffic, Visualized</h2>
 <div class="bec-curves">
 <div class="bec-curve-row">
 <div class="bec-curve-label">Trend-Driven Post</div>
@@ -223,35 +195,7 @@ format: "html"
 <div class="bec-callout">
 <strong>The Myth Worth Correcting</strong>
 <p>Evergreen does not mean "publish once, forget forever." According to theStacc's evergreen content guide, updating old posts systematically is one of the highest-impact content activities any site can do, and it costs less than publishing new content from scratch.</p>
-</div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<h2 id="real-examples-of-evergreen-content-types">Real Examples of Evergreen Content Types</h2>
+</div><h2 id="real-examples-of-evergreen-content-types">Real Examples of Evergreen Content Types</h2>
 <p>According to <a href="https://bloghunter.se/blog/how-to-create-powerful-evergreen-content-in-2026-step-by-step-guide" target="_blank" rel="noopener">a step-by-step guide to creating powerful evergreen content</a>, how-to guides, tutorials, and informative explainers consistently rank among the most durable formats across nearly every industry.</p>
 <div class="bec-table-wrap">
 <table class="bec-table">
@@ -366,35 +310,7 @@ function becCalc(){
 <p>According to <a href="https://www.leadershipinseo.com/p/how-to-do-evergreen-content-now" target="_blank" rel="noopener">a practical guide to doing evergreen content well</a>, shareability increasingly matters alongside search visibility, since growing reliance on AI-generated answers means a piece worth passing along directly can outperform one relying purely on search rankings.</p>
 
 <h2 id="balancing-evergreen-and-seasonal-content">Balancing Evergreen and Seasonal Content</h2>
-<p>According to InfluenceFlow's guide referenced above, most creators flip the ideal ratio, chasing crisis-driven seasonal work while neglecting evergreen fundamentals, when an 80/20 evergreen-to-seasonal split tends to produce more sustainable long-term growth.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<h2 id="faqs-on-evergreen-content">FAQs on Evergreen Content</h2>
+<p>According to InfluenceFlow's guide referenced above, most creators flip the ideal ratio, chasing crisis-driven seasonal work while neglecting evergreen fundamentals, when an 80/20 evergreen-to-seasonal split tends to produce more sustainable long-term growth.</p><h2 id="faqs-on-evergreen-content">FAQs on Evergreen Content</h2>
 
 <div class="bec-faq-item">
 <div class="bec-faq-q">What makes content genuinely evergreen?</div>

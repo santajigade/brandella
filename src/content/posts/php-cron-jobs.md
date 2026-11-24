@@ -198,11 +198,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>A script that works perfectly when run by hand can fail the moment cron runs it, often for reasons that never show up anywhere because nothing was watching for them.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">02</span>
@@ -299,11 +294,6 @@ fclose(<span class="tok-val">$handle</span>);</code></pre>
 
   <p>A cron job that reads an external feed file should never trust its contents blindly either. The same validation habits covered in <a href="/validating-and-sanitizing-user-input-in-php-forms/" target="_blank" rel="noopener">validating and sanitizing user input in PHP forms</a> apply just as much here, since a cron job has no user in front of it to notice a bad value before it reaches the database.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">05</span>
@@ -452,11 +442,6 @@ echo <span class="tok-str">"exit code: $?"</span></code></pre>
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Make Every Scheduled Task Reliable?</h3>

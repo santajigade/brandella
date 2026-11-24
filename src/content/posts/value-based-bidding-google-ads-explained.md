@@ -122,16 +122,6 @@ format: "html"
 <div class="bx-spec"><div class="v">30+</div><div class="k">conversions in 30 days typically needed before a value-based strategy can perform well</div></div>
 <div class="bx-spec"><div class="v">Aug 17</div><div class="k">2026 date budget-limited tCPA/tROAS campaigns stop over-delivering past target</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-it-is"><span class="bx-num">01</span>What Value Based Bidding Actually Does</h2>
 <div class="bx-rule"></div>
 <p><a href="https://support.google.com/google-ads/answer/15099424?hl=en" target="_blank" rel="noopener">Google's own documentation</a> defines it as a subset of Smart Bidding that optimizes campaigns based on the value a conversion brings to your business, either maximizing conversion value within budget or hitting a specific Target ROAS. That's different from conversion-based bidding, which chases volume regardless of what each conversion is actually worth.</p>
@@ -148,16 +138,6 @@ format: "html"
 <span class="lbl">The August 17 Change Is the One That Actually Affects Performance</span>
 <p>JumpFly's coverage flags the real behavioral shift: starting August 17, 2026, budget-limited campaigns using tCPA or tROAS get pulled closer to their literal stated target instead of quietly overperforming it. A campaign set to a $25 tCPA that's been delivering $14 conversions will get steered toward $25, not left alone at $14. Google will not adjust your targets automatically, that's a manual review you need to make yourself.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="setup-requirements"><span class="bx-num">03</span>What You Need Before Switching to Value Based Bidding</h2>
 <div class="bx-rule"></div>
 <p>Google's requirements are specific. For Demand Gen campaigns, you need at least 50 conversions with value in the past 35 days, including a minimum of 10 in the past 7 days, or 100 conversions with value across all Demand Gen campaigns in 35 days. For Search and Shopping value-based experiments, you need at least two unique, non-zero conversion values already being tracked.</p>

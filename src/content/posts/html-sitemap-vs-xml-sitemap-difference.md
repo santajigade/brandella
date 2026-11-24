@@ -128,35 +128,6 @@ format: "html"
 <p>An HTML sitemap is a visible page on a website, a hyperlinked list of pages designed for human visitors to navigate.</p>
 
 <p>An XML sitemap is a machine-readable file listing every important URL, built specifically for search engine crawlers, and is not meant to be viewed by regular visitors at all.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <p>We covered how to actually build the machine-readable version in our <a href="/build-xml-sitemap-generator-php/" target="_blank" rel="noopener">XML sitemap generator guide</a>. This article explains why both formats exist, and why most sites genuinely benefit from having each one.</p>
 
 <div class="bhx-stat-grid">
@@ -219,35 +190,7 @@ format: "html"
 <div id="bhx-html" class="bhx-tab-panel">
 <p>An HTML sitemap gives visitors a scannable overview when navigation menus or search bars fail to surface what they're actually looking for, particularly useful on large, deeply structured sites.</p>
 </div>
-</div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<h2 id="the-internal-linking-benefit-most-sites-miss">The Internal Linking Benefit Most Sites Miss</h2>
+</div><h2 id="the-internal-linking-benefit-most-sites-miss">The Internal Linking Benefit Most Sites Miss</h2>
 <p>According to <a href="https://searchenginezine.com/technical/crawl-index/xml-vs-html-sitemaps/" target="_blank" rel="noopener">Search Engine Zine's guide to why you need both sitemap types</a>, an HTML sitemap provides a clean, flat architecture of internal links, distributing authority to deeper pages that might otherwise stay buried behind pagination or complex navigation menus.</p>
 
 <h2 id="how-search-engines-treat-each-file-differently">How Search Engines Treat Each File Differently</h2>
@@ -311,35 +254,7 @@ function bhxDecide(){
     out.innerText = "Prioritize the XML sitemap. New sites benefit most from faster, more efficient search engine discovery.";
   }
 }
-</script>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<h2 id="keeping-both-files-accurate-over-time">Keeping Both Files Accurate Over Time</h2>
+</script><h2 id="keeping-both-files-accurate-over-time">Keeping Both Files Accurate Over Time</h2>
 <p>A common failure mode is setting either file up once and never revisiting it again. As a site grows, adds new sections, or retires old pages, both files can quietly drift out of sync with what actually exists.</p>
 
 <p>Most automated tools handle the machine-readable version well, regenerating it whenever content changes. The human-facing version tends to need more deliberate maintenance, since it typically reflects an editorial structure rather than a simple database query.</p>
@@ -388,35 +303,7 @@ function bhxDecide(){
 <li><a href="/how-google-crawls-websites/" target="_blank" rel="noopener">How Google Crawls Websites: From Discovery to Indexing</a></li>
 <li><a href="/how-to-write-seo-friendly-blog/" target="_blank" rel="noopener">How to Write SEO-Friendly Blog Posts That Rank on Google</a></li>
 </ul>
-</div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<div class="bhx-learn">
+</div><div class="bhx-learn">
 <h3>What We Learn Today</h3>
 <div class="bhx-learn-grid">
 <div class="bhx-learn-card"><p>HTML sitemaps serve humans; XML sitemaps serve search engine crawlers</p></div>

@@ -123,16 +123,6 @@ format: "html"
 <div class="bx-spec"><div class="v">3</div><div class="k">hard requirements: secure context, user gesture, and (for reads) explicit permission</div></div>
 <div class="bx-spec"><div class="v">0</div><div class="k">DOM selection hacks needed, unlike the deprecated execCommand approach</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="basic-implementation"><span class="bx-num">02</span>The Basic writeText Implementation</h2>
 <div class="bx-rule"></div>
 <p><a href="https://web.dev/articles/async-clipboard" target="_blank" rel="noopener">web.dev's guide</a> shows the minimal working version: call writeText() inside a click handler, await the promise, and handle both outcomes explicitly.</p>
@@ -162,16 +152,6 @@ document.<span class="tok-fn">getElementById</span>(<span class="tok-str">'copy-
 <span class="lbl">Quick Tip</span>
 <p>Never call writeText() from a setTimeout callback, a promise chain triggered on page load, or any handler not directly tied to a click or keypress. Browsers track "user activation" as a short-lived signal, and async work inside the handler can sometimes outlive it, causing the write to fail silently.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="why-it-fails"><span class="bx-num">03</span>Why It Silently Fails: The Honest Version</h2>
 <div class="bx-rule"></div>
 <p><a href="https://cekrem.github.io/posts/clipboard-api-how-hard-can-it-be/" target="_blank" rel="noopener">Cekrem's writeup</a> is unusually candid about the real-world experience: running on plain HTTP means no clipboard at all, per spec. On some browsers you need explicit permission. On others it only works during an active user gesture. On yet others it silently fails if the tab isn't focused. Safari has its own special requirements on top of all that.</p>
@@ -252,16 +232,6 @@ button.<span class="tok-fn">addEventListener</span>(<span class="tok-str">'click
 <span class="lbl">Quick Tip</span>
 <p>Use aria-live="polite" rather than "assertive" for copy confirmations. Assertive interrupts whatever the screen reader is currently announcing, which feels jarring for a low-stakes confirmation message that isn't time-critical.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="rich-content"><span class="bx-num">06</span>Copying Rich Content With ClipboardItem</h2>
 <div class="bx-rule"></div>
 <p>Beyond plain text, the API supports writing multiple representations of the same data at once through ClipboardItem, letting a single copy action paste as formatted HTML into Notion or Google Docs, while still falling back to plain text in a basic text editor.</p>

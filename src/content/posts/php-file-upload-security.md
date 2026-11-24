@@ -188,11 +188,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>Real PHP file upload security checks what a file actually is, controls where it lands, and limits what can ever happen to it after that. The <a href="https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html" target="_blank" rel="noopener">OWASP File Upload Cheat Sheet</a> covers this exact set of concerns in more depth and is worth bookmarking alongside this article.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">02</span>
@@ -329,11 +324,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>The first version of this function only sanitized the original filename and kept whatever extension was left after stripping the null byte, which let <code>innocent.jpg\0.php</code> through with a <code>.php</code> extension intact. Deriving the extension from the verified MIME type instead of the client supplied name closes that gap completely.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">06</span>
@@ -479,11 +469,6 @@ max_file_uploads = <span class="tok-val">5</span></code></pre>
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Lock Down Every Upload Endpoint?</h3>

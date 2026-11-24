@@ -128,35 +128,6 @@ format: "html"
 
 <p>This connects directly to the measurement work we covered in our <a href="/ga4-events-vs-conversions-difference/" target="_blank" rel="noopener">GA4 events vs conversions guide</a>. UTM parameters are what tell GA4 which campaign a session belongs to before that session ever has a chance to convert.</p>
 
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
-
 <div class="butm-stat-grid">
 <div class="butm-stat-card"><div class="butm-stat-num">5</div><p>standard UTM parameters exist, though only three are strictly required</p></div>
 <div class="butm-stat-card"><div class="butm-stat-num">0</div><p>SEO impact UTM parameters have; Google ignores them completely when indexing</p></div>
@@ -263,34 +234,6 @@ function butmCheck(){
   document.getElementById('butm-check-result').innerText = msg;
 }
 </script>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="building-a-utm-parameter-naming-framework-for-your-team">Building a UTM Parameter Naming Framework for Your Team</h2>
 <p>According to <a href="https://markanamedia.com/blog/utm-parameters-campaign-tracking-guide/" target="_blank" rel="noopener">Markana Media's 2026 UTM parameters guide</a>, different channels genuinely need different conventions. Email campaigns should identify the sending platform as the source, with medium always set to email, while paid social needs its own separate structure entirely.</p>
 
@@ -318,34 +261,6 @@ function butmCheck(){
 <p>Consistent tagging across every one of those touchpoints is what makes multi-touch attribution possible at all, rather than crediting only the last click before conversion.</p>
 
 <p>This is exactly why the setup work described earlier matters so much more than it initially seems. A single inconsistent tag early in a customer's journey can distort attribution models built weeks or months later, long after the original mistake has been forgotten.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="governance-keeping-tagging-consistent-over-time">Governance: Keeping Tagging Consistent Over Time</h2>
 <p>New hires, new agencies, and new tools all introduce fresh opportunities for naming drift, even after an initial cleanup succeeds.</p>
 

@@ -116,16 +116,6 @@ format: "html"
 <div class="bx-spec"><div class="v">-70%</div><div class="k">typical rootMargin offset used to trigger highlighting before a section reaches page center</div></div>
 <div class="bx-spec"><div class="v">1</div><div class="k">active class applied at a time, removed from all others on every intersection change</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="basic-highlight"><span class="bx-num">01</span>Basic Scroll Highlighting With IntersectionObserver</h2>
 <div class="bx-rule"></div>
 <p>The core pattern: observe every heading in the content, and whenever one crosses the intersection threshold, remove the active class from all table of contents links and add it to the one matching that heading's ID.</p>
@@ -167,16 +157,6 @@ highlightActiveHeading('.article-content', '#toc');</pre>
 <span class="lbl" style="color:#3f9421;">💡 Quick Tip</span>
 <p style="color:#2e5c1a;">Start with -70% and adjust from there by watching your actual page in DevTools. A value that feels right on a short blog post can feel too aggressive on a dense documentation page with many closely-spaced headings, so treat it as a tunable setting, not a fixed constant.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="last-section"><span class="bx-num">03</span>Handling the Short Last Section Edge Case</h2>
 <div class="bx-rule"></div>
 <p><a href="https://benfrain.com/building-a-table-of-contents-with-active-indicator-using-javascript-intersection-observers/" target="_blank" rel="noopener">Ben Frain's writeup</a> on building a table of contents with the Intersection Observer API documents this exact edge case: when a heading tag stops intersecting the viewport at the bottom versus the top, the correct behavior differs. A common bug is that the final heading on a page is often too short to ever cross a 70% rootMargin threshold, since there isn't enough content below it to push the viewport that far. This version explicitly checks for scroll position near the bottom of the page and force-activates the last heading.</p>
@@ -247,16 +227,6 @@ highlightActiveHeading('.article-content', '#toc');</pre>
 
 highlightWithFixedHeader('.article-content', '#toc', 80);</pre>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="css-example"><span class="bx-num">05</span>Styling the Active State</h2>
 <div class="bx-rule"></div>
 <p>The JavaScript only toggles a class, actual visual styling belongs in CSS. A simple, effective active-link style just needs a color and weight change, plus a smooth transition.</p>

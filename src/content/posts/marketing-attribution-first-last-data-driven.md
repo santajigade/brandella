@@ -122,16 +122,6 @@ format: "html"
 <div class="bx-spec"><div class="v">6-8</div><div class="k">average touchpoints in a B2B buyer journey before conversion, sometimes reaching 10+</div></div>
 <div class="bx-spec"><div class="v">2023</div><div class="k">the year Google formally removed first-click, linear, time-decay, and position-based from its live products</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="first-click"><span class="bx-num">01</span>Marketing Attribution: First Click Explained</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.triplewhale.com/blog/last-click-attribution" target="_blank" rel="noopener">Triple Whale's guide</a> defines it directly: first-click attribution gives 100% of conversion credit to the very first touchpoint a customer had with your brand, whether that's an ad click or an initial site visit.</p>
@@ -148,16 +138,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p><a href="https://weltpixel.com/blogs/news/ga4-attribution-models-shopify-data-driven-vs-last-click" target="_blank" rel="noopener">WeltPixel's guide</a> points out a detail most marketers miss: last-click attribution specifically excludes direct visits from consideration, unless direct was the only touchpoint. If a customer clicked an ad, then returned later by typing your URL directly, the ad still gets the credit, not "Direct."</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="data-driven"><span class="bx-num">03</span>Marketing Attribution: Data-Driven Explained</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.medfluenceadvisors.com/blog/marketing-attribution-in-2026-why-last-click-logic-doesnt-work-anymore/" target="_blank" rel="noopener">Medfluence Advisors' guide</a> explains the mechanism plainly: data-driven attribution uses machine learning to estimate which touchpoints actually influenced conversion, comparing converting paths against non-converting ones rather than applying a fixed rule to every journey.</p>

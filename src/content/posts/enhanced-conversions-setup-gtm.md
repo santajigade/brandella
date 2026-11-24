@@ -239,10 +239,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>New to Tag Manager itself? Our <a href="/google-tag-manager-explained-for-beginners/">beginner's guide to GTM</a> covers containers and workspaces before you get here.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -271,10 +267,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>For a checkout flow where the conversion itself happens on a later page than where the customer actually typed their email, <a href="https://developers.google.com/tag-platform/tag-manager/server-side/ads-user-data">Google's own documentation on the separate <code>User-Provided Data Event</code> tag</a> covers capturing that data early and forwarding it, rather than requiring it to live on the exact same page as the conversion event itself.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -333,10 +325,6 @@ sha256Hex('johndoe@gmail.com')
   <p>If a conversion consistently reports zero enhanced conversions matches despite the setup looking correct, check tag firing order first, before assuming the data itself is the problem.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -350,10 +338,6 @@ sha256Hex('johndoe@gmail.com')
 
 <p>That distinction matters because a site that only checks <code>ad_storage</code> before attaching enhanced conversions data is checking the wrong signal, and can end up sending hashed personal data to Google Ads even when a visitor specifically declined that transmission.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>

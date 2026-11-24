@@ -268,10 +268,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>An audit of over 374,000 domains by <a href="https://ahrefs.com/blog/hreflang-study">Ahrefs</a> found that 56.3 percent of sites using hreflang tags were missing an <code>x-default</code> fallback entirely, making it the single most common gap in real world implementations.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -310,10 +306,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>As Helen Pollitt, Head of SEO at Getty Images, put it in a <a href="https://www.searchenginejournal.com/ask-an-seo-what-are-the-most-common-hreflang-mistakes/556455/">Search Engine Journal interview</a>, getting hreflang tags right matters because "search engines being confused over which version of a page to show" is exactly the outcome you are trying to avoid.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -327,10 +319,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>It also helps to confirm your <a href="https://searchengineland.com/guide/international-seo">overall international site structure</a> before you fix individual tags, since this annotation layered on top of an inconsistent folder or subdomain structure tend to break again the next time someone reorganizes the site.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>
@@ -349,10 +337,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Re run a full hreflang tags audit on a schedule, quarterly at minimum, and immediately after any domain or URL structure change.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-faq">
   <div class="bx-faq-item open">

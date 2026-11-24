@@ -166,31 +166,6 @@ format: "html"
 <div class="bx-spec"><div class="v">3</div><div class="k">major tools (Moz, Ahrefs, Semrush) score the same site differently</div></div>
 <div class="bx-spec"><div class="v">#1</div><div class="k">factor: unique linking root domains, not total backlink count</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="01the-same-site-three-different-scores"><span class="bx-num">01</span>The Same Site, Three Different Scores</h2>
 <div class="bx-rule"></div>
 <p>According to <a href="https://backlinko.com/increase-domain-authority" target="_blank" rel="noopener">Backlinko's 7 proven ways to increase Domain Authority in 2026</a>, this discrepancy exists because each tool crawls the web independently and weighs signals differently. None is more "correct" than the others.</p>
@@ -217,31 +192,6 @@ format: "html"
 <div class="bx-check-item"><div class="bx-check-icon"></div><p><strong>Diversify link sources</strong> across guest posts, digital PR, and resource pages rather than one channel alone.</p></div>
 <div class="bx-check-item"><div class="bx-check-icon"></div><p><strong>Favor topical relevance</strong> over raw authority when choosing where to pursue a link.</p></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="03the-spam-score-myth"><span class="bx-num">03</span>The Spam Score Myth</h2>
 <div class="bx-rule"></div>
 <p>According to <a href="https://growresolve.com/grow-your-domain-authority/" target="_blank" rel="noopener">Resolve's guide to what Domain Authority is and how to improve it</a>, a stray low-quality link, or one from a site that has since gone downhill, will not get you penalized.</p>
@@ -275,31 +225,6 @@ format: "html"
 <p>According to <a href="https://smithdigital.io/blog/improve-domain-authority" target="_blank" rel="noopener">Smith Digital's guide to increasing Domain Authority in 2026</a>, buying backlinks or flooding low-quality directories may boost numbers briefly, but Google is quick to identify artificial patterns. Authority increasing too fast without legitimate signals can trigger a review, or a drop.</p>
 
 <p>According to <a href="https://www.searchlogistics.com/learn/seo/link-building/increase-domain-authority/" target="_blank" rel="noopener">Search Logistics' guide to increasing Domain Authority in 2026</a>, DA is relative, calculated by comparing your site's link profile against the broader web rather than measured on some fixed, absolute standard.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="06why-your-score-can-drop-even-when-you-ve-done-nothing-wrong"><span class="bx-num">06</span>Why Your Score Can Drop Even When You've Done Nothing Wrong</h2>
 <div class="bx-rule"></div>
 <p>According to <a href="https://www.joinindexed.com/blog/how-to-improve-moz-domain-authority" target="_blank" rel="noopener">Indexed's guide referenced above</a>, Moz periodically recalibrates its model against the wider web. A score can dip simply because the sites you're benchmarked against grew faster, not because your own profile weakened at all.</p>

@@ -238,11 +238,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>This matters most on the exact pages where a timer like this gets used the heaviest: a flash sale banner, a limited stock warning, or a launch page counting down to when a product actually becomes available for purchase. Each of those pages tends to get real traffic spikes right as the deadline approaches, exactly when a busy main thread is most likely to cause the drift described above.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">02</span>
@@ -299,11 +294,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     <div class="bx-shot-caption">Real Chromium output: after a real 2.5 second main thread block, the target based timer shows the correct time, the naive counter is a full second behind.</div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">04</span>
@@ -349,11 +339,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p><a href="https://web.dev/learn/accessibility/more-than-vision" target="_blank" rel="noopener">web.dev's broader accessibility guidance</a> makes a related point worth keeping in mind here: a design decision made for one group, like a quiet countdown for screen reader users, usually ends up helping a much wider set of visitors too, including anyone reading the page on a slow connection or a small screen.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">06</span>
@@ -447,11 +432,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Build a Timer That Doesn't Lie?</h3>

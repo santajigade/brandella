@@ -239,11 +239,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Always end a <code>&lt;picture&gt;</code> block with a real <code>&lt;img&gt;</code> tag, even if you've already listed three <code>&lt;source&gt;</code> candidates. Browsers that don't support the HTML picture element, and every screen reader's accessible name calculation, both fall back to that final image.</p>
 </div>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -303,11 +298,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Order matters. A browser stops at the first <code>&lt;source&gt;</code> whose <code>type</code> it supports, so always put the smallest, newest format first and the widest, oldest format last.</p>
 </div>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -355,11 +345,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <li><b>Reserve srcset alone for pure resolution switching.</b> Save the full picture wrapper for art direction or format negotiation, not as a default habit.</li>
 </div>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -412,11 +397,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>A third mistake is duplicating <code>alt</code> text on a <code>&lt;source&gt;</code> tag, which the spec doesn't recognize at all; it's simply ignored, and the one place it actually counts is the fallback <code>&lt;img&gt;</code>. If large product photography is part of your page, our guide to <a href="/optimize-images-for-seo-without-losing-quality/">optimizing images for SEO without losing quality</a> pairs well with everything covered here, since compression and format choice happen before the HTML picture element ever gets involved in delivery, a step Google's own <a href="https://developers.google.com/search/docs/appearance/google-images">image SEO best practices</a> also treats as the foundation everything else builds on. And if the page in question is judged on <a href="/what-is-largest-contentful-paint-lcp/">Largest Contentful Paint</a>, getting the right candidate to load first is often the single biggest lever you have.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-faq">
   <div class="bx-faq-item open">

@@ -324,10 +324,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>Notice the Measurement ID in that panel too. It starts with <code>G-</code> and is the same ID your Google tag uses on every page.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -400,10 +396,6 @@ link_text:    <span class="tok-str">Read the datasheet</span>
 outbound:     <span class="tok-val">true</span></code></pre>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -471,10 +463,6 @@ outbound:     <span class="tok-val">true</span></code></pre>
   <p>Parameters like <code>link_url</code> are collected but do not show as report dimensions until you register them. Our guide to <a href="https://brandella.in/custom-dimensions-in-ga4/">custom dimensions in GA4</a> shows the exact steps.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -531,10 +519,6 @@ outbound:     <span class="tok-val">true</span></code></pre>
 
 <p><a href="https://analytify.io/ga4-enhanced-measurement/" target="_blank" rel="noopener">Analytify's complete guide</a> makes the same point: the feature captures key actions with no extra code, which frees your custom tracking budget for the interactions that are unique to your business.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <h2 class="bx-h2" id="faq" style="margin-top:40px">Frequently Asked Questions</h2>
 

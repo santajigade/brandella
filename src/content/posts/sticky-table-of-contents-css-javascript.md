@@ -123,16 +123,6 @@ format: "html"
 <div class="bx-spec"><div class="v">3</div><div class="k">common traps that silently break position: sticky without any console error</div></div>
 <div class="bx-spec"><div class="v">2026</div><div class="k">year an experimental CSS-only scrollspy method (scroll-target-group) began shipping</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="basic-css"><span class="bx-num">02</span>The Basic Sticky CSS</h2>
 <div class="bx-rule"></div>
 <p>Here's the minimal CSS to pin a table of contents sidebar in place while the rest of the page scrolls past it.</p>
@@ -160,16 +150,6 @@ format: "html"
 <span class="lbl">Quick Tip</span>
 <p>The parent must not have overflow: hidden, and the sticky element needs a defined top value to work at all. Both are silent failures, position: sticky won't throw an error, it just quietly behaves like position: static instead.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="tall-toc"><span class="bx-num">03</span>Handling a TOC Taller Than the Viewport</h2>
 <div class="bx-rule"></div>
 <p>A long table of contents can exceed the visible screen height, getting clipped instead of scrolling with the page. Setting max-height and overflow-y: auto on the sticky container, as shown above, lets the TOC itself scroll internally once it runs out of vertical room.</p>
@@ -232,16 +212,6 @@ format: "html"
 <span class="lbl">Quick Tip</span>
 <p>This feature is only available in the latest Chromium browsers as of 2026, so always wrap it in an @supports feature query and keep your JavaScript IntersectionObserver version as a fallback for Firefox and Safari users.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="table"><span class="bx-num">06</span>Approach Comparison</h2>
 <div class="bx-rule"></div>
 <p>A quick reference for choosing between the traditional and emerging approaches.</p>

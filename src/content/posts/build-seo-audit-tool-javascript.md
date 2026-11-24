@@ -139,16 +139,6 @@ format: "html"
 <div class="bx-spec"><div class="v">150-160</div><div class="k">characters, the safe range for meta descriptions before SERP truncation</div></div>
 <div class="bx-spec"><div class="v">5</div><div class="k">core checks cover most of what a lightweight audit tool actually needs</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="title-meta-checks"><span class="bx-num">02</span>Checking Title and Meta Description</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.siteguru.co/free-seo-tools/onpage-seo-check" target="_blank" rel="noopener">SiteGuru's on-page checker</a> treats these two as foundational: does the page have a title and description, and are they within the length range search engines display without truncating.</p>
@@ -185,16 +175,6 @@ format: "html"
   <span class="tok-kw">return</span> { check: <span class="tok-str">'Meta Description'</span>, status: <span class="tok-str">'pass'</span>, message: <span class="tok-str">`Description length OK (${length} chars)`</span> };
 }</pre>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="heading-check"><span class="bx-num">03</span>Checking Heading Hierarchy</h2>
 <div class="bx-rule"></div>
 <p>This connects directly to the rules covered in our <a href="/html-heading-structure-best-practices/" target="_blank" rel="noopener">heading structure best practices guide</a>: one H1, and no skipped levels when opening a new section.</p>
@@ -267,16 +247,6 @@ format: "html"
   <span class="tok-kw">return</span> { check: <span class="tok-str">'Canonical Tag'</span>, status: <span class="tok-str">'pass'</span>, message: <span class="tok-str">'Single canonical tag present'</span> };
 }</pre>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="running-scoring"><span class="bx-num">05</span>Running All Checks and Scoring the Result</h2>
 <div class="bx-rule"></div>
 <p>Combine every check into one runner function that returns a structured report with a numeric score, weighting a failed check more heavily than a warning.</p>

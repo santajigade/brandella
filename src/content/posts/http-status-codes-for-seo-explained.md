@@ -139,31 +139,6 @@ format: "html"
 <div class="bhc-stat-card"><div class="bhc-stat-num">Days</div><p>vs. weeks: how much faster 410 de-indexes a page compared to a plain 404</p></div>
 <div class="bhc-stat-card"><div class="bhc-stat-num">0</div><p>link equity preserved when a permanent move uses 302 instead of 301</p></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bhc-ad-wrap">
-    <div class="bhc-ad-divider" style="margin-bottom:20px;">
-        <div class="bhc-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bhc-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bhc-ad-divider" style="margin-top:20px;">
-        <div class="bhc-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bhc-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="the-five-status-code-classes">The Five Status Code Classes</h2>
 <div class="bhc-classes">
 <div class="bhc-class-card c2"><div class="num">2xx</div><p>Success</p></div>
@@ -203,31 +178,6 @@ rewrite ^/old-page\.html$ https://www.example.com/new-page permanent;</pre>
 <p>For discontinued products, deleted accounts, retired campaigns, or content removed for legal reasons. Google processes 410 faster, typically within days.</p>
 </div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bhc-ad-wrap">
-    <div class="bhc-ad-divider" style="margin-bottom:20px;">
-        <div class="bhc-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bhc-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bhc-ad-divider" style="margin-top:20px;">
-        <div class="bhc-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bhc-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <div class="bhc-code-box">
 <pre><span class="c"># Apache: serve a proper 410 for permanently removed content</span>
 Redirect 410 /discontinued-product</pre>
@@ -266,31 +216,6 @@ Retry-After: 3600</pre>
 </tbody>
 </table>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bhc-ad-wrap">
-    <div class="bhc-ad-divider" style="margin-bottom:20px;">
-        <div class="bhc-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bhc-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bhc-ad-divider" style="margin-top:20px;">
-        <div class="bhc-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bhc-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="the-4xx-codes-beyond-404">The 4xx Codes Beyond 404</h2>
 <p>According to <a href="https://seranking.com/blog/seo-http-status-codes/" target="_blank" rel="noopener">SE Ranking's complete list of HTTP status codes for SEO experts</a>, 401 Unauthorized and 403 Forbidden indicate access restrictions rather than missing content, and should never appear on pages meant to be publicly indexed.</p>
 

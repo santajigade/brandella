@@ -177,31 +177,6 @@ format: "html"
 <div class="bx-spec"><div class="v">45-50</div><div class="k">links per page where traffic peaks before each additional link adds little value</div></div>
 <div class="bx-spec"><div class="v">5-15</div><div class="k">broken internal links found on the average website, each one a silent equity leak</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-is-link-equity"><span class="bx-num">01</span>What Link Equity Actually Is</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.rhinorank.io/blog/link-equity-guide/" target="_blank" rel="noopener">Rhino Rank's 2026 guide</a> defines it precisely: link equity is the authority, trust, and ranking power that passes from one page to another through a hyperlink. When Page A links to Page B, a portion of Page A's accumulated value transfers to Page B, and search engines treat that as a vote of confidence.</p>
@@ -218,31 +193,6 @@ format: "html"
 <span class="lbl">Your Strongest Pages Should Link Deliberately</span>
 <p><a href="https://cloud22.com/link-equity-for-seo" target="_blank" rel="noopener">Cloud22's walkthrough of the concept</a> puts it well: a page that receives external backlinks and then links to other internal pages can amplify authority across your entire site structure. Category pages, product pages, and pillar content often rank well precisely because they sit at the center of many internal pathways.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-determines-value"><span class="bx-num">03</span>What Determines How Much Equity a Link Passes</h2>
 <div class="bx-rule"></div>
 <p><a href="https://pielab.io/link-equity/" target="_blank" rel="noopener">Pielab's guide</a> identifies the factor most people overlook first: not all links pass value the same way. Links from authoritative, topically relevant websites typically transfer more equity than links from low-quality or unrelated sources.</p>
@@ -298,31 +248,6 @@ format: "html"
 <p>SEOShouts' guide, referenced above, calls these equity leaks: pages or links that waste authority instead of routing it productively. Every site has them, and finding the leaks is often faster than building new backlinks to compensate.</p>
 
 <p>Broken internal links are the most common leak. Semrush's analysis of 10 million pages found the average website carries 5 to 15 broken internal links, and each one sends equity into a dead end. The source page still spends one of its link slots on that broken link, reducing what flows to working destinations, while the broken page itself receives nothing useful.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="redirects"><span class="bx-num">07</span>How 301 Redirects Pass Link Equity</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.practicalecommerce.com/the-right-way-to-pass-pagerank" target="_blank" rel="noopener">Practical Ecommerce's technical SEO reference</a> traces the history of this specific question: in 2013, Google's then-webspam lead Matt Cutts confirmed 301 redirects pass most PageRank to a destination page, though not necessarily all of it. In 2016, Google's Gary Illyes clarified that 301 and 302 redirects retain all PageRank.</p>

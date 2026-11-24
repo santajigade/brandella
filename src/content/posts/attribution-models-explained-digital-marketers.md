@@ -122,16 +122,6 @@ format: "html"
 <div class="bx-spec"><div class="v">400</div><div class="k">conversions minimum for data-driven attribution to activate per key event</div></div>
 <div class="bx-spec"><div class="v">90 days</div><div class="k">typical lookback window GA4 evaluates before assigning conversion credit</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-they-are"><span class="bx-num">01</span>Attribution Models Explained: The Basics</h2>
 <div class="bx-rule"></div>
 <p><a href="https://stape.io/blog/marketing-attribution-models" target="_blank" rel="noopener">Stape's guide</a> defines it cleanly: an attribution model is a set of rules that determines how credit for a conversion gets distributed across the various touchpoints or channels involved in the customer journey.</p>
@@ -148,16 +138,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p>A January 2026 survey of 500 senior US decision-makers found independent incrementality testing earned more trust than any in-platform system, ahead of media mix modeling and well ahead of standard reporting. These tools remain useful, but increasingly as one input, not the final word.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="dda"><span class="bx-num">03</span>Data-Driven Attribution: How It Actually Works</h2>
 <div class="bx-rule"></div>
 <p><a href="https://optimizesmart.com/blog/ga4-attribution-models-explained-how-to-choose-the-right-one/" target="_blank" rel="noopener">Optimizesmart's guide</a> describes the mechanism: DDA uses your own account's unique conversion data, analyzing both converting and non-converting user paths, to determine how much each touchpoint actually contributed. It's a counterfactual model, estimating what would have happened without a given touchpoint.</p>
@@ -171,17 +151,7 @@ format: "html"
 <p>Conversios' guide, referenced above, is direct about when the second option makes sense: use it only if your marketing relies almost entirely on Google Ads, or your team specifically needs Google-centric reporting for internal alignment.</p>
 
 <h2 id="april-2026"><span class="bx-num">05</span>The April 2026 Recalibration Trap</h2>
-<div class="bx-rule"></div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<p><a href="https://qlikmatrix.com/blog/sem/ga4-attribution-model-change-2026/" target="_blank" rel="noopener">QlikMatrix's guide</a> documents a real, current confusion point: in April 2026, Google recalibrated the data-driven attribution model itself. Accounts saw Search campaigns lose 15-20% of attributed conversions with nothing else in the account changed, budgets, targeting, and creative all untouched.</p>
+<div class="bx-rule"></div><p><a href="https://qlikmatrix.com/blog/sem/ga4-attribution-model-change-2026/" target="_blank" rel="noopener">QlikMatrix's guide</a> documents a real, current confusion point: in April 2026, Google recalibrated the data-driven attribution model itself. Accounts saw Search campaigns lose 15-20% of attributed conversions with nothing else in the account changed, budgets, targeting, and creative all untouched.</p>
 
 <div class="bx-note">
 <span class="lbl">The Data Didn't Disappear, the Model Changed</span>

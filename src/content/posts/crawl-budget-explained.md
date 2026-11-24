@@ -136,34 +136,6 @@ format: "html"
 <div class="bcb-stat-card"><div class="bcb-stat-num">8,000</div><p>out of 50,000 product pages indexed in one documented ecommerce crawl budget case</p></div>
 <div class="bcb-stat-card"><div class="bcb-stat-num">2MB</div><p>is roughly where Googlebot starts truncating a page's source HTML during a crawl</p></div>
 </div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="where-your-crawl-budget-actually-goes">Where Your Crawl Budget Actually Goes</h2>
 <p>On most mid-to-large sites, crawl activity is not evenly split between valuable and wasted pages. A meaningful share often goes toward URLs that never should have been crawled in the first place.</p>
 
@@ -239,34 +211,6 @@ format: "html"
 <span class="k">Allow:</span> /</pre>
 </div>
 <p class="bcb-code-caption">Blocking common low-value parameter and session URLs from being crawled at all</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="small-site-or-crawl-budget-problem-check-both-sides">Small Site or Crawl Budget Problem? Check Both Sides</h2>
 <p>Not every indexing issue is actually a crawl budget issue. Tap through both scenarios to see which one matches your situation.</p>
 
@@ -344,34 +288,6 @@ function bcbCheck(){
 <p>Next, clean up redirect chains. According to <a href="https://www.captaindns.com/en/blog/crawl-budget-optimization" target="_blank" rel="noopener">CaptainDNS's 2026 crawl budget guide</a>, every hop in a chain costs a separate request, so pointing redirects directly to their final destination recovers meaningful crawl capacity on large sites.</p>
 
 <p>Finally, strengthen internal linking to your priority pages. According to <a href="https://www.crawlvision.com/blog/crawl-budget-optimization-boost-crawl-efficiency/" target="_blank" rel="noopener">CrawlVision's guide to crawl efficiency</a>, a smarter internal linking structure helps guide Googlebot toward the pages that actually matter, rather than leaving discovery to chance.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-log-file-analysis-reveals-that-search-console-doesn-t">What Log File Analysis Reveals That Search Console Doesn't</h2>
 <p>Search Console's Crawl Stats report gives a useful overview, but it aggregates data in ways that can hide specific problems. Server log files show exactly which URLs Googlebot requested, when, and how often.</p>
 

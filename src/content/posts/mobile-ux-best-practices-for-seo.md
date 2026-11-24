@@ -158,31 +158,6 @@ format: "html"
 <div class="bx-spec"><div class="v">44-48px</div><div class="k">minimum tap target size, per Apple and Google guidelines</div></div>
 <div class="bx-spec"><div class="v">3-5</div><div class="k">primary navigation destinations keeps choices scannable</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="01design-for-the-thumb-zone"><span class="bx-num">01</span>Design for the Thumb Zone</h2>
 <div class="bx-rule"></div>
 <p>According to <a href="https://www.brandvm.com/post/mobile-ux-best-practices" target="_blank" rel="noopener">Brand Vision's 2026 guide to mobile UX interaction patterns</a>, on a phone held one-handed, the lower and center portion of the screen is the natural reach zone. The upper third requires a grip shift or a second hand.</p>
@@ -212,31 +187,6 @@ format: "html"
 <div class="bx-check-item"><div class="bx-check-icon"></div><p><strong>Avoid multi-level dropdown menus</strong>, which are genuinely difficult to operate on small screens.</p></div>
 <div class="bx-check-item"><div class="bx-check-icon"></div><p><strong>Anchor navigation to the bottom</strong> where possible, rather than defaulting to a top-only hamburger icon.</p></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="03tap-target-sizing-apple-vs-google"><span class="bx-num">03</span>Tap Target Sizing: Apple vs. Google</h2>
 <div class="bx-rule"></div>
 <p>According to <a href="https://www.mobileviewer.io/blog/mobile-ux-design-15-best-practices-for-2026" target="_blank" rel="noopener">Mobile Viewer's 15 mobile UX design best practices for 2026</a>, Apple's Human Interface Guidelines recommend a 44x44 point minimum, while Google's Material Design suggests 48x48 dp, both accounting for the average size of a finger pad.</p>
@@ -292,31 +242,6 @@ button:active {
 &lt;input type=<span class="v">"number"</span> inputmode=<span class="v">"numeric"</span>&gt;</pre>
 </div>
 <p class="bx-code-caption">The right type attribute saves a visitor from hunting for the @ symbol on a default keyboard</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="06accessibility-is-not-optional"><span class="bx-num">06</span>Accessibility Is Not Optional</h2>
 <div class="bx-rule"></div>
 <div class="bx-note">

@@ -125,16 +125,6 @@ format: "html"
 <div class="bx-spec"><div class="v">2.8%</div><div class="k">of tested domains were found "fully protected" against bot traffic in a 2025 global report</div></div>
 <div class="bx-spec"><div class="v">4</div><div class="k">layers needed for real GA4 bot filtering: internal, hostname, engagement, and server-side</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-ga4-catches"><span class="bx-num">01</span>What GA4's Built-In Bot Filter Actually Catches</h2>
 <div class="bx-rule"></div>
 <p><a href="https://support.google.com/analytics/answer/9888366?hl=en" target="_blank" rel="noopener">Google's own documentation</a> confirms known bot and spider traffic is automatically excluded, identified through a combination of Google's own research and the IAB/ABC International Spiders and Bots List. You cannot disable this, and you cannot see how much traffic it removed.</p>
@@ -151,16 +141,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p><a href="https://enalitica.com/blog/how-to-detect-and-block-bot-traffic-in-ga4" target="_blank" rel="noopener">Enalitica's case study</a> found a store's GA4 reporting 30,000 monthly visits while Google Search Console showed only about 30 real clicks a day. Roughly 1,000 genuine visits were hiding inside 30,000 reported ones, and the owner had been making real decisions based on the fake number.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="layer-1-internal"><span class="bx-num">03</span>Layer 1: Internal Traffic and Developer Filters</h2>
 <div class="bx-rule"></div>
 <p>KISSmetrics' guide, referenced above, lays out the four-layer approach worth building. Layer one is the easiest: turn on internal traffic filters for your own office, agency, and vendor IP ranges, so your own team's activity never pollutes the data.</p>
@@ -194,17 +174,7 @@ format: "html"
 </div>
 
 <h2 id="layer-4-serverside"><span class="bx-num">06</span>Layer 4: Server-Side Detection for the Rest</h2>
-<div class="bx-rule"></div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<p><a href="https://www.clickfortify.com/blog/detect-and-filter-bot-traffic-in-ga4" target="_blank" rel="noopener">ClickFortify's guide</a> is honest about what this layer is for: sophisticated bot traffic runs a real browser, executes JavaScript, and often rides residential IP addresses. It looks exactly like a person in GA4's standard reports.</p>
+<div class="bx-rule"></div><p><a href="https://www.clickfortify.com/blog/detect-and-filter-bot-traffic-in-ga4" target="_blank" rel="noopener">ClickFortify's guide</a> is honest about what this layer is for: sophisticated bot traffic runs a real browser, executes JavaScript, and often rides residential IP addresses. It looks exactly like a person in GA4's standard reports.</p>
 
 <p><a href="https://e-dialog.group/en/blog/exclude-bot-traffic-in-a-sensible-way/" target="_blank" rel="noopener">e-dialog's guide</a> walks through the mechanic: mark traffic using a "traffic_type" parameter in Google Tag Manager, either client-side or through a server container, then build a GA4 filter that only accepts hits carrying that flag.</p>
 

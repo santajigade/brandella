@@ -123,16 +123,6 @@ format: "html"
 <div class="bx-spec"><div class="v">0</div><div class="k">times your API key should ever appear in frontend, client-visible code</div></div>
 <div class="bx-spec"><div class="v">2-5s</div><div class="k">typical generation latency for a single image on most hosted APIs</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="server-setup"><span class="bx-num">02</span>Setting Up the Server-Side Route</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.aiimagedetector.com/blog/stable-diffusion-api" target="_blank" rel="noopener">AI Image Detector's guide</a> is direct about the non-negotiable first rule: don't put the key in frontend code, don't log full authorization headers, and don't start with bulk generation. Start with one request, confirm you can parse the response, and record metadata to trace the image later.</p>
@@ -186,16 +176,6 @@ app.<span class="tok-fn">post</span>(<span class="tok-str">'/api/generate-image'
 <span class="lbl">Quick Tip</span>
 <p>Notice the API key is read from process.env, never hardcoded, and the fetch call happens entirely inside the Express route, on the server. If you ever see an image-generation API key inside a script tag, a client-side bundle, or committed to a public repo, treat that as a security incident requiring an immediate key rotation, not a minor oversight.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="response-formats"><span class="bx-num">03</span>Handling Three Different Response Formats</h2>
 <div class="bx-rule"></div>
 <p>AI Image Detector's guide, referenced above, is specific about a source of confusion for beginners: Stable Diffusion-style APIs commonly return one of three things, a signed image URL, raw binary, or a base64 string inside JSON. Your code needs to handle whichever your provider actually sends.</p>
@@ -262,16 +242,6 @@ app.<span class="tok-fn">post</span>(<span class="tok-str">'/api/generate-image'
   <span class="tok-kw">throw</span> <span class="tok-kw">new</span> <span class="tok-fn">Error</span>(<span class="tok-str">'Max retries exceeded'</span>);
 }</pre>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="seo-use-case"><span class="bx-num">05</span>A Practical SEO Use Case: Auto-Generating OG Images</h2>
 <div class="bx-rule"></div>
 <p><a href="https://modelslab.com/image-generation-api" target="_blank" rel="noopener">ModelsLab's API documentation</a> notes one genuinely useful application connects directly to social preview cards: generating a unique image per article automatically at publish time, rather than manually designing one. This ties directly into our <a href="/open-graph-tags-twitter-cards-explained/" target="_blank" rel="noopener">Open Graph and Twitter Cards guide</a>, which covers the 1200x630 sizing every generated image should target.</p>

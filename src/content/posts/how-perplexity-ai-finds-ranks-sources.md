@@ -122,16 +122,6 @@ format: "html"
 <div class="bx-spec"><div class="v">3-8</div><div class="k">sources typically cited per answer, out of 5-15 pages initially retrieved</div></div>
 <div class="bx-spec"><div class="v">46.7%</div><div class="k">of top Perplexity citations that come from Reddit alone</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="how-it-works"><span class="bx-num">01</span>How Perplexity AI Finds Sources: The Basic Model</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work" target="_blank" rel="noopener">Perplexity's own Help Center</a> confirms the fundamental mechanic: when you ask a question, it uses AI to search the internet in real time, gathering insights from top-tier sources, then distills that information into a clear, cited summary.</p>
@@ -148,16 +138,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p>Even at the LLM synthesis stage, accuracy isn't guaranteed. AuthorityTech's guide, referenced above, cites research finding frontier models achieve only 39-77% factual accuracy when citing sources at scale, and accuracy drops roughly 42% as retrieval depth increases. Clean, unambiguous claims genuinely reduce the odds of your content being misattributed or skipped entirely.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="reddit"><span class="bx-num">03</span>Why Reddit Dominates Perplexity's Citations</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.stackmatix.com/blog/perplexity-ai-optimization-strategy" target="_blank" rel="noopener">StackMatix's guide</a> states the number plainly: Reddit accounts for 46.7% of top Perplexity citations. Authentic, non-promotional participation in relevant subreddits is described as the single highest-leverage tactic for earning AI citations right now.</p>
@@ -175,16 +155,6 @@ format: "html"
 <p>ZipTie's guide, referenced above, cites a specific structural pattern found in 90% of top-cited sources: they answer the core question within the first 100 words. This "Bottom Line Up Front" pattern means Perplexity's retrieval system consistently favors pages where the direct answer appears early, not buried under a long narrative introduction.</p>
 
 <p>The same guide adds a measurable boost from structured data: schema-enabled pages achieve a 47% Top-3 citation rate compared to 28% without it, and pages using Person schema with author credentials see 2.3x higher citation rates specifically.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="two-gates"><span class="bx-num">06</span>Two Separate Gates: Retrieval and Absorption</h2>
 <div class="bx-rule"></div>
 <p><a href="https://authoritytech.io/blog/how-to-get-cited-in-perplexity-ai-2026" target="_blank" rel="noopener">AuthorityTech's citation guide</a> draws a distinction most content strategies miss entirely: passing retrieval selection (is your page even found?) is not the same as passing answer absorption (does your evidence actually shape the response?). Passing only one is not enough.</p>
@@ -195,16 +165,6 @@ format: "html"
 <span class="lbl">Technical Access Is Non-Negotiable</span>
 <p>Layer3 Labs' guide, referenced above, flags a foundational requirement worth checking first: PerplexityBot's user agent must be explicitly allowed in your robots.txt file to be crawled at all. No amount of great content matters if the crawler can't reach the page in the first place.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="table"><span class="bx-num">07</span>Perplexity vs Traditional Google Ranking</h2>
 <div class="bx-rule"></div>
 <p>A quick comparison of what actually drives visibility in each system.</p>

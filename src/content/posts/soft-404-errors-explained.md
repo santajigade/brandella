@@ -183,31 +183,6 @@ format: "html"
 <div class="bx-spec"><div class="v">5-10%</div><div class="k">of affected pages is often the point where experts say act immediately</div></div>
 <div class="bx-spec"><div class="v">2010</div><div class="k">the year Google first started reporting this issue to site owners</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-is-it"><span class="bx-num">01</span>Okay, So What Exactly Is a Soft 404?</h2>
 <div class="bx-rule"></div>
 <p><a href="https://yoast.com/what-is-a-soft-404-error/" target="_blank" rel="noopener">Yoast's explanation</a> puts it really simply: this happens when your server sends a "200 OK" message for a page, but Google decides that page really should have returned a 404 instead. Maybe the content looks like an error page, or maybe there's just nothing there.</p>
@@ -224,31 +199,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p>Soft 404 isn't an official HTTP status code at all. Reliablesoft's guide, referenced above, points out it's really just a label Google's own systems apply after visiting a page and deciding, on their own, that it looks like an error page even though the server said everything was fine.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="common-causes"><span class="bx-num">03</span>The Most Common Causes</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.digitalupward.com/blog/soft-404-errors-causes-fixes-and-prevention/" target="_blank" rel="noopener">Digital Upward's 2026 guide</a> lists the usual suspects: broken or invalid URLs, deleted pages that redirect everyone to the homepage instead of somewhere relevant, and CMS platforms that quietly generate blank pages without you even noticing.</p>
@@ -286,31 +236,6 @@ format: "html"
 <p><a href="https://www.conductor.com/academy/index-coverage/faq/submitted-soft-404/" target="_blank" rel="noopener">Conductor's academy guide</a> is refreshingly direct about the main fix: if a page really should be gone, make sure it actually returns a proper 404 or 410 status code instead of a sneaky 200 OK. Once you do that, Google removes it from the index and the issue closes on its own.</p>
 
 <p>If the page should exist and just needs help, the fix is different. <a href="https://onewebcare.com/blog/soft-404-error-fix/" target="_blank" rel="noopener">Onewebcare's May 2026 guide</a> sums it up well: add meaningful content, fix any broken redirects, and make sure your CMS or page builder (Elementor and similar tools are common culprits) isn't quietly generating blank templates.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="cause-fix-table"><span class="bx-num">07</span>Quick Reference: Cause and Fix</h2>
 <div class="bx-rule"></div>
 <p>Here's a simple table to match what you're seeing with what to actually do about it.</p>

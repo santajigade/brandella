@@ -122,16 +122,6 @@ format: "html"
 <div class="bx-spec"><div class="v">8.4x</div><div class="k">growth in Google.com self-citations within AI Mode between April and June 2026</div></div>
 <div class="bx-spec"><div class="v">1B</div><div class="k">monthly active users on Google AI Mode, confirmed at Google I/O 2026</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="fan-out"><span class="bx-num">01</span>Google AI Mode's Core Mechanism: Query Fan-Out</h2>
 <div class="bx-rule"></div>
 <p><a href="https://verseodin.com/blog/how-to-get-cited-in-google-ai-mode" target="_blank" rel="noopener">VerseOdin's guide</a> explains the mechanism plainly: query fan-out is what decides what gets pulled into an AI Mode answer in the first place. When a query comes in, Google's systems assess its complexity and intent, then decide how aggressively to fan it out into sub-queries.</p>
@@ -148,16 +138,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p>ALM Corp's research, referenced above, found the self-citation pattern used to be almost entirely local. As recently as June 2025, 97.9% of Google's self-citations pointed to Google Business Profiles for restaurants, mechanics, and dental clinics. By February 2026, AI Mode had expanded this to route informational, navigational, and transactional queries through Google properties too, not just local ones.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="decoupling"><span class="bx-num">03</span>Why Ranking Well No Longer Guarantees a Citation</h2>
 <div class="bx-rule"></div>
 <p><a href="https://firstmotion.com/insights/how-google-ai-mode-and-ai-overviews-select-sources" target="_blank" rel="noopener">FirstMotion's guide</a> documents the decoupling with real numbers: in July 2025, 76% of AI Overview citations came from pages ranking in the organic top 10. By March 2026, that figure had fallen to just 38%, a 50% relative decline in eight months.</p>
@@ -175,16 +155,6 @@ format: "html"
 <p>FirstMotion's guide, referenced above, draws a distinction worth understanding: AI Overviews focus on informational queries and cite passages rather than entire pages, correlating more strongly with organic rankings than AI Mode does, though that correlation has weakened significantly through 2026.</p>
 
 <p><a href="https://discoveredlabs.com/blog/how-google-ai-overviews-works" target="_blank" rel="noopener">Discovered Labs' technical analysis</a> adds a structural detail: AI Overviews load through a dedicated async endpoint entirely separate from regular search results, using its own ML routing and a server-side retrieval phase that completes in roughly 200 milliseconds before generation even begins.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="preferred-sources"><span class="bx-num">06</span>Preferred Sources: A New Citation Lever</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.seo-kreativ.de/en/blog/google-preferred-sources-ai-overviews-ai-mode-en/" target="_blank" rel="noopener">SEO-Kreativ's guide</a> covers a genuinely new mechanism added in 2026: Google now lets searchers mark specific publishers as Preferred Sources, which then get surfaced more often inside both AI Overviews and AI Mode, with reported click-through likelihood roughly doubling for preferred sources over non-preferred ones.</p>

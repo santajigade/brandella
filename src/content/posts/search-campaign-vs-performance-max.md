@@ -119,16 +119,6 @@ format: "html"
 <div class="bx-spec"><div class="v">82%</div><div class="k">of PMax advertisers still run Search campaigns alongside it</div></div>
 <div class="bx-spec"><div class="v">6</div><div class="k">channels PMax can serve from one campaign: Search, Display, YouTube, Gmail, Discover, Maps</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="core-difference"><span class="bx-num">01</span>Search Campaign vs Performance Max: The Core Difference</h2>
 <div class="bx-rule"></div>
 <p>StackMatix's 2026 breakdown states it in one sentence: Search campaigns give you explicit control over the queries that trigger your ads. Performance Max hands that control to Google's algorithm instead. You define keywords in Search; you provide creative assets and audience signals in PMax and let the AI decide where, when, and to whom your ads show. For what that shift means in practice, see our guide to <a href="/ai-in-ppc-should-advertisers-be-worried/">AI in PPC and what advertisers still control</a>.</p>
@@ -143,16 +133,6 @@ format: "html"
 <span class="lbl">PMax Can Still Show on Branded Terms</span>
 <p>Google's documentation adds a caveat worth knowing: your PMax campaign may still show for branded keywords, even exact-match ones in your Search campaign, if your Search campaign has a limited budget or overly strict targeting. Exclude brand terms from PMax explicitly if you want full control over that traffic.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="performance-data"><span class="bx-num">03</span>What the Performance Data Actually Shows</h2>
 <div class="bx-rule"></div>
 <p>AdNabu's 2026 analysis of Shopify merchant data found Search campaigns averaging 3.2x ROAS compared to PMax's 2.8x for stores spending under $3,000 a month. Search Atlas' data adds a cost angle: PMax's average CPC runs around $0.68, lower than the Google Ads-wide average of $0.85, with a conversion rate close to but slightly under the platform average.</p>

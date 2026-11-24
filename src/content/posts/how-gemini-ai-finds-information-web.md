@@ -125,16 +125,6 @@ format: "html"
 <div class="bx-spec"><div class="v">2</div><div class="k">new partner grounding sources added in 2026: Parallel Web Search and Exa</div></div>
 <div class="bx-spec"><div class="v">Per query</div><div class="k">billing model for Gemini 3, each search executed within a prompt counts separately</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="grounding-basics"><span class="bx-num">01</span>Gemini AI and Grounding: The Core Mechanism</h2>
 <div class="bx-rule"></div>
 <p><a href="https://ai.google.dev/gemini-api/docs/google-search" target="_blank" rel="noopener">Google's own developer documentation</a> confirms the fundamental behavior: Grounding with Google Search connects the Gemini model to real-time web content across all available languages, allowing it to provide more accurate answers and cite verifiable sources beyond its training cutoff.</p>
@@ -151,16 +141,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p><a href="https://dejan.ai/blog/gemini-grounding/" target="_blank" rel="noopener">Dejan SEO's analysis</a> found something unusual through an accidental exposure: Gemini's internal responses sometimes included indexing marks like [6.2], where the first number corresponds to a specific search query the model executed and the second to a specific result within it. This suggests Gemini maintains an ordered, structured cache of retrieval results internally, not just raw pasted text.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="multiple-queries"><span class="bx-num">03</span>Multiple Searches Within a Single Request</h2>
 <div class="bx-rule"></div>
 <p>Google's own API documentation gives a concrete example of this in action: for a prompt asking about a match result, Gemini might run one search for "UEFA Euro 2024 winner" and a second for "Spain vs England Euro 2024 final score" within the same API call, counted as two separate billable searches.</p>
@@ -187,16 +167,6 @@ format: "html"
 <span class="lbl">Grounding Is Different From Training</span>
 <p><a href="https://oneuptime.com/blog/post/2026-02-17-how-to-implement-grounding-with-google-search-in-gemini-on-vertex-ai/view" target="_blank" rel="noopener">OneUpTime's guide</a> draws a distinction worth understanding clearly: grounding with Google Search pulls from the public web at inference time, while retrieval-augmented generation with your own data pulls from private data stores. They're complementary, not the same thing, and can be used together for broader coverage.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="table"><span class="bx-num">07</span>Grounding Sources Compared</h2>
 <div class="bx-rule"></div>
 <p>A quick reference across the grounding options available on Gemini in 2026.</p>

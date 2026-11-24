@@ -122,16 +122,6 @@ format: "html"
 <div class="bx-spec"><div class="v">2 weeks</div><div class="k">typical time for Google's AI to fully integrate a new audience signal</div></div>
 <div class="bx-spec"><div class="v">7</div><div class="k">core audience segment types available across Google Ads in 2026</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="signals-vs-targeting"><span class="bx-num">01</span>Audience Signals vs Audience Targeting</h2>
 <div class="bx-rule"></div>
 <p>These two terms get mixed up constantly. They mean very different things.</p>
@@ -150,16 +140,6 @@ format: "html"
 </div>
 
 <p>That's the opposite of how <a href="https://www.searchenginejournal.com/google-performance-max/498283/">Performance Max </a>works. In PMax, there's no way to turn signals into a hard wall. The AI always keeps some freedom to look elsewhere.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="types"><span class="bx-num">03</span>The Signal Types You Can Actually Use</h2>
 <div class="bx-rule"></div>
 <p>ClickedOn's 2026 guide breaks the main options down clearly. Each one fits a different stage of the funnel.</p>

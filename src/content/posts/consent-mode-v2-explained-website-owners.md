@@ -125,16 +125,6 @@ format: "html"
 <div class="bx-spec"><div class="v">70%</div><div class="k">of lost ad-click-to-conversion data Google reports recovering through modeling in Advanced Mode</div></div>
 <div class="bx-spec"><div class="v">25%</div><div class="k">of current setups found silently broken in industry audits, despite showing green status</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-it-is"><span class="bx-num">01</span>Consent Mode v2 Explained Simply</h2>
 <div class="bx-rule"></div>
 <p><a href="https://yeezypay.io/blog/google-consent-mode-v2-complete-2026-implementatio" target="_blank" rel="noopener">YeezyPay's guide</a> defines it precisely: it's a signaling framework that tells Google's tags how to behave depending on what a user has consented to, working through four parameters, two original and two added specifically in v2.</p>
@@ -151,28 +141,8 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p><a href="https://elementor.com/blog/consent-mode/" target="_blank" rel="noopener">Elementor's 2026 guide</a> cites a real technical trade-off worth watching: a recent DebugBear audit found poorly implemented CMP scripts add up to 500ms to Largest Contentful Paint and drop PageSpeed Insights scores by 10 to 15 points. Loading the consent banner synchronously in the header is the most common cause.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="basic-vs-advanced"><span class="bx-num">03</span>Basic Mode vs Advanced Mode</h2>
-<div class="bx-rule"></div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<p><a href="https://cookie-script.com/guides/how-google-consent-mode-v2-impact-revenue" target="_blank" rel="noopener">CookieScript's guide</a> draws the practical line clearly: in Basic Mode, all tags stay blocked until consent is given, meaning zero data and zero modeling if a visitor declines. Advanced Mode lets tags load in a cookieless, denied state, sending anonymized pings that feed Google's modeling algorithms instead.</p>
+<div class="bx-rule"></div><p><a href="https://cookie-script.com/guides/how-google-consent-mode-v2-impact-revenue" target="_blank" rel="noopener">CookieScript's guide</a> draws the practical line clearly: in Basic Mode, all tags stay blocked until consent is given, meaning zero data and zero modeling if a visitor declines. Advanced Mode lets tags load in a cookieless, denied state, sending anonymized pings that feed Google's modeling algorithms instead.</p>
 
 <p><a href="https://consentpixel.com/blogs/google-consent-mode-v2-complete-implementation-guide-2026/" target="_blank" rel="noopener">ConsentPixel's guide</a> states the mainstream recommendation directly: Advanced Mode is preferred by most implementations, since it preserves conversion modeling for every opt-out visitor rather than losing that signal entirely. If your account relies on <a href="/value-based-bidding-google-ads-explained/" target="_blank" rel="noopener">value based bidding</a>, this modeled data is exactly what keeps Smart Bidding functioning for consent-declined users.</p>
 

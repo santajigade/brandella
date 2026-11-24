@@ -124,16 +124,6 @@ format: "html"
 <div class="bx-spec"><div class="v">50-60</div><div class="k">characters, the practical title length before search engines start truncating it</div></div>
 <div class="bx-spec"><div class="v">120-155</div><div class="k">characters, the safe range for meta descriptions before SERP truncation kicks in</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="basic-implementation"><span class="bx-num">02</span>Basic Dynamic Title and Description</h2>
 <div class="bx-rule"></div>
 <p>A widely used pattern from real-world PHP forums fetches meta values from a database using a prepared statement, then falls back to site-wide defaults if no row exists for that page.</p>
@@ -168,16 +158,6 @@ format: "html"
 <span class="lbl">A Real, Documented Vulnerability</span>
 <p>A HackerOne disclosure documented a stored XSS vulnerability in a popular Node.js metadata-scraping library, triggered specifically through unsanitized Open Graph meta properties later rendered into HTML. The lesson translates directly to PHP: any value sourced from an external page, a database, or user input, including meta tag content itself, must be escaped before output, regardless of how trustworthy the source seems.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="open-graph"><span class="bx-num">04</span>Adding Dynamic Open Graph Tags</h2>
 <div class="bx-rule"></div>
 <p><a href="https://richdevtools.com/articles/web/open-graph-meta-tags-guide" target="_blank" rel="noopener">RichDevTools' guide</a> notes what Open Graph tags actually control: how a page renders as a card when shared on Slack, Facebook, LinkedIn, or Discord. A clean pattern loops over an associative array of properties, escaping each value the same way as the title and description.</p>
@@ -232,16 +212,6 @@ format: "html"
   <span class="tok-kw">return</span> <span class="tok-var">$truncated</span> . <span class="tok-str">'…'</span>;
 }</pre>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="pagination"><span class="bx-num">06</span>Handling Paginated and Faceted Pages</h2>
 <div class="bx-rule"></div>
 <p>A meta description that's identical across every page of a paginated series creates duplicate content signals at scale. A common pattern appends the page number directly to the description, keeping each page's meta tags distinguishable.</p>

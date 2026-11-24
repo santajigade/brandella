@@ -239,10 +239,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>New to Google Tag Manager itself? Our <a href="/google-tag-manager-explained-for-beginners/">beginner's guide to GTM</a> covers containers, tags, and workspaces before you get here.</p>
 </div>
 
-<div class="bx-ad">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -290,10 +286,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>Each of those keys is exactly what the matching variable reads back out. Click ID reads <code>gtm.elementId</code>, Click Classes reads <code>gtm.elementClasses</code>, Click Text reads <code>gtm.elementText</code>, and so on. Once you can see the raw object, the variables stop feeling like a black box.</p>
 
-<div class="bx-ad">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -337,10 +329,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Where you control the markup, ask a developer for one stable <code>id</code> or a <code>data-</code> attribute on the outer button instead. It's a quick request that removes the nesting problem entirely.</p>
 </div>
 
-<div class="bx-ad">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -372,10 +360,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>From here, that event behaves like any other in GA4: buildable into a conversion, filterable by <code>button_id</code>, and comparable across pages without touching a line of site code.</p>
 
-<div class="bx-ad">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>

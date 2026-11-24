@@ -177,31 +177,6 @@ format: "html"
 <div class="bx-spec"><div class="v">2019</div><div class="k">the year Google began treating nofollow as a hint, not a strict directive</div></div>
 <div class="bx-spec"><div class="v">2 waves</div><div class="k">Googlebot processes meta robots in: raw HTML first, then the rendered DOM</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-is-meta-robots"><span class="bx-num">01</span>What Meta Robots Tags Actually Do</h2>
 <div class="bx-rule"></div>
 <p><a href="https://devendergupta.netlify.app/blog/meta-robots-tags/" target="_blank" rel="noopener">Devender Gupta's technical breakdown</a> defines it precisely: a meta robots tag is an HTML snippet placed in a document's head that tells search engines whether they can include the page in their index and whether they should follow its links, operating at the individual URL level rather than sitewide.</p>
@@ -218,31 +193,6 @@ format: "html"
 <span class="lbl">Noindex Eventually Becomes Noindex, Nofollow</span>
 <p><a href="https://www.conductor.com/academy/meta-robots-tag/" target="_blank" rel="noopener">Conductor's 2026 meta robots guide</a> flags an important side effect: search engines significantly reduce re-crawling of a noindexed page over time, which functionally turns it into a noindex, nofollow situation, since links on a page that rarely gets crawled stop passing meaningful signal either.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="follow-vs-nofollow"><span class="bx-num">03</span>Follow vs Nofollow: What Changed in 2019</h2>
 <div class="bx-rule"></div>
 <p>Follow tells search engines to crawl and potentially index the pages a link points to. Nofollow tells them to skip that, historically preventing any link authority from passing through.</p>
@@ -260,31 +210,6 @@ format: "html"
 <p>Index, noindex, follow, and nofollow aren't the whole list. MDN's reference documents several more: noarchive prevents a cached version from appearing in results, nosnippet blocks any text snippet or video preview, and max-image-preview:large is essential for Google Discover eligibility specifically.</p>
 
 <p><a href="https://searchroost.com/blog/meta-robots-tags-noindex-nofollow" target="_blank" rel="noopener">Search Roost's directive guide</a> adds unavailable_after, which schedules a page for automatic removal from search results at a specific date and time, useful for time-limited content like event pages or expiring promotions without needing a manual cleanup later.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="meta-robots-vs-robotstxt"><span class="bx-num">06</span>Meta Robots vs Robots.txt vs X-Robots-Tag</h2>
 <div class="bx-rule"></div>
 <p>This distinction causes more damage than any single directive mistake. <a href="https://irankly.com/en/blog/meta-robots-noindex-nofollow" target="_blank" rel="noopener">iRankly's guide</a> states it plainly: robots.txt controls crawling, meta robots controls indexing, and confusing the two is one of the most common points of failure in technical SEO setups.</p>

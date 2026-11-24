@@ -154,31 +154,6 @@ format: "html"
 <div class="bx-spec"><div class="v">2.5s</div><div class="k">is the target LCP threshold Google considers "good"</div></div>
 <div class="bx-spec"><div class="v">60-80%</div><div class="k">file size reduction achievable through proper compression alone</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="01fix-your-lcp-image-first"><span class="bx-num">01</span>Fix Your LCP Image First</h2>
 <div class="bx-rule"></div>
 <p>According to <a href="https://logoswebdesigns.com/blog/image-optimization-website-speed-2026/" target="_blank" rel="noopener">Logos Web Design's 2026 image optimization playbook</a>, Google's own engineers documented that adding <code>fetchpriority="high"</code> to the above-the-fold image improved LCP from 2.6 seconds to 1.9 seconds in testing.</p>
@@ -213,31 +188,6 @@ format: "html"
 &lt;/picture&gt;</pre>
 </div>
 <p class="bx-code-caption">Modern formats load first; the browser falls back to JPEG only if neither is supported</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="03priority-fixer-tap-to-explore"><span class="bx-num">03</span>Priority Fixer, Tap to Explore</h2>
 <div class="bx-rule"></div>
 <p>Six fixes drive most mobile speed gains. Tap each one for the specific technique.</p>
@@ -272,31 +222,6 @@ format: "html"
 &lt;/IfModule&gt;</pre>
 </div>
 <p class="bx-code-caption">Long cache lifetimes for rarely-changing assets; shorter ones for CSS and JS that update more often</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="05the-business-case-for-speed"><span class="bx-num">05</span>The Business Case for Speed</h2>
 <div class="bx-rule"></div>
 <p>According to <a href="https://upwardengine.com/lcp-optimization-images-fonts-css/" target="_blank" rel="noopener">Upward Engine's guide referenced above</a>, Vodafone improved LCP by 31% and saw an 8% increase in total sales. Agrofy achieved a 70% LCP improvement, cutting load abandonment by 76%.</p>

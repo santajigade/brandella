@@ -130,35 +130,6 @@ format: "html"
 
 <p>We covered CLS alongside LCP and INP in our <a href="/core-web-vitals-2026/" target="_blank" rel="noopener">Core Web Vitals overview</a>, and went deep on the other two in our <a href="/what-is-largest-contentful-paint-lcp/" target="_blank" rel="noopener">LCP guide</a> and <a href="/interaction-to-next-paint-inp-explained/" target="_blank" rel="noopener">INP guide</a>. This article completes the set.</p>
 
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
-
 <div class="bcl-stat-grid">
 <div class="bcl-stat-card"><div class="bcl-stat-num">0.1</div><p>or lower is a good CLS score, measured at the 75th percentile of page visits</p></div>
 <div class="bcl-stat-card"><div class="bcl-stat-num">62%</div><p>of mobile pages still ship at least one image with no reserved dimensions</p></div>
@@ -257,34 +228,6 @@ format: "html"
 <p>According to Parachute Design's guide referenced above, any shift occurring within 500 milliseconds of user input is excluded from CLS calculations. Clicking an accordion to expand it, or tapping a button that intentionally reveals more content, does not count against your score.</p>
 </div>
 </div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="how-cls-is-measured-across-impact-and-distance">How CLS Is Measured Across Impact and Distance</h2>
 <div class="bcl-table-wrap">
 <table class="bcl-table">
@@ -351,34 +294,6 @@ function bclCheck(){
 <p>A page that loads fast and responds instantly can still feel broken if content keeps jumping around underneath the visitor's cursor.</p>
 
 <p>Google treats all three Core Web Vitals as one connected page experience signal, the same way it treats <a href="/what-is-schema-markup/" target="_blank" rel="noopener">schema markup</a> and <a href="/crawl-budget-explained/" target="_blank" rel="noopener">crawl budget</a> as pieces of one larger technical health picture, not isolated boxes to check off separately.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="why-cls-damages-conversions-more-than-it-damages-rankings">Why CLS Damages Conversions More Than It Damages Rankings</h2>
 <p>The SEO impact of CLS is real but modest. The conversion impact is often larger and more immediate, since a shifting layout directly interferes with the moment a visitor decides to act.</p>
 

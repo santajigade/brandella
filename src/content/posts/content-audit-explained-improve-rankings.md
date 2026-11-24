@@ -128,16 +128,6 @@ format: "html"
 <div class="bx-spec"><div class="v">40-80%</div><div class="k">of lost organic traffic a substantive content refresh typically recovers</div></div>
 <div class="bx-spec"><div class="v">23%</div><div class="k">footprint reduction in one documented case, after pruning 847 underperforming posts</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="real-results"><span class="bx-num">02</span>Real Results: What Pruning Actually Delivers</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.allable.ai/blog/content-audit/" target="_blank" rel="noopener">AllAble's guide</a> cites a widely referenced case worth knowing by name: when CNET pruned thousands of underperforming articles, their organic traffic surged by nearly 30%, according to Ahrefs data. Strategic content deletion has shown 15-30% traffic increases to core content within three months in multiple documented cases.</p>
@@ -148,16 +138,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p>A date change alone recovers nothing. iMark Infotech's framework, referenced above, is direct about this common shortcut: a substantive refresh updates outdated facts, deepens content to match current competitors, and realigns it with current <a href="/what-is-search-intent-practical-guide/">search intent</a>. Done well, this recovers 40 to 80% of lost traffic within about six weeks. Simply editing the published date without real content changes produces no recovery at all.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="penalty-plateau-decay"><span class="bx-num">03</span>Penalty vs Plateau vs Decay</h2>
 <div class="bx-rule"></div>
 <p><a href="https://memorable.design/seo-content-audit-checklist/" target="_blank" rel="noopener">Memorable's guide</a> draws a distinction worth internalizing before starting any audit: a penalty means Google pushed you down for breaking a rule. A plateau means your pages stood still while sharper competitor pages walked right past them. Decay is slower and sneakier, solid old posts losing a position here and there as months pass.</p>
@@ -180,16 +160,6 @@ format: "html"
 <p><a href="https://huble.com/blog/what-is-a-content-audit" target="_blank" rel="noopener">Huble's guide</a> names what's genuinely new in a 2026 audit: it also assesses whether AI search engines can find and cite your content, not just whether it ranks in Google. Pages that aren't structured for citation can rank fine in classic search yet stay completely invisible in AI answers.</p>
 
 <p>This connects directly to <a href="/ai-search-ranking-factors-what-matters/" target="_blank" rel="noopener">our AI search ranking factors guide</a>, since the same extractability and clarity signals that earn a citation are exactly what a modern content audit should be scoring pages against, alongside traditional keyword rankings.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="table"><span class="bx-num">06</span>Simple Scoring Model Reference</h2>
 <div class="bx-rule"></div>
 <p>A lightweight scoring approach for triaging pages before deeper review.</p>

@@ -172,31 +172,6 @@ format: "html"
 <div class="bx-spec"><div class="v">10-15</div><div class="k">manual indexing requests typically allowed per day</div></div>
 <div class="bx-spec"><div class="v">1/5</div><div class="k">of the tool's features most teams actually use, per SEO practitioners</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-it-shows"><span class="bx-num">01</span>What the URL Inspection Tool Actually Shows You</h2>
 <div class="bx-rule"></div>
 <p><a href="https://indexlens.dev/guides/url-inspection-tool" target="_blank" rel="noopener">IndexLens' 2026 guide</a> describes it well: the URL Inspection tool is the closest thing to looking through Google's eyes at a single URL. For any page you inspect, it returns whether the page is indexed, when it was last crawled, which canonical Google selected, and whether structured data or mobile usability issues exist.</p>
@@ -213,31 +188,6 @@ format: "html"
 <span class="lbl">Historically Indexed Doesn't Always Mean Currently Fine</span>
 <p><a href="https://indexinginsight.substack.com/i/150000212/two-types-of-crawled-currently-not-indexed" target="_blank" rel="noopener">Indexing Insight's research</a> flags a nuance worth knowing: a page can show "crawled - currently not indexed" today even though it was indexed successfully for years before quietly dropping out. Check whether a flagged page was ever indexed previously before assuming it never made the cut.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="discovered-not-indexed"><span class="bx-num">03</span>Diagnosing "Discovered - Currently Not Indexed"</h2>
 <div class="bx-rule"></div>
 <p>This status means Google knows the URL exists, likely from your sitemap or an internal link, but hasn't actually crawled it yet. <a href="https://ahrefs.com/blog/discovered-currently-not-indexed/" target="_blank" rel="noopener">Ahrefs' guide to the status</a> ties this directly to crawl budget: if your crawlable URLs exceed what Google is willing to spend on your site, pages queue up in this state.</p>
@@ -255,31 +205,6 @@ format: "html"
 <p><a href="https://searchengineinfo.org/tools/google-search-console-complete-guide-2026/" target="_blank" rel="noopener">SearchEngineInfo's 2026 complete guide to Search Console</a> flags this as one of the most common silent indexing killers: if the URL Inspection tool shows a different canonical URL than the one you intended, you have a canonical mismatch actively diverting Google's attention to a version you didn't choose.</p>
 
 <p>Resolving it usually means auditing for duplicate or near-duplicate content across your site, correcting canonical tags to consistently point at your preferred version, and making sure your internal links point at that same preferred URL rather than the duplicate.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="rendering-issues"><span class="bx-num">06</span>Using Live Test to Debug Rendering Issues</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.goodfellastech.com/blog/how-to-use-google-url-inspection-tool-the-complete-guide-for-small-businesses-2025-edition" target="_blank" rel="noopener">Goodfellastech's 2025 guide</a> highlights a use case that catches problems no coverage status alone reveals: the Live Test's rendering view shows exactly how Google renders your page, including JavaScript-generated content. Missing content, broken layouts, or error states in that rendered version point directly to a technical SEO problem.</p>

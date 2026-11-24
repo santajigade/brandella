@@ -140,31 +140,6 @@ format: "html"
 <div class="bwt-stat-card"><div class="bwt-stat-num">Free</div><p>no premium tier exists; every feature is available at no cost</p></div>
 <div class="bwt-stat-card"><div class="bwt-stat-num">1-Click</div><p>import from an already-verified Google Search Console property</p></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bwt-ad-wrap">
-    <div class="bwt-ad-divider" style="margin-bottom:20px;">
-        <div class="bwt-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bwt-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bwt-ad-divider" style="margin-top:20px;">
-        <div class="bwt-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bwt-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-the-dashboard-looks-like">What the Dashboard Looks Like</h2>
 <div class="bwt-diagram">
 <svg viewBox="0 0 700 220" xmlns="http://www.w3.org/2000/svg">
@@ -194,31 +169,6 @@ format: "html"
 <strong>The 2026 AI Search Connection</strong>
 <p>ChatGPT Search retrieves results from Bing's index, not a separate crawler of its own. A page Bing hasn't crawled and indexed properly is invisible to one of the fastest-growing AI search surfaces, regardless of how it performs on Google.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bwt-ad-wrap">
-    <div class="bwt-ad-divider" style="margin-bottom:20px;">
-        <div class="bwt-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bwt-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bwt-ad-divider" style="margin-top:20px;">
-        <div class="bwt-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bwt-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="setting-up-your-account-step-by-step">Setting Up Your Account: Step by Step</h2>
 <div class="bwt-steps">
 <div class="bwt-step">
@@ -266,31 +216,6 @@ format: "html"
 <p>Necessary if you've never used Google Search Console. Choose whichever of the three manual methods, XML file, meta tag, or DNS CNAME, is easiest given your access level to the site.</p>
 </div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bwt-ad-wrap">
-    <div class="bwt-ad-divider" style="margin-bottom:20px;">
-        <div class="bwt-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bwt-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bwt-ad-divider" style="margin-top:20px;">
-        <div class="bwt-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bwt-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="the-features-actually-worth-your-attention">The Features Actually Worth Your Attention</h2>
 <div class="bwt-table-wrap">
 <table class="bwt-table">

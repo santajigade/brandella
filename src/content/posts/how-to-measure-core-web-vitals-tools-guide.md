@@ -121,35 +121,6 @@ format: "html"
 
 <p>We covered each individual metric in our guides to <a href="/what-is-largest-contentful-paint-lcp/" target="_blank" rel="noopener">LCP</a>, <a href="/interaction-to-next-paint-inp-explained/" target="_blank" rel="noopener">INP</a>, and <a href="/cumulative-layout-shift-cls-explained/" target="_blank" rel="noopener">CLS</a>. This article covers where to actually check the numbers.</p>
 
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
-
 <div class="bmt-stat-grid">
 <div class="bmt-stat-card"><div class="bmt-stat-num">4</div><p>distinct tools Google offers to measure Core Web Vitals, each with a different job</p></div>
 <div class="bmt-stat-card"><div class="bmt-stat-num">28 days</div><p>rolling window CrUX field data aggregates over before it updates</p></div>
@@ -203,34 +174,6 @@ format: "html"
 </div>
 </div>
 </div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="why-lighthouse-and-crux-can-disagree-completely">Why Lighthouse and CrUX Can Disagree Completely</h2>
 <p>This is the exact contradiction that confuses so many site owners. Tap through both explanations.</p>
 
@@ -303,34 +246,6 @@ function bmtCheck(){
 <p>According to <a href="https://support.google.com/webmasters/answer/9205520?hl=en" target="_blank" rel="noopener">Google's official Search Console help documentation</a>, the report is designed to show overall site performance trends rather than the status of one specific URL, since it groups similar pages together by template or URL pattern.</p>
 
 <p>If your property is new, it can take a few days for CrUX data to populate, since the underlying dataset gathers information independently of when a Search Console property was created.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="how-to-run-a-pagespeed-insights-check">How to Run a PageSpeed Insights Check</h2>
 <p>Visit pagespeed.web.dev and enter any URL. According to <a href="https://www.matthewedgar.net/measure-core-web-vitals-page-speed-insights/" target="_blank" rel="noopener">Matthew Edgar's guide to measuring Core Web Vitals</a>, the report returns field data when available, alongside a Lighthouse-based lab score and a prioritized list of specific fixes for that page.</p>
 

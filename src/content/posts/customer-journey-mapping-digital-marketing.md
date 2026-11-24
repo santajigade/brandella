@@ -122,16 +122,6 @@ format: "html"
 <div class="bx-spec"><div class="v">5</div><div class="k">core stages most journey maps follow: awareness, consideration, decision, retention, advocacy</div></div>
 <div class="bx-spec"><div class="v">56%</div><div class="k">more cross-sell and upsell revenue reported by teams with mature journey mapping in place</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-it-is"><span class="bx-num">01</span>What Customer Journey Mapping Actually Is</h2>
 <div class="bx-rule"></div>
 <p><a href="https://online.hbs.edu/blog/post/customer-journey-map" target="_blank" rel="noopener">HBS Online's guide</a> defines the core components clearly: personas, journey stages, touchpoints, and the emotions or pain points customers experience along the way. Together, these give a holistic view of the customer experience that no single department has on its own.</p>
@@ -150,16 +140,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p><a href="https://userpilot.com/blog/customer-journey-touchpoints/" target="_blank" rel="noopener">Userpilot's 2026 guide</a> flags an emerging category worth watching: "dark touchpoints," interactions AI agents have with your brand, like reading your documentation or pricing page, that never show up in your analytics at all. If your content isn't machine-readable, you can become invisible to agent-mediated buying decisions entirely.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="building-it"><span class="bx-num">03</span>How Customer Journey Mapping Actually Gets Built</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.factors.ai/blog/customer-journey-mapping" target="_blank" rel="noopener">The Complete Guide's framework</a> distills a working map down to five essential elements per touchpoint: the stage the customer is in, the specific touchpoint they hit, what they're likely thinking, how they feel about it, and where the real opportunity sits for your team to act.</p>
@@ -171,16 +151,6 @@ format: "html"
 <p><a href="https://customerthink.com/how-to-build-a-customer-journey-map-that-works-in-2026/" target="_blank" rel="noopener">CustomerThink's guide</a> recommends starting broad, not narrow: list every possible touchpoint across the customer lifecycle without filtering first. Once the full list exists, identify which ones matter most for your business and your customers specifically.</p>
 
 <p>Userpilot's touchpoints guide, referenced above, warns against a common trap: the standard "list all your touchpoints by stage" approach often produces a 40-row spreadsheet nobody acts on, or even opens again. Prioritization matters as much as completeness.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="table"><span class="bx-num">05</span>Core Elements of a Working Map</h2>
 <div class="bx-rule"></div>
 <p>A quick reference for what a genuinely useful customer journey map includes at every stage.</p>

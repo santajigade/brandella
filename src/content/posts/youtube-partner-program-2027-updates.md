@@ -179,31 +179,6 @@ format: "html"
 <div class="bx-spec"><div class="v">10M</div><div class="k">qualified Shorts views needed in a rolling 90 days to earn from the Shorts Creator Pool</div></div>
 <div class="bx-spec"><div class="v">Jan 31, 2027</div><div class="k">deadline for existing partners to accept new monetization terms</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="whats-changing"><span class="bx-num">01</span>What's Actually Changing, in Plain Terms</h2>
 <div class="bx-rule"></div>
 <p>YouTube's own announcement, referenced above, published August 10, 2026, calls this the first significant update to the YouTube Partner Program since 2018. With over 3 million creators already in the program, the company frames these changes as necessary to keep rewarding genuinely active creators as the platform has grown.</p>
@@ -238,31 +213,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p>YouTube says this change is unlikely to affect creators who already earn significant revenue from Shorts. The 10 million view bar is aimed at channels earning very little from Shorts anyway, redirecting that time and effort toward new incentive programs instead.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="activity-rules"><span class="bx-num">04</span>New Activity Rules for Channels Already Earning</h2>
 <div class="bx-rule"></div>
 <p>Search Engine Journal's reporting, referenced above, lays out the new bar for staying "active" in the program: starting February 1, 2027, a channel counts as active if it has at least 1,000 qualified watch hours in the past year, or 1 million qualified Shorts views in the last 90 days, or has uploaded two long-form videos or five Shorts every 90 days.</p>
@@ -285,31 +235,6 @@ format: "html"
 </div>
 <div class="bx-video-cap">"YouTube Partner Program Updates & Your Channels" — The YouTube Team. Source: YouTube's official blog.</div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="entry-thresholds"><span class="bx-num">07</span>Entry Thresholds Double for New Creators</h2>
 <div class="bx-rule"></div>
 <p>If you're not in the program yet, this is the part that affects you directly. YouTube's blog confirms new applicants will need 1,000 subscribers plus either 8,000 qualified watch hours in the past year or 20 million qualified Shorts views in the last 90 days, roughly double the current 4,000 hours or 10 million Shorts views.</p>

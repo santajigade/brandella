@@ -177,31 +177,6 @@ format: "html"
 <div class="bx-spec"><div class="v">3-4</div><div class="k">max recommended preconnect origins before diminishing returns kick in</div></div>
 <div class="bx-spec"><div class="v">0.9s</div><div class="k">faster LCP recorded in one real test after removing excess preloads</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-hints-do"><span class="bx-num">01</span>What Resource Hints Actually Do</h2>
 <div class="bx-rule"></div>
 <p><a href="https://wpthrill.com/wordpress-preconnect-vs-prefetch-guide" target="_blank" rel="noopener">WPThrill's 2026 guide</a> frames the concept simply: resource hints are instructions you give the browser, a behind-the-scenes roadmap that helps it prepare for the page journey before a user even clicks anything. They're added as link tags directly in your HTML's head section.</p>
@@ -218,31 +193,6 @@ format: "html"
 <span class="lbl">Using Both on the Same Resource Wastes Bandwidth</span>
 <p>HTTP.dev's reference, cited above, makes a specific warning worth repeating: preload is for the current page, prefetch is for the next page. Applying both hints to the same resource doesn't stack the benefit, it just duplicates the request and wastes bandwidth.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="when-preload"><span class="bx-num">03</span>When to Use Preload</h2>
 <div class="bx-rule"></div>
 <p><a href="https://webperfclinic.com/article/resource-hints-preload-preconnect-prefetch-early-hints-guide" target="_blank" rel="noopener">WebPerfClinic's complete resource hints guide</a> is direct about this: preload fetches a resource at high priority for the current page, and it's mandatory, the browser must execute it. Reserve it for resources on the critical rendering path that the browser's own preload scanner wouldn't discover early enough on its own.</p>
@@ -260,31 +210,6 @@ format: "html"
 <p>DebugBear's explanation of preconnect is the clearest available: it lets you set up a connection to a server even before you know the exact request URL, useful when a third-party script's eventual requests are hard to predict in advance.</p>
 
 <p>WebPerfClinic's decision-flow guide adds a hard limit worth following: more than four preconnects per page typically hurts more than it helps, since each open connection consumes a socket from the browser's limited pool and competes for TLS state. Keep preconnects to your top 3 to 4 critical origins and use dns-prefetch for everything else.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="dns-prefetch"><span class="bx-num">06</span>dns-prefetch: The Lighter Preconnect Alternative</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.pravinkumar.co/blog/webflow-preload-preconnect-resource-hints-2026" target="_blank" rel="noopener">Pravin Kumar's 2026 Webflow guide</a> explains the trade-off simply: dns-prefetch resolves only the DNS for a domain, a lighter version of what preconnect does. Use preconnect when you're confident the browser will need that origin soon, and use dns-prefetch as a cheaper fallback for origins you're less certain about.</p>

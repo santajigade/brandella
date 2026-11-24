@@ -139,31 +139,6 @@ format: "html"
 <div class="bup-stat-card"><div class="bup-stat-num">2022</div><p>the year Google removed its URL Parameters tool from Search Console entirely</p></div>
 <div class="bup-stat-card"><div class="bup-stat-num">5</div><p>common parameter types cover nearly every case a site actually encounters</p></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bup-ad-wrap">
-    <div class="bup-ad-divider" style="margin-bottom:20px;">
-        <div class="bup-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bup-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bup-ad-divider" style="margin-top:20px;">
-        <div class="bup-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bup-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="the-five-common-types-of-url-parameters">The Five Common Types of URL Parameters</h2>
 <div class="bup-types">
 <div class="bup-type-card">
@@ -205,31 +180,6 @@ format: "html"
 &lt;link rel=<span class="v">"canonical"</span> href=<span class="v">"https://www.example.com/shop"</span> /&gt;</pre>
 </div>
 <p class="bup-code-caption">Both tracking and filter parameters point back to the clean, parameter-free URL as canonical</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bup-ad-wrap">
-    <div class="bup-ad-divider" style="margin-bottom:20px;">
-        <div class="bup-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bup-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bup-ad-divider" style="margin-top:20px;">
-        <div class="bup-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bup-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="why-google-search-console-no-longer-has-a-parameters-tool">Why Google Search Console No Longer Has a Parameters Tool</h2>
 <p>According to <a href="https://astridiq.co.uk/url-parameters" target="_blank" rel="noopener">Astrid.IQ's guide to URL parameters for SEO professionals</a>, Google removed the dedicated URL Parameters tool from Search Console in 2022. Site owners now rely on canonical tags, robots.txt, and major SEO crawler tools instead.</p>
 
@@ -256,31 +206,6 @@ format: "html"
 <span class="k">Disallow:</span> <span class="v">/*?gclid=*</span></pre>
 </div>
 <p class="bup-code-caption">Remember: robots.txt blocks crawling, not indexation; pair this with canonical tags for full control</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bup-ad-wrap">
-    <div class="bup-ad-divider" style="margin-bottom:20px;">
-        <div class="bup-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bup-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bup-ad-divider" style="margin-top:20px;">
-        <div class="bup-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bup-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="utm-parameters-specifically-what-marketers-get-wrong">UTM Parameters Specifically: What Marketers Get Wrong</h2>
 <p>According to <a href="https://ortto.com/learn/what-are-utm-parameters/" target="_blank" rel="noopener">Ortto's 2026 guide to UTM parameters</a>, UTM parameters do not directly affect a website's SEO ranking. Their entire purpose is campaign attribution in analytics platforms, not page evaluation.</p>
 

@@ -132,34 +132,6 @@ format: "html"
 <p>Time to First Byte, or TTFB, measures the elapsed time from when a browser sends a request to a server to the moment it receives the very first byte of that server's response.</p>
 
 <p>This metric is not one of Google's three official Core Web Vitals, but it is tracked in the Chrome User Experience Report and directly feeds every loading metric that comes after it.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <p>We covered the metrics TTFB directly influences in our guides to <a href="/what-is-largest-contentful-paint-lcp/" target="_blank" rel="noopener">LCP</a> and <a href="/what-is-first-contentful-paint-fcp/" target="_blank" rel="noopener">FCP</a>. Neither of those metrics can improve past what TTFB allows, no matter how well-optimized the rest of the page is.</p>
 
 <div class="bttf-stat-grid">
@@ -233,34 +205,6 @@ format: "html"
 <p>The tradeoff is that caching works best for content that does not change on every request.</p>
 
 <p>Highly personalized pages, real-time dashboards, or checkout flows built around live inventory data need more careful caching strategies, such as caching shared page fragments while leaving the personalized parts dynamic.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="lab-ttfb-vs-field-ttfb-which-one-should-you-trust">Lab TTFB vs. Field TTFB: Which One Should You Trust?</h2>
 <p>These two measurement types tell different stories about the same metric. Tap through both to see how they differ.</p>
 
@@ -351,34 +295,6 @@ function bttfCalc(){
   document.getElementById('bttfVerdict').innerText = verdictText;
 }
 </script>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="third-party-scripts-and-their-hidden-server-side-cost">Third-Party Scripts and Their Hidden Server-Side Cost</h2>
 <p>Most conversations about third-party scripts focus on their front-end weight, the extra JavaScript a browser has to download and execute. There is a less visible cost too, one that happens entirely on the server side before a response is even sent.</p>
 

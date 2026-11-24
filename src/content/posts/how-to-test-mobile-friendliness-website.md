@@ -172,31 +172,6 @@ format: "html"
 <div class="bx-spec"><div class="v">Dec 2023</div><div class="k">Google retired its standalone Mobile-Friendly Test tool</div></div>
 <div class="bx-spec"><div class="v">~39%</div><div class="k">of websites currently pass all three Core Web Vitals on mobile</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="why-old-tool-gone"><span class="bx-num">01</span>Why Google's Old Mobile-Friendly Test Tool Is Gone</h2>
 <div class="bx-rule"></div>
 <p>Plenty of SEO checklists still tell readers to visit Google's Mobile-Friendly Test. That URL is dead. <a href="https://buzzmatic.com/en/knowledge/seo-wissen/mobile-friendliness-test" target="_blank" rel="noopener">Buzzmatic's 2026 breakdown of mobile testing</a> confirms it plainly: Google shut down both the standalone tester and the Mobile Usability report inside Search Console at the end of 2023.</p>
@@ -207,31 +182,6 @@ format: "html"
 <span class="lbl">Still Bookmarked the Old Tool?</span>
 <p>Update it. Some search results and old blog posts still link to Google's retired tester, and the page either errors out or redirects. The functionality lives on, just split across PageSpeed Insights, Search Console, and Lighthouse.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="pagespeed-insights"><span class="bx-num">02</span>Test With Google PageSpeed Insights</h2>
 <div class="bx-rule"></div>
 <p><a href="https://pagespeed.web.dev/" target="_blank" rel="noopener">PageSpeed Insights</a> is Google's own current answer to mobile-friendliness testing, and it does more than the old tool ever did. Enter a URL, and it runs a full Lighthouse audit covering both a mobile and desktop tab, no installation needed.</p>
@@ -251,31 +201,6 @@ format: "html"
 <p>PageSpeed Insights and Lighthouse test one page at a time. Search Console's Core Web Vitals report does the opposite, it groups every URL on your site by performance and usability status so problems affecting hundreds of pages don't get missed one URL at a time.</p>
 
 <p><a href="https://www.strataigize.com/blog/check-mobile-friendliness-website" target="_blank" rel="noopener">Strataigize's guide to checking mobile friendliness</a> notes this is the tool that tracks issues across your entire site rather than a single snapshot, which makes it the right place to monitor after you've fixed something, not just to diagnose it.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="real-device-testing"><span class="bx-num">05</span>Test Real-Device Rendering, Not Just Scores</h2>
 <div class="bx-rule"></div>
 <p>A page can pass every Lighthouse metric and still look broken on an actual phone, overlapping text, buttons that sit behind a sticky header, images that don't crop correctly on a narrower screen. Scores don't catch layout problems that only show up visually.</p>

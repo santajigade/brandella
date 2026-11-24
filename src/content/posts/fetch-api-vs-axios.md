@@ -234,11 +234,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>Both end up doing the same underlying job, sending a request and eventually handing back a response, so most of what actually separates the fetch api vs axios choice shows up only once something goes wrong, not while everything is working.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">02</span>
@@ -298,11 +293,6 @@ console.log(<span class="tok-val">res</span>.data);</code></pre>
     <p>Node.js only gained a built in, global <code>fetch()</code> in <a href="https://nodejs.org/en/blog/announcements/v18-release-announce" target="_blank" rel="noopener">Node 18, released in 2022</a>. Before that, every single Node project needed a separate package just to make an HTTP request, exactly the gap libraries like Axios were built to fill on both the server and the browser.</p>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">04</span>
@@ -365,11 +355,6 @@ console.log(<span class="tok-val">res</span>.data);</code></pre>
 
   <p>Edge functions and serverless environments add another wrinkle worth knowing about. Some lightweight runtimes only expose the native Fetch API and do not support every Node built in module axios can rely on internally, so a script built for a traditional Node server does not always run unmodified inside a Cloudflare Worker or a similarly restricted edge environment. Checking a platform's documented runtime support before committing to either library saves a rewrite later.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">07</span>
@@ -440,11 +425,6 @@ console.log(<span class="tok-val">res</span>.data);</code></pre>
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Pick the Right Tool for Your Next API Call?</h3>

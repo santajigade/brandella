@@ -125,16 +125,6 @@ format: "html"
 <div class="bx-spec"><div class="v">0 sec</div><div class="k">typical engagement time on genuine referral spam sessions</div></div>
 <div class="bx-spec"><div class="v">2</div><div class="k">main types: crawler spam that actually visits, and ghost spam that never does</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-is-it"><span class="bx-num">01</span>Referral Spam Explained: What It Actually Is</h2>
 <div class="bx-rule"></div>
 <p><a href="https://rocket.net/blog/how-to-stop-referral-spam-from-hijacking-your-analytics/" target="_blank" rel="noopener">Rocket.net's guide</a> breaks it into the two forms worth knowing. Crawler spam actually visits your site and leaves fake referral data behind. Ghost spam never visits at all, it sends fake hits directly to Google's servers using your Measurement ID.</p>
@@ -151,16 +141,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p>Several current guides flag the exact same spam domains showing up across different sites right now: news.grets.store, statis.seders.website, and trafficpeak.io. If you see these in your own referral report, you're not imagining a pattern, it's an active, widespread campaign.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="unwanted-referrals"><span class="bx-num">03</span>Using GA4's Unwanted Referrals List</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.reportingninja.com/blog/referral-spam-in-google-analytics" target="_blank" rel="noopener">Reporting Ninja's guide</a> walks through the built-in feature: go to Admin, Data Streams, select your web stream, open Configure Tag Settings, then List Unwanted Referrals, and add the spam domain directly.</p>
@@ -179,16 +159,6 @@ format: "html"
 <p>The same guide notes a useful shortcut for blocking several domains at once: a single filter can use a regex expression like <code>(spam-domain1\.com|another-spammy-site\.org)</code> to exclude a whole list in one rule.</p>
 
 <p><a href="https://carloseo.com/removing-google-analytics-spam/" target="_blank" rel="noopener">Carlos SEO's guide</a> adds a Google Tag Manager alternative worth knowing for crawler spam specifically: define a variable for the referrer hostname, then trigger a block whenever it matches a known spam list.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="table"><span class="bx-num">05</span>Crawler Spam vs Ghost Spam</h2>
 <div class="bx-rule"></div>
 <p>These behave differently, which changes how you actually fight each one. <a href="https://searchengineland.com/guide/spam-traffic" target="_blank" rel="noopener">Search Engine Land's spam traffic guide</a> recommends treating detection and prevention as two separate, ongoing tracks rather than a single fix.</p>

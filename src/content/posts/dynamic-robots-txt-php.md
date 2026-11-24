@@ -239,10 +239,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Already have real URLs to reference? Our <a href="/build-xml-sitemap-generator-php/">XML sitemap generator in PHP guide</a> covers the exact sitemap file this should point to.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -289,10 +285,6 @@ header('Cache-Control: public, max-age=3600');</code></pre>
 
 <p>That one command catches a surprising number of real mistakes early: a missing content type, a cache header that never made it out, or output that starts with a warning message instead of the actual robots.txt content a dynamic robots.txt PHP script is supposed to serve.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">03</span>
@@ -366,10 +358,6 @@ pathIsBlocked('/Admin/dashboard', ['/admin/'])
 
 <p>The real fix is a plain try and catch block wrapped around every part of the script that can fail, a database lookup, a config read, anything touching the file system, paired with a fallback that always returns something valid even when that inner logic breaks. A minimal real fallback like <code>"User-agent: *\nAllow: /\n"</code> served with a genuine 200 status keeps a broken config from ever becoming a genuine 500, which is the one outcome this whole approach has to avoid above everything else covered here.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -385,10 +373,6 @@ pathIsBlocked('/Admin/dashboard', ['/admin/'])
 
 <p>Google Search Console's own robots.txt report shows the exact version Google last fetched and when, which is the real way to confirm a change to a dynamic robots.txt PHP script actually reached Google rather than just trusting that the endpoint returns the right thing today. Checking that report after a deploy, rather than assuming success, is a small habit that catches a caching or deployment problem long before it shows up as a drop in indexed pages.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>

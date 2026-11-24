@@ -291,11 +291,6 @@ card.dataset.status;     <span class="tok-cm">// "active"</span></code></pre>
 
 <p>That last line is worth sitting with. <code>document.querySelectorAll('.widget[data-status="active"]')</code> found exactly 2 of 3 real elements, using nothing but a plain CSS attribute selector. No custom JavaScript filtering logic was needed at all, since the browser's own selector engine already understands data attributes natively.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -357,11 +352,6 @@ card.dataset.status;     <span class="tok-cm">// "active"</span></code></pre>
 }</code></pre>
 </div>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -378,11 +368,6 @@ card.dataset.status;     <span class="tok-cm">// "active"</span></code></pre>
 
 <p>That single reserved exception aside, custom data attributes remain invisible to search engines by design. If content needs to influence rankings or appear in a snippet, it needs to be real visible text or real structured data, not a value tucked into a custom attribute.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>
@@ -422,11 +407,6 @@ card.dataset.status;     <span class="tok-cm">// "active"</span></code></pre>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems/Use_data_attributes" target="_blank" rel="noopener">MDN's own guide to using data attributes</a> and <a href="https://web.dev/learn/html/attributes" target="_blank" rel="noopener">web.dev's HTML attributes course</a> are both solid next reads once the basics here feel comfortable.</p>
 
-<div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">08</span>

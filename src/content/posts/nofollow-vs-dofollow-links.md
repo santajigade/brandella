@@ -257,10 +257,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>The nofollow attribute has been part of the web's toolkit for roughly two decades, first appearing in 2005 purely as a spam prevention measure, according to <a href="https://www.screamingfrog.co.uk/learn-seo/nofollow/">Screaming Frog</a>.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">03</span>
@@ -305,10 +301,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>You can combine values, such as <code>rel="nofollow sponsored"</code>, since not every search engine supports the newer attributes yet. When in doubt, pair sponsored or ugc with nofollow for broader compatibility.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">05</span>
@@ -333,10 +325,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>According to <a href="https://ahrefs.com/blog/nofollow-ugc-sponsored/">Ahrefs</a>, roughly 10.6 percent of all backlinks to large websites are nofollow, while the newer sponsored and ugc attributes combined still appear on well under one percent of links.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -356,10 +344,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <li><b>Forgetting to disclose paid placements at all.</b> Any compensated link needs sponsored or nofollow, full stop, regardless of how the relationship is framed elsewhere.</li>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>

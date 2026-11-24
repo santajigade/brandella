@@ -124,16 +124,6 @@ format: "html"
 <div class="bx-spec"><div class="v">3</div><div class="k">separate ways a session can qualify as engaged, only one condition needs to be met</div></div>
 <div class="bx-spec"><div class="v">0%</div><div class="k">valid direct comparison between old Universal Analytics bounce rate and GA4 bounce rate</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="engaged-session"><span class="bx-num">02</span>What Makes a Session "Engaged"</h2>
 <div class="bx-rule"></div>
 <p>Google's documentation, referenced above, defines an engaged session as any session that meets at least one of three conditions: it lasted 10 seconds or longer, it included a key event (GA4's term for a conversion), or it had two or more pageviews or screen views. Only one condition needs to be true, not all three.</p>
@@ -144,16 +134,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p>The 10-second threshold isn't fixed. <a href="https://kpplaybook.com/resources/ga4-engagement-rate-diagnose-traffic-quality/" target="_blank" rel="noopener">KP Playbook's guide</a> notes it's actually customizable inside your Data Streams settings, and can be extended up to 60 seconds if you want a stricter bar for what counts as genuine engagement on your specific site.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="why-not-compare"><span class="bx-num">03</span>Why You Can't Compare GA4 Bounce Rate to UA Bounce Rate</h2>
 <div class="bx-rule"></div>
 <p><a href="https://www.mbadv.agency/google-analytics-4/engagement-and-user-metrics" target="_blank" rel="noopener">MB Advisory's guide</a> is precise about a common, costly mistake: GA4 bounce rate is the percentage of sessions where the user spent fewer than 10 seconds, triggered no key event, and viewed fewer than two pages. Since the underlying definition is entirely different from Universal Analytics' single-pageview logic, a direct numerical comparison between a site's historical UA bounce rate and its GA4 bounce rate is invalid.</p>
@@ -165,16 +145,6 @@ format: "html"
 <p><a href="https://www.rootandbranchgroup.com/ga4-user-engagement/" target="_blank" rel="noopener">Root &amp; Branch Group's guide</a> explains the mechanism behind this metric: GA4 records the time a page is actually in focus using an engagement_time_msec parameter, starting when a session begins and stopping the moment the user navigates away, closes the tab, or the page crashes. Background tabs don't count toward this figure.</p>
 
 <p>This connects directly to <a href="/ga4-custom-event-tracking-google-tag-manager/" target="_blank" rel="noopener">our GA4 custom event tracking guide</a>, since engagement time and key events both feed into the same underlying engaged-session logic covered here, understanding one makes the other far easier to configure correctly.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="metrics-glossary"><span class="bx-num">05</span>A Quick Metrics Glossary</h2>
 <div class="bx-rule"></div>
 <p>A short reference for the core engagement metrics you'll see across GA4 reports.</p>

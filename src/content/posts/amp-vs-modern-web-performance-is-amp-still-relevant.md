@@ -172,31 +172,6 @@ format: "html"
 <div class="bx-spec"><div class="v">80%</div><div class="k">drop in AMP WordPress plugin downloads from its peak</div></div>
 <div class="bx-spec"><div class="v">40%</div><div class="k">of sites that previously used AMP have already removed it</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-amp-solved"><span class="bx-num">01</span>What AMP Was Actually Built to Solve</h2>
 <div class="bx-rule"></div>
 <p><a href="https://sayt.uz/en/blog/amp-vs-modern-web" target="_blank" rel="noopener">Sayt.uz's 2026 retrospective on AMP's decline</a> lays out the original premise plainly: "the web is too slow because developers are bad at JavaScript." Google's fix was to ban most author-written JavaScript entirely, cap inline CSS, and serve every page from Google's own cache instead of the publisher's server.</p>
@@ -213,31 +188,6 @@ format: "html"
 <span class="lbl">The Brand Ownership Problem</span>
 <p><a href="https://wppoland.com/en/amp-accelerated-mobile-pages/" target="_blank" rel="noopener">WPPoland's 2026 engineering analysis</a> highlights a problem that outlasted the ranking change: AMP cache URLs displayed as "google.com/amp/s/" instead of the publisher's own domain, which confused users about who actually owned the content and noticeably hurt brand recognition.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="short-answer"><span class="bx-num">03</span>Is AMP Still Relevant in 2026? The Short Answer</h2>
 <div class="bx-rule"></div>
 <p><a href="https://dynomapper.com/blog/search-engine-optimization/what-is-google-amp-and-how-does-it-work/" target="_blank" rel="noopener">DynoMapper's 2026 guide</a> answers the framing question directly: technically, AMP still exists and still works. Practically, no, Google no longer gives AMP pages any ranking advantage, the badge is gone, and most major publishers have migrated away entirely.</p>
@@ -261,31 +211,6 @@ format: "html"
 <div class="bx-check-item"><div class="bx-check-icon"></div><p><strong>Preload critical resources</strong> like fonts and hero images so the browser fetches them before they're requested.</p></div>
 <div class="bx-check-item"><div class="bx-check-icon"></div><p><strong>Reserve space for images and ads</strong> with explicit dimensions to prevent layout shift and protect CLS.</p></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-    <div class="bx-ad-divider" style="margin-bottom:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div class="bx-ad-divider" style="margin-top:20px;">
-        <div class="bx-ad-line"></div>
-        <span>Advertisement</span>
-        <div class="bx-ad-line"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="narrow-use-cases"><span class="bx-num">06</span>Where AMP Still Has a Narrow Use Case</h2>
 <div class="bx-rule"></div>
 <p>AMP hasn't vanished entirely. <a href="https://inmotionmktg.com/blog/what-is-amp/" target="_blank" rel="noopener">InMotion Marketing's 2026 guide</a> notes publishers managing thousands of posts inside a CMS may still benefit from AMP's streamlined publishing workflow, and heavy-advertising publishers can see improved ad viewability when AMP is implemented correctly.</p>

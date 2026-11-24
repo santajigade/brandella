@@ -238,11 +238,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>This pattern shows up constantly on high traffic ecommerce sites for exactly this reason, and building one yourself, rather than relying on a bulky plugin, keeps the implementation small, fast, and fully under your control.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">02</span>
@@ -345,11 +340,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     <p><a href="https://caniuse.com/intersectionobserver" target="_blank" rel="noopener">IntersectionObserver support</a> has been standard across every major browser for years now, including all mobile browsers, so this pattern needs no fallback or polyfill for a modern ecommerce audience.</p>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">05</span>
@@ -363,11 +353,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>Both buttons also need a real, focusable <code>&lt;button&gt;</code> element rather than a clickable <code>&lt;div&gt;</code>, so keyboard navigation and screen reader software can reach and activate them the normal way, with no extra JavaScript required to make that work.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">06</span>
@@ -459,11 +444,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Stop Losing Clicks to Scroll Fatigue?</h3>

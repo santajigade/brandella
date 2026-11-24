@@ -256,10 +256,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>Good content calendar planning is not a one person task bolted onto a writer's to do list. It is a shared system a founder, an editor, and a social manager can all open and understand without a meeting.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -357,10 +353,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>None of these tools do content calendar planning for you. They give the plan a home. The planning still has to come from a human who understands the goals from step one.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -396,10 +388,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Give every workflow stage an owner's name, not a department. "Marketing reviews this" gets ignored; "Priya reviews this by Thursday" gets done.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">08</span>
@@ -433,10 +421,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>The teams that keep content calendar planning working long term treat it like their actual content: review it on a schedule, update what's stale, and adjust before the next quarter instead of scrapping the whole system. Consistent small reviews beat one heroic rebuild.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-faq">
   <div class="bx-faq-item open">

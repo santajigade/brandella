@@ -124,35 +124,6 @@ format: "html"
 
 <p>We covered the writing side of this in our <a href="/how-to-write-seo-friendly-blog/" target="_blank" rel="noopener">SEO-friendly blog posts guide</a>. This article handles the technical half: the actual PHP that turns a title into a clean, working URL automatically.</p>
 
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
-
 <div class="bsl-stat-grid">
 <div class="bsl-stat-card"><div class="bsl-stat-num">3-5</div><p>words is the ideal slug length range for both readability and search performance</p></div>
 <div class="bsl-stat-card"><div class="bsl-stat-num">1</div><p>PHP function handles transliteration, cleanup, and formatting in a single pass</p></div>
@@ -196,34 +167,6 @@ format: "html"
 <span class="c">// Output: 10-content-writing-mistakes-that-reduce-rankings</span></pre>
 </div>
 <p class="bsl-code-caption">A complete, working slugify function using PHP's built-in iconv transliteration</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="step-2-guaranteeing-uniqueness-against-a-database">Step 2: Guaranteeing Uniqueness Against a Database</h2>
 <p>Two posts titled the same thing will otherwise generate identical slugs. This version checks the database and appends a number if needed.</p>
 
@@ -338,34 +281,6 @@ function bslGenerate(){
 <p>According to <a href="https://www.achromatic.dev/tools/slug-generator" target="_blank" rel="noopener">Achromatic's guide to SEO-friendly slugs</a>, a clean URL improves click-through rate directly, since users can see what a page is about before ever clicking the search result.</p>
 
 <p>SEO-friendly URLs also make internal linking easier to manage. A URL like <code>/blog/seo-friendly-urls-php</code> is self-documenting in code, on a sitemap, or in analytics reports, unlike an opaque numeric ID that requires a database lookup to understand.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="transliteration-options-beyond-the-basic-function">Transliteration Options Beyond the Basic Function</h2>
 <p>According to <a href="https://sluggenerator.online/create-seo-friendly-url-slugs-in-php/" target="_blank" rel="noopener">Slug Generator's guide to creating SEO-friendly URL slugs in PHP</a>, PHP's intl extension offers ICU-based transliteration for cases where iconv's simpler approach does not cover a specific language well enough.</p>
 
@@ -398,34 +313,6 @@ function bslGenerate(){
 <p>According to <a href="https://devtoolhub.net/blog/url-slug-best-practices/" target="_blank" rel="noopener">DevToolHub's 2026 URL slug best practices guide</a>, once a URL is indexed, has backlinks, or has been shared, changing the slug breaks every one of those existing references unless a redirect is put in place.</p>
 
 <p>According to <a href="https://richdevtools.com/articles/web/url-slug-best-practices" target="_blank" rel="noopener">Rich Dev Tools' guide to URL slug rules and SEO impact</a>, a simple redirects table mapping old slugs to new ones, checked before a 404 response, handles this cleanly without manual .htaccess edits for every single change.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="faqs-on-generating-seo-friendly-urls-in-php">FAQs on Generating SEO-Friendly URLs in PHP</h2>
 
 <div class="bsl-faq-item">

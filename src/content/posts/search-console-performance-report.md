@@ -238,10 +238,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Set your date range to the last twenty eight days for day to day monitoring, but switch to three or six months whenever you are hunting for quick wins. A short window hides patterns that only show up over time.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -280,10 +276,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>That shift matters for how you read your own Search Console Performance Report. A page that used to convert impressions into clicks reliably at position three might now show a lower click through rate simply because an AI summary sits above it, not because your content got worse.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -316,10 +308,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>Before you act on any list of queries, filter out your own brand terms so they do not crowd out the generic opportunities you are actually looking for. Search Console has a built in way to do this, which our <a href="/branded-queries-filter-in-search-console/">guide to the branded queries filter</a> explains step by step, and a similar manual approach using combined filters is described by <a href="https://resignal.com/blog/how-to-find-seo-quick-wins-in-google-search-console-low-ctr-keywords/">Resignal</a>, which recommends a wide six month window when exporting data to spot topic patterns across many queries at once.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -339,10 +327,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <li><b>Chasing every dip in the chart.</b> Short term wiggles are normal; a real trend needs several weeks to confirm itself.</li>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>

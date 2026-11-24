@@ -320,10 +320,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <div class="bx-stat"><b>10</b><span>item scope dimensions per standard property</span></div>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -393,10 +389,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>The parameter name must match exactly, including letter case. <code>Link_URL</code> and <code>link_url</code> are two different parameters to GA4.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -475,10 +467,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Confirm the parameter in DebugView before you register anything. If it is not arriving there, no custom dimension will fix it.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -533,10 +521,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>If your parameters come from the automatic events covered in our <a href="https://brandella.in/ga4-enhanced-measurement-explained/">GA4 enhanced measurement guide</a>, check the predefined list first. Many of them are already there.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <h2 class="bx-h2" id="faq" style="margin-top:40px">Frequently Asked Questions</h2>
 

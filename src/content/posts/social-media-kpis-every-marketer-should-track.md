@@ -128,16 +128,6 @@ format: "html"
 <div class="bx-spec"><div class="v">4-6</div><div class="k">KPIs commonly recommended as the practical maximum for a focused dashboard</div></div>
 <div class="bx-spec"><div class="v">21-42%</div><div class="k">engagement lift from simply replying to comments, varying by platform</div></div>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="engagement-formula"><span class="bx-num">02</span>The Standard Engagement Rate Formula</h2>
 <div class="bx-rule"></div>
 <p><a href="https://greediersocialmedia.co.uk/social-media-kpis-marketers-should-track-in-2026/" target="_blank" rel="noopener">Greedier Social Media's guide</a> recommends standardizing the calculation across every platform: total engagements divided by reach, multiplied by 100. Engagements include likes, comments, shares, and saves.</p>
@@ -148,16 +138,6 @@ format: "html"
 <span class="lbl">🔎 Did you know?</span>
 <p><a href="https://blog.picmim.com/blog/social-media-kpis-that-matter" target="_blank" rel="noopener">Picmim's guide</a> cites a specific finding from Buffer's 2026 study that's easy to act on immediately: replying to comments boosts engagement by 21% on Instagram, 30% on LinkedIn, and 42% on Threads. Being responsive in your own comment section is one of the most underused engagement levers available, and it costs nothing to test.</p>
 </div>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="four-categories"><span class="bx-num">03</span>Four KPI Categories Worth Organizing Around</h2>
 <div class="bx-rule"></div>
 <p><a href="https://influencerdb.net/analytics/social-media-kpis-3/" target="_blank" rel="noopener">InfluencerDB's guide</a> offers a clean structural framework: Distribution KPIs (reach, impressions, follower growth rate), Attention KPIs (watch time, completion rate, saves and shares per 1,000 reach), Action KPIs (CTR, conversion rate, cost per acquisition, ROAS), and Risk/Quality KPIs (audience authenticity, comment quality, brand safety flags).</p>
@@ -169,16 +149,6 @@ format: "html"
 <p><a href="https://www.designrush.com/agency/social-media-marketing/trends/social-media-metrics" target="_blank" rel="noopener">DesignRush's 2026 Benchmark Survey</a> found lead generation is the single most common official team KPI, named by 40% of respondents, ahead of any engagement or reach metric. It's the number tied to quarterly targets and the one that survives a budget review.</p>
 
 <p>The same survey found social teams now define ROI through engagement (68%), conversion (65%), and revenue (57%), reflecting broader pressure from leadership: 65% want direct connections between social campaigns and business goals, and 52% want quantifiable cost savings across channels.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div class="bx-ad-wrap">
-<div class="bx-ad-divider" style="margin-bottom:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<div class="bx-ad-divider" style="margin-top:20px;"><div class="bx-ad-line"></div><span>Advertisement</span><div class="bx-ad-line"></div></div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="table"><span class="bx-num">05</span>KPIs by Funnel Stage</h2>
 <div class="bx-rule"></div>
 <p>A quick reference for which metric matters most at each stage of the customer journey.</p>

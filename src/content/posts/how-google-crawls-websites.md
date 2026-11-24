@@ -110,35 +110,6 @@ format: "html"
 <p class="bgc-lede">Google indexes only 30 to 60% of a typical website's pages, according to Google's own John Mueller. The rest sit in some in-between state, crawled but excluded, discovered but never fetched, or fetched but never rendered properly. Understanding the actual pipeline between discovery and indexing explains exactly where most of that other 40 to 70% quietly gets lost.</p>
 
 <p>Google crawls websites through a multi-stage pipeline: discovering URLs through links, sitemaps, and prior crawl history, fetching their content, rendering JavaScript-heavy pages in a headless browser, and finally evaluating that content for inclusion in the index. Crawling and indexing are related but genuinely separate processes.</p>
-
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <p>We covered why Google sometimes skips pages entirely in our <a href="/crawl-budget-explained/" target="_blank" rel="noopener">crawl budget guide</a>. This article covers the full pipeline that budget gets spent moving through.</p>
 
 <div class="bgc-stat-grid">
@@ -240,35 +211,7 @@ function bgcDiagnose(){
     out.innerText = "The page redirects elsewhere and authority followed. Confirm this is intentional and the destination is the correct final URL.";
   }
 }
-</script>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<h2 id="why-understanding-crawling-and-indexing-together-matters">Why Understanding Crawling and Indexing Together Matters</h2>
+</script><h2 id="why-understanding-crawling-and-indexing-together-matters">Why Understanding Crawling and Indexing Together Matters</h2>
 <p>According to <a href="https://www.seo-kreativ.de/en/blog/crawling-indexing-google/" target="_blank" rel="noopener">SEO Kreativ's guide to crawling and indexing explained simply</a>, treating these as one combined process is a common mistake. Every page you want visible must be crawlable, renderable, and indexable, three distinct hurdles rather than one.</p>
 
 <p>According to <a href="https://cyberraiden.wordpress.com/2026/03/26/google-search-explained-crawling-indexing-ranking-ai-features-limitations/" target="_blank" rel="noopener">a detailed explainer on how Google Search works</a>, crawling and indexing together form the foundation the entire ranking system depends on, powering everything from traditional results to AI Overviews and AI Mode.</p>
@@ -281,35 +224,7 @@ function bgcDiagnose(){
 <h2 id="what-slows-this-pipeline-down">What Slows This Pipeline Down</h2>
 <p>According to <a href="https://viacon.io/blog/google-crawl-and-google-index/" target="_blank" rel="noopener">Viacon's beginner's guide to Google crawl versus index</a>, excessive JavaScript reliance without server-side rendering delays the second wave significantly, since the rendering queue is inherently slower than the initial HTML pass.</p>
 
-<p>According to <a href="https://digitalstrategyforce.com/journal/how-does-google-crawl-and-index-your-website/" target="_blank" rel="noopener">Digital Strategy Force's guide to how Google crawls and indexes</a>, architectural clarity, every URL reachable, renderable, and unambiguous in its canonical identity, matters more to full indexing than content quality alone.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-<h2 id="faqs-on-how-google-crawls-websites">FAQs on How Google Crawls Websites</h2>
+<p>According to <a href="https://digitalstrategyforce.com/journal/how-does-google-crawl-and-index-your-website/" target="_blank" rel="noopener">Digital Strategy Force's guide to how Google crawls and indexes</a>, architectural clarity, every URL reachable, renderable, and unambiguous in its canonical identity, matters more to full indexing than content quality alone.</p><h2 id="faqs-on-how-google-crawls-websites">FAQs on How Google Crawls Websites</h2>
 
 <div class="bgc-faq-item">
 <div class="bgc-faq-q">Does submitting a sitemap guarantee Google will index my pages?</div>

@@ -142,34 +142,6 @@ format: "html"
 <p>The responsibility for the results stays squarely on you. If you run paid search, Shopping, or Performance Max campaigns, the new Google Ads terms are worth five minutes of your time.</p>
 
 <p>This update sits alongside a separate change to <a href="/category/paid-media/google-ads/" target="_blank" rel="noopener">Google Ads automation and Smart Bidding</a> arriving in August, which we cover further down. Together, they mark one of the more consequential shifts to how Google Ads accounts are run in 2026.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="what-actually-changed-in-the-google-ads-terms">What Actually Changed in the Google Ads Terms</h2>
 
 <p>Google says the new <a href="https://ads.google.com/" target="_blank" rel="noopener"> Google Ads </a>terms exist to support the growing use of automation and AI inside the platform. The changes apply only to Google Ads accounts, not to Google Workspace or Cloud Identity.</p>
@@ -257,34 +229,6 @@ format: "html"
 <p>He pointed out that advertisers still carry the responsibility for campaigns shaped by systems they did not directly build, and that the updated Google Ads terms give advertisers fewer explicit ways to opt out of automation than before.</p>
 </div>
 </div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="old-terms-vs-new-terms-at-a-glance">Old Terms vs. New Terms at a Glance</h2>
 <div class="bgt-table-wrap">
 <table class="bgt-table">
@@ -386,34 +330,6 @@ function bgtCheck(){
 <p>Google is not alone in expanding automation authority through its terms. Meta and other major ad platforms have made similar moves over the past year, giving their systems more latitude to generate creative and targeting while keeping advertisers responsible for outcomes.</p>
 
 <p>What sets the Google Ads terms apart is the scale involved. Google Ads processes an enormous share of global search and Shopping intent, so a shift in its terms of service touches far more advertiser budgets than a similar change on a smaller platform would.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="faqs-on-the-google-ads-terms-of-service-update">FAQs on the Google Ads Terms of Service Update</h2>
 
 <div class="bgt-faq-item">

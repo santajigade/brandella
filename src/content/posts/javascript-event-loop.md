@@ -231,11 +231,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
   <p>JavaScript can only do one thing at a time. That single sentence explains more slow, janky marketing pages than any other fact about how browsers work, and the rest of this guide is really just unpacking what "one thing at a time" means in practice.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">02</span>
@@ -324,11 +319,6 @@ console.log(<span class="tok-str">'2: sync - script end'</span>);</code></pre>
     <p>A requested delay on <code>setTimeout</code> is always a minimum, never a guarantee. Any synchronous work already queued ahead of it, including a heavy marketing tag parsing a large JSON payload, pushes the actual fire time later, sometimes by hundreds of milliseconds.</p>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">05</span>
@@ -379,11 +369,6 @@ console.log(<span class="tok-str">'2: sync - script end'</span>);</code></pre>
 
   <p>Reading a full <a href="/core-web-vitals-2026/" target="_blank" rel="noopener">Core Web Vitals guide</a> alongside this one connects the dots between the abstract mechanics here and the actual score reported in Search Console.</p>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-section-head">
     <span class="bx-num">07</span>
@@ -446,11 +431,6 @@ console.log(<span class="tok-str">'2: sync - script end'</span>);</code></pre>
     </div>
   </div>
 
-  <div class="bx-ad">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
   <div class="bx-cta">
     <h3>Ready to Stop Marketing Tags From Freezing Your Pages?</h3>

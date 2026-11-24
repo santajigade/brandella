@@ -239,10 +239,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Brand new to Tag Manager itself? Our <a href="/google-tag-manager-explained-for-beginners/">beginner's guide to GTM</a> covers containers and workspaces before you get here.</p>
 </div>
 
-<div class="bx-ad">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -292,10 +288,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 </div>
 <p class="bx-shot-caption">A real gradual scroll past the halfway point, next to a single fast scroll jump that crosses three thresholds at once.</p>
 
-<div class="bx-ad">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -327,10 +319,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p>That single design choice is what makes scroll depth trustworthy as a report metric in the first place, and it's a big part of why so many teams choose to track scroll depth using GTM instead of trying to reconstruct the same logic by hand. Without it, a visitor who idly scrolls up and down while reading would inflate every threshold's count far past the actual number of real readers who reached it.</p>
 
-<div class="bx-ad">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -361,10 +349,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollHeight">MDN's own reference for <code>scrollHeight</code></a> is worth a read if you want to understand exactly how the underlying percentage calculation works, since GTM's trigger is ultimately built on the same real DOM properties.</p>
 
-<div class="bx-ad">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>

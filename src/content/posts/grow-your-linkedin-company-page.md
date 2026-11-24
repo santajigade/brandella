@@ -127,35 +127,6 @@ format: "html"
 
 <p>We covered the broader B2B angle in our <a href="/linkedin-marketing-strategy/" target="_blank" rel="noopener">LinkedIn marketing strategy guide</a>. This article goes narrower and more tactical, focused specifically on growing the company page itself.</p>
 
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
-
 <div class="blp-stat-grid">
 <div class="blp-stat-card"><div class="blp-stat-num">60-66%</div><p>drop in organic company page reach reported between 2024 and 2026</p></div>
 <div class="blp-stat-card"><div class="blp-stat-num">9x</div><p>faster growth rate once a company page crosses the 150-follower threshold</p></div>
@@ -195,34 +166,6 @@ format: "html"
 <div class="blp-bar-row"><div class="blp-bar-label">Short-Form Video</div><div class="blp-bar-track"><div class="blp-bar-fill" style="width:65%;"><span>Strong, growing format</span></div></div></div>
 <div class="blp-bar-row"><div class="blp-bar-label">Unstructured Text Posts</div><div class="blp-bar-track"><div class="blp-bar-fill" style="width:25%;"><span>&lt;2% engagement</span></div></div></div>
 </div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="linkedin-company-page-growth-readiness-calculator">LinkedIn Company Page Growth Readiness Calculator</h2>
 <p>Answer a few quick questions about your current company page setup to see how ready it is for sustained organic growth.</p>
 
@@ -305,34 +248,6 @@ function blpCalc(){
   else { verdict.innerText = "Select an option for each factor to calculate your score."; }
 }
 </script>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="why-the-150-follower-threshold-matters">Why the 150-Follower Threshold Matters</h2>
 <p>According to <a href="https://connectsafely.ai/articles/increase-linkedin-company-page-engagement-guide-2026" target="_blank" rel="noopener">ConnectSafely's guide to increasing LinkedIn company page engagement</a>, crossing the 150-follower threshold accelerates a page's growth rate by up to 9 times, since the algorithm treats that threshold as an early signal of page legitimacy.</p>
 

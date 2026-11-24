@@ -124,34 +124,6 @@ format: "html"
 <p>That element is usually a hero image, a video poster frame, or a large block of text. Until that element paints, the page looks blank or half-built to the visitor.</p>
 
 <p>We covered LCP alongside INP and CLS in our broader <a href="/core-web-vitals-2026/" target="_blank" rel="noopener">Core Web Vitals guide</a>. This article goes deep on LCP specifically, since it is the metric most sites actually need to fix first.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 
 <div class="blc-illo">
 <svg viewBox="0 0 260 170" xmlns="http://www.w3.org/2000/svg">
@@ -232,34 +204,6 @@ format: "html"
 <p>If TTFB looks fine but LCP is still slow, the delay is happening in the browser: render-blocking resources, an unoptimized hero image, or heavy JavaScript competing for the main thread before the LCP element can paint.</p>
 </div>
 </div>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="highest-impact-lcp-fixes-in-priority-order">Highest-Impact LCP Fixes, in Priority Order</h2>
 <div class="blc-table-wrap">
 <table class="blc-table">
@@ -314,34 +258,6 @@ function blcCheck(){
 <p>According to <a href="https://wp-rocket.me/google-core-web-vitals-wordpress/improve-largest-contentful-paint/" target="_blank" rel="noopener">WP Rocket's guide to improving LCP on WordPress</a>, Google evaluates page experience primarily using real mobile field data, so a site that only gets tested on a fast office connection can easily miss serious problems affecting the majority of real visitors.</p>
 
 <p>This gap tends to be largest on image-heavy pages, since a hero image that loads acceptably fast on a strong Wi-Fi connection can take several extra seconds over a typical mobile network, especially without proper compression or a content delivery network in place.</p>
-<!-- OPENING ADSENSE CODE -->
-<div style="margin:40px 0;">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3931314195561246"
-     data-ad-slot="4249015278"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-        <span style="font-size:12px;color:#777;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
-            Advertisement
-        </span>
-        <div style="flex:1;border-top:2px dotted #bdbdbd;"></div>
-    </div>
-</div>
-<!-- CLOSING ADSENSE CODE -->
-
 <h2 id="tools-that-help-you-track-improvements-over-time">Tools That Help You Track Improvements Over Time</h2>
 <p>Fixing the metric once is not the same as keeping it fixed. Site changes, new plugins, and added marketing scripts can all quietly push the score back into a failing range months later.</p>
 

@@ -241,10 +241,6 @@ table.bx-table tbody tr:nth-child(even) { background: #ffffff; }
   <p>Already generating URLs for a sitemap? Our <a href="/build-xml-sitemap-generator-php/">XML sitemap generator in PHP guide</a> covers the same URL collection step this pairs well with.</p>
 </div>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">02</span>
@@ -289,10 +285,6 @@ $response = file_get_contents($endpoint);</code></pre>
 
 <p>A real production script should check the returned HTTP status too, rather than assuming <code>file_get_contents()</code> succeeding means the submission itself was accepted. A non 200 response from a genuinely reachable server still means something specific went wrong, covered in full further down.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">04</span>
@@ -344,10 +336,6 @@ validateUrlList(array_fill(0, 10001, 'https://brandella.in/page/'), 'brandella.i
 
 <p>A 429 deserves its own real handling too, separate from the outright failures above. It's a rate limit, not a rejection, so the correct response is a real retry after a real backoff delay, not logging it as a broken submission and moving on. A script that treats a 429 the same as a 403 will keep hammering the same endpoint at the same pace, making the actual rate limiting worse rather than backing off from it.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">06</span>
@@ -361,10 +349,6 @@ validateUrlList(array_fill(0, 10001, 'https://brandella.in/page/'), 'brandella.i
 
 <p>A real queue or a small delay before submitting is worth building in too, rather than firing the request inline during the publish request itself, so a slow or failed IndexNow request never holds up the actual page save. Our <a href="/php-cron-jobs/">PHP cron jobs guide</a> covers a real, reliable pattern for exactly this kind of background task.</p>
 
-<div class="bx-ad">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="4249015278" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 
 <div class="bx-section-head">
   <span class="bx-num">07</span>
