@@ -1,0 +1,17 @@
+---
+// Sidebar widget: the 3 newest live kits from the free SEO and AEO assets library.
+import { liveAssets, assetUrl, LIBRARY } from '../lib/assets';
+const newest = [...liveAssets].sort((a, b) => b.n - a.n).slice(0, 3);
+---
+{newest.length > 0 && (
+  <section class="widget kits-box">
+    <p class="kits-kicker">Free SEO kits</p>
+    <h3 class="kits-title">Templates, checklists and AI prompts</h3>
+    <ul class="kits-list">
+      {newest.map((a) => (
+        <li><a href={assetUrl(a.slug)}><span class="kits-name">{a.name}</span><span class="kits-meta">Excel kit, PDF guide and prompts</span></a></li>
+      ))}
+    </ul>
+    <a class="btn kits-all" href={LIBRARY.url}>Browse all free kits</a>
+  </section>
+)}

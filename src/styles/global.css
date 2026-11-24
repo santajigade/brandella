@@ -303,3 +303,21 @@ html.embed .newsletter { display: none !important; }
 .newsletter-side .newsletter-form { flex-direction: column; }
 .newsletter-side .newsletter-form input[type=email] { flex: none; width: 100%; }
 .newsletter-side .newsletter-form .btn { width: 100%; }
+
+/* Sidebar: free kits and follow us */
+.kits-box { padding: 22px 20px; border-radius: 14px; background: #fff; border: 1px solid var(--line); }
+.kits-kicker { margin: 0 0 6px; font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--green-deep); }
+.kits-title { margin: 0 0 14px; font-size: 19px; font-weight: 800; line-height: 1.3; color: var(--ink); }
+.kits-list { list-style: none; margin: 0 0 16px; padding: 0; display: grid; gap: 10px; }
+.kits-list a { display: block; padding: 12px 14px; border-radius: 10px; background: var(--soft); border: 1px solid #d6edc4; }
+.kits-list a:hover { border-color: var(--green); }
+.kits-name { display: block; font-weight: 700; font-size: 15px; line-height: 1.35; color: var(--ink); }
+.kits-meta { display: block; font-size: 12.5px; color: var(--ink-2); margin-top: 3px; }
+.kits-all { display: block; text-align: center; }
+.follow-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.follow-btn { display: flex; align-items: center; gap: 8px; padding: 10px 12px; border-radius: 10px; font-weight: 700; font-size: 14px; color: #fff; }
+.follow-btn:hover { opacity: .9; }
+.follow-linkedin { background: #0a66c2; }
+.follow-facebook { background: #1877f2; }
+.follow-instagram { background: #c13584; }
+.follow-pinterest { background: #e60023; }

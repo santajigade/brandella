@@ -3,6 +3,8 @@ import { getPosts, popular, postUrl, formatDate, thumb } from '../lib/site';
 import ToolsBox from './ToolsBox.astro';
 import AdSlot from './AdSlot.astro';
 import Newsletter from './Newsletter.astro';
+import KitsBox from './KitsBox.astro';
+import FollowBox from './FollowBox.astro';
 interface Props { exclude?: string; sticky?: boolean }
 const { exclude } = Astro.props;
 const posts = await getPosts();
@@ -24,7 +26,9 @@ const top = popular(posts.filter((p) => p.id !== exclude), 6);
     </ol>
   </section>
   <Newsletter variant="side" />
+  <KitsBox />
   <ToolsBox />
+  <FollowBox />
   <AdSlot format="rectangle" class="sticky-ad" />
   <slot />
 </aside>

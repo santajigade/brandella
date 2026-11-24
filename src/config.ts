@@ -18,6 +18,7 @@ export const SITE = {
     { name: 'LinkedIn', url: 'https://www.linkedin.com/company/brandellajournal/' },
     { name: 'Facebook', url: 'https://www.facebook.com/brandellajournal/' },
     { name: 'Instagram', url: 'https://www.instagram.com/brandellajournal/' },
+    { name: 'Pinterest', url: 'https://www.pinterest.com/brandellajournal/' },
   ],
   email: 'admin@brandella.in',
 };
