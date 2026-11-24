@@ -4,7 +4,7 @@ focusKeyword: core web vitals checklist
 description: "Free Core Web Vitals checklist in Excel: rate LCP, INP and CLS per template, find the slow part of LCP, and rank 38 proven fixes by impact and effort."
 published: 2026-11-24
 updated: 2026-11-24
-time: 2 hours for a first pass, then 30 minutes a month
+time: About 2 hours to set up, then about 30 minutes a month to update
 level: Beginner to advanced
 kit: true
 tabs: 10
