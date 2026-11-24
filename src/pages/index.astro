@@ -3,14 +3,12 @@ import Base from '../layouts/Base.astro';
 import Card from '../components/Card.astro';
 import Sidebar from '../components/Sidebar.astro';
 import AdSlot from '../components/AdSlot.astro';
-import { getPosts, popular, inCategory, catBySlug, catUrl, childrenOf } from '../lib/site';
+import { getPosts, inCategory, catBySlug, catUrl, childrenOf } from '../lib/site';
 import { MENU, SITE } from '../config';
 
 const posts = await getPosts();
 const lead = posts[0];
 const latestSide = posts.slice(1, 6);
-const latest = posts.slice(6, 14);
-const top = popular(posts, 8);
 const sections = MENU.map((slug) => ({
   cat: catBySlug.get(slug)!,
   kids: childrenOf(slug).filter((k) => k.count > 0).slice(0, 5),
@@ -36,19 +34,6 @@ const schema = [{
 
   <section class="container layout">
     <div class="main-col">
-      <div class="tabs" data-tabs>
-        <div class="tab-bar" role="tablist">
-          <button role="tab" aria-selected="true" aria-controls="tab-latest" id="t-latest">Latest</button>
-          <button role="tab" aria-selected="false" aria-controls="tab-popular" id="t-popular">Popular</button>
-        </div>
-        <div id="tab-latest" role="tabpanel" aria-labelledby="t-latest" class="list-stack">
-          {latest.map((p) => <Card post={p} variant="list" />)}
-        </div>
-        <div id="tab-popular" role="tabpanel" aria-labelledby="t-popular" class="list-stack" hidden>
-          {top.map((p) => <Card post={p} variant="list" />)}
-        </div>
-      </div>
-
       {sections.map(({ cat, kids, items }, i) => (
         <section class="cat-section">
           <div class="cat-head">
@@ -64,12 +49,3 @@ const schema = [{
     <Sidebar />
   </section>
 </Base>
-
-<script is:inline>
-document.querySelectorAll('[data-tabs]').forEach(function(t){
-  var tabs=t.querySelectorAll('[role=tab]');
-  tabs.forEach(function(b){b.addEventListener('click',function(){
-    tabs.forEach(function(x){x.setAttribute('aria-selected',x===b?'true':'false');document.getElementById(x.getAttribute('aria-controls')).hidden=(x!==b);});
-  });});
-});
-</script>
