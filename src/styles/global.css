@@ -326,3 +326,4 @@ html.embed .newsletter { display: none !important; }
 html.embed .ad-slot { display: none !important; }
 .ad-in-article { margin: 32px 0; }
 html.embed .bx-ad-wrap { display: none !important; }
+.ad-multiplex-article { margin: 36px 0 0; }

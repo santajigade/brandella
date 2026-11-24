@@ -18,6 +18,8 @@ export const SITE = {
     category: '8857332989',
     inArticle: '7600091636',
     resources: '5413232797',
+    multiplexArticle: '8490822277',
+    multiplexSidebar: '2187982856',
   },
   social: {
     linkedin: 'https://www.linkedin.com/in/santaji-gadepatil6680/',
