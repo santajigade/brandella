@@ -1,12 +1,17 @@
 ---
 import { SITE } from '../config';
-interface Props { format?: 'auto' | 'rectangle' | 'horizontal'; class?: string }
-const { format = 'auto', class: cls } = Astro.props;
+type SlotKey = keyof typeof SITE.adsenseSlots;
+interface Props { format?: 'auto' | 'rectangle' | 'horizontal' | 'in-article'; unit?: SlotKey; class?: string }
+const { format = 'auto', unit, class: cls } = Astro.props;
+const slotId = (unit && SITE.adsenseSlots[unit]) || SITE.adsenseSlot;
+const inArticle = format === 'in-article';
 ---
 {SITE.adsenseClient && (
-  <div class:list={['ad-slot', cls]}>
+  <div class:list={['ad-slot', inArticle && 'ad-in-article', cls]}>
     <span class="ad-label">Advertisement</span>
-    <ins class="adsbygoogle" style="display:block" data-ad-client={SITE.adsenseClient} data-ad-slot={SITE.adsenseSlot} data-ad-format={format} data-full-width-responsive="true"></ins>
-    <script is:inline>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    {inArticle
+      ? <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client={SITE.adsenseClient} data-ad-slot={slotId}></ins>
+      : <ins class="adsbygoogle" style="display:block" data-ad-client={SITE.adsenseClient} data-ad-slot={slotId} data-ad-format={format} data-full-width-responsive="true"></ins>}
+    <script is:inline>if (window.self === window.top) { (adsbygoogle = window.adsbygoogle || []).push({}); }</script>
   </div>
 )}

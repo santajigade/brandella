@@ -59,7 +59,7 @@ const [first, ...rest] = items;
       <div class="grid grid-3">
         {(page === 1 ? rest : items).map((p, i) => <Card post={p} eager={page > 1 && i < 3} />)}
       </div>
-      <AdSlot format="horizontal" />
+      <AdSlot format="horizontal" unit="category" />
       <Pager base={catUrl(cat.slug)} page={page} total={total} />
     </div>
     <Sidebar />

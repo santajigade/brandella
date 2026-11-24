@@ -148,3 +148,34 @@ export function faqs(html: string) {
   }
   return out;
 }
+
+/**
+ * In-article AdSense units: one before the 3rd main section of articles with 1,000+ words,
+ * and a second about two thirds through articles with 2,000+ words. Never inside FAQ,
+ * tables or code, because ads are only placed directly before a top level section heading.
+ */
+export function withInArticleAds(html: string, words: number, client: string, slot: string) {
+  if (!client || !slot || words < 1000) return html;
+  // Older migrated posts already carry their own ad blocks inside the text: never add more there
+  if (html.includes('adsbygoogle')) return html;
+  const heads: number[] = [];
+  const re = /<h2\b[^>]*>([\s\S]*?)<\/h2>/gi;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(html))) {
+    const text = m[1].replace(/<[^>]+>/g, ' ');
+    if (/faq|frequently asked|learn today|key terms|sources|references/i.test(text)) break;
+    let at = m.index;
+    // BX posts wrap the heading in a section head block: insert before the whole block
+    const before = html.slice(Math.max(0, at - 160), at);
+    const k = before.lastIndexOf('<div class="bx-section-head"');
+    if (k >= 0) at = at - before.length + k;
+    heads.push(at);
+  }
+  if (heads.length < 3) return html;
+  const picks = [heads[2]];
+  if (words >= 2000 && heads.length >= 6) picks.push(heads[Math.round((heads.length * 2) / 3)]);
+  const ad = `<div class="ad-slot ad-in-article"><span class="ad-label">Advertisement</span><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="${client}" data-ad-slot="${slot}"></ins><script>if (window.self === window.top) { (adsbygoogle = window.adsbygoogle || []).push({}); }</script></div>\n`;
+  let out = html;
+  for (const at of [...new Set(picks)].sort((a, b) => b - a)) out = out.slice(0, at) + ad + out.slice(at);
+  return out;
+}

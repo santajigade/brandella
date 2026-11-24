@@ -8,7 +8,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import AdSlot from '../components/AdSlot.astro';
 import {
   getPosts, primaryCat, topCat, catUrl, catBySlug, authorOf, authorUrl, readTime,
-  formatDate, related, nextUp, postUrl, headings, absolute, faqs,
+  formatDate, related, nextUp, postUrl, headings, absolute, faqs, withInArticleAds,
 } from '../lib/site';
 import { SITE } from '../config';
 
@@ -138,7 +138,7 @@ if (kind === 'post') {
               <ol>{post.toc.map((h: { id: string; text: string }) => <li><a href={`#${h.id}`}>{h.text}</a></li>)}</ol>
             </details>
           )}
-          <div class="post-body" set:html={html} />
+          <div class="post-body" set:html={withInArticleAds(html, post.p.data.words ?? 0, SITE.adsenseClient, SITE.adsenseSlots.inArticle)} />
           {post.readNext && (
             <aside class="whats-next" aria-label="What to read next">
               <p class="whats-next-title">What's next</p>

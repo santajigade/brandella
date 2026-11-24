@@ -321,3 +321,8 @@ html.embed .newsletter { display: none !important; }
 .follow-facebook { background: #1877f2; }
 .follow-instagram { background: #c13584; }
 .follow-pinterest { background: #e60023; }
+
+/* Ads: never inside the next-article iframes; in-article spacing */
+html.embed .ad-slot { display: none !important; }
+.ad-in-article { margin: 32px 0; }
+html.embed .bx-ad-wrap { display: none !important; }

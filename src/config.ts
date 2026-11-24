@@ -10,6 +10,15 @@ export const SITE = {
   // AdSense publisher id (leave empty to switch every ad slot off)
   adsenseClient: 'ca-pub-3931314195561246',
   adsenseSlot: '4249015278',
+  // One ad unit per position, so AdSense reports show which position earns most
+  adsenseSlots: {
+    homeTop: '5191666127',
+    homeMiddle: '5078190873',
+    sidebar: '3796577999',
+    category: '8857332989',
+    inArticle: '7600091636',
+    resources: '5413232797',
+  },
   social: {
     linkedin: 'https://www.linkedin.com/in/santaji-gadepatil6680/',
   },

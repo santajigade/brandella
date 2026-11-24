@@ -30,7 +30,7 @@ const schema = [{
     </div>
   </section>
 
-  <AdSlot format="horizontal" class="container ad-wide" />
+  <AdSlot format="horizontal" unit="homeTop" class="container ad-wide" />
 
   <section class="container layout">
     <div class="main-col">
@@ -42,7 +42,7 @@ const schema = [{
             <a class="more" href={catUrl(cat.slug)}>View all &rarr;</a>
           </div>
           <div class="grid grid-3">{items.map((p) => <Card post={p} />)}</div>
-          {i === 2 && <AdSlot format="horizontal" />}
+          {i === 2 && <AdSlot format="horizontal" unit="homeMiddle" />}
         </section>
       ))}
     </div>
