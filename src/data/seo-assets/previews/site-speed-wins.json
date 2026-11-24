@@ -1,0 +1,142 @@
+{
+ "sheet": "Speed Wins",
+ "columns": [
+  "Win ID",
+  "Fix or task (your words)",
+  "Template and device",
+  "Metric",
+  "Metric status now",
+  "Value (0 to 100)",
+  "Priority",
+  "Quadrant"
+ ],
+ "rows": [
+  [
+   "SW-001",
+   "Render the first gallery image in HTML instead of the JavaScript slider",
+   "Product page (Mobile)",
+   "LCP",
+   "Needs improvement",
+   90,
+   "P1: do now",
+   "Quick win"
+  ],
+  [
+   "SW-002",
+   "Remove loading=\"lazy\" from the main product image",
+   "Product page (Mobile)",
+   "LCP",
+   "Needs improvement",
+   90,
+   "P1: do now",
+   "Quick win"
+  ],
+  [
+   "SW-003",
+   "Add fetchpriority=\"high\" to the main product image",
+   "Product page (Mobile)",
+   "LCP",
+   "Needs improvement",
+   90,
+   "Shipped",
+   "Quick win"
+  ],
+  [
+   "SW-004",
+   "Set width and height on review photos and thumbnails",
+   "Product page (Mobile)",
+   "CLS",
+   "Needs improvement",
+   90,
+   "P1: do now",
+   "Quick win"
+  ],
+  [
+   "SW-005",
+   "Remove 6 unused marketing tags from the tag manager",
+   "Product page (Mobile)",
+   "INP",
+   "Needs improvement",
+   72,
+   "P1: do now",
+   "Quick win"
+  ],
+  [
+   "SW-006",
+   "Cache brew guide HTML on the CDN for 10 minutes",
+   "Brew guide (Mobile)",
+   "TTFB",
+   "Poor",
+   50,
+   "P2: this sprint",
+   "Quick win"
+  ],
+  [
+   "SW-007",
+   "Rebuild brew guides on the server rendered template",
+   "Brew guide (Mobile)",
+   "LCP",
+   "Poor",
+   40,
+   "P3: plan it",
+   "Big bet"
+  ],
+  [
+   "SW-008",
+   "Yield in the Apply coupon handler and show a spinner first",
+   "Cart and checkout (Mobile)",
+   "INP",
+   "Poor",
+   30,
+   "P2: this sprint",
+   "Quick win"
+  ],
+  [
+   "SW-009",
+   "Reserve 280 px for each in article ad slot",
+   "Blog article (Mobile)",
+   "CLS",
+   "Poor",
+   50,
+   "P1: do now",
+   "Quick win"
+  ],
+  [
+   "SW-010",
+   "font-display swap and preload the heading font",
+   "Blog article (Mobile)",
+   "LCP",
+   "Good",
+   7,
+   "P3: plan it",
+   "Small task"
+  ],
+  [
+   "SW-011",
+   "Split the filter JavaScript and load it on first use",
+   "Category page (Mobile)",
+   "INP",
+   "Needs improvement",
+   58,
+   "P2: this sprint",
+   "Big bet"
+  ],
+  [
+   "SW-012",
+   "Cache category queries for 5 minutes",
+   "Category page (Mobile)",
+   "TTFB",
+   "Needs improvement",
+   72,
+   "P1: do now",
+   "Quick win"
+  ]
+ ],
+ "formulaCols": [
+  3,
+  4,
+  5,
+  6,
+  7
+ ]
+}

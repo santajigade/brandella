@@ -1,0 +1,340 @@
+seoTitle: "Content Refresh Template: Free Excel Kit to Update Old Posts"
+h1: "Content Refresh Kit: Decay Finder, Refresh Planner, Playbook and AI Prompts"
+focusKeyword: content refresh template
+description: "Free content refresh template in Excel: find decaying pages from Search Console data, see why they fell, and plan refreshes by score, hours and clicks."
+published: 2026-11-24
+updated: 2026-11-24
+time: 2 hours for a first run, then 1 hour a month
+level: Beginner to advanced
+kit: true
+tabs: 9
+intro:
+  - "Most content refresh advice says update your old posts. It rarely says which posts, why they fell, or what kind of update each one needs. This free <strong>content refresh template</strong> is a working kit instead. Paste Search Console data for two periods and an Excel workbook diagnoses every URL: ranking decay, CTR decay, CTR decay under an AI Overview, demand decay, low traffic, growing or stable. Each page then gets a refresh type, a score, a priority, an hours estimate and a brief your writer can follow."
+  - "It is built for the AI search era. When an AI Overview answers the query, a page can keep its ranking and still lose clicks, so the kit separates that case from a real ranking drop. AI assistants also tend to cite fresher pages: one large study found the URLs they cite are on average about a quarter fresher than organic results. But Google is clear that changing a date without real changes does not help, so the kit has a date rule for every refresh and measures the result 28 days later."
+kitContents:
+  - t: "Excel workbook, 9 tabs"
+    d: "Content Inventory (500 ready rows with 21 automatic columns), Refresh Queue with briefs, date rule, results and a weekly hours check, Refresh Playbook for 8 diagnoses, Dashboard with two charts, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "30 pages and 10 refreshes for a fictional travel planning app, so you see every diagnosis, score and result working before you add your own data."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to share with writers, editors or clients."
+  - t: "22 AI prompts"
+    d: "Prompts to diagnose a falling page, compare it with today's top results and AI answers, find outdated facts, rewrite titles and plan merges, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole refresh process on one page, to tick off for every page you update."
+steps:
+  - t: Set the periods and your capacity
+    d: "On Settings, set today's date, label the previous and recent periods (same length), and enter the writing hours your team has each week."
+  - t: Export two periods from Search Console
+    d: "In the Performance report, compare two date ranges and export pages for each. Paste clicks, impressions and average position into the Content Inventory."
+  - t: Add dates, type and main query
+    d: "Add the published date, the date of the last substantial update, the content type, the topic and the main query for each URL."
+  - t: Add judgement the data cannot give
+    d: "Choose business value (1 to 3) and time sensitivity, and search the main query to note whether an AI Overview shows and whether you are cited."
+  - t: Read the diagnosis
+    d: "Sort by Refresh score. For the top pages, read Diagnosis, What to do and Query overlap, and check the Refresh Playbook for each diagnosis."
+  - t: Plan the refreshes
+    d: "Add P1 and P2 pages to the Refresh Queue, choose a week and a writer, and copy the brief. Keep each week within your writing hours."
+  - t: Measure after 28 days
+    d: "After a refresh, fill the date, whether the change was substantial and clicks for 28 days before and after. The Result column tells you whether it worked."
+sections:
+  - h: Why content refreshes matter more in the AI search era
+    html: |
+      <p>Pages lose traffic for different reasons, and each reason needs a different fix. A competitor writes a better guide. A rule or price on your page changes. Fewer people search the topic. Or Google shows an AI Overview that answers the question on the results page, so your page keeps its position and still gets fewer clicks.</p>
+      <p>AI assistants add a new reason to keep pages current. An <a href="https://ahrefs.com/blog/do-ai-assistants-prefer-to-cite-fresh-content/" target="_blank" rel="noopener">Ahrefs study of about 17 million citations</a> (July 2025) found that URLs cited by AI assistants were on average 25.7 percent fresher than pages in organic search results. ChatGPT showed the strongest preference for fresh content, and Google AI Overviews the least. The study also notes the average cited page was still almost three years old, so freshness helps, but it is not everything.</p>
+      <p>And Google is clear about what does not work. Its <a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" target="_blank" rel="noopener">helpful content guidance</a> asks whether you change the date of pages to make them seem fresh when the content has not substantially changed, and says that adding or removing lots of content just to seem fresh will not help. A good refresh changes what the reader gets, not just the date.</p>
+      <p>So a modern content refresh template answers four questions for every page: is it falling, why, is it worth fixing, and what kind of refresh does it need. The workbook answers all four.</p>
+  - h: What is inside the content refresh template
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>Content Inventory</td><td>Works out changes, CTR, months since update and review due, then a diagnosis, refresh type, action, query overlap, score, priority, hours and clicks recovered.</td><td>URL, title, type, topic, main query, dates, two periods of Search Console data, conversions, value, time sensitivity, AI Overview check</td></tr>
+          <tr><td>Refresh Queue</td><td>Pulls the diagnosis, writes the brief, applies the date rule, sets the measure date and reads the result. Checks writing hours per week.</td><td>URL, week, owner, refresh date, what changed, substantial or not, clicks before and after</td></tr>
+          <tr><td>Refresh Playbook</td><td>For each diagnosis: what it usually means, what to check first, what to change and what not to do, plus the steps for every refresh.</td><td>Optional edits</td></tr>
+          <tr><td>Dashboard</td><td>17 key numbers, top 10 refresh candidates, pages and clicks lost by diagnosis, pages by priority, two charts.</td><td>Nothing</td></tr>
+          <tr><td>Settings</td><td>Diagnosis rules, score weights, position bands, review windows, refresh types with hours and recovery assumptions, and lists.</td><td>Optional tuning</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas, so you never break the logic by accident. All 500 rows are ready, with dropdowns and checks, so you can paste a full Search Console export straight in.</p>
+  - h: How to get the data from Search Console
+    html: |
+      <p>In the <a href="https://support.google.com/webmasters/answer/17011165" target="_blank" rel="noopener">Search Console Performance report</a>, add a date filter, choose Compare and pick two periods of the same length. Google suggests the weekly or monthly view when you compare ranges, so different days of the week do not distort the result. Then open the Pages tab and export.</p>
+      <ul>
+        <li><strong>Normal pages:</strong> compare the last 3 months with the 3 months before.</li>
+        <li><strong>Seasonal pages:</strong> compare the same months a year earlier, or the sheet will flag every off season page as demand decay.</li>
+        <li><strong>One source for both periods:</strong> the same property, search type and country filter.</li>
+        <li><strong>Main query:</strong> filter by the URL and take the query with the most clicks. The sheet uses it to find pages that compete with each other.</li>
+      </ul>
+      <p>Google notes that filtering by query or page can change report totals because of data truncation and anonymized queries, so expect page totals to differ slightly from the site total.</p>
+  - h: The 8 diagnoses and what each one needs
+    html: |
+      <p>The sheet checks each page in this order. The thresholds live on Settings and are starting assumptions you can tune.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Diagnosis</th><th>Rule (default)</th><th>Refresh type</th><th>What it needs</th></tr></thead>
+        <tbody>
+          <tr><td>Low traffic</td><td>Under 100 clicks in both periods</td><td>Merge or improve</td><td>Merge into a stronger page with a 301, improve it, or leave it if it helps visitors</td></tr>
+          <tr><td>Growing</td><td>Clicks up 10% or more</td><td>Protect</td><td>Leave the structure alone; fix facts only</td></tr>
+          <tr><td>Ranking decay</td><td>Impressions down 20% or more and 2 or more positions lost</td><td>Full refresh</td><td>Update facts, add missing subtopics, add original value, refresh links</td></tr>
+          <tr><td>CTR decay</td><td>Clicks down 20% or more while impressions fell less than 15%</td><td>Snippet refresh</td><td>Rewrite the title and meta description, check the visible date</td></tr>
+          <tr><td>CTR decay (AI Overview)</td><td>The same, and an AI Overview shows for the main query</td><td>Answer refresh</td><td>A clear answer near the top plus depth a summary cannot give</td></tr>
+          <tr><td>Demand decay</td><td>Impressions down 20% or more, position steady</td><td>Light refresh</td><td>Fact check before the next season, move effort elsewhere</td></tr>
+          <tr><td>Mixed decay</td><td>Clicks down 20% or more, no clear pattern</td><td>Diagnose queries</td><td>Compare queries for the URL before you change anything</td></tr>
+          <tr><td>Stable or Stable, review due</td><td>None of the above; review due when the last real update is older than the window</td><td>Monitor or Fact check</td><td>Check facts on schedule; change the date only for real changes</td></tr>
+        </tbody>
+      </table></div>
+      <p>The review window depends on time sensitivity: 6 months for fast changing pages (rules, prices, visas), 12 months for yearly pages and 24 months for evergreen pages. These are kit assumptions.</p>
+  - h: How the diagnosis and score work (worked example)
+    html: |
+      <p>In the demo, the Schengen visa checklist had 4,200 clicks in the previous period and 2,300 in the recent one: 1,900 clicks lost, down 45 percent. Impressions fell from 98,000 to 61,000 (down 38 percent) and average position moved from 3.2 to 7.8, so it lost 4.6 positions. Impressions fell by more than 20 percent and it lost more than 2 positions, so the diagnosis is <strong>ranking decay</strong>, and the refresh type is a <strong>full refresh</strong>.</p>
+      <p>The last substantial update was on 15 January 2025, 22.3 months before the review date. Visa rules are fast changing (review after 6 months), so <strong>Review due</strong> is Yes.</p>
+      <p>The refresh score adds four weighted parts:</p>
+      <ul>
+        <li>Clicks lost (weight 40): 1,900 of the 2,000 that earn full marks, so 40 x 0.95 = 38</li>
+        <li>Business value (weight 25): 3 of 3, so 25</li>
+        <li>Position band (weight 20): position 7.8 sits in the 4 to 10 band with the most to gain, factor 1, so 20</li>
+        <li>Review due (weight 15): Yes, so 15</li>
+      </ul>
+      <p>The total is <strong>98</strong>, so the priority is <strong>P1: refresh now</strong>. A full refresh is estimated at 6 hours with a recovery share of 50 percent, so the sheet estimates about 950 clicks won back, or 158 clicks per hour of work. Both numbers are labelled assumptions; replace them with your own results over time.</p>
+      <p>The Query overlap column also warns that the Schengen checklist shares its main query with another URL, the Schengen visa appointment guide. Two pages on one topic compete, so the demo queues the appointment guide as a merge.</p>
+      <p><strong>Second example.</strong> The Japan Rail Pass guide lost 350 clicks (down 22 percent) while impressions held steady (down 3 percent) and position barely moved. That is <strong>CTR decay</strong>: the page is seen as often but clicked less. Its score is 7 + 16.7 + 20 + 15 = 59, so P2, and the fix is a one hour snippet refresh, not a rewrite.</p>
+  - h: The date rule
+    html: |
+      <p>Every row on the Refresh Queue has a Substantial change? column, and the Date rule column follows it:</p>
+      <ul>
+        <li><strong>Yes:</strong> update the visible Last updated date and <code>dateModified</code> in your structured data.</li>
+        <li><strong>No:</strong> keep the old date. A new title, a fixed link or a typo is not a substantial change.</li>
+      </ul>
+      <p>Google's guide to <a href="https://developers.google.com/search/docs/appearance/publication-dates" target="_blank" rel="noopener">byline dates</a> recommends a visible date labelled clearly, such as Published or Last updated, that matches <code>datePublished</code> and <code>dateModified</code> in your Article markup. It also asks you not to use future dates and to keep other dates on the page to a minimum.</p>
+  - h: Measuring results 28 days later
+    html: |
+      <p>When you log a refresh, the sheet sets a Measure on date 28 days later (editable on Settings). On that date, add clicks for the 28 days before and the 28 days after the refresh, from the Performance report filtered by the URL.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Result</th><th>Rule</th><th>Next step</th></tr></thead>
+        <tbody>
+          <tr><td>Up: keep going</td><td>Clicks up 10% or more</td><td>Note what worked and use it on similar pages</td></tr>
+          <tr><td>Flat: check rankings by query</td><td>Within 10% either way</td><td>Check which queries moved; give it another cycle</td></tr>
+          <tr><td>Still falling: diagnose again</td><td>Down more than 10%</td><td>Recheck intent and today's top results</td></tr>
+          <tr><td>Wait</td><td>Measure date not reached</td><td>Request indexing for important pages meanwhile</td></tr>
+        </tbody>
+      </table></div>
+      <p>In the demo, the visa free countries list was refreshed with new countries and rules: clicks went from 1,650 to 1,980, so the result is "Up 20%: keep going". Use your own results to replace the recovery shares on Settings. HubSpot reported that <a href="https://blog.hubspot.com/marketing/historical-blog-seo-conversion-optimization" target="_blank" rel="noopener">updating and republishing old posts</a> increased their monthly organic search views by an average of 106 percent, but that is one company's sample, not a promise.</p>
+  - h: Column by column guide to the Content Inventory
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>URL, Title, Content type, Topic</td><td>The page and how you group it.</td><td>Paste the full URL exactly as Search Console shows it.</td></tr>
+          <tr><td>Main query</td><td>The query with the most clicks for the URL.</td><td>Powers the Query overlap check.</td></tr>
+          <tr><td>Published, Last substantial update</td><td>Dates. Leave the update blank if never updated.</td><td>Only real content changes count.</td></tr>
+          <tr><td>Clicks, Impressions, Position</td><td>Previous and recent period from Search Console.</td><td>Both periods must be the same length.</td></tr>
+          <tr><td>Conversions</td><td>Leads, sign ups or sales from the page in the recent period.</td><td>Optional, useful for judging value.</td></tr>
+          <tr><td>Business value (1 to 3)</td><td>3 close to a sale, 2 builds trust, 1 loosely related.</td><td>The most important judgement in the sheet.</td></tr>
+          <tr><td>Time sensitivity</td><td>Fast changing, Yearly or Evergreen.</td><td>Sets the review window.</td></tr>
+          <tr><td>AI Overview, Cited in AI answers</td><td>Yes, No or Not checked.</td><td>Search the main query in a private window.</td></tr>
+          <tr><td>Changes and CTR</td><td>Automatic.</td><td>The colour scale shows the biggest drops.</td></tr>
+          <tr><td>Months since update, Review due?</td><td>Automatic.</td><td>Uses the last update, or the published date.</td></tr>
+          <tr><td>Diagnosis, Refresh type, What to do</td><td>Automatic from the rules and the Settings table.</td><td>Read the Refresh Playbook for each diagnosis.</td></tr>
+          <tr><td>Query overlap</td><td>Automatic warning when two URLs share a main query.</td><td>Merge them or give each a different intent.</td></tr>
+          <tr><td>Refresh score, Priority</td><td>Automatic, 0 to 100 and P1 to P4 or Monitor.</td><td>Sort by score first.</td></tr>
+          <tr><td>Hours, Clicks recovered, Per hour</td><td>Automatic estimates from Settings assumptions.</td><td>Use them to compare, not to promise.</td></tr>
+          <tr><td>In refresh queue?</td><td>Automatic.</td><td>Stops you planning a page twice.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Refreshing for AI Overviews and AI answers
+    html: |
+      <p>Google says there are no extra requirements to appear in AI Overviews or AI Mode. Its guide to <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">AI features and your website</a> lists the SEO basics that still apply, such as making important content available in text and making sure structured data matches the visible text. For pages with CTR decay under an AI Overview, the answer refresh adds a few habits:</p>
+      <ul>
+        <li><strong>Answer first.</strong> A clear, self contained answer of 40 to 60 words near the top, written for a person, not a robot.</li>
+        <li><strong>Depth a summary cannot give.</strong> Steps, examples, tables, real numbers and first hand experience.</li>
+        <li><strong>Clear structure.</strong> Descriptive headings, short paragraphs and a FAQ for real follow up questions.</li>
+        <li><strong>Current facts.</strong> Rules, prices and dates that match today, because outdated facts are the easiest reason not to cite a page.</li>
+      </ul>
+      <p>Our guide on <a href="/ai-overviews-clicks-how-to-get-cited-2026/">how to get cited in AI Overviews</a> goes deeper.</p>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: collect.</strong> Export two periods from Search Console for your top 100 to 300 pages, add dates, types and main queries.</li>
+        <li><strong>Week 2: diagnose.</strong> Add business value, time sensitivity and AI Overview checks. Read the diagnosis for every P1 and P2 page and fix any query overlap.</li>
+        <li><strong>Week 3: refresh.</strong> Queue the P1 pages within your writing hours and refresh them with the brief and the Refresh Playbook.</li>
+        <li><strong>Week 4: plan.</strong> Queue the P2 pages, request indexing for refreshed pages and set reminders for each Measure on date.</li>
+      </ul>
+      <p>After that, update the inventory every month or quarter. Our guide to <a href="/content-decay-explained-why-rankings-drop/">content decay</a> explains the causes in more depth.</p>
+  - h: The chained prompt workflow (from data to refreshed draft)
+    html: |
+      <p>Prompts 18 to 22 below are designed to run in order in one AI chat:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your site, audience and refresh rules.</li>
+        <li><strong>Diagnose</strong> the page from its Search Console numbers.</li>
+        <li><strong>Compare</strong> it with today's top results and AI answers that you paste in.</li>
+        <li><strong>Plan</strong> the refresh: what to keep, change, add and remove.</li>
+        <li><strong>Draft</strong> the changed sections and a change log for the Refresh Queue.</li>
+      </ol>
+      <p>Check every fact the assistant adds against an official source. An AI draft with a wrong rule is worse than an old page.</p>
+  - h: Content refresh mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Changing only the date.</strong> Google asks you not to, and readers notice. Use the date rule.</li>
+        <li><strong>Rewriting a page that is growing.</strong> Protect winners; refresh losers.</li>
+        <li><strong>Treating every drop the same.</strong> A CTR drop needs a new snippet, not a new article. Read our guide to <a href="/how-to-refresh-old-content-without-losing-rankings/">refreshing old content without losing rankings</a>.</li>
+        <li><strong>Comparing the wrong periods.</strong> Seasonal pages need year over year comparisons.</li>
+        <li><strong>Changing the URL.</strong> Keep it. A new URL throws away the signals the page has earned.</li>
+        <li><strong>Deleting pages in bulk.</strong> Removing lots of content to seem fresh does not help. Merge or improve pages one by one.</li>
+        <li><strong>Never measuring.</strong> Without the before and after clicks, you cannot learn which refreshes work.</li>
+      </ul>
+prompts:
+  - t: Diagnose a page that lost clicks
+    p: |
+      Here are Search Console numbers for [URL] for two periods of the same length:
+      clicks [previous] to [recent], impressions [previous] to [recent], average position [previous] to [recent].
+      An AI Overview [does or does not] show for the main query "[query]". Explain the most likely reason for the change
+      (ranking drop, CTR drop, lower demand or mixed) and what to check next. Do not guess numbers I did not give.
+  - t: Compare queries before and after
+    p: |
+      Here are the queries for [URL] with clicks and position for two periods: [paste table]
+      Show which queries lost the most clicks, which lost position, and which are new. Group them by intent
+      and tell me which sections of the page should change.
+  - t: Compare my page with today's top results
+    p: |
+      Here is my page outline: [paste headings]. Here are the headings of the top 3 results for "[query]": [paste].
+      List the subtopics, questions and formats the top results cover and I do not, and what my page offers that they lack.
+  - t: Find outdated facts
+    p: |
+      Here is the text of my page from [date]: [paste text]. List every fact, number, price, rule, product name,
+      date and link that may have changed since then, with what I should check and where (official sources first).
+      Do not state new facts yourself; give me the list to verify.
+  - t: Answer first block for an AI Overview query
+    p: |
+      The query "[query]" shows an AI Overview. Here is my current opening: [paste]. Write a clear 40 to 60 word answer
+      that fully answers the query on its own, in plain language, then suggest what depth should follow it
+      that a summary cannot give.
+  - t: Rewrite the title and description
+    p: |
+      My page "[title]" for the query "[query]" lost clicks while impressions stayed the same. Here are the titles of the
+      top results: [paste]. Write 5 better titles (under 60 characters) and 3 meta descriptions (120 to 160 characters)
+      that match the intent and promise only what the page delivers.
+  - t: Add first hand experience
+    p: |
+      My page about [topic] reads like every other result. Ask me 8 questions about my real experience, data or customer
+      examples on this topic. After I answer, suggest where each answer should go on the page.
+  - t: Merge two overlapping pages
+    p: |
+      These two pages target the same main query "[query]": Page A [URL and outline], Page B [URL and outline].
+      Recommend which URL to keep, what content to move from the other, and the redirect to add. Keep the strongest
+      sections of both.
+  - t: Decide merge, improve or leave
+    p: |
+      This page gets very little traffic: [URL, topic, clicks, links, conversions]. Decide whether to merge it into
+      [related page], improve it or leave it as it is, and explain the reason in three lines.
+  - t: Seasonal refresh plan
+    p: |
+      These pages are seasonal: [paste pages with peak months]. Suggest the month to refresh each one so the update is live
+      before demand rises, and what usually needs updating each year.
+  - t: Write a change log
+    p: |
+      Here is the old version and the new version of my page: [paste both or describe the changes].
+      Write a short change log (what changed and why) and say whether the change is substantial enough to update the date.
+  - t: Refresh brief for a writer
+    p: |
+      Write a refresh brief for [URL]. Diagnosis: [diagnosis]. Main query: [query]. Business goal: [goal].
+      Include what to keep, what to update, what to add, the answer first block, FAQs, internal links to [pages]
+      and what not to change (URL, sections that still rank).
+  - t: Internal links for a refreshed page
+    p: |
+      I refreshed [URL] about [topic]. Here is a list of my other pages with titles: [paste list].
+      Suggest 5 pages that should link to it, the sentence where the link fits and descriptive anchor text.
+  - t: FAQ from real questions
+    p: |
+      Here are questions from my support inbox, comments and People Also Ask for [topic]: [paste].
+      Pick the 5 most useful for my page, merge duplicates and write short, accurate answers I can check.
+  - t: Update a statistics section
+    p: |
+      My page uses these statistics: [paste with sources and years]. For each one, tell me whether it is likely outdated,
+      what kind of source would have a newer figure, and how to word it if I cannot find a newer one.
+  - t: Refresh results review
+    p: |
+      Here are my refreshes with refresh type, date and clicks 28 days before and after: [paste table].
+      Which refresh types worked best? What patterns do you see, and what should I change in my process?
+  - t: Explain refresh work to a manager
+    p: |
+      Write a short update for my manager about our content refresh work. Data: [paste dashboard numbers].
+      Explain which pages were falling and why, what we refreshed, early results and the plan for next month.
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my content refresh assistant. My site: [site and audience]. Goal: [leads, sales or readers].
+      Rules: keep URLs, never invent facts, change the date only for substantial updates. Confirm you understand,
+      then wait for the next step.
+  - t: "Workflow 2 of 5: diagnose"
+    p: |
+      Page: [URL and title]. Main query: [query]. Clicks [previous] to [recent], impressions [previous] to [recent],
+      position [previous] to [recent], AI Overview: [yes or no]. Diagnose the decay type and what it means for this page.
+  - t: "Workflow 3 of 5: compare"
+    p: |
+      Here are the headings and key points of the top 3 results and the AI Overview text for "[query]": [paste].
+      Here is my page outline: [paste]. List the gaps, the outdated parts and what my page does better.
+  - t: "Workflow 4 of 5: plan the refresh"
+    p: |
+      Using the diagnosis and the comparison, write a refresh plan in four lists: keep, update, add and remove.
+      Mark each item with the facts I must verify and the source to check.
+  - t: "Workflow 5 of 5: draft and log"
+    p: |
+      Draft the new and updated sections from the plan, in my voice, with short paragraphs. Then write one line for
+      my Refresh Queue with these columns separated by tabs: URL, What changed, Substantial change? (Yes or No).
+checklist:
+  - Set today's date, period labels and weekly writing hours on Settings
+  - Exported two periods of the same length from the Search Console Performance report
+  - Used year over year periods for seasonal pages
+  - Added published and last substantial update dates
+  - Added the main query, content type and topic for every URL
+  - Scored business value from 1 to 3 and chose time sensitivity
+  - Searched each priority query to check for an AI Overview and a citation
+  - Read the diagnosis and the Refresh Playbook for every P1 and P2 page
+  - Merged or separated pages that share a main query
+  - Checked today's top results and AI answers before writing
+  - Verified every fact, price, rule and link against a current source
+  - Answered the main question clearly near the top of the page
+  - Kept the URL and added links from related pages
+  - Updated the visible date and dateModified only for substantial changes
+  - Requested indexing for important refreshed pages
+  - Measured clicks 28 days before and after each refresh
+faq:
+  - q: Is this content refresh template really free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: How often should I refresh old content?
+    a: "Review the inventory every month or quarter. Fast changing pages such as rules and prices need a check about every 6 months, yearly topics every 12 and evergreen guides every 24. These windows are kit defaults you can change."
+  - q: Should I change the published date when I update a post?
+    a: "Keep the original published date and show a Last updated date, but only when the change is substantial. Google asks site owners not to change dates to make pages seem fresh when the content has not really changed."
+  - q: My rankings held but clicks dropped. What happened?
+    a: "That is CTR decay. A new results feature such as an AI Overview, a stronger competitor title or an old date in your snippet can all cut clicks. Start with the title, description and opening answer, not a full rewrite."
+  - q: Should I delete old posts that get no traffic?
+    a: "Not in bulk. Google says removing lots of content just to seem fresh will not help rankings. Check each page: merge it into a stronger page with a 301 redirect, improve it, or keep it if it helps visitors."
+  - q: Does the template work in Google Sheets?
+    a: "Yes. Upload the .xlsx file to Google Drive and open it with Google Sheets. Formulas, dropdowns and colours carry over. The charts may need a quick refresh."
+related: [title-tag-optimization, internal-linking, serp-analysis]
+reads:
+  - t: How to refresh old content without losing rankings
+    url: /how-to-refresh-old-content-without-losing-rankings/
+  - t: "Content decay explained: why rankings drop over time"
+    url: /content-decay-explained-why-rankings-drop/
+  - t: "Search Console Performance report: 5 essential metrics"
+    url: /search-console-performance-report/
+tools:
+  - t: Diff Checker
+    url: /tools/developer-tools/diff-checker/
+  - t: Readability Score Checker
+    url: /tools/seo-tools/readability-score-checker/
+  - t: SERP Snippet Preview
+    url: /tools/seo-tools/serp-snippet-preview/
+sources:
+  - t: "Google Search Central: Creating helpful, reliable, people-first content"
+    url: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  - t: "Google Search Central: Influence your byline dates in Google Search"
+    url: https://developers.google.com/search/docs/appearance/publication-dates
+  - t: "Search Console Help: Performance report advanced filtering and comparison"
+    url: https://support.google.com/webmasters/answer/17011165
+  - t: "Google Search Central: AI features and your website"
+    url: https://developers.google.com/search/docs/appearance/ai-features
+  - t: "Ahrefs: AI assistants prefer to cite fresher content (17 million citations analyzed)"
+    url: https://ahrefs.com/blog/do-ai-assistants-prefer-to-cite-fresh-content/
+  - t: "HubSpot: Historical blog optimization results"
+    url: https://blog.hubspot.com/marketing/historical-blog-seo-conversion-optimization

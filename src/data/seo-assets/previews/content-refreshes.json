@@ -1,0 +1,142 @@
+{
+ "sheet": "Content Inventory",
+ "columns": [
+  "Title",
+  "Clicks (previous)",
+  "Clicks (recent)",
+  "Click change",
+  "Diagnosis",
+  "Refresh type",
+  "Refresh score (0 to 100)",
+  "Priority"
+ ],
+ "rows": [
+  [
+   "Schengen visa checklist for Indian travellers",
+   4200,
+   2300,
+   -1900,
+   "Ranking decay",
+   "Full refresh",
+   98,
+   "P1: refresh now"
+  ],
+  [
+   "Best time to visit Bali, month by month",
+   3100,
+   1700,
+   -1400,
+   "CTR decay (AI Overview)",
+   "Answer refresh",
+   80,
+   "P1: refresh now"
+  ],
+  [
+   "Travel insurance explained",
+   2600,
+   2750,
+   150,
+   "Stable",
+   "Monitor",
+   45,
+   "Monitor"
+  ],
+  [
+   "How to plan a road trip in 9 steps",
+   1900,
+   1150,
+   -750,
+   "Demand decay",
+   "Light refresh",
+   67,
+   "P2: this month"
+  ],
+  [
+   "Packing list for Ladakh",
+   1400,
+   600,
+   -800,
+   "Ranking decay",
+   "Full refresh",
+   53,
+   "P2: this month"
+  ],
+  [
+   "21 tips to find cheap flights",
+   2200,
+   1500,
+   -700,
+   "CTR decay (AI Overview)",
+   "Answer refresh",
+   66,
+   "P2: this month"
+  ],
+  [
+   "Roamly vs TripIt: which trip planner is better?",
+   900,
+   820,
+   -80,
+   "Stable, review due",
+   "Fact check",
+   52,
+   "P2: this month"
+  ],
+  [
+   "Kerala itinerary for 7 days",
+   800,
+   1050,
+   250,
+   "Growing",
+   "Protect",
+   52,
+   "Monitor"
+  ],
+  [
+   "What is visa on arrival?",
+   60,
+   35,
+   -25,
+   "Low traffic",
+   "Merge or improve",
+   32,
+   "P3: this quarter"
+  ],
+  [
+   "Digital nomad visa countries",
+   2800,
+   1300,
+   -1500,
+   "Ranking decay",
+   "Full refresh",
+   90,
+   "P1: refresh now"
+  ],
+  [
+   "Japan Rail Pass guide",
+   1600,
+   1250,
+   -350,
+   "CTR decay",
+   "Snippet refresh",
+   59,
+   "P2: this month"
+  ],
+  [
+   "Group trip budget template",
+   1200,
+   1350,
+   150,
+   "Growing",
+   "Protect",
+   35,
+   "Monitor"
+  ]
+ ],
+ "formulaCols": [
+  3,
+  4,
+  5,
+  6,
+  7
+ ]
+}

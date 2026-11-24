@@ -1,0 +1,346 @@
+seoTitle: "Core Web Vitals Checklist: Free Excel Site Speed Kit"
+h1: "Site Speed Wins Kit: Core Web Vitals Checklist, Fix Planner and LCP Breakdown"
+focusKeyword: core web vitals checklist
+description: "Free Core Web Vitals checklist in Excel: rate LCP, INP and CLS per template, find the slow part of LCP, and rank 38 proven fixes by impact and effort."
+published: 2026-11-24
+updated: 2026-11-24
+time: 2 hours for a first pass, then 30 minutes a month
+level: Beginner to advanced
+kit: true
+tabs: 10
+intro:
+  - "Most site speed advice is a long list of things that might help. This free <strong>core web vitals checklist</strong> is a working kit instead. You add your page templates with real field data, and an Excel workbook rates LCP, INP, CLS and TTFB with Google's thresholds, splits LCP into its four parts to show which one is slow, and suggests the first fix to try. Then every fix gets a value, a priority score and a quadrant, so you know which quick wins to ship this week and which big bets can wait."
+  - "It is built for the AI search era. Google says its core ranking systems look to reward a good page experience, and it lists a great page experience among the SEO basics that still matter for AI Overviews and AI Mode. Fast pages that serve their main content in plain HTML are also easier for AI crawlers to read, because the crawlers in one large study did not run JavaScript at all. The kit ends the guessing: it tells you when field data is ready to prove a fix worked, and whether it did."
+kitContents:
+  - t: "Excel workbook, 10 tabs"
+    d: "Templates (100 rows: statuses, speed score, LCP breakdown, first fix and red flags), Speed Wins (500 ready rows with value, priority, quadrant, field data date and result), Fix Library of 38 fixes, Sprint Plan with a capacity check, Dashboard with two charts, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "8 template and device rows, 19 speed wins and 12 sprint tickets for a fictional coffee equipment store, so you see every status, score and result working before you add your own site."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to share with developers, designers or clients."
+  - t: "22 AI prompts"
+    d: "Prompts to read PageSpeed Insights reports, explain the LCP breakdown, find slow interactions, plan CLS fixes and write tickets, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole Core Web Vitals checklist on one page, to tick off for every template and after every release."
+steps:
+  - t: Set today's date and your capacity
+    d: "On Settings, set the date and how many effort points your team can ship each week. Leave Google's thresholds as they are."
+  - t: List your templates, not single URLs
+    d: "Speed problems live in templates. Add one row per template and device (home, product, category, article, checkout) with monthly visits and whether the page earns revenue."
+  - t: Add p75 field data
+    d: "From <a href=\"https://pagespeed.web.dev/\" target=\"_blank\" rel=\"noopener\">PageSpeed Insights</a> or the Search Console Core Web Vitals report, add LCP, INP, CLS and TTFB at the 75th percentile. Mark lab only data as Lab only."
+  - t: Break LCP into its four parts
+    d: "Add the LCP element and the four LCP parts from the PageSpeed Insights LCP breakdown or the DevTools Performance panel. The sheet finds the part that is furthest over its ideal share."
+  - t: Log fixes from the library
+    d: "On Speed Wins, add the fixes that match the Biggest LCP gap and Red flags columns. Choose effort and confidence for each."
+  - t: Ship quick wins first
+    d: "Sort by Priority score. Put P1 quick wins on the Sprint Plan with acceptance criteria and a validation method, then copy the ticket text into your tracker."
+  - t: Prove it with field data
+    d: "Add the Shipped on date and the Before value. After 28 days, add the After value from field data. The Result column says Now good, Improved, or No improvement."
+sections:
+  - h: Why site speed still matters in the AI search era
+    html: |
+      <p>Google is clear that speed is not everything: <a href="https://developers.google.com/search/docs/appearance/page-experience" target="_blank" rel="noopener">its page experience guide</a> says search always seeks to show the most relevant content, even if the page experience is sub par, and that there is no single page experience signal. But the same page says Google's core ranking systems look to reward content that provides a good page experience, and Google's <a href="https://developers.google.com/search/docs/appearance/core-web-vitals" target="_blank" rel="noopener">Core Web Vitals page</a> recommends that site owners achieve good Core Web Vitals for success with Search.</p>
+      <p>The AI era adds two reasons to care:</p>
+      <ul>
+        <li><strong>The basics still decide AI visibility.</strong> Google's guide to <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">AI features and your website</a> says no special optimization is needed for AI Overviews and AI Mode, and lists the SEO fundamentals that still apply, including providing a great page experience and making sure important content is available in textual form.</li>
+        <li><strong>Many AI crawlers read only your HTML.</strong> A <a href="https://vercel.com/blog/the-rise-of-the-ai-crawler" target="_blank" rel="noopener">Vercel and MERJ study</a> from December 2024 found that none of the major AI crawlers it measured rendered JavaScript, including crawlers from OpenAI, Anthropic and Perplexity. Server rendered pages are usually faster for people too, so one fix helps both.</li>
+      </ul>
+      <p>So a modern Core Web Vitals checklist asks three questions for every template: which metric fails, why it fails, and which fix gives the most improvement for the least work. The workbook answers all three.</p>
+  - h: What is inside the Core Web Vitals workbook
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>Templates</td><td>Rates LCP, INP, CLS and TTFB, gives a Core Web Vitals verdict and a speed score, splits LCP into four parts, names the biggest gap, suggests the first fix and lists red flags.</td><td>Template, device, visits, revenue page, p75 field data, LCP element and parts</td></tr>
+          <tr><td>Speed Wins</td><td>One row per fix. Looks up the metric and the template's status, then works out value, priority score, P1 to P4, a quadrant, the field data date and the result.</td><td>Fix ID, task, template, effort, confidence, owner, status, dates, before and after</td></tr>
+          <tr><td>Fix Library</td><td>38 fixes for LCP, INP, CLS and TTFB with the part they fix, how to check them, expected impact and typical effort.</td><td>Optional: your own fixes</td></tr>
+          <tr><td>Sprint Plan</td><td>Developer tickets with acceptance criteria and validation, plus a weekly capacity check.</td><td>Win ID, week, done when, method</td></tr>
+          <tr><td>Dashboard</td><td>16 key numbers, top 10 open wins, a template table, wins by quadrant and by metric, and two charts.</td><td>Nothing</td></tr>
+          <tr><td>Settings</td><td>Google thresholds, ideal LCP shares, impact, effort, confidence, traffic bands, priority rules and lists.</td><td>Optional tuning</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas, so you never break the logic by accident. Every dropdown is fed from Settings, so you can rename owners or add statuses in one place.</p>
+  - h: Core Web Vitals checklist thresholds
+    html: |
+      <p>Every metric is judged at the 75th percentile of real visits, the way <a href="https://developers.google.com/speed/docs/insights/v5/about" target="_blank" rel="noopener">PageSpeed Insights</a> reports field data from the Chrome UX Report over the previous 28 days.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Metric</th><th>What it measures</th><th>Good</th><th>Needs improvement</th><th>Poor</th></tr></thead>
+        <tbody>
+          <tr><td>LCP (Largest Contentful Paint)</td><td>Loading: when the biggest image or text block shows</td><td>2.5 s or less</td><td>Over 2.5 s up to 4 s</td><td>Over 4 s</td></tr>
+          <tr><td>INP (Interaction to Next Paint)</td><td>Responsiveness: how fast the page reacts to clicks, taps and typing</td><td>200 ms or less</td><td>Over 200 ms up to 500 ms</td><td>Over 500 ms</td></tr>
+          <tr><td>CLS (Cumulative Layout Shift)</td><td>Visual stability: how much content jumps around</td><td>0.1 or less</td><td>Over 0.1 up to 0.25</td><td>Over 0.25</td></tr>
+          <tr><td>TTFB (Time to First Byte)</td><td>Server and network speed. Not a Core Web Vital, and marked experimental in PageSpeed Insights</td><td>800 ms or less</td><td>Over 800 ms up to 1,800 ms</td><td>Over 1,800 ms</td></tr>
+        </tbody>
+      </table></div>
+      <p>A template passes only when every measured Core Web Vital is good. Like PageSpeed Insights, the sheet judges a page with no INP data on LCP and CLS alone. If LCP or CLS has no data, it says Incomplete data instead of guessing.</p>
+  - h: The LCP breakdown and why it finds the real problem
+    html: |
+      <p>LCP is not one number. Google's <a href="https://web.dev/articles/optimize-lcp" target="_blank" rel="noopener">Optimize LCP guide</a> splits it into four parts and gives a rough ideal share of the total for each. The guide says these are guidelines, not strict rules.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>LCP part</th><th>What it is</th><th>Ideal share</th><th>First fix to try</th></tr></thead>
+        <tbody>
+          <tr><td>Time to first byte</td><td>Until the first byte of HTML arrives</td><td>About 40%</td><td>Cache HTML on a CDN, remove redirects, speed up server work</td></tr>
+          <tr><td>Resource load delay</td><td>From TTFB until the browser starts loading the LCP image</td><td>Under 10%</td><td>Put the image in the initial HTML, add <code>fetchpriority="high"</code>, never lazy load it</td></tr>
+          <tr><td>Resource load duration</td><td>The time to download the LCP image</td><td>About 40%</td><td>Compress, use WebP or AVIF, serve responsive sizes from a CDN</td></tr>
+          <tr><td>Element render delay</td><td>From download until the element is painted</td><td>Under 10%</td><td>Cut render blocking CSS and JavaScript, server render, break up long tasks</td></tr>
+        </tbody>
+      </table></div>
+      <p>For text LCP elements there is no image to load, so the two middle parts are zero and the time sits in TTFB and render delay. The guide also warns that download time is usually not the main bottleneck, which is why compressing images alone often disappoints. The sheet subtracts each ideal share from the real share and names the part that is furthest over.</p>
+  - h: How the template rating works (worked example)
+    html: |
+      <p>In the demo, the Product page on mobile has 96,000 of the 303,500 monthly visits in the sheet, a 32 percent traffic share. Its p75 field data is LCP 3.6 s, INP 240 ms, CLS 0.18 and TTFB 900 ms. All three Core Web Vitals are Needs improvement, so the verdict is <strong>Failed</strong>.</p>
+      <p><strong>Speed score.</strong> Each metric scores 100 at the good threshold, falls to 50 at the poor threshold, and keeps falling above it. LCP 3.6 s scores 50 + 50 x (4 minus 3.6) / (4 minus 2.5) = 63.3. INP 240 ms scores 93.3 and CLS 0.18 scores 73.3. The average is a speed score of <strong>77</strong>. The score is a kit assumption to compare templates, not a Google number.</p>
+      <p><strong>LCP breakdown.</strong> The four parts are 900, 1,300, 600 and 800 ms, a total of 3,600 ms:</p>
+      <ul>
+        <li>Time to first byte: 25% (ideal about 40%), 15 points under</li>
+        <li>Resource load delay: 36% (ideal under 10%), 26 points over</li>
+        <li>Resource load duration: 17% (ideal about 40%), 23 points under</li>
+        <li>Element render delay: 22% (ideal under 10%), 12 points over</li>
+      </ul>
+      <p>The biggest gap is <strong>resource load delay</strong>: the browser waits 1.3 seconds before it even starts loading the main product image. The Red flags column explains why: "LCP image is lazy loaded. LCP image is not in the initial HTML." The gallery slider builds the image with JavaScript. Compressing the image would barely help; making it discoverable would.</p>
+  - h: How fixes are ranked (worked example)
+    html: |
+      <p>Every row on Speed Wins gets a value from 0 to 100 and a priority score:</p>
+      <ul>
+        <li><strong>Impact points</strong> from the Fix Library: High 3, Medium 2, Low 1, divided by 3.</li>
+        <li><strong>Status factor</strong> for the metric the fix improves on that template: Poor 1, Needs improvement 0.6, Good 0.2, No data 0.5. A fix for a metric that is already good is worth little.</li>
+        <li><strong>Traffic factor</strong> from the template's share of visits: 30% or more 1, 15% or more 0.8, 5% or more 0.5, otherwise 0.2.</li>
+        <li><strong>Revenue factor</strong> 1.5 for pages that sell or capture leads, and a <strong>confidence factor</strong> of 1, 0.8 or 0.5.</li>
+      </ul>
+      <p>Value = 100 x impact x status x traffic x revenue x confidence, capped at 100. Priority score = value divided by effort points (S 1, M 2, L 3, XL 5).</p>
+      <p><strong>Worked example.</strong> SW-001 renders the first gallery image in HTML instead of the JavaScript slider. It is library fix SP01 with High impact, for LCP, which is Needs improvement on the Product page (Mobile). So value = 100 x 3/3 x 0.6 x 1 x 1.5 x 1 = <strong>90</strong>. Effort is S, so the priority score is also 90: <strong>P1: do now</strong>, and a <strong>Quick win</strong> because value is 30 or more and effort is 2 points or less.</p>
+      <p>Compare SW-007, rebuilding brew guides on a server rendered template. LCP is Poor there (4.6 s), but brew guides have only 7 percent of visits and confidence is Medium, so value is 100 x 1 x 1 x 0.5 x 1 x 0.8 = 40. Effort XL (5 points) brings the priority score to 8: <strong>P3</strong> and a <strong>Big bet</strong>. It is worth doing, after the quick wins. And SW-008, the Apply coupon fix in checkout, has only 3 percent of visits but the revenue factor lifts its value to 30, enough to make it a quick win.</p>
+      <p>Every factor lives on Settings. They are assumptions of this kit, not Google numbers, so tune them to your business.</p>
+  - h: Field data, the 28 day wait and the Result column
+    html: |
+      <p>Lab tests in Lighthouse are great for debugging, but Google's reports use field data: the Chrome UX Report collects real visits over a rolling 28 day period. That means a fix you ship today shows fully in field data about 28 days later. The <a href="https://support.google.com/webmasters/answer/9205520" target="_blank" rel="noopener">Search Console Core Web Vitals report</a> works the same way: when you validate a fix, it starts a 28 day monitoring session for that issue.</p>
+      <p>So the sheet adds the field data window to the Shipped on date. In the demo, SW-003 added <code>fetchpriority="high"</code> on 20 November 2026. Field data is ready on 18 December, so on 24 November the Result column says "Wait for field data: 24 days left". After that date, add the After value and the sheet compares it with the good threshold:</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Result</th><th>Meaning</th><th>What to do</th></tr></thead>
+        <tbody>
+          <tr><td>Now good</td><td>After value is at or under the good threshold</td><td>Mark it Validated. Move to the next metric.</td></tr>
+          <tr><td>Improved, not good yet</td><td>Better than before, still over the threshold</td><td>Log the next fix for the same part of the metric.</td></tr>
+          <tr><td>No improvement: investigate</td><td>The same or worse</td><td>Check the fix really shipped, then recheck the cause. In the demo, the cookie banner was not the source of the layout shifts; the ads were.</td></tr>
+          <tr><td>Wait for field data</td><td>Less than 28 days since shipping</td><td>Use lab tests or your own RUM data meanwhile.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Column by column guide to the Speed Wins tab
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>Win ID</td><td>Fixed ID such as SW-001.</td><td>Keep it: the Sprint Plan uses it.</td></tr>
+          <tr><td>Fix ID</td><td>Dropdown from the Fix Library, or blank for your own task.</td><td>A blank Fix ID counts as Medium impact on all metrics.</td></tr>
+          <tr><td>Fix or task</td><td>What will change, in your words.</td><td>Name the element: "main product image", not "images".</td></tr>
+          <tr><td>Template and device</td><td>Dropdown from the Templates tab.</td><td>Fix the same template on both devices with two rows.</td></tr>
+          <tr><td>Effort and Confidence</td><td>S, M, L or XL; High, Medium or Low.</td><td>Ask the developer, not the SEO.</td></tr>
+          <tr><td>Owner and Status</td><td>Who does it; Idea, Planned, In progress, Shipped, Validated, Dropped.</td><td>Shipped and Validated leave the priority list.</td></tr>
+          <tr><td>Shipped on, Before, After</td><td>Release date and the p75 value before and 28 days after.</td><td>Use the metric's unit: seconds for LCP, milliseconds for INP and TTFB.</td></tr>
+          <tr><td>Metric, Library fix, Expected impact</td><td>Automatic from the Fix Library.</td><td>Change impact in the library, not here.</td></tr>
+          <tr><td>Metric status now and the factors</td><td>Automatic from Templates and Settings.</td><td>Update field data monthly and every score moves.</td></tr>
+          <tr><td>Value, Priority score, Priority</td><td>Automatic. P1 at 30 or more, P2 at 12, P3 at 5.</td><td>Sort by Priority score.</td></tr>
+          <tr><td>Quadrant</td><td>Quick win, Big bet, Small task or Avoid for now.</td><td>Quick wins first, then one big bet per month.</td></tr>
+          <tr><td>Field data ready on, Result</td><td>Automatic once Shipped on is filled.</td><td>Set a calendar reminder for the ready date.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Quick wins by metric
+    html: |
+      <p>These are the fixes Google's web.dev team lists in <a href="https://web.dev/articles/top-cwv" target="_blank" rel="noopener">the most effective ways to improve Core Web Vitals</a> and its LCP and INP guides. All of them are in the Fix Library.</p>
+      <ul>
+        <li><strong>LCP.</strong> Make the LCP image discoverable in the HTML with <code>src</code> or <code>srcset</code>, add <code>fetchpriority="high"</code>, remove <code>loading="lazy"</code> from it, and preload it if CSS or JavaScript references it. Prefer server rendering over client side rendering. Our guide to <a href="/lazy-loading-images-explained-lcp-seo/">lazy loading and LCP</a> shows the most common mistake.</li>
+        <li><strong>TTFB.</strong> Use a CDN and cache HTML at the edge, even briefly, remove redirects and stop unique URL parameters from bypassing the cache. See <a href="/browser-caching-explained-website-speed-seo/">browser caching explained</a>.</li>
+        <li><strong>INP.</strong> Break up long tasks (a long task runs over 50 ms) by yielding to the main thread, remove unused JavaScript and tag manager tags, avoid layout thrashing and keep the DOM small. Our <a href="/interaction-to-next-paint-inp-explained/">INP guide</a> explains the three parts of an interaction: input delay, processing duration and presentation delay.</li>
+        <li><strong>CLS.</strong> Set width and height on images, reserve space for ads and embeds, and animate <code>transform</code> instead of properties like <code>top</code> or <code>margin</code>. Pages eligible for the back and forward cache restore instantly with no layout shifts.</li>
+      </ul>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: measure.</strong> List your top templates per device, add p75 field data and the LCP breakdown. Read the Core Web Vitals verdict, Biggest LCP gap and Red flags for each.</li>
+        <li><strong>Week 2: plan.</strong> Log fixes from the library on Speed Wins, choose effort and confidence with your developer, and put the P1 quick wins on the Sprint Plan.</li>
+        <li><strong>Week 3: ship.</strong> Release the quick wins, fill Shipped on and Before, and check each one in a lab test right away.</li>
+        <li><strong>Week 4: review.</strong> Refresh field data, plan one big bet, and set reminders for each Field data ready on date.</li>
+      </ul>
+      <p>After that, update field data monthly and run the checklist after every big release or theme change. Our guide on <a href="/how-to-measure-core-web-vitals-tools-guide/">how to measure Core Web Vitals</a> explains each data source.</p>
+  - h: The chained prompt workflow (from report to tickets)
+    html: |
+      <p>Prompts 18 to 22 below are designed to run in order in one AI chat:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your site, stack and templates.</li>
+        <li><strong>Read the data</strong> you paste from PageSpeed Insights or Search Console and rate each template.</li>
+        <li><strong>Find causes</strong> from the LCP breakdown, red flags and long tasks.</li>
+        <li><strong>Pick fixes</strong> from the library IDs with effort and confidence.</li>
+        <li><strong>Write tickets</strong> in the same columns as the workbook, ready to paste.</li>
+      </ol>
+      <p>The AI explains and drafts; field data decides. Never accept a speed number from an AI assistant that did not come from your own reports.</p>
+  - h: Core Web Vitals mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Chasing a 100 lab score.</strong> Lighthouse runs on one simulated device. Google's reports use real visits at the 75th percentile, and Google says good report results do not guarantee top rankings.</li>
+        <li><strong>Testing only the home page.</strong> Product, category and article templates usually carry most visits. Work by template.</li>
+        <li><strong>Compressing images and stopping there.</strong> For many pages the delay before the image starts loading is the real problem, not the download.</li>
+        <li><strong>Lazy loading the hero image.</strong> It delays LCP. Lazy load only images below the fold.</li>
+        <li><strong>Ignoring INP.</strong> Third party tags, chat widgets and heavy filters often make clicks feel slow. Audit tags before adding new ones.</li>
+        <li><strong>Judging a fix after two days.</strong> Field data needs about 28 days. Use the Field data ready on date.</li>
+        <li><strong>Hiding content behind JavaScript.</strong> It slows rendering and can hide content from crawlers that do not run JavaScript.</li>
+      </ul>
+prompts:
+  - t: Explain a PageSpeed Insights report
+    p: |
+      Here is a PageSpeed Insights report for [URL] on [mobile or desktop]: [paste field data and the main diagnostics]
+      Explain in plain language which Core Web Vitals pass or fail at the 75th percentile, what is causing each failure,
+      and the 3 fixes most likely to help. Do not invent numbers that are not in the report.
+  - t: Read the LCP breakdown
+    p: |
+      My LCP element is [image, text or video] and the LCP breakdown is: time to first byte [ms], resource load delay [ms],
+      resource load duration [ms], element render delay [ms]. Compare each part with the guideline shares
+      (about 40%, under 10%, about 40%, under 10%), name the part that is furthest over, and list the fixes for that part.
+  - t: Make the LCP image discoverable
+    p: |
+      Here is the HTML for my page header and hero area: [paste HTML]
+      Find out whether the LCP image is in the initial HTML, lazy loaded, set as a CSS background or built by JavaScript.
+      Rewrite the markup so the image is discoverable early with fetchpriority high, without lazy loading.
+  - t: Find render blocking resources
+    p: |
+      Here is the head section of my page: [paste head]. List every stylesheet and script that blocks rendering,
+      say which ones can use defer or async, which CSS could be inlined because it is small, and what to load later.
+  - t: TTFB and caching plan
+    p: |
+      My site runs on [CMS or framework] with [hosting or CDN]. TTFB at p75 is [ms] on [template].
+      Suggest a caching plan: which pages can be cached at the edge and for how long, what must never be cached,
+      and how to stop URL parameters like utm tags from bypassing the cache.
+  - t: Find long tasks behind a slow INP
+    p: |
+      This is a DevTools Performance trace summary (or my own notes) for the interaction "[click or tap]" on [page]: [paste]
+      Split the delay into input delay, processing duration and presentation delay. Point to the long tasks
+      (over 50 ms) and suggest where to yield to the main thread.
+  - t: Break up a long event handler
+    p: |
+      Here is my event handler code: [paste JavaScript]. It runs when a user [action] and makes INP slow.
+      Rewrite it so the visual update happens first and non urgent work runs after yielding to the main thread.
+      Keep the behaviour the same and explain each change.
+  - t: Tag manager clean up
+    p: |
+      Here is the list of tags in my tag manager with what each one does: [paste list]
+      Group them into keep, review and remove. Flag tags that fire on every page but are needed only on some pages,
+      and tags that could load after the page is interactive.
+  - t: Third party script audit
+    p: |
+      These third party scripts load on [template]: [paste list with sizes if known]. For each one, say whether it can
+      be removed, delayed until interaction (a facade), loaded later, or must stay. Note the likely effect on INP and LCP.
+  - t: Find layout shift causes
+    p: |
+      CLS on [template] is [value] at p75. The page has [ads, embeds, banners, web fonts, images without sizes].
+      List the most likely causes of layout shifts in order, how to confirm each in DevTools, and the fix for each.
+  - t: Reserve space for ads and embeds
+    p: |
+      My [ad slot, video embed or widget] loads after the page and pushes content down. Its usual sizes are [sizes].
+      Write the CSS that reserves space for it on mobile and desktop without leaving large empty gaps.
+  - t: Image optimization plan
+    p: |
+      Here is a list of the largest images on [template] with file type, size in KB and displayed width: [paste list]
+      Suggest the right format (WebP or AVIF), target file size, srcset widths and which images should be lazy loaded.
+  - t: Web font plan
+    p: |
+      My site loads these fonts: [paste font families, weights and hosts]. Suggest how to cut the number of files,
+      which font to preload, the font-display value to use and how to reduce layout shifts when the font swaps.
+  - t: Back and forward cache check
+    p: |
+      Chrome says my page is not eligible for the back and forward cache for these reasons: [paste reasons].
+      Explain each reason in plain words and what a developer must change to fix it.
+  - t: Server rendering decision
+    p: |
+      My [template] builds its main content with client side JavaScript using [framework]. Explain the trade offs of
+      server rendering, static generation and prerendering for this page, the likely effect on LCP, and how to make the
+      main text and links visible in the initial HTML for crawlers that do not run JavaScript.
+  - t: Estimate effort for a fix list
+    p: |
+      Here are speed fixes for my site: [paste fixes]. Our stack is [stack] and our team is [team size].
+      Give each fix an effort of S (under a day), M (a few days), L (one to two weeks) or XL (a project),
+      and a one line reason. Flag any fix that needs design or business approval.
+  - t: Explain speed work to a manager
+    p: |
+      Write a short update for my manager about our site speed work. Data: [paste dashboard numbers].
+      Explain in plain language what passed, what failed, what we shipped, what we are waiting to measure and what is next.
+      No jargon without a one line explanation.
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my web performance assistant. My site: [site and business]. Stack: [CMS, framework, hosting, CDN].
+      Main templates: [list]. Goal: pass Core Web Vitals on mobile for the templates with the most visits.
+      Confirm you understand, then wait for the next step.
+  - t: "Workflow 2 of 5: read the data"
+    p: |
+      Here is p75 field data per template and device: [paste table with LCP, INP, CLS, TTFB and visits].
+      Rate each metric as good, needs improvement or poor (LCP 2.5 s and 4 s, INP 200 and 500 ms, CLS 0.1 and 0.25),
+      and rank the templates by how much traffic is affected.
+  - t: "Workflow 3 of 5: find causes"
+    p: |
+      For the worst three templates, here are the LCP breakdowns and diagnostics: [paste].
+      Name the main cause for each failing metric, using the LCP parts, long tasks and layout shift sources.
+  - t: "Workflow 4 of 5: pick fixes"
+    p: |
+      Pick the fixes for these causes from this list of fix IDs: [paste Fix Library IDs and names].
+      For each fix give the template, effort (S, M, L or XL) and confidence (High, Medium or Low), and say why.
+  - t: "Workflow 5 of 5: tickets for Excel"
+    p: |
+      Turn the fixes into a table I can paste into my Speed Wins tab, with these columns separated by tabs:
+      Fix ID, Fix or task, Template and device, Effort, Confidence, Owner. Then write acceptance criteria for each fix
+      that a developer can test, and say which validation method to use.
+checklist:
+  - Set today's date and weekly capacity on the Settings tab
+  - Listed every main template on mobile and desktop with monthly visits
+  - Marked which templates earn revenue or leads
+  - Added p75 field data for LCP, INP, CLS and TTFB from PageSpeed Insights or Search Console
+  - Marked templates that have lab data only
+  - Recorded the LCP element and checked it is in the initial HTML and not lazy loaded
+  - Added the four LCP parts and read the Biggest LCP gap for each template
+  - Checked render blocking CSS and JavaScript in the head
+  - Audited tag manager and third party scripts for INP
+  - Checked images, ads and embeds have reserved space for CLS
+  - Checked the main content and links are in the initial HTML for crawlers that do not run JavaScript
+  - Logged fixes from the Fix Library with effort and confidence
+  - Put P1 quick wins on the Sprint Plan with acceptance criteria
+  - Filled Shipped on and Before for every released fix
+  - Added After values from field data once the 28 day window passed
+  - Set a monthly date to refresh field data
+faq:
+  - q: Is this Core Web Vitals checklist really free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: Where do I get field data if my pages have little traffic?
+    a: "When a URL has no data in the Chrome UX Report, PageSpeed Insights falls back to origin level data for the whole site. The Search Console Core Web Vitals report groups URLs with a similar experience. If neither has data, use lab data and mark the row Lab only, or collect your own data with real user monitoring."
+  - q: Do Core Web Vitals decide my rankings?
+    a: "No single signal does. Google says its core ranking systems look to reward a good page experience, but it always seeks the most relevant content first, and good Core Web Vitals reports do not guarantee top rankings. Treat speed as a tie breaker and a conversion win."
+  - q: Why does the sheet wait 28 days before judging a fix?
+    a: "Google's field data comes from the Chrome UX Report, which covers the previous 28 days of real visits. Until a full window has passed, the numbers still mix visits from before and after your fix."
+  - q: Does the workbook work in Google Sheets?
+    a: "Yes. Upload the .xlsx file to Google Drive and open it with Google Sheets. Formulas, dropdowns and colours carry over. The charts may need a quick refresh."
+  - q: Does site speed matter for AI search?
+    a: "Google lists a great page experience among the SEO basics that still apply to AI Overviews and AI Mode. Separately, a 2024 study found major AI crawlers did not run JavaScript, so fast, server rendered HTML helps those crawlers read your content."
+related: [technical-audits, crawlability-checks, on-page-seo]
+reads:
+  - t: "Core Web Vitals 2026: what's changed and how to pass Google's metrics"
+    url: /core-web-vitals-2026/
+  - t: "Interaction to Next Paint (INP) explained"
+    url: /interaction-to-next-paint-inp-explained/
+  - t: "Critical CSS explained: speed up your website without breaking design"
+    url: /critical-css-explained-speed-up-website/
+tools:
+  - t: Alt Text Checker
+    url: /tools/seo-tools/alt-text-checker/
+  - t: htaccess Redirect Generator
+    url: /tools/technical-seo-tools/htaccess-redirect-generator/
+  - t: AI Crawler Log Analyzer
+    url: /tools/ai-tools/ai-crawler-log-analyzer/
+sources:
+  - t: "Google Search Central: Understanding Core Web Vitals and Google search results"
+    url: https://developers.google.com/search/docs/appearance/core-web-vitals
+  - t: "Google Search Central: Understanding page experience in Google Search results"
+    url: https://developers.google.com/search/docs/appearance/page-experience
+  - t: "Google for Developers: About PageSpeed Insights (field data and thresholds)"
+    url: https://developers.google.com/speed/docs/insights/v5/about
+  - t: "web.dev: Optimize Largest Contentful Paint"
+    url: https://web.dev/articles/optimize-lcp
+  - t: "web.dev: The most effective ways to improve Core Web Vitals"
+    url: https://web.dev/articles/top-cwv
+  - t: "Vercel: The rise of the AI crawler"
+    url: https://vercel.com/blog/the-rise-of-the-ai-crawler
