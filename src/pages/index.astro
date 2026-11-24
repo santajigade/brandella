@@ -12,7 +12,7 @@ const latestSide = posts.slice(1, 6);
 const sections = MENU.map((slug) => ({
   cat: catBySlug.get(slug)!,
   kids: childrenOf(slug).filter((k) => k.count > 0).slice(0, 5),
-  items: inCategory(posts, slug).slice(0, 4),
+  items: inCategory(posts, slug).slice(0, 3),
 }));
 const schema = [{
   '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${SITE.url}/#website`, alternateName: ['Brandella', 'brandella.in'],
@@ -41,7 +41,7 @@ const schema = [{
             {kids.length > 0 && <nav class="cat-kids">{kids.map((k) => <a href={catUrl(k.slug)}>{k.name}</a>)}</nav>}
             <a class="more" href={catUrl(cat.slug)}>View all &rarr;</a>
           </div>
-          <div class="grid grid-4">{items.map((p) => <Card post={p} />)}</div>
+          <div class="grid grid-3">{items.map((p) => <Card post={p} />)}</div>
           {i === 2 && <AdSlot format="horizontal" />}
         </section>
       ))}
