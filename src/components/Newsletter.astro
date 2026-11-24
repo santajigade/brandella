@@ -1,15 +1,21 @@
 ---
-// Newsletter signup banner. Posts to /api/newsletter.php, which saves emails to a CSV (Excel) file on the server.
+// Newsletter signup. Posts to /api/newsletter.php, which saves emails to a CSV (Excel) file on the server.
+// variant "banner" (end of articles) or "side" (sidebar widget).
+interface Props { variant?: 'banner' | 'side' }
+const { variant = 'banner' } = Astro.props;
+const id = `nl-email-${variant}`;
 ---
-<section class="newsletter" aria-label="Subscribe to our newsletter">
+<section class={`newsletter newsletter-${variant}`} aria-label="Subscribe to our newsletter">
   <div class="newsletter-text">
     <p class="newsletter-kicker">Free newsletter</p>
-    <h2 class="newsletter-title">Get practical SEO and marketing tips in your inbox</h2>
+    {variant === 'side'
+      ? <h3 class="newsletter-title">Get SEO and marketing tips in your inbox</h3>
+      : <h2 class="newsletter-title">Get practical SEO and marketing tips in your inbox</h2>}
     <p class="newsletter-sub">New guides, Google updates and free tools. No spam, unsubscribe anytime.</p>
   </div>
   <form class="newsletter-form" novalidate>
-    <label class="sr-only" for="nl-email">Email address</label>
-    <input id="nl-email" type="email" name="email" placeholder="Enter your email address" autocomplete="email" required maxlength="254" />
+    <label class="sr-only" for={id}>Email address</label>
+    <input id={id} type="email" name="email" placeholder="Enter your email address" autocomplete="email" required maxlength="254" />
     <input type="text" name="website" tabindex="-1" autocomplete="off" class="nl-hp" aria-hidden="true" />
     <button type="submit" class="btn">Subscribe</button>
     <p class="newsletter-msg" role="status" aria-live="polite"></p>

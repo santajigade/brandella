@@ -294,3 +294,12 @@ html.embed body { overflow: hidden; }
 .newsletter-legal a { color: #fff; text-decoration: underline; }
 html.embed .newsletter { display: none !important; }
 @media (max-width: 760px) { .newsletter { grid-template-columns: 1fr; padding: 22px 18px; } .newsletter-title { font-size: 19px; } }
+
+/* Sidebar newsletter widget */
+.newsletter-side { display: block; margin: 0; padding: 22px 20px; }
+.newsletter-side .newsletter-text { margin-bottom: 14px; }
+.newsletter-side .newsletter-title { font-size: 19px; }
+.newsletter-side .newsletter-sub { font-size: 14px; }
+.newsletter-side .newsletter-form { flex-direction: column; }
+.newsletter-side .newsletter-form input[type=email] { flex: none; width: 100%; }
+.newsletter-side .newsletter-form .btn { width: 100%; }
