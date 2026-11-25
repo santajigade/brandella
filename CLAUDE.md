@@ -42,7 +42,7 @@ Astro static site that replaced the WordPress install in November 2026. Owner: S
   - YAML with `kit: true`, `tabs` (workbook tab count shown on the download card, default 8), `kitContents`, long AI era guide in `sections` (reference tables, worked example, column guide, 30 day plan, mistakes), 7 steps, 20+ prompts incl. a chained workflow, 12 to 16 checklist items, 6 FAQs, real sources (official Google docs first, every fact from a source you opened). No em or en dashes.
   - `scripts/assets/kit_<slug_with_underscores>.py` with `build(path, asset, url)`, `PREVIEW` and `check(wb)`: a multi tab Excel workbook (Start Here, main sheet with 500 formula rows and dropdowns, Dashboard, a planning tab, Settings, AI Prompts, Checklist, Sources) with a worked demo for a fictional company. Use `scripts/assets/kitlib.py`. Only Excel 2007 era functions plus `_xlfn.MAXIFS/MINIFS/IFS/SWITCH/TEXTJOIN`.
   - Build: `RECALC=<xlsx skill>/scripts/recalc.py python3 scripts/assets/build_kits.py` (needs LibreOffice, openpyxl, pyyaml, Playwright). It writes the workbook, PDF guide, PDF checklist, prompts .md, the kit ZIP and the all kits ZIP into `public/resources/seo-aeo-assets/kits/` and a preview JSON into `src/data/seo-assets/previews/`. Zero formula errors required. Commit the generated files.
-- Release pace (Santaji, 2026-11-17): only 2 new kits per day, so the library does not look like scaled content. A daily scheduled task does this.
+- Release pace (Santaji, 2026-11-17): only 2 new kits per day, so the library does not look like scaled content. A scheduled task does this Monday to Friday at 14:13 IST (Santaji, 2026-11-25).
 
 ## Pinterest
 - New posts reach Pinterest automatically from `/rss.xml` (each item carries its cover image).
