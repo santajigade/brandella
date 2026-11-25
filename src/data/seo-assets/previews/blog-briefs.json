@@ -1,0 +1,141 @@
+{
+ "sheet": "Brief Pipeline",
+ "columns": [
+  "Working title",
+  "Focus keyword",
+  "Format",
+  "Information gain",
+  "Target words (a guide)",
+  "Brief complete",
+  "Opportunity score (0 to 100)",
+  "Priority"
+ ],
+ "rows": [
+  [
+   "How to make an invoice as a freelancer",
+   "how to make an invoice",
+   "How to",
+   "Free template or tool",
+   1900,
+   1,
+   92,
+   "P1: brief now"
+  ],
+  [
+   "GST invoice rules for small businesses",
+   "gst invoice rules",
+   "Guide",
+   "Expert quote or interview",
+   2600,
+   1,
+   79,
+   "P1: brief now"
+  ],
+  [
+   "Invoice vs bill: what is the difference?",
+   "invoice vs bill",
+   "Comparison",
+   "None yet",
+   1200,
+   0.545454545454545,
+   41,
+   "P3: later"
+  ],
+  [
+   "Best invoicing software for freelancers in India",
+   "invoicing software for freelancers",
+   "Comparison",
+   "First hand test or experience",
+   2500,
+   1,
+   83,
+   "P1: brief now"
+  ],
+  [
+   "How to follow up on an unpaid invoice",
+   "unpaid invoice follow up",
+   "How to",
+   "Worked example with real numbers",
+   1400,
+   1,
+   64,
+   "P2: next"
+  ],
+  [
+   "Payment terms explained: Net 15, Net 30 and more",
+   "payment terms",
+   "Guide",
+   "Customer story",
+   2200,
+   0.909090909090909,
+   78,
+   "P1: brief now"
+  ],
+  [
+   "Free freelance invoice template",
+   "freelance invoice template",
+   "Template or tool",
+   "Free template or tool",
+   900,
+   0.909090909090909,
+   90,
+   "P1: brief now"
+  ],
+  [
+   "How to make an invoice in Excel",
+   "how to make an invoice",
+   "How to",
+   "Free template or tool",
+   1500,
+   0.818181818181818,
+   67,
+   "Rethink: keyword planned twice"
+  ],
+  [
+   "What is a proforma invoice?",
+   "proforma invoice",
+   "Glossary",
+   "None yet",
+   900,
+   0.818181818181818,
+   45,
+   "P3: later"
+  ],
+  [
+   "Late payment fees: how to add them to invoices",
+   "late payment fees",
+   "How to",
+   "Expert quote or interview",
+   1300,
+   0.909090909090909,
+   59,
+   "P2: next"
+  ],
+  [
+   "Invoicing app or spreadsheet: which is better?",
+   "invoice spreadsheet vs software",
+   "Comparison",
+   "First hand test or experience",
+   1500,
+   1,
+   68,
+   "P2: next"
+  ],
+  [
+   "Cash flow tips for freelancers",
+   "cash flow tips for freelancers",
+   "List",
+   "Original data or survey",
+   2400,
+   0.909090909090909,
+   63,
+   "P2: next"
+  ]
+ ],
+ "formulaCols": [
+  4,
+  5,
+  6,
+  7
+ ]
+}

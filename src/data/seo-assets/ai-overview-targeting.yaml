@@ -1,0 +1,323 @@
+seoTitle: "AI Overview Optimization Checklist and Tracker: Free Kit"
+h1: "AI Overview Optimization Kit: Query Tracker, Page Audit, Fan Out Map and AI Prompts"
+focusKeyword: AI Overview optimization checklist
+description: "Free AI Overview optimization checklist in Excel: track which queries cite you, audit pages with 14 checks, map fan out questions and plan fixes by impact."
+published: 2026-11-25
+updated: 2026-11-25
+time: About 2 hours to set up, then about 1 hour a month to update
+level: Beginner to advanced
+kit: true
+tabs: 10
+intro:
+  - "Most AI Overview advice is a list of tips: answer questions, use headings, add schema. It rarely tells you which of your queries show an AI Overview, where you are already cited, which pages cannot be shown at all, or what to fix first. This free <strong>AI Overview optimization checklist</strong> is a working kit instead. An Excel workbook tracks every target query, audits every page with 14 checks, maps the sub questions behind each query and turns the biggest gaps into a weekly action plan with a before and after measure."
+  - "It is built on what Google actually says. There are no special requirements or special schema for AI Overviews or AI Mode: a page must be indexed and eligible to show with a snippet, and the usual SEO basics apply. What changes is how sources are found. Google says these features may run several related searches across subtopics, and one 2026 study found that only about 38 percent of cited pages also rank in the top 10 for the main query. So the kit checks eligibility first, then answer quality, original value and coverage of those fan out sub questions."
+kitContents:
+  - t: "Excel workbook, 10 tabs"
+    d: "Query Tracker (500 ready rows with 12 automatic columns), Page Audit with 14 checks and 3 gates, Fan Out Map, Action Plan with a weekly hours check and results, Dashboard with three charts, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "18 queries, 10 pages, 32 sub questions and 8 fixes for a fictional plant shop, so you see every status, score and result working before you add your own data."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to share with writers, developers or clients."
+  - t: "22 AI prompts"
+    d: "Prompts to map fan out sub questions, compare your page with cited sources, write answer first blocks, find original value and review results, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole AI Overview process on one page, to tick off for every page you improve."
+steps:
+  - t: Set your rules
+    d: "On Settings, set today's date, the monthly searches that earn full marks, your fix hours per week and, if you want, the check weights."
+  - t: Audit the gates first
+    d: "Add each page to the Page Audit and answer the three gates: indexed (URL Inspection), snippet allowed and crawlable. A No on any gate blocks the page."
+  - t: Answer the other checks
+    d: "Answer the content and page checks with Yes, Partly or No, and add AI feature impressions and search impressions for 28 days from Search Console."
+  - t: Check your target queries
+    d: "Add each query to the Query Tracker with its page, demand, value and position. Search it in a private window and record the AI Overview, whether you are cited and who is."
+  - t: Map the sub questions
+    d: "For priority queries, list 4 to 8 sub questions on the Fan Out Map from the AI Overview text, AI Mode follow ups, People also ask and your own data, and mark what the page covers."
+  - t: Plan the fixes
+    d: "Sort the Query Tracker by priority. Add the biggest gaps of the top pages to the Action Plan by week and keep each week within your hours."
+  - t: Measure after 28 days
+    d: "After a fix, add the date. When the Measure on date arrives, add AI feature impressions before and after and check the citation again. The Result column reads it for you."
+sections:
+  - h: What Google says about AI Overviews and AI Mode
+    html: |
+      <p>Google's page on <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">AI features and your website</a> is short and direct: "There are no additional requirements to appear in AI Overviews or AI Mode, nor other special optimizations necessary." To be eligible as a supporting link, a page must be indexed and eligible to be shown in Google Search with a snippet. Google adds that there is no special schema.org structured data you need to add.</p>
+      <p>Its 2026 guide to <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" target="_blank" rel="noopener">optimizing for generative AI features</a> goes further. It says optimizing for generative AI search is still SEO. You do not need new machine readable files, AI text files, special markup or Markdown, and there is no requirement to break content into tiny pieces. It says that content people find unique, compelling and useful will likely influence your presence in generative AI search more than any other suggestion.</p>
+      <p>So an honest AI Overview optimization checklist is not a list of tricks. It is the SEO basics, weighted for pages that answer questions: be eligible, answer clearly, add original value and cover the questions around the topic.</p>
+  - h: How AI Overviews choose sources (query fan out)
+    html: |
+      <p>Google says AI Overviews and AI Mode may use a "query fan out" technique: issuing multiple related searches across subtopics and data sources to build a response. A page can therefore be cited because it answers one of those sub searches well, even when it does not rank for the main query.</p>
+      <p>An <a href="https://ahrefs.com/blog/ai-overview-citations-top-10/" target="_blank" rel="noopener">Ahrefs study published in March 2026</a> of 863,000 keyword results pages and about 4 million AI Overview URLs found that 37.9 percent of cited URLs also appeared in the top 10 for the query, down from about 76 percent in July 2025. 31.2 percent came from positions 11 to 100 and 31.0 percent from beyond the top 100. Ahrefs reads this as AI Overviews relying more on fan out results. That is one study's interpretation, but it matches what Google describes.</p>
+      <p>That is why the kit has a Fan Out Map. For each query you list the sub questions people and AI systems ask, mark whether your page covers them, and the page gets credit for coverage in its readiness score.</p>
+  - h: What is inside the AI Overview optimization checklist
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>Query Tracker</td><td>Pulls page readiness and eligibility, works out CTR and fan out coverage, sets a status, next action, opportunity score, priority and recheck date.</td><td>Query, target URL, topic, intent, searches, value, position, AI Overview, cited, sources cited, who is cited, AI Mode, clicks, impressions, date checked</td></tr>
+          <tr><td>Page Audit</td><td>Checks the three gates, scores readiness 0 to 100, names the biggest gap, counts fixes and hours, works out fan out coverage and the AI share of impressions.</td><td>URL, title, type, main query, 13 checks, AI feature and search impressions, date audited</td></tr>
+          <tr><td>Fan Out Map</td><td>Finds the target URL, scores coverage and writes the action for each gap.</td><td>Main query, sub question, type, where you found it, covered or not, heading on the page</td></tr>
+          <tr><td>Action Plan</td><td>Adds hours and how to fix, sets the measure date, compares impressions and citations before and after, and checks hours per week.</td><td>Page, fix, owner, week, status, done date, impressions and citations before and after</td></tr>
+          <tr><td>Dashboard</td><td>18 key numbers, top 10 queries to work on, queries by status, pages by readiness, the most common gaps, three charts.</td><td>Nothing</td></tr>
+          <tr><td>Settings</td><td>Check weights and gates, hours and how to fix, opportunity weights, position bands, AI Overview factors, status actions and lists.</td><td>Optional tuning</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas. Every tab has ready rows with dropdowns, so you can paste a full list straight in.</p>
+  - h: The 14 page checks and their weights
+    html: |
+      <p>The checks follow Google's own list of SEO best practices for AI features (crawl access, internal links, page experience, content in text, images and video, structured data that matches the page) plus the content qualities Google stresses: original, people first answers. The weights are kit assumptions you can change on Settings. Yes scores the full weight, Partly half and No nothing.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Check</th><th>Weight</th><th>How to check it</th></tr></thead>
+        <tbody>
+          <tr><td>Indexed in Google (gate)</td><td>10</td><td>URL Inspection in Search Console says the URL is on Google</td></tr>
+          <tr><td>Snippet allowed (gate)</td><td>8</td><td>No <code>nosnippet</code>, very low <code>max-snippet</code> or <code>data-nosnippet</code> on the answer</td></tr>
+          <tr><td>Googlebot can crawl it (gate)</td><td>7</td><td>robots.txt, CDN and firewall rules allow Googlebot; no login wall</td></tr>
+          <tr><td>Answer first under a clear heading</td><td>10</td><td>The main question is answered in the first 40 to 60 words (a kit habit)</td></tr>
+          <tr><td>Headings match the sub questions</td><td>7</td><td>Descriptive H2 and H3 headings for the questions people ask</td></tr>
+          <tr><td>Original value</td><td>12</td><td>Your own data, tests, photos, worked examples or expert input</td></tr>
+          <tr><td>Covers the fan out sub questions</td><td>8</td><td>Automatic from the Fan Out Map: Yes at 80 percent coverage, Partly at 50</td></tr>
+          <tr><td>Key content is in text</td><td>5</td><td>Important information is in HTML text, not only in images or video</td></tr>
+          <tr><td>Clear author and visible date</td><td>6</td><td>Who wrote or reviewed it, and a Published or Last updated date</td></tr>
+          <tr><td>Facts checked in the last 12 months</td><td>6</td><td>Numbers, prices, rules and links match a current source</td></tr>
+          <tr><td>Structured data matches the page</td><td>5</td><td>Every value matches the visible text; no errors in the Rich Results Test</td></tr>
+          <tr><td>Good page experience on mobile</td><td>5</td><td>Core Web Vitals in Search Console; no intrusive pop ups</td></tr>
+          <tr><td>Helpful images or video</td><td>4</td><td>Original images or video that support the text, with alt text</td></tr>
+          <tr><td>Internal links from related pages</td><td>7</td><td>At least 2 related pages link to it with descriptive anchors</td></tr>
+        </tbody>
+      </table></div>
+      <p>The three gates matter most. If any of them is No, the page cannot be shown as a supporting link, so the sheet marks it <strong>Not eligible</strong> and every query that targets it becomes <strong>P1: fix eligibility</strong>, whatever its other scores. Google notes that changes to preview controls can take several days to several months to be picked up after recrawling.</p>
+  - h: How the scores work (worked example)
+    html: |
+      <p>In the demo, Sproutly (a fictional plant shop) wants to be cited for <strong>how often to water succulents</strong>. The query has 4,400 monthly searches, business value 2, and the guide ranks at position 4.2. An AI Overview shows and cites 7 sources, but not Sproutly.</p>
+      <p><strong>Page readiness.</strong> The three gates are Yes, so the page is Eligible. It scores full marks on 8 checks (indexed 10, snippet 8, crawlable 7, text 5, facts 6, structured data 5, page experience 5, images 4), half marks on 3 (headings 3.5, author and date 3, internal links 3.5) and nothing on answer first, original value and fan out coverage. The Fan Out Map lists 8 sub questions for this page: 3 covered and 1 partly covered, so coverage is 3.5 of 8, or 44 percent, below the 50 percent needed for Partly. The total is <strong>60, Nearly ready</strong>. The biggest gap is <strong>original value</strong> (12 points), with 6 fixes left worth an estimated 15 hours.</p>
+      <p><strong>Opportunity score.</strong> Five weighted parts:</p>
+      <ul>
+        <li>Demand (weight 30): 4,400 of the 5,000 searches that earn full marks, so 30 x 0.88 = 26.4</li>
+        <li>Business value (weight 25): 2 of 3, so 16.7</li>
+        <li>AI Overview shows (weight 15): Yes, factor 1, so 15</li>
+        <li>Position band (weight 15): position 4.2 sits in the 4 to 10 band, factor 0.9, so 13.5</li>
+        <li>Readiness gap (weight 15): 15 x (1 minus 0.60) = 6</li>
+      </ul>
+      <p>The total is 77.6, rounded to <strong>78</strong>, so the priority is <strong>P1: now</strong>. The status is <strong>Ranks top 10, not cited: close the answer gap</strong>: the page already ranks, so a clear answer first, original value and headings for the missing sub questions are the fastest way to earn a citation.</p>
+      <p><strong>Second example.</strong> The yellow leaves guide ranks at position 6 for a query with 8,100 searches, but a theme update added <code>nosnippet</code> by mistake. The snippet gate is No, so the page is Not eligible and both of its queries jump to the top of the Dashboard as <strong>P1: fix eligibility</strong>. On the Action Plan the fix was done on 12 November; the result reads "Wait: 15 days left" until the 28 day measure date.</p>
+      <p><strong>Third example.</strong> The low light plants list added an answer first block on 15 October. In the 28 days after, AI feature impressions went from 3,100 to 4,800 and the page is now cited, so the result reads <strong>Now cited: keep going</strong>.</p>
+  - h: Column by column guide to the Query Tracker
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>Query, Target URL, Topic, Search intent</td><td>The query and the page that should answer it.</td><td>The URL must match a row on the Page Audit.</td></tr>
+          <tr><td>Monthly searches, Business value</td><td>From your keyword tool, and 1 to 3.</td><td>Use one tool for every row.</td></tr>
+          <tr><td>Organic position</td><td>Average position from Search Console, filtered by the query.</td><td>Leave blank if you do not rank.</td></tr>
+          <tr><td>AI Overview shows?</td><td>Yes, Sometimes, No or Not checked.</td><td>Search in a private window; AI Overviews do not show for every search.</td></tr>
+          <tr><td>Cited in the AI Overview?, Sources cited, Who is cited instead</td><td>Whether a link to your page shows inside it, how many sources it lists and who.</td><td>Open the source list, not only the visible cards.</td></tr>
+          <tr><td>AI Mode cites you?</td><td>Yes, No or Not checked.</td><td>Ask the same query in AI Mode.</td></tr>
+          <tr><td>Clicks, Impressions, Date checked</td><td>28 days from Search Console and the day you checked.</td><td>AI feature traffic is included in the Web search type.</td></tr>
+          <tr><td>CTR, Page readiness, Page eligibility</td><td>Automatic.</td><td>Readiness comes from the Page Audit.</td></tr>
+          <tr><td>Fan out sub questions, Fan out coverage</td><td>Automatic from the Fan Out Map.</td><td>Aim for 80 percent or more.</td></tr>
+          <tr><td>Status, Next action</td><td>Automatic, 8 possible statuses.</td><td>The action text lives on Settings.</td></tr>
+          <tr><td>Opportunity score, Priority</td><td>Automatic, 0 to 100 and P1 to P4, Protect, Classic SEO or Check first.</td><td>Eligibility fixes always come first.</td></tr>
+          <tr><td>Days since checked, Check again?</td><td>Automatic, every 30 days by default.</td><td>AI answers change; recheck priority queries monthly.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Statuses, priorities and what to do
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Status</th><th>Rule</th><th>What to do</th></tr></thead>
+        <tbody>
+          <tr><td>Fix eligibility first</td><td>A gate on the page is No</td><td>Fix indexing, snippet controls or crawl access before anything else</td></tr>
+          <tr><td>Check the results page</td><td>AI Overview not checked yet</td><td>Search the query and record what shows</td></tr>
+          <tr><td>No AI Overview: classic SEO</td><td>No AI Overview shows</td><td>Improve title, snippet and depth; check again next cycle</td></tr>
+          <tr><td>Cited: protect and expand</td><td>You are cited</td><td>Keep facts current, cover missing sub questions, add links</td></tr>
+          <tr><td>Ranks top 10, not cited</td><td>Position 10 or better</td><td>Answer first, original value, headings for sub questions</td></tr>
+          <tr><td>Ranks 11 to 30</td><td>Position 11 to 30</td><td>Cover the sub questions and add depth for fan out searches</td></tr>
+          <tr><td>Not ranking</td><td>Beyond 30 or blank</td><td>Build a dedicated page or a much deeper section</td></tr>
+        </tbody>
+      </table></div>
+      <p>Priority P1 starts at a score of 70, P2 at 50 and P3 at 30. Cited queries show as Protect and queries without an AI Overview as Classic SEO, so they never crowd out the queries you can still win.</p>
+  - h: Measuring AI Overview visibility in Search Console
+    html: |
+      <p>Search Console now has a <a href="https://support.google.com/webmasters/answer/16984139" target="_blank" rel="noopener">generative AI performance report</a> that shows how often links to your site were shown in AI Overviews and AI Mode, by page, country, device and date. Google says it rolled out to all websites worldwide as of 31 August 2026. It reports impressions, it excludes Search Labs experiments, and it stays empty until a site has enough impressions in these features.</p>
+      <p>Clicks from AI features are included in the normal Performance report under the Web search type, so you cannot separate them there. Google describes these clicks as higher quality, meaning people are more likely to spend more time on the site. That is Google's own claim; your analytics will show whether it holds for you.</p>
+      <p>The kit uses the generative AI report in two places: AI feature impressions per page on the Page Audit (with the AI share of all search impressions), and impressions 28 days before and after each fix on the Action Plan. Citation checks by hand fill the gap for single queries.</p>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: gates.</strong> Audit your top 20 to 50 answer pages. Fix every Not eligible page first; these are the cheapest wins.</li>
+        <li><strong>Week 2: queries.</strong> Add 30 to 100 target queries, check each results page and record citations and who is cited instead.</li>
+        <li><strong>Week 3: fan out.</strong> Map sub questions for the P1 queries and finish the content checks on their pages.</li>
+        <li><strong>Week 4: fix.</strong> Put the biggest gaps of the P1 pages on the Action Plan within your weekly hours and start with answer first blocks and original value.</li>
+      </ul>
+      <p>After that, recheck priority queries every month and measure each fix after 28 days. Our article on <a href="/ai-overviews-clicks-how-to-get-cited-2026/">how to still get cited in AI Overviews</a> has more ideas for the content side.</p>
+  - h: The chained prompt workflow (from query to cited ready page)
+    html: |
+      <p>Prompts 18 to 22 below are designed to run in order in one AI chat:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your site, audience and rules.</li>
+        <li><strong>Read the AI Overview</strong> and the cited sources you paste in.</li>
+        <li><strong>Map the fan out sub questions</strong> and compare them with your page.</li>
+        <li><strong>Plan the fixes</strong> in order of the Page Audit gaps.</li>
+        <li><strong>Draft</strong> the answer first block and the new sections, and log them for the Action Plan.</li>
+      </ol>
+      <p>Check every fact the assistant adds. A page with a wrong fact is the last thing an AI answer should cite.</p>
+  - h: AI Overview optimization mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Chasing special tricks.</strong> Google says you do not need AI text files, special markup or tiny content chunks. Spend the time on the page.</li>
+        <li><strong>Blocking the snippet by accident.</strong> A <code>nosnippet</code> rule or a tight <code>max-snippet</code> on the answer removes the page from contention. Check the gates first.</li>
+        <li><strong>Shrinking the page to a short answer.</strong> Answer first, then add the depth a summary cannot give.</li>
+        <li><strong>Only targeting the main query.</strong> Cited pages often come from fan out searches. Cover the sub questions.</li>
+        <li><strong>Structured data that does not match the page.</strong> Google asks for markup that matches the visible text.</li>
+        <li><strong>Buying fake mentions.</strong> Google's 2026 guide says inauthentic mentions are not as helpful as they might seem, and warns against tools that promise ranking success.</li>
+        <li><strong>Never measuring.</strong> Without impressions before and after, you cannot tell which fixes work. Read our analysis of <a href="/googles-ai-overview-click-data-2026/">Google's AI Overview click data</a> for context.</li>
+      </ul>
+prompts:
+  - t: Read an AI Overview
+    p: |
+      Here is the AI Overview text for "[query]" and the list of sources it cites: [paste].
+      Summarise what the overview answers, which sub questions it covers, what each cited source contributes,
+      and what it leaves out or answers vaguely. Do not add facts of your own.
+  - t: Map fan out sub questions
+    p: |
+      For the query "[query]", here are People also ask questions, related searches, AI Mode follow ups and
+      Search Console queries for my page: [paste]. List 6 to 10 distinct sub questions in the order a reader would ask them,
+      with a type for each (definition, how to, comparison, cost, problem, example, safety, next step).
+  - t: Compare my page with cited sources
+    p: |
+      Here is my page outline and opening: [paste]. Here are the headings and key points of the sources cited in the
+      AI Overview for "[query]": [paste]. List what they cover that I do not, what I cover better, and the 3 changes most likely
+      to make my page a stronger source.
+  - t: Write an answer first block
+    p: |
+      Write a 40 to 60 word answer to "[question]" for [reader]. It must answer fully on its own, in plain language,
+      with the key condition or number if there is one. Then suggest a descriptive heading to put above it.
+  - t: Turn sub questions into headings
+    p: |
+      Here are sub questions for my page about [topic]: [paste]. Write a descriptive H2 or H3 heading for each, in plain
+      language with no hyphens, and suggest the best format for each section (paragraph, steps, table or list).
+  - t: Find original value
+    p: |
+      My business is [business]. The sources cited for "[query]" all say [summary]. Suggest 6 kinds of original value we could
+      add (our own data, a test, photos, a worked example, expert input, customer results), what each needs and how long it takes.
+  - t: Fact check list
+    p: |
+      Here is the text of my page: [paste]. List every fact, number, rule, price, date and named product, with what I must
+      verify and the kind of official source to check. Do not confirm anything yourself.
+  - t: Check eligibility settings
+    p: |
+      Here is the head section and robots meta of my page, my robots.txt rules and any data-nosnippet markup: [paste].
+      Tell me in plain words whether anything stops Google from indexing the page or showing a snippet of the main answer.
+  - t: Structured data matches the page
+    p: |
+      Here is my page text and its JSON-LD: [paste both]. List every structured data value that does not match the visible
+      text, is missing from the page, or could mislead. Suggest the corrected values.
+  - t: Section for a missing sub question
+    p: |
+      My page about [topic] does not answer "[sub question]". Write a short section (120 to 200 words) that answers it clearly,
+      with a heading, using only these facts I have checked: [paste facts]. Mark any gap where I need more information.
+  - t: Make an image or video plan
+    p: |
+      For my page about [topic], suggest 3 original images or one short video that would help readers more than text,
+      what each should show, and alt text for each image.
+  - t: Internal links for an answer page
+    p: |
+      Here are my pages with titles: [paste list]. For the page "[title]", suggest 3 pages that should link to it and the
+      sentence where each link fits, with descriptive anchor text.
+  - t: Write a clear author box
+    p: |
+      Write a short author and reviewer note for my page about [topic]. Author: [name, role, experience]. Reviewer: [name,
+      role]. Keep it factual and under 60 words, and say what first hand experience they bring.
+  - t: Explain why a competitor is cited
+    p: |
+      The AI Overview for "[query]" cites [competitor page] and not mine. Here is their outline and mine: [paste both].
+      Give the most likely reasons in plain words, based only on what I pasted, and the changes I can make.
+  - t: Review the Action Plan results
+    p: |
+      Here is my Action Plan export with fix type, date, AI impressions before and after and citations before and after: [paste].
+      Which kinds of fixes worked best? What should we do more of next month and what should we stop?
+  - t: Explain AI search visibility to a manager
+    p: |
+      Write a short update for my manager on our AI Overview work. Data: [paste dashboard numbers]. Explain where we are cited,
+      which pages were blocked and fixed, what we changed and the plan for next month. No jargon.
+  - t: Monthly recheck summary
+    p: |
+      Here are my priority queries with last month's and this month's AI Overview and citation results: [paste].
+      List the queries where we gained or lost a citation, what changed on those pages, and what to check next.
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my AI search visibility assistant. My site: [site]. Readers: [readers]. Goal: [goal].
+      Rules: never invent facts, quote only what I paste, plain language, no hyphens in headings. Confirm, then wait for the next step.
+  - t: "Workflow 2 of 5: read the AI Overview"
+    p: |
+      Query: "[query]". Here is the AI Overview text and the cited sources with their headings: [paste].
+      Tell me what it answers, what each source contributes and what is missing.
+  - t: "Workflow 3 of 5: fan out map"
+    p: |
+      Here are People also ask, related searches and AI Mode follow ups: [paste]. Here is my page outline: [paste].
+      List 6 to 10 sub questions and mark each Yes, Partly or No for my page, as tab separated rows I can paste into my Fan Out Map:
+      Main query, Sub question, Type, Found in, Covered on the page?
+  - t: "Workflow 4 of 5: plan the fixes"
+    p: |
+      My Page Audit shows these gaps with weights: [paste]. Using the comparison and the fan out map, put the fixes in order
+      of impact, with the facts I must verify for each.
+  - t: "Workflow 5 of 5: draft and log"
+    p: |
+      Draft the answer first block and the new sections for the top 2 fixes, in my voice, with short paragraphs.
+      Then write one tab separated line per fix for my Action Plan: Page URL, Fix, Owner.
+checklist:
+  - Set today's date, full marks for searches and weekly fix hours on Settings
+  - Checked every target page with URL Inspection and confirmed it is indexed
+  - Confirmed no nosnippet, tight max-snippet or data-nosnippet blocks the main answer
+  - Confirmed Googlebot can crawl each page through robots.txt, CDN and firewall rules
+  - Searched every target query in a private window and recorded the AI Overview and citations
+  - Noted which sources are cited instead and what they cover
+  - Mapped 4 to 8 fan out sub questions for every priority query
+  - Answered the main question in the first 40 to 60 words under a clear heading
+  - Added original value the cited sources lack
+  - Turned sub questions into descriptive headings and sections
+  - Showed a clear author and a visible Published or Last updated date
+  - Checked every fact against a current official source
+  - Made structured data match the visible text
+  - Added links from 2 or more related pages
+  - Logged each fix and measured AI feature impressions 28 days before and after
+  - Rechecked priority queries every month
+faq:
+  - q: Is this AI Overview optimization checklist really free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: How do I get my page cited in AI Overviews?
+    a: "Make sure the page is indexed and allowed to show a snippet, answer the question clearly near the top, add original value the cited sources lack and cover the related sub questions. Google says there are no special requirements beyond normal SEO."
+  - q: Do I need special schema or an llms.txt file for AI Overviews?
+    a: "No. Google says there is no special schema.org structured data to add and no need for AI text files or special markup to appear in Google Search. Structured data that matches the page is still useful for rich results."
+  - q: Can I see AI Overview traffic in Search Console?
+    a: "Partly. The generative AI performance report shows impressions in AI Overviews and AI Mode by page, country, device and date. Clicks from AI features are included in the normal Performance report under the Web search type."
+  - q: Do I need to rank in the top 10 to be cited?
+    a: "Not always. One 2026 Ahrefs study found about 38 percent of cited pages also ranked in the top 10 for the query, because AI Overviews also draw on related fan out searches. Ranking well still helps."
+  - q: Does the workbook work in Google Sheets?
+    a: "Yes. Upload the .xlsx file to Google Drive and open it with Google Sheets. Formulas, dropdowns and colours carry over. The charts may need a quick refresh."
+related: [schema-markup, serp-analysis, content-refreshes]
+reads:
+  - t: "AI Overviews are eating your clicks: how to still get cited in 2026"
+    url: /ai-overviews-clicks-how-to-get-cited-2026/
+  - t: "What Google's AI Overview click data really tells marketers in 2026"
+    url: /googles-ai-overview-click-data-2026/
+  - t: How ChatGPT chooses websites for its answers
+    url: /how-chatgpt-chooses-websites-for-answers/
+tools:
+  - t: Word and Character Counter
+    url: /tools/seo-tools/word-character-counter/
+  - t: Article Schema Generator
+    url: /tools/schema-generators/article-schema-generator/
+  - t: AI Crawler Log Analyzer
+    url: /tools/ai-tools/ai-crawler-log-analyzer/
+sources:
+  - t: "Google Search Central: AI features and your website"
+    url: https://developers.google.com/search/docs/appearance/ai-features
+  - t: "Google Search Central: Optimizing your website for generative AI features on Google Search"
+    url: https://developers.google.com/search/docs/fundamentals/ai-optimization-guide
+  - t: "Google Search Central Blog: Top ways to ensure your content performs well in Google's AI experiences on Search"
+    url: https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search
+  - t: "Search Console Help: Generative AI performance report (Search)"
+    url: https://support.google.com/webmasters/answer/16984139
+  - t: "Google Search Central: Creating helpful, reliable, people-first content"
+    url: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  - t: "Ahrefs: 38% of AI Overview citations pull from the top 10"
+    url: https://ahrefs.com/blog/ai-overview-citations-top-10/

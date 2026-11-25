@@ -1,0 +1,141 @@
+{
+ "sheet": "Query Tracker",
+ "columns": [
+  "Query",
+  "Organic position",
+  "AI Overview shows?",
+  "Cited in the AI Overview?",
+  "Page readiness (0 to 100)",
+  "Status",
+  "Opportunity score (0 to 100)",
+  "Priority"
+ ],
+ "rows": [
+  [
+   "how often to water succulents",
+   4.2,
+   "Yes",
+   "No",
+   60,
+   "Ranks top 10, not cited: close the answer gap",
+   78,
+   "P1: now"
+  ],
+  [
+   "succulent watering schedule",
+   6.5,
+   "Yes",
+   "No",
+   60,
+   "Ranks top 10, not cited: close the answer gap",
+   57,
+   "P2: this month"
+  ],
+  [
+   "monstera care",
+   8.1,
+   "Yes",
+   "Yes",
+   100,
+   "Cited: protect and expand",
+   75,
+   "Protect"
+  ],
+  [
+   "how to repot a plant",
+   12.4,
+   "Yes",
+   "No",
+   68,
+   "Ranks 11 to 30: build depth and fan out coverage",
+   63,
+   "P2: this month"
+  ],
+  [
+   "best low light plants",
+   5.3,
+   "Sometimes",
+   "No",
+   91,
+   "Ranks top 10, not cited: close the answer gap",
+   79,
+   "P1: now"
+  ],
+  [
+   "low light plants for bedroom",
+   9,
+   "Yes",
+   "No",
+   91,
+   "Ranks top 10, not cited: close the answer gap",
+   63,
+   "P2: this month"
+  ],
+  [
+   "how to get rid of fungus gnats",
+   3.1,
+   "Yes",
+   "Yes",
+   98,
+   "Cited: protect and expand",
+   69,
+   "Protect"
+  ],
+  [
+   "potting mix for indoor plants",
+   15.2,
+   "No",
+   "No",
+   47,
+   "No AI Overview: classic SEO",
+   55,
+   "Classic SEO"
+  ],
+  [
+   "self watering pots",
+   7.7,
+   "No",
+   "No",
+   46,
+   "No AI Overview: classic SEO",
+   64,
+   "Classic SEO"
+  ],
+  [
+   "do self watering pots work",
+   18.5,
+   "Yes",
+   "No",
+   46,
+   "Ranks 11 to 30: build depth and fan out coverage",
+   61,
+   "P2: this month"
+  ],
+  [
+   "why are my plant leaves turning yellow",
+   6,
+   "Yes",
+   "No",
+   92,
+   "Fix eligibility first",
+   76,
+   "P1: fix eligibility"
+  ],
+  [
+   "yellow leaves on monstera",
+   11,
+   "Yes",
+   "No",
+   92,
+   "Fix eligibility first",
+   48,
+   "P1: fix eligibility"
+  ]
+ ],
+ "formulaCols": [
+  4,
+  5,
+  6,
+  7
+ ]
+}

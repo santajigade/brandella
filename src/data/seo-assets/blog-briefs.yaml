@@ -1,0 +1,345 @@
+seoTitle: "Content Brief Template: Free Excel Kit for SEO Blog Briefs"
+h1: "Content Brief Kit: Brief Pipeline, Outline Bank, Brief Builder and AI Prompts"
+focusKeyword: content brief template
+description: "Free content brief template in Excel: plan blog briefs with intent, outline, information gain and links, then score, prioritise and hand each one to a writer."
+published: 2026-11-25
+updated: 2026-11-25
+time: About 1 hour to set up, then about 30 minutes for each brief
+level: Beginner to advanced
+kit: true
+tabs: 9
+intro:
+  - "Most content brief templates are a document with empty boxes: keyword, audience, word count, outline. The writer fills the gaps with guesses and the editor rewrites the draft. This free <strong>content brief template</strong> is a working kit instead. Every idea goes into an Excel pipeline that checks the title, catches two briefs chasing the same keyword, sets a sensible length band, asks what the article will add that the top results do not, scores the opportunity and tells you the next step. A Brief Builder then assembles the full brief, the outline and nine hand over checks for one article, ready to copy to the writer."
+  - "It is built for the AI search era. An AI Overview can now answer the easy part of a query on the results page, so a brief that only repeats what already ranks produces an article nobody needs to click. Google asks whether content offers original information and substantial value compared with other pages, and says it has no preferred word count. So this kit makes information gain a required field, plans sections around the real sub questions people ask, and sets clear rules for AI assisted drafts."
+kitContents:
+  - t: "Excel workbook, 9 tabs"
+    d: "Brief Pipeline (500 ready rows with 17 automatic columns), Outline Bank for H2, H3 and FAQ sections, Brief Builder with copy ready brief text and nine automatic checks, Dashboard with two charts, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "18 briefs and 33 outline sections for a fictional invoicing app, so you see every check, score and priority working before you add your own ideas."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to share with writers, editors or clients."
+  - t: "23 AI prompts"
+    d: "Prompts to read the results page, find sub questions, plan information gain, outline, check a draft against the brief and review AI assisted text, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole brief process on one page, to tick off for every article you plan."
+steps:
+  - t: Set your rules
+    d: "On Settings, set today's date, the monthly searches that earn full marks, words per hour, writer hours per week and the length band for each format."
+  - t: Add the idea and its keyword
+    d: "In the Brief Pipeline, add the working title, one focus keyword, secondary keywords, intent, format, funnel stage, reader and goal."
+  - t: Read the results page
+    d: "Search the focus keyword. Note whether an AI Overview shows and the average length of the top 3 results, and add searches and difficulty from your keyword tool."
+  - t: Choose the information gain
+    d: "Pick what this article will add that the top results lack: your own data, a first hand test, an expert, a worked example, a template or a customer story."
+  - t: Write the outline
+    d: "In the Outline Bank, add one row per section with the question it answers, the points and entities to cover, the format, planned words and the source to use."
+  - t: Build and check the brief
+    d: "Open the Brief Builder, choose the article and fix anything the nine checks flag. Then copy the brief text and the outline to the writer."
+  - t: Track it to publish
+    d: "Set the writer and due date, move the status from Idea to Published, and follow the Next step column. The Dashboard shows overdue work and writer load."
+sections:
+  - h: Why content briefs matter more in the AI search era
+    html: |
+      <p>A brief decides what an article will be before anyone writes a word. When it is vague, writers pad to a word count, copy the structure of whatever ranks and miss the questions readers really have. In classic search that page might still rank. In AI search it has a harder time, because the easy answer is often already on the results page.</p>
+      <p>Google's own guidance points to what a modern brief must ask for. Its <a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" target="_blank" rel="noopener">helpful content guide</a> asks whether content provides "original information, reporting, research, or analysis" and "substantial value when compared to other pages in search results". In its May 2025 post on <a href="https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search" target="_blank" rel="noopener">succeeding in AI search</a>, Google tells site owners to focus on unique, non commodity content that visitors will find helpful and satisfying.</p>
+      <p>Google also explains how its AI features find sources. AI Overviews and AI Mode may use a <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">query fan out technique</a>, issuing multiple related searches across subtopics. So a strong brief plans the sub questions behind a topic, not only the main keyword.</p>
+      <p>And Google is clear about length: the helpful content guide asks "Are you writing to a particular word count because you've heard or read that Google has a preferred word count? (No, we don't.)" This kit therefore gives the writer a length band as a guide, never a target to pad towards.</p>
+  - h: What is inside the content brief template
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>Brief Pipeline</td><td>Checks the title and keyword, flags a focus keyword planned twice, sets target words, totals the outline, decides on an answer first block, checks information gain, scores completeness and opportunity, sets a priority, estimates hours and shows due status and the next step.</td><td>Title, focus and secondary keywords, intent, format, funnel stage, reader, goal, searches, difficulty, value, AI Overview check, top 3 length, information gain, links, writer, due date, status</td></tr>
+          <tr><td>Outline Bank</td><td>Checks heading length, whether a heading is a question and whether the article exists in the pipeline.</td><td>Article, order, level (H2, H3, FAQ), heading, question, points and entities, format, words, source</td></tr>
+          <tr><td>Brief Builder</td><td>Pulls one article into a full brief, writes copy ready brief text, lists the outline in order and runs nine checks before hand over.</td><td>Only the article you want</td></tr>
+          <tr><td>Dashboard</td><td>16 key numbers, top 10 briefs, pipeline by status and writer load, two charts.</td><td>Nothing</td></tr>
+          <tr><td>Settings</td><td>Score weights, length bands and research hours per format, information gain types, rules and lists.</td><td>Optional tuning</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas, so you cannot break the logic by accident. All 500 pipeline rows and 500 outline rows are ready, with dropdowns and checks.</p>
+  - h: The 11 fields every brief needs
+    html: |
+      <p>We compared the brief templates from Semrush, Ahrefs, HubSpot, Conductor and seoClarity. Almost all of them ask for a reader, a keyword, internal links, a goal and an outline. Few ask what the article adds that others lack, although <a href="https://www.conductor.com/academy/content-brief/" target="_blank" rel="noopener">Conductor</a> lists information gain as part of setting goals. The kit counts a brief as complete when these 11 fields are filled:</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Field</th><th>Why it matters</th></tr></thead>
+        <tbody>
+          <tr><td>Working title</td><td>The promise to the reader. Google asks whether the title gives a descriptive, helpful summary of the content.</td></tr>
+          <tr><td>Focus keyword</td><td>One page per topic. Two pages on the same keyword compete with each other.</td></tr>
+          <tr><td>Search intent</td><td>Learn, compare, buy or find a site. It decides the format.</td></tr>
+          <tr><td>Format</td><td>Guide, how to, list, comparison and so on. Sets the length band and research hours.</td></tr>
+          <tr><td>Reader</td><td>Who it is for and what they already know.</td></tr>
+          <tr><td>Goal and call to action</td><td>What the reader should be able to do, and the next step you want.</td></tr>
+          <tr><td>Information gain</td><td>What the article adds that the top results lack. "None yet" means the brief is not ready.</td></tr>
+          <tr><td>Must link to</td><td>Internal pages the article should link to.</td></tr>
+          <tr><td>Writer</td><td>One owner.</td></tr>
+          <tr><td>Due date</td><td>Drives the due status on the Dashboard.</td></tr>
+          <tr><td>At least 3 outline sections</td><td>A brief without an outline leaves the structure to chance.</td></tr>
+        </tbody>
+      </table></div>
+      <p>HubSpot's <a href="https://blog.hubspot.com/marketing/content-brief" target="_blank" rel="noopener">guide to content briefs</a> suggests keeping a brief to a page or two. The Brief Builder does that: one screen of brief, one outline and nine checks.</p>
+  - h: How the scores work (worked example)
+    html: |
+      <p>In the demo, Ledgerly (a fictional invoicing app) plans <strong>How to make an invoice as a freelancer</strong> for the focus keyword "how to make an invoice". The keyword tool shows 2,400 monthly searches and a difficulty of 38. Business value is 3 because the article leads straight to the free invoice template. The information gain is a free template plus 3 filled examples from real customer types.</p>
+      <p>The opportunity score adds four weighted parts:</p>
+      <ul>
+        <li>Demand (weight 35): 2,400 searches is above the 2,000 that earn full marks, so 35</li>
+        <li>Ease (weight 20): 100 minus 38 is 62, so 20 x 0.62 = 12.4</li>
+        <li>Business value (weight 30): 3 of 3, so 30</li>
+        <li>Information gain (weight 15): a type that counts, so 15</li>
+      </ul>
+      <p>The total is 92.4, rounded to <strong>92</strong>, so the priority is <strong>P1: brief now</strong>.</p>
+      <p>The top 3 results average 1,850 words. With the default factor of 1, that rounds to <strong>1,900 words</strong>, which sits inside the How to band of 1,000 to 2,500, so the target stays at 1,900. The outline in the Outline Bank has 10 sections that add up to 1,930 words, within 20 percent of the target, so that check passes. At 500 words an hour plus 3 research hours for a how to, the sheet estimates <strong>6.8 hours</strong> of writing. The due date is 4 December 2026, 9 days after the review date, so the due status is On track.</p>
+      <p>The sheet also notices that another idea, <strong>How to make an invoice in Excel</strong>, uses the same focus keyword. That later row gets the priority <strong>Rethink: keyword planned twice</strong>, so you merge it into the first article or give it its own keyword, such as "invoice template excel".</p>
+      <p><strong>Second example.</strong> The idea <strong>Invoice vs bill: what is the difference?</strong> has 900 searches (15.75 points), difficulty 22 (15.6), business value 1 (10) and no information gain yet (0). The score is 41, so P3: later. The top 3 average 1,100 words, but the comparison band starts at 1,200, so the target is 1,200. Only 6 of 11 fields are filled, so the next step reads "Finish the brief: 5 of 11 fields missing". A short topic like this may work better as a FAQ inside the main invoice guide.</p>
+  - h: Column by column guide to the Brief Pipeline
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>Working title, Focus keyword, Secondary keywords</td><td>The idea and the words it should rank for.</td><td>One focus keyword per article.</td></tr>
+          <tr><td>Search intent, Format, Funnel stage</td><td>Dropdowns.</td><td>Copy the format that ranks for the keyword.</td></tr>
+          <tr><td>Reader, Goal and call to action</td><td>Who it is for and what they should do next.</td><td>Be specific: "freelancers sending their first invoice".</td></tr>
+          <tr><td>Monthly searches, Keyword difficulty</td><td>From your keyword tool.</td><td>Use one tool for every row so scores compare fairly.</td></tr>
+          <tr><td>Business value (1 to 3)</td><td>3 close to a sale, 2 builds trust, 1 loosely related.</td><td>The most important judgement in the sheet.</td></tr>
+          <tr><td>AI Overview on the results page?</td><td>Yes, No or Not checked.</td><td>Search in a private window.</td></tr>
+          <tr><td>Top 3 average words</td><td>Average length of the top 3 organic results.</td><td>Leave blank to use the middle of the format band.</td></tr>
+          <tr><td>Information gain, detail</td><td>The type from the dropdown and one line on what it is.</td><td>"None yet" keeps the brief incomplete.</td></tr>
+          <tr><td>Must link to, Ask for links from</td><td>Internal URLs.</td><td>Ask for links from 2 related pages after publishing.</td></tr>
+          <tr><td>Writer, Due date, Status, Published URL</td><td>Ownership and progress.</td><td>Status moves Idea, Briefed, Writing, Editing, Published.</td></tr>
+          <tr><td>Title length, Keyword in title?, Keyword planned twice?</td><td>Automatic.</td><td>Titles over 60 characters turn red.</td></tr>
+          <tr><td>Target words, Outline sections, Outline words planned</td><td>Automatic from Settings and the Outline Bank.</td><td>A guide for the writer, not a rule.</td></tr>
+          <tr><td>Answer first block?, Information gain check</td><td>Automatic.</td><td>Informational intent or an AI Overview means answer early.</td></tr>
+          <tr><td>Brief fields done, Brief complete</td><td>Automatic count of the 11 fields.</td><td>Send only complete briefs.</td></tr>
+          <tr><td>Opportunity score, Priority, Hours to write</td><td>Automatic.</td><td>Sort by score; check hours against writer time.</td></tr>
+          <tr><td>Days to due, Due status, Next step</td><td>Automatic.</td><td>Work the Next step column every week.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Length bands, research hours and information gain types
+    html: |
+      <p>These are kit defaults on Settings. They are assumptions, not Google rules, so change them to match your site and your writers.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Format</th><th>Min words</th><th>Max words</th><th>Research hours</th></tr></thead>
+        <tbody>
+          <tr><td>Guide</td><td>1,500</td><td>3,000</td><td>4</td></tr>
+          <tr><td>How to</td><td>1,000</td><td>2,500</td><td>3</td></tr>
+          <tr><td>List</td><td>1,000</td><td>2,500</td><td>3</td></tr>
+          <tr><td>Comparison or review</td><td>1,200</td><td>2,500</td><td>5</td></tr>
+          <tr><td>Template or tool</td><td>600</td><td>1,500</td><td>4</td></tr>
+          <tr><td>Glossary</td><td>400</td><td>1,200</td><td>1</td></tr>
+          <tr><td>Case study</td><td>1,000</td><td>2,000</td><td>6</td></tr>
+          <tr><td>News</td><td>400</td><td>1,000</td><td>1</td></tr>
+        </tbody>
+      </table></div>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Information gain type</th><th>Example</th></tr></thead>
+        <tbody>
+          <tr><td>Original data or survey</td><td>A survey of your customers or numbers from your own product</td></tr>
+          <tr><td>First hand test or experience</td><td>You used the tools side by side and timed them</td></tr>
+          <tr><td>Expert quote or interview</td><td>A named accountant answers the questions the top results skip</td></tr>
+          <tr><td>Worked example with real numbers</td><td>A full example, with illustrative numbers clearly labelled</td></tr>
+          <tr><td>Free template or tool</td><td>Something the reader can download and use today</td></tr>
+          <tr><td>Customer story</td><td>A real customer, with permission, and what changed for them</td></tr>
+        </tbody>
+      </table></div>
+  - h: Writing briefs for AI Overviews and AI assistants
+    html: |
+      <p>Google says there are no extra requirements to appear in AI Overviews or AI Mode, and its 2026 guide to <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" target="_blank" rel="noopener">optimizing for generative AI features</a> says there is no requirement to break content into tiny pieces for AI. So the brief does not ask for robotic chunks. It asks for a clear article that people want to read, with four habits:</p>
+      <ul>
+        <li><strong>Answer first.</strong> For informational queries, or when an AI Overview shows, answer the main question in the first 40 to 60 words (a kit habit, not a Google rule), then go deeper.</li>
+        <li><strong>One section per real question.</strong> Each outline row names the question it answers. Find them in People also ask, AI Overview text, AI Mode follow ups and your support inbox.</li>
+        <li><strong>Information gain.</strong> Something only you can add, so the article is worth a click even after the summary.</li>
+        <li><strong>Sources in the brief.</strong> Every section names its source, official or primary first. Our <a href="/eeat-experience-expertise-authority-trust/">guide to EEAT</a> explains why visible expertise and trust matter.</li>
+      </ul>
+  - h: Rules for AI assisted drafts
+    html: |
+      <p>Many teams now use AI to research or draft. Google's guidance on <a href="https://developers.google.com/search/docs/fundamentals/using-gen-ai-content" target="_blank" rel="noopener">using generative AI content</a> says it is critical to fact check and review all AI generated content before publishing, including titles, meta descriptions, structured data and image alt text. It also notes that generative models do not retrieve facts but predict a likely sequence of words, and that generating many pages without adding value may violate the spam policy on scaled content abuse.</p>
+      <p>The Brief Builder adds these rules to every brief: every fact from an official or primary source, a named author with real experience, and a person who checks every fact, title, description and alt text. Google's helpful content guide adds that AI or automation disclosures are useful where readers might ask how the content was created. Our summary of <a href="/google-ai-content-guidelines-2026/">Google's AI content guidelines</a> covers the rules in more detail.</p>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: collect.</strong> Add 20 to 40 ideas with focus keywords, intent and format. Fix every focus keyword planned twice.</li>
+        <li><strong>Week 2: research.</strong> Add searches and difficulty, check every results page for an AI Overview and the top 3 length, and choose the information gain for each idea.</li>
+        <li><strong>Week 3: outline.</strong> Write outlines for the P1 briefs in the Outline Bank, pass the nine checks in the Brief Builder and send them to writers.</li>
+        <li><strong>Week 4: review.</strong> Check drafts against their briefs with the prompts below, publish, and ask for links from the pages listed in each brief.</li>
+      </ul>
+      <p>After that, add ideas every week and keep each writer under about four weeks of planned hours. Our guide to <a href="/how-to-write-seo-friendly-blog/">writing SEO friendly blog posts</a> covers the writing side.</p>
+  - h: The chained prompt workflow (from keyword to finished brief)
+    html: |
+      <p>Prompts 19 to 23 below are designed to run in order in one AI chat:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your site, readers and brief rules.</li>
+        <li><strong>Read the results page</strong> you paste in: formats, headings, the AI Overview and what is missing.</li>
+        <li><strong>Map the sub questions</strong> and pick the information gain.</li>
+        <li><strong>Draft the outline</strong> in the Outline Bank columns.</li>
+        <li><strong>Write the brief text</strong> and a final self check.</li>
+      </ol>
+      <p>Check every fact and number the assistant suggests. A brief built on a wrong fact produces an article built on a wrong fact.</p>
+  - h: Content brief mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Setting a word count to pad to.</strong> Google has no preferred word count. Give a band and ask for the topic to be covered fully.</li>
+        <li><strong>Copying the top results.</strong> A brief that lists the same headings as everyone else produces a commodity article. Always fill the information gain.</li>
+        <li><strong>Two briefs on one keyword.</strong> They compete. Merge them or give each a clear, different intent.</li>
+        <li><strong>An outline with no questions.</strong> Headings like "Introduction" and "Benefits" tell the writer nothing. Name the question each section answers.</li>
+        <li><strong>No sources.</strong> Name the official or primary source for each section in the brief.</li>
+        <li><strong>Over specifying.</strong> Ahrefs points out that a brief is not a content outline and warns against over specifying it. Give direction and leave the writing to the writer.</li>
+        <li><strong>Forgetting links after publishing.</strong> Ask for links from 2 related pages, or the new article starts as an orphan.</li>
+      </ul>
+prompts:
+  - t: Read a results page
+    p: |
+      Here are the titles, headings and formats of the top 5 results for "[keyword]": [paste].
+      An AI Overview [does or does not] show. Tell me the search intent, the format that ranks, what every result covers
+      and what none of them covers well. Do not guess anything I did not give you.
+  - t: Find the sub questions
+    p: |
+      For the topic "[topic]", here are People also ask questions, related searches and AI Overview text: [paste].
+      Group them into 6 to 10 distinct sub questions a reader has, in the order they would ask them.
+      Mark which ones need a table, steps or an example.
+  - t: Choose the information gain
+    p: |
+      My business is [business] and my readers are [readers]. The top results for "[keyword]" all cover [list].
+      Suggest 5 things only we could add (data we have, tests we can run, experts we know, templates, customer stories),
+      how long each would take, and which one would help the reader most.
+  - t: Pick the format and length band
+    p: |
+      Here are the top 3 results for "[keyword]" with format and approximate word count: [paste].
+      Which format should my article use and why? Suggest a sensible length range, and say which parts of the topic
+      deserve the most words. Do not suggest padding.
+  - t: Write 10 working titles
+    p: |
+      Write 10 working titles for an article about [topic] for [reader] with the focus keyword "[keyword]" near the start.
+      Under 60 characters each, honest, no clickbait, and each should promise what the article really delivers.
+  - t: Write the answer first block
+    p: |
+      Write a 40 to 60 word answer to "[main question]" for [reader]. It must fully answer the question on its own,
+      in plain language, with no filler. Then list the 3 details the rest of the article should add.
+  - t: Outline in Outline Bank columns
+    p: |
+      Create an outline for "[title]" with these columns separated by tabs: Order, Level (H2, H3 or FAQ), Heading,
+      Question it answers, Points and entities to cover, Section format, Words planned, Source to use.
+      Use these sub questions: [paste]. Keep the total near [target] words. Headings must be descriptive, no hyphens.
+  - t: Entities and terms to cover
+    p: |
+      For an article on "[topic]", list the people, organisations, products, terms and concepts a complete answer
+      should mention, grouped by section of this outline: [paste outline]. Flag any term a beginner would need explained.
+  - t: Sources for each section
+    p: |
+      Here is my outline: [paste]. For each section, suggest the type of official or primary source a writer should use
+      (government site, standards body, product documentation, study) and what to verify. Do not invent URLs.
+  - t: Internal links plan
+    p: |
+      Here are my existing articles with titles and URLs: [paste list]. For a new article "[title]", suggest 3 to 5 pages
+      it should link to, with anchor text and the section where each link fits, and 2 pages that should link to it.
+  - t: Check for keyword overlap
+    p: |
+      Here is my list of planned and published articles with their focus keywords: [paste]. Find pairs that target the
+      same search intent, and for each pair suggest whether to merge them or give one a different keyword and angle.
+  - t: FAQ from real questions
+    p: |
+      Here are questions from customers, support tickets and People also ask for [topic]: [paste].
+      Pick the 4 most useful that the main sections do not already answer, and write a one line note on what each answer needs.
+  - t: Brief for an expert interview
+    p: |
+      I will interview [expert role] for an article on "[topic]". Write 8 questions that would give us original insight
+      the top results lack, and 3 follow up questions for each answer that sounds generic.
+  - t: Check a draft against the brief
+    p: |
+      Here is the brief: [paste brief text and outline]. Here is the draft: [paste draft].
+      List where the draft misses a section, skips a question, lacks the information gain, adds filler or makes a claim
+      without a source. Be specific and quote the lines.
+  - t: Fact check list for an AI assisted draft
+    p: |
+      Here is an AI assisted draft: [paste]. List every fact, number, date, price, rule and named product in it, with what
+      I must verify and where. Do not confirm anything yourself; give me the list to check.
+  - t: Title and meta description
+    p: |
+      The article "[title]" targets "[keyword]" and covers: [summary]. Write 5 title options under 60 characters and
+      3 meta descriptions of 120 to 160 characters that promise only what the article delivers.
+  - t: Turn a brief into a writer email
+    p: |
+      Turn this brief into a short, friendly email to a freelance writer: [paste brief]. Keep every requirement, the
+      deadline and the information gain, and ask them to confirm they can meet the date.
+  - t: Monthly content plan review
+    p: |
+      Here is my Brief Pipeline export with score, priority, status, writer and due status: [paste].
+      Which briefs should we write next month within [hours] writing hours, which should we drop or merge, and why?
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my content brief assistant. My site: [site]. Readers: [readers]. Goal: [leads, sales or readers].
+      Rules: one focus keyword per article, never invent facts or sources, plain language, no padding, every brief needs
+      information gain. Confirm you understand, then wait for the next step.
+  - t: "Workflow 2 of 5: read the results page"
+    p: |
+      Focus keyword: "[keyword]". Here are the top 5 results (title, headings, format) and the AI Overview text: [paste].
+      Tell me the intent, the format to use, what everyone covers and the gaps.
+  - t: "Workflow 3 of 5: sub questions and information gain"
+    p: |
+      Here are People also ask questions and related searches: [paste]. Map 6 to 10 sub questions in reading order,
+      then choose the single best information gain we can offer from this list of what we have: [data, experts, tests].
+  - t: "Workflow 4 of 5: outline"
+    p: |
+      Write the outline as tab separated rows: Order, Level, Heading, Question it answers, Points and entities to cover,
+      Section format, Words planned, Source to use. Start with an answer first section. Total about [target] words.
+  - t: "Workflow 5 of 5: brief text and self check"
+    p: |
+      Write the final brief: title, focus keyword, reader, goal, length band, answer first, information gain, links and
+      sources. Then check it against these rules and list anything missing: 11 fields filled, a question for every section,
+      a source for every section, no padding, no keyword planned twice.
+checklist:
+  - Set today's date, full marks for searches, words per hour and format bands on Settings
+  - Gave every article one focus keyword and fixed any keyword planned twice
+  - Chose intent, format, funnel stage, reader and goal for every brief
+  - Checked each results page for an AI Overview and the top 3 length
+  - Added monthly searches and difficulty from one keyword tool
+  - Scored business value from 1 to 3
+  - Chose an information gain that the top results lack
+  - Wrote the outline with the question each section answers
+  - Named an official or primary source for every section
+  - Planned an answer first block for informational queries
+  - Listed the internal pages to link to and the pages to ask for links from
+  - Passed all nine checks in the Brief Builder before hand over
+  - Set a writer and a due date and kept writer hours under capacity
+  - Fact checked every AI assisted part, including the title, description and alt text
+  - Asked for links from 2 related pages after publishing
+faq:
+  - q: Is this content brief template really free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: What should a content brief include?
+    a: "At least a working title, one focus keyword, search intent, format, reader, goal and call to action, the information gain, internal links, a writer, a due date and an outline where each section names the question it answers and its source."
+  - q: How long should a blog post be?
+    a: "As long as it takes to cover the topic well. Google says it has no preferred word count. The kit sets a length band from the format and the top 3 results so writers have a guide, not a number to pad to."
+  - q: What is information gain in a content brief?
+    a: "It is what your article adds that the pages already ranking do not: your own data, a first hand test, an expert, a worked example, a template or a customer story. The kit will not mark a brief complete without it."
+  - q: Can I use AI to write content briefs?
+    a: "Yes, as an assistant. The prompts help you read results pages, map sub questions and draft outlines. Check every fact and source yourself, because Google says AI generated content must be fact checked and reviewed before publishing."
+  - q: Does the template work in Google Sheets?
+    a: "Yes. Upload the .xlsx file to Google Drive and open it with Google Sheets. Formulas, dropdowns and colours carry over. The charts may need a quick refresh."
+related: [search-intent, entity-research, internal-linking]
+reads:
+  - t: How to write SEO friendly blog posts that rank on Google
+    url: /how-to-write-seo-friendly-blog/
+  - t: "EEAT explained: experience, expertise, authority and trust"
+    url: /eeat-experience-expertise-authority-trust/
+  - t: Google AI content guidelines 2026
+    url: /google-ai-content-guidelines-2026/
+tools:
+  - t: Headline Analyzer
+    url: /tools/content-writing-tools/headline-analyzer/
+  - t: Heading Structure Checker
+    url: /tools/seo-tools/heading-structure-checker/
+  - t: AI Words Checker
+    url: /tools/content-writing-tools/ai-words-checker/
+sources:
+  - t: "Google Search Central: Creating helpful, reliable, people-first content"
+    url: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  - t: "Google Search Central: Guidance on using generative AI content on your website"
+    url: https://developers.google.com/search/docs/fundamentals/using-gen-ai-content
+  - t: "Google Search Central: AI features and your website"
+    url: https://developers.google.com/search/docs/appearance/ai-features
+  - t: "Google Search Central Blog: Top ways to ensure your content performs well in Google's AI experiences on Search"
+    url: https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search
+  - t: "Conductor: How to write an effective content brief"
+    url: https://www.conductor.com/academy/content-brief/
+  - t: "HubSpot: How to write a content brief"
+    url: https://blog.hubspot.com/marketing/content-brief
