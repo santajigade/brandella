@@ -1,0 +1,142 @@
+{
+ "sheet": "Prompt Library",
+ "columns": [
+  "Prompt ID",
+  "Prompt",
+  "Intent type",
+  "Branded?",
+  "Runs",
+  "Mention rate",
+  "Status",
+  "Priority"
+ ],
+ "rows": [
+  [
+   "P01",
+   "What is the best help desk software for small teams?",
+   "Recommendation",
+   "Unbranded",
+   12,
+   "50%",
+   "Mentioned sometimes: build proof",
+   "P1: now"
+  ],
+  [
+   "P02",
+   "Recommend 5 help desk tools for a small business in India.",
+   "Recommendation",
+   "Unbranded",
+   12,
+   "17%",
+   "Absent: competitors win",
+   "P1: now"
+  ],
+  [
+   "P03",
+   "Which help desk software is easiest to set up for a small team?",
+   "Recommendation",
+   "Unbranded",
+   12,
+   "100%",
+   "Strong: protect it",
+   "Protect"
+  ],
+  [
+   "P04",
+   "What are the best alternatives to HelpHive?",
+   "Alternatives",
+   "Unbranded",
+   12,
+   "33%",
+   "Mentioned sometimes: build proof",
+   "P1: now"
+  ],
+  [
+   "P05",
+   "Compare the top shared inbox tools for customer support by email.",
+   "Comparison",
+   "Unbranded",
+   12,
+   "8%",
+   "Absent: competitors win",
+   "P1: now"
+  ],
+  [
+   "P06",
+   "How can a small team manage customer support emails better?",
+   "Problem or how to",
+   "Unbranded",
+   12,
+   "0%",
+   "Absent: competitors win",
+   "P1: now"
+  ],
+  [
+   "P07",
+   "How much does help desk software cost for a small team?",
+   "Pricing",
+   "Unbranded",
+   12,
+   "42%",
+   "Mentioned sometimes: build proof",
+   "P1: now"
+  ],
+  [
+   "P08",
+   "Is there a free help desk for small teams?",
+   "Pricing",
+   "Unbranded",
+   12,
+   "8%",
+   "Absent: competitors win",
+   "P1: now"
+  ],
+  [
+   "P09",
+   "What is CalmDesk?",
+   "Brand facts",
+   "Branded",
+   12,
+   "100%",
+   "Branded: accurate, protect it",
+   "Protect"
+  ],
+  [
+   "P10",
+   "How much does CalmDesk cost?",
+   "Brand facts",
+   "Branded",
+   12,
+   "100%",
+   "Wrong facts: fix the source",
+   "P1: fix facts"
+  ],
+  [
+   "P11",
+   "Is CalmDesk good? What do users say?",
+   "Reviews and trust",
+   "Branded",
+   12,
+   "100%",
+   "Branded: negative tone",
+   "P3: this quarter"
+  ],
+  [
+   "P12",
+   "CalmDesk vs HelpHive: which is better for email support?",
+   "Comparison",
+   "Branded",
+   12,
+   "100%",
+   "Branded: accurate, protect it",
+   "Protect"
+  ]
+ ],
+ "formulaCols": [
+  3,
+  4,
+  5,
+  6,
+  7
+ ]
+}

@@ -1,0 +1,335 @@
+seoTitle: "Featured Snippet Template, Answer Builder and Tracker"
+h1: "Featured Snippet Kit: Snippet Tracker, Answer Builder, Page Check and AI Prompts"
+focusKeyword: featured snippet template
+description: "Free featured snippet template in Excel: track who holds each snippet, test answer blocks for length and format, catch nosnippet blocks and plan fixes."
+published: 2026-11-26
+updated: 2026-11-26
+time: About 2 hours to set up, then about 1 hour a month to update
+level: Beginner to advanced
+kit: true
+tabs: 10
+intro:
+  - "Most featured snippet advice stops at \"answer the question in 40 to 50 words\". It never tells you which of your queries still show a snippet, who holds each one, what format Google uses, whether your page is blocking itself, or whether the answer you just wrote actually fits. This free <strong>featured snippet template</strong> is a working kit instead. An Excel workbook tracks every target query, scores the answer block you plan to publish, checks each page for snippet controls and turns the gaps into a weekly plan with a before and after measure."
+  - "It is built for search as it is now. Google says you cannot mark a page as a featured snippet: its systems decide. And in 2025 snippets became much rarer as AI Overviews spread. So the kit does two jobs at once: it helps you win the snippets that still show, and the same clear, quotable answer blocks give AI Overviews and other answer engines something easy to use."
+kitContents:
+  - t: "Excel workbook, 10 tabs"
+    d: "Snippet Tracker (500 ready rows with 13 automatic columns), Answer Builder that counts and scores answer blocks, Page Check for snippet controls, Action Plan with a weekly hours check and results, Dashboard with three charts, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "16 queries, 8 answer blocks, 10 pages and 8 fixes for a fictional coffee gear shop, so you see every format, score, status and result working before you add your own data."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to share with writers, developers or clients."
+  - t: "22 AI prompts"
+    d: "Prompts to draft, trim and test answer blocks, pick the right format, compare your answer with the current snippet and review results, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole featured snippet process on one page, to tick off for every answer you publish."
+steps:
+  - t: Set your rules
+    d: "On Settings, set today's date, the monthly searches that earn full marks and your fix hours per week. Leave the target lengths as they are for your first run."
+  - t: Check the snippet controls first
+    d: "Add each target page to the Page Check. Answer indexed, nosnippet, max-snippet and data-nosnippet. A page that blocks snippets cannot win one, whatever you write."
+  - t: Record what Google shows
+    d: "Add your queries to the Snippet Tracker with position from Search Console. Search each one in a private window and record whether a snippet shows, who holds it, its format and whether an AI Overview shows."
+  - t: Follow the recommended format
+    d: "The tracker recommends the format Google already shows, or a starter format from the query type when no snippet shows yet, and gives the target length."
+  - t: Build the answer block
+    d: "Paste your draft into the Answer Builder. Edit it until the verdict reads Ready to publish: right length, question heading, key term early, right format, real HTML."
+  - t: Plan the fixes
+    d: "Sort the tracker by priority. Control fixes come first, then the highest opportunity scores. Add the fixes to the Action Plan within your weekly hours."
+  - t: Measure after 28 days
+    d: "After each fix, record who holds the snippet and the clicks for 28 days before and after. The Result column says whether you won it, lost it or need another cycle."
+sections:
+  - h: What featured snippets are, and what changed in the AI era
+    html: |
+      <p>Google describes featured snippets as <a href="https://developers.google.com/search/docs/appearance/featured-snippets" target="_blank" rel="noopener">special boxes where the format of a regular search result is reversed</a>, showing the descriptive snippet first. They can also appear inside People also ask. Google's help page says it picks them <a href="https://support.google.com/websearch/answer/9351707" target="_blank" rel="noopener">based on how well they answer your question and how helpful they are</a>. You cannot mark up a page to become one: under "How can I mark my page as a featured snippet?" Google's answer is simply "You can't."</p>
+      <p>What changed is how often they show. An <a href="https://ahrefs.com/blog/how-serp-features-have-evolved-in-the-ai-era/" target="_blank" rel="noopener">Ahrefs study of 1 million US desktop results pages</a> found featured snippets on 15.41 percent of results pages in January 2025 and on 5.53 percent in June 2025. Over the same months AI Overviews grew from 3.93 to 27.43 percent. Ahrefs found a very strong negative correlation between the two and adds that correlation is not causation.</p>
+      <p>So a modern featured snippet plan does not chase every question. It answers three things for every query:</p>
+      <ul>
+        <li><strong>Does a snippet still show?</strong> If not, the same answer block is still useful for an AI Overview citation and for readers.</li>
+        <li><strong>Can my page win it?</strong> It must be indexed, allow snippets and rank near the top.</li>
+        <li><strong>Is my answer the best fit?</strong> Same format as the snippet, right length, answer first.</li>
+      </ul>
+      <p>The workbook answers all three for every row.</p>
+  - h: What is inside the featured snippet template
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>Snippet Tracker</td><td>Recommends a format and length, pulls snippet controls and the answer score, sets a status, next action, opportunity score, priority and recheck date.</td><td>Query, page, topic, query type, searches, value, position, snippet, holder, format, domain, AI Overview, clicks, impressions, date</td></tr>
+          <tr><td>Answer Builder</td><td>Counts words, characters, sentences and items, checks length, heading, key term, format and HTML, scores the block 0 to 100 and names the top fix.</td><td>Query, key term, format, heading, answer text, table size, two Yes or No checks</td></tr>
+          <tr><td>Page Check</td><td>Reads the snippet controls, scores five page checks, counts snippets held and gives the next step.</td><td>URL, indexed, nosnippet, max-snippet, data-nosnippet, five checks</td></tr>
+          <tr><td>Action Plan</td><td>Adds the page, hours and how to fix, sets the measure date, reads the result and checks hours per week.</td><td>Query, fix, owner, week, status, done date, holder and clicks before and after</td></tr>
+          <tr><td>Dashboard</td><td>18 key numbers, top 10 queries to work on, queries by status, snippet formats and who holds the snippets, three charts.</td><td>Only the holder domains</td></tr>
+          <tr><td>Settings</td><td>Target lengths, query type to format, weights, position bands, answer check weights, statuses, fixes and lists.</td><td>Optional tuning</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas. Every tab has ready rows with dropdowns, so you can paste a full Search Console export straight in.</p>
+  - h: The four snippet formats and their target lengths
+    html: |
+      <p>Google publishes no word limits for featured snippets. The targets in the workbook are <strong>starter assumptions</strong> based on two public studies, and you can change every one on Settings. A <a href="https://www.searchenginejournal.com/data-backed-ways-to-optimize-for-google-featured-snippets/387928/" target="_blank" rel="noopener">2020 Semrush study of 1 million results pages with a snippet</a> found paragraphs in 70 percent of them (about 42 words on average), lists in 19.1 percent (about 6 items), tables in 6.3 percent (about 5 rows and 2 columns) and videos in 4.6 percent. A <a href="https://portent.com/blog/seo/featured-snippet-display-lengths-study-portent.htm" target="_blank" rel="noopener">2021 Portent study of 30,000 desktop keywords</a> found paragraph snippets of 2 or 3 sentences, very few over about 320 characters, no list over 8 items and no table over 5 rows.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Format</th><th>Kit target</th><th>Best for</th><th>Build it as</th></tr></thead>
+        <tbody>
+          <tr><td>Paragraph</td><td>40 to 55 words, 2 or 3 sentences</td><td>Definitions, yes or no, why, a single number</td><td>A <code>p</code> right under a question heading</td></tr>
+          <tr><td>Ordered list</td><td>4 to 8 steps</td><td>How to, recipes, processes</td><td>An <code>ol</code> list, one short step per item</td></tr>
+          <tr><td>Unordered list</td><td>4 to 8 items</td><td>Best, types, signs, ideas</td><td>A <code>ul</code> list, one short item per line</td></tr>
+          <tr><td>Table</td><td>3 to 5 rows, 2 or 3 columns</td><td>Comparisons, ratios, prices, specs</td><td>A real <code>table</code> with a header row</td></tr>
+        </tbody>
+      </table></div>
+      <p>The first rule beats every number: <strong>match the format Google already shows</strong> for the query. The tracker does that automatically. Only when no snippet shows does it fall back to the starter format for the query type.</p>
+  - h: How the scores work (worked example)
+    html: |
+      <p>In the demo, BrewNest (a fictional coffee gear shop) wants the snippet for <strong>how to make cold brew coffee</strong>. The query has 6,600 monthly searches, business value 2, and the guide ranks at position 3.4. A snippet shows as an ordered list held by a competitor, and an AI Overview shows sometimes.</p>
+      <p><strong>Answer score.</strong> The draft on the Answer Builder is an ordered list of 7 steps, 76 words in all, about 10.9 words per step. Length is in range (4 to 8 items), so it gets the full 25 points. The heading "How to make cold brew coffee at home" contains the key term (10), the answer comes right after it (15), the steps are short (10), the format matches the ordered list Google shows (20) and it is built with HTML tags (10). Only one check loses points: the key term "cold brew" first appears in step 6, after the first 150 characters, so "Key term early" gets half of its 10 points. The score is <strong>95, Ready to publish</strong>, and the top fix is <strong>Key term early</strong>.</p>
+      <p><strong>Opportunity score.</strong> Five weighted parts:</p>
+      <ul>
+        <li>Demand (weight 30): 6,600 searches is above the 5,000 that earn full marks, so 30</li>
+        <li>Business value (weight 25): 2 of 3, so 16.7</li>
+        <li>Position band (weight 20): position 3.4 sits in the 1 to 5 band, factor 1, so 20</li>
+        <li>Snippet shows (weight 15): Yes, factor 1, so 15</li>
+        <li>Answer gap (weight 10): 10 x (1 minus 0.95) = 0.5</li>
+      </ul>
+      <p>The total is 82.2, rounded to <strong>82</strong>, so the priority is <strong>P1: now</strong> and the status is <strong>Top 5: win it with a better answer block</strong>.</p>
+      <p><strong>Second example.</strong> The flat white answer is a 66 word paragraph with 5 sentences that opens with "Many people ask us about this drink in the shop." Length is too long for 40 to 55 words but within 25 percent, so it keeps half its length points; 5 sentences is over the limit; the answer only partly comes first. The score is <strong>70, Nearly ready</strong>, and the top fix reads "Length fits the format: too long, aim for 40 to 55 words". Cut the opening sentence and the last two and you have 41 words in 2 sentences that start with "A flat white is", which passes every automatic check.</p>
+      <p><strong>Third example.</strong> The caffeine guide ranks at position 6.1 for a query with 8,100 searches, but the theme wraps the article body in <code>data-nosnippet</code>. The Page Check reads <strong>Blocked: data-nosnippet on the answer</strong>, so the query becomes <strong>P1: fix controls</strong> and tops the Dashboard. The fix was done on 14 November; the result reads "Wait: 16 days left" until the 28 day measure date.</p>
+      <p><strong>Fourth example.</strong> For "how long to steep cold brew" BrewNest added an answer block under a question heading on 5 October. 28 days later it held the snippet and clicks went from 210 to 380, so the result reads <strong>Won the snippet: keep it fresh</strong>.</p>
+  - h: Snippet controls that block you (and AI features)
+    html: |
+      <p>Google's <a href="https://developers.google.com/search/docs/appearance/featured-snippets" target="_blank" rel="noopener">featured snippet page</a> lists the controls. The <code>nosnippet</code> rule blocks all snippets for a page. Text marked with the <code>data-nosnippet</code> attribute will not appear in featured snippets or regular snippets. A lower <code>max-snippet</code> value makes a featured snippet less likely, because one only shows when enough text can be shown, and Google gives no exact minimum. Its <a href="https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag" target="_blank" rel="noopener">robots meta tag rules</a> add that <code>max-snippet:0</code> works like <code>nosnippet</code> and <code>max-snippet:-1</code> lets Google choose the length.</p>
+      <p>These controls matter twice now. Google's page on <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">AI features and your website</a> says a page must be indexed and eligible to be shown in Search with a snippet to be a supporting link in AI Overviews or AI Mode. A theme or plugin that blocks snippets by mistake removes you from both.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Page Check result</th><th>Rule in the sheet</th><th>What to do</th></tr></thead>
+        <tbody>
+          <tr><td>Blocked: not indexed</td><td>Indexed is No</td><td>Run URL Inspection, fix noindex, canonical or quality issues, request indexing</td></tr>
+          <tr><td>Blocked: nosnippet</td><td>nosnippet is Yes, or max-snippet is 0</td><td>Remove the rule from the robots meta tag or the X-Robots-Tag header</td></tr>
+          <tr><td>Blocked: data-nosnippet on the answer</td><td>data-nosnippet wraps the answer</td><td>Remove it from the answer; keep it only on text you never want shown</td></tr>
+          <tr><td>Risk: max-snippet is low</td><td>max-snippet below 320 characters (an assumption you can change)</td><td>Raise it or remove it so a full answer can show</td></tr>
+          <tr><td>Check the controls</td><td>A control is blank or Not checked</td><td>View the page source or use URL Inspection</td></tr>
+          <tr><td>Allowed</td><td>None of the above</td><td>Move on to the answer block</td></tr>
+        </tbody>
+      </table></div>
+      <p>Google notes that after you change preview controls, recrawling can take from several days to several months. Fix controls first so the clock starts early.</p>
+  - h: Column by column guide to the Snippet Tracker
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>Query, Target URL, Topic, Query type</td><td>The query, the one page that should answer it, a topic and one of 9 query types.</td><td>The URL must match a row on the Page Check.</td></tr>
+          <tr><td>Monthly searches, Business value</td><td>From one keyword tool, and 1 to 3.</td><td>Use the same tool for every row.</td></tr>
+          <tr><td>Organic position</td><td>Average position from Search Console, filtered by the query.</td><td>Blank if you do not rank.</td></tr>
+          <tr><td>Featured snippet shows?, Who holds it?</td><td>Yes, No or Not checked, and You or Competitor.</td><td>Search in a private window; results change by device and place.</td></tr>
+          <tr><td>Format shown, Holder domain</td><td>Paragraph, ordered list, unordered list, table, video or none, and the domain.</td><td>Type holder domains on the Dashboard too to count them.</td></tr>
+          <tr><td>AI Overview shows?, Cited in the AI Overview?</td><td>Yes, Sometimes, No or Not checked.</td><td>A query can show both a snippet and an AI Overview.</td></tr>
+          <tr><td>Clicks, Impressions, Date checked</td><td>28 days from Search Console and the day you checked.</td><td>CTR is worked out for you.</td></tr>
+          <tr><td>Recommended format, Target length</td><td>Automatic.</td><td>The format Google shows wins over the query type.</td></tr>
+          <tr><td>Snippet controls, Answer score, Answer verdict</td><td>Automatic from the Page Check and Answer Builder.</td><td>Draft one answer block per query.</td></tr>
+          <tr><td>Status, Next action</td><td>Automatic, 9 possible statuses.</td><td>The action text lives on Settings.</td></tr>
+          <tr><td>Opportunity score, Priority</td><td>Automatic, 0 to 100, and P1 to P4, Protect, Classic SEO, AI citation or Check first.</td><td>Control fixes always come first.</td></tr>
+          <tr><td>Days since checked, Check again?</td><td>Automatic, every 30 days by default.</td><td>Snippets change hands often; recheck monthly.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Statuses, priorities and what to do
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Status</th><th>Rule</th><th>What to do</th></tr></thead>
+        <tbody>
+          <tr><td>Fix snippet controls first</td><td>The page is blocked on the Page Check</td><td>Remove the block before anything else</td></tr>
+          <tr><td>Held: protect it</td><td>You hold the snippet</td><td>Keep the answer, facts and date current</td></tr>
+          <tr><td>No snippet, AI Overview shows</td><td>No snippet, but an AI Overview</td><td>Keep a clear answer block and depth to be cited</td></tr>
+          <tr><td>No snippet: classic SEO</td><td>Neither shows</td><td>Work on title, description and depth</td></tr>
+          <tr><td>Not top 10: rank first</td><td>Position above 10 or blank</td><td>Improve the page and its links first</td></tr>
+          <tr><td>Top 5: win it with a better answer block</td><td>Position 5 or better</td><td>Match the format, answer first, fit the length</td></tr>
+          <tr><td>Ranks 6 to 10: sharpen the answer and climb</td><td>Position 6 to 10</td><td>Write the block now, then push into the top 5</td></tr>
+        </tbody>
+      </table></div>
+      <p>Why the position rules? <a href="https://ahrefs.com/blog/featured-snippets-study/" target="_blank" rel="noopener">Ahrefs' study of 2 million featured snippets</a> (2017) found that 99.58 percent of featured pages already ranked in the top 10, and only 30.9 percent ranked first. Ranking near the top gets you into the race; the answer block decides who wins it. Priority P1 starts at an opportunity score of 70, P2 at 50 and P3 at 30.</p>
+  - h: Is a featured snippet still worth it?
+    html: |
+      <p>It depends on the query, which is why the kit measures clicks before and after every fix. The same 2017 Ahrefs study found the snippet itself took about 8.6 percent of clicks and the page right below it about 19.6 percent, compared with about 26 percent for a normal first result with no snippet above it. For AI summaries, <a href="https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/" target="_blank" rel="noopener">Pew Research Center</a> found people clicked a regular result in 8 percent of visits when an AI summary appeared and in 15 percent when none did (March 2025 browsing data from 900 US adults).</p>
+      <p>Those numbers are old or broad, so treat them as context, not targets. Three practical rules:</p>
+      <ul>
+        <li><strong>Win snippets for questions that lead somewhere.</strong> A how to answer that sends readers to your product beats a trivia answer nobody needs to click.</li>
+        <li><strong>Answer fully, then give a reason to click.</strong> A complete short answer, followed by depth, examples or a tool the snippet cannot show.</li>
+        <li><strong>Read your own data.</strong> The Action Plan shows whether winning a snippet moved clicks for you.</li>
+      </ul>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: controls.</strong> Add your top 20 to 50 answer pages to the Page Check. Fix every blocked page first; these are the cheapest wins.</li>
+        <li><strong>Week 2: queries.</strong> Add 30 to 100 question queries from Search Console where you rank in the top 20. Search each one and record the snippet, holder, format and AI Overview.</li>
+        <li><strong>Week 3: answers.</strong> Draft answer blocks for every P1 query on the Answer Builder until each reads Ready to publish, then publish them.</li>
+        <li><strong>Week 4: plan and measure.</strong> Put the remaining P1 and P2 fixes on the Action Plan within your weekly hours, and set a date to measure each one.</li>
+      </ul>
+      <p>After that, recheck snippet queries every month. Our guide to <a href="/ai-overviews-clicks-how-to-get-cited-2026/">getting cited in AI Overviews</a> covers the AI side of the same answer blocks.</p>
+  - h: The chained prompt workflow (from query to ready answer block)
+    html: |
+      <p>Prompts 18 to 22 below are designed to run in order in one AI chat:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your site, readers and the format rules from Settings.</li>
+        <li><strong>Read the current snippet</strong> and the top results you paste in.</li>
+        <li><strong>Draft</strong> an answer block in the format Google shows, within the target length.</li>
+        <li><strong>Test and trim</strong> it against the Answer Builder checks.</li>
+        <li><strong>Log it</strong> as a tab separated row for the Answer Builder and the Action Plan.</li>
+      </ol>
+      <p>Paste the result into the Answer Builder and let the sheet check it; do not trust the assistant's word count. Check every fact it adds against a real source.</p>
+  - h: Featured snippet mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Blocking yourself.</strong> A theme that wraps content in <code>data-nosnippet</code> or an SEO plugin that sets a tiny <code>max-snippet</code> is common. Check the controls first.</li>
+        <li><strong>Writing the wrong format.</strong> A paragraph rarely replaces a list snippet. Match what Google shows.</li>
+        <li><strong>A story before the answer.</strong> "Many people ask us about this" wastes the first sentence. Answer first.</li>
+        <li><strong>Lists that are images.</strong> Steps in an infographic or a slider are not HTML lists. Use real <code>ol</code>, <code>ul</code> and <code>table</code> tags.</li>
+        <li><strong>Chasing snippets you cannot reach.</strong> Below the top 10, work on the page and its links first.</li>
+        <li><strong>Expecting schema to do it.</strong> There is no featured snippet markup. Structured data helps other rich results; see our guide to <a href="/what-is-schema-markup/">schema markup</a>.</li>
+        <li><strong>Never measuring.</strong> Snippets change hands. Recheck monthly and compare clicks before and after each fix.</li>
+      </ul>
+prompts:
+  - t: Pick the right snippet format
+    p: |
+      Here is a search query: "[query]". Here is what the current featured snippet shows (or "none"): [paste].
+      Tell me which format fits best (paragraph, ordered list, unordered list or table) and why, in two sentences.
+      If a snippet already shows, tell me to match its format unless there is a strong reason not to.
+  - t: Write a paragraph answer block
+    p: |
+      Write a featured snippet style answer to "[question]" for [reader]. Rules: 40 to 55 words, 2 or 3 sentences,
+      start with the subject of the question, plain language, no intro, no fluff, include the key number or condition if there is one.
+      Then suggest a question heading to put right above it.
+  - t: Write a numbered steps block
+    p: |
+      Turn this process into an ordered list for a featured snippet: [paste process]. Rules: 4 to 8 steps, one short step per line,
+      start each step with a verb, about 12 words or fewer per step, keep the real order. Add a heading that asks the question "[query]".
+  - t: Write a bulleted list block
+    p: |
+      Write an unordered list that answers "[query]" for [reader]. Rules: 4 to 8 items, one per line, short items,
+      the most important item first. Use only these facts I have checked: [paste facts].
+  - t: Turn a comparison into a table
+    p: |
+      Turn this comparison into a small HTML table for the query "[query]": [paste notes]. Rules: a header row,
+      3 to 5 rows, 2 or 3 columns, cells of 3 words or fewer where possible. Then give me the plain HTML.
+  - t: Trim an answer to length
+    p: |
+      Here is my answer block: [paste]. It must fit [target from the Answer Builder]. Cut it to fit without losing
+      the key fact. Remove any intro sentence. Show the new version and its word count.
+  - t: Compare my answer with the current snippet
+    p: |
+      The current featured snippet for "[query]" says: [paste]. My answer block says: [paste].
+      Which one answers the question more completely and more clearly? List what mine is missing and what mine does better.
+      Do not add facts of your own.
+  - t: Find snippet questions in my Search Console data
+    p: |
+      Here are queries from my Search Console Performance report with position and impressions: [paste].
+      List the questions and question like queries where I rank 1 to 10, grouped by the format a snippet would likely use.
+  - t: Check snippet controls in my page source
+    p: |
+      Here is the head section of my page, any X-Robots-Tag header and the HTML around my answer: [paste].
+      Tell me in plain words whether nosnippet, max-snippet or data-nosnippet could stop Google showing my answer as a snippet.
+  - t: Heading for an answer block
+    p: |
+      Suggest 5 question headings for a section that answers "[query]". Use the words people search, no hyphens,
+      under 60 characters each. Mark the one closest to the query.
+  - t: Key term early rewrite
+    p: |
+      Rewrite the first sentence of this answer so it starts with the key term "[key term]" and still reads naturally: [paste].
+      Keep the meaning and the length the same.
+  - t: Follow up depth after the answer
+    p: |
+      My page answers "[query]" in a short block. Suggest 4 sections that should follow it to give readers a reason to click
+      and stay: examples, mistakes, a tool, a deeper explanation. One line each.
+  - t: People also ask answers
+    p: |
+      Here are People also ask questions for "[query]": [paste]. Write a 40 to 55 word answer for each, starting with
+      the subject of the question. Mark any answer where I need to check a fact.
+  - t: Video snippet plan
+    p: |
+      The query "[query]" shows a video snippet. Write a plan for a short how to video: the steps, chapter names with
+      times, a title and a description that answers the query in the first sentence.
+  - t: Fact check an answer block
+    p: |
+      Here is my answer block: [paste]. List every fact, number, time and rule in it, and the kind of official source
+      I should check each one against. Do not confirm anything yourself.
+  - t: Review the Action Plan results
+    p: |
+      Here is my Action Plan export with fix, done date, snippet holder before and after and clicks before and after: [paste].
+      Which kinds of fixes won snippets or moved clicks? What should we do more of next month and what should we stop?
+  - t: Explain featured snippet work to a manager
+    p: |
+      Write a short update for my manager. Data: [paste dashboard numbers]. Explain how many snippets show for our queries,
+      how many we hold, what we fixed, what we won or lost and the plan for next month. No jargon.
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my featured snippet assistant. My site: [site]. Readers: [readers].
+      Rules: paragraph answers 40 to 55 words in 2 or 3 sentences, lists 4 to 8 short items, tables 3 to 5 rows and 2 or 3 columns,
+      answer first, plain language, no hyphens in headings, never invent facts. Confirm, then wait for the next step.
+  - t: "Workflow 2 of 5: read the current snippet"
+    p: |
+      Query: "[query]". Here is the current featured snippet, its format and the headings of the top 3 results: [paste].
+      Tell me what the snippet answers, its format and length, and what it leaves out.
+  - t: "Workflow 3 of 5: draft the answer block"
+    p: |
+      Using only these facts I have checked: [paste facts], draft an answer block in the same format as the current snippet,
+      within the length rules, with a question heading above it.
+  - t: "Workflow 4 of 5: test and trim"
+    p: |
+      Test your draft against these checks: length fits the format, heading states the question, key term in the first sentence,
+      answer comes right after the heading, short sentences or items. Fix anything that fails and show the final version.
+  - t: "Workflow 5 of 5: log it"
+    p: |
+      Write one tab separated line for my Answer Builder: Query, Key term, Answer format, Heading above the answer, Answer text
+      (list items separated by " / "). Then one line for my Action Plan: Query, Fix, Owner.
+checklist:
+  - Set today's date, full marks for searches and weekly fix hours on Settings
+  - Confirmed every target page is indexed with URL Inspection
+  - Checked that no nosnippet rule or max-snippet:0 is set on the page
+  - Removed data-nosnippet from every answer you want shown
+  - Raised or removed any low max-snippet value
+  - Searched every target query in a private window and recorded the snippet, holder and format
+  - Recorded whether an AI Overview shows for each query
+  - Matched the format Google already shows for each query
+  - Put each answer right under a question heading
+  - Started the answer with the key term, with no intro sentence
+  - Fitted the answer to the target length on the Answer Builder
+  - Built lists and tables with real HTML tags, not images
+  - Added depth after the answer that gives readers a reason to click
+  - Checked every fact in the answer against a current source
+  - Logged each fix and measured the holder and clicks 28 days later
+  - Rechecked snippet queries every month
+faq:
+  - q: Is this featured snippet template really free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own sites and for clients, with no sign up."
+  - q: How do I get a featured snippet on Google?
+    a: "Rank in the top 10 for the query, make sure the page allows snippets, then answer the question right under a question heading in the format Google already shows, at the right length. Google decides who gets the snippet; you cannot mark a page as one."
+  - q: How long should a featured snippet answer be?
+    a: "Google gives no limit. Public studies found paragraph snippets of about 40 to 55 words in 2 or 3 sentences, lists of up to 8 items and tables of up to 5 rows. The workbook uses these as editable starting points."
+  - q: Is there schema markup for featured snippets?
+    a: "No. Google says you cannot mark your page as a featured snippet. Clear headings, a direct answer and real HTML lists and tables help; structured data is for other rich results."
+  - q: Do featured snippets still matter with AI Overviews?
+    a: "They show far less often than before, but a page must be eligible to show a snippet to be a supporting link in AI Overviews or AI Mode. The same clear answer blocks help with both, so the kit tracks both."
+  - q: Does the workbook work in Google Sheets?
+    a: "Yes. Upload the .xlsx file to Google Drive and open it with Google Sheets. Formulas, dropdowns and colours carry over. The charts may need a quick refresh."
+related: [ai-overview-targeting, serp-analysis, on-page-seo]
+reads:
+  - t: "AI Overviews are eating your clicks: how to still get cited in 2026"
+    url: /ai-overviews-clicks-how-to-get-cited-2026/
+  - t: "AEO vs SEO vs GEO: what's the actual difference in 2026?"
+    url: /aeo-vs-seo-vs-geo-difference-2026/
+  - t: SEO best practices in 2026 to boost rankings and AI visibility
+    url: /25-seo-best-practices-in-2026-to-boost-rankings/
+tools:
+  - t: SERP Snippet Preview
+    url: /tools/seo-tools/serp-snippet-preview/
+  - t: Word and Character Counter
+    url: /tools/seo-tools/word-character-counter/
+  - t: Heading Structure Checker
+    url: /tools/seo-tools/heading-structure-checker/
+sources:
+  - t: "Google Search Central: Featured snippets and your website"
+    url: https://developers.google.com/search/docs/appearance/featured-snippets
+  - t: "Google Search Help: How Google's featured snippets work"
+    url: https://support.google.com/websearch/answer/9351707
+  - t: "Google Search Central: Robots meta tag, data-nosnippet and X-Robots-Tag specifications"
+    url: https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag
+  - t: "Ahrefs: Goodbye, featured snippets: how SERP features have evolved in the AI era (2025)"
+    url: https://ahrefs.com/blog/how-serp-features-have-evolved-in-the-ai-era/
+  - t: "Ahrefs: Study of 2 million featured snippets (2017)"
+    url: https://ahrefs.com/blog/featured-snippets-study/
+  - t: "Portent: Featured snippet length and display limits study (2021)"
+    url: https://portent.com/blog/seo/featured-snippet-display-lengths-study-portent.htm

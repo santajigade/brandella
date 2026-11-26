@@ -1,0 +1,154 @@
+{
+ "sheet": "Snippet Tracker",
+ "columns": [
+  "Query",
+  "Organic position",
+  "Featured snippet shows?",
+  "Who holds it?",
+  "Format shown",
+  "Recommended format",
+  "Status",
+  "Opportunity score (0 to 100)",
+  "Priority"
+ ],
+ "rows": [
+  [
+   "how to make cold brew coffee",
+   3.4,
+   "Yes",
+   "Competitor",
+   "Ordered list",
+   "Ordered list",
+   "Top 5: win it with a better answer block",
+   82,
+   "P1: now"
+  ],
+  [
+   "how long to steep cold brew",
+   2.1,
+   "Yes",
+   "You",
+   "Paragraph",
+   "Paragraph",
+   "Held: protect it",
+   76,
+   "Protect"
+  ],
+  [
+   "french press coffee ratio",
+   4.8,
+   "Yes",
+   "Competitor",
+   "Table",
+   "Table",
+   "Top 5: win it with a better answer block",
+   74,
+   "P1: now"
+  ],
+  [
+   "what is a flat white",
+   7.2,
+   "Yes",
+   "Competitor",
+   "Paragraph",
+   "Paragraph",
+   "Ranks 6 to 10: sharpen the answer and climb",
+   70,
+   "P1: now"
+  ],
+  [
+   "best coffee grinder for beginners",
+   8.5,
+   "Yes",
+   "Competitor",
+   "Unordered list",
+   "Unordered list",
+   "Ranks 6 to 10: sharpen the answer and climb",
+   72,
+   "P1: now"
+  ],
+  [
+   "pour over vs french press",
+   5,
+   "Yes",
+   "Competitor",
+   "Table",
+   "Table",
+   "Top 5: win it with a better answer block",
+   66,
+   "P2: this month"
+  ],
+  [
+   "how to descale a coffee machine",
+   1.6,
+   "Yes",
+   "You",
+   "Ordered list",
+   "Ordered list",
+   "Held: protect it",
+   88,
+   "Protect"
+  ],
+  [
+   "why is my espresso sour",
+   12,
+   "Yes",
+   "Competitor",
+   "Paragraph",
+   "Paragraph",
+   "Not top 10: rank first",
+   51,
+   "P2: this month"
+  ],
+  [
+   "how much caffeine in espresso",
+   6.1,
+   "Yes",
+   "Competitor",
+   "Paragraph",
+   "Paragraph",
+   "Fix snippet controls first",
+   69,
+   "P1: fix controls"
+  ],
+  [
+   "coffee to water ratio chart",
+   3,
+   "Yes",
+   "Competitor",
+   "Table",
+   "Table",
+   "Top 5: win it with a better answer block",
+   71,
+   "P1: now"
+  ],
+  [
+   "burr vs blade grinder",
+   9.6,
+   "No",
+   "",
+   "None",
+   "Table",
+   "No snippet, AI Overview shows: aim for a citation",
+   58,
+   "AI citation"
+  ],
+  [
+   "burr grinder",
+   14,
+   "No",
+   "",
+   "None",
+   "Paragraph",
+   "No snippet: classic SEO",
+   75,
+   "Classic SEO"
+  ]
+ ],
+ "formulaCols": [
+  5,
+  6,
+  7,
+  8
+ ]
+}

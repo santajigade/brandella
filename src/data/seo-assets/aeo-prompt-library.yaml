@@ -1,0 +1,338 @@
+seoTitle: "AEO Prompt Library: Test Your Brand in AI Answers"
+h1: "AEO Prompt Library Kit: Prompt Library, Test Log, Share of Voice and AI Prompts"
+focusKeyword: AEO prompt library
+description: "Free AEO prompt library in Excel: test how ChatGPT, Gemini, Perplexity and AI Mode name your brand, track mention rates and share of voice, fix wrong facts."
+published: 2026-11-26
+updated: 2026-11-26
+time: About 2 hours to set up, then about 2 hours a month to retest
+level: Beginner to advanced
+kit: true
+tabs: 11
+intro:
+  - "Asking ChatGPT \"what is the best tool for X?\" once tells you almost nothing. Ask again and you get a different list. This free <strong>AEO prompt library</strong> turns that guesswork into a method. An Excel workbook holds the prompts real buyers ask, logs every run in every AI assistant you track, and works out how often you are named, how often you are named first or cited, whether the answers get your facts right, and your share of voice against 5 competitors."
+  - "It is built on what the research says about AI answers. A 2026 SparkToro study found less than a 1 in 100 chance that ChatGPT or Google's AI gives the same list of brands twice for the same prompt, and recommends measuring how often a brand appears across many runs instead of a rank. So every number in this kit is a rate over many runs, with a check that tells you when you do not have enough runs to trust it yet."
+kitContents:
+  - t: "Excel workbook, 11 tabs"
+    d: "Prompt Library (500 ready rows with 19 automatic columns), Test Log (1,000 rows that find your brand, position and competitors by themselves), Share of Voice, Fix Plan, Prompt Builder, Dashboard with charts, Settings, AI Prompts, Checklist and Sources. Opens in Excel and Google Sheets."
+  - t: "Worked demo inside"
+    d: "20 prompts, 207 test runs across 4 AI engines and 6 fixes for a fictional help desk app and 5 fictional competitors, so you see every rate, status and result working."
+  - t: "Prompt Builder"
+    d: "20 editable prompt templates across 8 intent types and 6 personas that write ready prompts from your category, audience, location and competitor."
+  - t: "Full guide (PDF)"
+    d: "This complete guide as a printable PDF, to share with your team or clients."
+  - t: "22 AI prompts"
+    d: "Prompts to build the library, write persona variants, read answers into the log, find the sources behind wrong facts and plan fixes, including a 5 prompt chained workflow."
+  - t: "Printable checklist"
+    d: "The whole testing cycle on one page, to tick off every month."
+steps:
+  - t: Set up your brand and rivals
+    d: "On Settings, type your brand, the other ways people write it and up to 5 competitors, as AI answers write them. Set today's date."
+  - t: Build the prompt library
+    d: "Write 30 to 100 prompts from sales calls, support tickets, Search Console, Bing grounding queries and the Prompt Builder. Cover every intent type and funnel stage, branded and unbranded."
+  - t: Run each prompt the same way
+    d: "Use a fresh chat, the same wording and the same mode every time. Run each prompt at least 3 times in every engine you track, so 4 engines give 12 runs."
+  - t: Log every run
+    d: "On the Test Log, paste the brands each answer names, in order, separated by commas. Choose whether your URL was cited, the tone and whether your facts were right."
+  - t: Read the rates, not single answers
+    d: "The Prompt Library shows mention, named first and cited rates, tone, wrong answers, the top competitor and a status for every prompt. Share of Voice compares you with competitors by engine and intent."
+  - t: Fix the problems
+    d: "Wrong facts come first, then absent prompts with high value. Add each one to the Fix Plan with the source to fix, within your weekly hours."
+  - t: Retest every month
+    d: "Run the library again every 30 days. After a fix, add the mention rate before and after, or the number of wrong answers in the retest. The Result column reads it."
+sections:
+  - h: Why one AI answer tells you nothing
+    html: |
+      <p>For a study published in January 2026, Rand Fishkin of SparkToro and Patrick O'Donnell of Gumshoe.ai asked 600 volunteers to run 12 brand recommendation prompts through ChatGPT, Claude and Google's AI, <a href="https://sparktoro.com/blog/new-research-ais-are-highly-inconsistent-when-recommending-brands-or-products-marketers-should-take-care-when-tracking-ai-visibility/" target="_blank" rel="noopener">2,961 runs in all</a>. They found less than a 1 in 100 chance that ChatGPT or Google's AI gives the same list of brands in any two answers, and closer to 1 in 1,000 for the same list in the same order. Lists also changed length, from 2 or 3 names to 10 or more.</p>
+      <p>Their conclusion was not that tracking is pointless. A ranking position in AI is close to meaningless, they wrote, but how often a brand appears across many runs held up well. In one example a cancer hospital appeared in 97 percent of ChatGPT answers but was the first name in only 25 of them.</p>
+      <p>The same study had 142 people write their own prompt for the same need. Their prompts had a semantic similarity of just 0.081: almost no two people asked the same way. That is why this kit uses personas and many prompt variants, not one perfect prompt.</p>
+      <p>A later <a href="https://www.conductor.com/academy/ai-recommendation-consistency-analysis/" target="_blank" rel="noopener">Conductor study</a> of 14,000 API calls across ChatGPT, Perplexity, Claude and Gemini found consistency depends on the intent type. Brand overlap between runs was 63 percent for comparison prompts but 40 percent for purchase prompts. Conductor recommends tracking by intent type and engine separately, with unbranded recommendation prompts as a baseline. The workbook does exactly that.</p>
+  - h: What is inside the AEO prompt library workbook
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Tab</th><th>What it does</th><th>What you type</th></tr></thead>
+        <tbody>
+          <tr><td>Prompt Library</td><td>Spots branded prompts and rolls up every run: runs, engines, mention, named first and cited rates, tone, wrong answers, top competitor, confidence, status, next action, priority and retest date.</td><td>ID, prompt, topic, intent, funnel stage, persona, origin, value, target page, active</td></tr>
+          <tr><td>Test Log</td><td>Finds your brand and its position in the list, flags each competitor, numbers the runs and checks every row for typing mistakes.</td><td>Date, prompt ID, engine, mode, brands named in order, cited, tone, facts, what it got wrong</td></tr>
+          <tr><td>Share of Voice</td><td>Mention rates for you and 5 competitors by engine and by intent type, and share of voice with a chart. Unbranded prompts only.</td><td>Nothing</td></tr>
+          <tr><td>Fix Plan</td><td>Adds the prompt, current rate, suggested fix and hours, sets the measure date, reads the result and checks hours per week.</td><td>Prompt ID, problem, what the AI said, the correct fact, source to fix, owner, week, status, before and after</td></tr>
+          <tr><td>Prompt Builder</td><td>Writes 20 prompts from templates and 6 persona prompts, and flags which are already in the library.</td><td>Category, audience, location, competitor, use case; templates and personas if you like</td></tr>
+          <tr><td>Dashboard</td><td>20 key numbers, the top 10 prompts to work on, prompts by status and your mention rate by engine.</td><td>Nothing</td></tr>
+        </tbody>
+      </table></div>
+      <p>Yellow cells are inputs. Grey cells under green headers are formulas. The library holds 500 prompts and the log 1,000 runs, all with dropdowns.</p>
+  - h: How to build a prompt library that matches real buyers
+    html: |
+      <p>The best prompts come from your customers' own words, not from a brainstorm. Good places to find them: sales call notes, support tickets, the Search Console Performance report (long questions), People also ask, Reddit and forums, and the grounding queries in Bing Webmaster Tools. Then fill the gaps with the Prompt Builder.</p>
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Intent type</th><th>What it tests</th><th>Example (demo)</th><th>Starter share of the library</th></tr></thead>
+        <tbody>
+          <tr><td>Recommendation</td><td>Are you suggested when someone asks what to choose?</td><td>What is the best help desk software for small teams?</td><td>About 30 percent</td></tr>
+          <tr><td>Comparison</td><td>How are you described next to rivals?</td><td>Compare the top shared inbox tools for email support.</td><td>About 10 percent</td></tr>
+          <tr><td>Alternatives</td><td>Do you appear as an alternative to a rival, and who appears as yours?</td><td>What are the best alternatives to HelpHive?</td><td>About 10 percent</td></tr>
+          <tr><td>Problem or how to</td><td>Are you suggested as the fix for a problem?</td><td>How can a small team manage support emails better?</td><td>About 15 percent</td></tr>
+          <tr><td>Pricing</td><td>Are prices and free plans right?</td><td>Is there a free help desk for small teams?</td><td>About 10 percent</td></tr>
+          <tr><td>Brand facts</td><td>Does the AI know what you are, do and cost?</td><td>How much does CalmDesk cost?</td><td>About 10 percent</td></tr>
+          <tr><td>Reviews and trust</td><td>Is the tone about you fair?</td><td>Is CalmDesk good? What do users say?</td><td>About 10 percent</td></tr>
+          <tr><td>Local</td><td>Are you named for your city or country?</td><td>Best help desk software companies in India</td><td>About 5 percent</td></tr>
+        </tbody>
+      </table></div>
+      <p>The shares are a starting point, not a rule. A local business will want far more local prompts. Keep each prompt in plain words, the way a person would type or say it, and give every prompt the page on your site that should answer it.</p>
+  - h: How to run tests you can compare month to month
+    html: |
+      <ul>
+        <li><strong>Fresh chat every run.</strong> Memory and earlier messages change answers. Use a new chat, logged out where the engine allows it, and record the mode on the Test Log.</li>
+        <li><strong>Same wording every time.</strong> Copy the prompt from the library; never retype it.</li>
+        <li><strong>Several runs per engine.</strong> The kit asks for at least 10 runs per prompt before it trusts a rate (for example 3 runs in each of 4 engines). This is an assumption you can change. SparkToro suggests 60 to 100 runs for solid numbers, which is what paid tracking tools automate; a manual library gives you a useful direction, not a precise measurement.</li>
+        <li><strong>Log the brands in order.</strong> Paste the names exactly as the answer writes them, separated by commas. The sheet does the rest.</li>
+        <li><strong>Same day for all engines.</strong> Answers change over time, so test all engines for a prompt on the same day.</li>
+      </ul>
+  - h: How the rates and statuses work (worked example)
+    html: |
+      <p>In the demo, CalmDesk (a fictional help desk app in India) tests <strong>"What is the best help desk software for small teams?"</strong>, business value 3, unbranded. It was run 3 times in each of ChatGPT, Gemini, Perplexity and Google AI Mode in November: 12 runs.</p>
+      <ul>
+        <li><strong>Mention rate:</strong> CalmDesk is named in 6 of 12 runs, so 50 percent.</li>
+        <li><strong>Named first rate:</strong> it is the first name in 1 run, so 8 percent.</li>
+        <li><strong>Cited rate:</strong> an answer links to calmdesk.example in 2 runs, so 17 percent.</li>
+        <li><strong>Tone:</strong> 2 positive and 4 neutral answers among the 6 that name it, so +0.33.</li>
+        <li><strong>Top competitor:</strong> HelpHive and TicketNest are named in all 12 runs.</li>
+        <li><strong>Confidence:</strong> 12 runs is above the 10 run minimum, so Enough runs.</li>
+      </ul>
+      <p>50 percent sits between the 20 percent and 60 percent thresholds, so the status is <strong>Mentioned sometimes: build proof</strong>. The priority score has four parts: business value 35 x 3/3 = 35, visibility gap 30 x (1 minus 0.50) = 15, unbranded 15 x 1 = 15 and wrong answers 20 x 0 = 0. That is <strong>65, P1: now</strong>.</p>
+      <p><strong>Second example.</strong> "How much does CalmDesk cost?" names CalmDesk in every run, but 5 of 12 answers quote an old price that still sits in an FAQ. Any wrong or partly wrong answer makes the status <strong>Wrong facts: fix the source</strong> and the priority <strong>P1: fix facts</strong>, so it tops the Dashboard. The FAQ was fixed on 12 November; the Fix Plan reads "Wait: 16 days left" until the 30 day retest.</p>
+      <p><strong>Third example.</strong> "Is CalmDesk good? What do users say?" gets 4 negative, 1 positive and 7 neutral answers, a tone of minus 0.25, so the status is <strong>Branded: negative tone</strong>.</p>
+      <p><strong>Fourth example.</strong> For "Best help desk software companies in India" CalmDesk got listed in two India software directories in October. The mention rate went from 8 percent to 33 percent, so the result reads <strong>Up 25 points: keep going</strong>.</p>
+      <p>Across all unbranded runs CalmDesk is named in 31 percent and holds a <strong>15 percent share of voice</strong>, behind TicketNest (21 percent) and HelpHive (20 percent). Perplexity names it most often (44 percent of unbranded runs) and Google AI Mode least (21 percent).</p>
+  - h: Column by column guide to the Test Log
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Column</th><th>What goes in it</th><th>Tip</th></tr></thead>
+        <tbody>
+          <tr><td>Date, Prompt ID, Engine, Mode</td><td>When, which prompt, which assistant and how you ran it.</td><td>Keep the mode the same every month.</td></tr>
+          <tr><td>Brands named in the answer</td><td>Every brand the answer names, in order, separated by commas.</td><td>Write names as on Settings; aliases are found too.</td></tr>
+          <tr><td>Your URL cited?, Cited URL or source</td><td>Yes when the answer links to one of your pages, and which.</td><td>Note competitor and third party sources too; they show where to get mentioned.</td></tr>
+          <tr><td>Tone about you</td><td>Positive, Neutral, Negative or Not mentioned.</td><td>Judge only what it says about you.</td></tr>
+          <tr><td>Facts about you, What it got wrong</td><td>Correct, Partly wrong, Wrong or Not mentioned, and the wrong claim.</td><td>Wrong facts drive the Fix Plan.</td></tr>
+          <tr><td>Prompt, Intent type, Branded prompt?</td><td>Automatic from the library.</td><td>Branded prompts are left out of share of voice.</td></tr>
+          <tr><td>You named?, Your position, Brands named</td><td>Automatic from the brands column.</td><td>Position is shown, but trust the rate more.</td></tr>
+          <tr><td>Competitor 1 to 5 named, Competitors named</td><td>Automatic 1 or 0 per competitor.</td><td>Feeds Share of Voice.</td></tr>
+          <tr><td>Run number, Data check</td><td>Automatic.</td><td>Fix any row where Data check is not OK.</td></tr>
+        </tbody>
+      </table></div>
+  - h: Statuses, thresholds and what to do
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Status</th><th>Rule</th><th>What to do</th></tr></thead>
+        <tbody>
+          <tr><td>Too few runs: test more</td><td>Under 10 runs</td><td>Log more runs before acting</td></tr>
+          <tr><td>Wrong facts: fix the source</td><td>Any wrong or partly wrong answer</td><td>Fix the fact on your site and profiles, then retest</td></tr>
+          <tr><td>Branded: negative tone</td><td>Branded prompt, tone below 0</td><td>Find the source of complaints, fix the cause, publish proof</td></tr>
+          <tr><td>Branded: accurate, protect it</td><td>Branded prompt, no problems</td><td>Keep pages and profiles current</td></tr>
+          <tr><td>Strong: protect it</td><td>Named in 60 percent of runs or more</td><td>Keep the target page fresh</td></tr>
+          <tr><td>Mentioned sometimes: build proof</td><td>Named in 20 to 59 percent of runs</td><td>Strengthen the page and earn mentions on cited sources</td></tr>
+          <tr><td>Absent: competitors win</td><td>Under 20 percent, rivals named</td><td>Get on the sources the engines cite for this prompt</td></tr>
+          <tr><td>Absent: no brand named</td><td>Under 20 percent, no rivals named</td><td>Publish the clearest answer and become the source</td></tr>
+        </tbody>
+      </table></div>
+      <p>The 10 run minimum and the 60 and 20 percent thresholds are kit assumptions on Settings. Priority P1 starts at a score of 65, P2 at 45 and P3 at 25. Wrong facts always come first.</p>
+  - h: Free platform data to use alongside the library
+    html: |
+      <ul>
+        <li><strong>Bing Webmaster Tools.</strong> The <a href="https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview" target="_blank" rel="noopener">AI Performance report</a> (February 2026) shows how often your pages are cited in Microsoft Copilot, Bing AI summaries and select partners, which pages, and a sample of the grounding queries the AI used. In <a href="https://blogs.bing.com/search/June-2026/New-AI-Visibility-Insights-in-Bing-Webmaster-Tools-Intents-Topics-Citation-Share-Compare" target="_blank" rel="noopener">June 2026</a> Bing added intents, topics, citation share and period comparison. Grounding queries make excellent prompts for your library.</li>
+        <li><strong>Google Search Console.</strong> The <a href="https://support.google.com/webmasters/answer/16984139" target="_blank" rel="noopener">generative AI performance report</a> shows impressions of links to your site in AI Overviews and AI Mode by page, country, device and date. Google says it reached all websites on 31 August 2026.</li>
+        <li><strong>ChatGPT referrals.</strong> OpenAI's <a href="https://help.openai.com/en/articles/12627856-publishers-and-developers-faq" target="_blank" rel="noopener">publisher FAQ</a> says any public website can appear in ChatGPT search if it does not block OAI-SearchBot, and that ChatGPT adds <code>utm_source=chatgpt.com</code> to referral links, so you can see that traffic in your analytics. GPTBot is a separate crawler for training.</li>
+      </ul>
+      <p>None of these shows how assistants describe you in an answer, or which competitors they name instead. That is the gap the prompt library fills. Our guides on <a href="/how-chatgpt-chooses-websites-for-answers/">how ChatGPT chooses websites</a> and <a href="/how-perplexity-ai-finds-ranks-sources/">how Perplexity finds and ranks sources</a> explain where the answers come from.</p>
+  - h: How to fix what the tests find
+    html: |
+      <div class="ra-sheet-wrap"><table class="ra-sheet">
+        <thead><tr><th>Problem</th><th>Where to look</th><th>Typical fix</th></tr></thead>
+        <tbody>
+          <tr><td>Wrong fact</td><td>Your own pages first (old FAQs, blog posts, PDFs), then profiles, listings and old articles</td><td>Correct every copy, show an updated date, retest the same prompt</td></tr>
+          <tr><td>Negative tone</td><td>Review sites, forums and old press the answers echo</td><td>Fix the cause, reply in public, publish proof such as numbers and case studies</td></tr>
+          <tr><td>Absent: competitors win</td><td>The sources the engines cite for that prompt</td><td>Earn a fair mention on those lists, directories and comparisons; publish your own honest comparison</td></tr>
+          <tr><td>Absent: no brand named</td><td>Nobody owns the answer yet</td><td>Write the clearest answer on the topic with your own data</td></tr>
+          <tr><td>Mentioned, not cited</td><td>Your target page and crawler access</td><td>Make the page crawlable and the most complete answer</td></tr>
+          <tr><td>Outdated information</td><td>Old pages that still rank</td><td>Update or redirect them</td></tr>
+        </tbody>
+      </table></div>
+      <p>The hours for each fix on Settings are assumptions; change them to your team's pace. For the content side, see our guide on <a href="/how-to-increase-ai-search-citations/">how to increase AI search citations and brand mentions</a>.</p>
+  - h: Your first 30 days with this kit
+    html: |
+      <ul>
+        <li><strong>Week 1: library.</strong> Set up Settings, then write 30 to 50 prompts from real customer language and the Prompt Builder. Cover all 8 intent types.</li>
+        <li><strong>Week 2: first test.</strong> Run every prompt 3 times in each engine you track, in fresh chats, and log every run. Fix any Data check warnings.</li>
+        <li><strong>Week 3: read and plan.</strong> Read the statuses, Share of Voice and the Dashboard. Put every wrong fact and the top absent prompts on the Fix Plan.</li>
+        <li><strong>Week 4: fix.</strong> Correct wrong facts at the source first, then start on the highest value absent prompts.</li>
+      </ul>
+      <p>After that, retest the whole library every 30 days and compare the rates.</p>
+  - h: The chained prompt workflow (from a buyer question to a logged run)
+    html: |
+      <p>Prompts 18 to 22 below are designed to run in order in one AI chat, in a different assistant from the one you are testing:</p>
+      <ol>
+        <li><strong>Brief the assistant</strong> on your brand, competitors and rules.</li>
+        <li><strong>Turn customer language into prompts</strong> across the 8 intent types.</li>
+        <li><strong>Write persona variants</strong> so the library sounds like real people.</li>
+        <li><strong>Read a test answer</strong> you paste in and pull out the brands in order, citations, tone and wrong facts.</li>
+        <li><strong>Log it</strong> as a tab separated row for the Test Log.</li>
+      </ol>
+      <p>Always check the extracted row against the answer itself before you paste it in.</p>
+  - h: AEO testing mistakes to avoid
+    html: |
+      <ul>
+        <li><strong>Trusting one answer.</strong> One run is a sample of one. Use rates over many runs.</li>
+        <li><strong>Reporting a rank.</strong> Position in an AI list changes almost every run. Report mention rate and share of voice.</li>
+        <li><strong>Only branded prompts.</strong> Prompts that already name you always mention you. Your real visibility is on unbranded prompts.</li>
+        <li><strong>Changing the method.</strong> New wording, logged in one month and out the next, or memory on: the numbers stop being comparable.</li>
+        <li><strong>Ignoring wrong facts.</strong> An AI quoting an old price to buyers costs sales. Fix it at the source.</li>
+        <li><strong>Buying fake mentions.</strong> Earn mentions on the sources engines already trust; do not plant them.</li>
+        <li><strong>Treating tools as truth.</strong> SparkToro advises asking any tracking vendor to show its method and math.</li>
+      </ul>
+prompts:
+  - t: Turn customer words into prompts
+    p: |
+      Here are real messages from my customers, sales calls or support tickets: [paste]. Turn them into 20 prompts a person
+      would type into ChatGPT or Gemini when looking for a product like mine. Keep their words. Do not name my brand.
+  - t: Fill gaps by intent type
+    p: |
+      Here is my prompt library with intent types: [paste]. My category is [category] for [audience] in [location].
+      Write 3 more prompts for each intent type that has fewer than 3: recommendation, comparison, alternatives,
+      problem or how to, pricing, brand facts, reviews and trust, local.
+  - t: Persona variants
+    p: |
+      Rewrite this prompt in the voice of 5 different buyers, each with one line of real context (team size, budget, tool they use now,
+      country): "[prompt]". Keep the core need the same. No brand names unless the original has one.
+  - t: Long conversational versions
+    p: |
+      People ask AI assistants long questions with constraints. Turn these short prompts into realistic 20 to 40 word versions
+      with a budget, a deadline or a must have feature: [paste prompts].
+  - t: Find prompts in Bing grounding queries
+    p: |
+      Here are grounding queries from the AI Performance report in Bing Webmaster Tools: [paste]. Group them by intent type and
+      turn the 15 most useful into natural prompts for my library.
+  - t: Read an answer into the Test Log
+    p: |
+      Here is an AI answer to the prompt "[prompt]": [paste answer]. List every brand it names, in order, separated by commas.
+      Then say whether it links to [my domain], its tone about [brand] (positive, neutral, negative or not mentioned) and any
+      claim about [brand] that I should check. Do not judge accuracy yourself.
+  - t: List the sources an answer relies on
+    p: |
+      Here is an AI answer with its cited links: [paste]. List each source, what type it is (brand site, review site, directory,
+      news, forum, comparison article) and which brand it supports.
+  - t: Why a competitor wins a prompt
+    p: |
+      For the prompt "[prompt]", answers name [competitor] far more often than [brand]. Here are the cited sources and what they
+      say: [paste]. Based only on this, give the likely reasons and 3 things [brand] could do about it.
+  - t: Hunt down the source of a wrong fact
+    p: |
+      AI answers say this about [brand]: "[wrong claim]". The truth is: [correct fact]. List the kinds of places this old or wrong
+      claim usually comes from and a search I can run for each one to find copies of it.
+  - t: Write a correction page section
+    p: |
+      Write a short, factual section for our [page] that states the correct [fact type]: [correct facts]. Make it easy to quote:
+      a clear heading, one direct sentence first, then the details and the date it changed.
+  - t: Answer a negative review theme
+    p: |
+      AI answers say users complain that [complaint]. Here is what we changed and our proof: [paste]. Write a calm, specific
+      public reply and a short proof section for our site. No hype.
+  - t: Honest comparison page outline
+    p: |
+      Outline an honest comparison page: [brand] vs [competitor] for [use case]. Include a summary table, who each one is best for,
+      pricing as of [date] and where the competitor is stronger. Mark every fact I must verify.
+  - t: Get on the lists the engines cite
+    p: |
+      These list articles and directories are cited when AI assistants answer "[prompt]": [paste]. For each one, suggest a fair
+      way to be considered (update request, review, data, expert quote) and what proof I should send.
+  - t: Unbranded answer page
+    p: |
+      No brand is named for the prompt "[prompt]". Outline the clearest page on the web for this question: a 40 to 60 word answer
+      first, then sections with our own data and examples from [brand]. Mark facts to verify.
+  - t: Monthly change summary
+    p: |
+      Here are last month's and this month's mention rates by prompt and engine: [paste]. List the biggest gains and losses,
+      the prompts that changed status and what to check first.
+  - t: Share of voice report for a manager
+    p: |
+      Write a short update for my manager. Data: [paste Dashboard and Share of Voice numbers]. Explain our mention rate, share of
+      voice against competitors, wrong facts found and fixed, and the plan for next month. No jargon.
+  - t: Review the Fix Plan results
+    p: |
+      Here is my Fix Plan export with problem, source fixed, done date and rates before and after: [paste]. Which fixes moved
+      the rates? What should we do more of and what should we stop?
+  - t: "Workflow 1 of 5: brief the assistant"
+    p: |
+      You are my AI visibility testing assistant. My brand: [brand], also written as [alias]. Competitors: [list].
+      Category: [category]. Audience: [audience]. Country: [country]. Rules: never invent facts, keep customer wording,
+      no brand names in unbranded prompts. Confirm, then wait for the next step.
+  - t: "Workflow 2 of 5: prompts from customer language"
+    p: |
+      Here is real customer language: [paste]. Write 24 prompts, 3 for each intent type (recommendation, comparison, alternatives,
+      problem or how to, pricing, brand facts, reviews and trust, local), as a table: ID, Prompt, Intent type, Funnel stage.
+  - t: "Workflow 3 of 5: persona variants"
+    p: |
+      For the 8 recommendation and problem prompts above, write one persona version each with one line of real context,
+      the way a busy person would actually ask. Add them to the table with new IDs.
+  - t: "Workflow 4 of 5: read a test answer"
+    p: |
+      I ran prompt [ID] in [engine]. Here is the answer: [paste]. Extract the brands named in order, whether it cites [domain],
+      the tone about [brand] and any claim about [brand] I should check.
+  - t: "Workflow 5 of 5: log it"
+    p: |
+      Turn that into one tab separated row for my Test Log: Date, Prompt ID, Engine, Mode, Brands named in the answer,
+      Your URL cited?, Cited URL or source, Tone about you, Facts about you, What it got wrong. Use [today] and "Logged out, fresh chat".
+checklist:
+  - Typed your brand, its other spellings and up to 5 competitors on Settings
+  - Collected prompts from sales calls, support tickets and Search Console
+  - Added grounding queries from the Bing Webmaster Tools AI Performance report
+  - Covered all 8 intent types and every funnel stage
+  - Mixed branded and unbranded prompts
+  - Gave every prompt a business value and a target page
+  - Used a fresh chat, the same wording and the same mode for every run
+  - Ran each prompt at least 3 times in every engine you track
+  - Logged the brands named in order for every run
+  - Fixed every row where the Data check is not OK
+  - Read mention rates and share of voice on unbranded prompts only
+  - Added every wrong fact to the Fix Plan and fixed it at the source
+  - Planned fixes for the highest value absent prompts within your weekly hours
+  - Checked that OAI-SearchBot, Bingbot and Googlebot can reach your target pages
+  - Retested the library 30 days later and compared the rates
+faq:
+  - q: Is this AEO prompt library really free?
+    a: "Yes. The Excel workbook, PDF guide, prompts and checklist are free to download and use for your own brand and for clients, with no sign up."
+  - q: What is an AEO prompt library?
+    a: "A list of the questions real buyers ask AI assistants about your category and brand, run on a schedule in each assistant, with every answer logged. It shows how often you are named, how you are described and who is named instead."
+  - q: How many prompts and runs do I need?
+    a: "Start with 30 to 100 prompts. The kit asks for at least 10 runs per prompt, for example 3 in each of 4 engines, before it trusts a rate. Research suggests many more runs for precise numbers, so treat a manual library as a direction finder."
+  - q: Why not just track my position in ChatGPT?
+    a: "AI answers change almost every run. A 2026 SparkToro study found less than a 1 in 100 chance of the same list of brands twice. How often you are named across many runs is far more stable than your position in any one answer."
+  - q: Which AI assistants should I test?
+    a: "The ones your buyers use. The demo uses ChatGPT, Gemini, Perplexity and Google AI Mode, and the workbook also lists Google AI Overviews, Microsoft Copilot and Claude. Test the same engines every month."
+  - q: Does the workbook work in Google Sheets?
+    a: "Yes. Upload the .xlsx file to Google Drive and open it with Google Sheets. Formulas, dropdowns and colours carry over. The charts may need a quick refresh."
+related: [ai-overview-targeting, entity-research, competitor-gaps]
+reads:
+  - t: How ChatGPT chooses websites for its answers
+    url: /how-chatgpt-chooses-websites-for-answers/
+  - t: "How Perplexity AI finds and ranks sources: the complete 2026 pipeline"
+    url: /how-perplexity-ai-finds-ranks-sources/
+  - t: How to increase AI search citations and brand mentions in 2026
+    url: /how-to-increase-ai-search-citations/
+tools:
+  - t: AI Prompt Generator
+    url: /tools/ai-tools/ai-prompt-generator/
+  - t: Text Similarity Checker
+    url: /tools/content-writing-tools/text-similarity-checker/
+  - t: AI Crawler Log Analyzer
+    url: /tools/ai-tools/ai-crawler-log-analyzer/
+sources:
+  - t: "SparkToro: AIs are highly inconsistent when recommending brands or products (January 2026)"
+    url: https://sparktoro.com/blog/new-research-ais-are-highly-inconsistent-when-recommending-brands-or-products-marketers-should-take-care-when-tracking-ai-visibility/
+  - t: "Conductor: AI brand recommendation study, why intent type predicts AI output consistency"
+    url: https://www.conductor.com/academy/ai-recommendation-consistency-analysis/
+  - t: "Bing Webmaster Blog: Introducing AI Performance in Bing Webmaster Tools (public preview)"
+    url: https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview
+  - t: "Bing Search Blog: New AI visibility insights in Bing Webmaster Tools (intents, topics, citation share, compare)"
+    url: https://blogs.bing.com/search/June-2026/New-AI-Visibility-Insights-in-Bing-Webmaster-Tools-Intents-Topics-Citation-Share-Compare
+  - t: "OpenAI Help Center: Publishers and developers FAQ"
+    url: https://help.openai.com/en/articles/12627856-publishers-and-developers-faq
+  - t: "Search Console Help: Generative AI performance report"
+    url: https://support.google.com/webmasters/answer/16984139

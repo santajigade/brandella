@@ -126,8 +126,11 @@ def preview(slug, xlsx, spec):
     for r in range(spec['header_row'] + 1, spec['header_row'] + 1 + spec['rows']):
         row = []
         for c in spec['cols']:
-            v = ws.cell(row=r, column=c).value
-            if isinstance(v, float) and v.is_integer():
+            cell = ws.cell(row=r, column=c)
+            v = cell.value
+            if isinstance(v, (int, float)) and not isinstance(v, bool) and str(cell.number_format).endswith('%'):
+                v = f'{round(v * 100)}%'
+            elif isinstance(v, float) and v.is_integer():
                 v = int(v)
             row.append('' if v is None else v)
         rows.append(row)
